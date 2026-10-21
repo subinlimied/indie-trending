@@ -1,0 +1,29 @@
+{
+  "steam": {
+    "cc": "us",
+    "indie_tag": 492,
+    "lists": {
+      "topsellers": 200,
+      "popularnew": 100,
+      "comingsoon": 100,
+      "newreleases": 100
+    },
+    "track_days_after_exit": 14,
+    "max_price_usd": 30,
+    "max_reviews": 50000,
+    "max_age_years": 3,
+    "new_release_days": 365,
+    "review_multiplier": {"under_1y": 30, "under_3y": 40},
+    "big_publishers": []
+  },
+  "itch": {
+    "lists": {
+      "new-and-popular": 3,
+      "top-sellers": 3,
+      "popular": 2,
+      "top-rated": 2,
+      "newest": 1
+    },
+    "exclude_tags": ["adult"]
+  }
+}

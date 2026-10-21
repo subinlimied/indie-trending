@@ -1,0 +1,140 @@
+{
+ "tags:2D": {
+  "name": "2D",
+  "n": 2,
+  "date": "2026-10-21",
+  "since": "2026-10-20"
+ },
+ "tags:Idle": {
+  "name": "Idle",
+  "n": 2,
+  "date": "2026-10-21",
+  "since": "2026-10-20"
+ },
+ "tags:Incremental": {
+  "name": "Incremental",
+  "n": 2,
+  "date": "2026-10-21",
+  "since": "2026-10-20"
+ },
+ "tags:No generative AI was used": {
+  "name": "No generative AI was used",
+  "n": 1,
+  "date": "2026-10-20",
+  "since": "2026-10-20"
+ },
+ "tags:Clicker": {
+  "name": "Clicker",
+  "n": 2,
+  "date": "2026-10-21",
+  "since": "2026-10-20"
+ },
+ "tags:Atmospheric": {
+  "name": "Atmospheric",
+  "n": 1,
+  "date": "2026-10-20",
+  "since": "2026-10-20"
+ },
+ "tags:Cozy": {
+  "name": "Cozy",
+  "n": 2,
+  "date": "2026-10-21",
+  "since": "2026-10-20"
+ },
+ "tags:Pixel Art": {
+  "name": "Pixel Art",
+  "n": 1,
+  "date": "2026-10-20",
+  "since": "2026-10-20"
+ },
+ "genre:Simulation": {
+  "name": "Simulation",
+  "n": 2,
+  "date": "2026-10-21",
+  "since": "2026-10-20"
+ },
+ "genre:Action": {
+  "name": "Action",
+  "n": 1,
+  "date": "2026-10-20",
+  "since": "2026-10-20"
+ },
+ "genre:Adventure": {
+  "name": "Adventure",
+  "n": 1,
+  "date": "2026-10-20",
+  "since": "2026-10-20"
+ },
+ "genre:Visual Novel": {
+  "name": "Visual Novel",
+  "n": 2,
+  "date": "2026-10-21",
+  "since": "2026-10-20"
+ },
+ "genre:Strategy": {
+  "name": "Strategy",
+  "n": 2,
+  "date": "2026-10-21",
+  "since": "2026-10-20"
+ },
+ "made_with:Godot": {
+  "name": "Godot",
+  "n": 2,
+  "date": "2026-10-21",
+  "since": "2026-10-20"
+ },
+ "made_with:Unity": {
+  "name": "Unity",
+  "n": 2,
+  "date": "2026-10-21",
+  "since": "2026-10-20"
+ },
+ "made_with:Unreal Engine": {
+  "name": "Unreal Engine",
+  "n": 1,
+  "date": "2026-10-20",
+  "since": "2026-10-20"
+ },
+ "pick": {
+  "name": "diagnosis lovesick (demo)",
+  "n": 1,
+  "date": "2026-10-21",
+  "since": "2026-10-21"
+ },
+ "tags:Dating Sim": {
+  "name": "Dating Sim",
+  "n": 1,
+  "date": "2026-10-21",
+  "since": "2026-10-21"
+ },
+ "tags:Card Game": {
+  "name": "Card Game",
+  "n": 1,
+  "date": "2026-10-21",
+  "since": "2026-10-21"
+ },
+ "tags:Creepy": {
+  "name": "Creepy",
+  "n": 1,
+  "date": "2026-10-21",
+  "since": "2026-10-21"
+ },
+ "genre:Platformer": {
+  "name": "Platformer",
+  "n": 1,
+  "date": "2026-10-21",
+  "since": "2026-10-21"
+ },
+ "genre:Card Game": {
+  "name": "Card Game",
+  "n": 1,
+  "date": "2026-10-21",
+  "since": "2026-10-21"
+ },
+ "made_with:Ren'Py": {
+  "name": "Ren'Py",
+  "n": 1,
+  "date": "2026-10-21",
+  "since": "2026-10-21"
+ }
+}

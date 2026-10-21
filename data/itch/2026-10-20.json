@@ -1,0 +1,4862 @@
+{
+ "platform": "itch",
+ "date": "2026-10-20",
+ "collected_at": "2026-10-20T09:57:31+00:00",
+ "params": {
+  "lists": {
+   "new-and-popular": 3,
+   "top-sellers": 3,
+   "popular": 2,
+   "top-rated": 2,
+   "newest": 1
+  }
+ },
+ "lists": {
+  "new-and-popular": [
+   {
+    "rank": 1,
+    "id": 4000620
+   },
+   {
+    "rank": 2,
+    "id": 4051855
+   },
+   {
+    "rank": 3,
+    "id": 4954618
+   },
+   {
+    "rank": 4,
+    "id": 68004
+   },
+   {
+    "rank": 5,
+    "id": 5159895
+   },
+   {
+    "rank": 6,
+    "id": 5188434
+   },
+   {
+    "rank": 7,
+    "id": 1046580
+   },
+   {
+    "rank": 8,
+    "id": 83502
+   },
+   {
+    "rank": 9,
+    "id": 5183781
+   },
+   {
+    "rank": 10,
+    "id": 5134356
+   },
+   {
+    "rank": 11,
+    "id": 5010526
+   },
+   {
+    "rank": 12,
+    "id": 5189824
+   },
+   {
+    "rank": 13,
+    "id": 4913235
+   },
+   {
+    "rank": 14,
+    "id": 4941311
+   },
+   {
+    "rank": 15,
+    "id": 5048892
+   },
+   {
+    "rank": 16,
+    "id": 4121259
+   },
+   {
+    "rank": 17,
+    "id": 5078835
+   },
+   {
+    "rank": 18,
+    "id": 4984124
+   },
+   {
+    "rank": 19,
+    "id": 5187715
+   },
+   {
+    "rank": 20,
+    "id": 5186119
+   },
+   {
+    "rank": 21,
+    "id": 4011939
+   },
+   {
+    "rank": 22,
+    "id": 4588508
+   },
+   {
+    "rank": 23,
+    "id": 5189167
+   },
+   {
+    "rank": 24,
+    "id": 5148508
+   },
+   {
+    "rank": 25,
+    "id": 5054599
+   },
+   {
+    "rank": 26,
+    "id": 5104286
+   },
+   {
+    "rank": 27,
+    "id": 5117943
+   },
+   {
+    "rank": 28,
+    "id": 4237672
+   },
+   {
+    "rank": 29,
+    "id": 5180891
+   },
+   {
+    "rank": 30,
+    "id": 5172955
+   },
+   {
+    "rank": 31,
+    "id": 5188721
+   },
+   {
+    "rank": 32,
+    "id": 5065215
+   },
+   {
+    "rank": 33,
+    "id": 5182598
+   },
+   {
+    "rank": 34,
+    "id": 5171550
+   },
+   {
+    "rank": 35,
+    "id": 5078191
+   },
+   {
+    "rank": 36,
+    "id": 5181922
+   },
+   {
+    "rank": 37,
+    "id": 4375059
+   },
+   {
+    "rank": 38,
+    "id": 5190713
+   },
+   {
+    "rank": 39,
+    "id": 5183980
+   },
+   {
+    "rank": 40,
+    "id": 4732137
+   },
+   {
+    "rank": 41,
+    "id": 5114297
+   },
+   {
+    "rank": 42,
+    "id": 5191184
+   },
+   {
+    "rank": 43,
+    "id": 4946633
+   },
+   {
+    "rank": 44,
+    "id": 5185755
+   },
+   {
+    "rank": 45,
+    "id": 4833333
+   },
+   {
+    "rank": 46,
+    "id": 5188832
+   },
+   {
+    "rank": 47,
+    "id": 4965096
+   },
+   {
+    "rank": 48,
+    "id": 5186442
+   },
+   {
+    "rank": 49,
+    "id": 4817769
+   },
+   {
+    "rank": 50,
+    "id": 4734752
+   },
+   {
+    "rank": 51,
+    "id": 5183170
+   },
+   {
+    "rank": 52,
+    "id": 5188010
+   },
+   {
+    "rank": 53,
+    "id": 5009146
+   },
+   {
+    "rank": 54,
+    "id": 5164320
+   },
+   {
+    "rank": 55,
+    "id": 5187638
+   },
+   {
+    "rank": 56,
+    "id": 5185060
+   },
+   {
+    "rank": 57,
+    "id": 5002517
+   },
+   {
+    "rank": 58,
+    "id": 5179962
+   },
+   {
+    "rank": 59,
+    "id": 5182035
+   },
+   {
+    "rank": 60,
+    "id": 4782425
+   },
+   {
+    "rank": 61,
+    "id": 4751403
+   },
+   {
+    "rank": 62,
+    "id": 5190063
+   },
+   {
+    "rank": 63,
+    "id": 5175884
+   },
+   {
+    "rank": 64,
+    "id": 5143735
+   },
+   {
+    "rank": 65,
+    "id": 3907667
+   },
+   {
+    "rank": 66,
+    "id": 5189718
+   },
+   {
+    "rank": 67,
+    "id": 5188498
+   },
+   {
+    "rank": 68,
+    "id": 5189292
+   },
+   {
+    "rank": 69,
+    "id": 5175707
+   },
+   {
+    "rank": 70,
+    "id": 5185064
+   },
+   {
+    "rank": 71,
+    "id": 5033390
+   },
+   {
+    "rank": 72,
+    "id": 3660483
+   }
+  ],
+  "top-sellers": [
+   {
+    "rank": 1,
+    "id": 244402
+   },
+   {
+    "rank": 2,
+    "id": 4727452
+   },
+   {
+    "rank": 3,
+    "id": 257677
+   },
+   {
+    "rank": 4,
+    "id": 5142257
+   },
+   {
+    "rank": 5,
+    "id": 3924128
+   },
+   {
+    "rank": 6,
+    "id": 5155167
+   },
+   {
+    "rank": 7,
+    "id": 5163623
+   },
+   {
+    "rank": 8,
+    "id": 5189292
+   },
+   {
+    "rank": 9,
+    "id": 2077106
+   },
+   {
+    "rank": 10,
+    "id": 5140385
+   },
+   {
+    "rank": 11,
+    "id": 2522722
+   },
+   {
+    "rank": 12,
+    "id": 2349135
+   },
+   {
+    "rank": 13,
+    "id": 2825491
+   },
+   {
+    "rank": 14,
+    "id": 3980404
+   },
+   {
+    "rank": 15,
+    "id": 5084140
+   },
+   {
+    "rank": 16,
+    "id": 25491
+   },
+   {
+    "rank": 17,
+    "id": 5120450
+   },
+   {
+    "rank": 18,
+    "id": 3671465
+   },
+   {
+    "rank": 19,
+    "id": 5163202
+   },
+   {
+    "rank": 20,
+    "id": 2429937
+   },
+   {
+    "rank": 21,
+    "id": 2238244
+   },
+   {
+    "rank": 22,
+    "id": 4844479
+   },
+   {
+    "rank": 23,
+    "id": 5180043
+   },
+   {
+    "rank": 24,
+    "id": 4322694
+   },
+   {
+    "rank": 25,
+    "id": 4187249
+   },
+   {
+    "rank": 26,
+    "id": 106599
+   },
+   {
+    "rank": 27,
+    "id": 379047
+   },
+   {
+    "rank": 28,
+    "id": 4983043
+   },
+   {
+    "rank": 29,
+    "id": 5101141
+   },
+   {
+    "rank": 30,
+    "id": 5164207
+   },
+   {
+    "rank": 31,
+    "id": 5137962
+   },
+   {
+    "rank": 32,
+    "id": 5152744
+   },
+   {
+    "rank": 33,
+    "id": 4608318
+   },
+   {
+    "rank": 34,
+    "id": 3953166
+   },
+   {
+    "rank": 35,
+    "id": 3311842
+   },
+   {
+    "rank": 36,
+    "id": 5164320
+   }
+  ],
+  "popular": [],
+  "top-rated": [],
+  "newest": []
+ },
+ "games": {
+  "4000620": {
+   "id": 4000620,
+   "title": "Baldi 7.0",
+   "url": "https://benjithepro17.itch.io/baldi-70",
+   "author": "Baldi89989",
+   "genre": "Adventure",
+   "sale": false,
+   "platforms": [
+    "win",
+    "linux",
+    "android"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Baldi's Basics"
+    ],
+    "made_with": [],
+    "genre": [
+     "Adventure"
+    ],
+    "status": "Released",
+    "published": "2022-10-21",
+    "updated": null,
+    "session": "A few seconds",
+    "comments": 0,
+    "devlog_latest": "2026-05-25",
+    "devlog_count": 8,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "4051855": {
+   "id": 4051855,
+   "title": "Legend of Idle",
+   "url": "https://activedev.itch.io/legend-of-idle-playtest-demo",
+   "author": "ActiveDev",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "SNES Incremental Kingdom",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.5,
+    "rating_count": 124,
+    "tags": [
+     "building",
+     "Cozy",
+     "Idle",
+     "Incremental",
+     "Pixel Art",
+     "Super Nintendo",
+     "upgrades"
+    ],
+    "made_with": [
+     "Godot",
+     "MagicaVoxel"
+    ],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "In development",
+    "published": null,
+    "updated": "2026-10-15",
+    "session": "About an hour",
+    "comments": 43,
+    "devlog_latest": "2026-10-15",
+    "devlog_count": 8,
+    "steam_url": "https://store.steampowered.com/app/4311050",
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "4954618": {
+   "id": 4954618,
+   "title": "Twilight at the Banyan Tree (Beta)",
+   "url": "https://meniir.itch.io/twilight-at-the-banyan-tree",
+   "author": "Meniir",
+   "genre": "Strategy",
+   "sale": false,
+   "short": "June 1999. Can B.J. Habibie survive the fall of the New Order?",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 6,
+    "tags": [
+     "Alternate History",
+     "Historical",
+     "indonesia",
+     "political-simulation",
+     "Text based"
+    ],
+    "made_with": [
+     "Adobe Photoshop",
+     "Lightweight Java Game Library",
+     "Audacity"
+    ],
+    "genre": [
+     "Strategy"
+    ],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": "About a half-hour",
+    "comments": 2,
+    "devlog_latest": "2026-10-20",
+    "devlog_count": 3,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "68004": {
+   "id": 68004,
+   "title": "Demetrios - The BIG Cynical Adventure",
+   "url": "https://cowcat.itch.io/demetrios",
+   "author": "COWCAT",
+   "genre": "Adventure",
+   "price": "$0.99",
+   "sale": true,
+   "short": "The Journey of an Idiot. 8 to 12 hours of fun!",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "android"
+   ],
+   "page": {
+    "rating_value": 4.1,
+    "rating_count": 20,
+    "tags": [
+     "Casual",
+     "Comedy",
+     "Dark Humor",
+     "Detective",
+     "First-Person",
+     "Funny",
+     "minigames",
+     "Point & Click",
+     "Story Rich",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Adventure"
+    ],
+    "status": "Released",
+    "published": "2016-05-30",
+    "updated": "2026-10-16",
+    "session": "A few hours",
+    "comments": 51,
+    "devlog_latest": "2026-10-14",
+    "devlog_count": 2,
+    "steam_url": "https://store.steampowered.com/app/451570",
+    "jam": [
+     "https://itch.io/jam/mobile-summer-jam-2021"
+    ],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5159895": {
+   "id": 5159895,
+   "title": "Idle Guild",
+   "url": "https://goblinwithsocks.itch.io/idle-guild",
+   "author": "Goblin With Socks Software",
+   "sale": false,
+   "short": "a tiny guild living at the bottom of your screen",
+   "platforms": [
+    "win",
+    "linux"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Idle",
+     "Pixel Art",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Role Playing"
+    ],
+    "status": "Released",
+    "published": "2026-10-15",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5188434": {
+   "id": 5188434,
+   "title": "Paragra - Paragliding Adventures",
+   "url": "https://targaciej.itch.io/paragra",
+   "author": "RainbowTrain",
+   "genre": "Sports",
+   "sale": false,
+   "short": "Arcade Paragliding",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 3,
+    "tags": [
+     "2D",
+     "8-Bit",
+     "Flying",
+     "paragliding",
+     "Pixel Art"
+    ],
+    "made_with": [],
+    "genre": [
+     "Sports"
+    ],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 9,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "1046580": {
+   "id": 1046580,
+   "title": "Imperium Host",
+   "url": "https://vectorinox.itch.io/imperium-host",
+   "author": "Vectorinox",
+   "genre": "Role Playing",
+   "sale": false,
+   "short": "Idle RPG with character collecting, stat raising, PoE style map grind.",
+   "platforms": [
+    "win",
+    "android",
+    "web"
+   ],
+   "page": {
+    "rating_value": 3.9,
+    "rating_count": 28,
+    "tags": [
+     "2D",
+     "Anime",
+     "Characters",
+     "Endless",
+     "Gacha",
+     "Idle",
+     "Incremental",
+     "Mouse only",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [
+     "Role Playing",
+     "Strategy"
+    ],
+    "status": "In development",
+    "published": null,
+    "updated": "2026-10-18",
+    "session": "Days or more",
+    "comments": 21,
+    "devlog_latest": "2026-10-17",
+    "devlog_count": 8,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "83502": {
+   "id": 83502,
+   "title": "SuperTuxKart",
+   "url": "https://supertuxkart.itch.io/supertuxkart",
+   "author": "supertuxkart",
+   "genre": "Racing",
+   "sale": false,
+   "short": "A go kart racing game featuring Tux & Friends",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "android"
+   ],
+   "page": {
+    "rating_value": 4.8,
+    "rating_count": 194,
+    "tags": [
+     "Racing",
+     "Casual",
+     "Cult Classic",
+     "Open Source",
+     "race",
+     "No generative AI was used",
+     "Racing"
+    ],
+    "made_with": [],
+    "genre": [],
+    "status": "In development",
+    "published": "2016-06-30",
+    "updated": "2026-10-17",
+    "session": "A few minutes",
+    "comments": 77,
+    "devlog_latest": "2026-10-17",
+    "devlog_count": 6,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5183781": {
+   "id": 5183781,
+   "title": "Burst Blackjack",
+   "url": "https://just-look-ing.itch.io/burst-blackjack",
+   "author": "Just_look_ing",
+   "genre": "Card Game",
+   "sale": false,
+   "short": "Blackjack where every point gives weight.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.5,
+    "rating_count": 18,
+    "tags": [
+     "Card Game",
+     "bbw",
+     "weight-gain",
+     "Card Game"
+    ],
+    "made_with": [],
+    "genre": [],
+    "status": "Released",
+    "published": "2026-10-18",
+    "updated": null,
+    "session": null,
+    "comments": 4,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5134356": {
+   "id": 5134356,
+   "title": "Captive",
+   "url": "https://nightmareweaverz.itch.io/captive",
+   "author": "NightmareWeaverz",
+   "genre": "Visual Novel",
+   "sale": false,
+   "short": "The man stalking you is now your hostage. What will you do with him?",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "android"
+   ],
+   "page": {
+    "rating_value": 4.6,
+    "rating_count": 92,
+    "tags": [
+     "Clicker",
+     "Creepy",
+     "Dating Sim",
+     "Romance",
+     "Yandere",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Visual Novel"
+    ],
+    "status": "Released",
+    "published": "2026-10-14",
+    "updated": "2026-10-15",
+    "session": null,
+    "comments": 57,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5010526": {
+   "id": 5010526,
+   "title": "I Can Smell You from Here",
+   "url": "https://catproblem9735.itch.io/i-can-smell-you-from-here",
+   "author": "catproblem9735",
+   "genre": "Visual Novel",
+   "sale": false,
+   "short": "You are an incel going on his first-ever date with his first-ever match from a dating app. What could possibly go wrong?",
+   "platforms": [
+    "win",
+    "linux",
+    "android",
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.8,
+    "rating_count": 90,
+    "tags": [
+     "Horror games",
+     "body-horror",
+     "Dark Humor",
+     "Dating Sim",
+     "Horror",
+     "Meaningful Choices",
+     "Psychological Horror",
+     "satire",
+     "Surreal",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Visual Novel"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-10-14",
+    "session": "About a half-hour",
+    "comments": 197,
+    "devlog_latest": "2026-10-12",
+    "devlog_count": 7,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/spooktober-2026"
+    ],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5189824": {
+   "id": 5189824,
+   "title": "MAHODANA android port",
+   "url": "https://gemesplayyt.itch.io/mahodana-android-port",
+   "author": "aplex!",
+   "genre": "Adventure",
+   "sale": false,
+   "platforms": [
+    "android"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Baldi's Basics",
+     "heyitsmyjarona",
+     "turkish",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Adventure"
+    ],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 56,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4913235": {
+   "id": 4913235,
+   "title": "The Doll Shop",
+   "url": "https://ateliersento.itch.io/thedollshop",
+   "author": "Atelier Sentô",
+   "genre": "Visual Novel",
+   "price": "$12.99",
+   "sale": false,
+   "short": "Horror served with a side of romance",
+   "platforms": [
+    "win"
+   ],
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 4,
+    "tags": [
+     "Atmospheric",
+     "Creepy",
+     "Hand-drawn",
+     "Horror",
+     "Multiple Endings",
+     "No AI",
+     "Psychological Horror",
+     "Romance",
+     "Story Rich",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [
+     "Visual Novel",
+     "Adventure"
+    ],
+    "status": "In development",
+    "published": null,
+    "updated": "2026-10-16",
+    "session": "About a half-hour",
+    "comments": 12,
+    "devlog_latest": "2026-10-16",
+    "devlog_count": 2,
+    "steam_url": "https://store.steampowered.com/app/3851680",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4941311": {
+   "id": 4941311,
+   "title": "Thank You Bus Driver",
+   "url": "https://doublefine.itch.io/thank-you-bus-driver",
+   "author": "Double Fine Productions",
+   "genre": "Action",
+   "price": "$4.99",
+   "sale": false,
+   "short": "Keep them in line... but get there on time!",
+   "platforms": [
+    "win"
+   ],
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 4,
+    "tags": [
+     "Arcade",
+     "Black and White",
+     "Cartoon",
+     "Driving",
+     "Experimental",
+     "First-Person",
+     "Funny",
+     "Singleplayer",
+     "Surreal",
+     "Vehicles",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unreal Engine"
+    ],
+    "genre": [
+     "Action"
+    ],
+    "status": "Released",
+    "published": "2026-10-14",
+    "updated": "2026-10-15",
+    "session": "A few minutes",
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": "https://store.steampowered.com/app/5067360",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5048892": {
+   "id": 5048892,
+   "title": "Jazz Jackrabbit 2",
+   "url": "https://arcziii.itch.io/jazzjack-rabbit-2",
+   "author": "Arcziii",
+   "genre": "Platformer",
+   "sale": false,
+   "short": "MiniGL",
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Amiga"
+    ],
+    "made_with": [],
+    "genre": [
+     "Platformer"
+    ],
+    "status": "Released",
+    "published": "2026-09-24",
+    "updated": "2026-10-11",
+    "session": null,
+    "comments": 11,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "4121259": {
+   "id": 4121259,
+   "title": "Pokémon Overlord",
+   "url": "https://jab-lao.itch.io/pokemon-overlord",
+   "author": "jab_lao",
+   "genre": "Strategy",
+   "sale": false,
+   "short": "roguelike teamfights",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "android",
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.6,
+    "rating_count": 111,
+    "tags": [
+     "android",
+     "Godot",
+     "pokemon",
+     "Roguelike",
+     "yugioh",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Strategy",
+     "Role Playing"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-10-15",
+    "session": null,
+    "comments": 208,
+    "devlog_latest": "2026-10-14",
+    "devlog_count": 8,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5078835": {
+   "id": 5078835,
+   "title": "One More Rock! - Demo",
+   "url": "https://pufffugu.itch.io/omr",
+   "author": "PuffFugu",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "A chill incremental game about satisfying mining and automated forging.  Mine. Gamble. Upgrade. Repeat.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.5,
+    "rating_count": 49,
+    "tags": [
+     "2D",
+     "Casual",
+     "Clicker",
+     "Cozy",
+     "Godot",
+     "Idle",
+     "Incremental",
+     "Pixel Art",
+     "Singleplayer",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Simulation",
+     "Action"
+    ],
+    "status": "In development",
+    "published": "2026-10-15",
+    "updated": "2026-10-18",
+    "session": null,
+    "comments": 33,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": "https://store.steampowered.com/app/4890590",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4984124": {
+   "id": 4984124,
+   "title": "Idle Fantasy Shop",
+   "url": "https://drevengames.itch.io/idle-fantasy-shop",
+   "author": "Dreven Games",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "A cozy idle shop in Latchford: gather, craft and watch who buys. About an hour of progression, offline progress, EN/RU.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 2.5,
+    "rating_count": 4,
+    "tags": [
+     "Cozy",
+     "Crafting",
+     "Economy",
+     "Fantasy",
+     "Idle",
+     "Incremental",
+     "Management",
+     "resource-management",
+     "Trading",
+     "Tycoon"
+    ],
+    "made_with": [],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-10-19",
+    "session": "About an hour",
+    "comments": 13,
+    "devlog_latest": "2026-10-18",
+    "devlog_count": 8,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/playtest-feedback-exchange-jam-9"
+    ],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5187715": {
+   "id": 5187715,
+   "title": "暗闇の中、女になっていた (In the Dartk , I Became a Woman)",
+   "url": "https://yonyon4.itch.io/in-the-dartk",
+   "author": "yonyon4",
+   "sale": false,
+   "short": "TS, TSF ,",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "ai",
+     "Horror",
+     "ts",
+     "tsf"
+    ],
+    "made_with": [],
+    "genre": [],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 2,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5186119": {
+   "id": 5186119,
+   "title": "OnePixel",
+   "url": "https://alexdotcodes.itch.io/onepixel",
+   "author": "Alex",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "There is one pixel. Click it.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.0,
+    "rating_count": 6,
+    "tags": [
+     "2D",
+     "Boss battle",
+     "chiptune",
+     "Clicker",
+     "Idle",
+     "Incremental",
+     "Minimalist",
+     "Pixel Art",
+     "Retro",
+     "Singleplayer"
+    ],
+    "made_with": [],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 3,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4011939": {
+   "id": 4011939,
+   "title": "Kenzu: Shadow and Light",
+   "url": "https://lambdaforge.itch.io/kenzu",
+   "author": "lambdaforge",
+   "genre": "Platformer",
+   "sale": false,
+   "short": "Fast, weighty combat and exploration in a hand-drawn world of light and shadow. Boss-heavy 10-hour campaign.",
+   "platforms": [
+    "win",
+    "mac",
+    "web"
+   ],
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 124,
+    "tags": [
+     "2D",
+     "Action-Adventure",
+     "Atmospheric",
+     "Controller",
+     "Exploration",
+     "Metroidvania",
+     "Singleplayer",
+     "Souls-like",
+     "Story Rich",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [
+     "Platformer"
+    ],
+    "status": "In development",
+    "published": null,
+    "updated": "2026-10-20",
+    "session": "About an hour",
+    "comments": 82,
+    "devlog_latest": "2026-10-20",
+    "devlog_count": 8,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "4588508": {
+   "id": 4588508,
+   "title": "The Rift Machine (Demo)",
+   "url": "https://mechayaan.itch.io/the-rift-machine-demo",
+   "author": "mechayaan",
+   "sale": false,
+   "short": "An idle incremental game with Sci-fi elements",
+   "platforms": [
+    "win",
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.3,
+    "rating_count": 28,
+    "tags": [
+     "2D",
+     "Atmospheric",
+     "Experimental",
+     "Idle",
+     "Incremental",
+     "Management",
+     "Sci-fi",
+     "Singleplayer",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unity",
+     "Inkscape",
+     "Audacity"
+    ],
+    "genre": [],
+    "status": "In development",
+    "published": null,
+    "updated": "2026-10-17",
+    "session": "About an hour",
+    "comments": 33,
+    "devlog_latest": "2026-10-17",
+    "devlog_count": 3,
+    "steam_url": "https://store.steampowered.com/app/3694460",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5189167": {
+   "id": 5189167,
+   "title": "Snack Hole",
+   "url": "https://samadipoor.itch.io/snack-hole",
+   "author": "SamadiPoor",
+   "genre": "Action",
+   "sale": false,
+   "short": "Start as a pothole. End as a black hole.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "3D",
+     "Arcade",
+     "Casual",
+     "Colorful",
+     "Cute",
+     "Idle",
+     "Incremental",
+     "Low-poly",
+     "Relaxing",
+     "Singleplayer"
+    ],
+    "made_with": [
+     "Three.js"
+    ],
+    "genre": [
+     "Action"
+    ],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": "A few minutes",
+    "comments": 3,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5148508": {
+   "id": 5148508,
+   "title": "Numberblocks - 30 Times Table",
+   "url": "https://jproductions2.itch.io/30-times-table",
+   "author": "Javen Productions",
+   "genre": "Educational",
+   "sale": false,
+   "short": "How well do you know your 30 times table?",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Educational",
+     "2D",
+     "Animation",
+     "jumping",
+     "Math",
+     "No AI",
+     "Non violent",
+     "Singleplayer",
+     "No generative AI was used",
+     "Educational"
+    ],
+    "made_with": [],
+    "genre": [
+     "Adventure",
+     "Platformer"
+    ],
+    "status": "In development",
+    "published": "2026-10-17",
+    "updated": "2026-10-18",
+    "session": null,
+    "comments": 7,
+    "devlog_latest": "2026-10-17",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5054599": {
+   "id": 5054599,
+   "title": "All Of My Games!",
+   "url": "https://ceiravarageplayer.itch.io/other-random-games-fkfgfjjnjgndsngbnap",
+   "author": "ceiravarageplayer",
+   "sale": false,
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "android"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [],
+    "made_with": [],
+    "genre": [],
+    "status": "Released",
+    "published": "2026-09-26",
+    "updated": "2026-10-18",
+    "session": null,
+    "comments": 4,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5104286": {
+   "id": 5104286,
+   "title": "Rooklite",
+   "url": "https://eliasguyd.itch.io/rooklite",
+   "author": "Elias Guyd",
+   "genre": "Strategy",
+   "sale": false,
+   "short": "Free demo of a chess roguelite: every battle is a small board inside a map that is a chessboard too.",
+   "platforms": [
+    "win",
+    "linux",
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.3,
+    "rating_count": 9,
+    "tags": [
+     "Board Game",
+     "Chess",
+     "Deck Building",
+     "Minimalist",
+     "Pixel Art",
+     "Roguelike",
+     "Roguelite",
+     "Singleplayer",
+     "Turn-based"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Strategy",
+     "Puzzle"
+    ],
+    "status": "In development",
+    "published": "2026-10-05",
+    "updated": "2026-10-18",
+    "session": "About a half-hour",
+    "comments": 36,
+    "devlog_latest": "2026-10-18",
+    "devlog_count": 2,
+    "steam_url": "https://store.steampowered.com/app/5378250",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5117943": {
+   "id": 5117943,
+   "title": "HYPERBALLIN' PLAYTEST",
+   "url": "https://redembergames.itch.io/hyperballin",
+   "author": "RED",
+   "genre": "Platformer",
+   "sale": false,
+   "short": "HYPERBALLIN' PLAYTEST",
+   "platforms": [
+    "win"
+   ],
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 34,
+    "tags": [
+     "Atmospheric",
+     "Relaxing",
+     "Speedrun",
+     "Time Attack",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Platformer",
+     "Action"
+    ],
+    "status": "In development",
+    "published": "2026-10-12",
+    "updated": "2026-10-19",
+    "session": "A few minutes",
+    "comments": 78,
+    "devlog_latest": "2026-10-19",
+    "devlog_count": 2,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "4237672": {
+   "id": 4237672,
+   "title": "Drag Race Simulator",
+   "url": "https://poprise.itch.io/drag-race-simulator",
+   "author": "LOVMXO",
+   "sale": false,
+   "short": "Fan made",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 2.0,
+    "rating_count": 6,
+    "tags": [
+     "Interactive Fiction",
+     "Comedy",
+     "fashion",
+     "LGBTQIA",
+     "Life Simulation",
+     "Meaningful Choices",
+     "Queer"
+    ],
+    "made_with": [],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-10-17",
+    "session": null,
+    "comments": 0,
+    "devlog_latest": "2026-10-17",
+    "devlog_count": 5,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5180891": {
+   "id": 5180891,
+   "title": "Pack Ripper",
+   "url": "https://bigbonkstudio.itch.io/pack-ripper",
+   "author": "BigBonkStudio",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "Incremental game where you Rip - Sort - Sell - Repeat!",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.5,
+    "rating_count": 15,
+    "tags": [
+     "Card Game",
+     "2D",
+     "Casual",
+     "Clicker",
+     "Cozy",
+     "Economy",
+     "Idle",
+     "Incremental",
+     "Pixel Art",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "Released",
+    "published": "2026-10-18",
+    "updated": null,
+    "session": "A few seconds",
+    "comments": 14,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": "https://store.steampowered.com/app/5071620",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5172955": {
+   "id": 5172955,
+   "title": "Boristan (playtest)",
+   "url": "https://lifeofboris.itch.io/boristan",
+   "author": "lifeofboris",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "Free playtest until Tue 20 Oct, 20:00. The build stops working after that.",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Comedy",
+     "Co-op",
+     "Driving",
+     "First-Person",
+     "Funny",
+     "Low-poly",
+     "Multiplayer",
+     "Open World",
+     "Retro",
+     "soviet"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "In development",
+    "published": "2026-10-18",
+    "updated": null,
+    "session": null,
+    "comments": 1,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5188721": {
+   "id": 5188721,
+   "title": "AutiSIM",
+   "url": "https://feng-au.itch.io/autisim",
+   "author": "Feng",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "A life sim about sensory overload, masking, and everyday choices",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 3,
+    "tags": [
+     "Educational",
+     "Interactive Fiction",
+     "autism",
+     "Mental Health",
+     "Multiple Endings",
+     "Narrative",
+     "neurodiversity",
+     "Singleplayer",
+     "Text based"
+    ],
+    "made_with": [],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": "About a half-hour",
+    "comments": 6,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5065215": {
+   "id": 5065215,
+   "title": "ONE OF THESE IS YOU",
+   "url": "https://raxeris.itch.io/one-of-these-is-you",
+   "author": "raxeris",
+   "genre": "Puzzle",
+   "sale": false,
+   "short": "Every cursor moves when you move your mouse. Only one of them is you. 20 levels of mirrors, echoes and past selves.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 3.7,
+    "rating_count": 3,
+    "tags": [
+     "2D",
+     "Abstract",
+     "Atmospheric",
+     "Experimental",
+     "Minimalist",
+     "Mouse only",
+     "Short",
+     "Singleplayer",
+     "Surreal"
+    ],
+    "made_with": [],
+    "genre": [
+     "Puzzle"
+    ],
+    "status": "Released",
+    "published": "2026-09-28",
+    "updated": "2026-10-20",
+    "session": "A few minutes",
+    "comments": 10,
+    "devlog_latest": "2026-10-20",
+    "devlog_count": 4,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5182598": {
+   "id": 5182598,
+   "title": "Hypnosnake Simulator",
+   "url": "https://kaaexperienced.itch.io/hypnosnake-simulator",
+   "author": "kaaexperienced",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "Simulator game for hypnosnakes",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [],
+    "made_with": [],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "In development",
+    "published": "2026-10-18",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5171550": {
+   "id": 5171550,
+   "title": "Stick Fight Arena Pre-Alpha",
+   "url": "https://thiagodv.itch.io/stick-fight-arena-pre-alpha",
+   "author": "Thiago.dv",
+   "genre": "Action",
+   "sale": false,
+   "short": "Survive deadly hordes, unlock powerful weapons, build insane synergies, and fight to become the ultimate survivor!",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Survival",
+     "Arcade",
+     "Arena Shooter",
+     "Bullet Hell",
+     "Roguelike",
+     "Singleplayer",
+     "Top-Down"
+    ],
+    "made_with": [],
+    "genre": [
+     "Action"
+    ],
+    "status": "Prototype",
+    "published": "2026-10-17",
+    "updated": "2026-10-18",
+    "session": "About a half-hour",
+    "comments": 7,
+    "devlog_latest": "2026-10-18",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5078191": {
+   "id": 5078191,
+   "title": "Chartward",
+   "url": "https://beider.itch.io/chartward-demo",
+   "author": "beider",
+   "genre": "Adventure",
+   "sale": false,
+   "short": "Demo for chartward",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "2D",
+     "Idle",
+     "Incremental",
+     "Pirates",
+     "Singleplayer"
+    ],
+    "made_with": [],
+    "genre": [
+     "Adventure"
+    ],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": "A few hours",
+    "comments": 0,
+    "devlog_latest": "2026-10-19",
+    "devlog_count": 1,
+    "steam_url": "https://store.steampowered.com/app/5312830",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5181922": {
+   "id": 5181922,
+   "title": "Murloc RPG Online",
+   "url": "https://jeppster.itch.io/murlocrpgonline",
+   "author": "jeppster",
+   "genre": "Adventure",
+   "sale": false,
+   "short": "The beloved Murloc RPG now turned into an Online MMO",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "2D",
+     "Cozy",
+     "MMORPG",
+     "Multiplayer",
+     "online",
+     "Retro",
+     "Singleplayer",
+     "world-of-warcraft",
+     "wow"
+    ],
+    "made_with": [],
+    "genre": [
+     "Adventure",
+     "Role Playing"
+    ],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": "A few seconds",
+    "comments": 0,
+    "devlog_latest": "2026-10-19",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4375059": {
+   "id": 4375059,
+   "title": "Physician Simulator (Demo)",
+   "url": "https://shishkin-blog.itch.io/poliklinika",
+   "author": "shishkin_blog",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "You're an underpaid physician in a district clinic. Try not to get fired before lunch. Free demo.",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.6,
+    "rating_count": 78,
+    "tags": [
+     "Educational",
+     "2D",
+     "Dark Humor",
+     "doctor",
+     "medical",
+     "papers-please",
+     "Pixel Art",
+     "Point & Click",
+     "Singleplayer"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Simulation",
+     "Puzzle"
+    ],
+    "status": "In development",
+    "published": null,
+    "updated": "2026-10-19",
+    "session": null,
+    "comments": 61,
+    "devlog_latest": "2026-10-19",
+    "devlog_count": 8,
+    "steam_url": "https://store.steampowered.com/app/4548710",
+    "jam": [
+     "https://itch.io/jam/codebluejam2026",
+     "https://itch.io/jam/soclya-founders-jam",
+     "https://itch.io/jam/through-your-eyes-first-person-game-jam"
+    ],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5190713": {
+   "id": 5190713,
+   "title": "LAVOICE",
+   "url": "https://tsomyst.itch.io/lavoice",
+   "author": "Tsomyst",
+   "genre": "Shooter",
+   "sale": false,
+   "short": "Um FPS Voxel onde tudo que você fala se materializa na sua frente... TUDO!",
+   "platforms": [
+    "win"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Arena Shooter",
+     "Destruction",
+     "Fast-Paced",
+     "First-Person",
+     "Multiplayer",
+     "Physics",
+     "PvP",
+     "voice-controlled",
+     "Voxel",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Shooter"
+    ],
+    "status": "In development",
+    "published": "2026-10-20",
+    "updated": null,
+    "session": "A few seconds",
+    "comments": 1,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5183980": {
+   "id": 5183980,
+   "title": "THEY CALL ME LORD VERITY android port!",
+   "url": "https://gemesplayyt.itch.io/they-call-me-lord-verity-android-port",
+   "author": "aplex!",
+   "sale": false,
+   "platforms": [
+    "android"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [],
+    "made_with": [],
+    "genre": [],
+    "status": "Released",
+    "published": "2026-10-18",
+    "updated": null,
+    "session": null,
+    "comments": 17,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4732137": {
+   "id": 4732137,
+   "title": "Hermitap Web Demo",
+   "url": "https://tralexium.itch.io/hermitap-demo",
+   "author": "Tralexium",
+   "genre": "Action",
+   "sale": false,
+   "short": "Use your mouse to fight & gather, build, and expand your overworld!",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 3,
+    "tags": [
+     "2D",
+     "City Builder",
+     "Cute",
+     "Godot",
+     "Idle",
+     "Pixel Art",
+     "Point & Click",
+     "Relaxing",
+     "Top-Down",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Action",
+     "Puzzle"
+    ],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": "https://store.steampowered.com/app/5310410",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5114297": {
+   "id": 5114297,
+   "title": "Missile Stream",
+   "url": "https://ktch9541.itch.io/missile-stream",
+   "author": "ktch9541",
+   "genre": "Action",
+   "sale": false,
+   "short": "Team up with your past runs.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.7,
+    "rating_count": 45,
+    "tags": [
+     "2D",
+     "Arcade",
+     "Destruction",
+     "Fast-Paced",
+     "one-button",
+     "Side Scroller",
+     "Space"
+    ],
+    "made_with": [],
+    "genre": [
+     "Action"
+    ],
+    "status": "Released",
+    "published": "2026-10-09",
+    "updated": "2026-10-11",
+    "session": null,
+    "comments": 48,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5191184": {
+   "id": 5191184,
+   "title": "Increvolve",
+   "url": "https://dunbaps-games.itch.io/increvolve",
+   "author": "Dunbaps Games",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "Start as a click in the dark. Grow senses, then a body.",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Atmospheric",
+     "biology",
+     "evolution",
+     "Godot",
+     "Idle",
+     "Incremental",
+     "Short",
+     "Singleplayer"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": "About a half-hour",
+    "comments": 0,
+    "devlog_latest": "2026-10-20",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "4946633": {
+   "id": 4946633,
+   "title": "Sheep Per Second",
+   "url": "https://xkhannx.itch.io/sheep-per-second",
+   "author": "xkhannx",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "Start with one hand and one gate. End with a wool-industrial complex.",
+   "platforms": [
+    "win",
+    "web"
+   ],
+   "page": {
+    "rating_value": 2.7,
+    "rating_count": 3,
+    "tags": [
+     "3D",
+     "Clicker",
+     "Cozy",
+     "Farming",
+     "Godot",
+     "Idle",
+     "Incremental",
+     "Low-poly",
+     "sheep",
+     "Singleplayer"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "Prototype",
+    "published": "2026-10-18",
+    "updated": "2026-10-19",
+    "session": "A few minutes",
+    "comments": 6,
+    "devlog_latest": "2026-10-19",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5185755": {
+   "id": 5185755,
+   "title": "Jacob's Mission",
+   "url": "https://wambock.itch.io/jacobs-mission",
+   "author": "Wambock",
+   "genre": "Action",
+   "sale": false,
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [],
+    "made_with": [],
+    "genre": [
+     "Action"
+    ],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4833333": {
+   "id": 4833333,
+   "title": "Cycle of the First Dawn",
+   "url": "https://doorwatchers.itch.io/cycle-of-the-first-dawn",
+   "author": "DoorWatchers",
+   "genre": "Role Playing",
+   "sale": false,
+   "short": "A deliberately slow cultivation incremental where every life brings real progress.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.1,
+    "rating_count": 59,
+    "tags": [
+     "cultivation",
+     "Fantasy",
+     "Idle",
+     "Incremental",
+     "resource-manager",
+     "Singleplayer",
+     "Text based"
+    ],
+    "made_with": [],
+    "genre": [
+     "Role Playing"
+    ],
+    "status": "In development",
+    "published": null,
+    "updated": "2026-10-18",
+    "session": "A few hours",
+    "comments": 476,
+    "devlog_latest": "2026-10-18",
+    "devlog_count": 8,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5188832": {
+   "id": 5188832,
+   "title": "Fungaia",
+   "url": "https://ox1e-30.itch.io/fungaia",
+   "author": "OX1E_30",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "A cozy idle game about tending a cave full of mushrooms",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "browser",
+     "Clicker",
+     "Cozy",
+     "Idle",
+     "Incremental",
+     "Singleplayer"
+    ],
+    "made_with": [],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": "2026-10-19",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4965096": {
+   "id": 4965096,
+   "title": "Kraft",
+   "url": "https://megariffer.itch.io/kraft",
+   "author": "megariffer",
+   "genre": "Racing",
+   "sale": false,
+   "short": "Top-down racing and drifting on a real tyre model. Free alpha.",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Racing",
+     "2D",
+     "cars",
+     "drifting",
+     "Driving",
+     "Multiplayer",
+     "Physics",
+     "rally",
+     "Top-Down",
+     "Racing"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": "A few minutes",
+    "comments": 1,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5186442": {
+   "id": 5186442,
+   "title": "silver-blood-hunter~銀色血獵者~",
+   "url": "https://nicomedia0323.itch.io/silver-blood-hunter",
+   "author": "nicomedia0323",
+   "genre": "Action",
+   "sale": false,
+   "short": "一人公司 × 三位 AI 夥伴的暗黑奇幻冒險。揮鞭、獵魔、探索與成長。",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [
+     "Action"
+    ],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": "2026-10-20",
+    "session": null,
+    "comments": 0,
+    "devlog_latest": "2026-10-20",
+    "devlog_count": 8,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4817769": {
+   "id": 4817769,
+   "title": "0:07",
+   "url": "https://placeholders.itch.io/007",
+   "author": "Placeholders",
+   "genre": "Action",
+   "sale": false,
+   "short": "Set your timer, call your own countdown, then wipe out the entire floor. On time. Exactly.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.8,
+    "rating_count": 23,
+    "tags": [
+     "clock",
+     "hotlinemiami"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [
+     "Action",
+     "Shooter"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-10-15",
+    "session": null,
+    "comments": 11,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/gmtk-jam-2026"
+    ],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4734752": {
+   "id": 4734752,
+   "title": "Plaguebound",
+   "url": "https://ostsergey.itch.io/plaguebound",
+   "author": "ostsergey",
+   "genre": "Strategy",
+   "sale": false,
+   "short": "Incremental auto-battle game about the Rat King",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.7,
+    "rating_count": 173,
+    "tags": [
+     "Atmospheric",
+     "Auto Battler",
+     "Dark Fantasy",
+     "Horror",
+     "Idle",
+     "Incremental",
+     "Mystery",
+     "Roguelike",
+     "Story Rich",
+     "upgrades"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Strategy"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-10-15",
+    "session": null,
+    "comments": 52,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": "https://store.steampowered.com/app/5131690",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5183170": {
+   "id": 5183170,
+   "title": "Pong Automation",
+   "url": "https://ownedyew.itch.io/pong-automation",
+   "author": "ownedyew",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "An incremental pong game.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 2.7,
+    "rating_count": 3,
+    "tags": [
+     "Arcade",
+     "Incremental"
+    ],
+    "made_with": [
+     "LÖVE"
+    ],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "Released",
+    "published": "2026-10-18",
+    "updated": "2026-10-19",
+    "session": "About an hour",
+    "comments": 6,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5188010": {
+   "id": 5188010,
+   "title": "Click and Farm",
+   "url": "https://unvisty-games.itch.io/click-and-farm",
+   "author": "UnVisty Games",
+   "sale": false,
+   "short": "Кликай и получай реальные предметы",
+   "platforms": [
+    "android"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Clicker",
+     "No AI",
+     "playtoearn",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5009146": {
+   "id": 5009146,
+   "title": "The Mantle Project",
+   "url": "https://unasm.itch.io/mantle",
+   "author": "UnAssembly",
+   "genre": "Action",
+   "sale": false,
+   "short": "Demake of DELTARUNE Chapter 3 S-Rank minigames",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "2D",
+     "8-Bit",
+     "Demake",
+     "Game Boy",
+     "Homebrew",
+     "Indie",
+     "Pixel Art",
+     "Retro",
+     "Top-Down",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Action",
+     "Role Playing"
+    ],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5164320": {
+   "id": 5164320,
+   "title": "ねこダマし -Nekodamashi-",
+   "url": "https://72studio.itch.io/nekodamashi",
+   "author": "72studio",
+   "genre": "Card Game",
+   "sale": false,
+   "short": "Out-cheat the black cat dealer — win, and spank him to bliss!",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Horror games",
+     "Card Game",
+     "Anime",
+     "browser",
+     "cards",
+     "casino",
+     "Cats",
+     "cheating",
+     "Comedy",
+     "japanese",
+     "Pixel Art",
+     "Short",
+     "No generative AI was used",
+     "Card Game"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [],
+    "status": "In development",
+    "published": "2026-10-17",
+    "updated": null,
+    "session": null,
+    "comments": 7,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/kemo-game-1week-1"
+    ],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5187638": {
+   "id": 5187638,
+   "title": "ONE CLICK, ONE YEAR",
+   "url": "https://raxeris.itch.io/one-click-one-year",
+   "author": "raxeris",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "Every click is a year of her life. You can click as fast as you like.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "2D",
+     "Clicker",
+     "Idle",
+     "Incremental",
+     "Life Simulation",
+     "Narrative",
+     "one-button",
+     "Short",
+     "Singleplayer"
+    ],
+    "made_with": [],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": "2026-10-20",
+    "session": null,
+    "comments": 3,
+    "devlog_latest": "2026-10-20",
+    "devlog_count": 2,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5185060": {
+   "id": 5185060,
+   "title": "Iconworld Doctor",
+   "url": "https://cassowary.itch.io/iconworld-doctor",
+   "author": "cassowary",
+   "genre": "Puzzle",
+   "sale": false,
+   "short": "Defeat viruses by arranging windows! (LD60)",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.3,
+    "rating_count": 3,
+    "tags": [
+     "click-and-drag",
+     "files",
+     "Ludum Dare",
+     "Ludum Dare 60",
+     "photographs",
+     "Pixel Art",
+     "Retro",
+     "Sokoban",
+     "User Interface (UI)",
+     "virus",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Aseprite",
+     "Tiled",
+     "GIMP",
+     "Audacity"
+    ],
+    "genre": [
+     "Puzzle"
+    ],
+    "status": "Released",
+    "published": "2026-10-18",
+    "updated": null,
+    "session": "A few minutes",
+    "comments": 10,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5002517": {
+   "id": 5002517,
+   "title": "Heartfall — A Tale in Three Lives",
+   "url": "https://kazehita.itch.io/heartfall-a-tale-in-three-lives",
+   "author": "Kazehita",
+   "genre": "Visual Novel",
+   "sale": false,
+   "short": "Change the way your fate unfolds and uncover unique retellings, secrets, and new, shocking twists.",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 50,
+    "tags": [
+     "Interactive Fiction",
+     "Casual",
+     "Characters",
+     "Fangame",
+     "Fantasy",
+     "Indie",
+     "Multiple Endings",
+     "Singleplayer",
+     "Story Rich",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Visual Novel",
+     "Adventure"
+    ],
+    "status": "Released",
+    "published": "2026-10-02",
+    "updated": "2026-10-14",
+    "session": "A few hours",
+    "comments": 112,
+    "devlog_latest": "2026-10-14",
+    "devlog_count": 1,
+    "steam_url": "https://store.steampowered.com/app/5257930",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5179962": {
+   "id": 5179962,
+   "title": "田野筆記",
+   "url": "https://baptiste0430.itch.io/fieldnotes",
+   "author": "baptiste0430",
+   "genre": "Adventure",
+   "sale": false,
+   "short": "台灣民俗恐怖冒險｜第一章：姑婆來（序章＋第一章，網頁直接玩）",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "2D",
+     "Atmospheric",
+     "chinese",
+     "Exploration",
+     "Folklore",
+     "Horror",
+     "Psychological Horror",
+     "Side Scroller",
+     "Story Rich",
+     "taiwan"
+    ],
+    "made_with": [],
+    "genre": [
+     "Adventure"
+    ],
+    "status": "Released",
+    "published": "2026-10-18",
+    "updated": "2026-10-19",
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5182035": {
+   "id": 5182035,
+   "title": "ドライブ・バイ・ミー Drive by Me",
+   "url": "https://toroyakun.itch.io/drivebyme",
+   "author": "toroyakun",
+   "genre": "Adventure",
+   "sale": false,
+   "short": "私のそばを通り過ぎて",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Horror games",
+     "2D",
+     "Furry",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Adventure"
+    ],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/kemo-game-1week-1"
+    ],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4782425": {
+   "id": 4782425,
+   "title": "The Art Shop: DAY 2",
+   "url": "https://surrtasm.itch.io/the-art-shop",
+   "author": "Surrtasm",
+   "genre": "Visual Novel",
+   "sale": false,
+   "short": "\"Welcome to your new Job.\"",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "page": {
+    "rating_value": 4.8,
+    "rating_count": 359,
+    "tags": [
+     "2D",
+     "Horror",
+     "Psychological Horror",
+     "Romance",
+     "Yandere",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Visual Novel"
+    ],
+    "status": "In development",
+    "published": null,
+    "updated": "2026-10-14",
+    "session": null,
+    "comments": 210,
+    "devlog_latest": "2026-10-14",
+    "devlog_count": 6,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "4751403": {
+   "id": 4751403,
+   "title": "Better on Paper!",
+   "url": "https://aiainaine.itch.io/better-on-paper",
+   "author": "aine",
+   "genre": "Visual Novel",
+   "sale": false,
+   "short": "Can you beat procrastination with art forgery?",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "android",
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.7,
+    "rating_count": 22,
+    "tags": [
+     "Cozy",
+     "Cute",
+     "Female Protagonist",
+     "LGBTQIA",
+     "Painting",
+     "Queer",
+     "Voice Acting",
+     "Yuri",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Ren'Py"
+    ],
+    "genre": [
+     "Visual Novel"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-09-27",
+    "session": null,
+    "comments": 27,
+    "devlog_latest": "2026-09-27",
+    "devlog_count": 2,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/cgdct-jam-2026"
+    ],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5190063": {
+   "id": 5190063,
+   "title": "Lensor",
+   "url": "https://orpheus28.itch.io/lensor",
+   "author": "orpheus28",
+   "genre": "Puzzle",
+   "sale": false,
+   "short": "Game about burning blocks with lenses in  Ancient Egypt (even thought they didn't actually do that)",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 3,
+    "tags": [
+     "Incremental",
+     "Low-poly",
+     "Ludum Dare",
+     "Ludum Dare 60",
+     "mirrors",
+     "psychedelic",
+     "Retro",
+     "Roguelite",
+     "Surreal",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Puzzle",
+     "Strategy"
+    ],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": "A few minutes",
+    "comments": 2,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5175884": {
+   "id": 5175884,
+   "title": "KARANEKO: Night Shift",
+   "url": "https://nekoda-nekolay.itch.io/karaneko-night-shift",
+   "author": "nekoda_nekolay",
+   "genre": "Role Playing",
+   "sale": false,
+   "short": "A pixel-art horror RPG with a happy cat girl!",
+   "platforms": [
+    "win"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Atmospheric",
+     "Creepy",
+     "Cute",
+     "GameMaker",
+     "Horror",
+     "Pixel Art",
+     "Psychological Horror",
+     "Singleplayer",
+     "Story Rich",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Role Playing"
+    ],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 2,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": "https://store.steampowered.com/app/5191280",
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5143735": {
+   "id": 5143735,
+   "title": "REWIND 3000",
+   "url": "https://eugenpeters.itch.io/rewind3000",
+   "author": "Eugen Peters",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "One pencil, infinite tape",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.4,
+    "rating_count": 5,
+    "tags": [
+     "Clicker",
+     "Idle",
+     "Incremental",
+     "Ludum Dare",
+     "Ludum Dare 60",
+     "Playstation Portable",
+     "Retro",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "Released",
+    "published": "2026-10-18",
+    "updated": null,
+    "session": "A few minutes",
+    "comments": 6,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "3907667": {
+   "id": 3907667,
+   "title": "Mathstory",
+   "url": "https://denannisa.itch.io/mathstory",
+   "author": "denannisa",
+   "genre": "Educational",
+   "sale": false,
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Educational",
+     "Educational"
+    ],
+    "made_with": [],
+    "genre": [],
+    "status": "Released",
+    "published": "2026-10-20",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5189718": {
+   "id": 5189718,
+   "title": "Rock Flipper",
+   "url": "https://minifungames.itch.io/rock-flipper",
+   "author": "Mini Fun Games",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "Flipping rocks to earn cash and complete skill tree",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "2D",
+     "Automation",
+     "Casual",
+     "Clicker",
+     "Idle",
+     "Incremental",
+     "Minimalist",
+     "Mouse only",
+     "Relaxing",
+     "upgrades"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": "2026-10-19",
+    "devlog_count": 1,
+    "steam_url": "https://store.steampowered.com/app/5151920",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5188498": {
+   "id": 5188498,
+   "title": "Freshman 150 | Weight Gain Game",
+   "url": "https://volumetric-games.itch.io/freshman150",
+   "author": "Volumetric Games",
+   "sale": false,
+   "short": "A UK university life-sim & feederism visual novel featuring a real-time procedural 2D body-morphing & physics engine.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [],
+    "made_with": [],
+    "genre": [],
+    "status": "In development",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5189292": {
+   "id": 5189292,
+   "title": "☀ BRIGHTMOOR ☀",
+   "url": "https://j5-2026.itch.io/brightmoor",
+   "author": "J5",
+   "genre": "Role Playing",
+   "price": "$4",
+   "sale": false,
+   "short": "The dawn bell has not rung in years. Six towns, six Gloomholds, one Hollow King. Bring back the sun.",
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "8-Bit",
+     "assembly",
+     "Commodore 64",
+     "Fantasy",
+     "Pixel Art",
+     "Retro",
+     "Singleplayer",
+     "Turn-based",
+     "ultima-like"
+    ],
+    "made_with": [],
+    "genre": [
+     "Role Playing"
+    ],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": null,
+    "comments": 7,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5175707": {
+   "id": 5175707,
+   "title": "狐カフェ！Moreru&Moreta",
+   "url": "https://hatoda.itch.io/morerumoreta",
+   "author": "hatoda",
+   "genre": "Card Game",
+   "sale": false,
+   "short": "キツネの店員さんにドリンクを飲ませて\"がまん\"させよう",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Horror games",
+     "Card Game",
+     "1week",
+     "2D",
+     "Furry",
+     "kemono",
+     "Pixel Art",
+     "No generative AI was used",
+     "Card Game"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [],
+    "status": "Released",
+    "published": "2026-10-17",
+    "updated": "2026-10-19",
+    "session": null,
+    "comments": 4,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/kemo-game-1week-1"
+    ],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5185064": {
+   "id": 5185064,
+   "title": "Crack The Core",
+   "url": "https://archdb.itch.io/crack-the-core",
+   "author": "archdb",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "Click, crit and laser your way to a planet's core then blow the whole thing up.",
+   "platforms": [
+    "win",
+    "web"
+   ],
+   "page": {
+    "rating_value": 3.2,
+    "rating_count": 6,
+    "tags": [
+     "Clicker",
+     "free",
+     "Godot",
+     "Idle",
+     "Incremental",
+     "mining",
+     "Pixel Art",
+     "Short",
+     "Singleplayer",
+     "Space",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "In development",
+    "published": "2026-10-18",
+    "updated": null,
+    "session": null,
+    "comments": 4,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5033390": {
+   "id": 5033390,
+   "title": "All us",
+   "url": "https://gju-studio.itch.io/allus",
+   "author": "Gju studio",
+   "sale": false,
+   "platforms": [
+    "android"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [],
+    "made_with": [],
+    "genre": [],
+    "status": "Released",
+    "published": "2026-09-20",
+    "updated": null,
+    "session": null,
+    "comments": 3,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "3660483": {
+   "id": 3660483,
+   "title": "Gyra - Top Fighting",
+   "url": "https://lucaju.itch.io/gyra",
+   "author": "lucaju",
+   "genre": "Fighting",
+   "sale": false,
+   "short": "Choose your pieces. Assemble your GYRA. Spyn to win.",
+   "platforms": [
+    "win",
+    "linux",
+    "android",
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.4,
+    "rating_count": 17,
+    "tags": [
+     "Fighting",
+     "3D",
+     "beyblade",
+     "Godot",
+     "Local multiplayer",
+     "Multiplayer",
+     "party-game",
+     "Physics",
+     "Short",
+     "No generative AI was used",
+     "Fighting"
+    ],
+    "made_with": [
+     "Blender",
+     "Godot"
+    ],
+    "genre": [
+     "Action"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-10-09",
+    "session": "A few minutes",
+    "comments": 43,
+    "devlog_latest": "2025-08-27",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "244402": {
+   "id": 244402,
+   "title": "Cinco Paus",
+   "url": "https://smestorp.itch.io/cinco-paus",
+   "author": "Michael Brough",
+   "genre": "Strategy",
+   "price": "$10",
+   "sale": false,
+   "platforms": [
+    "win",
+    "mac"
+   ],
+   "page": {
+    "rating_value": 4.7,
+    "rating_count": 59,
+    "tags": [
+     "Roguelike",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Strategy"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4727452": {
+   "id": 4727452,
+   "title": "Addams Family Amiga: The Backgrounds Edition",
+   "url": "https://djmike.itch.io/addams-family-amiga-backgrounds-edition",
+   "author": "DJ Mike",
+   "genre": "Platformer",
+   "sale": false,
+   "short": "Now with restored backgrounds!",
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Amiga",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Platformer"
+    ],
+    "status": "In development",
+    "published": null,
+    "updated": "2026-10-16",
+    "session": null,
+    "comments": 30,
+    "devlog_latest": "2026-10-14",
+    "devlog_count": 2,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "257677": {
+   "id": 257677,
+   "title": "Among Us",
+   "url": "https://innersloth.itch.io/among-us",
+   "author": "Innersloth",
+   "price": "$5",
+   "sale": false,
+   "short": "An online and local party game of teamwork and betrayal for 4-15 players",
+   "platforms": [
+    "win",
+    "android"
+   ],
+   "page": {
+    "rating_value": 4.5,
+    "rating_count": 1614,
+    "tags": [
+     "2D",
+     "Casual",
+     "Co-op",
+     "minigames",
+     "Multiplayer",
+     "party-game",
+     "Space"
+    ],
+    "made_with": [
+     "Unity",
+     "Audacity",
+     "FL Studio"
+    ],
+    "genre": [],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-09-30",
+    "session": "A few minutes",
+    "comments": 81,
+    "devlog_latest": "2021-11-05",
+    "devlog_count": 8,
+    "steam_url": "https://store.steampowered.com/app/945360",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5142257": {
+   "id": 5142257,
+   "title": "Dreadline for Intellivision (digital version)",
+   "url": "https://akegata-inty.itch.io/dreadline",
+   "author": "Akegata",
+   "genre": "Action",
+   "price": "$16.99",
+   "sale": false,
+   "short": "Draw your last breath.",
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Arcade",
+     "Retro",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Action"
+    ],
+    "status": "Released",
+    "published": "2026-10-14",
+    "updated": "2026-10-15",
+    "session": null,
+    "comments": 10,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "3924128": {
+   "id": 3924128,
+   "title": "Don't eat the cashier!",
+   "url": "https://detcc.itch.io/dont-eat-the-cashier",
+   "author": "DETCc",
+   "genre": "Visual Novel",
+   "sale": false,
+   "short": "All customers are monsters. Oh no. Oh yeah?",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "page": {
+    "rating_value": 4.9,
+    "rating_count": 5083,
+    "tags": [
+     "Interactive Fiction",
+     "2D",
+     "campy-horror",
+     "Creepy",
+     "Dating Sim",
+     "jester",
+     "Monsters",
+     "Otome",
+     "Romance",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Visual Novel"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-09-20",
+    "session": null,
+    "comments": 49,
+    "devlog_latest": "2025-10-12",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/spooktober-2025",
+     "https://itch.io/jam/wgf2025b"
+    ],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5155167": {
+   "id": 5155167,
+   "title": "SAI (Special Artificial Investigation)",
+   "url": "https://zisquier.itch.io/special-artificial-investigation",
+   "author": "Zisquier",
+   "genre": "Racing",
+   "price": "2€",
+   "sale": false,
+   "short": "An Amstrad GX4000 game. Drive an intelligent Tesla in a furious high-speed race against humanity.",
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Racing",
+     "amstrad",
+     "cars",
+     "chasehq",
+     "gx4000",
+     "sci",
+     "Racing"
+    ],
+    "made_with": [],
+    "genre": [],
+    "status": "Released",
+    "published": "2026-10-14",
+    "updated": "2026-10-17",
+    "session": null,
+    "comments": 10,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5163623": {
+   "id": 5163623,
+   "title": "NEO GLIDE",
+   "url": "https://nicomegadrive.itch.io/neo-glide",
+   "author": "nicomegadrive",
+   "genre": "Racing",
+   "price": "$2",
+   "sale": false,
+   "short": "Anti-gravity Mode 7 racing for the Sega Mega Drive / Genesis. 8 tracks, weapons, and an original FM soundtrack.",
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Racing",
+     "16-bit",
+     "Arcade",
+     "Futuristic",
+     "Homebrew",
+     "Mega Drive",
+     "mode-7",
+     "Pixel Art",
+     "Retro",
+     "Sega Genesis",
+     "Racing"
+    ],
+    "made_with": [],
+    "genre": [],
+    "status": "Released",
+    "published": "2026-10-15",
+    "updated": null,
+    "session": null,
+    "comments": 3,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "2077106": {
+   "id": 2077106,
+   "title": "A Date with Death",
+   "url": "https://twoandahalfstudios.itch.io/a-date-with-death",
+   "author": "Two and a Half Studios",
+   "genre": "Visual Novel",
+   "sale": false,
+   "short": "Enter a week long bet against the Grim Reaper to keep your soul... and maybe fall in love along the way?",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "page": {
+    "rating_value": 4.9,
+    "rating_count": 6051,
+    "tags": [
+     "Amare",
+     "chat-sim",
+     "chat-simulator",
+     "Gay",
+     "LGBT",
+     "LGBTQIA",
+     "message-simulator",
+     "Otome",
+     "Queer",
+     "Romance"
+    ],
+    "made_with": [
+     "Ren'Py"
+    ],
+    "genre": [
+     "Visual Novel"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": null,
+    "session": "About an hour",
+    "comments": 34,
+    "devlog_latest": "2026-08-25",
+    "devlog_count": 8,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/wgf2025a"
+    ],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5140385": {
+   "id": 5140385,
+   "title": "Apex Street League",
+   "url": "https://shadowbreakgames.itch.io/apex-street-league",
+   "author": "Shadow Break Games",
+   "genre": "Racing",
+   "price": "$1",
+   "sale": false,
+   "short": "Start at the back. Earn your way up. 3D racing for Playdate.",
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Racing",
+     "3D",
+     "Arcade",
+     "Playdate",
+     "Singleplayer",
+     "Racing"
+    ],
+    "made_with": [],
+    "genre": [],
+    "status": "In development",
+    "published": "2026-10-18",
+    "updated": "2026-10-19",
+    "session": null,
+    "comments": 2,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "2522722": {
+   "id": 2522722,
+   "title": "That's not my Neighbor",
+   "url": "https://nachogames.itch.io/thats-not-my-neighbor",
+   "author": "Nacho Sama",
+   "genre": "Simulation",
+   "sale": false,
+   "short": "Work as a doorman in a building infested with doppelgangers.",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "page": {
+    "rating_value": 4.7,
+    "rating_count": 1620,
+    "tags": [
+     "2D",
+     "Creepy",
+     "Godot",
+     "Horror",
+     "Monsters",
+     "Mouse only",
+     "Singleplayer",
+     "Spooky",
+     "Working Simulator"
+    ],
+    "made_with": [],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": null,
+    "session": "About a half-hour",
+    "comments": 70,
+    "devlog_latest": "2026-08-10",
+    "devlog_count": 8,
+    "steam_url": "https://store.steampowered.com/app/3431040",
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "2349135": {
+   "id": 2349135,
+   "title": "Goodboy Galaxy (for GBA)",
+   "url": "https://goodboygalaxy.itch.io/goodboy-galaxy-gba",
+   "author": "Goodboy Galaxy",
+   "genre": "Platformer",
+   "price": "$20",
+   "sale": false,
+   "short": "Help Maxwell explore unfamiliar worlds, make strange new friends and contend with mysterious forces.",
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 92,
+    "tags": [
+     "16-bit",
+     "2D",
+     "Dogs",
+     "Game Boy Advance",
+     "Homebrew",
+     "Indie",
+     "Metroidvania",
+     "Puzzle-Platformer",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Blender",
+     "Aseprite",
+     "Tiled",
+     "Renoise",
+     "MilkyTracker"
+    ],
+    "genre": [
+     "Platformer",
+     "Adventure"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": null,
+    "session": "A few hours",
+    "comments": 119,
+    "devlog_latest": "2024-10-25",
+    "devlog_count": 1,
+    "steam_url": "https://store.steampowered.com/app/2705890",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "2825491": {
+   "id": 2825491,
+   "title": "Halloween Revenge",
+   "url": "https://616games.itch.io/halloween-revenge",
+   "author": "616 GAMES",
+   "genre": "Adventure",
+   "price": "$1",
+   "sale": false,
+   "short": "He seeks revenge!",
+   "platforms": [
+    "win"
+   ],
+   "page": {
+    "rating_value": 4.8,
+    "rating_count": 18,
+    "tags": [
+     "3D",
+     "Atmospheric",
+     "Creepy",
+     "First-Person",
+     "Halloween",
+     "Horror",
+     "Psychological Horror",
+     "Retro",
+     "Short",
+     "Unity"
+    ],
+    "made_with": [],
+    "genre": [
+     "Adventure"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": null,
+    "session": null,
+    "comments": 50,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "3980404": {
+   "id": 3980404,
+   "title": "Zera: Spooky Adventure",
+   "url": "https://cyreides.itch.io/zera-spooky-adventure",
+   "author": "Cyreides",
+   "genre": "Platformer",
+   "sale": false,
+   "platforms": [
+    "win"
+   ],
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 5,
+    "tags": [
+     "3D",
+     "3D Platformer",
+     "collectathon",
+     "color",
+     "Halloween",
+     "Low-poly",
+     "PSX (PlayStation)",
+     "Retro",
+     "Synthwave",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Platformer"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-10-17",
+    "session": null,
+    "comments": 17,
+    "devlog_latest": "2026-10-17",
+    "devlog_count": 3,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "5084140": {
+   "id": 5084140,
+   "title": "MALFOID DATING SIM: Pureblood & Prejudice",
+   "url": "https://ruizukun-dev.itch.io/malfoid-dating-sim",
+   "author": "COCOLEMON",
+   "genre": "Visual Novel",
+   "sale": false,
+   "short": "Pureblood & Prejudice: A spoiled heiress. A reluctant study partner. A dark-academia enemies-to-lovers visual novel.",
+   "platforms": [
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.2,
+    "rating_count": 53,
+    "tags": [
+     "Anime",
+     "choices-matter",
+     "dark-academia",
+     "Dating Sim",
+     "enemies-to-lovers",
+     "Fangame",
+     "Multiple Endings",
+     "Psychological Horror",
+     "Romance"
+    ],
+    "made_with": [],
+    "genre": [
+     "Visual Novel"
+    ],
+    "status": "In development",
+    "published": "2026-10-01",
+    "updated": "2026-10-13",
+    "session": "A few hours",
+    "comments": 88,
+    "devlog_latest": "2026-10-05",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "25491": {
+   "id": 25491,
+   "title": "FPV Freerider",
+   "url": "https://fpv-freerider.itch.io/fpv-freerider",
+   "author": "FPV Freerider",
+   "genre": "Simulation",
+   "price": "$5.99",
+   "sale": false,
+   "short": "RC Quadcopter Racing Simulator",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "page": {
+    "rating_value": 4.6,
+    "rating_count": 287,
+    "tags": [
+     "Racing",
+     "drone",
+     "fpv",
+     "miniquad",
+     "multirotor",
+     "quadcopter",
+     "quadrocopter",
+     "rc",
+     "simulator"
+    ],
+    "made_with": [],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": null,
+    "session": "A few minutes",
+    "comments": 0,
+    "devlog_latest": "2021-03-26",
+    "devlog_count": 2,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5120450": {
+   "id": 5120450,
+   "title": "Smokin'Colts (Amiga only)",
+   "url": "https://fliegeralarm-games.itch.io/smokincolts",
+   "author": "Fliegeralarm Games",
+   "genre": "Action",
+   "price": "$5.49",
+   "sale": false,
+   "short": "3D Western Open World on AGA Amigas -- Released",
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "3D",
+     "Amiga",
+     "First-Person",
+     "Open World",
+     "poker",
+     "Singleplayer",
+     "Walking simulator",
+     "Western",
+     "Wild West"
+    ],
+    "made_with": [],
+    "genre": [
+     "Action"
+    ],
+    "status": "Released",
+    "published": "2026-10-09",
+    "updated": "2026-10-19",
+    "session": null,
+    "comments": 14,
+    "devlog_latest": "2026-10-09",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "3671465": {
+   "id": 3671465,
+   "title": "All Night Breakfast at the Midnight Owl",
+   "url": "https://criticalkit.itch.io/all-night-breakfast-at-the-midnight-owl",
+   "author": "Critical Kit",
+   "price": "£7.50",
+   "sale": false,
+   "short": "Solo roleplaying game in which you are the creator and host of a supernatural investigation podcast",
+   "page": {
+    "rating_value": 5.0,
+    "rating_count": 3,
+    "tags": [],
+    "made_with": [],
+    "genre": [],
+    "status": "Released",
+    "published": null,
+    "updated": null,
+    "session": null,
+    "comments": 2,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5163202": {
+   "id": 5163202,
+   "title": "Episode 113 - Bloodhound (Early Access)",
+   "url": "https://objectified.itch.io/ep114",
+   "author": "Objectified",
+   "price": "$5",
+   "sale": false,
+   "short": "Early access to episode 113 of Objectified.",
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Comics",
+     "Horror",
+     "Webcomic",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [],
+    "status": "Released",
+    "published": "2026-10-16",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "2429937": {
+   "id": 2429937,
+   "title": "Your Happy Place",
+   "url": "https://dark-knife15.itch.io/your-happy-place",
+   "author": "Dark_Knife15",
+   "genre": "Adventure",
+   "sale": false,
+   "short": "Liminal Space/Backrooms Experience",
+   "platforms": [
+    "win"
+   ],
+   "page": {
+    "rating_value": 4.7,
+    "rating_count": 106,
+    "tags": [
+     "3D",
+     "Atmospheric",
+     "Backrooms",
+     "First-Person",
+     "Horror",
+     "Liminal space",
+     "Psychological Horror",
+     "Singleplayer",
+     "Surreal",
+     "vhs",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unreal Engine",
+     "Blender",
+     "Adobe Photoshop",
+     "Audacity",
+     "FL Studio"
+    ],
+    "genre": [
+     "Adventure"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": null,
+    "session": "About a half-hour",
+    "comments": 381,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/liminal4"
+    ],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "2238244": {
+   "id": 2238244,
+   "title": "Death is a Guest",
+   "url": "https://honeybunny-of.itch.io/deathguest",
+   "author": "Honey Bunny",
+   "genre": "Visual Novel",
+   "price": "$1.49",
+   "sale": true,
+   "short": "What the hell happened to Mr. Host? Solve the mystery and maybe find love along the way.",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "android"
+   ],
+   "page": {
+    "rating_value": 4.4,
+    "rating_count": 62,
+    "tags": [
+     "Interactive Fiction",
+     "Amare",
+     "Dark",
+     "Female Protagonist",
+     "Multiple Endings",
+     "Mystery",
+     "Otome",
+     "Psychological Horror",
+     "Romance",
+     "Story Rich",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Ren'Py"
+    ],
+    "genre": [
+     "Visual Novel"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": "2026-10-09",
+    "session": "A few hours",
+    "comments": 44,
+    "devlog_latest": "2026-10-09",
+    "devlog_count": 8,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/spooktober-2023"
+    ],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4844479": {
+   "id": 4844479,
+   "title": "JOAN OF ARC - DEUS CONTRA MACHINAM (C64)",
+   "url": "https://psytronik.itch.io/joa",
+   "author": "Psytronik Software",
+   "genre": "Action",
+   "price": "$4.99",
+   "sale": false,
+   "short": "A new action-adventure for the C64 from the creators of SHERWOOD!",
+   "page": {
+    "rating_value": 4.9,
+    "rating_count": 12,
+    "tags": [
+     "Arcade",
+     "Commodore 64",
+     "griffonsoft",
+     "Retro"
+    ],
+    "made_with": [],
+    "genre": [
+     "Action",
+     "Adventure"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": null,
+    "session": null,
+    "comments": 38,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5180043": {
+   "id": 5180043,
+   "title": "Doodlebug (ZX Spectrum Next 2MB)",
+   "url": "https://fuzzydweeb.itch.io/doodlebug-zx-spectrum-next-2mb",
+   "author": "Software Amusements",
+   "genre": "Platformer",
+   "price": "$5.99",
+   "sale": false,
+   "short": "Doodlebug offers twenty levels of varied platform action spread across five themed worlds!",
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "bugbash",
+     "colourful",
+     "Cute",
+     "doodlebug",
+     "Drawing",
+     "next",
+     "pencil",
+     "princess",
+     "spectrum",
+     "ZX Spectrum"
+    ],
+    "made_with": [],
+    "genre": [
+     "Platformer"
+    ],
+    "status": "Released",
+    "published": "2026-10-19",
+    "updated": null,
+    "session": "About a half-hour",
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4322694": {
+   "id": 4322694,
+   "title": "ISO/2004 [Chapter#1]",
+   "url": "https://koniipinka.itch.io/iso2004-chapter1",
+   "author": "Koniipinka",
+   "genre": "Adventure",
+   "price": "$3.99",
+   "sale": false,
+   "short": "A Filipino horror experience rooted in sensibilities and quiet cruelty.",
+   "platforms": [
+    "win"
+   ],
+   "page": {
+    "rating_value": 4.9,
+    "rating_count": 43,
+    "tags": [
+     "filipino",
+     "First-Person",
+     "Horror",
+     "Indie",
+     "Mystery",
+     "psx-playstation",
+     "Psychological Horror",
+     "Retro",
+     "Thriller",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [
+     "Adventure"
+    ],
+    "status": "Released",
+    "published": "2026-02-25",
+    "updated": null,
+    "session": "About a half-hour",
+    "comments": 55,
+    "devlog_latest": "2026-05-23",
+    "devlog_count": 6,
+    "steam_url": "https://store.steampowered.com/app/4750520",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4187249": {
+   "id": 4187249,
+   "title": "Sinner Maker (demo)",
+   "url": "https://sm-pantokrator.itch.io/sinner-maker",
+   "author": "Pantokrator",
+   "sale": false,
+   "short": "A mii maker inspired character creator with religious theme",
+   "platforms": [
+    "win",
+    "linux",
+    "android",
+    "web"
+   ],
+   "page": {
+    "rating_value": 4.7,
+    "rating_count": 657,
+    "tags": [
+     "2000s",
+     "3D",
+     "Character Customization",
+     "christian",
+     "frutiger-aero",
+     "Management",
+     "mii",
+     "religion",
+     "tomodachi",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Godot"
+    ],
+    "genre": [],
+    "status": "In development",
+    "published": null,
+    "updated": null,
+    "session": null,
+    "comments": 584,
+    "devlog_latest": "2026-09-07",
+    "devlog_count": 8,
+    "steam_url": "https://store.steampowered.com/app/4610100",
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "106599": {
+   "id": 106599,
+   "title": "Doki Doki Literature Club!",
+   "url": "https://teamsalvato.itch.io/ddlc",
+   "author": "Team Salvato",
+   "genre": "Visual Novel",
+   "sale": false,
+   "short": "Will you write the way into her heart?",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "page": {
+    "rating_value": 4.8,
+    "rating_count": 6553,
+    "tags": [
+     "Anime",
+     "Cute",
+     "Horror",
+     "Romance"
+    ],
+    "made_with": [
+     "Ren'Py"
+    ],
+    "genre": [
+     "Visual Novel"
+    ],
+    "status": "Released",
+    "published": null,
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": "2018-04-09",
+    "devlog_count": 5,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "379047": {
+   "id": 379047,
+   "title": "Dwarf Fortress",
+   "url": "https://kitfoxgames.itch.io/dwarf-fortress",
+   "author": "Kitfoxgames",
+   "genre": "Simulation",
+   "price": "$29.99",
+   "sale": false,
+   "short": "Remember: Losing is fun!",
+   "platforms": [
+    "win",
+    "linux"
+   ],
+   "page": {
+    "rating_value": 4.9,
+    "rating_count": 402,
+    "tags": [
+     "Endless",
+     "Fantasy",
+     "Procedural Generation",
+     "No generative AI was used"
+    ],
+    "made_with": [],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "In development",
+    "published": "2022-12-06",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": "2026-08-05",
+    "devlog_count": 8,
+    "steam_url": "https://store.steampowered.com/app/975370",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "4983043": {
+   "id": 4983043,
+   "title": "MANDATO",
+   "url": "https://solitarystudios.itch.io/mandato",
+   "author": "SolitaryStudios",
+   "genre": "Simulation",
+   "price": "$2.99",
+   "sale": false,
+   "short": "A horror story about corruption",
+   "platforms": [
+    "win"
+   ],
+   "page": {
+    "rating_value": 4.7,
+    "rating_count": 27,
+    "tags": [
+     "Interactive Fiction",
+     "3D",
+     "Atmospheric",
+     "filipino",
+     "Horror",
+     "Indie",
+     "PSX (PlayStation)",
+     "Psychological Horror",
+     "suspense",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [
+     "Simulation",
+     "Role Playing"
+    ],
+    "status": "In development",
+    "published": null,
+    "updated": null,
+    "session": "About an hour",
+    "comments": 72,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": "https://store.steampowered.com/app/4897340",
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5101141": {
+   "id": 5101141,
+   "title": "Necrosis C64/128",
+   "url": "https://mjnurney.itch.io/necrosisfull-c64",
+   "author": "Mjnurney",
+   "genre": "Platformer",
+   "price": "£0.75",
+   "sale": true,
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "2D",
+     "Commodore 64",
+     "Halloween",
+     "Horror",
+     "Pixel Art",
+     "Retro"
+    ],
+    "made_with": [],
+    "genre": [
+     "Platformer"
+    ],
+    "status": "Released",
+    "published": "2026-10-04",
+    "updated": "2026-10-11",
+    "session": null,
+    "comments": 23,
+    "devlog_latest": "2026-10-04",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5164207": {
+   "id": 5164207,
+   "title": "Crownfall (Amiga AGA)",
+   "url": "https://johannesnaumanen.itch.io/crownfall",
+   "author": "JohannesNaumanen",
+   "genre": "Puzzle",
+   "price": "$7.99",
+   "sale": true,
+   "short": "A medieval jewel-matching adventure for Amiga AGA. Six ages, 108 chapters, powerful combinations and original music.",
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "2D",
+     "Amiga",
+     "Fantasy",
+     "match-3",
+     "Medieval",
+     "Pixel Art",
+     "Retro"
+    ],
+    "made_with": [],
+    "genre": [
+     "Puzzle"
+    ],
+    "status": "Released",
+    "published": "2026-10-15",
+    "updated": "2026-10-18",
+    "session": null,
+    "comments": 8,
+    "devlog_latest": "2026-10-17",
+    "devlog_count": 2,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5137962": {
+   "id": 5137962,
+   "title": "GodsEater",
+   "url": "https://twindark.itch.io/godseater",
+   "author": "Twindark",
+   "genre": "Role Playing",
+   "price": "$5.99",
+   "sale": false,
+   "short": "Rule a world. Romance your angels. Devour your gods.",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "web"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Fantasy",
+     "Management",
+     "Meaningful Choices",
+     "Multiple Endings",
+     "mythology",
+     "Romance",
+     "Singleplayer",
+     "Story Rich",
+     "Turn-Based Combat",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unity"
+    ],
+    "genre": [
+     "Role Playing",
+     "Visual Novel"
+    ],
+    "status": "In development",
+    "published": "2026-10-12",
+    "updated": "2026-10-17",
+    "session": null,
+    "comments": 9,
+    "devlog_latest": "2026-10-15",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "5152744": {
+   "id": 5152744,
+   "title": "Gundam Survivors",
+   "url": "https://adamblue83.itch.io/gundam-survivors",
+   "author": "Adam Blue",
+   "genre": "Action",
+   "sale": false,
+   "short": "A survivors-like using SD G Generation Assets",
+   "platforms": [
+    "win",
+    "mac"
+   ],
+   "page": {
+    "rating_value": null,
+    "rating_count": null,
+    "tags": [
+     "Survivor-like"
+    ],
+    "made_with": [],
+    "genre": [
+     "Action"
+    ],
+    "status": "Released",
+    "published": "2026-10-13",
+    "updated": null,
+    "session": null,
+    "comments": 0,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "4608318": {
+   "id": 4608318,
+   "title": "Euphorica",
+   "url": "https://below-average-games.itch.io/euphorica",
+   "author": "Below Average Games",
+   "genre": "Simulation",
+   "price": "$5",
+   "sale": false,
+   "short": "Ragdoll Sandbox",
+   "page": {
+    "rating_value": 4.7,
+    "rating_count": 6,
+    "tags": [
+     "3D",
+     "euphoria",
+     "Moddable",
+     "Multiplayer",
+     "ragdoll",
+     "Sandbox",
+     "Singleplayer",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Unreal Engine"
+    ],
+    "genre": [
+     "Simulation"
+    ],
+    "status": "In development",
+    "published": null,
+    "updated": null,
+    "session": "About a half-hour",
+    "comments": 44,
+    "devlog_latest": null,
+    "devlog_count": 0,
+    "steam_url": null,
+    "jam": [],
+    "nyop": false,
+    "price_text": null
+   }
+  },
+  "3953166": {
+   "id": 3953166,
+   "title": "JACKKNIFE",
+   "url": "https://llonelly.itch.io/jackknife",
+   "author": "llonelly",
+   "genre": "Visual Novel",
+   "sale": false,
+   "short": "Butch trucker takes you for a ride",
+   "platforms": [
+    "win",
+    "mac",
+    "linux"
+   ],
+   "page": {
+    "rating_value": 4.8,
+    "rating_count": 411,
+    "tags": [
+     "Horror",
+     "Lesbian",
+     "Yuri",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Ren'Py",
+     "Clip Studio Paint"
+    ],
+    "genre": [
+     "Visual Novel"
+    ],
+    "status": "Prototype",
+    "published": null,
+    "updated": null,
+    "session": "About a half-hour",
+    "comments": 270,
+    "devlog_latest": "2026-07-19",
+    "devlog_count": 1,
+    "steam_url": null,
+    "jam": [
+     "https://itch.io/jam/yuri-game-jam-2025"
+    ],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  },
+  "3311842": {
+   "id": 3311842,
+   "title": "Big Bad Dogs",
+   "url": "https://spar0w.itch.io/bigbaddogs",
+   "author": "spar0w",
+   "genre": "Visual Novel",
+   "sale": false,
+   "short": "Obedient. Wild. Possessive. What kind of dog are you feeding ?",
+   "platforms": [
+    "win",
+    "mac",
+    "linux",
+    "android"
+   ],
+   "page": {
+    "rating_value": 4.9,
+    "rating_count": 2311,
+    "tags": [
+     "Dating Sim",
+     "Female Protagonist",
+     "No AI",
+     "Psychological Horror",
+     "Romance",
+     "stalking",
+     "Yandere",
+     "No generative AI was used"
+    ],
+    "made_with": [
+     "Ren'Py"
+    ],
+    "genre": [
+     "Visual Novel"
+    ],
+    "status": "In development",
+    "published": null,
+    "updated": "2026-10-16",
+    "session": "About a half-hour",
+    "comments": 67,
+    "devlog_latest": "2026-10-16",
+    "devlog_count": 7,
+    "steam_url": null,
+    "jam": [],
+    "nyop": true,
+    "price_text": "Name your own price"
+   }
+  }
+ }
+}
