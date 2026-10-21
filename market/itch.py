@@ -50,6 +50,9 @@ def parse_cells(content):
             "sale": bool(re.search(r'class="sale_tag', body)),
             "short": _first(r'class="game_text">([^<]*)<', body),
             "platforms": platforms,
+            # 캡슐 썸네일(315x250)과 썸네일 바탕색. 리포트 카드 이미지와 이미지 없을 때의 색 블록에 씁니다.
+            "thumb": _first(r'class="game_thumb"[^>]*>.*?<img[^>]*data-lazy_src="([^"]*)"', body, re.S),
+            "thumb_bg": _first(r'<div[^>]*background-color:(#[0-9a-fA-F]{3,6})[^>]*class="game_thumb"', body),
         })
     return out
 

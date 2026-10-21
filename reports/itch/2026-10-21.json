@@ -41,6 +41,8 @@
     "https://ubaepeach.itch.io/diagnosis-lovesick"
    ]
   ],
+  "thumb": null,
+  "thumb_bg": null,
   "sub": "ubaepeach · Visual Novel · Ren'Py · 2D, Cute, No AI",
   "line": "New & Popular 9위 · 평점 96개 · 4.9★ · 댓글 80 · NYOP",
   "badges": [
@@ -79,6 +81,8 @@
         "신작",
         "웹"
        ],
+       "thumb": null,
+       "thumb_bg": null,
        "sub": "Alex · Simulation · 2D, Boss battle, chiptune"
       },
       {
@@ -89,6 +93,8 @@
         "신작",
         "웹"
        ],
+       "thumb": null,
+       "thumb_bg": null,
        "sub": "Just_look_ing · Card Game · Card Game, bbw, weight-gain"
       },
       {
@@ -101,6 +107,8 @@
         "Steam 있음",
         "웹"
        ],
+       "thumb": null,
+       "thumb_bg": null,
        "sub": "BigBonkStudio · Simulation · Card Game, 2D, Casual"
       }
      ]
@@ -115,6 +123,8 @@
        "badges": [
         "신작"
        ],
+       "thumb": null,
+       "thumb_bg": null,
        "sub": "NightmareWeaverz · Visual Novel · Clicker, Creepy, Dating Sim"
       },
       {
@@ -125,6 +135,8 @@
         "신작",
         "웹"
        ],
+       "thumb": null,
+       "thumb_bg": null,
        "sub": "Just_look_ing · Card Game · Card Game, bbw, weight-gain"
       },
       {
@@ -135,6 +147,8 @@
         "신작",
         "웹"
        ],
+       "thumb": null,
+       "thumb_bg": null,
        "sub": "Alex · Simulation · 2D, Boss battle, chiptune"
       }
      ]
@@ -346,6 +360,8 @@
         "신작",
         "Steam 있음"
        ],
+       "thumb": null,
+       "thumb_bg": null,
        "sub": "ZestosYt · Adventure · Creepy, Driving, Horror"
       },
       {
@@ -355,6 +371,8 @@
        "badges": [
         "신작"
        ],
+       "thumb": null,
+       "thumb_bg": null,
        "sub": "Protovision · Action · 2D, Commodore 64, Metroidvania"
       },
       {
@@ -364,6 +382,8 @@
        "badges": [
         "신작"
        ],
+       "thumb": null,
+       "thumb_bg": null,
        "sub": "Meant to Bee Studios · Visual Novel · Amare, Cute, Dating Sim"
       },
       {
@@ -374,6 +394,8 @@
         "In development",
         "신작"
        ],
+       "thumb": null,
+       "thumb_bg": null,
        "sub": "Mazell · Simulation · Educational, circuits, computer"
       },
       {
@@ -385,6 +407,8 @@
         "Unity",
         "Steam 있음"
        ],
+       "thumb": null,
+       "thumb_bg": null,
        "sub": "Placeholders · 3D, Black and White, blocks"
       }
      ]
@@ -7618,5 +7642,6 @@
   }
  ],
  "collect_line": "수집 목록 5/5 정상 · 모집단 314 · 본문 227 · 신작 103 · 페이지 실패 0",
+ "thumbs": {},
  "basis_line": "itch.io 목록 5개(New & Popular 108 · Top Sellers 108 · Popular 72 · Top Rated 72 · Newest 36) · 급상승 판정은 앞 3개 목록 · 신작 = 공개일 1년 이내 (공개일 미상은 집계 제외)"
 }

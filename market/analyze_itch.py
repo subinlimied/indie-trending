@@ -45,6 +45,7 @@ def build_records(cfg, date, snaps):
         free = _is_zero_price(price) and not p.get("nyop")
         rec = {
             "id": gid, "title": g.get("title") or gid, "url": g.get("url"), "author": g.get("author"),
+            "thumb": g.get("thumb"), "thumb_bg": g.get("thumb_bg"),
             "genre": (p.get("genre") or [g.get("genre")] or [None])[0], "tags": tags[:6],
             "made_with": [m for m in (p.get("made_with") or []) if m in ENGINES][:2],
             "price": price, "free": free, "nyop": bool(p.get("nyop")), "sale": bool(g.get("sale")),
@@ -153,6 +154,7 @@ def badges(r):
 
 def item(r, extra=None):
     return {"name": r["title"], "url": r["url"], "line": extra or line(r), "badges": badges(r),
+            "thumb": r.get("thumb"), "thumb_bg": r.get("thumb_bg"),
             "sub": " · ".join(x for x in (r["author"], r["genre"], ", ".join(r["tags"][:3])) if x)}
 
 
@@ -292,6 +294,7 @@ def analyze(cfg, date, data_dir, reports_dir):
         n_sel, since = state.bump("pick", pick["title"], date, prev_date)
         links = [("itch.io", pick["url"])] + ([("Steam", pick["steam_url"])] if pick["steam_url"] else [])
         pick_info = {"name": pick["title"], "url": pick["url"], "streak": n_sel, "since": since, "links": links,
+                     "thumb": pick.get("thumb"), "thumb_bg": pick.get("thumb_bg"),
                      "sub": " · ".join(x for x in (pick["author"], pick["genre"], ", ".join(pick["made_with"]), ", ".join(pick["tags"][:3])) if x),
                      "line": line(pick), "badges": badges(pick)}
     else:
@@ -318,4 +321,6 @@ def analyze(cfg, date, data_dir, reports_dir):
     return {"platform": "itch", "platform_ko": "itch.io", "date": date, "round": rn, "prev_date": prev_date,
             "status": status, "pick": pick_info, "headline": headline[:3], "notes": notes[:3],
             "sections": sections, "collect_line": collect_line,
+            # url → 썸네일. 03 예시처럼 링크만 있는 자리에서 렌더러가 이미지를 찾는 데 씁니다.
+            "thumbs": {r["url"]: {"src": r["thumb"], "bg": r["thumb_bg"]} for r in recs.values() if r["url"] and (r["thumb"] or r["thumb_bg"])},
             "basis_line": "itch.io 목록 5개(New & Popular 108 · Top Sellers 108 · Popular 72 · Top Rated 72 · Newest 36) · 급상승 판정은 앞 3개 목록 · 신작 = 공개일 1년 이내 (공개일 미상은 집계 제외)"}
