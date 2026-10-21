@@ -18,7 +18,9 @@ Steam과 itch.io에서 "소규모 팀이 만들 수 있는 게임"이 어떻게 
 
 ## 3. 모집단 (매일 수집하는 목록)
 
-### Steam (모두 Indie 태그 + 게임만, 미국 스토어 기준)
+### Steam (모두 Indie 태그 + 게임만, 글로벌 합성)
+
+Steam 검색 순위는 지역(cc)마다 크게 다르고 "전 세계" 값이 없으므로, Top Sellers · New & Trending · Popular Upcoming 은 7개 지역(US·CN·KR·JP·DE·BR·GB)에서 각각 받아 **지역별 순위 평균**(그 지역 목록에 없으면 목록 크기+1)으로 다시 줄 세운 합성 순위를 씁니다. New Releases 는 출시일 정렬이라 지역과 무관해 US 한 번만 받습니다. 이름·태그·가격(USD)은 US 응답 기준이고, 상세 표에 지역별 순위를 같이 보여 줍니다.
 | 목록 | 수 | 역할 |
 |---|---|---|
 | Top Sellers | 200 | 매출 순위 |
@@ -112,7 +114,7 @@ Steam과 itch.io는 **각각 별도 리포트** 로 냅니다. 공통 섹션 "�
 
 | 소스 | 쓰는 값 | 한계 |
 |---|---|---|
-| Steam 검색 JSON (`search/results/?infinite=1`) | 목록 순위, 이름, 태그, 가격, 할인 | 비공식, 구조 변경 가능 |
+| Steam 검색 JSON (`search/results/?infinite=1`) | 목록 순위(지역 7개 × 목록 3개 + New Releases), 이름, 태그, 가격, 할인 | 비공식, 구조 변경 가능. 글로벌 순위는 지역 평균 합성값 |
 | Steam `appreviews` | 리뷰 총수·긍정·부정 | 공식 |
 | Steam `GetNumberOfCurrentPlayers` | 현재 동접 | 공식, 수집 시각 의존 |
 | Steam `appdetails` | 출시일, 개발사, 퍼블리셔, 장르, 데모 | 분당 호출 제한 → 메타는 캐시 |

@@ -49,7 +49,7 @@ market/steam.py, itch.py            수집기
 market/analyze_steam.py, analyze_itch.py   판정·섹션 구성
 market/render.py                    Discord 본문(markdown)과 HTML
 market/common.py, http.py           공통 (스냅샷 로드, 회차 상태, 재시도 HTTP)
-config.json                         목록 크기, 본문 포함 조건, 대형 퍼블리셔 목록
+config.json                         목록 크기, Steam 합성 지역(regions), 본문 포함 조건, 대형 퍼블리셔 목록
 data/<platform>/<date>.json         일간 스냅샷 (지우지 않음), data/cache/ 는 Steam 메타 캐시
 reports/<platform>/<date>.*         리포트, state.json 은 연속 선정 회차 기록
 ```

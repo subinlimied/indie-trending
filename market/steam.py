@@ -84,6 +84,42 @@ def fetch_list(filter_name, want, cc, indie_tag, log):
     return out[:want]
 
 
+REGIONAL = ("topsellers", "popularnew", "comingsoon")  # 지역마다 순위가 다른 목록. New Releases 는 출시일 정렬이라 지역 무관.
+
+
+def merge_regions(per_region, want, primary):
+    """지역별 목록 → 글로벌 합성 목록.
+
+    합집합을 만들고 각 앱의 지역별 순위 평균(그 지역 목록에 없으면 목록 크기+1)으로 오름차순 정렬해 1..want 를 매깁니다.
+    이름·태그·가격은 primary(us) 행에서, 없으면 다른 지역 행에서 가져오되 가격은 USD 가 아닐 수 있어 비웁니다.
+    """
+    size = max((len(rows) for rows in per_region.values()), default=0)
+    by_app = {}
+    for rg, rows in per_region.items():
+        for r in rows:
+            e = by_app.setdefault(r["appid"], {"regions": {}, "rows": {}})
+            e["regions"][rg] = r["rank"]
+            e["rows"][rg] = r
+    out = []
+    for appid, e in by_app.items():
+        avg = sum(e["regions"].get(rg, size + 1) for rg in per_region) / len(per_region)
+        if primary in e["rows"]:
+            row = dict(e["rows"][primary])
+        else:
+            row = dict(next(iter(e["rows"].values())))
+            row["price_final"] = None
+            row["price_original"] = None
+        row["regions"] = e["regions"]
+        row["_avg"] = avg
+        out.append(row)
+    out.sort(key=lambda r: (r["_avg"], min(r["regions"].values()), r["appid"]))
+    out = out[:want]
+    for i, r in enumerate(out, 1):
+        r["rank"] = i
+        r.pop("_avg")
+    return out
+
+
 def fetch_reviews(appid):
     d = get_json(REVIEWS.format(appid=appid), {
         "json": 1, "language": "all", "purchase_type": "all", "num_per_page": 0, "filter": "all",
@@ -165,18 +201,32 @@ def collect(cfg, date, data_dir: Path, log=print):
     cache_path = data_dir / "cache" / "steam_meta.json"
     cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
 
-    log("[steam] 목록 수집")
+    regions = [r.lower() for r in (cfg.get("regions") or [cc])]
+    log(f"[steam] 목록 수집 (지역 {len(regions)}개: {' '.join(regions)})")
     lists, apps = {}, {}
     for name, want in cfg["lists"].items():
-        rows = fetch_list(name, want, cc, tag, log)
-        log(f"  {name}: {len(rows)}개")
+        if name in REGIONAL and len(regions) > 1:
+            per_region = {}
+            for i, rg in enumerate(regions):
+                if i:
+                    time.sleep(0.8)
+                rows = fetch_list(name, want, rg, tag, log)
+                if rows:
+                    per_region[rg] = rows
+                else:
+                    log(f"  {name} {rg}: 0행, 합성에서 제외")
+            rows = merge_regions(per_region, want, cc) if per_region else []
+            log(f"  {name}: 합성 {len(rows)}개 (지역별 " + " ".join(f"{rg} {len(v)}" for rg, v in per_region.items()) + ")")
+        else:
+            rows = fetch_list(name, want, cc, tag, log)
+            log(f"  {name}: {len(rows)}개")
         if len(rows) < min(want, 20):
             raise RuntimeError(f"[steam] 목록 {name} 이 {len(rows)}행뿐입니다. 스냅샷을 저장하지 않습니다.")
-        lists[name] = [{"rank": r["rank"], "appid": r["appid"]} for r in rows]
+        lists[name] = [{"rank": r["rank"], "appid": r["appid"], **({"regions": r["regions"]} if r.get("regions") else {})} for r in rows]
         for r in rows:
             a = apps.setdefault(r["appid"], {})
             for k, v in r.items():
-                if k != "rank" and v is not None:
+                if k not in ("rank", "regions") and v is not None:
                     a[k] = v
 
     # 최근 14일 안에 목록에 있었던 앱도 계속 추적
@@ -252,7 +302,7 @@ def collect(cfg, date, data_dir: Path, log=print):
     return {
         "platform": "steam", "date": date,
         "collected_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "params": {"cc": cc, "indie_tag": tag, "lists": cfg["lists"]},
+        "params": {"cc": cc, "regions": regions, "indie_tag": tag, "lists": cfg["lists"]},
         "lists": lists,
         "failed": [list(f) for f in failed],
         "apps": {str(k): v for k, v in apps.items()},

@@ -1,6 +1,15 @@
 {
   "steam": {
     "cc": "us",
+    "regions": [
+      "us",
+      "cn",
+      "kr",
+      "jp",
+      "de",
+      "br",
+      "gb"
+    ],
     "indie_tag": 492,
     "lists": {
       "topsellers": 200,
@@ -13,7 +22,10 @@
     "max_reviews": 50000,
     "max_age_years": 3,
     "new_release_days": 365,
-    "review_multiplier": {"under_1y": 30, "under_3y": 40},
+    "review_multiplier": {
+      "under_1y": 30,
+      "under_3y": 40
+    },
     "big_publishers": []
   },
   "itch": {
@@ -24,6 +36,8 @@
       "top-rated": 2,
       "newest": 1
     },
-    "exclude_tags": ["adult"]
+    "exclude_tags": [
+      "adult"
+    ]
   }
 }

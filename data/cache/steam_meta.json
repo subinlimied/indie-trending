@@ -7316,5 +7316,1065 @@
   "has_demo": false,
   "recommendations": null,
   "fetched": "2026-10-21"
+ },
+ "3590": {
+  "name": "Plants vs. Zombies GOTY Edition",
+  "type": "game",
+  "release_date_raw": "May 5, 2009",
+  "release_date": "2009-05-05",
+  "coming_soon": false,
+  "developers": [
+   "PopCap Games, Inc."
+  ],
+  "publishers": [
+   "PopCap Games, Inc.",
+   "Electronic Arts"
+  ],
+  "genres": [
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 499,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 144370,
+  "fetched": "2026-10-21"
+ },
+ "206440": {
+  "name": "To the Moon",
+  "type": "game",
+  "release_date_raw": "Sep 7, 2012",
+  "release_date": "2012-09-07",
+  "coming_soon": false,
+  "developers": [
+   "Freebird Games"
+  ],
+  "publishers": [
+   "Freebird Games",
+   "Serenity Forge"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "RPG"
+  ],
+  "is_free": false,
+  "price_initial": 999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 69929,
+  "fetched": "2026-10-21"
+ },
+ "303310": {
+  "name": "The House in Fata Morgana",
+  "type": "game",
+  "release_date_raw": "May 13, 2016",
+  "release_date": "2016-05-13",
+  "coming_soon": false,
+  "developers": [
+   "NOVECT"
+  ],
+  "publishers": [
+   "MangaGamer"
+  ],
+  "genres": [
+   "Adventure"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 6157,
+  "fetched": "2026-10-21"
+ },
+ "311690": {
+  "name": "Enter the Gungeon",
+  "type": "game",
+  "release_date_raw": "Apr 5, 2016",
+  "release_date": "2016-04-05",
+  "coming_soon": false,
+  "developers": [
+   "Dodge Roll"
+  ],
+  "publishers": [
+   "Devolver Digital"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 1499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 79588,
+  "fetched": "2026-10-21"
+ },
+ "410340": {
+  "name": "Liftoff®: FPV Drone Racing",
+  "type": "game",
+  "release_date_raw": "Sep 13, 2018",
+  "release_date": "2018-09-13",
+  "coming_soon": false,
+  "developers": [
+   "LuGus Studios"
+  ],
+  "publishers": [
+   "LuGus Studios"
+  ],
+  "genres": [
+   "Indie",
+   "Racing",
+   "Simulation",
+   "Sports"
+  ],
+  "is_free": false,
+  "price_initial": 1999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 13814,
+  "fetched": "2026-10-21"
+ },
+ "477160": {
+  "name": "Human Fall Flat",
+  "type": "game",
+  "release_date_raw": "Jul 22, 2016",
+  "release_date": "2016-07-22",
+  "coming_soon": false,
+  "developers": [
+   "No Brakes Games"
+  ],
+  "publishers": [
+   "Curve Games"
+  ],
+  "genres": [
+   "Adventure",
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 1999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 175527,
+  "fetched": "2026-10-21"
+ },
+ "568220": {
+  "name": "Lobotomy Corporation | Monster Management Simulation",
+  "type": "game",
+  "release_date_raw": "Apr 9, 2018",
+  "release_date": "2018-04-09",
+  "coming_soon": false,
+  "developers": [
+   "ProjectMoon"
+  ],
+  "publishers": [
+   "ProjectMoon"
+  ],
+  "genres": [
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 53380,
+  "fetched": "2026-10-21"
+ },
+ "625960": {
+  "name": "Stoneshard",
+  "type": "game",
+  "release_date_raw": "Feb 6, 2020",
+  "release_date": "2020-02-06",
+  "coming_soon": false,
+  "developers": [
+   "Ink Stains Games"
+  ],
+  "publishers": [
+   "HypeTrain Digital"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "RPG",
+   "Strategy",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 34416,
+  "fetched": "2026-10-21"
+ },
+ "632470": {
+  "name": "Disco Elysium - The Final Cut",
+  "type": "game",
+  "release_date_raw": "Oct 15, 2019",
+  "release_date": "2019-10-15",
+  "coming_soon": false,
+  "developers": [
+   "ZA/UM"
+  ],
+  "publishers": [
+   "ZA/UM"
+  ],
+  "genres": [
+   "RPG"
+  ],
+  "is_free": false,
+  "price_initial": 3999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 119022,
+  "fetched": "2026-10-21"
+ },
+ "728880": {
+  "name": "Overcooked! 2",
+  "type": "game",
+  "release_date_raw": "Aug 7, 2018",
+  "release_date": "2018-08-07",
+  "coming_soon": false,
+  "developers": [
+   "Ghost Town Games Ltd.",
+   "Team17"
+  ],
+  "publishers": [
+   "Team17"
+  ],
+  "genres": [
+   "Action",
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 62543,
+  "fetched": "2026-10-21"
+ },
+ "774361": {
+  "name": "Blasphemous",
+  "type": "game",
+  "release_date_raw": "Sep 10, 2019",
+  "release_date": "2019-09-10",
+  "coming_soon": false,
+  "developers": [
+   "The Game Kitchen"
+  ],
+  "publishers": [
+   "Team17"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 3499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 55380,
+  "fetched": "2026-10-21"
+ },
+ "809230": {
+  "name": "Unity of Command II",
+  "type": "game",
+  "release_date_raw": "Nov 12, 2019",
+  "release_date": "2019-11-12",
+  "coming_soon": false,
+  "developers": [
+   "2x2 Games",
+   "Croteam"
+  ],
+  "publishers": [
+   "2x2 Games"
+  ],
+  "genres": [
+   "Indie",
+   "Simulation",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 2999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 2066,
+  "fetched": "2026-10-21"
+ },
+ "977950": {
+  "name": "A Dance of Fire and Ice",
+  "type": "game",
+  "release_date_raw": "Jan 24, 2019",
+  "release_date": "2019-01-24",
+  "coming_soon": false,
+  "developers": [
+   "7th Beat Games"
+  ],
+  "publishers": [
+   "7th Beat Games",
+   "indienova"
+  ],
+  "genres": [
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 599,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 79373,
+  "fetched": "2026-10-21"
+ },
+ "979110": {
+  "name": "Space Haven",
+  "type": "game",
+  "release_date_raw": "May 13, 2026",
+  "release_date": "2026-05-13",
+  "coming_soon": false,
+  "developers": [
+   "Bugbyte Ltd."
+  ],
+  "publishers": [
+   "Bugbyte Ltd."
+  ],
+  "genres": [
+   "Indie",
+   "RPG",
+   "Simulation",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 10373,
+  "fetched": "2026-10-21"
+ },
+ "1049590": {
+  "name": "Eternal Return",
+  "type": "game",
+  "release_date_raw": "Jul 19, 2023",
+  "release_date": "2023-07-19",
+  "coming_soon": false,
+  "developers": [
+   "Nimble Neuron"
+  ],
+  "publishers": [
+   "Nimble Neuron",
+   "SapStaR Games",
+   "KRAFTON, Inc."
+  ],
+  "genres": [],
+  "is_free": true,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": 112,
+  "fetched": "2026-10-21"
+ },
+ "1066890": {
+  "name": "Automobilista 2",
+  "type": "game",
+  "release_date_raw": "Jun 30, 2020",
+  "release_date": "2020-06-30",
+  "coming_soon": false,
+  "developers": [
+   "Reiza Studios"
+  ],
+  "publishers": [
+   "Reiza Studios"
+  ],
+  "genres": [
+   "Action",
+   "Indie",
+   "Racing",
+   "Simulation",
+   "Sports"
+  ],
+  "is_free": false,
+  "price_initial": 3999,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 12167,
+  "fetched": "2026-10-21"
+ },
+ "1139980": {
+  "name": "Travellers Rest",
+  "type": "game",
+  "release_date_raw": "Jul 28, 2020",
+  "release_date": "2020-07-28",
+  "coming_soon": false,
+  "developers": [
+   "Isolated Games"
+  ],
+  "publishers": [
+   "Isolated Games",
+   "IndieArk"
+  ],
+  "genres": [
+   "Adventure",
+   "Casual",
+   "Indie",
+   "RPG",
+   "Simulation",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": 1799,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 16689,
+  "fetched": "2026-10-21"
+ },
+ "1256670": {
+  "name": "Library Of Ruina",
+  "type": "game",
+  "release_date_raw": "Aug 10, 2021",
+  "release_date": "2021-08-10",
+  "coming_soon": false,
+  "developers": [
+   "ProjectMoon"
+  ],
+  "publishers": [
+   "ProjectMoon"
+  ],
+  "genres": [
+   "Indie",
+   "RPG",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 2999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 41311,
+  "fetched": "2026-10-21"
+ },
+ "1274570": {
+  "name": "DEVOUR",
+  "type": "game",
+  "release_date_raw": "Jan 28, 2021",
+  "release_date": "2021-01-28",
+  "coming_soon": false,
+  "developers": [
+   "Straight Back Games"
+  ],
+  "publishers": [
+   "Straight Back Games"
+  ],
+  "genres": [
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 68908,
+  "fetched": "2026-10-21"
+ },
+ "1859910": {
+  "name": "Legend of Mortal",
+  "type": "game",
+  "release_date_raw": "Jun 14, 2024",
+  "release_date": "2024-06-14",
+  "coming_soon": false,
+  "developers": [
+   "Obb Studio Inc."
+  ],
+  "publishers": [
+   "Paras Games",
+   "Obb Studio Inc."
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "RPG",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 1999,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 34102,
+  "fetched": "2026-10-21"
+ },
+ "1948280": {
+  "name": "Stacklands",
+  "type": "game",
+  "release_date_raw": "Apr 8, 2022",
+  "release_date": "2022-04-08",
+  "coming_soon": false,
+  "developers": [
+   "Sokpop Collective"
+  ],
+  "publishers": [
+   "Sokpop Collective"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 799,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 29424,
+  "fetched": "2026-10-21"
+ },
+ "2273430": {
+  "name": "BlazBlue Entropy Effect",
+  "type": "game",
+  "release_date_raw": "Feb 14, 2024",
+  "release_date": "2024-02-14",
+  "coming_soon": false,
+  "developers": [
+   "91Act"
+  ],
+  "publishers": [
+   "91Act",
+   "Astrolabe Games"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 1999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 30826,
+  "fetched": "2026-10-21"
+ },
+ "2445690": {
+  "name": "Lost Castle 2",
+  "type": "game",
+  "release_date_raw": "Jun 10, 2026",
+  "release_date": "2026-06-10",
+  "coming_soon": false,
+  "developers": [
+   "Hunter Studio"
+  ],
+  "publishers": [
+   "Hunter Studio"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "RPG"
+  ],
+  "is_free": false,
+  "price_initial": 1799,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 11091,
+  "fetched": "2026-10-21"
+ },
+ "2622000": {
+  "name": "Astral Party ",
+  "type": "game",
+  "release_date_raw": "Feb 28, 2024",
+  "release_date": "2024-02-28",
+  "coming_soon": false,
+  "developers": [
+   "STAR ENGINE PROJECT"
+  ],
+  "publishers": [
+   "Neverland Entertainment"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "RPG",
+   "Strategy"
+  ],
+  "is_free": true,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-21"
+ },
+ "2634950": {
+  "name": "Tokyo Xtreme Racer",
+  "type": "game",
+  "release_date_raw": "Sep 24, 2025",
+  "release_date": "2025-09-24",
+  "coming_soon": false,
+  "developers": [
+   "Genki Co., Ltd."
+  ],
+  "publishers": [
+   "Genki Co., Ltd."
+  ],
+  "genres": [
+   "Racing",
+   "RPG"
+  ],
+  "is_free": false,
+  "price_initial": 4999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 15420,
+  "fetched": "2026-10-21"
+ },
+ "2696050": {
+  "name": "Yarimono",
+  "type": "game",
+  "release_date_raw": "Aug 30, 2024",
+  "release_date": "2024-08-30",
+  "coming_soon": false,
+  "developers": [
+   "にゅう工房"
+  ],
+  "publishers": [
+   "072 Project",
+   "072 News"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "RPG"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 4043,
+  "fetched": "2026-10-21"
+ },
+ "2712460": {
+  "name": "DUNGEON SLASHER",
+  "type": "game",
+  "release_date_raw": "Jul 16, 2026",
+  "release_date": "2026-07-16",
+  "coming_soon": false,
+  "developers": [
+   "96Percent"
+  ],
+  "publishers": [
+   "96Percent"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "Free To Play"
+  ],
+  "is_free": true,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-21"
+ },
+ "2725250": {
+  "name": "Nientum - Op.ZERO",
+  "type": "game",
+  "release_date_raw": "Oct 13, 2026",
+  "release_date": "2026-10-13",
+  "coming_soon": false,
+  "developers": [
+   "QueseraGames"
+  ],
+  "publishers": [
+   "QueseraGames"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Casual",
+   "Indie",
+   "RPG",
+   "Simulation",
+   "Sports"
+  ],
+  "is_free": false,
+  "price_initial": 1999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 255,
+  "fetched": "2026-10-21"
+ },
+ "2737070": {
+  "name": "Crime Simulator",
+  "type": "game",
+  "release_date_raw": "Jun 17, 2025",
+  "release_date": "2025-06-17",
+  "coming_soon": false,
+  "developers": [
+   "CookieDev"
+  ],
+  "publishers": [
+   "Ultimate Games S.A.",
+   "PlayWay S.A."
+  ],
+  "genres": [
+   "Action",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 1499,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 6457,
+  "fetched": "2026-10-21"
+ },
+ "2827200": {
+  "name": "MIMESIS",
+  "type": "game",
+  "release_date_raw": "Oct 27, 2025",
+  "release_date": "2025-10-27",
+  "coming_soon": false,
+  "developers": [
+   "ReLU Games, Inc."
+  ],
+  "publishers": [
+   "ReLU Games, Inc.",
+   "KRAFTON, Inc."
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Casual",
+   "Indie",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": 999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 8548,
+  "fetched": "2026-10-21"
+ },
+ "3101040": {
+  "name": "Magical Girl Witch Trials",
+  "type": "game",
+  "release_date_raw": "Jul 18, 2025",
+  "release_date": "2025-07-18",
+  "coming_soon": false,
+  "developers": [
+   "Acacia",
+   "Re,AER"
+  ],
+  "publishers": [
+   "Re,AER",
+   "CIRCLE LINE GAMES"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 2999,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 30659,
+  "fetched": "2026-10-21"
+ },
+ "3208930": {
+  "name": "Galvatein : Adventurers' Guild",
+  "type": "game",
+  "release_date_raw": "Sep 22, 2026",
+  "release_date": "2026-09-22",
+  "coming_soon": false,
+  "developers": [
+   "BLANBEE"
+  ],
+  "publishers": [
+   "GRAVITY"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": 1399,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 749,
+  "fetched": "2026-10-21"
+ },
+ "3299050": {
+  "name": "No Such Place",
+  "type": "game",
+  "release_date_raw": "Oct 13, 2026",
+  "release_date": "2026-10-13",
+  "coming_soon": false,
+  "developers": [
+   "ChillyRoom",
+   "CritTeam 暴击组"
+  ],
+  "publishers": [
+   "ChillyRoom",
+   "LoongGate"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": 1799,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 494,
+  "fetched": "2026-10-21"
+ },
+ "3314790": {
+  "name": "CloverPit",
+  "type": "game",
+  "release_date_raw": "Sep 26, 2025",
+  "release_date": "2025-09-26",
+  "coming_soon": false,
+  "developers": [
+   "Panik Arcade"
+  ],
+  "publishers": [
+   "Future Friends Games"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "Simulation",
+   "Sports",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 999,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 25164,
+  "fetched": "2026-10-21"
+ },
+ "3971950": {
+  "name": "In Falsus",
+  "type": "game",
+  "release_date_raw": "Sep 9, 2026",
+  "release_date": "2026-09-09",
+  "coming_soon": false,
+  "developers": [
+   "lowiro"
+  ],
+  "publishers": [
+   "lowiro"
+  ],
+  "genres": [
+   "Action",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 3999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 1294,
+  "fetched": "2026-10-21"
+ },
+ "4148240": {
+  "name": "Road to Empress Ⅱ",
+  "type": "game",
+  "release_date_raw": "Jun 8, 2026",
+  "release_date": "2026-06-08",
+  "coming_soon": false,
+  "developers": [
+   " New One Studio"
+  ],
+  "publishers": [
+   " New One Studio",
+   "Ariel"
+  ],
+  "genres": [
+   "Adventure",
+   "Casual",
+   "Indie",
+   "RPG",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 1800,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 7982,
+  "fetched": "2026-10-21"
+ },
+ "4259190": {
+  "name": "Kingdom Rush 6: Genesis TD",
+  "type": "game",
+  "release_date_raw": "Sep 24, 2026",
+  "release_date": "2026-09-24",
+  "coming_soon": false,
+  "developers": [
+   "Ironhide Game Studio"
+  ],
+  "publishers": [
+   "Ironhide Game Studio"
+  ],
+  "genres": [
+   "Action",
+   "Indie",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 1999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 4702,
+  "fetched": "2026-10-21"
+ },
+ "4559140": {
+  "name": "Godius Eternal War",
+  "type": "game",
+  "release_date_raw": "Jun 27, 2026",
+  "release_date": "2026-06-27",
+  "coming_soon": false,
+  "developers": [
+   "playinworld"
+  ],
+  "publishers": [
+   "playinworld"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "Massively Multiplayer",
+   "RPG",
+   "Free To Play"
+  ],
+  "is_free": true,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-21"
+ },
+ "4771580": {
+  "name": "Five Nights with Maids",
+  "type": "game",
+  "release_date_raw": "Oct 16, 2026",
+  "release_date": "2026-10-16",
+  "coming_soon": false,
+  "developers": [
+   "Now"
+  ],
+  "publishers": [
+   "Saikey Studios"
+  ],
+  "genres": [
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 699,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 102,
+  "fetched": "2026-10-21"
+ },
+ "4800590": {
+  "name": "Supermarket Chaos",
+  "type": "game",
+  "release_date_raw": "Jun 29, 2026",
+  "release_date": "2026-06-29",
+  "coming_soon": false,
+  "developers": [
+   "BunnyHop"
+  ],
+  "publishers": [
+   "BunnyHopHome"
+  ],
+  "genres": [
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 3679,
+  "fetched": "2026-10-21"
+ },
+ "5020310": {
+  "name": "Dub Together",
+  "type": "game",
+  "release_date_raw": "Sep 1, 2026",
+  "release_date": "2026-09-01",
+  "coming_soon": false,
+  "developers": [
+   "Banani"
+  ],
+  "publishers": [
+   "Banani"
+  ],
+  "genres": [
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 606,
+  "fetched": "2026-10-21"
+ },
+ "5044770": {
+  "name": "The Death Game Report",
+  "type": "game",
+  "release_date_raw": "Sep 1, 2026",
+  "release_date": "2026-09-01",
+  "coming_soon": false,
+  "developers": [
+   "shu3"
+  ],
+  "publishers": [
+   "shu3"
+  ],
+  "genres": [
+   "Adventure",
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 399,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 2128,
+  "fetched": "2026-10-21"
+ },
+ "5245810": {
+  "name": "ForgeTax",
+  "type": "game",
+  "release_date_raw": "Sep 29, 2026",
+  "release_date": "2026-09-29",
+  "coming_soon": false,
+  "developers": [
+   "GraveYardDev"
+  ],
+  "publishers": [
+   "GraveYardDev"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 299,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 1124,
+  "fetched": "2026-10-21"
  }
 }

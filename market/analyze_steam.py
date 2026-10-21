@@ -264,6 +264,14 @@ def analyze(cfg, date, data_dir, reports_dir):
 
     # ---- 06 상세
     tables = []
+    regions = (snaps[-1][1].get("params") or {}).get("regions") or []
+
+    def region_cell(row):
+        rg = row.get("regions")
+        if not rg:
+            return "—"
+        return " · ".join(f"{k} {rg.get(k, '—')}" for k in (regions or sorted(rg)))
+
     for ln in ("popularnew", "topsellers", "comingsoon", "newreleases"):
         rows = []
         for row in snaps[-1][1]["lists"].get(ln, []):
@@ -271,6 +279,7 @@ def analyze(cfg, date, data_dir, reports_dir):
             p = r["prev_ranks"].get(ln)
             rows.append([
                 f"{row['rank']}" + (f" ({p}→)" if p and p != row["rank"] else ""),
+                region_cell(row),
                 f"[{r['name']}]({r['url']})" + ("" if r["included"] else " ⊘"),
                 r["dev"] or "—", r["release_date"] or ("출시 예정" if r["coming_soon"] else "—"),
                 ("무료" if r["price_initial"] == 0 else fmt_usd(r["price_initial"])) + (f" −{r['discount']}%" if r["discount"] else ""),
@@ -280,7 +289,7 @@ def analyze(cfg, date, data_dir, reports_dir):
                 ", ".join(r["tags"][:3]), r["verdict"] + (" · " + ", ".join(r["excl"]) if r["excl"] else ""),
             ])
         tables.append({"title": f"{LIST_KO[ln]} ({len(rows)}행)",
-                       "cols": ["#", "게임", "개발사", "출시", "가격", "리뷰 (1일)", f"{n7}일", "동접", "오너 구간", "추정 판매", "태그", "판정"],
+                       "cols": ["#", "지역 순위", "게임", "개발사", "출시", "가격", "리뷰 (1일)", f"{n7}일", "동접", "오너 구간", "추정 판매", "태그", "판정"],
                        "rows": rows})
     tracked = [r for r in recs.values() if r["tracked_only"]]
     if tracked:
@@ -334,7 +343,9 @@ def analyze(cfg, date, data_dir, reports_dir):
     collect_line = (f"수집 목록 {n_lists_ok}/{len(snaps[-1][1]['lists'])} 정상 · 모집단 {len(recs)} · 본문 포함 {len(body)} · 신작 {n_new} · 제외 {len(recs) - len(inc)}"
                     + (f" · API 실패 {n_fail}건" if n_fail else ""))
     state.save()
+    region_line = (f"글로벌 합성({len(regions)}개 지역 평균 순위: {'·'.join(r.upper() for r in regions)}) · 가격 USD"
+                   if len(regions) > 1 else "미국 스토어")
     return {"platform": "steam", "platform_ko": "Steam 인디", "date": date, "round": rn, "prev_date": prev_date,
             "status": status, "pick": pick_info, "headline": headline[:3], "notes": notes[:3],
             "sections": sections, "collect_line": collect_line,
-            "basis_line": f"Steam 검색 · Indie 태그 · 미국 스토어 · 목록 4개(Top Sellers 200 · New & Trending · Popular Upcoming 100 · New Releases 100) · 본문 포함 = 정가 ${cfg['max_price_usd']} 이하 · 3년 이내 · 리뷰 {fmt_int(cfg['max_reviews'])} 미만 · 신작 = 1년 이내"}
+            "basis_line": f"Steam 검색 · Indie 태그 · {region_line} · 목록 4개(Top Sellers 200 · New & Trending · Popular Upcoming 100 · New Releases 100) · 본문 포함 = 정가 ${cfg['max_price_usd']} 이하 · 3년 이내 · 리뷰 {fmt_int(cfg['max_reviews'])} 미만 · 신작 = 1년 이내"}
