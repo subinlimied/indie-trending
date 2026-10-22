@@ -621,3 +621,226 @@ def to_html(rep):
 {secs}
 <footer>{esc(rep['collect_line'])} · 생성 {datetime.now().strftime('%Y-%m-%d %H:%M')}<br>모든 판매·매출 숫자는 추정치이며 게임 간 비교 용도입니다.</footer>
 </div></body></html>"""
+
+
+# ====================================================================
+# Discord 임베드·이미지 카드용 (notify.py, cards.py). to_md / to_html 은 건드리지 않습니다.
+# ====================================================================
+
+STEAM_HEADER = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/{appid}/header.jpg"
+
+
+def strip_links(s):
+    """'[이름](주소)' → '이름'. 이미지 카드처럼 링크가 의미 없는 곳에 씁니다."""
+    return LINK.sub(r"\1", s or "")
+
+
+def thumb_url(url, rep, it=None):
+    """Discord 임베드에 넣을 이미지 주소 하나. itch 는 분석기가 넘긴 thumb, Steam 은 header.jpg."""
+    if it and it.get("thumb"):
+        return it["thumb"]
+    t = (rep.get("thumbs") or {}).get(url) or {}
+    if t.get("src"):
+        return t["src"]
+    m = STEAM_APP.search(url or "")
+    return STEAM_HEADER.format(appid=m.group(1)) if m else ""
+
+
+def pick_tiles(p):
+    """선정 게임 line → [(라벨, 값, 비고)] 핵심 수치 타일. pick_html 과 같은 규칙."""
+    hero, cap, _, rest = key_metric(p.get("line", ""))
+    tiles = []
+    if hero:
+        lab, _, note = cap.partition(" · ")
+        tiles.append((lab, hero, note))
+    for seg in rest:
+        lab, val, note = seg_tile(seg)
+        if lab:
+            tiles.append((lab, val, "변화 없음" if note == "0" else note))
+    return tiles
+
+
+RX_LABELED = re.compile(r"^(.+?) ([+−]\d[\d,.]*%?)(?: \((.+?)\))?$")
+
+
+def headline_info(text):
+    """큰 폭 변화 한 줄 → dict(name, url, hero, cap, dirn, rest). 첫 조각의 링크를 떼고 나머지를 key_metric 으로 읽습니다."""
+    segs = split_dots(text)
+    first, rest = (segs[0] if segs else ""), segs[1:]
+    m = LINK.search(first)
+    if m:
+        name, url = m.group(1), m.group(2)
+        metric = (first[:m.start()] + first[m.end():]).strip()
+    else:
+        name, url, metric = first, "", ""
+    hero, cap, dirn, rest2 = key_metric(" · ".join([metric] + rest) if metric else " · ".join(rest))
+    if not hero and metric:
+        m = RX_LABELED.match(metric)
+        if m:
+            hero, cap, dirn, rest2 = m.group(2), m.group(1) + (f" ({m.group(3)})" if m.group(3) else ""), direction(m.group(2)), rest
+    if not metric and not hero:
+        rest2 = rest
+    return {"name": name, "url": url, "hero": hero, "cap": cap, "dirn": dirn, "rest": rest2}
+
+
+def tag_top(rep, n=3):
+    """03 섹션의 첫 태그 표에서 위 n 줄 → (섹션 제목, 열 이름, [(이름, 개수 문구, 전체 비율, 배율, [(예시 이름, 주소)])])."""
+    for s in rep.get("sections") or []:
+        for t in s.get("tables") or []:
+            if is_tag_table(t) and t["rows"]:
+                rows = [(r[0], r[1], r[2], r[3], LINK.findall(r[4] if len(r) > 4 else "")) for r in t["rows"][:n]]
+                return s["title"], t["cols"][0], rows
+    return None
+
+
+# ---------- 이미지 카드 (1080×1350, 라이트 단일 테마) ----------
+
+CARD_CSS = """
+*{box-sizing:border-box}
+html,body{margin:0;width:1080px;height:1350px;overflow:hidden}
+body{background:#F3F4F7;color:#14161C;font-family:"IBM Plex Sans KR","Apple SD Gothic Neo","Noto Sans CJK KR","Noto Sans KR","Malgun Gothic",sans-serif;
+font-size:32px;line-height:1.45;-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:anywhere}
+.card{width:1080px;height:1350px;padding:70px 72px 52px;display:flex;flex-direction:column;position:relative;background:linear-gradient(180deg,#FFFFFF 0%,#F4F5F9 100%)}
+.card::before{content:"";position:absolute;left:0;top:0;right:0;height:18px;background:#33409E}
+.top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.eyebrow{font-size:26px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#33409E}
+.page{font-size:26px;color:#8891A0;font-variant-numeric:tabular-nums}
+h1{font-size:62px;line-height:1.15;margin:0;font-weight:700;letter-spacing:-.015em}
+.date{font-size:34px;color:#4E5768;margin:6px 0 0}
+.body{flex:1;min-height:0;display:flex;flex-direction:column;margin-top:34px}
+.lbl{font-size:26px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#4E5768;margin:0 0 16px}
+.foot{margin-top:auto;padding-top:22px;border-top:2px solid #DDE1E8;font-size:24px;color:#8891A0;display:flex;justify-content:space-between;gap:24px}
+.foot span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.up{color:#146C43}.down{color:#B3261E}
+.empty{color:#8891A0;font-size:34px;margin:40px 0}
+.th{display:block;border-radius:16px;background-color:hsl(var(--h,220) 48% 74%);background-size:cover;background-position:center;background-repeat:no-repeat;flex:none;aspect-ratio:616/353;width:800px;box-shadow:0 10px 30px rgba(20,22,28,.14)}
+.hero{display:flex;justify-content:center}
+body.itch .th{aspect-ratio:315/250;width:500px}
+.body>*{flex:none}
+.th.sm{width:300px;border-radius:12px;box-shadow:0 4px 14px rgba(20,22,28,.12)}body.itch .th.sm{width:190px}
+.th.xs{width:190px;border-radius:10px;box-shadow:none}body.itch .th.xs{width:140px}
+/* 표지 */
+.name{font-size:56px;line-height:1.2;font-weight:700;margin:30px 0 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sub{font-size:30px;color:#4E5768;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.badge{font-size:26px;font-weight:500;line-height:1.5;padding:4px 18px;border:2px solid #BFC6D1;border-radius:999px;color:#4E5768;white-space:nowrap}
+.badge.new{color:#146C43;border-color:transparent;background:#E3F3E9}.badge.excl{color:#B3261E;border-color:transparent;background:#FBEAE8}
+.badge.disc{color:#7F5A00;border-color:transparent;background:#FBF1DC}.badge.acc{color:#33409E;border-color:transparent;background:#EBEDF9}
+.tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:30px}
+.tile{background:#FFFFFF;border:2px solid #DDE1E8;border-radius:16px;padding:20px 24px 18px;min-width:0;margin:0}
+.tile dt{font-size:26px;color:#4E5768;margin:0 0 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile dd{margin:0;font-size:58px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile dd small{display:block;font-size:26px;font-weight:500;color:#4E5768;margin-top:6px;letter-spacing:0}
+/* 큰 폭 변화 */
+.row{display:grid;grid-template-columns:auto minmax(0,1fr);gap:30px;align-items:center;padding:30px 0;border-top:2px solid #DDE1E8}
+.row:first-child{border-top:0;padding-top:10px}
+.rb{min-width:0;display:flex;flex-direction:column;gap:6px}
+.rh{display:flex;justify-content:space-between;align-items:flex-start;gap:24px}
+.nm{font-size:42px;font-weight:700;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.kpi{font-size:64px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.02em;white-space:nowrap;flex:none;padding-top:4px}
+.cap{font-size:30px;color:#4E5768;line-height:1.35}
+.meta{font-size:28px;color:#8891A0;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+/* 특이사항 */
+.note{padding:28px 0;border-top:2px solid #DDE1E8;display:grid;grid-template-columns:auto minmax(0,1fr);gap:22px}
+.note:first-child{border-top:0;padding-top:6px}
+.note .dot{width:18px;height:18px;border-radius:50%;background:#33409E;margin-top:16px}
+.n1{font-size:34px;font-weight:600;line-height:1.4}
+.n2{font-size:28px;color:#4E5768;line-height:1.45;margin-top:6px}
+/* 태그 Top 3 */
+.tag{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:0 22px;align-items:center;padding:30px 0;border-top:2px solid #DDE1E8}
+.tag:first-child{border-top:0;padding-top:6px}
+.tag .rk{font-size:44px;font-weight:700;color:#BFC6D1;font-variant-numeric:tabular-nums}
+.tag .tn{font-size:44px;font-weight:700;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tag .ts{font-size:28px;color:#4E5768;margin-top:4px}
+.tag .mult{font-size:64px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-.02em;color:#4E5768}
+.tag .mult.hot{color:#146C43}
+.tag .ex{grid-column:2/4;display:flex;gap:14px;margin-top:18px}
+"""
+
+
+def _card(body, rep, i, n, title, eyebrow=None, date=True):
+    foot = f"{rep['platform_ko']} 트렌딩 · {date_ko(rep['date'])} · {rep['round']}회차"
+    return f"""<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>{esc(title)}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>{CARD_CSS}</style></head>
+<body class="{esc(rep['platform'])}"><div class="card">
+<div class="top"><span class="eyebrow">{esc(eyebrow or f"{rep['platform_ko']} 트렌딩")}</span><span class="page">{i} / {n}</span></div>
+<h1>{esc(title)}</h1>{f'<p class="date">{esc(date_ko(rep["date"]))}</p>' if date else ""}
+<div class="body">{body}</div>
+<div class="foot"><span>{esc(foot)}</span><span>indie-trending</span></div>
+</div></body></html>"""
+
+
+def _cover_body(rep):
+    p = rep.get("pick")
+    if not p:
+        hl = rep.get("headline") or []
+        first = strip_links(split_dots(hl[0])[0]) if hl else ""
+        return '<p class="lbl">오늘의 선정 게임</p><p class="empty">오늘은 선정 게임이 없습니다.</p>' + (f'<p class="lbl">큰 폭 변화</p><p class="sub">{esc(first)}</p>' if first else "")
+    streak = f" · {p['streak']}일 연속" if p.get("streak", 1) > 1 else ""
+    tiles = pick_tiles(p)[:3]
+    tiles_html = "".join(f'<dl class="tile"><dt>{esc(l)}</dt><dd class="{direction(v)}">{esc(v)}' + (f"<small>{esc(n)}</small>" if n else "") + "</dd></dl>" for l, v, n in tiles)
+    pills = "".join(f'<span class="badge {badge_cls(b)}">{esc(b)}</span>' for b in (p.get("badges") or [])[:4])
+    return (f'<p class="lbl">오늘의 선정 게임{esc(streak)}</p><div class="hero">{thumb_html(p["name"], p["url"], rep, p, big=True)}</div>'
+            f'<h2 class="name">{esc(p["name"])}</h2>' + (f'<p class="sub">{esc(p["sub"])}</p>' if p.get("sub") else "")
+            + (f'<div class="pills">{pills}</div>' if pills else "") + (f'<div class="tiles">{tiles_html}</div>' if tiles_html else ""))
+
+
+def _changes_body(rep):
+    rows = []
+    for h in (rep.get("headline") or [])[:3]:
+        info = headline_info(h)
+        kpi = f'<div class="kpi {info["dirn"]}">{esc(info["hero"])}</div>' if info["hero"] else ""
+        cap = info["cap"] if info["hero"] else ""
+        meta = " · ".join(strip_links(x) for x in info["rest"])
+        th = thumb_html(info["name"], info["url"], rep, cls="th sm", big=True) if info["url"] else ""
+        rows.append(f'<div class="row">{th}<div class="rb"><div class="rh"><div class="nm">{esc(info["name"])}</div>{kpi}</div>'
+                    + (f'<div class="cap">{esc(cap)}</div>' if cap else "") + (f'<div class="meta">{esc(meta)}</div>' if meta else "") + "</div></div>")
+    return "".join(rows) if rows else '<p class="empty">이번 회차에는 큰 폭 변화가 없습니다.</p>'
+
+
+def _notes_body(rep, limit=5):
+    notes = rep.get("notes") or []
+    out = []
+    for n in notes[:limit]:
+        segs = split_dots(strip_links(n))
+        head, rest = segs[0], segs[1:]
+        if ": " in head and len(head) > 40:
+            label, first = head.split(": ", 1)
+            head, rest = label, [first] + rest
+        out.append(f'<div class="note"><span class="dot"></span><div><div class="n1">{esc(head)}</div>' + (f'<div class="n2">{esc(" · ".join(rest))}</div>' if rest else "") + "</div></div>")
+    if len(notes) > limit:
+        out.append(f'<div class="note"><span class="dot"></span><div><div class="n2">외 {len(notes) - limit}건 · 상세 보고서 참고</div></div></div>')
+    body = "".join(out) if out else '<p class="empty">이번 회차에는 특이사항이 없습니다.</p>'
+    return body + f'<div class="note" style="margin-top:auto;border-top:0"><span class="dot" style="background:#BFC6D1"></span><div><div class="n2" style="margin:0">{esc(rep.get("collect_line", ""))}</div></div></div>'
+
+
+def _tags_body(rep):
+    top = tag_top(rep)
+    if not top:
+        return ""
+    _, col, rows = top
+    out = [f'<p class="lbl">{esc(col)} Top 3 · 상승 묶음 안 비율 · 배율 = 전체 대비</p>']
+    for i, (name, cnt, base, mult, ex) in enumerate(rows, 1):
+        mv = float(mult.rstrip("×")) if mult.rstrip("×").replace(".", "", 1).isdigit() else None
+        hot = " hot" if mv is not None and mv >= 1.5 else ""
+        exh = "".join(thumb_html(t, u, rep, cls="th xs", big=True) for t, u in ex[:3])
+        out.append(f'<div class="tag"><div class="rk">{i}</div><div><div class="tn">{esc(name)}</div><div class="ts">상승 묶음 {esc(cnt)} · 전체 {esc(base)}</div></div>'
+                   f'<div class="mult{hot}">{esc(mult)}</div>' + (f'<div class="ex">{exh}</div>' if exh else "") + "</div>")
+    return "".join(out)
+
+
+def to_cards(rep):
+    """리포트 dict → [(파일명, html)]. 세로형 1080×1350 카드 3~4장(표지 · 큰 폭 변화 · 특이사항 · 태그 Top 3)."""
+    eyebrow = f"일간 리포트 · {rep['round']}회차"
+    pages = [(f"{rep['platform_ko']} 트렌딩", _cover_body(rep), eyebrow, True),
+             ("큰 폭 변화", _changes_body(rep), None, False),
+             ("특이사항", _notes_body(rep), None, False)]
+    top = tag_top(rep)
+    if top:
+        pages.append((top[0], _tags_body(rep), None, False))
+    n = len(pages)
+    return [(f"{rep['date']}-{i}.png", _card(body, rep, i, n, title, eyebrow=eb, date=dt))
+            for i, (title, body, eb, dt) in enumerate(pages, 1)]
