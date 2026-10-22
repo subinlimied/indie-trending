@@ -111,9 +111,9 @@ def price_text(r):
     return r["price"] or "유료"
 
 
-def line(r):
+def line(r, with_rank=True):
     bits = []
-    for ln in PRIMARY:
+    for ln in (PRIMARY if with_rank else ()):
         if ln in r["ranks"]:
             p = r["prev_ranks"].get(ln)
             bits.append(f"{LIST_KO[ln]} {p}→{r['ranks'][ln]}위" if p and p != r["ranks"][ln] else f"{LIST_KO[ln]} {r['ranks'][ln]}위")
@@ -273,10 +273,9 @@ def analyze(cfg, date, data_dir, reports_dir):
                        "rows": [[f"[{r['title']}]({r['url']})", f"[{r['steam_url'].rsplit('/', 1)[-1]}]({r['steam_url']})", fmt_int(r["rating"]), price_text(r), r["verdict"]] for r in cross]})
     sections.append({"no": "06", "title": "상세", "basis": "필요할 때만 펼쳐 보십시오. ⊘ = 제외. NYOP = 원하는 만큼 지불.", "tables": tables})
 
-    def score(r):
+    # 회차 1(비교 없음)은 오늘 목록 상위 중심, 회차 2부터는 "오늘 오른 게임" 중심 (rules.md §9 오늘의 선정 게임).
+    def score_round1(r):
         s = 0
-        if r["climb"][0]:
-            s += r["climb"][0] * 2
         if r["growth7"]:
             s += min(r["growth7"], 200)
         if r["new"]:
@@ -289,7 +288,29 @@ def analyze(cfg, date, data_dir, reports_dir):
             s += max(0, 40 - r["ranks"]["new-and-popular"])
         s += min(r["rating"] or 0, 100) / 5  # 평점이 거의 없는 게임이 순위만으로 뽑히지 않게
         return s
-    pick = max(body, key=score) if body else None
+
+    def score(r):
+        # 주 기준: 순위 상승폭(1계단 = 1점) + 평점 수 증가율(평점 10개 이상일 때, 100% = 30점) + 평점 증가 수(50개 = 25점).
+        c = r["climb"][0] or 0
+        s = max(c, 0)
+        if r["growth7"] and (r["rating"] or 0) >= 10:
+            s += min(max(r["growth7"], 0), 100) * 0.3
+        s += min(max(r["rating_d7"] or 0, 0), 50) * 0.5
+        # 보조 가산점(동점 처리용): 합계 9점 = 상승폭 10계단 미만.
+        if r["new"]:
+            s += 4
+        if not r["sale"]:
+            s += 3
+        if r["made_with"]:
+            s += 2
+        return s
+
+    if has_prev:
+        # 순위가 떨어진 게임, 순위·평점 변화가 모두 없는 게임은 후보에서 제외.
+        cands = [r for r in body if (r["climb"][0] or 0) >= 0 and (r["climb"][0] or 0) + abs(r["rating_d1"] or 0) > 0]
+        pick = max(cands, key=score) if cands else (climbers[0] if climbers else None)
+    else:
+        pick = max(body, key=score_round1) if body else None
     if pick:
         n_sel, since = state.bump("pick", pick["title"], date, prev_date)
         links = [("itch.io", pick["url"])] + ([("Steam", pick["steam_url"])] if pick["steam_url"] else [])
@@ -301,7 +322,9 @@ def analyze(cfg, date, data_dir, reports_dir):
         pick_info = None
     if has_prev:
         for r in climbers[:2]:
-            headline.append(f"[{r['title']}]({r['url']}) {LIST_KO[r['climb'][1]]} {r['prev_ranks'][r['climb'][1]]}→{r['ranks'][r['climb'][1]]}위 ▲{r['climb'][0]} · 평점 {fmt_signed(r['rating_d7'])}({n7}일)" + (" · 세일" if r["sale"] else ""))
+            headline.append(f"[{r['title']}]({r['url']}) {LIST_KO[r['climb'][1]]} {r['prev_ranks'][r['climb'][1]]}→{r['ranks'][r['climb'][1]]}위 ▲{r['climb'][0]}"
+                            + (f" · 평점 {fmt_signed(r['rating_d7'])}({n7}일)" if r["rating_d7"] is not None else " · " + line(r, with_rank=False))
+                            + (" · 세일" if r["sale"] else ""))
         for r in growth[:1]:
             if r not in climbers[:2]:
                 headline.append(f"[{r['title']}]({r['url']}) 평점 수 {fmt_pct(r['growth7'])} ({n7}일) · " + line(r))
