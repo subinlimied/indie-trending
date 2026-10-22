@@ -2395,7 +2395,7 @@
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Flying Jack Studios"
   ],
@@ -2407,11 +2407,11 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 1399,
+  "currency": "USD",
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "1566200": {
   "name": "Tape to Tape",
@@ -2560,7 +2560,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "1721470": {
   "name": "Poppy Playtime",
@@ -3208,7 +3208,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "2428110": {
   "name": "Who Invited You?",
@@ -3231,7 +3231,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "2436940": {
   "name": "Sephiria",
@@ -3280,7 +3280,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "2475490": {
   "name": "Mouthwashing",
@@ -3308,8 +3308,8 @@
  "2488560": {
   "name": "Abandoned Hearts",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "MythByte"
@@ -3328,7 +3328,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "2592160": {
   "name": "Dispatch",
@@ -3964,7 +3964,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "3370870": {
   "name": "Berry Bury Berry",
@@ -4089,7 +4089,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "3614130": {
   "name": "Shelves and Sorcery: Tidy Up the Enchanted Shop",
@@ -4188,7 +4188,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "3699590": {
   "name": "Well Dweller",
@@ -4253,6 +4253,7 @@
    "Broadside Studios"
   ],
   "genres": [
+   "Casual",
    "Indie",
    "Simulation",
    "Early Access"
@@ -4262,7 +4263,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "3844890": {
   "name": "Lost Jelly",
@@ -4285,7 +4286,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "3883570": {
   "name": "Invokyr",
@@ -4320,7 +4321,7 @@
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "DevilishGames"
   ],
@@ -4334,11 +4335,11 @@
    "Early Access"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 1199,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "3911820": {
   "name": "100 Cats Lost in Canada 2 Find & Color",
@@ -4361,7 +4362,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "3917700": {
   "name": "Dicevaders",
@@ -4464,7 +4465,7 @@
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Tim Larick"
   ],
@@ -4477,11 +4478,11 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 699,
+  "currency": "USD",
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4001890": {
   "name": "How to Fish",
@@ -4530,7 +4531,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4019220": {
   "name": "Dressmaker",
@@ -4631,8 +4632,8 @@
  "4087210": {
   "name": "Red Rain",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "Small Loan Studio"
@@ -4650,7 +4651,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4108000": {
   "name": "Machine Party",
@@ -4801,7 +4802,7 @@
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Game in a Bottle"
   ],
@@ -4814,17 +4815,17 @@
    "Strategy"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 999,
+  "currency": "USD",
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4247410": {
   "name": "Run, Run from the Blast!",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "ildiscepolo",
@@ -4844,7 +4845,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4285690": {
   "name": "Airport Security Sucks!",
@@ -4877,7 +4878,7 @@
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Dumbbell Games"
   ],
@@ -4890,11 +4891,11 @@
    "Strategy"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 499,
+  "currency": "USD",
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4304900": {
   "name": "Big Dig",
@@ -4972,14 +4973,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4338180": {
   "name": "Dearbnb",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Gameshaft Studio"
   ],
@@ -4993,11 +4994,11 @@
    "Early Access"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
-  "has_demo": true,
+  "price_initial": 799,
+  "currency": "USD",
+  "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4364930": {
   "name": "Birb",
@@ -5027,7 +5028,7 @@
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Naito"
   ],
@@ -5039,11 +5040,11 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 499,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4413070": {
   "name": "Red Chat Ritual  – TSUMIMI TIME",
@@ -5067,7 +5068,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4421010": {
   "name": "Bills Must Be Paid",
@@ -5150,7 +5151,7 @@
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "James Muirhead"
   ],
@@ -5163,11 +5164,11 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 499,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4541170": {
   "name": "Retro Pond",
@@ -5192,7 +5193,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4560000": {
   "name": "Battle Nap",
@@ -5213,9 +5214,9 @@
   "is_free": false,
   "price_initial": null,
   "currency": null,
-  "has_demo": true,
+  "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4621970": {
   "name": "Loop Dungeon - Incremental",
@@ -5289,14 +5290,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4642780": {
   "name": "SAKIMORI",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "LOOIFEND GAMES"
   ],
@@ -5309,11 +5310,11 @@
    "Early Access"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 299,
+  "currency": "USD",
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4656000": {
   "name": "BOMBANANA!",
@@ -5412,8 +5413,8 @@
  "4731510": {
   "name": "Subject Zero",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "Renewal Studio"
@@ -5433,7 +5434,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4756450": {
   "name": "Evercursed: Act I",
@@ -5457,14 +5458,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4859550": {
   "name": "BioSphere: Genesis",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Nord Avocado"
   ],
@@ -5476,11 +5477,11 @@
    "Early Access"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 399,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "4941420": {
   "name": "Folk-Tography",
@@ -5553,7 +5554,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5013160": {
   "name": "Hubble Bubble",
@@ -5577,7 +5578,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5064340": {
   "name": "DinoBones: Tidy Up the Museum",
@@ -5606,9 +5607,9 @@
  "5081300": {
   "name": "MECCHA LIAR",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
-  "coming_soon": true,
+  "release_date_raw": "Oct 20, 2026",
+  "release_date": "2026-10-20",
+  "coming_soon": false,
   "developers": [
    "HEXIT"
   ],
@@ -5623,11 +5624,11 @@
    "Strategy"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 399,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5100710": {
   "name": "Orbital Madness",
@@ -5650,7 +5651,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5101180": {
   "name": "The World's Shortest Horror Game",
@@ -5673,14 +5674,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5101820": {
   "name": "CUSTOM PENNANT BASEBALL",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Yorumina"
   ],
@@ -5694,18 +5695,18 @@
    "Strategy"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 1499,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5104990": {
   "name": "NARNOK: Help! I Was Reincarnated as a Brain in a Jar and Need to Plug In My Power Cables",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Mastrowcorp"
   ],
@@ -5717,11 +5718,11 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 299,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5127370": {
   "name": "Who's Cheating?",
@@ -5770,14 +5771,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5132990": {
   "name": "Puppet Mall: Chapter 1: Lost Friend",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "kiviGames"
   ],
@@ -5790,11 +5791,11 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 579,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5134280": {
   "name": "The Guest from the Fields",
@@ -5817,7 +5818,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5140670": {
   "name": "The Grave Abyss",
@@ -5842,13 +5843,13 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5144200": {
   "name": "Hurl",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "Kiss A Fish"
@@ -5865,7 +5866,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5176820": {
   "name": "DEAD TIME",
@@ -5889,7 +5890,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5204830": {
   "name": "Deleted Wiki: Clean Up the Lost Files",
@@ -5937,14 +5938,14 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5208860": {
   "name": "Dub House",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "NAB Studios"
   ],
@@ -5956,11 +5957,11 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 499,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5215390": {
   "name": "UNCOUNTED",
@@ -5982,7 +5983,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5222980": {
   "name": "Renz Soccer Sim",
@@ -6007,14 +6008,14 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5227910": {
   "name": "Messa Anomaly",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
-  "coming_soon": true,
+  "release_date_raw": "Oct 20, 2026",
+  "release_date": "2026-10-20",
+  "coming_soon": false,
   "developers": [
    "1,5 Games"
   ],
@@ -6027,11 +6028,11 @@
    "Simulation"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 399,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5228920": {
   "name": "Brick by Brick: Tidy Up the Small Town!",
@@ -6078,7 +6079,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5236110": {
   "name": "Teleport Master",
@@ -6104,7 +6105,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5258340": {
   "name": "One Million Coins",
@@ -6132,9 +6133,9 @@
  "5260110": {
   "name": "Second Source",
   "type": "game",
-  "release_date_raw": "Oct 22, 2026",
-  "release_date": "2026-10-22",
-  "coming_soon": true,
+  "release_date_raw": "Oct 21, 2026",
+  "release_date": "2026-10-21",
+  "coming_soon": false,
   "developers": [
    "Pablo Marcelo Riestra"
   ],
@@ -6147,11 +6148,11 @@
    "Strategy"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 1299,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5269280": {
   "name": "The 31st Student",
@@ -6174,7 +6175,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5273460": {
   "name": "Rouge and Run",
@@ -6198,13 +6199,13 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5278050": {
   "name": "Fish Wrangler",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "Fish Wrangler, Inc."
@@ -6224,14 +6225,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5279620": {
   "name": "Halloween On Goober Street",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "MyGrandfatherGames"
   ],
@@ -6247,13 +6248,13 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5283650": {
   "name": "Postpartum | 산후조리원",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "Jayhyeon Studio"
@@ -6269,13 +6270,13 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5287260": {
   "name": "Pactmage - Chess Roster",
   "type": "game",
-  "release_date_raw": "Oct 22, 2026",
-  "release_date": "2026-10-22",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "Penzai Studio"
@@ -6293,7 +6294,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5291460": {
   "name": "Empty The Lake!",
@@ -6317,14 +6318,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5292500": {
   "name": "ゆめみるサクラの卒業式",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "zuA",
    "UguisuAnn",
@@ -6341,11 +6342,11 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 499,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5295940": {
   "name": "/deploy.self",
@@ -6367,14 +6368,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5297320": {
   "name": "JIGOKU YUGI: Only The Last Gambler Standing Returns to Life",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "ISEKAI Games"
   ],
@@ -6386,11 +6387,11 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 999,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5301680": {
   "name": "Flamebound Tactics",
@@ -6413,7 +6414,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5303370": {
   "name": "Suspencil",
@@ -6436,14 +6437,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5305740": {
   "name": "Uncanny Train",
   "type": "game",
   "release_date_raw": "Oct 20, 2026",
   "release_date": "2026-10-20",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Haven Studio"
   ],
@@ -6455,11 +6456,11 @@
    "Simulation"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 499,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5306880": {
   "name": "Gross Survivors",
@@ -6483,7 +6484,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5313320": {
   "name": "Zombie Last Stand",
@@ -6507,7 +6508,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5327800": {
   "name": "Last Light: Chalk Creek",
@@ -6530,7 +6531,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5328990": {
   "name": "Trivia Mania",
@@ -6552,14 +6553,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5329480": {
   "name": "Solo Shift! Karaoke",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "SAT-BOX"
   ],
@@ -6573,11 +6574,11 @@
    "Simulation"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 999,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5335510": {
   "name": "Moon Sweepers",
@@ -6604,7 +6605,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5336590": {
   "name": "Howling Woods",
@@ -6652,14 +6653,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5341000": {
   "name": "Ashnar's Lair",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Scott Russell"
   ],
@@ -6676,14 +6677,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5341070": {
   "name": "The Wrong Way",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "ZestosYt"
   ],
@@ -6697,17 +6698,17 @@
    "Simulation"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 299,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5346530": {
   "name": "ZakuzakuTreasure",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "yuki329"
@@ -6723,7 +6724,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5347940": {
   "name": "PALJA Survivors",
@@ -6746,7 +6747,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5352190": {
   "name": "Six-Leaf Clover Hunt",
@@ -6770,7 +6771,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5352440": {
   "name": "RETURN TO 1990",
@@ -6793,14 +6794,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5354400": {
   "name": "Sudoku Unlimited",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Pinch Games"
   ],
@@ -6812,11 +6813,11 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 499,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5358030": {
   "name": "Lumbrix",
@@ -6840,14 +6841,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5362280": {
   "name": "Fungal Field",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Devhuub"
   ],
@@ -6860,11 +6861,11 @@
    "Strategy"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 999,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5364150": {
   "name": "Fruitpocalypse",
@@ -6887,14 +6888,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5364370": {
   "name": "Dungeon Prisoner Simulator",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Loyal Mussy"
   ],
@@ -6906,18 +6907,18 @@
    "Simulation"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 299,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5364850": {
   "name": "Doomward: Dungeon Autobattler",
   "type": "game",
   "release_date_raw": "Oct 21, 2026",
   "release_date": "2026-10-21",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Mire Studios"
   ],
@@ -6930,11 +6931,11 @@
    "Strategy"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 1499,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5365190": {
   "name": "Tidy Tails",
@@ -6958,13 +6959,13 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5365780": {
   "name": "Deckbound",
   "type": "game",
-  "release_date_raw": "Oct 20, 2026",
-  "release_date": "2026-10-20",
+  "release_date_raw": "October 2026",
+  "release_date": "2026-10-01",
   "coming_soon": true,
   "developers": [
    "Yuri Murray-Alves"
@@ -6984,7 +6985,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5367850": {
   "name": "Little Spring",
@@ -7006,14 +7007,14 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5373530": {
   "name": "Robot Fisher",
   "type": "game",
-  "release_date_raw": "Oct 20, 2026",
-  "release_date": "2026-10-20",
-  "coming_soon": true,
+  "release_date_raw": "Oct 21, 2026",
+  "release_date": "2026-10-21",
+  "coming_soon": false,
   "developers": [
    "Adcom Studios"
   ],
@@ -7026,11 +7027,11 @@
    "Simulation"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 99,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5377090": {
   "name": "Dealer's Choice",
@@ -7054,7 +7055,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5377200": {
   "name": "Chained Pirates Together",
@@ -7078,13 +7079,13 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5381850": {
   "name": "Elevator Button Simulator",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "Facish"
@@ -7102,7 +7103,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5382570": {
   "name": "Rêverie: Audio Stories",
@@ -7127,7 +7128,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5383020": {
   "name": "CHAPA CHAPA Munchkin Mafia",
@@ -7152,7 +7153,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5383030": {
   "name": "Police Activity: Cardboardman",
@@ -7176,7 +7177,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5386200": {
   "name": "Mojo Is Loved",
@@ -7199,7 +7200,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5389350": {
   "name": "Starfall Hill",
@@ -7223,7 +7224,7 @@
   "currency": null,
   "has_demo": true,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5403390": {
   "name": "Super Clown Save Santa",
@@ -7247,13 +7248,13 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5404530": {
   "name": "PLEASE WAIT",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "KENTO"
@@ -7269,7 +7270,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5406050": {
   "name": "Bunny Bun",
@@ -7292,13 +7293,13 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "5409020": {
   "name": "Spin To Win",
   "type": "game",
-  "release_date_raw": "Oct 21, 2026",
-  "release_date": "2026-10-21",
+  "release_date_raw": "Coming soon",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "Crush Bug Studios"
@@ -7315,7 +7316,7 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "fetched": "2026-10-21"
+  "fetched": "2026-10-22"
  },
  "3590": {
   "name": "Plants vs. Zombies GOTY Edition",
@@ -8376,5 +8377,1442 @@
   "has_demo": false,
   "recommendations": 1124,
   "fetched": "2026-10-21"
+ },
+ "858820": {
+  "name": "Tribes of Midgard",
+  "type": "game",
+  "release_date_raw": "Jul 27, 2021",
+  "release_date": "2021-07-27",
+  "coming_soon": false,
+  "developers": [
+   "Norsfell"
+  ],
+  "publishers": [
+   "Gearbox Publishing",
+   "2K"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "RPG"
+  ],
+  "is_free": false,
+  "price_initial": 1999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 17508,
+  "fetched": "2026-10-22"
+ },
+ "868360": {
+  "name": "Project Hospital",
+  "type": "game",
+  "release_date_raw": "Oct 30, 2018",
+  "release_date": "2018-10-30",
+  "coming_soon": false,
+  "developers": [
+   "Oxymoron Games"
+  ],
+  "publishers": [
+   "Oxymoron Games"
+  ],
+  "genres": [
+   "Indie",
+   "Simulation",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 8447,
+  "fetched": "2026-10-22"
+ },
+ "1272160": {
+  "name": "The Life and Suffering of Sir Brante",
+  "type": "game",
+  "release_date_raw": "Mar 4, 2021",
+  "release_date": "2021-03-04",
+  "coming_soon": false,
+  "developers": [
+   "Sever",
+   "Schisma Games"
+  ],
+  "publishers": [
+   "101XP"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "RPG",
+   "Simulation",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 1999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 8199,
+  "fetched": "2026-10-22"
+ },
+ "1385380": {
+  "name": "Across the Obelisk",
+  "type": "game",
+  "release_date_raw": "Aug 16, 2022",
+  "release_date": "2022-08-16",
+  "coming_soon": false,
+  "developers": [
+   "Dreamsite Games"
+  ],
+  "publishers": [
+   "Paradox Interactive",
+   "Paradox Arc"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "RPG",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 1999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 10771,
+  "fetched": "2026-10-22"
+ },
+ "1568590": {
+  "name": "Goose Goose Duck",
+  "type": "game",
+  "release_date_raw": "Oct 3, 2021",
+  "release_date": "2021-10-03",
+  "coming_soon": false,
+  "developers": [
+   "Gaggle Studios, Inc."
+  ],
+  "publishers": [
+   "Gaggle Studios, Inc."
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Massively Multiplayer",
+   "Strategy",
+   "Free To Play"
+  ],
+  "is_free": true,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "1682970": {
+  "name": "Uncrashed : FPV Drone Simulator",
+  "type": "game",
+  "release_date_raw": "Sep 1, 2021",
+  "release_date": "2021-09-01",
+  "coming_soon": false,
+  "developers": [
+   "Luminite"
+  ],
+  "publishers": [
+   "Luminite"
+  ],
+  "genres": [
+   "Action",
+   "Indie",
+   "Racing",
+   "Simulation",
+   "Sports"
+  ],
+  "is_free": false,
+  "price_initial": 1499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 8054,
+  "fetched": "2026-10-22"
+ },
+ "1911610": {
+  "name": "Windblown",
+  "type": "game",
+  "release_date_raw": "Oct 24, 2024",
+  "release_date": "2024-10-24",
+  "coming_soon": false,
+  "developers": [
+   "Motion Twin"
+  ],
+  "publishers": [
+   "Motion Twin",
+   "Kepler Ghost"
+  ],
+  "genres": [
+   "Action",
+   "Indie",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 9137,
+  "fetched": "2026-10-22"
+ },
+ "1946560": {
+  "name": "sobosuba",
+  "type": "game",
+  "release_date_raw": "Aug 14, 2026",
+  "release_date": "2026-08-14",
+  "coming_soon": false,
+  "developers": [
+   "keepeetron"
+  ],
+  "publishers": [
+   "keepeetron"
+  ],
+  "genres": [
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 399,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 308,
+  "fetched": "2026-10-22"
+ },
+ "2069070": {
+  "name": "Hay! One Billion!",
+  "type": "game",
+  "release_date_raw": "Oct 16, 2026",
+  "release_date": "2026-10-16",
+  "coming_soon": false,
+  "developers": [
+   "Team 1B"
+  ],
+  "publishers": [
+   "Team 1B"
+  ],
+  "genres": [
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 599,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 115,
+  "fetched": "2026-10-22"
+ },
+ "2289750": {
+  "name": "Super Fantasy Kingdom",
+  "type": "game",
+  "release_date_raw": "Oct 24, 2025",
+  "release_date": "2025-10-24",
+  "coming_soon": false,
+  "developers": [
+   "Super Fantasy Games"
+  ],
+  "publishers": [
+   "Hooded Horse"
+  ],
+  "genres": [
+   "RPG",
+   "Simulation",
+   "Strategy",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": 1999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 5705,
+  "fetched": "2026-10-22"
+ },
+ "2390230": {
+  "name": "The Chef's Shift",
+  "type": "game",
+  "release_date_raw": "Mar 31, 2025",
+  "release_date": "2025-03-31",
+  "coming_soon": false,
+  "developers": [
+   "Panitia GameDev"
+  ],
+  "publishers": [
+   "Catoptric Games"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 1299,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 2085,
+  "fetched": "2026-10-22"
+ },
+ "2421750": {
+  "name": "Gunman Contracts - Stand Alone",
+  "type": "game",
+  "release_date_raw": "Sep 10, 2026",
+  "release_date": "2026-09-10",
+  "coming_soon": false,
+  "developers": [
+   "ANB_Seth"
+  ],
+  "publishers": [
+   "2080 Games"
+  ],
+  "genres": [
+   "Action",
+   "Indie",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 1669,
+  "fetched": "2026-10-22"
+ },
+ "2445430": {
+  "name": "Tensei Brave",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "NSOFT"
+  ],
+  "publishers": [
+   "OTAKU Plan"
+  ],
+  "genres": [
+   "Adventure",
+   "Casual",
+   "Indie",
+   "RPG"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "2763740": {
+  "name": "Revolution Idle",
+  "type": "game",
+  "release_date_raw": "May 1, 2025",
+  "release_date": "2025-05-01",
+  "coming_soon": false,
+  "developers": [
+   "Oni Gaming",
+   "Nu Games"
+  ],
+  "publishers": [
+   "Oni Gaming"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation",
+   "Free To Play"
+  ],
+  "is_free": true,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "2914150": {
+  "name": "Yunyun Syndrome!? Rhythm Psychosis",
+  "type": "game",
+  "release_date_raw": "Apr 23, 2026",
+  "release_date": "2026-04-23",
+  "coming_soon": false,
+  "developers": [
+   "Alliance Arts",
+   "WHO YOU"
+  ],
+  "publishers": [
+   "Alliance Arts"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 1699,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 4155,
+  "fetched": "2026-10-22"
+ },
+ "2939510": {
+  "name": "Under Canopies",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Novemtails"
+  ],
+  "publishers": [
+   "Assemble Entertainment"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "Simulation",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "3103780": {
+  "name": "DRAPLINE",
+  "type": "game",
+  "release_date_raw": "Sep 23, 2026",
+  "release_date": "2026-09-23",
+  "coming_soon": false,
+  "developers": [
+   "KANAWO"
+  ],
+  "publishers": [
+   "Vaka Game Magazine"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "RPG",
+   "Simulation",
+   "Sports"
+  ],
+  "is_free": false,
+  "price_initial": 1299,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 2632,
+  "fetched": "2026-10-22"
+ },
+ "3375110": {
+  "name": "Tiny Eden",
+  "type": "game",
+  "release_date_raw": "Sep 7, 2026",
+  "release_date": "2026-09-07",
+  "coming_soon": false,
+  "developers": [
+   "Bajka Games"
+  ],
+  "publishers": [
+   "Digital Vortex Entertainment"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 1499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 905,
+  "fetched": "2026-10-22"
+ },
+ "3390460": {
+  "name": "Kitchen Traitor",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Party Forge"
+  ],
+  "publishers": [
+   "Party Forge"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "3954920": {
+  "name": "Saving Songburg™",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Ken Calloway"
+  ],
+  "publishers": [
+   "Songshine® Creative"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4073100": {
+  "name": "Dreadnut",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Beaked Games"
+  ],
+  "publishers": [
+   "Beaked Games"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4100790": {
+  "name": "Echoes of Pinebridge",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Koalu Studio"
+  ],
+  "publishers": [
+   "Koalu Studio"
+  ],
+  "genres": [
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": true,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4119420": {
+  "name": "Evitania Online - Idle RPG",
+  "type": "game",
+  "release_date_raw": "Apr 7, 2026",
+  "release_date": "2026-04-07",
+  "coming_soon": false,
+  "developers": [
+   "Disruptive Blast"
+  ],
+  "publishers": [
+   "Disruptive Blast"
+  ],
+  "genres": [
+   "Adventure",
+   "Casual",
+   "Indie",
+   "Massively Multiplayer",
+   "RPG",
+   "Simulation",
+   "Free To Play",
+   "Early Access"
+  ],
+  "is_free": true,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4348240": {
+  "name": "Ashen Knight",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "99 Interactive"
+  ],
+  "publishers": [
+   "99 Interactive"
+  ],
+  "genres": [
+   "Action",
+   "Casual",
+   "Indie",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": true,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4348500": {
+  "name": "Furniture Restoration Simulator: Garage Edition - Prologue",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Icelake Interactive"
+  ],
+  "publishers": [
+   " PlayWay S.A."
+  ],
+  "genres": [
+   "Indie",
+   "Simulation",
+   "Free To Play"
+  ],
+  "is_free": true,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4560660": {
+  "name": "Eslabong",
+  "type": "game",
+  "release_date_raw": "Aug 24, 2026",
+  "release_date": "2026-08-24",
+  "coming_soon": false,
+  "developers": [
+   "shirowita"
+  ],
+  "publishers": [
+   "shirowita"
+  ],
+  "genres": [
+   "Action",
+   "Indie",
+   "Simulation",
+   "Strategy",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": 1499,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 1582,
+  "fetched": "2026-10-22"
+ },
+ "4715430": {
+  "name": "River Secret",
+  "type": "game",
+  "release_date_raw": "Oct 25, 2026",
+  "release_date": "2026-10-25",
+  "coming_soon": true,
+  "developers": [
+   "Hard2Scream"
+  ],
+  "publishers": [
+   "Hard2Scream"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4764890": {
+  "name": "+PROTECTUS-",
+  "type": "game",
+  "release_date_raw": "Oct 25, 2026",
+  "release_date": "2026-10-25",
+  "coming_soon": true,
+  "developers": [
+   "TANGER"
+  ],
+  "publishers": [
+   "TANGER"
+  ],
+  "genres": [
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4800650": {
+  "name": "7 Millimeters",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "DNA ARMY GAMING"
+  ],
+  "publishers": [
+   "DNA ARMY GAMING"
+  ],
+  "genres": [
+   "Action",
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": true,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4924290": {
+  "name": "Fire Bug",
+  "type": "game",
+  "release_date_raw": "Oct 25, 2026",
+  "release_date": "2026-10-25",
+  "coming_soon": true,
+  "developers": [
+   "Jesse Dale"
+  ],
+  "publishers": [
+   "Jesse Dale"
+  ],
+  "genres": [
+   "Action",
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": true,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4924750": {
+  "name": "Village of the Mirror",
+  "type": "game",
+  "release_date_raw": "Oct 25, 2026",
+  "release_date": "2026-10-25",
+  "coming_soon": true,
+  "developers": [
+   " Nyxtails Studio",
+   "Nyxzen"
+  ],
+  "publishers": [
+   " Nyxtails Studio"
+  ],
+  "genres": [
+   "Adventure",
+   "Casual",
+   "Indie",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4956380": {
+  "name": "The Lighthouse Restaurant",
+  "type": "game",
+  "release_date_raw": "Oct 22, 2026",
+  "release_date": "2026-10-22",
+  "coming_soon": true,
+  "developers": [
+   "Two Billion "
+  ],
+  "publishers": [
+   "Two Billion"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "4984610": {
+  "name": "Hazard Crew",
+  "type": "game",
+  "release_date_raw": "Oct 25, 2026",
+  "release_date": "2026-10-25",
+  "coming_soon": true,
+  "developers": [
+   "DopamineDreams"
+  ],
+  "publishers": [
+   "DopamineDreams"
+  ],
+  "genres": [
+   "Indie",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5169220": {
+  "name": "Campsite",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "EntiWorks Studio"
+  ],
+  "publishers": [
+   "EntiWorks Studio"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5169900": {
+  "name": "DODGE GAME",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Jonathan Borian Sassi"
+  ],
+  "publishers": [
+   "Jonathan Borian Sassi"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5188640": {
+  "name": "Pancake! No break!",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Warband&Magic"
+  ],
+  "publishers": [
+   "Warband&Magic"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5196710": {
+  "name": "Paper and Pencil",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Phantom Studios"
+  ],
+  "publishers": [
+   "Phantom Studios"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5196790": {
+  "name": "Coffee Keeper",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "KEEPLR"
+  ],
+  "publishers": [
+   "HeadArrow"
+  ],
+  "genres": [
+   "Adventure",
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5199510": {
+  "name": "Undervein",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Tanur Studios"
+  ],
+  "publishers": [
+   "Tanur Studios"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5251070": {
+  "name": "Want a Bomb?",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "humbledbag"
+  ],
+  "publishers": [
+   "humbledbag"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5254400": {
+  "name": "SND",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "DrySignalStudio"
+  ],
+  "publishers": [
+   "DrySignalStudio"
+  ],
+  "genres": [
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": true,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5272490": {
+  "name": "Catch The Ducks",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Angel Carrillo"
+  ],
+  "publishers": [
+   "Maria Delgadillo"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5284710": {
+  "name": "SHAME",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "YungKingChris"
+  ],
+  "publishers": [
+   "YungKingChris"
+  ],
+  "genres": [
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5292740": {
+  "name": "Raze the Zombie Horde",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Unwind Studio"
+  ],
+  "publishers": [
+   "Unwind Studio"
+  ],
+  "genres": [
+   "Action",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5300960": {
+  "name": "KEEP IT ON HER",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Just2Dudes Studios"
+  ],
+  "publishers": [
+   "Just2Dudes Studios"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": true,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5317740": {
+  "name": "Something in the Rows",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Distorted Games Studio"
+  ],
+  "publishers": [
+   "Distorted Games Studio"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5319430": {
+  "name": "Gen'ei ninja",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Pixelwarz"
+  ],
+  "publishers": [
+   "Pixelwarz"
+  ],
+  "genres": [
+   "Action",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5322590": {
+  "name": "Railwright",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Piu Entertainment"
+  ],
+  "publishers": [
+   "Piu Entertainment"
+  ],
+  "genres": [
+   "Indie",
+   "Simulation",
+   "Strategy",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5342920": {
+  "name": "SpellWeave",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Josh Dillion"
+  ],
+  "publishers": [
+   "DillionsApps"
+  ],
+  "genres": [
+   "Action",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5353860": {
+  "name": "Magehold Fairwinds",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Pixel Play Studio"
+  ],
+  "publishers": [
+   "Pixel Play Studio"
+  ],
+  "genres": [
+   "Indie",
+   "RPG",
+   "Simulation",
+   "Strategy",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5358580": {
+  "name": "Give Us Back Gravity",
+  "type": "game",
+  "release_date_raw": "Oct 25, 2026",
+  "release_date": "2026-10-25",
+  "coming_soon": true,
+  "developers": [
+   "Frotrue"
+  ],
+  "publishers": [
+   "Frotrue"
+  ],
+  "genres": [
+   "Action",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5364900": {
+  "name": "ABAX",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "AtheridGames"
+  ],
+  "publishers": [
+   "AtheridGames"
+  ],
+  "genres": [
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5371210": {
+  "name": "Little Angler",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Odd Build"
+  ],
+  "publishers": [
+   "Odd Build"
+  ],
+  "genres": [
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5377190": {
+  "name": "Halloweenies Candy Run",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "MunkieVerse Studios"
+  ],
+  "publishers": [
+   "MunkieVerse Studios"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5380730": {
+  "name": "Pocket Sports",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "AC"
+  ],
+  "publishers": [
+   "AC"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Sports"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5380860": {
+  "name": "Last House Standing",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Wired Pixels"
+  ],
+  "publishers": [
+   "Wired Pixels"
+  ],
+  "genres": [
+   "Action",
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5385830": {
+  "name": "Lily or Horse",
+  "type": "game",
+  "release_date_raw": "Oct 24, 2026",
+  "release_date": "2026-10-24",
+  "coming_soon": true,
+  "developers": [
+   "MetallJellyfish"
+  ],
+  "publishers": [
+   "MetallJellyfish"
+  ],
+  "genres": [
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5393420": {
+  "name": "Elya",
+  "type": "game",
+  "release_date_raw": "Oct 25, 2026",
+  "release_date": "2026-10-25",
+  "coming_soon": true,
+  "developers": [
+   "Elya"
+  ],
+  "publishers": [
+   "Elya"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
+ },
+ "5398190": {
+  "name": "Fish with Friends",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": true,
+  "developers": [
+   "Black Sea Studios"
+  ],
+  "publishers": [
+   "Black Sea Studios"
+  ],
+  "genres": [
+   "Adventure",
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "fetched": "2026-10-22"
  }
 }

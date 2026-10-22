@@ -20,8 +20,8 @@
  "tags:No generative AI was used": {
   "name": "No generative AI was used",
   "n": 1,
-  "date": "2026-10-20",
-  "since": "2026-10-20"
+  "date": "2026-10-22",
+  "since": "2026-10-22"
  },
  "tags:Clicker": {
   "name": "Clicker",
@@ -32,8 +32,8 @@
  "tags:Atmospheric": {
   "name": "Atmospheric",
   "n": 1,
-  "date": "2026-10-20",
-  "since": "2026-10-20"
+  "date": "2026-10-22",
+  "since": "2026-10-22"
  },
  "tags:Cozy": {
   "name": "Cozy",
@@ -44,49 +44,49 @@
  "tags:Pixel Art": {
   "name": "Pixel Art",
   "n": 1,
-  "date": "2026-10-20",
-  "since": "2026-10-20"
+  "date": "2026-10-22",
+  "since": "2026-10-22"
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 2,
-  "date": "2026-10-21",
+  "n": 3,
+  "date": "2026-10-22",
   "since": "2026-10-20"
  },
  "genre:Action": {
   "name": "Action",
   "n": 1,
-  "date": "2026-10-20",
-  "since": "2026-10-20"
+  "date": "2026-10-22",
+  "since": "2026-10-22"
  },
  "genre:Adventure": {
   "name": "Adventure",
   "n": 1,
-  "date": "2026-10-20",
-  "since": "2026-10-20"
+  "date": "2026-10-22",
+  "since": "2026-10-22"
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 2,
-  "date": "2026-10-21",
+  "n": 3,
+  "date": "2026-10-22",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
   "name": "Strategy",
-  "n": 2,
-  "date": "2026-10-21",
+  "n": 3,
+  "date": "2026-10-22",
   "since": "2026-10-20"
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 2,
-  "date": "2026-10-21",
+  "n": 3,
+  "date": "2026-10-22",
   "since": "2026-10-20"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 2,
-  "date": "2026-10-21",
+  "n": 3,
+  "date": "2026-10-22",
   "since": "2026-10-20"
  },
  "made_with:Unreal Engine": {
@@ -96,15 +96,15 @@
   "since": "2026-10-20"
  },
  "pick": {
-  "name": "diagnosis lovesick (demo)",
+  "name": "Paragra - Paragliding Adventures",
   "n": 1,
-  "date": "2026-10-21",
-  "since": "2026-10-21"
+  "date": "2026-10-22",
+  "since": "2026-10-22"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 1,
-  "date": "2026-10-21",
+  "n": 2,
+  "date": "2026-10-22",
   "since": "2026-10-21"
  },
  "tags:Card Game": {
@@ -133,8 +133,44 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 1,
-  "date": "2026-10-21",
+  "n": 2,
+  "date": "2026-10-22",
   "since": "2026-10-21"
+ },
+ "tags:Horror": {
+  "name": "Horror",
+  "n": 1,
+  "date": "2026-10-22",
+  "since": "2026-10-22"
+ },
+ "tags:3D": {
+  "name": "3D",
+  "n": 1,
+  "date": "2026-10-22",
+  "since": "2026-10-22"
+ },
+ "tags:First-Person": {
+  "name": "First-Person",
+  "n": 1,
+  "date": "2026-10-22",
+  "since": "2026-10-22"
+ },
+ "tags:Cute": {
+  "name": "Cute",
+  "n": 1,
+  "date": "2026-10-22",
+  "since": "2026-10-22"
+ },
+ "made_with:Construct": {
+  "name": "Construct",
+  "n": 1,
+  "date": "2026-10-22",
+  "since": "2026-10-22"
+ },
+ "made_with:libGDX": {
+  "name": "libGDX",
+  "n": 1,
+  "date": "2026-10-22",
+  "since": "2026-10-22"
  }
 }
