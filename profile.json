@@ -1,0 +1,21 @@
+{
+  "_설명": "개인 리포트(personal.py)의 '내 범위' 조건입니다. 조건을 모두 통과한 게임만 내 범위에 들어가고, 못 넘은 이유는 배지로 남습니다. 값을 손으로 고친 뒤 personal.py --dry-run 으로 바로 확인할 수 있습니다.",
+  "_설명_dimensions": "허용하는 그래픽 차원. 게임 태그에 2D/3D 가 있고 여기 없으면 제외합니다. 둘 다 있으면 사실상 필터가 아니고, 태그에 2D/3D 가 없는 게임은 통과(미상)합니다.",
+  "dimensions": ["2D", "3D"],
+  "_설명_engines": "내가 쓰는 엔진. itch 는 페이지의 'Made with' 를 읽어 엔진이 밝혀져 있고 여기 없으면 제외합니다. Steam 은 엔진 정보가 없어 항상 통과합니다. 비우면 엔진 필터를 끕니다.",
+  "engines": ["Unity"],
+  "_설명_exclude_tags": "하나라도 있으면 제외하는 태그. 미연시(연애 시뮬레이션·데이팅 심·오토메)는 안 만들기로 했습니다. Visual Novel 은 미연시와 겹치는 경우가 많아 기본 제외해 두었고, 서사형 비주얼 노벨까지 보고 싶으면 지우면 됩니다.",
+  "exclude_tags": ["Dating Sim", "Otome", "Romance", "Visual Novel"],
+  "_설명_prefer_tags": "선호 태그. 필터가 아니라 내 범위 안 순위를 매길 때 가산점(태그당 +2, 최대 +6)입니다. 비워 두면 가산점 없음.",
+  "prefer_tags": [],
+  "_설명_max_price_usd": "정가 상한(USD). 공용 리포트의 $30 보다 좁게 잡습니다. 무료·NYOP 는 통과.",
+  "max_price_usd": 20,
+  "_설명_max_playtime_hours": "평균 플레이 시간 상한(시간). Steam 은 SteamSpy average_forever(분)를 시간으로 환산하되 값이 0이거나 없으면 판단 보류(통과). 현재 수집기는 이 값을 저장하지 않아 Steam 은 당분간 전부 보류입니다. itch 는 페이지의 '평균 세션'(A few minutes · About an hour · A few hours · Days or more …)을 시간으로 환산해 씁니다.",
+  "max_playtime_hours": 15,
+  "_설명_exclude_multiplayer": "true 면 Multiplayer·MMO·Co-op 중심 게임을 제외합니다. Singleplayer 태그가 같이 있으면 허용.",
+  "exclude_multiplayer": true,
+  "_설명_watchlist": "눈여겨보는 게임. steam 에는 appid(예: \"3314790\"), itch 에는 itch 게임 id(예: \"1234567\", 스냅샷 data/itch/<date>.json 의 games 키)를 문자열로 넣습니다. 매일 순위·리뷰 변화를 따로 보여 줍니다.",
+  "watchlist": {"steam": [], "itch": []},
+  "_설명_min_reviews_for_signal": "리뷰(Steam)·평점 수(itch)가 이 값 이상일 때만 증가율을 점수에 넣습니다. 그 아래면 순위 상승폭과 증가 수만 봅니다.",
+  "min_reviews_for_signal": 20
+}

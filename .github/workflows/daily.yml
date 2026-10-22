@@ -53,6 +53,9 @@ jobs:
       - name: 카드 생성
         run: python3 cards.py --date "${{ steps.d.outputs.date }}"
 
+      - name: 개인 리포트 생성
+        run: python3 personal.py --date "${{ steps.d.outputs.date }}" --no-send
+
       - name: 스냅샷·리포트 커밋
         run: |
           git config user.name "indie-trending-bot"
@@ -66,3 +69,8 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python3 notify.py --date "${{ steps.d.outputs.date }}"
+
+      - name: 개인 리포트 전송
+        env:
+          DISCORD_WEBHOOK_URL_PERSONAL: ${{ secrets.DISCORD_WEBHOOK_URL_PERSONAL }}
+        run: python3 personal.py --date "${{ steps.d.outputs.date }}" --send-only
