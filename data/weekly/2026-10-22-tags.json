@@ -1,0 +1,1775 @@
+{
+ "date": "2026-10-22",
+ "since": "2025-10-23",
+ "until": "2026-10-22",
+ "window_days": 365,
+ "success_reviews": 500,
+ "mid_reviews": 100,
+ "min_games": 30,
+ "niche_base": 10000,
+ "requests": 359,
+ "games_total": 13298,
+ "tags": [
+  {
+   "name": "Puzzle",
+   "id": 1664,
+   "n": 2400,
+   "n_success": 52,
+   "n_mid": 163,
+   "n_low": 1623,
+   "p_success": 2.2,
+   "p_mid": 6.8,
+   "p_low": 67.6,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 4197610,
+     "name": "Librarian: Tidy Up the Arcane Library!",
+     "reviews": 16618,
+     "released": "2026-04-30",
+     "url": "https://store.steampowered.com/app/4197610/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4197610/f0d3c0ed4a31473df3d912d95b63a1fcc7feef97/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2162800,
+     "name": "shapez 2 - Factory",
+     "reviews": 8977,
+     "released": "2026-04-23",
+     "url": "https://store.steampowered.com/app/2162800/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2162800/5cdaa9e8359c7c39de9b96aeba814616c59641cb/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3097300,
+     "name": "Creature Kitchen",
+     "reviews": 7744,
+     "released": "2026-02-06",
+     "url": "https://store.steampowered.com/app/3097300/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/3386418d1f2846730b7456c6cd4721df42597848/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 24,
+   "truncated": true,
+   "window_days": 266,
+   "oldest": "2026-01-30",
+   "niche": 4.2,
+   "ranked": true
+  },
+  {
+   "name": "Platformer",
+   "id": 1625,
+   "n": 1392,
+   "n_success": 24,
+   "n_mid": 91,
+   "n_low": 968,
+   "p_success": 1.7,
+   "p_mid": 6.5,
+   "p_low": 69.5,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 3678970,
+     "name": "TBH: Task Bar Hero",
+     "reviews": 8628,
+     "released": "2026-05-27",
+     "url": "https://store.steampowered.com/app/3678970/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3678970/7861fe728b27e39bb204f8622a593cbca7a839b7/capsule_231x87_alt_assets_1.jpg"
+    },
+    {
+     "appid": 2085540,
+     "name": "Stick It to the Stickman",
+     "reviews": 5234,
+     "released": "2026-09-23",
+     "url": "https://store.steampowered.com/app/2085540/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2085540/3c78c1bf0899076eb207a6f1e3cb6374d1628888/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4131730,
+     "name": "VHOLUME",
+     "reviews": 2622,
+     "released": "2026-08-21",
+     "url": "https://store.steampowered.com/app/4131730/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4131730/1eae8c678a24821f505ff8ab4f150697672ce092/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 14,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 5.6,
+   "ranked": true
+  },
+  {
+   "name": "2D Platformer",
+   "id": 5379,
+   "n": 1474,
+   "n_success": 19,
+   "n_mid": 84,
+   "n_low": 1080,
+   "p_success": 1.3,
+   "p_mid": 5.7,
+   "p_low": 73.3,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 2085540,
+     "name": "Stick It to the Stickman",
+     "reviews": 5234,
+     "released": "2026-09-23",
+     "url": "https://store.steampowered.com/app/2085540/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2085540/3c78c1bf0899076eb207a6f1e3cb6374d1628888/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3865150,
+     "name": "Tiny Shadows Interwoven Hearts",
+     "reviews": 3866,
+     "released": "2025-11-06",
+     "url": "https://store.steampowered.com/app/3865150/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3865150/05cf94e83124f7e5905eecdb2b90dbaa37b4c18e/capsule_231x87.jpg"
+    },
+    {
+     "appid": 1663850,
+     "name": "REPLACED",
+     "reviews": 3699,
+     "released": "2026-04-14",
+     "url": "https://store.steampowered.com/app/1663850/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1663850/dc8b06f173ef6404a646accdb0f5efe3824668ff/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 15,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 4.7,
+   "ranked": true
+  },
+  {
+   "name": "Metroidvania",
+   "id": 1628,
+   "n": 170,
+   "n_success": 9,
+   "n_mid": 28,
+   "n_low": 83,
+   "p_success": 5.3,
+   "p_mid": 16.5,
+   "p_low": 48.8,
+   "median": 10.0,
+   "top": [
+    {
+     "appid": 1672810,
+     "name": "MIO: Memories in Orbit",
+     "reviews": 2049,
+     "released": "2026-01-20",
+     "url": "https://store.steampowered.com/app/1672810/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1672810/661b8a5b74d8a4c1036252d5195c69833307a7e5/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2529790,
+     "name": "GRIME II",
+     "reviews": 1956,
+     "released": "2026-03-31",
+     "url": "https://store.steampowered.com/app/2529790/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2529790/aeeae883aabb1a2633194cbeff5a4b64f7a80340/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3699590,
+     "name": "Well Dweller",
+     "reviews": 1823,
+     "released": "2026-09-22",
+     "url": "https://store.steampowered.com/app/3699590/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3699590/ab956a6e275e2ab5909ffd811a057035eddd042c/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 2,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 29.2,
+   "ranked": true
+  },
+  {
+   "name": "Roguelike",
+   "id": 1716,
+   "n": 1712,
+   "n_success": 77,
+   "n_mid": 201,
+   "n_low": 1107,
+   "p_success": 4.5,
+   "p_mid": 11.7,
+   "p_low": 64.7,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 2868840,
+     "name": "Slay the Spire 2",
+     "reviews": 71295,
+     "released": "2026-03-05",
+     "url": "https://store.steampowered.com/app/2868840/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3948120,
+     "name": "Scritchy Scratchy",
+     "reviews": 9084,
+     "released": "2026-03-18",
+     "url": "https://store.steampowered.com/app/3948120/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3948120/3d9dad2f02502bbe5c3d4b1566e5ee250d4a327f/capsule_231x87_alt_assets_0.jpg"
+    },
+    {
+     "appid": 3265700,
+     "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+     "reviews": 8599,
+     "released": "2026-04-21",
+     "url": "https://store.steampowered.com/app/3265700/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/7e1d03c69fe971343ba08977b7478882b90e0432/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 18,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 9.0,
+   "ranked": true
+  },
+  {
+   "name": "Roguelite",
+   "id": 3959,
+   "n": 1673,
+   "n_success": 78,
+   "n_mid": 194,
+   "n_low": 1078,
+   "p_success": 4.7,
+   "p_mid": 11.6,
+   "p_low": 64.4,
+   "median": 0,
+   "top": [
+    {
+     "appid": 2868840,
+     "name": "Slay the Spire 2",
+     "reviews": 71296,
+     "released": "2026-03-05",
+     "url": "https://store.steampowered.com/app/2868840/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3948120,
+     "name": "Scritchy Scratchy",
+     "reviews": 9084,
+     "released": "2026-03-18",
+     "url": "https://store.steampowered.com/app/3948120/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3948120/3d9dad2f02502bbe5c3d4b1566e5ee250d4a327f/capsule_231x87_alt_assets_0.jpg"
+    },
+    {
+     "appid": 3265700,
+     "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+     "reviews": 8599,
+     "released": "2026-04-21",
+     "url": "https://store.steampowered.com/app/3265700/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/7e1d03c69fe971343ba08977b7478882b90e0432/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 17,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 9.0,
+   "ranked": true
+  },
+  {
+   "name": "Action Roguelike",
+   "id": 42804,
+   "n": 1108,
+   "n_success": 32,
+   "n_mid": 93,
+   "n_low": 764,
+   "p_success": 2.9,
+   "p_mid": 8.4,
+   "p_low": 69.0,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 3265700,
+     "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+     "reviews": 8599,
+     "released": "2026-04-21",
+     "url": "https://store.steampowered.com/app/3265700/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/7e1d03c69fe971343ba08977b7478882b90e0432/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2163330,
+     "name": "Yet Another Zombie Survivors",
+     "reviews": 5771,
+     "released": "2026-08-20",
+     "url": "https://store.steampowered.com/app/2163330/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2163330/765e6898cbb4faffa34991912775d813be58cc56/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2436940,
+     "name": "Sephiria",
+     "reviews": 3059,
+     "released": "2026-07-31",
+     "url": "https://store.steampowered.com/app/2436940/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2436940/78eca6a13c2b7660aa2a6676f75d348a12d8d4f4/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 12,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 8.0,
+   "ranked": true
+  },
+  {
+   "name": "Deckbuilding",
+   "id": 32322,
+   "n": 696,
+   "n_success": 38,
+   "n_mid": 96,
+   "n_low": 427,
+   "p_success": 5.5,
+   "p_mid": 13.8,
+   "p_low": 61.4,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 2868840,
+     "name": "Slay the Spire 2",
+     "reviews": 71295,
+     "released": "2026-03-05",
+     "url": "https://store.steampowered.com/app/2868840/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3265700,
+     "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+     "reviews": 8599,
+     "released": "2026-04-21",
+     "url": "https://store.steampowered.com/app/3265700/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/7e1d03c69fe971343ba08977b7478882b90e0432/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3631290,
+     "name": "Slots & Daggers",
+     "reviews": 4603,
+     "released": "2025-10-24",
+     "url": "https://store.steampowered.com/app/3631290/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3631290/8930a3333520bff75be49d946f9a5c47fc10ba2d/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 7,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 16.0,
+   "ranked": true
+  },
+  {
+   "name": "Card Game",
+   "id": 1666,
+   "n": 806,
+   "n_success": 27,
+   "n_mid": 69,
+   "n_low": 550,
+   "p_success": 3.3,
+   "p_mid": 8.6,
+   "p_low": 68.2,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 2868840,
+     "name": "Slay the Spire 2",
+     "reviews": 71296,
+     "released": "2026-03-05",
+     "url": "https://store.steampowered.com/app/2868840/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3070070,
+     "name": "TCG Card Shop Simulator",
+     "reviews": 34216,
+     "released": "2026-09-14",
+     "url": "https://store.steampowered.com/app/3070070/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3070070/b3dae7c79dfb4381561d0ee466dde3d2f41246c8/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3265700,
+     "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+     "reviews": 8599,
+     "released": "2026-04-21",
+     "url": "https://store.steampowered.com/app/3265700/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/7e1d03c69fe971343ba08977b7478882b90e0432/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 9,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 9.4,
+   "ranked": true
+  },
+  {
+   "name": "Tower Defense",
+   "id": 1645,
+   "n": 495,
+   "n_success": 16,
+   "n_mid": 41,
+   "n_low": 332,
+   "p_success": 3.2,
+   "p_mid": 8.3,
+   "p_low": 67.1,
+   "median": 0,
+   "top": [
+    {
+     "appid": 1197260,
+     "name": "The Perfect Tower II",
+     "reviews": 3339,
+     "released": "2025-11-30",
+     "url": "https://store.steampowered.com/app/1197260/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1197260/52d6cb882d8cb19ba4931e5d9306438c9681a1e2/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2459550,
+     "name": "Emberward",
+     "reviews": 2792,
+     "released": "2026-09-17",
+     "url": "https://store.steampowered.com/app/2459550/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2459550/3d606cad784750be3406ec9668ee128883fedd79/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4271160,
+     "name": "Zero Stress King: Idle Defense",
+     "reviews": 1989,
+     "released": "2026-03-30",
+     "url": "https://store.steampowered.com/app/4271160/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4271160/d9396b7a2c8149a6b038b6198b5d813f1c59e19c/capsule_231x87_alt_assets_0.jpg"
+    }
+   ],
+   "pages": 5,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 10.8,
+   "ranked": true
+  },
+  {
+   "name": "Turn-Based Strategy",
+   "id": 1741,
+   "n": 771,
+   "n_success": 25,
+   "n_mid": 73,
+   "n_low": 504,
+   "p_success": 3.2,
+   "p_mid": 9.5,
+   "p_low": 65.4,
+   "median": 0,
+   "top": [
+    {
+     "appid": 3202030,
+     "name": "龙胤立志传",
+     "reviews": 7311,
+     "released": "2026-03-12",
+     "url": "https://store.steampowered.com/app/3202030/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3202030/3d12ccfdfba2170f3e2acc5aec22d54c50336619/capsule_231x87_alt_assets_2.jpg"
+    },
+    {
+     "appid": 2026820,
+     "name": "Die in the Dungeon",
+     "reviews": 1993,
+     "released": "2026-05-01",
+     "url": "https://store.steampowered.com/app/2026820/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2026820/52cd98512901f798da435aae917511b81db6fff7/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3100370,
+     "name": "Black Jacket",
+     "reviews": 1913,
+     "released": "2026-05-12",
+     "url": "https://store.steampowered.com/app/3100370/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3100370/6ce95561ed1ebc54346a4ece3aed39957c3b8425/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 8,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 10.6,
+   "ranked": true
+  },
+  {
+   "name": "Turn-Based Tactics",
+   "id": 14139,
+   "n": 780,
+   "n_success": 23,
+   "n_mid": 72,
+   "n_low": 535,
+   "p_success": 2.9,
+   "p_mid": 9.2,
+   "p_low": 68.6,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 3100370,
+     "name": "Black Jacket",
+     "reviews": 1913,
+     "released": "2026-05-12",
+     "url": "https://store.steampowered.com/app/3100370/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3100370/6ce95561ed1ebc54346a4ece3aed39957c3b8425/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3271280,
+     "name": "Shroom and Gloom",
+     "reviews": 1881,
+     "released": "2026-09-10",
+     "url": "https://store.steampowered.com/app/3271280/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3271280/7644c158121c6fdb0bc3040febb616d495c2ce17/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3649580,
+     "name": "FrostBound",
+     "reviews": 1202,
+     "released": "2025-11-26",
+     "url": "https://store.steampowered.com/app/3649580/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3649580/126711c9ad007c68c4d615a74d349224d807e8f1/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 8,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 10.2,
+   "ranked": true
+  },
+  {
+   "name": "Strategy RPG",
+   "id": 17305,
+   "n": 316,
+   "n_success": 18,
+   "n_mid": 50,
+   "n_low": 191,
+   "p_success": 5.7,
+   "p_mid": 15.8,
+   "p_low": 60.4,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 3202030,
+     "name": "龙胤立志传",
+     "reviews": 7311,
+     "released": "2026-03-12",
+     "url": "https://store.steampowered.com/app/3202030/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3202030/3d12ccfdfba2170f3e2acc5aec22d54c50336619/capsule_231x87_alt_assets_2.jpg"
+    },
+    {
+     "appid": 2878450,
+     "name": "Master of Command",
+     "reviews": 2586,
+     "released": "2025-10-27",
+     "url": "https://store.steampowered.com/app/2878450/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2878450/659538bfcdc8936dd7bcab1701170c4e0e03217c/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4113940,
+     "name": "Sovereign Tower",
+     "reviews": 2112,
+     "released": "2026-08-06",
+     "url": "https://store.steampowered.com/app/4113940/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4113940/08f713104c04740bb30f585787db8ae39b8372fe/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 4,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 23.7,
+   "ranked": true
+  },
+  {
+   "name": "Action RPG",
+   "id": 4231,
+   "n": 603,
+   "n_success": 38,
+   "n_mid": 80,
+   "n_low": 371,
+   "p_success": 6.3,
+   "p_mid": 13.3,
+   "p_low": 61.5,
+   "median": 0,
+   "top": [
+    {
+     "appid": 1203620,
+     "name": "Enshrouded",
+     "reviews": 51142,
+     "released": "2026-10-15",
+     "url": "https://store.steampowered.com/app/1203620/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1203620/8af4416eb10538ba60047c325789ded4c7f02681/capsule_231x87_alt_assets_2.jpg"
+    },
+    {
+     "appid": 3678970,
+     "name": "TBH: Task Bar Hero",
+     "reviews": 8628,
+     "released": "2026-05-27",
+     "url": "https://store.steampowered.com/app/3678970/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3678970/7861fe728b27e39bb204f8622a593cbca7a839b7/capsule_231x87_alt_assets_1.jpg"
+    },
+    {
+     "appid": 2163330,
+     "name": "Yet Another Zombie Survivors",
+     "reviews": 5771,
+     "released": "2026-08-20",
+     "url": "https://store.steampowered.com/app/2163330/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2163330/765e6898cbb4faffa34991912775d813be58cc56/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 7,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 16.2,
+   "ranked": true
+  },
+  {
+   "name": "JRPG",
+   "id": 4434,
+   "n": 244,
+   "n_success": 14,
+   "n_mid": 43,
+   "n_low": 122,
+   "p_success": 5.7,
+   "p_mid": 17.6,
+   "p_low": 50.0,
+   "median": 5.0,
+   "top": [
+    {
+     "appid": 3865150,
+     "name": "Tiny Shadows Interwoven Hearts",
+     "reviews": 3867,
+     "released": "2025-11-06",
+     "url": "https://store.steampowered.com/app/3865150/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3865150/05cf94e83124f7e5905eecdb2b90dbaa37b4c18e/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3942480,
+     "name": "The NOexistenceN of Morphean Paradox : The Forest of Silver Shallots",
+     "reviews": 1744,
+     "released": "2026-01-18",
+     "url": "https://store.steampowered.com/app/3942480/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3942480/68b9a7c9fbf59ad5f27390a2e9b642bf5f03452b/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3110760,
+     "name": "Alabaster Dawn",
+     "reviews": 1407,
+     "released": "2026-05-07",
+     "url": "https://store.steampowered.com/app/3110760/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3110760/6d0608220ab5a84b3c7659756416e65e8811a33e/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 3,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 28.4,
+   "ranked": true
+  },
+  {
+   "name": "Dungeon Crawler",
+   "id": 1720,
+   "n": 533,
+   "n_success": 25,
+   "n_mid": 69,
+   "n_low": 319,
+   "p_success": 4.7,
+   "p_mid": 12.9,
+   "p_low": 59.8,
+   "median": 0,
+   "top": [
+    {
+     "appid": 2868840,
+     "name": "Slay the Spire 2",
+     "reviews": 71296,
+     "released": "2026-03-05",
+     "url": "https://store.steampowered.com/app/2868840/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_231x87.jpg"
+    },
+    {
+     "appid": 1943950,
+     "name": "Escape the Backrooms",
+     "reviews": 46871,
+     "released": "2025-10-23",
+     "url": "https://store.steampowered.com/app/1943950/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1943950/28626087167f428b92a79d4c319e19707fe22dae/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3265700,
+     "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+     "reviews": 8599,
+     "released": "2026-04-21",
+     "url": "https://store.steampowered.com/app/3265700/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265700/7e1d03c69fe971343ba08977b7478882b90e0432/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 6,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 16.4,
+   "ranked": true
+  },
+  {
+   "name": "Souls-like",
+   "id": 29482,
+   "n": 206,
+   "n_success": 18,
+   "n_mid": 38,
+   "n_low": 100,
+   "p_success": 8.7,
+   "p_mid": 18.4,
+   "p_low": 48.5,
+   "median": 10.0,
+   "top": [
+    {
+     "appid": 1672810,
+     "name": "MIO: Memories in Orbit",
+     "reviews": 2049,
+     "released": "2026-01-20",
+     "url": "https://store.steampowered.com/app/1672810/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1672810/661b8a5b74d8a4c1036252d5195c69833307a7e5/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2529790,
+     "name": "GRIME II",
+     "reviews": 1956,
+     "released": "2026-03-31",
+     "url": "https://store.steampowered.com/app/2529790/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2529790/aeeae883aabb1a2633194cbeff5a4b64f7a80340/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3440070,
+     "name": "Dinoblade",
+     "reviews": 1812,
+     "released": "2026-07-23",
+     "url": "https://store.steampowered.com/app/3440070/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3440070/77248fe2999219d51accccc675e58645bbed9a74/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 3,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-28",
+   "niche": 31.0,
+   "ranked": true
+  },
+  {
+   "name": "Auto Battler",
+   "id": 1084988,
+   "n": 389,
+   "n_success": 31,
+   "n_mid": 62,
+   "n_low": 205,
+   "p_success": 8.0,
+   "p_mid": 15.9,
+   "p_low": 52.7,
+   "median": 0,
+   "top": [
+    {
+     "appid": 3678970,
+     "name": "TBH: Task Bar Hero",
+     "reviews": 8628,
+     "released": "2026-05-27",
+     "url": "https://store.steampowered.com/app/3678970/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3678970/7861fe728b27e39bb204f8622a593cbca7a839b7/capsule_231x87_alt_assets_1.jpg"
+    },
+    {
+     "appid": 2289750,
+     "name": "Super Fantasy Kingdom",
+     "reviews": 3129,
+     "released": "2025-10-24",
+     "url": "https://store.steampowered.com/app/2289750/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2289750/1a3a0d403ae0e924f56f5008d4b914e1c0d81343/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3934270,
+     "name": "How Many Dudes? The Roguelike Autobattler",
+     "reviews": 2204,
+     "released": "2026-07-30",
+     "url": "https://store.steampowered.com/app/3934270/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3934270/496dbd9cb046e2efdb04a0d770d4ff1d26378907/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 4,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 22.4,
+   "ranked": true
+  },
+  {
+   "name": "Horror",
+   "id": 1667,
+   "n": 2144,
+   "n_success": 64,
+   "n_mid": 230,
+   "n_low": 1193,
+   "p_success": 3.0,
+   "p_mid": 10.7,
+   "p_low": 55.6,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 1943950,
+     "name": "Escape the Backrooms",
+     "reviews": 46871,
+     "released": "2025-10-23",
+     "url": "https://store.steampowered.com/app/1943950/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1943950/28626087167f428b92a79d4c319e19707fe22dae/capsule_231x87.jpg"
+    },
+    {
+     "appid": 292000,
+     "name": "No More Room in Hell 2",
+     "reviews": 9956,
+     "released": "2026-08-11",
+     "url": "https://store.steampowered.com/app/292000/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292000/da8375b0cb25ccc012b0df1c9bf43be81c55faa8/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3097300,
+     "name": "Creature Kitchen",
+     "reviews": 7744,
+     "released": "2026-02-06",
+     "url": "https://store.steampowered.com/app/3097300/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/3386418d1f2846730b7456c6cd4721df42597848/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 22,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 7.2,
+   "ranked": true
+  },
+  {
+   "name": "Psychological Horror",
+   "id": 1721,
+   "n": 1588,
+   "n_success": 61,
+   "n_mid": 208,
+   "n_low": 800,
+   "p_success": 3.8,
+   "p_mid": 13.1,
+   "p_low": 50.4,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 1943950,
+     "name": "Escape the Backrooms",
+     "reviews": 46871,
+     "released": "2025-10-23",
+     "url": "https://store.steampowered.com/app/1943950/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1943950/28626087167f428b92a79d4c319e19707fe22dae/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4001890,
+     "name": "How to Fish",
+     "reviews": 28907,
+     "released": "2026-08-20",
+     "url": "https://store.steampowered.com/app/4001890/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4001890/8f65bb2b78d37a9147aa79c970a51610e6955bf1/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4122860,
+     "name": "Z.A.T.O. // I Love the World and Everything In It",
+     "reviews": 6922,
+     "released": "2025-11-10",
+     "url": "https://store.steampowered.com/app/4122860/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4122860/c88030f4113af2ea12d714084d16115689c9a361/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 16,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 10.5,
+   "ranked": true
+  },
+  {
+   "name": "Survival Horror",
+   "id": 3978,
+   "n": 729,
+   "n_success": 21,
+   "n_mid": 68,
+   "n_low": 447,
+   "p_success": 2.9,
+   "p_mid": 9.3,
+   "p_low": 61.3,
+   "median": 0,
+   "top": [
+    {
+     "appid": 1943950,
+     "name": "Escape the Backrooms",
+     "reviews": 46871,
+     "released": "2025-10-23",
+     "url": "https://store.steampowered.com/app/1943950/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1943950/28626087167f428b92a79d4c319e19707fe22dae/capsule_231x87.jpg"
+    },
+    {
+     "appid": 292000,
+     "name": "No More Room in Hell 2",
+     "reviews": 9956,
+     "released": "2026-08-11",
+     "url": "https://store.steampowered.com/app/292000/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292000/da8375b0cb25ccc012b0df1c9bf43be81c55faa8/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2747330,
+     "name": "Species: Unknown",
+     "reviews": 6474,
+     "released": "2025-10-23",
+     "url": "https://store.steampowered.com/app/2747330/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2747330/bda34030a39cabb49f8a238b3733a1adb02a8d7c/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 8,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 10.6,
+   "ranked": true
+  },
+  {
+   "name": "Visual Novel",
+   "id": 3799,
+   "n": 1012,
+   "n_success": 46,
+   "n_mid": 144,
+   "n_low": 526,
+   "p_success": 4.5,
+   "p_mid": 14.2,
+   "p_low": 52.0,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 4122860,
+     "name": "Z.A.T.O. // I Love the World and Everything In It",
+     "reviews": 6922,
+     "released": "2025-11-10",
+     "url": "https://store.steampowered.com/app/4122860/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4122860/c88030f4113af2ea12d714084d16115689c9a361/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3865150,
+     "name": "Tiny Shadows Interwoven Hearts",
+     "reviews": 3866,
+     "released": "2025-11-06",
+     "url": "https://store.steampowered.com/app/3865150/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3865150/05cf94e83124f7e5905eecdb2b90dbaa37b4c18e/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4368350,
+     "name": "Silly Linguine Cat Simulator Deluxe Online",
+     "reviews": 3525,
+     "released": "2026-03-27",
+     "url": "https://store.steampowered.com/app/4368350/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4368350/83ec77a336e9f3d2cbc93dbf4b4ac0941dce17ce/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 11,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 14.1,
+   "ranked": true
+  },
+  {
+   "name": "Dating Sim",
+   "id": 9551,
+   "n": 229,
+   "n_success": 27,
+   "n_mid": 57,
+   "n_low": 98,
+   "p_success": 11.8,
+   "p_mid": 24.9,
+   "p_low": 42.8,
+   "median": 16,
+   "top": [
+    {
+     "appid": 3865150,
+     "name": "Tiny Shadows Interwoven Hearts",
+     "reviews": 3867,
+     "released": "2025-11-06",
+     "url": "https://store.steampowered.com/app/3865150/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3865150/05cf94e83124f7e5905eecdb2b90dbaa37b4c18e/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4225940,
+     "name": "SIFU Kidnapped! Adventure in the Women's Kingdom",
+     "reviews": 2540,
+     "released": "2026-02-04",
+     "url": "https://store.steampowered.com/app/4225940/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4225940/bcb9255d240eddb100c002b13a3a3828a5d950a3/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3559510,
+     "name": "Capsule Lover",
+     "reviews": 1592,
+     "released": "2026-06-11",
+     "url": "https://store.steampowered.com/app/3559510/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3559510/12db32fc0f3a71163f181e004fe57db6320329c9/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 3,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 40.8,
+   "ranked": true
+  },
+  {
+   "name": "Interactive Fiction",
+   "id": 11014,
+   "n": 757,
+   "n_success": 38,
+   "n_mid": 102,
+   "n_low": 397,
+   "p_success": 5.0,
+   "p_mid": 13.5,
+   "p_low": 52.4,
+   "median": 0,
+   "top": [
+    {
+     "appid": 4515660,
+     "name": "Control, I'm Not Coming Back",
+     "reviews": 5226,
+     "released": "2026-05-29",
+     "url": "https://store.steampowered.com/app/4515660/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4515660/e745d6eff71e81a61d50d3dce60ca4fb67f5a6c8/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3865150,
+     "name": "Tiny Shadows Interwoven Hearts",
+     "reviews": 3867,
+     "released": "2025-11-06",
+     "url": "https://store.steampowered.com/app/3865150/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3865150/05cf94e83124f7e5905eecdb2b90dbaa37b4c18e/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2643390,
+     "name": "Star Trek: Voyager - Across the Unknown",
+     "reviews": 3172,
+     "released": "2026-02-18",
+     "url": "https://store.steampowered.com/app/2643390/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2643390/be41ff71b3f3d73566a3aec812615e4760c7111e/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 8,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 15.1,
+   "ranked": true
+  },
+  {
+   "name": "Point & Click",
+   "id": 1698,
+   "n": 1182,
+   "n_success": 36,
+   "n_mid": 119,
+   "n_low": 667,
+   "p_success": 3.0,
+   "p_mid": 10.1,
+   "p_low": 56.4,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 3981100,
+     "name": "Leaf it Alone",
+     "reviews": 3519,
+     "released": "2025-10-30",
+     "url": "https://store.steampowered.com/app/3981100/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3981100/f55517e6359d5efee5a73b02248ed87fc6264ee5/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4113940,
+     "name": "Sovereign Tower",
+     "reviews": 2112,
+     "released": "2026-08-06",
+     "url": "https://store.steampowered.com/app/4113940/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4113940/08f713104c04740bb30f585787db8ae39b8372fe/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2863680,
+     "name": "ZERO PARADES: Director's Cut",
+     "reviews": 1860,
+     "released": "2026-05-21",
+     "url": "https://store.steampowered.com/app/2863680/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2863680/dbd965660c4f878a779570ed144e420d932b999d/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 12,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 9.4,
+   "ranked": true
+  },
+  {
+   "name": "Hidden Object",
+   "id": 1738,
+   "n": 880,
+   "n_success": 18,
+   "n_mid": 69,
+   "n_low": 503,
+   "p_success": 2.0,
+   "p_mid": 7.8,
+   "p_low": 57.2,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 4704690,
+     "name": "MECCHA CHAMELEON",
+     "reviews": 44075,
+     "released": "2026-06-09",
+     "url": "https://store.steampowered.com/app/4704690/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4704690/18d14b8bd834e30a6a25df5ccd7f0a6e644f1577/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4197610,
+     "name": "Librarian: Tidy Up the Arcane Library!",
+     "reviews": 16618,
+     "released": "2026-04-30",
+     "url": "https://store.steampowered.com/app/4197610/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4197610/f0d3c0ed4a31473df3d912d95b63a1fcc7feef97/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4160210,
+     "name": "The Artisan of Glimmith",
+     "reviews": 1558,
+     "released": "2026-03-17",
+     "url": "https://store.steampowered.com/app/4160210/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4160210/579400dbfa41cf11aa1870c08f3885ab8d76d292/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 9,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 8.2,
+   "ranked": true
+  },
+  {
+   "name": "Walking Simulator",
+   "id": 5900,
+   "n": 972,
+   "n_success": 25,
+   "n_mid": 102,
+   "n_low": 493,
+   "p_success": 2.6,
+   "p_mid": 10.5,
+   "p_low": 50.7,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 1588550,
+     "name": "Cairn",
+     "reviews": 9945,
+     "released": "2026-01-29",
+     "url": "https://store.steampowered.com/app/1588550/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1588550/b46958afa6fe4a8da8329782be422284e184661b/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4164420,
+     "name": "My Winter Car",
+     "reviews": 6722,
+     "released": "2025-12-29",
+     "url": "https://store.steampowered.com/app/4164420/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4164420/eaa06f39647f66d7f3640e10c0024e090fa71c65/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4515660,
+     "name": "Control, I'm Not Coming Back",
+     "reviews": 5227,
+     "released": "2026-05-29",
+     "url": "https://store.steampowered.com/app/4515660/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4515660/e745d6eff71e81a61d50d3dce60ca4fb67f5a6c8/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 10,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 10.6,
+   "ranked": true
+  },
+  {
+   "name": "Survival",
+   "id": 1662,
+   "n": 1095,
+   "n_success": 41,
+   "n_mid": 106,
+   "n_low": 700,
+   "p_success": 3.7,
+   "p_mid": 9.7,
+   "p_low": 63.9,
+   "median": 0,
+   "top": [
+    {
+     "appid": 892970,
+     "name": "Valheim",
+     "reviews": 266818,
+     "released": "2026-09-09",
+     "url": "https://store.steampowered.com/app/892970/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/892970/4e8fffa2161ff5bf23058cc72c43ef1032059b5b/capsule_231x87_alt_assets_6.jpg"
+    },
+    {
+     "appid": 1623730,
+     "name": "Palworld",
+     "reviews": 184556,
+     "released": "2026-07-09",
+     "url": "https://store.steampowered.com/app/1623730/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1623730/0703d5a0658c7aedaa3be4391d6f5cccc1bb6d7a/capsule_231x87.jpg"
+    },
+    {
+     "appid": 1203620,
+     "name": "Enshrouded",
+     "reviews": 51142,
+     "released": "2026-10-15",
+     "url": "https://store.steampowered.com/app/1203620/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1203620/8af4416eb10538ba60047c325789ded4c7f02681/capsule_231x87_alt_assets_2.jpg"
+    }
+   ],
+   "pages": 11,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 9.3,
+   "ranked": true
+  },
+  {
+   "name": "Base Building",
+   "id": 7332,
+   "n": 439,
+   "n_success": 40,
+   "n_mid": 78,
+   "n_low": 232,
+   "p_success": 9.1,
+   "p_mid": 17.8,
+   "p_low": 52.8,
+   "median": 0,
+   "top": [
+    {
+     "appid": 892970,
+     "name": "Valheim",
+     "reviews": 266818,
+     "released": "2026-09-09",
+     "url": "https://store.steampowered.com/app/892970/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/892970/4e8fffa2161ff5bf23058cc72c43ef1032059b5b/capsule_231x87_alt_assets_6.jpg"
+    },
+    {
+     "appid": 1623730,
+     "name": "Palworld",
+     "reviews": 184556,
+     "released": "2026-07-09",
+     "url": "https://store.steampowered.com/app/1623730/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1623730/0703d5a0658c7aedaa3be4391d6f5cccc1bb6d7a/capsule_231x87.jpg"
+    },
+    {
+     "appid": 1203620,
+     "name": "Enshrouded",
+     "reviews": 51143,
+     "released": "2026-10-15",
+     "url": "https://store.steampowered.com/app/1203620/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1203620/8af4416eb10538ba60047c325789ded4c7f02681/capsule_231x87_alt_assets_2.jpg"
+    }
+   ],
+   "pages": 5,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-25",
+   "niche": 24.2,
+   "ranked": true
+  },
+  {
+   "name": "City Builder",
+   "id": 4328,
+   "n": 242,
+   "n_success": 20,
+   "n_mid": 38,
+   "n_low": 126,
+   "p_success": 8.3,
+   "p_mid": 15.7,
+   "p_low": 52.1,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 979110,
+     "name": "Space Haven",
+     "reviews": 6085,
+     "released": "2026-05-13",
+     "url": "https://store.steampowered.com/app/979110/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/979110/54abf3d574c310a2e73cd89734fb4cbd3b6a21ff/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3115220,
+     "name": "Town to City",
+     "reviews": 4252,
+     "released": "2026-05-26",
+     "url": "https://store.steampowered.com/app/3115220/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3115220/afb81e9e9cd4cc5d942d9b50e3f4d99b541bca84/capsule_231x87.jpg"
+    },
+    {
+     "appid": 1465470,
+     "name": "The Crust",
+     "reviews": 2121,
+     "released": "2026-09-10",
+     "url": "https://store.steampowered.com/app/1465470/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1465470/8e979132c954444babac43d23b7c4a8085831308/capsule_231x87_alt_assets_18.jpg"
+    }
+   ],
+   "pages": 3,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 25.4,
+   "ranked": true
+  },
+  {
+   "name": "Colony Sim",
+   "id": 220585,
+   "n": 142,
+   "n_success": 8,
+   "n_mid": 17,
+   "n_low": 76,
+   "p_success": 5.6,
+   "p_mid": 12.0,
+   "p_low": 53.5,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 979110,
+     "name": "Space Haven",
+     "reviews": 6085,
+     "released": "2026-05-13",
+     "url": "https://store.steampowered.com/app/979110/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/979110/54abf3d574c310a2e73cd89734fb4cbd3b6a21ff/capsule_231x87.jpg"
+    },
+    {
+     "appid": 1465470,
+     "name": "The Crust",
+     "reviews": 2121,
+     "released": "2026-09-10",
+     "url": "https://store.steampowered.com/app/1465470/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1465470/8e979132c954444babac43d23b7c4a8085831308/capsule_231x87_alt_assets_18.jpg"
+    },
+    {
+     "appid": 1857080,
+     "name": "The Last Starship",
+     "reviews": 1635,
+     "released": "2026-02-03",
+     "url": "https://store.steampowered.com/app/1857080/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1857080/a9dd7f8d10c19ee37ccfa47a44cf90023115d059/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 2,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-29",
+   "niche": 22.2,
+   "ranked": true
+  },
+  {
+   "name": "Management",
+   "id": 12472,
+   "n": 1381,
+   "n_success": 87,
+   "n_mid": 236,
+   "n_low": 685,
+   "p_success": 6.3,
+   "p_mid": 17.1,
+   "p_low": 49.6,
+   "median": 10,
+   "top": [
+    {
+     "appid": 3070070,
+     "name": "TCG Card Shop Simulator",
+     "reviews": 34216,
+     "released": "2026-09-14",
+     "url": "https://store.steampowered.com/app/3070070/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3070070/b3dae7c79dfb4381561d0ee466dde3d2f41246c8/capsule_231x87.jpg"
+    },
+    {
+     "appid": 1476970,
+     "name": "IdleOn - The Incremental MMO",
+     "reviews": 21916,
+     "released": "2025-11-06",
+     "url": "https://store.steampowered.com/app/1476970/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1476970/6c5ebda02c5a3ee53ed0ce584e9b4db2a8f3909a/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4019220,
+     "name": "Dressmaker",
+     "reviews": 12353,
+     "released": "2026-09-21",
+     "url": "https://store.steampowered.com/app/4019220/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4019220/7f07d1dd7a97e00694481ee7747940989dc5820c/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 14,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 14.7,
+   "ranked": true
+  },
+  {
+   "name": "Farming Sim",
+   "id": 87918,
+   "n": 232,
+   "n_success": 12,
+   "n_mid": 37,
+   "n_low": 123,
+   "p_success": 5.2,
+   "p_mid": 15.9,
+   "p_low": 53.0,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 3370870,
+     "name": "Berry Bury Berry",
+     "reviews": 6507,
+     "released": "2026-01-29",
+     "url": "https://store.steampowered.com/app/3370870/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3370870/14e893d4a56d439164f6ffd7c43960464d4dfa71/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3846120,
+     "name": "MineMogul",
+     "reviews": 3304,
+     "released": "2025-12-04",
+     "url": "https://store.steampowered.com/app/3846120/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3846120/c730a7d0ecca7a275cdfa9d7d8e3640f2d4e9be4/capsule_231x87.jpg"
+    },
+    {
+     "appid": 1805110,
+     "name": "Solarpunk™",
+     "reviews": 1980,
+     "released": "2026-06-08",
+     "url": "https://store.steampowered.com/app/1805110/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1805110/f02a4ef7e9fcee35e1ae091052930f0eb7a803da/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 3,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 26.0,
+   "ranked": true
+  },
+  {
+   "name": "Life Sim",
+   "id": 10235,
+   "n": 688,
+   "n_success": 38,
+   "n_mid": 128,
+   "n_low": 329,
+   "p_success": 5.5,
+   "p_mid": 18.6,
+   "p_low": 47.8,
+   "median": 11.0,
+   "top": [
+    {
+     "appid": 3070070,
+     "name": "TCG Card Shop Simulator",
+     "reviews": 34216,
+     "released": "2026-09-14",
+     "url": "https://store.steampowered.com/app/3070070/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3070070/b3dae7c79dfb4381561d0ee466dde3d2f41246c8/capsule_231x87.jpg"
+    },
+    {
+     "appid": 1118520,
+     "name": "Paralives",
+     "reviews": 14727,
+     "released": "2026-05-25",
+     "url": "https://store.steampowered.com/app/1118520/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1118520/13d15d732cf142a4546bf749ef587e5e6e6acd64/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4019220,
+     "name": "Dressmaker",
+     "reviews": 12348,
+     "released": "2026-09-21",
+     "url": "https://store.steampowered.com/app/4019220/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4019220/7f07d1dd7a97e00694481ee7747940989dc5820c/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 7,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 21.6,
+   "ranked": true
+  },
+  {
+   "name": "Cozy",
+   "id": 97376,
+   "n": 961,
+   "n_success": 45,
+   "n_mid": 135,
+   "n_low": 513,
+   "p_success": 4.7,
+   "p_mid": 14.0,
+   "p_low": 53.4,
+   "median": 0,
+   "top": [
+    {
+     "appid": 1118520,
+     "name": "Paralives",
+     "reviews": 14727,
+     "released": "2026-05-25",
+     "url": "https://store.steampowered.com/app/1118520/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1118520/13d15d732cf142a4546bf749ef587e5e6e6acd64/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4019220,
+     "name": "Dressmaker",
+     "reviews": 12353,
+     "released": "2026-09-21",
+     "url": "https://store.steampowered.com/app/4019220/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4019220/7f07d1dd7a97e00694481ee7747940989dc5820c/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3097300,
+     "name": "Creature Kitchen",
+     "reviews": 7744,
+     "released": "2026-02-06",
+     "url": "https://store.steampowered.com/app/3097300/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/3386418d1f2846730b7456c6cd4721df42597848/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 10,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 14.2,
+   "ranked": true
+  },
+  {
+   "name": "Automation",
+   "id": 255534,
+   "n": 633,
+   "n_success": 41,
+   "n_mid": 104,
+   "n_low": 342,
+   "p_success": 6.5,
+   "p_mid": 16.4,
+   "p_low": 54.0,
+   "median": 0,
+   "top": [
+    {
+     "appid": 1623730,
+     "name": "Palworld",
+     "reviews": 184556,
+     "released": "2026-07-09",
+     "url": "https://store.steampowered.com/app/1623730/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1623730/0703d5a0658c7aedaa3be4391d6f5cccc1bb6d7a/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2162800,
+     "name": "shapez 2 - Factory",
+     "reviews": 8977,
+     "released": "2026-04-23",
+     "url": "https://store.steampowered.com/app/2162800/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2162800/5cdaa9e8359c7c39de9b96aeba814616c59641cb/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2764460,
+     "name": "Sandustry",
+     "reviews": 3411,
+     "released": "2026-08-13",
+     "url": "https://store.steampowered.com/app/2764460/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2764460/f0a29d6c91be4e91e9fa2f384dd5ae695bfd6b5b/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 7,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 19.7,
+   "ranked": true
+  },
+  {
+   "name": "Incremental",
+   "id": 560542,
+   "n": 1385,
+   "n_success": 64,
+   "n_mid": 185,
+   "n_low": 747,
+   "p_success": 4.6,
+   "p_mid": 13.4,
+   "p_low": 53.9,
+   "median": 0,
+   "top": [
+    {
+     "appid": 1476970,
+     "name": "IdleOn - The Incremental MMO",
+     "reviews": 21916,
+     "released": "2025-11-06",
+     "url": "https://store.steampowered.com/app/1476970/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1476970/6c5ebda02c5a3ee53ed0ce584e9b4db2a8f3909a/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3948120,
+     "name": "Scritchy Scratchy",
+     "reviews": 9084,
+     "released": "2026-03-18",
+     "url": "https://store.steampowered.com/app/3948120/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3948120/3d9dad2f02502bbe5c3d4b1566e5ee250d4a327f/capsule_231x87_alt_assets_0.jpg"
+    },
+    {
+     "appid": 3678970,
+     "name": "TBH: Task Bar Hero",
+     "reviews": 8628,
+     "released": "2026-05-27",
+     "url": "https://store.steampowered.com/app/3678970/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3678970/7861fe728b27e39bb204f8622a593cbca7a839b7/capsule_231x87_alt_assets_1.jpg"
+    }
+   ],
+   "pages": 14,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 11.5,
+   "ranked": true
+  },
+  {
+   "name": "Bullet Hell",
+   "id": 4885,
+   "n": 875,
+   "n_success": 20,
+   "n_mid": 60,
+   "n_low": 614,
+   "p_success": 2.3,
+   "p_mid": 6.9,
+   "p_low": 70.2,
+   "median": 0,
+   "top": [
+    {
+     "appid": 2163330,
+     "name": "Yet Another Zombie Survivors",
+     "reviews": 5771,
+     "released": "2026-08-20",
+     "url": "https://store.steampowered.com/app/2163330/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2163330/765e6898cbb4faffa34991912775d813be58cc56/capsule_231x87.jpg"
+    },
+    {
+     "appid": 4957110,
+     "name": "群侠传：幸存者",
+     "reviews": 1959,
+     "released": "2026-08-11",
+     "url": "https://store.steampowered.com/app/4957110/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4957110/c6de1ede9cf87ceac56fc8181149131b919a30b1/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3372060,
+     "name": "Hell Maiden",
+     "reviews": 1951,
+     "released": "2026-07-16",
+     "url": "https://store.steampowered.com/app/3372060/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3372060/cfc1329e4a22dd1372e535cef64a1f34dcb5d4d5/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 9,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 7.3,
+   "ranked": true
+  },
+  {
+   "name": "Shoot 'Em Up",
+   "id": 4255,
+   "n": 428,
+   "n_success": 6,
+   "n_mid": 18,
+   "n_low": 321,
+   "p_success": 1.4,
+   "p_mid": 4.2,
+   "p_low": 75.0,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 4659620,
+     "name": "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil",
+     "reviews": 1708,
+     "released": "2026-09-09",
+     "url": "https://store.steampowered.com/app/4659620/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4659620/7b2f7f9e439f377ebbe8126d0aa156dbb2c315d1/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3385970,
+     "name": "Beyond Sandbox",
+     "reviews": 1243,
+     "released": "2026-04-27",
+     "url": "https://store.steampowered.com/app/3385970/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3385970/b407f4d961a19dc915e305cfd4c4c58abd982cc2/capsule_231x87.jpg"
+    },
+    {
+     "appid": 3237920,
+     "name": "Mech Havoc",
+     "reviews": 852,
+     "released": "2025-10-27",
+     "url": "https://store.steampowered.com/app/3237920/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3237920/add044ffde47ca064b2344dfdb3c122ba67c3ba2/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 5,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 5.7,
+   "ranked": true
+  },
+  {
+   "name": "Rhythm",
+   "id": 1752,
+   "n": 236,
+   "n_success": 7,
+   "n_mid": 24,
+   "n_low": 155,
+   "p_success": 3.0,
+   "p_mid": 10.2,
+   "p_low": 65.7,
+   "median": 0.0,
+   "top": [
+    {
+     "appid": 774181,
+     "name": "Rhythm Doctor",
+     "reviews": 8172,
+     "released": "2025-12-06",
+     "url": "https://store.steampowered.com/app/774181/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/774181/capsule_231x87.jpg"
+    },
+    {
+     "appid": 440310,
+     "name": "Afterbeat (Project Arrhythmia)",
+     "reviews": 1776,
+     "released": "2026-10-08",
+     "url": "https://store.steampowered.com/app/440310/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/440310/75c6770f149a66d433c44ac93c145dfa80833703/capsule_231x87.jpg"
+    },
+    {
+     "appid": 2914150,
+     "name": "Yunyun Syndrome!? Rhythm Psychosis",
+     "reviews": 1547,
+     "released": "2026-04-23",
+     "url": "https://store.steampowered.com/app/2914150/",
+     "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2914150/28b42dfbb26fe6437e647e6acaf0b5f522eaff25/capsule_231x87.jpg"
+    }
+   ],
+   "pages": 3,
+   "truncated": false,
+   "window_days": 365,
+   "oldest": "2025-10-23",
+   "niche": 16.6,
+   "ranked": true
+  }
+ ],
+ "generated": "2026-10-22 18:56"
+}

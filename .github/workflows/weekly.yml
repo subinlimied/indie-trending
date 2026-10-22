@@ -1,0 +1,63 @@
+name: weekly indie analysis
+
+on:
+  schedule:
+    # 매주 월요일 01:00 UTC = 10:00 KST. GitHub cron 은 수 분~수십 분 늦게 돌 수 있습니다.
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "주의 마지막 날 (YYYY-MM-DD, 비우면 오늘 KST)"
+        required: false
+      force:
+        description: "같은 날짜 태그 데이터가 있어도 다시 수집"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# 일간 실행과 같은 그룹: Steam 요청이 겹치지 않게 순서대로 돕니다.
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 날짜 결정
+        id: d
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            echo "date=${{ github.event.inputs.date }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "date=$(TZ=Asia/Seoul date +%F)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 한글 폰트 설치 (보드 이미지용)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+
+      - name: 주간 분석 (태그 성공률 수집 · 캡슐 보드 · HTML)
+        run: python3 weekly.py --date "${{ steps.d.outputs.date }}" --no-send ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+
+      - name: 데이터·리포트 커밋
+        run: |
+          git config user.name "indie-trending-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/weekly reports/weekly
+          git diff --cached --quiet || git commit -m "weekly ${{ steps.d.outputs.date }}"
+          git pull --rebase --autostash origin "${{ github.ref_name }}" || true
+          git push
+
+      - name: Discord 전송
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python3 weekly.py --date "${{ steps.d.outputs.date }}" --send-only

@@ -54,6 +54,24 @@ python3 personal.py --weekly                       # 월요일 섹션 강제 (�
 - 전송: 임베드 2~4개(Steam Top 3 · itch Top 3 · 메모·watchlist · 주간) + 카드 PNG 1장(`reports/personal/cards/<date>.png`, Chrome 없으면 건너뜀). 웹훅은 GitHub Secret `DISCORD_WEBHOOK_URL_PERSONAL`.
 - 워크플로에서는 커밋 전에 `--no-send` 로 만들고(그래야 그날 커밋에 들어감), 공용 전송 뒤에 `--send-only` 로 보냅니다.
 
+## 주간 리포트 (월요일 10:00 KST)
+
+공용 채널에 보내는 주간 분석입니다. "무엇을 만들지"를 정할 때 보는 두 가지를 한 메시지로 보냅니다. 규칙은 [rules.md §11](rules.md)에 있습니다.
+
+1. **태그별 성공률 표 (Steam)** — 최근 1년에 출시된 Indie 태그 게임을 `config.json` 의 `weekly.tags`(장르·메커닉 태그 40개)별로 세고, 리뷰 500+ (≈ 1만 장) · 100+ · 10 미만 비율, 중앙값, 대표 성공작 3개를 표로 만듭니다. 성공률이 높고 출시 수가 적은 태그가 "틈 후보"입니다.
+2. **캡슐 아트 보드 (Steam + itch.io)** — 최근 7일 일간 리포트에 오른 게임(선정 게임 · 큰 폭 변화 · 급상승 Top 3)의 스토어 이미지를 1080×1350 격자 카드로 모읍니다. 스토어 캡슐 디자인 참고용입니다.
+
+```bash
+python3 weekly.py --date 2026-10-22 --dry-run     # 전송 없이 산출물 + 임베드 JSON (태그 수집 10~15분, 요청 1,000회 이하)
+python3 weekly.py --date 2026-10-22 --no-send     # 산출물만 (Actions 에서 커밋 전 단계)
+DISCORD_WEBHOOK_URL=... python3 weekly.py --date 2026-10-22 --send-only   # 만들어 둔 산출물로 전송만
+```
+
+- `--date` 는 주의 마지막 날이고, 보드는 그날까지 7일치 `reports/<platform>/<date>.json` 을 씁니다.
+- 태그 데이터 `data/weekly/<date>-tags.json` 이 있으면 수집을 건너뜁니다(`--force` 로 재수집). `data/weekly/images.json` 은 Steam header · itch og:image 주소 캐시입니다.
+- 산출물: `reports/weekly/<date>.html` (표 전체 + 보드), `reports/weekly/<date>.json` (전송용 요약), `reports/weekly/cards/<date>-board-steam.png`, `-itch.png` (게임이 많으면 `-2.png`).
+- [.github/workflows/weekly.yml](.github/workflows/weekly.yml) 이 매주 월요일 10:00 KST(01:00 UTC)에 수집 → 커밋·push → Discord 전송을 합니다. 일간과 같은 concurrency 그룹(`daily`)이라 겹치면 순서대로 돕니다.
+
 ## GitHub Actions 자동 실행
 
 [.github/workflows/daily.yml](.github/workflows/daily.yml) 이 매일 09:05 KST(00:05 UTC)에 수집 → 리포트 → 카드 이미지 → 개인 리포트 생성 → 커밋·push → Discord 전송 → 개인 리포트 전송을 합니다.
@@ -82,6 +100,7 @@ Actions 탭에서 **Run workflow** 로 수동 실행할 수도 있습니다(날�
 
 ```
 collect.py / report.py / cards.py / notify.py   진입점
+weekly.py                          주간 리포트 진입점 (market/weekly.py 분석, market/render_weekly.py HTML·보드 카드)
 personal.py                        개인 리포트 진입점 (profile.json → market/personal.py 분석, market/render_personal.py 임베드·카드)
 market/steam.py, itch.py            수집기
 market/analyze_steam.py, analyze_itch.py   판정·섹션 구성
@@ -90,6 +109,7 @@ market/common.py, http.py           공통 (스냅샷 로드, 회차 상태, 재
 config.json                         report_base_url(상세 보고서 링크), 목록 크기, Steam 합성 지역(regions), 본문 포함 조건, 대형 퍼블리셔 목록
 data/<platform>/<date>.json         일간 스냅샷 (지우지 않음), data/cache/ 는 Steam 메타 캐시
 reports/<platform>/<date>.*         리포트, cards/<date>-N.png 는 카드 뉴스, state.json 은 연속 선정 회차 기록
+data/weekly/, reports/weekly/      주간 태그 데이터 · 주간 HTML · 보드 PNG
 reports/personal/<date>.*           개인 리포트(.json .md), cards/<date>.png 는 내 범위 Top 3 카드 1장
 profile.json                        개인 리포트의 "내 범위" 조건 (차원 · 엔진 · 제외 태그 · 가격 · 플레이 시간 · 멀티 제외 · watchlist)
 ```
