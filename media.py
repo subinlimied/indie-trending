@@ -58,7 +58,7 @@ def card_paths(date):
 
 # ---------- 서브커맨드 ----------
 
-SOURCE_GROUPS = ("kym", "trends", "wiki", "reddit", "imgflip")
+SOURCE_GROUPS = media_sources.GROUPS
 
 
 def cmd_collect(args):

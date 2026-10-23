@@ -74,29 +74,38 @@ DISCORD_WEBHOOK_URL=... python3 weekly.py --date 2026-10-22 --send-only   # 만�
 
 ## 미디어·밈 트렌드 리포트 (매일 09:30 KST · 개인 채널 전용)
 
-게임 리포트와 같은 뼈대(스냅샷 누적 → 전날 대비 → 임베드 카드 + 카드 PNG → Discord)로 틱톡·밈·검색 트렌드를 매일 받습니다. **개인 채널 전용**이라 공용 웹훅(`DISCORD_WEBHOOK_URL`)으로는 보내지 않습니다.
+게임 리포트와 같은 뼈대(스냅샷 누적 → 전날 대비 → 임베드 카드 + 카드 PNG → Discord)로 **틱톡·인스타 릴스·숏폼 트렌드**를 매일 받습니다. **개인 채널 전용**이라 공용 웹훅(`DISCORD_WEBHOOK_URL`)으로는 보내지 않습니다.
 
 ```bash
-python3 media.py collect --date 2026-10-22            # 스냅샷 → data/media/<date>.json (소스별 정상/실패 상태 포함, --force 로 재수집)
-python3 media.py report  --date 2026-10-22            # reports/media/<date>.json .md .html (+ state.json 연속 일수)
-python3 media.py cards   --date 2026-10-22            # 카드 PNG 2장 → reports/media/cards/<date>-N.png (Chrome 없으면 건너뜀)
-python3 media.py send    --date 2026-10-22 --dry-run  # 전송 없이 임베드 JSON 출력
-DISCORD_WEBHOOK_URL_MEDIA=... python3 media.py send --date 2026-10-22   # 전송 (없으면 DISCORD_WEBHOOK_URL_PERSONAL, 둘 다 없으면 건너뜀)
+python3 media.py collect --date 2026-10-23            # 스냅샷 → data/media/<date>.json (소스별 정상/실패/건너뜀 상태 포함). --force 재수집, --only kym,reddit 일부만
+python3 media.py report  --date 2026-10-23            # reports/media/<date>.json .md .html (+ state.json 연속 일수)
+python3 media.py cards   --date 2026-10-23            # 카드 PNG 2장 → reports/media/cards/<date>-N.png (Chrome 없으면 건너뜀)
+python3 media.py send    --date 2026-10-23 --dry-run  # 전송 없이 임베드 JSON 출력
+DISCORD_WEBHOOK_URL_MEDIA=... python3 media.py send --date 2026-10-23   # 전송 (없으면 DISCORD_WEBHOOK_URL_PERSONAL, 둘 다 없으면 건너뜀)
 ```
 
-| 소스 | 쓰는 값 | 비고 |
-|---|---|---|
-| Know Your Meme 뉴스피드 RSS | 최근 48시간 기사 제목·링크·요약·이미지, 제목의 플랫폼 단서(TikTok · Twitter/X · Reddit · YouTube · Instagram · Twitch) | 제목·요약은 영어 원문 그대로 |
-| Google 트렌드 일간 RSS (KR · US) | 검색어·대략 검색량·관련 뉴스 1개 | 어제도 있었으면 "n일 연속" |
-| 위키백과 조회수 상위 (en · ko) | 전날 상위 40개에서 대문·특수·프로젝트·파일·분류 문서를 뺀 20개 | 어제도 있었으면 "n일 연속" |
-| Reddit top (t=day) RSS | r/memes · r/gaming · r/IndieGaming · r/gamedev · r/tiktokcringe 상위 8개 | 403·429 면 그 서브레딧만 실패 처리 |
-| Imgflip 인기 템플릿 100개 | 이름·순위 | 전날 대비 ▲▼ · 신규 진입 · 이탈 |
+**섹션 (우선순위 순)**
 
-- **오늘의 트렌드 한 건** = KYM 에서 플랫폼 단서가 TikTok 인 최신 기사, 없으면 KYM 최신 기사. 연속 선정 일수는 `reports/media/state.json` 에 쌓입니다.
-- **게임 ↔ 밈 교차** = 검색·위키·Reddit 제목을 그날 `data/steam/` · `data/itch/` 스냅샷의 게임 이름과 대조(소문자 · 3글자 이상 · 부분 일치는 단어 경계, 이름이 2단어 이상이거나 8자 이상일 때만).
-- HTML 섹션: 01 오늘의 밈·숏폼 트렌드(KYM) · 02 검색 급상승 KR/US · 03 세상의 관심사(위키 en/ko) · 04 커뮤니티 베스트(Reddit) · 05 밈 템플릿 순위 변동 · 06 게임 ↔ 밈 교차 · 07 수집 상태. 상세 링크는 `reports/media/<date>.html`.
-- 카드 PNG: 표지(오늘의 트렌드 + 플랫폼 집계 + 검색 급상승 Top 5 KR/US) · 2장(밈 템플릿 변동 Top 5 + 게임 교차).
-- `config.json` 의 `media` 키: `reddit_subs` · `kym_hours` · `wiki_top` · `trends_top` · `imgflip_top`.
+| # | 섹션 | 소스 | 비고 |
+|---|---|---|---|
+| 01 | 틱톡·인스타 트렌드 | KYM 뉴스피드·확정·제출 RSS + KYM 검색 "tiktok / instagram / reels" 최신순(엔트리 페이지에서 발행·수정 시각) | 최근 48시간 · 제목·요약에 TikTok/Instagram 단서가 있는 항목만. **오늘의 트렌드 한 건**은 여기서 TikTok → Instagram 순으로 최신 것 |
+| 02 | 새로 등록된 밈 | KYM 확정(`memes.rss`)·제출(`memes/submissions.rss`) 엔트리 | 제출은 48시간, 확정은 드물어 7일(`kym_confirmed_hours`) 이내. 확정/제출 배지 |
+| 03 | 커뮤니티 베스트 | Reddit top(t=day) r/TikTokCringe · memes · popculturechat · shorts · gaming · IndieGaming | 403·429·빈 피드면 그 서브레딧만 실패. r/InstagramReels 는 열리지만 하루치 글이 없어 뺌 |
+| 04 | X 트렌드 | trends24.in 한국 · worldwide (최신 시각 카드) | 제외 필터 적용 |
+| 05 | 유튜브 쇼츠 인기 | YouTube Data API v3 mostPopular KR·US 50개 중 60초 이하 | secret `YOUTUBE_API_KEY` 사용(아래). 키 없는 환경에서는 건너뜀 |
+| 06 | 검색 급상승 · 세상의 관심사 | Google 트렌드 일간 RSS KR·US, 위키백과 조회수 상위 en·ko | 제외 필터 적용, HTML 에서는 접힘, 임베드에는 상위 3개만 한 줄 |
+| 07 | 밈 템플릿 순위 변동 | Imgflip 인기 템플릿 100개 | 전날 대비 ▲▼ · 신규 진입 · 이탈 |
+| 08 | 게임 ↔ 밈 교차 | 위 제목들 × `data/steam/` · `data/itch/` 게임 이름 | 소문자 · 3글자 이상 · 부분 일치는 단어 경계, 이름이 2단어 이상이거나 8자 이상일 때만 |
+| 09 | 수집 상태 | 소스별 정상/실패/건너뜀 · 개수 · 제외 건수 | |
+
+**제외 필터 (정치·경제·스포츠·사건사고)** — `config.json` 의 `media.exclude_keywords` (`ko`, `en` 목록). Google 트렌드는 검색어와 관련 뉴스 제목을 함께, 위키는 문서 제목, X 는 트렌드 이름을 검사합니다. 한국어 키워드는 부분 일치, 영어는 단어 단위 일치(`rate` 가 `pirate` 를 거르지 않도록), 대소문자 무시. 걸러진 건수는 수집 상태와 임베드 footer 에 나옵니다. **사람 이름(선수·정치인)은 못 거르므로 완벽하지 않습니다.** 자주 보이는 단어는 목록에 추가하세요.
+
+**유튜브 쇼츠** — GitHub secret `YOUTUBE_API_KEY` 로 YouTube Data API v3 `videos.list(chart=mostPopular)` 를 KR·US 각 1회(하루 2회, 호출당 1유닛) 불러 60초 이하 영상을 쇼츠로 분류합니다. 키가 없는 환경(로컬)에서는 05 섹션이 "건너뜀"으로 나오고 임베드에서는 빠집니다. 키 만들기: Google Cloud 콘솔 → 새 프로젝트 → API 및 서비스 → 라이브러리 → **YouTube Data API v3** 사용 설정 → 사용자 인증 정보 → **API 키 만들기** → GitHub 저장소 Secrets 에 `YOUTUBE_API_KEY` 로 등록. 결제 등록은 필요 없고 일 10,000 유닛까지 무료입니다. 로컬에서는 `YOUTUBE_API_KEY=... python3 media.py collect --only youtube` 로 그 소스만 다시 받을 수 있습니다.
+
+- 카드 PNG: 표지(오늘의 틱톡·인스타 트렌드 + 플랫폼 집계 + 다른 숏폼 항목) · 2장(새 밈 + 커뮤니티 베스트 + 게임 교차).
+- Discord 임베드: 표지 · 새 밈 · 커뮤니티+X 트렌드 · 유튜브 쇼츠 KR/US · 검색·위키·밈 템플릿·게임 교차(상세 링크 `reports/media/<date>.html`, footer 수집 상태).
+- Reddit 익명 RSS 는 IP 당 약 1분에 1회만 허용해 서브레딧 사이를 62초 간격으로 보냅니다(6개 ≈ 6분). 위키 조회수는 09:30 KST 에 전날 집계가 아직 없어 2~3일 전까지 거슬러 받습니다.
+- `config.json` 의 `media` 키: `reddit_subs` · `kym_queries` · `kym_hours` · `kym_confirmed_hours` · `wiki_top` · `trends_top` · `imgflip_top` · `exclude_keywords`.
 - [.github/workflows/media.yml](.github/workflows/media.yml) 이 매일 09:30 KST(00:30 UTC, 게임 리포트 뒤)에 수집 → 리포트 → 카드 → 커밋·push → 전송을 합니다. 전송 단계에는 `DISCORD_WEBHOOK_URL_MEDIA` 와 `DISCORD_WEBHOOK_URL_PERSONAL` 만 넘깁니다(전용 채널을 쓰려면 `DISCORD_WEBHOOK_URL_MEDIA` secret 을 등록).
 
 ## GitHub Actions 자동 실행
@@ -138,7 +147,7 @@ config.json                         report_base_url(상세 보고서 링크), �
 data/<platform>/<date>.json         일간 스냅샷 (지우지 않음), data/cache/ 는 Steam 메타 캐시
 reports/<platform>/<date>.*         리포트, cards/<date>-N.png 는 카드 뉴스, state.json 은 연속 선정 회차 기록
 data/weekly/, reports/weekly/      주간 태그 데이터 · 주간 HTML · 보드 PNG
-data/media/, reports/media/        미디어·밈 스냅샷(소스별 상태 포함) · 리포트(.json .md .html) · cards/<date>-N.png · state.json
+data/media/, reports/media/        미디어·밈 스냅샷(소스별 상태 포함) · 리포트(.json .md .html) · cards/<date>-N.png · state.json(연속 일수)
 reports/personal/<date>.*           개인 리포트(.json .md), cards/<date>.png 는 내 범위 Top 3 카드 1장
 profile.json                        개인 리포트의 "내 범위" 조건 (차원 · 엔진 · 제외 태그 · 가격 · 플레이 시간 · 멀티 제외 · watchlist)
 ```

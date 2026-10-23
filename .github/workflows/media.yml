@@ -39,6 +39,8 @@ jobs:
           fi
 
       - name: 수집
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}   # 없으면 유튜브 쇼츠 섹션만 건너뜁니다
         run: python3 media.py collect --date "${{ steps.d.outputs.date }}"
 
       - name: 리포트 생성
