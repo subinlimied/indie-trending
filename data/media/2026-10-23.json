@@ -1,6 +1,6 @@
 {
  "date": "2026-10-23",
- "collected_at": "2026-10-23T03:20:11Z",
+ "collected_at": "2026-10-23T03:26:33Z",
  "params": {
   "kym_hours": 48,
   "kym_confirmed_hours": 168,
@@ -235,273 +235,1331 @@
   },
   "x_kr": {
    "label": "X 트렌드 KR (trends24)",
-   "status": "ok",
-   "count": 20,
-   "items": [
-    {
-     "rank": 1,
-     "title": "#우지_개인고소_공지올려",
-     "url": "https://twitter.com/search?q=%23%EC%9A%B0%EC%A7%80_%EA%B0%9C%EC%9D%B8%EA%B3%A0%EC%86%8C_%EA%B3%B5%EC%A7%80%EC%98%AC%EB%A0%A4",
-     "count": null
-    },
-    {
-     "rank": 2,
-     "title": "#플레디스_우지_보호해",
-     "url": "https://twitter.com/search?q=%23%ED%94%8C%EB%A0%88%EB%94%94%EC%8A%A4_%EC%9A%B0%EC%A7%80_%EB%B3%B4%ED%98%B8%ED%95%B4",
-     "count": null
-    },
-    {
-     "rank": 3,
-     "title": "랏코 품절",
-     "url": "https://twitter.com/search?q=%EB%9E%8F%EC%BD%94%20%ED%92%88%EC%A0%88",
-     "count": null
-    },
-    {
-     "rank": 4,
-     "title": "ANA 우사기",
-     "url": "https://twitter.com/search?q=ANA%20%EC%9A%B0%EC%82%AC%EA%B8%B0",
-     "count": null
-    },
-    {
-     "rank": 5,
-     "title": "첫공 무인",
-     "url": "https://twitter.com/search?q=%EC%B2%AB%EA%B3%B5%20%EB%AC%B4%EC%9D%B8",
-     "count": null
-    },
-    {
-     "rank": 6,
-     "title": "ANA 콜라보",
-     "url": "https://twitter.com/search?q=ANA%20%EC%BD%9C%EB%9D%BC%EB%B3%B4",
-     "count": null
-    },
-    {
-     "rank": 7,
-     "title": "#Dear_MyDaRIWOO",
-     "url": "https://twitter.com/search?q=%23Dear_MyDaRIWOO",
-     "count": null
-    },
-    {
-     "rank": 8,
-     "title": "#닝닝의생일_민족의영광",
-     "url": "https://twitter.com/search?q=%23%EB%8B%9D%EB%8B%9D%EC%9D%98%EC%83%9D%EC%9D%BC_%EB%AF%BC%EC%A1%B1%EC%9D%98%EC%98%81%EA%B4%91",
-     "count": null
-    },
-    {
-     "rank": 9,
-     "title": "ANA 랏코",
-     "url": "https://twitter.com/search?q=ANA%20%EB%9E%8F%EC%BD%94",
-     "count": null
-    },
-    {
-     "rank": 10,
-     "title": "카와 ANA",
-     "url": "https://twitter.com/search?q=%EC%B9%B4%EC%99%80%20ANA",
-     "count": null
-    },
-    {
-     "rank": 11,
-     "title": "디페스타",
-     "url": "https://twitter.com/search?q=%EB%94%94%ED%8E%98%EC%8A%A4%ED%83%80",
-     "count": null
-    },
-    {
-     "rank": 12,
-     "title": "소니엔젤",
-     "url": "https://twitter.com/search?q=%EC%86%8C%EB%8B%88%EC%97%94%EC%A0%A4",
-     "count": null
-    },
-    {
-     "rank": 13,
-     "title": "#성매매_범죄수익_완전환수",
-     "url": "https://twitter.com/search?q=%23%EC%84%B1%EB%A7%A4%EB%A7%A4_%EB%B2%94%EC%A3%84%EC%88%98%EC%9D%B5_%EC%99%84%EC%A0%84%ED%99%98%EC%88%98",
-     "count": null
-    },
-    {
-     "rank": 14,
-     "title": "전기장판",
-     "url": "https://twitter.com/search?q=%EC%A0%84%EA%B8%B0%EC%9E%A5%ED%8C%90",
-     "count": null
-    },
-    {
-     "rank": 15,
-     "title": "트친정리",
-     "url": "https://twitter.com/search?q=%ED%8A%B8%EC%B9%9C%EC%A0%95%EB%A6%AC",
-     "count": null
-    },
-    {
-     "rank": 16,
-     "title": "너무 혼잡",
-     "url": "https://twitter.com/search?q=%EB%84%88%EB%AC%B4%20%ED%98%BC%EC%9E%A1",
-     "count": null
-    },
-    {
-     "rank": 17,
-     "title": "블언 기준",
-     "url": "https://twitter.com/search?q=%EB%B8%94%EC%96%B8%20%EA%B8%B0%EC%A4%80",
-     "count": null
-    },
-    {
-     "rank": 18,
-     "title": "저스틴 비버",
-     "url": "https://twitter.com/search?q=%EC%A0%80%EC%8A%A4%ED%8B%B4%20%EB%B9%84%EB%B2%84",
-     "count": null
-    },
-    {
-     "rank": 19,
-     "title": "꼬들 1756",
-     "url": "https://twitter.com/search?q=%EA%BC%AC%EB%93%A4%201756",
-     "count": null
-    },
-    {
-     "rank": 20,
-     "title": "검토 중단",
-     "url": "https://twitter.com/search?q=%EA%B2%80%ED%86%A0%20%EC%A4%91%EB%8B%A8",
-     "count": null
-    }
-   ],
-   "at": "2026-10-23T02:51:10Z"
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 403: Forbidden",
+   "count": 0,
+   "items": []
   },
   "x_world": {
    "label": "X 트렌드 WORLD (trends24)",
-   "status": "ok",
-   "count": 20,
-   "items": [
-    {
-     "rank": 1,
-     "title": "Flamengo",
-     "url": "https://twitter.com/search?q=Flamengo",
-     "count": null
-    },
-    {
-     "rank": 2,
-     "title": "Muslera",
-     "url": "https://twitter.com/search?q=Muslera",
-     "count": null
-    },
-    {
-     "rank": 3,
-     "title": "松井秀喜",
-     "url": "https://twitter.com/search?q=%E6%9D%BE%E4%BA%95%E7%A7%80%E5%96%9C",
-     "count": null
-    },
-    {
-     "rank": 4,
-     "title": "#LulaVaiVirar",
-     "url": "https://twitter.com/search?q=%23LulaVaiVirar",
-     "count": null
-    },
-    {
-     "rank": 5,
-     "title": "Cavs",
-     "url": "https://twitter.com/search?q=Cavs",
-     "count": null
-    },
-    {
-     "rank": 6,
-     "title": "Estudiantes",
-     "url": "https://twitter.com/search?q=Estudiantes",
-     "count": null
-    },
-    {
-     "rank": 7,
-     "title": "松井監督",
-     "url": "https://twitter.com/search?q=%E6%9D%BE%E4%BA%95%E7%9B%A3%E7%9D%A3",
-     "count": null
-    },
-    {
-     "rank": 8,
-     "title": "Rossi",
-     "url": "https://twitter.com/search?q=Rossi",
-     "count": null
-    },
-    {
-     "rank": 9,
-     "title": "Paquetá",
-     "url": "https://twitter.com/search?q=Paquet%C3%A1",
-     "count": null
-    },
-    {
-     "rank": 10,
-     "title": "巨人新監督",
-     "url": "https://twitter.com/search?q=%E5%B7%A8%E4%BA%BA%E6%96%B0%E7%9B%A3%E7%9D%A3",
-     "count": null
-    },
-    {
-     "rank": 11,
-     "title": "Leonardo Jardim",
-     "url": "https://twitter.com/search?q=Leonardo%20Jardim",
-     "count": null
-    },
-    {
-     "rank": 12,
-     "title": "Sixers",
-     "url": "https://twitter.com/search?q=Sixers",
-     "count": null
-    },
-    {
-     "rank": 13,
-     "title": "Bears",
-     "url": "https://twitter.com/search?q=Bears",
-     "count": null
-    },
-    {
-     "rank": 14,
-     "title": "Jaylon Johnson",
-     "url": "https://twitter.com/search?q=Jaylon%20Johnson",
-     "count": null
-    },
-    {
-     "rank": 15,
-     "title": "午後会見",
-     "url": "https://twitter.com/search?q=%E5%8D%88%E5%BE%8C%E4%BC%9A%E8%A6%8B",
-     "count": null
-    },
-    {
-     "rank": 16,
-     "title": "Drake Maye",
-     "url": "https://twitter.com/search?q=Drake%20Maye",
-     "count": null
-    },
-    {
-     "rank": 17,
-     "title": "松井さん",
-     "url": "https://twitter.com/search?q=%E6%9D%BE%E4%BA%95%E3%81%95%E3%82%93",
-     "count": null
-    },
-    {
-     "rank": 18,
-     "title": "Bruno Henrique",
-     "url": "https://twitter.com/search?q=Bruno%20Henrique",
-     "count": null
-    },
-    {
-     "rank": 19,
-     "title": "Carrascal",
-     "url": "https://twitter.com/search?q=Carrascal",
-     "count": null
-    },
-    {
-     "rank": 20,
-     "title": "#EliminaçãoAFazenda",
-     "url": "https://twitter.com/search?q=%23Elimina%C3%A7%C3%A3oAFazenda",
-     "count": null
-    }
-   ],
-   "at": "2026-10-23T02:54:40Z"
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 403: Forbidden",
+   "count": 0,
+   "items": []
   },
   "youtube_kr": {
    "label": "YouTube 인기 KR",
-   "status": "skip",
-   "error": "YOUTUBE_API_KEY 없음",
-   "count": 0,
-   "items": []
+   "status": "ok",
+   "count": 50,
+   "items": [
+    {
+     "rank": 1,
+     "id": "bB8rDZPNjyI",
+     "title": "삐그덕 (seesaw)",
+     "channel": "Crush - Topic",
+     "views": 413490,
+     "likes": 8745,
+     "duration": 181,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=bB8rDZPNjyI",
+     "thumb": "https://i.ytimg.com/vi/bB8rDZPNjyI/mqdefault.jpg",
+     "published": "2026-10-21T09:03:29Z"
+    },
+    {
+     "rank": 2,
+     "id": "JCdkBe3d2b8",
+     "title": "RESCENE [PULSE] Concept Trailer",
+     "channel": "RESCENE",
+     "views": 635405,
+     "likes": 30031,
+     "duration": 41,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/JCdkBe3d2b8",
+     "thumb": "https://i.ytimg.com/vi/JCdkBe3d2b8/mqdefault.jpg",
+     "published": "2026-10-22T09:00:00Z"
+    },
+    {
+     "rank": 3,
+     "id": "n_UsDbwWcvQ",
+     "title": "마술 하나 보여줄까",
+     "channel": "랄로",
+     "views": 806068,
+     "likes": 4552,
+     "duration": 2224,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=n_UsDbwWcvQ",
+     "thumb": "https://i.ytimg.com/vi/n_UsDbwWcvQ/mqdefault.jpg",
+     "published": "2026-10-22T10:56:02Z"
+    },
+    {
+     "rank": 4,
+     "id": "rbMBhx_zT8U",
+     "title": "FIRESTARTER",
+     "channel": "K/DA - Topic",
+     "views": 442226,
+     "likes": 13053,
+     "duration": 188,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rbMBhx_zT8U",
+     "thumb": "https://i.ytimg.com/vi/rbMBhx_zT8U/mqdefault.jpg",
+     "published": "2026-10-22T01:12:01Z"
+    },
+    {
+     "rank": 5,
+     "id": "bll2jUTqHH8",
+     "title": "닥터X | 계수정 피흘리는 예고씬 분석! 장소장 사람들이 가져온 결정적 증거! [명작맛집]",
+     "channel": "명작맛집",
+     "views": 258991,
+     "likes": 790,
+     "duration": 934,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=bll2jUTqHH8",
+     "thumb": "https://i.ytimg.com/vi/bll2jUTqHH8/mqdefault.jpg",
+     "published": "2026-10-22T08:00:04Z"
+    },
+    {
+     "rank": 6,
+     "id": "s_7B7pMw-dk",
+     "title": "4년의 여정, 그 마지막 이야기 [좀비원정대 完]",
+     "channel": "동수칸TV",
+     "views": 311775,
+     "likes": 2506,
+     "duration": 7339,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=s_7B7pMw-dk",
+     "thumb": "https://i.ytimg.com/vi/s_7B7pMw-dk/mqdefault.jpg",
+     "published": "2026-10-22T09:59:36Z"
+    },
+    {
+     "rank": 7,
+     "id": "TBNG7bPabbM",
+     "title": "Full Count",
+     "channel": "BOL4 - Topic",
+     "views": 28254,
+     "likes": 344,
+     "duration": 194,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=TBNG7bPabbM",
+     "thumb": "https://i.ytimg.com/vi/TBNG7bPabbM/mqdefault.jpg",
+     "published": "2026-10-22T09:02:37Z"
+    },
+    {
+     "rank": 8,
+     "id": "-vyI4TqIqHY",
+     "title": "「침향 시즌 2」1차 티저 공식 예고편 | Official Teaser Trailer 1 | AI BL [CHIMHYANG: Scent of the Needle] Season 2",
+     "channel": "Late Blue Night",
+     "views": 43137,
+     "likes": 1561,
+     "duration": 31,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/-vyI4TqIqHY",
+     "thumb": "https://i.ytimg.com/vi/-vyI4TqIqHY/mqdefault.jpg",
+     "published": "2026-10-22T15:24:00Z"
+    },
+    {
+     "rank": 9,
+     "id": "yZ_4oJ2gMjE",
+     "title": "미친ㅋㅋㅋㅋ이렇게까지 커져도 돼요? ≪행성 키우기≫",
+     "channel": "혜안",
+     "views": 390971,
+     "likes": 8891,
+     "duration": 1400,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=yZ_4oJ2gMjE",
+     "thumb": "https://i.ytimg.com/vi/yZ_4oJ2gMjE/mqdefault.jpg",
+     "published": "2026-10-22T10:11:46Z"
+    },
+    {
+     "rank": 10,
+     "id": "6ruo4VVRjvo",
+     "title": "ILLIT (아일릿) '체포하겠어 (You’re Under Arrest)' | PRESS START♥︎ ENCORE",
+     "channel": "ILLIT",
+     "views": 922049,
+     "likes": 36820,
+     "duration": 216,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=6ruo4VVRjvo",
+     "thumb": "https://i.ytimg.com/vi/6ruo4VVRjvo/mqdefault.jpg",
+     "published": "2026-10-22T09:00:01Z"
+    },
+    {
+     "rank": 11,
+     "id": "l9GVw6ybEHE",
+     "title": "팰월드 100일동안 처음부터 세계수까지 가는 여정",
+     "channel": "치랜",
+     "views": 238998,
+     "likes": 2302,
+     "duration": 12863,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=l9GVw6ybEHE",
+     "thumb": "https://i.ytimg.com/vi/l9GVw6ybEHE/mqdefault.jpg",
+     "published": "2026-10-22T10:00:06Z"
+    },
+    {
+     "rank": 12,
+     "id": "EAnOKe_B4k8",
+     "title": "Looks Can Kill",
+     "channel": "IVE - Topic",
+     "views": 568643,
+     "likes": 5997,
+     "duration": 196,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=EAnOKe_B4k8",
+     "thumb": "https://i.ytimg.com/vi/EAnOKe_B4k8/mqdefault.jpg",
+     "published": "2026-10-19T09:00:02Z"
+    },
+    {
+     "rank": 13,
+     "id": "03Ja9Ho3qTQ",
+     "title": "가락의 숙명",
+     "channel": "괴물쥐 유튜브",
+     "views": 372274,
+     "likes": 1144,
+     "duration": 1298,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=03Ja9Ho3qTQ",
+     "thumb": "https://i.ytimg.com/vi/03Ja9Ho3qTQ/mqdefault.jpg",
+     "published": "2026-10-22T13:00:24Z"
+    },
+    {
+     "rank": 14,
+     "id": "tPfHhOqpY4Q",
+     "title": "원필(WONPIL) - 좋아해.. (바른연애 길잡이 X 죠지 cover)",
+     "channel": "DAY6",
+     "views": 107818,
+     "likes": 8397,
+     "duration": 260,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=tPfHhOqpY4Q",
+     "thumb": "https://i.ytimg.com/vi/tPfHhOqpY4Q/mqdefault.jpg",
+     "published": "2026-10-22T11:00:03Z"
+    },
+    {
+     "rank": 15,
+     "id": "d447rBTGcK8",
+     "title": "\"그따위로 트릭두 쓸거면~\" 봉훈이 앞에선 이상해지는 트릭두..",
+     "channel": "이상호",
+     "views": 477321,
+     "likes": 1523,
+     "duration": 1226,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=d447rBTGcK8",
+     "thumb": "https://i.ytimg.com/vi/d447rBTGcK8/mqdefault.jpg",
+     "published": "2026-10-22T04:04:10Z"
+    },
+    {
+     "rank": 16,
+     "id": "rsNhWkC4neE",
+     "title": "IVE 아이브 'Looks Can Kill' MV",
+     "channel": "STARSHIP",
+     "views": 16350458,
+     "likes": 266875,
+     "duration": 243,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rsNhWkC4neE",
+     "thumb": "https://i.ytimg.com/vi/rsNhWkC4neE/mqdefault.jpg",
+     "published": "2026-10-19T09:00:05Z"
+    },
+    {
+     "rank": 17,
+     "id": "8X4d0yZqfwE",
+     "title": "김정은 주석궁 폭파게임 [콜오브듀티 모던워페어 사]",
+     "channel": "김성회의 G식백과",
+     "views": 1086548,
+     "likes": 11710,
+     "duration": 836,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=8X4d0yZqfwE",
+     "thumb": "https://i.ytimg.com/vi/8X4d0yZqfwE/mqdefault.jpg",
+     "published": "2026-10-22T07:03:38Z"
+    },
+    {
+     "rank": 18,
+     "id": "jHQF6OeLlB4",
+     "title": "임영웅 '부디 행복해질 것' Official M/V",
+     "channel": "임영웅",
+     "views": 598548,
+     "likes": 40650,
+     "duration": 285,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=jHQF6OeLlB4",
+     "thumb": "https://i.ytimg.com/vi/jHQF6OeLlB4/mqdefault.jpg",
+     "published": "2026-10-19T23:00:15Z"
+    },
+    {
+     "rank": 19,
+     "id": "_cKJE4wN8p4",
+     "title": "북한이 한국을 침공해 전쟁이 벌어지는 신작 게임",
+     "channel": "군림보",
+     "views": 894389,
+     "likes": 8082,
+     "duration": 4084,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=_cKJE4wN8p4",
+     "thumb": "https://i.ytimg.com/vi/_cKJE4wN8p4/mqdefault.jpg",
+     "published": "2026-10-21T09:00:33Z"
+    },
+    {
+     "rank": 20,
+     "id": "ll-Uefui-SI",
+     "title": "PLAVE 'The Answer Is Yes' Special Video",
+     "channel": "PLAVE 플레이브",
+     "views": 184294,
+     "likes": 27791,
+     "duration": 162,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=ll-Uefui-SI",
+     "thumb": "https://i.ytimg.com/vi/ll-Uefui-SI/mqdefault.jpg",
+     "published": "2026-10-22T09:00:00Z"
+    },
+    {
+     "rank": 21,
+     "id": "CPQ2KEWioOQ",
+     "title": "한국을 배경으로 나온 역대 \"최고의\" 신작 콜오브듀티",
+     "channel": "빅헤드",
+     "views": 376632,
+     "likes": 4268,
+     "duration": 14336,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=CPQ2KEWioOQ",
+     "thumb": "https://i.ytimg.com/vi/CPQ2KEWioOQ/mqdefault.jpg",
+     "published": "2026-10-21T14:07:23Z"
+    },
+    {
+     "rank": 22,
+     "id": "zmD9Stm174k",
+     "title": "긴 소원 (Birthday Wish)",
+     "channel": "NMIXX - Topic",
+     "views": 784284,
+     "likes": 14034,
+     "duration": 200,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=zmD9Stm174k",
+     "thumb": "https://i.ytimg.com/vi/zmD9Stm174k/mqdefault.jpg",
+     "published": "2026-09-23T03:02:09Z"
+    },
+    {
+     "rank": 23,
+     "id": "csO3R7TdYWE",
+     "title": "뭔가 심상치 않은 등교하는 맵 ㅋㅋㅋㅋㅋㅋ(마인크래프트)",
+     "channel": "마플 마인크래프트 채널",
+     "views": 202006,
+     "likes": 2869,
+     "duration": 1290,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=csO3R7TdYWE",
+     "thumb": "https://i.ytimg.com/vi/csO3R7TdYWE/mqdefault.jpg",
+     "published": "2026-10-22T12:05:39Z"
+    },
+    {
+     "rank": 24,
+     "id": "l0CG1QssEsg",
+     "title": "180도",
+     "channel": "LEE YEJOON - Topic",
+     "views": 129251,
+     "likes": 457,
+     "duration": 232,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=l0CG1QssEsg",
+     "thumb": "https://i.ytimg.com/vi/l0CG1QssEsg/mqdefault.jpg",
+     "published": "2026-10-21T09:02:44Z"
+    },
+    {
+     "rank": 25,
+     "id": "E8pfGM3yWNc",
+     "title": "정복자 카밀",
+     "channel": "PAKA",
+     "views": 512072,
+     "likes": 1699,
+     "duration": 1375,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=E8pfGM3yWNc",
+     "thumb": "https://i.ytimg.com/vi/E8pfGM3yWNc/mqdefault.jpg",
+     "published": "2026-10-21T08:30:37Z"
+    },
+    {
+     "rank": 26,
+     "id": "rlIer64GfA4",
+     "title": "If you live well",
+     "channel": "HUNHUNHADA - Topic",
+     "views": 1126270,
+     "likes": 16344,
+     "duration": 230,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rlIer64GfA4",
+     "thumb": "https://i.ytimg.com/vi/rlIer64GfA4/mqdefault.jpg",
+     "published": "2026-10-17T09:04:07Z"
+    },
+    {
+     "rank": 27,
+     "id": "18Xfq7rLHwc",
+     "title": "이래도 안 사? [팡이요,  메이플스토리]",
+     "channel": "팡이요",
+     "views": 283885,
+     "likes": 675,
+     "duration": 718,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=18Xfq7rLHwc",
+     "thumb": "https://i.ytimg.com/vi/18Xfq7rLHwc/mqdefault.jpg",
+     "published": "2026-10-22T09:00:11Z"
+    },
+    {
+     "rank": 28,
+     "id": "jGtel4Eg61U",
+     "title": "Masterpiece",
+     "channel": "LNGSHOT - Topic",
+     "views": 170612,
+     "likes": 8480,
+     "duration": 170,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=jGtel4Eg61U",
+     "thumb": "https://i.ytimg.com/vi/jGtel4Eg61U/mqdefault.jpg",
+     "published": "2026-10-21T09:00:01Z"
+    },
+    {
+     "rank": 29,
+     "id": "sN3K616SMwU",
+     "title": "결국 이상호 피파 실력을 뛰어 넘은 김봉준..!?",
+     "channel": "게임대장봉준",
+     "views": 192709,
+     "likes": 556,
+     "duration": 2555,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=sN3K616SMwU",
+     "thumb": "https://i.ytimg.com/vi/sN3K616SMwU/mqdefault.jpg",
+     "published": "2026-10-22T08:26:22Z"
+    },
+    {
+     "rank": 30,
+     "id": "KFtR_-2fFVs",
+     "title": "사랑이 끝난 자리에 남아 (Feat.순길)",
+     "channel": "KYOE - Topic",
+     "views": 868579,
+     "likes": 7744,
+     "duration": 258,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=KFtR_-2fFVs",
+     "thumb": "https://i.ytimg.com/vi/KFtR_-2fFVs/mqdefault.jpg",
+     "published": "2026-10-18T03:02:40Z"
+    },
+    {
+     "rank": 31,
+     "id": "ETMrZnZW2Ic",
+     "title": "오랜만에 나온 쫄깃한 한 판! 😋",
+     "channel": "전략적죽음",
+     "views": 177574,
+     "likes": 808,
+     "duration": 1697,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=ETMrZnZW2Ic",
+     "thumb": "https://i.ytimg.com/vi/ETMrZnZW2Ic/mqdefault.jpg",
+     "published": "2026-10-22T09:30:30Z"
+    },
+    {
+     "rank": 32,
+     "id": "QmJzU5ksNtY",
+     "title": "생각보다",
+     "channel": "Hollow Young - Topic",
+     "views": 29372,
+     "likes": 124,
+     "duration": 176,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=QmJzU5ksNtY",
+     "thumb": "https://i.ytimg.com/vi/QmJzU5ksNtY/mqdefault.jpg",
+     "published": "2026-10-19T03:03:06Z"
+    },
+    {
+     "rank": 33,
+     "id": "WOOT7TXyKnI",
+     "title": "(심각) 롤 장인 유튜버들이 대리 어뷰충? 충격적인 현 솔랭 실태",
+     "channel": "클리드",
+     "views": 482621,
+     "likes": 1707,
+     "duration": 2155,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=WOOT7TXyKnI",
+     "thumb": "https://i.ytimg.com/vi/WOOT7TXyKnI/mqdefault.jpg",
+     "published": "2026-10-21T10:27:01Z"
+    },
+    {
+     "rank": 34,
+     "id": "73r9SOz7SDU",
+     "title": "EGERO",
+     "channel": "Damons Year - Topic",
+     "views": 108863,
+     "likes": 1809,
+     "duration": 234,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=73r9SOz7SDU",
+     "thumb": "https://i.ytimg.com/vi/73r9SOz7SDU/mqdefault.jpg",
+     "published": "2026-10-20T09:04:31Z"
+    },
+    {
+     "rank": 35,
+     "id": "kmwWiE7YUFU",
+     "title": "무패를 끊어줄 고수 찾길래 갔더니 오히려 알파고를 개초보 취급하는 상대;; 과연 상대의 실력은?ㄷㄷ",
+     "channel": "[ALTUBE] 김성현TV",
+     "views": 229937,
+     "likes": 1136,
+     "duration": 2063,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=kmwWiE7YUFU",
+     "thumb": "https://i.ytimg.com/vi/kmwWiE7YUFU/mqdefault.jpg",
+     "published": "2026-10-22T09:48:03Z"
+    },
+    {
+     "rank": 36,
+     "id": "e55PQSImdeI",
+     "title": "Blue",
+     "channel": "KANGDANIEL - Topic",
+     "views": 52019,
+     "likes": 1316,
+     "duration": 198,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=e55PQSImdeI",
+     "thumb": "https://i.ytimg.com/vi/e55PQSImdeI/mqdefault.jpg",
+     "published": "2026-10-21T09:00:13Z"
+    },
+    {
+     "rank": 37,
+     "id": "q4R7H2eZw08",
+     "title": "심령 무시로 퇴마하는 보드게임 TRPGㅋㅋㅋ",
+     "channel": "왈도쿤",
+     "views": 205899,
+     "likes": 2918,
+     "duration": 1484,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=q4R7H2eZw08",
+     "thumb": "https://i.ytimg.com/vi/q4R7H2eZw08/mqdefault.jpg",
+     "published": "2026-10-22T11:00:08Z"
+    },
+    {
+     "rank": 38,
+     "id": "0wvJaFvLaqQ",
+     "title": "YOUNGONE (01)",
+     "channel": "IT′S - Topic",
+     "views": 30185,
+     "likes": 332,
+     "duration": 217,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=0wvJaFvLaqQ",
+     "thumb": "https://i.ytimg.com/vi/0wvJaFvLaqQ/mqdefault.jpg",
+     "published": "2026-10-21T09:01:41Z"
+    },
+    {
+     "rank": 39,
+     "id": "EeUMcoBzTDc",
+     "title": "배그 프로 선수의 미친 피지컬",
+     "channel": "말왕TV",
+     "views": 177762,
+     "likes": 1401,
+     "duration": 2588,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=EeUMcoBzTDc",
+     "thumb": "https://i.ytimg.com/vi/EeUMcoBzTDc/mqdefault.jpg",
+     "published": "2026-10-22T10:02:13Z"
+    },
+    {
+     "rank": 40,
+     "id": "NJSftvAk2Sc",
+     "title": "Still love you",
+     "channel": "Lee Hong Gi - Topic",
+     "views": 41591,
+     "likes": 236,
+     "duration": 259,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=NJSftvAk2Sc",
+     "thumb": "https://i.ytimg.com/vi/NJSftvAk2Sc/mqdefault.jpg",
+     "published": "2026-09-30T15:00:39Z"
+    },
+    {
+     "rank": 41,
+     "id": "X_LQ1cHa_Qo",
+     "title": "음바페가 사라졌다..? \"희대의 JOAT판단\"",
+     "channel": "저라뎃 JUSTLIKETHAT",
+     "views": 191662,
+     "likes": 690,
+     "duration": 1573,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=X_LQ1cHa_Qo",
+     "thumb": "https://i.ytimg.com/vi/X_LQ1cHa_Qo/mqdefault.jpg",
+     "published": "2026-10-22T10:53:39Z"
+    },
+    {
+     "rank": 42,
+     "id": "roHWN9fL2SM",
+     "title": "NMIXX(엔믹스) “긴 소원 (Birthday Wish)” M/V",
+     "channel": "JYP Entertainment",
+     "views": 17281180,
+     "likes": 177467,
+     "duration": 211,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=roHWN9fL2SM",
+     "thumb": "https://i.ytimg.com/vi/roHWN9fL2SM/mqdefault.jpg",
+     "published": "2026-10-19T09:00:04Z"
+    },
+    {
+     "rank": 43,
+     "id": "iKxYSh49qL0",
+     "title": "현 시각 공포 게임 1위",
+     "channel": "김재원의 즐거운 세상",
+     "views": 957331,
+     "likes": 17325,
+     "duration": 554,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=iKxYSh49qL0",
+     "thumb": "https://i.ytimg.com/vi/iKxYSh49qL0/mqdefault.jpg",
+     "published": "2026-10-20T07:00:05Z"
+    },
+    {
+     "rank": 44,
+     "id": "Cu6JU-kNmOU",
+     "title": "LNGSHOT - 'Masterpiece' Official Music Video",
+     "channel": "MORE VISION",
+     "views": 3043761,
+     "likes": 274804,
+     "duration": 221,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Cu6JU-kNmOU",
+     "thumb": "https://i.ytimg.com/vi/Cu6JU-kNmOU/mqdefault.jpg",
+     "published": "2026-10-21T09:00:05Z"
+    },
+    {
+     "rank": 45,
+     "id": "ZZniPrqzhyg",
+     "title": "미친 성능으로 진화한 스타1 슈퍼 AI '플루토 2.0'... 절망에 빠지는 홍구!? [발스타홍구 vs 플루토 2.0 버전 (1부)]",
+     "channel": "발스타홍구",
+     "views": 222828,
+     "likes": 1213,
+     "duration": 2112,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=ZZniPrqzhyg",
+     "thumb": "https://i.ytimg.com/vi/ZZniPrqzhyg/mqdefault.jpg",
+     "published": "2026-10-22T02:30:04Z"
+    },
+    {
+     "rank": 46,
+     "id": "2mFmioawM_4",
+     "title": "Reminiscence",
+     "channel": "Kim Gyeol - Topic",
+     "views": 306479,
+     "likes": 8502,
+     "duration": 157,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=2mFmioawM_4",
+     "thumb": "https://i.ytimg.com/vi/2mFmioawM_4/mqdefault.jpg",
+     "published": "2026-10-16T09:02:24Z"
+    },
+    {
+     "rank": 47,
+     "id": "XZNrxKa2Uuc",
+     "title": "화가 잔뜩 난 원장님의 무한 브레스",
+     "channel": "팔차선 [8LJAYWALKING]",
+     "views": 151985,
+     "likes": 457,
+     "duration": 946,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=XZNrxKa2Uuc",
+     "thumb": "https://i.ytimg.com/vi/XZNrxKa2Uuc/mqdefault.jpg",
+     "published": "2026-10-22T09:00:28Z"
+    },
+    {
+     "rank": 48,
+     "id": "Sv-zQVgct_U",
+     "title": "You and me (Feat. BLXDY BULLET)",
+     "channel": "Makewin - Topic",
+     "views": 136194,
+     "likes": 2832,
+     "duration": 170,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Sv-zQVgct_U",
+     "thumb": "https://i.ytimg.com/vi/Sv-zQVgct_U/mqdefault.jpg",
+     "published": "2026-09-30T15:02:51Z"
+    },
+    {
+     "rank": 49,
+     "id": "4yZUZkAFlCc",
+     "title": "[리니지M] 랭킹 보상으로 모든 장비가 업그레이드가 되었습니다! (ft.센터형님과 영혼의 맞다이)",
+     "channel": "불도그",
+     "views": 205196,
+     "likes": 666,
+     "duration": 975,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=4yZUZkAFlCc",
+     "thumb": "https://i.ytimg.com/vi/4yZUZkAFlCc/mqdefault.jpg",
+     "published": "2026-10-22T09:15:38Z"
+    },
+    {
+     "rank": 50,
+     "id": "nkHZeOcY-T8",
+     "title": "Blunt words... this terrible love",
+     "channel": "Baek Yeseul - Topic",
+     "views": 1444357,
+     "likes": 8239,
+     "duration": 255,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=nkHZeOcY-T8",
+     "thumb": "https://i.ytimg.com/vi/nkHZeOcY-T8/mqdefault.jpg",
+     "published": "2026-10-18T09:01:36Z"
+    }
+   ]
   },
   "youtube_us": {
    "label": "YouTube 인기 US",
-   "status": "skip",
-   "error": "YOUTUBE_API_KEY 없음",
-   "count": 0,
-   "items": []
+   "status": "ok",
+   "count": 50,
+   "items": [
+    {
+     "rank": 1,
+     "id": "VOCEZQSO3t4",
+     "title": "WATCH ME",
+     "channel": "K/DA - Topic",
+     "views": 635145,
+     "likes": 20287,
+     "duration": 183,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=VOCEZQSO3t4",
+     "thumb": "https://i.ytimg.com/vi/VOCEZQSO3t4/mqdefault.jpg",
+     "published": "2026-10-22T01:12:01Z"
+    },
+    {
+     "rank": 2,
+     "id": "hsRtzt_ApsU",
+     "title": "Mass Effect 5 Trailer Leak",
+     "channel": "deyoku",
+     "views": 83067,
+     "likes": 2563,
+     "duration": 138,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=hsRtzt_ApsU",
+     "thumb": "https://i.ytimg.com/vi/hsRtzt_ApsU/mqdefault.jpg",
+     "published": "2026-10-22T19:20:27Z"
+    },
+    {
+     "rank": 3,
+     "id": "vQtP0JzeUMw",
+     "title": "🔴LIVE | NEW COD MULTIPLAYER | TIM X NICKMERCS X HUTCH X DRAC X NICO | I DIDN'T SLEEP | #Bungulate",
+     "channel": "TheBurntPeanut",
+     "views": 816280,
+     "likes": 10313,
+     "duration": 14407,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=vQtP0JzeUMw",
+     "thumb": "https://i.ytimg.com/vi/vQtP0JzeUMw/mqdefault.jpg",
+     "published": "2026-10-22T17:35:34Z"
+    },
+    {
+     "rank": 4,
+     "id": "Af5QTrnWrI4",
+     "title": "FattMack - Conversation [Official Music Video]",
+     "channel": "FattMack",
+     "views": 170913,
+     "likes": 12622,
+     "duration": 185,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Af5QTrnWrI4",
+     "thumb": "https://i.ytimg.com/vi/Af5QTrnWrI4/mqdefault.jpg",
+     "published": "2026-10-21T18:30:08Z"
+    },
+    {
+     "rank": 5,
+     "id": "maP_Kyy3DCA",
+     "title": "The Rings of Power - Season 3 Official Trailer | Prime Video",
+     "channel": "Prime Video",
+     "views": 3828761,
+     "likes": 21340,
+     "duration": 134,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=maP_Kyy3DCA",
+     "thumb": "https://i.ytimg.com/vi/maP_Kyy3DCA/mqdefault.jpg",
+     "published": "2026-10-21T16:30:20Z"
+    },
+    {
+     "rank": 6,
+     "id": "iHE0ChOoP8w",
+     "title": "Halloween On Goober Street…",
+     "channel": "CaseOh",
+     "views": 223020,
+     "likes": 8785,
+     "duration": 4957,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=iHE0ChOoP8w",
+     "thumb": "https://i.ytimg.com/vi/iHE0ChOoP8w/mqdefault.jpg",
+     "published": "2026-10-22T22:00:12Z"
+    },
+    {
+     "rank": 7,
+     "id": "9ov2RJJSZjE",
+     "title": "DeeBaby - Blood Sweat Tears Freestyle",
+     "channel": "Official DeeBabyTV",
+     "views": 155116,
+     "likes": 9279,
+     "duration": 193,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=9ov2RJJSZjE",
+     "thumb": "https://i.ytimg.com/vi/9ov2RJJSZjE/mqdefault.jpg",
+     "published": "2026-10-21T23:51:46Z"
+    },
+    {
+     "rank": 8,
+     "id": "IoUxPuoB1XE",
+     "title": "MEET THE VILLAINS - Calling All Villains",
+     "channel": "ZAMination",
+     "views": 423604,
+     "likes": 22998,
+     "duration": 123,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=IoUxPuoB1XE",
+     "thumb": "https://i.ytimg.com/vi/IoUxPuoB1XE/mqdefault.jpg",
+     "published": "2026-10-22T15:08:13Z"
+    },
+    {
+     "rank": 9,
+     "id": "l5Q3alU1g_c",
+     "title": "DO NOT Gamble at this Casino",
+     "channel": "SMii7Y",
+     "views": 2546511,
+     "likes": 68584,
+     "duration": 1622,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=l5Q3alU1g_c",
+     "thumb": "https://i.ytimg.com/vi/l5Q3alU1g_c/mqdefault.jpg",
+     "published": "2026-10-21T19:13:04Z"
+    },
+    {
+     "rank": 10,
+     "id": "zFLO82v3mjA",
+     "title": "Ren - The Music Business",
+     "channel": "Ren",
+     "views": 266394,
+     "likes": 24597,
+     "duration": 245,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=zFLO82v3mjA",
+     "thumb": "https://i.ytimg.com/vi/zFLO82v3mjA/mqdefault.jpg",
+     "published": "2026-10-22T18:00:08Z"
+    },
+    {
+     "rank": 11,
+     "id": "hylmr-LlFtE",
+     "title": "Cyberpunk 2077 | Broken Dreams | Edgerunners 2 Update Launch Trailer",
+     "channel": "Cyberpunk 2077",
+     "views": 960257,
+     "likes": 29941,
+     "duration": 81,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=hylmr-LlFtE",
+     "thumb": "https://i.ytimg.com/vi/hylmr-LlFtE/mqdefault.jpg",
+     "published": "2026-10-22T10:05:05Z"
+    },
+    {
+     "rank": 12,
+     "id": "PDVR4yx1vjM",
+     "title": "The Divisional Playoffs Were INSANE! Wheel of MUT! Ep. #8",
+     "channel": "MMG",
+     "views": 255206,
+     "likes": 9120,
+     "duration": 1599,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=PDVR4yx1vjM",
+     "thumb": "https://i.ytimg.com/vi/PDVR4yx1vjM/mqdefault.jpg",
+     "published": "2026-10-22T15:13:24Z"
+    },
+    {
+     "rank": 13,
+     "id": "25A5Y0_qHCc",
+     "title": "Ecco2k – Aldehydes and Ketones (Mv)",
+     "channel": "drain gang",
+     "views": 147738,
+     "likes": 24320,
+     "duration": 242,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=25A5Y0_qHCc",
+     "thumb": "https://i.ytimg.com/vi/25A5Y0_qHCc/mqdefault.jpg",
+     "published": "2026-10-22T18:00:10Z"
+    },
+    {
+     "rank": 14,
+     "id": "xt4rMmDOd0o",
+     "title": "Chapter 6's FIRST TRAILER Is INSANE...",
+     "channel": "Sheeprampage",
+     "views": 149109,
+     "likes": 5178,
+     "duration": 733,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=xt4rMmDOd0o",
+     "thumb": "https://i.ytimg.com/vi/xt4rMmDOd0o/mqdefault.jpg",
+     "published": "2026-10-22T16:38:05Z"
+    },
+    {
+     "rank": 15,
+     "id": "JyTKDk-rNr0",
+     "title": "Something About Resident Evil Requiem ANIMATED 🧟🧟",
+     "channel": "TerminalMontage",
+     "views": 377978,
+     "likes": 36825,
+     "duration": 823,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=JyTKDk-rNr0",
+     "thumb": "https://i.ytimg.com/vi/JyTKDk-rNr0/mqdefault.jpg",
+     "published": "2026-10-22T21:26:48Z"
+    },
+    {
+     "rank": 16,
+     "id": "LYn4w3m3Pjo",
+     "title": "W Sound 10 “HAPPY MONDAY” - Hades66, Westcol, Ovy On The Drums",
+     "channel": "W Sound",
+     "views": 817070,
+     "likes": 81925,
+     "duration": 189,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=LYn4w3m3Pjo",
+     "thumb": "https://i.ytimg.com/vi/LYn4w3m3Pjo/mqdefault.jpg",
+     "published": "2026-10-22T00:00:09Z"
+    },
+    {
+     "rank": 17,
+     "id": "jq5oCjhQtIc",
+     "title": "I Play Rocky | Official Trailer 2",
+     "channel": "Amazon MGM Studios",
+     "views": 580270,
+     "likes": 5182,
+     "duration": 92,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=jq5oCjhQtIc",
+     "thumb": "https://i.ytimg.com/vi/jq5oCjhQtIc/mqdefault.jpg",
+     "published": "2026-10-22T16:00:07Z"
+    },
+    {
+     "rank": 18,
+     "id": "gEDf-g9zwbQ",
+     "title": "GAMERS WON..",
+     "channel": "Asmongold TV  ",
+     "views": 1640679,
+     "likes": 37685,
+     "duration": 4586,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=gEDf-g9zwbQ",
+     "thumb": "https://i.ytimg.com/vi/gEDf-g9zwbQ/mqdefault.jpg",
+     "published": "2026-10-22T02:58:13Z"
+    },
+    {
+     "rank": 19,
+     "id": "vnCiLqjv44I",
+     "title": "PlaqueBoyMax & Jacquees - Familiar (Official Music Video)",
+     "channel": "PlaqueBoyMax",
+     "views": 311301,
+     "likes": 16796,
+     "duration": 172,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=vnCiLqjv44I",
+     "thumb": "https://i.ytimg.com/vi/vnCiLqjv44I/mqdefault.jpg",
+     "published": "2026-10-21T21:00:08Z"
+    },
+    {
+     "rank": 20,
+     "id": "44D7NsEItXo",
+     "title": "AVENGERS DOOMSDAY FINAL TRAILER",
+     "channel": "Everything Always",
+     "views": 72640,
+     "likes": 1535,
+     "duration": 494,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=44D7NsEItXo",
+     "thumb": "https://i.ytimg.com/vi/44D7NsEItXo/mqdefault.jpg",
+     "published": "2026-10-22T19:48:55Z"
+    },
+    {
+     "rank": 21,
+     "id": "9kvJoDKvXIg",
+     "title": "SPIN THE BOTTLE = KISS in Minecraft..",
+     "channel": "Cash",
+     "views": 356025,
+     "likes": 4764,
+     "duration": 1270,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=9kvJoDKvXIg",
+     "thumb": "https://i.ytimg.com/vi/9kvJoDKvXIg/mqdefault.jpg",
+     "published": "2026-10-22T15:00:15Z"
+    },
+    {
+     "rank": 22,
+     "id": "15SIksKADvY",
+     "title": "Millyz ft. Jadakiss, Dave East & Styles P - No Favors (Official Video)",
+     "channel": "Millyz",
+     "views": 26441,
+     "likes": 3409,
+     "duration": 219,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=15SIksKADvY",
+     "thumb": "https://i.ytimg.com/vi/15SIksKADvY/mqdefault.jpg",
+     "published": "2026-10-22T22:55:05Z"
+    },
+    {
+     "rank": 23,
+     "id": "_C2VD1L09gg",
+     "title": "Visionquest Episode 5 Trailer Breakdown & Easter Eggs",
+     "channel": "Emergency Awesome",
+     "views": 94321,
+     "likes": 1598,
+     "duration": 790,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=_C2VD1L09gg",
+     "thumb": "https://i.ytimg.com/vi/_C2VD1L09gg/mqdefault.jpg",
+     "published": "2026-10-22T21:45:28Z"
+    },
+    {
+     "rank": 24,
+     "id": "BwiYCuYIDfA",
+     "title": "The HARDEST Prop Hunt Game EVER",
+     "channel": "Clooless Gaming",
+     "views": 189401,
+     "likes": 10676,
+     "duration": 3414,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=BwiYCuYIDfA",
+     "thumb": "https://i.ytimg.com/vi/BwiYCuYIDfA/mqdefault.jpg",
+     "published": "2026-10-22T19:00:05Z"
+    },
+    {
+     "rank": 25,
+     "id": "yBwjYIcPKI4",
+     "title": "En los negocios",
+     "channel": "La Diferencia - Topic",
+     "views": 23914,
+     "likes": 164,
+     "duration": 216,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=yBwjYIcPKI4",
+     "thumb": "https://i.ytimg.com/vi/yBwjYIcPKI4/mqdefault.jpg",
+     "published": "2026-10-17T01:43:23Z"
+    },
+    {
+     "rank": 26,
+     "id": "qgJBFa952mY",
+     "title": "Phantom Blade Zero - Official Launch Trailer",
+     "channel": "Phantom Blade Zero",
+     "views": 2422811,
+     "likes": 26561,
+     "duration": 192,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=qgJBFa952mY",
+     "thumb": "https://i.ytimg.com/vi/qgJBFa952mY/mqdefault.jpg",
+     "published": "2026-10-22T02:00:21Z"
+    },
+    {
+     "rank": 27,
+     "id": "ibfRPLXXUPA",
+     "title": "JEV PLAYS MODERN WARFARE 4 MULTIPLAYER",
+     "channel": "JEV",
+     "views": 321212,
+     "likes": 14096,
+     "duration": 508,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=ibfRPLXXUPA",
+     "thumb": "https://i.ytimg.com/vi/ibfRPLXXUPA/mqdefault.jpg",
+     "published": "2026-10-22T19:00:08Z"
+    },
+    {
+     "rank": 28,
+     "id": "4N5ZVgU_WlE",
+     "title": "Olivia Rodrigo, Chappell Roan - expectations (feat. Chappell Roan) (wheel of misfortune)",
+     "channel": "OliviaRodrigoVEVO",
+     "views": 826760,
+     "likes": 36579,
+     "duration": 224,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=4N5ZVgU_WlE",
+     "thumb": "https://i.ytimg.com/vi/4N5ZVgU_WlE/mqdefault.jpg",
+     "published": "2026-10-21T21:09:42Z"
+    },
+    {
+     "rank": 29,
+     "id": "fUGlrHkuIH8",
+     "title": "Mass Effect 5 Trailer Leaks After BioWare Shutdown - Inside Games Daily",
+     "channel": "Inside Games",
+     "views": 37906,
+     "likes": 1441,
+     "duration": 621,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=fUGlrHkuIH8",
+     "thumb": "https://i.ytimg.com/vi/fUGlrHkuIH8/mqdefault.jpg",
+     "published": "2026-10-22T22:18:56Z"
+    },
+    {
+     "rank": 30,
+     "id": "KUaFBWgFC_c",
+     "title": "HE ATE THEM w/ FOLTYN..",
+     "channel": "steak",
+     "views": 385667,
+     "likes": 5061,
+     "duration": 2239,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=KUaFBWgFC_c",
+     "thumb": "https://i.ytimg.com/vi/KUaFBWgFC_c/mqdefault.jpg",
+     "published": "2026-10-23T00:06:08Z"
+    },
+    {
+     "rank": 31,
+     "id": "OWbhwq9fecg",
+     "title": "Ozuna x Jory Boy x Ñengo Flow - Vulnerable (Video Oficial)",
+     "channel": "Ozuna",
+     "views": 1338537,
+     "likes": 33291,
+     "duration": 249,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=OWbhwq9fecg",
+     "thumb": "https://i.ytimg.com/vi/OWbhwq9fecg/mqdefault.jpg",
+     "published": "2026-10-21T16:00:10Z"
+    },
+    {
+     "rank": 32,
+     "id": "AIjjOD2v46g",
+     "title": "NEW AVENGERS DOOMSDAY FOOTAGE OFFICIALLY CONFIRMED!",
+     "channel": "The Cosmic Wonder",
+     "views": 48591,
+     "likes": 1148,
+     "duration": 732,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=AIjjOD2v46g",
+     "thumb": "https://i.ytimg.com/vi/AIjjOD2v46g/mqdefault.jpg",
+     "published": "2026-10-22T19:30:53Z"
+    },
+    {
+     "rank": 33,
+     "id": "7P3VAcMNZa4",
+     "title": "MW4 LAUNCH DAY WITH THE BOYS (THEBURNTPEANUT, NICKMERCS & HUTCHMF)",
+     "channel": "TimTheTatman",
+     "views": 378792,
+     "likes": 3107,
+     "duration": 30631,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=7P3VAcMNZa4",
+     "thumb": "https://i.ytimg.com/vi/7P3VAcMNZa4/mqdefault.jpg",
+     "published": "2026-10-23T01:18:28Z"
+    },
+    {
+     "rank": 34,
+     "id": "gApykAFAgbg",
+     "title": "❌Ángel Caído (R.I.P. Santa Fe Klan)❌ 🐀",
+     "channel": "TornillO Oficial",
+     "views": 2282748,
+     "likes": 96948,
+     "duration": 427,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=gApykAFAgbg",
+     "thumb": "https://i.ytimg.com/vi/gApykAFAgbg/mqdefault.jpg",
+     "published": "2026-10-20T03:30:09Z"
+    },
+    {
+     "rank": 35,
+     "id": "XYKMAoGKN2Y",
+     "title": "Palia | Fall's Faire: Hearty Homecoming Trailer",
+     "channel": "Palia",
+     "views": 13404,
+     "likes": 495,
+     "duration": 30,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/XYKMAoGKN2Y",
+     "thumb": "https://i.ytimg.com/vi/XYKMAoGKN2Y/mqdefault.jpg",
+     "published": "2026-10-22T16:59:30Z"
+    },
+    {
+     "rank": 36,
+     "id": "uOlxa3xvNq4",
+     "title": "End of Beta Special ft. @Meeix | Episode 5 - The WoW: Forever Podcast",
+     "channel": "World of Warcraft",
+     "views": 380756,
+     "likes": 10242,
+     "duration": 6083,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=uOlxa3xvNq4",
+     "thumb": "https://i.ytimg.com/vi/uOlxa3xvNq4/mqdefault.jpg",
+     "published": "2026-10-22T16:15:03Z"
+    },
+    {
+     "rank": 37,
+     "id": "UZYJP0uJrw0",
+     "title": "Lil Speedy & Bloodhound Q50 - Speedy Chill (Official Music Video)",
+     "channel": "Lil Speedy",
+     "views": 255197,
+     "likes": 11821,
+     "duration": 130,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=UZYJP0uJrw0",
+     "thumb": "https://i.ytimg.com/vi/UZYJP0uJrw0/mqdefault.jpg",
+     "published": "2026-10-21T17:00:10Z"
+    },
+    {
+     "rank": 38,
+     "id": "cEVsq0JdE6c",
+     "title": "FNAF part 2 + Anime BATTLE PASS Official Trailer Reveal - Fortnite",
+     "channel": "SinX6",
+     "views": 66310,
+     "likes": 1241,
+     "duration": 31,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/cEVsq0JdE6c",
+     "thumb": "https://i.ytimg.com/vi/cEVsq0JdE6c/mqdefault.jpg",
+     "published": "2026-10-22T14:29:49Z"
+    },
+    {
+     "rank": 39,
+     "id": "MQ2eIz4RU7c",
+     "title": "ROBLOX THE HOLLOW (NEW EVENT)",
+     "channel": "KreekCraft",
+     "views": 892197,
+     "likes": 16846,
+     "duration": 3403,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=MQ2eIz4RU7c",
+     "thumb": "https://i.ytimg.com/vi/MQ2eIz4RU7c/mqdefault.jpg",
+     "published": "2026-10-22T23:19:25Z"
+    },
+    {
+     "rank": 40,
+     "id": "XrxQJT2vGX0",
+     "title": "Plan B - Es Un Secreto 🤫 (Letra) | (Lyrics)",
+     "channel": "Xabian.j",
+     "views": 1038912,
+     "likes": 1789,
+     "duration": 197,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=XrxQJT2vGX0",
+     "thumb": "https://i.ytimg.com/vi/XrxQJT2vGX0/mqdefault.jpg",
+     "published": "2026-10-20T21:42:09Z"
+    },
+    {
+     "rank": 41,
+     "id": "fdkwGvMB5zQ",
+     "title": "BUNKER | Starring Javier Bardem & Penélope Cruz | Official US Trailer (2027)",
+     "channel": "Sony Pictures Classics",
+     "views": 761161,
+     "likes": 4050,
+     "duration": 92,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=fdkwGvMB5zQ",
+     "thumb": "https://i.ytimg.com/vi/fdkwGvMB5zQ/mqdefault.jpg",
+     "published": "2026-10-21T20:08:41Z"
+    },
+    {
+     "rank": 42,
+     "id": "2F28FTpF0oo",
+     "title": "I Pretended to be POOR to Troll my Friends In Minecraft...",
+     "channel": "TechyCraft",
+     "views": 324432,
+     "likes": 5250,
+     "duration": 972,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=2F28FTpF0oo",
+     "thumb": "https://i.ytimg.com/vi/2F28FTpF0oo/mqdefault.jpg",
+     "published": "2026-10-22T12:00:37Z"
+    },
+    {
+     "rank": 43,
+     "id": "6ruo4VVRjvo",
+     "title": "ILLIT (아일릿) '체포하겠어 (You’re Under Arrest)' | PRESS START♥︎ ENCORE",
+     "channel": "ILLIT",
+     "views": 922049,
+     "likes": 36823,
+     "duration": 216,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=6ruo4VVRjvo",
+     "thumb": "https://i.ytimg.com/vi/6ruo4VVRjvo/mqdefault.jpg",
+     "published": "2026-10-22T09:00:01Z"
+    },
+    {
+     "rank": 44,
+     "id": "siM80qE5Y8E",
+     "title": "Dispatch | One-Year Anniversary Trailer",
+     "channel": "AdHoc Studio",
+     "views": 174978,
+     "likes": 9435,
+     "duration": 97,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=siM80qE5Y8E",
+     "thumb": "https://i.ytimg.com/vi/siM80qE5Y8E/mqdefault.jpg",
+     "published": "2026-10-22T16:02:55Z"
+    },
+    {
+     "rank": 45,
+     "id": "JHDGV1esB1g",
+     "title": "The Halloween Update (Trailer)",
+     "channel": "Tze",
+     "views": 986462,
+     "likes": 62191,
+     "duration": 70,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=JHDGV1esB1g",
+     "thumb": "https://i.ytimg.com/vi/JHDGV1esB1g/mqdefault.jpg",
+     "published": "2026-10-21T21:00:10Z"
+    },
+    {
+     "rank": 46,
+     "id": "Cu6JU-kNmOU",
+     "title": "LNGSHOT - 'Masterpiece' Official Music Video",
+     "channel": "MORE VISION",
+     "views": 3043761,
+     "likes": 274804,
+     "duration": 221,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Cu6JU-kNmOU",
+     "thumb": "https://i.ytimg.com/vi/Cu6JU-kNmOU/mqdefault.jpg",
+     "published": "2026-10-21T09:00:05Z"
+    },
+    {
+     "rank": 47,
+     "id": "obUPJ0r6pBs",
+     "title": "THE MASS EFFECT 5 TRAILER LEAKED AND IT'S DEVASTATING",
+     "channel": "Kala Elizabeth",
+     "views": 0,
+     "likes": 2146,
+     "duration": 12986,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=obUPJ0r6pBs",
+     "thumb": "https://i.ytimg.com/vi/obUPJ0r6pBs/mqdefault.jpg",
+     "published": "2026-10-22T20:51:14Z"
+    },
+    {
+     "rank": 48,
+     "id": "zOdS-g9MWgA",
+     "title": "The Village of Knobheim - Random Valheim Bullshittery",
+     "channel": "SovietWomble",
+     "views": 475420,
+     "likes": 24394,
+     "duration": 2174,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=zOdS-g9MWgA",
+     "thumb": "https://i.ytimg.com/vi/zOdS-g9MWgA/mqdefault.jpg",
+     "published": "2026-10-22T19:20:49Z"
+    },
+    {
+     "rank": 49,
+     "id": "EcOGoRcnB9A",
+     "title": "Dejémonos de Cosas",
+     "channel": "La Fiera De Ojinaga - Topic",
+     "views": 117859,
+     "likes": 1073,
+     "duration": 154,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=EcOGoRcnB9A",
+     "thumb": "https://i.ytimg.com/vi/EcOGoRcnB9A/mqdefault.jpg",
+     "published": "2026-10-15T10:00:34Z"
+    },
+    {
+     "rank": 50,
+     "id": "b9xxKtMXETQ",
+     "title": "NEW Season Official cinematic Trailer - Fortnite",
+     "channel": "shadowX6",
+     "views": 59085,
+     "likes": 1275,
+     "duration": 39,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/b9xxKtMXETQ",
+     "thumb": "https://i.ytimg.com/vi/b9xxKtMXETQ/mqdefault.jpg",
+     "published": "2026-10-22T17:58:57Z"
+    }
+   ]
   },
   "trends_kr": {
    "label": "Google 트렌드 KR",
@@ -510,6 +1568,16 @@
    "items": [
     {
      "rank": 1,
+     "title": "네이버지도",
+     "traffic": 2000,
+     "traffic_raw": "2000+",
+     "news_title": "한국도로공사, 민·관 교통안전 데이터 공유 협의체 만든다",
+     "news_url": "https://www.electimes.com/news/articleView.html?idxno=373794",
+     "url": "https://www.electimes.com/news/articleView.html?idxno=373794",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdNGeMv9rA3N8wXyO8TM2SM35Ooxy37hdo8Z0aci_j1KLGK9-AjRzN0q7TAk8"
+    },
+    {
+     "rank": 2,
      "title": "김혜선",
      "traffic": 500,
      "traffic_raw": "500+",
@@ -519,7 +1587,7 @@
      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS19ATHuIt-PZPtATN4t5QJSsCyl8HToO-z6gVebDNNryHoCafl8HIpvlmD-60"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "title": "이혜영",
      "traffic": 200,
      "traffic_raw": "200+",
@@ -529,7 +1597,7 @@
      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtKn56Uwmuna-frdXuqGnXwSdaOPVtMdoVpqnVQo27RgLtwU4U9v0QUaSVJZE"
     },
     {
-     "rank": 3,
+     "rank": 4,
      "title": "압구정",
      "traffic": 100,
      "traffic_raw": "100+",
@@ -539,7 +1607,7 @@
      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRAzcC45kl72dF_phSf8FZTFX3Ct2Hp3sS6C7-k1PrtGCM_oWmxsYLZG5AmrM"
     },
     {
-     "rank": 4,
+     "rank": 5,
      "title": "메타",
      "traffic": 200,
      "traffic_raw": "200+",
@@ -549,27 +1617,27 @@
      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR7c_IYqinFsYGTXcoPaARgoM962FxLYN02GH7nAhdDpWRqpyd_0W42X-Gy8Q"
     },
     {
-     "rank": 5,
+     "rank": 6,
      "title": "인천지하철",
-     "traffic": 100,
-     "traffic_raw": "100+",
+     "traffic": 200,
+     "traffic_raw": "200+",
      "news_title": "“65살 이상 지하철 무료 승차, 연 6506억 편익…재정 부담은 가중”",
      "news_url": "https://www.hani.co.kr/arti/area/area_general/1283716.html",
      "url": "https://www.hani.co.kr/arti/area/area_general/1283716.html",
      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRlxGI9TddoXAlujDspxka3TbH-Ju3Ei6WefitkYzCcjL_evIUznKTr_lF8AbM"
     },
     {
-     "rank": 6,
+     "rank": 7,
      "title": "르브론 제임스",
      "traffic": 200,
      "traffic_raw": "200+",
-     "news_title": "트럼프, 르브론 제임스 맹비난… \"국가 연주 중 美 모독, 완전한 수치\"",
-     "news_url": "https://www.chosun.com/international/us/2026/10/23/QLISGX7CW5CKROVQAQPM3GTOWE/",
-     "url": "https://www.chosun.com/international/us/2026/10/23/QLISGX7CW5CKROVQAQPM3GTOWE/",
-     "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9_35zT-Zvn0-t7LCug9ARgLfM8UrAc4Wbm2JvyPKQsBOGcl6mNidDWKZDdB4"
+     "news_title": "“국가 연주중 몸 풀다니”…트럼프, 르브론 제임스에 사과 요구",
+     "news_url": "https://www.donga.com/news/Inter/article/all/20261023/134894139/2",
+     "url": "https://www.donga.com/news/Inter/article/all/20261023/134894139/2",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT4dGLoP_BBQ4DWkYpqKwDIyyzGAX8J6k4m48laD83tV85YKHes2Yakxr7-f0o"
     },
     {
-     "rank": 7,
+     "rank": 8,
      "title": "저스틴 비버",
      "traffic": 500,
      "traffic_raw": "500+",
@@ -579,7 +1647,7 @@
      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTed0zv_BQreVN-YNBhhBDCCGYKLYwUKanCl_7UPqHXQgyw83FAuoVSFrBmwHs"
     },
     {
-     "rank": 8,
+     "rank": 9,
      "title": "오세훈 2 심 선고",
      "traffic": 200,
      "traffic_raw": "200+",
@@ -589,7 +1657,7 @@
      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHy9AUU-IDZLZ_BLHbqtPdcqD9UnYN8yRCrYjDYqvuPJde5T98Uq-CcWQdv2I"
     },
     {
-     "rank": 9,
+     "rank": 10,
      "title": "카카오맵",
      "traffic": 1000,
      "traffic_raw": "1000+",
@@ -597,16 +1665,6 @@
      "news_url": "https://longblack.co/note/2153",
      "url": "https://longblack.co/note/2153",
      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ_edRkFhe0qv4tfeqlSU5pQloAOi2ujs8ZKDw3f_VZ1rh1KYH9wK-7oTArbT4"
-    },
-    {
-     "rank": 10,
-     "title": "국정감사",
-     "traffic": 100,
-     "traffic_raw": "100+",
-     "news_title": "발언하는 정점식 원내대표",
-     "news_url": "https://www.newsis.com/view/NISI20261023_0021500917",
-     "url": "https://www.newsis.com/view/NISI20261023_0021500917",
-     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT3npLn86rWWVu4fPsjZpaeaDykypTuWyy8dw9pOT21kOpCDAoaG5uwROXgE3o"
     }
    ]
   },
@@ -617,16 +1675,56 @@
    "items": [
     {
      "rank": 1,
-     "title": "flu shots",
-     "traffic": 2000,
-     "traffic_raw": "2000+",
-     "news_title": "A mutated virus is driving the US into an early flu season, especially on the West Coast",
-     "news_url": "https://www.cnn.com/2026/10/22/health/flu-2026-mutation",
-     "url": "https://www.cnn.com/2026/10/22/health/flu-2026-mutation",
-     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKwvr4_fD3SVdOOoLzG6CYVm6Ee2-UdgSxdSrpILyVPlv6utiZwFQ7bMkhbnc"
+     "title": "connor mcdavid",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "McDavid explodes out of the gate to lead Oilers to historic start",
+     "news_url": "https://www.theglobeandmail.com/sports/hockey/article-connor-mcdavid-edmonton-oilers-nhl/",
+     "url": "https://www.theglobeandmail.com/sports/hockey/article-connor-mcdavid-edmonton-oilers-nhl/",
+     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRFXOCd80kRGXKshp-Gvvmj9OkCEJX8CWtzcNKcMmgFuQImyD18RZB8dRWgC3M"
     },
     {
      "rank": 2,
+     "title": "el salvador haiti",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "El Salvador sends troops to Haiti to rescue four service members",
+     "news_url": "https://www.cnn.com/2026/10/22/americas/el-salvador-troops-haiti-latam-intl",
+     "url": "https://www.cnn.com/2026/10/22/americas/el-salvador-troops-haiti-latam-intl",
+     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9Z6tpZOh3JlM7F78ADf0rxS5omPh6sFDvp-iUQB106Wnr4xQidybCqLJIWa8"
+    },
+    {
+     "rank": 3,
+     "title": "jake moody",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "Ravens Sign Jake Moody to Practice Squad as Competition for Tyler Loop",
+     "news_url": "https://www.baltimoreravens.com/news/ravens-sign-jake-moody-to-practice-squad-competition-with-tyler-loop",
+     "url": "https://www.baltimoreravens.com/news/ravens-sign-jake-moody-to-practice-squad-competition-with-tyler-loop",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUpktZPysGQ3EWT9Gs4zEnf9W8koKAvk45Y427g9RNExPgVzMnD25DnJJYPY"
+    },
+    {
+     "rank": 4,
+     "title": "michael lewis",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "Watch CNBC’s full discussion with the ‘Squawk on the Street’ crew",
+     "news_url": "https://www.cnbc.com/video/2026/10/09/watch-cnbcas-full-discussion-with-the-asquawk-on-the-streeta-crew.html",
+     "url": "https://www.cnbc.com/video/2026/10/09/watch-cnbcas-full-discussion-with-the-asquawk-on-the-streeta-crew.html",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-UcRirM4gsp3jc52zj6ozgD7-fvi6bFjO6Eju4sCjR1s5AvueuvecD5swPk"
+    },
+    {
+     "rank": 5,
+     "title": "san juan county floods",
+     "traffic": 2000,
+     "traffic_raw": "2000+",
+     "news_title": "Evacuations issued for areas near Animas and San Juan Rivers in San Juan County",
+     "news_url": "https://www.koat.com/article/san-juan-county-river-evacuation-new-mexico/74223224",
+     "url": "https://www.koat.com/article/san-juan-county-river-evacuation-new-mexico/74223224",
+     "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ6NWNNj8IrBwGZqt4eSdyT2ltPiytB04m71F1u7676g2k6kDbrxlqnz2mnRIM"
+    },
+    {
+     "rank": 6,
      "title": "vaccinations",
      "traffic": 1000,
      "traffic_raw": "1000+",
@@ -636,17 +1734,27 @@
      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTG52sIh8mk8qzvVMG4kauF9YOHbJvAl19X2nMCX5WTp7hcjH3gRl3E_5uqh0w"
     },
     {
-     "rank": 3,
-     "title": "kmet",
-     "traffic": 200,
-     "traffic_raw": "200+",
-     "news_title": "Cole Kmet Injury: Former Notre Dame Star Gets Scary Outlook After Knee Injury",
+     "rank": 7,
+     "title": "flu shots",
+     "traffic": 1000,
+     "traffic_raw": "1000+",
+     "news_title": "Kansas City offering free flu shots, health screenings at 18th and Vine this weekend",
+     "news_url": "https://www.kmbc.com/article/kansas-city-free-health-clinics-flu-shots-18th-vine/74223553",
+     "url": "https://www.kmbc.com/article/kansas-city-free-health-clinics-flu-shots-18th-vine/74223553",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_-armi2_XfhS44HpQqMjgka3dQ-p3pFyxEBRSxVp-obMLpBAmocZt-I8nRo"
+    },
+    {
+     "rank": 8,
+     "title": "cole kmet injury",
+     "traffic": 500,
+     "traffic_raw": "500+",
+     "news_title": "Cole Kmet Injury: Former Notre Dame TE Gets Scary Outlook After Knee Injury",
      "news_url": "https://heavy.com/sports/college-football/notre-dame-fighting-irish/cole-kmet-injury-former-notre-dame-star-gets-scary-outlook-after-knee-injury/",
      "url": "https://heavy.com/sports/college-football/notre-dame-fighting-irish/cole-kmet-injury-former-notre-dame-star-gets-scary-outlook-after-knee-injury/",
      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQeD0PPTJtSv9swpjCJoDGCOfHOhcXdoZGhsxMFUQBa0r2HRKEIIfCRNWa_CFY"
     },
     {
-     "rank": 4,
+     "rank": 9,
      "title": "bruce blakeman",
      "traffic": 2000,
      "traffic_raw": "2000+",
@@ -656,64 +1764,14 @@
      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVcsx3qBxq1Pw6Zs7yUb1yzEEvvWO8_2Fnr21ZGK_EhY0TiNsN_vbOmXvWCo"
     },
     {
-     "rank": 5,
-     "title": "jaylin williams",
+     "rank": 10,
+     "title": "bears kicker",
      "traffic": 1000,
      "traffic_raw": "1000+",
-     "news_title": "Lakers Urged To Trade For Feisty NBA Champ Center As Kessler Backup",
-     "news_url": "https://heavy.com/sports/nba/los-angeles-lakers/urged-trade-jaylin-williams-kessler-backup/",
-     "url": "https://heavy.com/sports/nba/los-angeles-lakers/urged-trade-jaylin-williams-kessler-backup/",
-     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-erJ4kQsVCe0D8QQ_H6mT_2xMMrmkRy4Xy_b078-Vt9IQXIpW_tasooAP6Gc"
-    },
-    {
-     "rank": 6,
-     "title": "brian flores",
-     "traffic": 500,
-     "traffic_raw": "500+",
-     "news_title": "Brian Flores is Forcing QBs to Embrace Blunders, a Bloodbath, or Both",
-     "news_url": "https://vikingsterritory.com/2026/news/opinion/brian-flores-blunders-blood",
-     "url": "https://vikingsterritory.com/2026/news/opinion/brian-flores-blunders-blood",
-     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8TXuB1yqnFA_q0muCjZpiBZyfDgz8qZxhceH4wBKLnSdoLetFy4Jm2cSxWL8"
-    },
-    {
-     "rank": 7,
-     "title": "josh turek",
-     "traffic": 500,
-     "traffic_raw": "500+",
-     "news_title": "Health care, housing, wages: Josh Turek outlines campaign goals at Davenport rally",
-     "news_url": "https://www.kwqc.com/2026/10/23/health-care-housing-wages-josh-turek-outlines-campaign-goals-davenport-rally/",
-     "url": "https://www.kwqc.com/2026/10/23/health-care-housing-wages-josh-turek-outlines-campaign-goals-davenport-rally/",
-     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlkzzXHbevfeDwv80cbGlAr8amsDooP7_YgbxNn-REiZJk6mjhPtq5jy8QsVo"
-    },
-    {
-     "rank": 8,
-     "title": "busy philipps",
-     "traffic": 500,
-     "traffic_raw": "500+",
-     "news_title": "‘Other Desert Cities’ Review: Julia Louis-Dreyfus’s Smashing Debut",
-     "news_url": "https://www.nytimes.com/2026/10/18/theater/other-desert-cities-review-julia-louis-dreyfus.html",
-     "url": "https://www.nytimes.com/2026/10/18/theater/other-desert-cities-review-julia-louis-dreyfus.html",
-     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnc4sS0UiiNL4HlZyZLEFSbB9lSwK1iDckvX1wAMP7Oj-0A9AiEUPr2G32GJ0"
-    },
-    {
-     "rank": 9,
-     "title": "alex cooper",
-     "traffic": 200,
-     "traffic_raw": "200+",
-     "news_title": "Alex Cooper Welcomes First Baby After Revealing Nursery Plans Inside $11 Million Los Angeles Mansion",
-     "news_url": "https://www.realtor.com/news/celebrity-real-estate/alex-cooper-matt-kaplan-welcome-baby-los-angeles-home-nursery/",
-     "url": "https://www.realtor.com/news/celebrity-real-estate/alex-cooper-matt-kaplan-welcome-baby-los-angeles-home-nursery/",
-     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRy5DAQItrpoV5PSklrjDVhWBMni0NLKgho_2cL4UzwFLwDSp-uyctCR5oK8CU"
-    },
-    {
-     "rank": 10,
-     "title": "dallas stars",
-     "traffic": 2000,
-     "traffic_raw": "2000+",
-     "news_title": "Jets at Stars projected lineups",
-     "news_url": "https://www.nhl.com/news/winnipeg-jets-dallas-stars-game-preview-october-22-2026",
-     "url": "https://www.nhl.com/news/winnipeg-jets-dallas-stars-game-preview-october-22-2026",
-     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtlZWU9UlgU_M2ivJapjJvARReyO_D7wzWSo0bLumct7Vl-s5Bjr3YJ1pESlc"
+     "news_title": "Chicago Bears all-time points leader resigns from high school coaching role",
+     "news_url": "https://www.usatoday.com/story/sports/high-school/football/2026/10/21/robbie-gould-saint-viator-football-coach-departure/92370641007/",
+     "url": "https://www.usatoday.com/story/sports/high-school/football/2026/10/21/robbie-gould-saint-viator-football-coach-departure/92370641007/",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSvSV6sMyB3Qmo3gaLNk2z-C3p-xTFweHjdNewBcHOnJxXqfNrr6xUWis7M52c"
     }
    ]
   },
@@ -1852,18 +2910,18 @@
     },
     {
      "rank": 6,
-     "title": "New Product",
-     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xc7qxl/new_product/"
-    },
-    {
-     "rank": 7,
      "title": "Scrambled egg",
      "url": "https://www.reddit.com/r/TikTokCringe/comments/1xd1aif/scrambled_egg/"
     },
     {
-     "rank": 8,
+     "rank": 7,
      "title": "Me fr",
      "url": "https://www.reddit.com/r/TikTokCringe/comments/1xcoyju/me_fr/"
+    },
+    {
+     "rank": 8,
+     "title": "Nobody calls Morpheus Larry",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xccumb/nobody_calls_morpheus_larry/"
     }
    ]
   },
@@ -1936,13 +2994,13 @@
     },
     {
      "rank": 4,
-     "title": "Jenna Ortega for the November 2026 Issue of Vogue Magazine; Photography by Szilveszter Makó",
-     "url": "https://www.reddit.com/r/popculturechat/comments/1xchf1p/jenna_ortega_for_the_november_2026_issue_of_vogue/"
+     "title": "Lindsey Graham Accused of Paying 17-Year-Old Boy and Men For Sex",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xcv5vn/lindsey_graham_accused_of_paying_17yearold_boy/"
     },
     {
      "rank": 5,
-     "title": "Lindsey Graham Accused of Paying 17-Year-Old Boy and Men For Sex",
-     "url": "https://www.reddit.com/r/popculturechat/comments/1xcv5vn/lindsey_graham_accused_of_paying_17yearold_boy/"
+     "title": "Jenna Ortega for the November 2026 Issue of Vogue Magazine; Photography by Szilveszter Makó",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xchf1p/jenna_ortega_for_the_november_2026_issue_of_vogue/"
     },
     {
      "rank": 6,
@@ -2020,13 +3078,13 @@
     },
     {
      "rank": 2,
-     "title": "I'm going to miss this place 😢.",
-     "url": "https://www.reddit.com/r/gaming/comments/1xc8cpl/im_going_to_miss_this_place/"
+     "title": "Canadian politician calls on government to help BioWare employees buy the studio and run it themselves",
+     "url": "https://www.reddit.com/r/gaming/comments/1xcx9e3/canadian_politician_calls_on_government_to_help/"
     },
     {
      "rank": 3,
-     "title": "Canadian politician calls on government to help BioWare employees buy the studio and run it themselves",
-     "url": "https://www.reddit.com/r/gaming/comments/1xcx9e3/canadian_politician_calls_on_government_to_help/"
+     "title": "I'm going to miss this place 😢.",
+     "url": "https://www.reddit.com/r/gaming/comments/1xc8cpl/im_going_to_miss_this_place/"
     },
     {
      "rank": 4,

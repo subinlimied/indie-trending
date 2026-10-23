@@ -24,7 +24,7 @@
   ],
   [
    "제외 필터",
-   "6건"
+   "4건"
   ],
   [
    "게임 교차",
@@ -32,10 +32,10 @@
   ],
   [
    "수집",
-   "2026-10-23 03:20:11 UTC"
+   "2026-10-23 03:26:33 UTC"
   ]
  ],
- "collect_line": "소스 17/17 정상 · 건너뜀 2 · KYM 13건(틱톡·인스타 6) · 새 밈 10 · Reddit 6/6 · X 10/10 · 검색 8/9 · 위키 20/17 · 제외 필터 6건",
+ "collect_line": "소스 17/19 정상 · KYM 13건(틱톡·인스타 6) · 새 밈 10 · Reddit 6/6 · X 0/0 · 검색 9/10 · 위키 20/17 · 제외 필터 4건 · 실패: X 트렌드 KR (trends24), X 트렌드 WORLD (trends24)",
  "basis_line": "KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 48시간) · Reddit top(t=day) 8개 × 6개 서브레딧 · X 트렌드 trends24.in 한국·worldwide · YouTube 인기 중 60초 이하(키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · Imgflip 인기 템플릿 100개 중 상위 30 · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · 게임 교차 = Steam·itch 스냅샷 게임 이름과 대조",
  "pick": {
   "kind": "newsfeed",
@@ -561,18 +561,18 @@
     },
     {
      "rank": 6,
-     "title": "New Product",
-     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xc7qxl/new_product/"
-    },
-    {
-     "rank": 7,
      "title": "Scrambled egg",
      "url": "https://www.reddit.com/r/TikTokCringe/comments/1xd1aif/scrambled_egg/"
     },
     {
-     "rank": 8,
+     "rank": 7,
      "title": "Me fr",
      "url": "https://www.reddit.com/r/TikTokCringe/comments/1xcoyju/me_fr/"
+    },
+    {
+     "rank": 8,
+     "title": "Nobody calls Morpheus Larry",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xccumb/nobody_calls_morpheus_larry/"
     }
    ]
   },
@@ -645,13 +645,13 @@
     },
     {
      "rank": 4,
-     "title": "Jenna Ortega for the November 2026 Issue of Vogue Magazine; Photography by Szilveszter Makó",
-     "url": "https://www.reddit.com/r/popculturechat/comments/1xchf1p/jenna_ortega_for_the_november_2026_issue_of_vogue/"
+     "title": "Lindsey Graham Accused of Paying 17-Year-Old Boy and Men For Sex",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xcv5vn/lindsey_graham_accused_of_paying_17yearold_boy/"
     },
     {
      "rank": 5,
-     "title": "Lindsey Graham Accused of Paying 17-Year-Old Boy and Men For Sex",
-     "url": "https://www.reddit.com/r/popculturechat/comments/1xcv5vn/lindsey_graham_accused_of_paying_17yearold_boy/"
+     "title": "Jenna Ortega for the November 2026 Issue of Vogue Magazine; Photography by Szilveszter Makó",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xchf1p/jenna_ortega_for_the_november_2026_issue_of_vogue/"
     },
     {
      "rank": 6,
@@ -729,13 +729,13 @@
     },
     {
      "rank": 2,
-     "title": "I'm going to miss this place 😢.",
-     "url": "https://www.reddit.com/r/gaming/comments/1xc8cpl/im_going_to_miss_this_place/"
+     "title": "Canadian politician calls on government to help BioWare employees buy the studio and run it themselves",
+     "url": "https://www.reddit.com/r/gaming/comments/1xcx9e3/canadian_politician_calls_on_government_to_help/"
     },
     {
      "rank": 3,
-     "title": "Canadian politician calls on government to help BioWare employees buy the studio and run it themselves",
-     "url": "https://www.reddit.com/r/gaming/comments/1xcx9e3/canadian_politician_calls_on_government_to_help/"
+     "title": "I'm going to miss this place 😢.",
+     "url": "https://www.reddit.com/r/gaming/comments/1xc8cpl/im_going_to_miss_this_place/"
     },
     {
      "rank": 4,
@@ -813,171 +813,107 @@
   }
  ],
  "x": {
-  "KR": [
-   {
-    "rank": 1,
-    "title": "#우지_개인고소_공지올려",
-    "url": "https://twitter.com/search?q=%23%EC%9A%B0%EC%A7%80_%EA%B0%9C%EC%9D%B8%EA%B3%A0%EC%86%8C_%EA%B3%B5%EC%A7%80%EC%98%AC%EB%A0%A4",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 2,
-    "title": "#플레디스_우지_보호해",
-    "url": "https://twitter.com/search?q=%23%ED%94%8C%EB%A0%88%EB%94%94%EC%8A%A4_%EC%9A%B0%EC%A7%80_%EB%B3%B4%ED%98%B8%ED%95%B4",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 3,
-    "title": "랏코 품절",
-    "url": "https://twitter.com/search?q=%EB%9E%8F%EC%BD%94%20%ED%92%88%EC%A0%88",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 4,
-    "title": "ANA 우사기",
-    "url": "https://twitter.com/search?q=ANA%20%EC%9A%B0%EC%82%AC%EA%B8%B0",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 5,
-    "title": "첫공 무인",
-    "url": "https://twitter.com/search?q=%EC%B2%AB%EA%B3%B5%20%EB%AC%B4%EC%9D%B8",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 6,
-    "title": "ANA 콜라보",
-    "url": "https://twitter.com/search?q=ANA%20%EC%BD%9C%EB%9D%BC%EB%B3%B4",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 7,
-    "title": "#Dear_MyDaRIWOO",
-    "url": "https://twitter.com/search?q=%23Dear_MyDaRIWOO",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 8,
-    "title": "#닝닝의생일_민족의영광",
-    "url": "https://twitter.com/search?q=%23%EB%8B%9D%EB%8B%9D%EC%9D%98%EC%83%9D%EC%9D%BC_%EB%AF%BC%EC%A1%B1%EC%9D%98%EC%98%81%EA%B4%91",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 9,
-    "title": "ANA 랏코",
-    "url": "https://twitter.com/search?q=ANA%20%EB%9E%8F%EC%BD%94",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 10,
-    "title": "카와 ANA",
-    "url": "https://twitter.com/search?q=%EC%B9%B4%EC%99%80%20ANA",
-    "count": null,
-    "days": 1
-   }
-  ],
-  "KR_at": "2026-10-23T02:51:10Z",
-  "WORLD": [
-   {
-    "rank": 1,
-    "title": "Flamengo",
-    "url": "https://twitter.com/search?q=Flamengo",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 2,
-    "title": "Muslera",
-    "url": "https://twitter.com/search?q=Muslera",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 3,
-    "title": "松井秀喜",
-    "url": "https://twitter.com/search?q=%E6%9D%BE%E4%BA%95%E7%A7%80%E5%96%9C",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 4,
-    "title": "#LulaVaiVirar",
-    "url": "https://twitter.com/search?q=%23LulaVaiVirar",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 5,
-    "title": "Cavs",
-    "url": "https://twitter.com/search?q=Cavs",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 6,
-    "title": "Estudiantes",
-    "url": "https://twitter.com/search?q=Estudiantes",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 7,
-    "title": "松井監督",
-    "url": "https://twitter.com/search?q=%E6%9D%BE%E4%BA%95%E7%9B%A3%E7%9D%A3",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 8,
-    "title": "Rossi",
-    "url": "https://twitter.com/search?q=Rossi",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 9,
-    "title": "Paquetá",
-    "url": "https://twitter.com/search?q=Paquet%C3%A1",
-    "count": null,
-    "days": 1
-   },
-   {
-    "rank": 10,
-    "title": "巨人新監督",
-    "url": "https://twitter.com/search?q=%E5%B7%A8%E4%BA%BA%E6%96%B0%E7%9B%A3%E7%9D%A3",
-    "count": null,
-    "days": 1
-   }
-  ],
-  "WORLD_at": "2026-10-23T02:54:40Z"
+  "KR": [],
+  "KR_at": "",
+  "WORLD": [],
+  "WORLD_at": ""
  },
  "youtube": {
   "KR": {
-   "status": "skip",
-   "error": "YOUTUBE_API_KEY 없음",
-   "items": [],
-   "total": 0
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 2,
+     "id": "JCdkBe3d2b8",
+     "title": "RESCENE [PULSE] Concept Trailer",
+     "channel": "RESCENE",
+     "views": 635405,
+     "likes": 30031,
+     "duration": 41,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/JCdkBe3d2b8",
+     "thumb": "https://i.ytimg.com/vi/JCdkBe3d2b8/mqdefault.jpg",
+     "published": "2026-10-22T09:00:00Z"
+    },
+    {
+     "rank": 8,
+     "id": "-vyI4TqIqHY",
+     "title": "「침향 시즌 2」1차 티저 공식 예고편 | Official Teaser Trailer 1 | AI BL [CHIMHYANG: Scent of the Needle] Season 2",
+     "channel": "Late Blue Night",
+     "views": 43137,
+     "likes": 1561,
+     "duration": 31,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/-vyI4TqIqHY",
+     "thumb": "https://i.ytimg.com/vi/-vyI4TqIqHY/mqdefault.jpg",
+     "published": "2026-10-22T15:24:00Z"
+    }
+   ],
+   "total": 50
   },
   "US": {
-   "status": "skip",
-   "error": "YOUTUBE_API_KEY 없음",
-   "items": [],
-   "total": 0
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 38,
+     "id": "cEVsq0JdE6c",
+     "title": "FNAF part 2 + Anime BATTLE PASS Official Trailer Reveal - Fortnite",
+     "channel": "SinX6",
+     "views": 66310,
+     "likes": 1241,
+     "duration": 31,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/cEVsq0JdE6c",
+     "thumb": "https://i.ytimg.com/vi/cEVsq0JdE6c/mqdefault.jpg",
+     "published": "2026-10-22T14:29:49Z"
+    },
+    {
+     "rank": 50,
+     "id": "b9xxKtMXETQ",
+     "title": "NEW Season Official cinematic Trailer - Fortnite",
+     "channel": "shadowX6",
+     "views": 59085,
+     "likes": 1275,
+     "duration": 39,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/b9xxKtMXETQ",
+     "thumb": "https://i.ytimg.com/vi/b9xxKtMXETQ/mqdefault.jpg",
+     "published": "2026-10-22T17:58:57Z"
+    },
+    {
+     "rank": 35,
+     "id": "XYKMAoGKN2Y",
+     "title": "Palia | Fall's Faire: Hearty Homecoming Trailer",
+     "channel": "Palia",
+     "views": 13404,
+     "likes": 495,
+     "duration": 30,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/XYKMAoGKN2Y",
+     "thumb": "https://i.ytimg.com/vi/XYKMAoGKN2Y/mqdefault.jpg",
+     "published": "2026-10-22T16:59:30Z"
+    }
+   ],
+   "total": 50
   }
  },
  "trends": {
   "KR": [
    {
     "rank": 1,
+    "title": "네이버지도",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "한국도로공사, 민·관 교통안전 데이터 공유 협의체 만든다",
+    "news_url": "https://www.electimes.com/news/articleView.html?idxno=373794",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=373794",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdNGeMv9rA3N8wXyO8TM2SM35Ooxy37hdo8Z0aci_j1KLGK9-AjRzN0q7TAk8",
+    "days": 1
+   },
+   {
+    "rank": 2,
     "title": "김혜선",
     "traffic": 500,
     "traffic_raw": "500+",
@@ -988,7 +924,7 @@
     "days": 1
    },
    {
-    "rank": 2,
+    "rank": 3,
     "title": "이혜영",
     "traffic": 200,
     "traffic_raw": "200+",
@@ -999,7 +935,7 @@
     "days": 1
    },
    {
-    "rank": 3,
+    "rank": 4,
     "title": "압구정",
     "traffic": 100,
     "traffic_raw": "100+",
@@ -1010,7 +946,7 @@
     "days": 1
    },
    {
-    "rank": 4,
+    "rank": 5,
     "title": "메타",
     "traffic": 200,
     "traffic_raw": "200+",
@@ -1021,10 +957,10 @@
     "days": 1
    },
    {
-    "rank": 5,
+    "rank": 6,
     "title": "인천지하철",
-    "traffic": 100,
-    "traffic_raw": "100+",
+    "traffic": 200,
+    "traffic_raw": "200+",
     "news_title": "“65살 이상 지하철 무료 승차, 연 6506억 편익…재정 부담은 가중”",
     "news_url": "https://www.hani.co.kr/arti/area/area_general/1283716.html",
     "url": "https://www.hani.co.kr/arti/area/area_general/1283716.html",
@@ -1032,18 +968,18 @@
     "days": 1
    },
    {
-    "rank": 6,
+    "rank": 7,
     "title": "르브론 제임스",
     "traffic": 200,
     "traffic_raw": "200+",
-    "news_title": "트럼프, 르브론 제임스 맹비난… \"국가 연주 중 美 모독, 완전한 수치\"",
-    "news_url": "https://www.chosun.com/international/us/2026/10/23/QLISGX7CW5CKROVQAQPM3GTOWE/",
-    "url": "https://www.chosun.com/international/us/2026/10/23/QLISGX7CW5CKROVQAQPM3GTOWE/",
-    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9_35zT-Zvn0-t7LCug9ARgLfM8UrAc4Wbm2JvyPKQsBOGcl6mNidDWKZDdB4",
+    "news_title": "“국가 연주중 몸 풀다니”…트럼프, 르브론 제임스에 사과 요구",
+    "news_url": "https://www.donga.com/news/Inter/article/all/20261023/134894139/2",
+    "url": "https://www.donga.com/news/Inter/article/all/20261023/134894139/2",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT4dGLoP_BBQ4DWkYpqKwDIyyzGAX8J6k4m48laD83tV85YKHes2Yakxr7-f0o",
     "days": 1
    },
    {
-    "rank": 7,
+    "rank": 8,
     "title": "저스틴 비버",
     "traffic": 500,
     "traffic_raw": "500+",
@@ -1054,7 +990,7 @@
     "days": 1
    },
    {
-    "rank": 8,
+    "rank": 9,
     "title": "카카오맵",
     "traffic": 1000,
     "traffic_raw": "1000+",
@@ -1068,17 +1004,61 @@
   "US": [
    {
     "rank": 1,
-    "title": "flu shots",
-    "traffic": 2000,
-    "traffic_raw": "2000+",
-    "news_title": "A mutated virus is driving the US into an early flu season, especially on the West Coast",
-    "news_url": "https://www.cnn.com/2026/10/22/health/flu-2026-mutation",
-    "url": "https://www.cnn.com/2026/10/22/health/flu-2026-mutation",
-    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKwvr4_fD3SVdOOoLzG6CYVm6Ee2-UdgSxdSrpILyVPlv6utiZwFQ7bMkhbnc",
+    "title": "connor mcdavid",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "McDavid explodes out of the gate to lead Oilers to historic start",
+    "news_url": "https://www.theglobeandmail.com/sports/hockey/article-connor-mcdavid-edmonton-oilers-nhl/",
+    "url": "https://www.theglobeandmail.com/sports/hockey/article-connor-mcdavid-edmonton-oilers-nhl/",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRFXOCd80kRGXKshp-Gvvmj9OkCEJX8CWtzcNKcMmgFuQImyD18RZB8dRWgC3M",
     "days": 1
    },
    {
     "rank": 2,
+    "title": "el salvador haiti",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "El Salvador sends troops to Haiti to rescue four service members",
+    "news_url": "https://www.cnn.com/2026/10/22/americas/el-salvador-troops-haiti-latam-intl",
+    "url": "https://www.cnn.com/2026/10/22/americas/el-salvador-troops-haiti-latam-intl",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9Z6tpZOh3JlM7F78ADf0rxS5omPh6sFDvp-iUQB106Wnr4xQidybCqLJIWa8",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "jake moody",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "Ravens Sign Jake Moody to Practice Squad as Competition for Tyler Loop",
+    "news_url": "https://www.baltimoreravens.com/news/ravens-sign-jake-moody-to-practice-squad-competition-with-tyler-loop",
+    "url": "https://www.baltimoreravens.com/news/ravens-sign-jake-moody-to-practice-squad-competition-with-tyler-loop",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUpktZPysGQ3EWT9Gs4zEnf9W8koKAvk45Y427g9RNExPgVzMnD25DnJJYPY",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "michael lewis",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "Watch CNBC’s full discussion with the ‘Squawk on the Street’ crew",
+    "news_url": "https://www.cnbc.com/video/2026/10/09/watch-cnbcas-full-discussion-with-the-asquawk-on-the-streeta-crew.html",
+    "url": "https://www.cnbc.com/video/2026/10/09/watch-cnbcas-full-discussion-with-the-asquawk-on-the-streeta-crew.html",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-UcRirM4gsp3jc52zj6ozgD7-fvi6bFjO6Eju4sCjR1s5AvueuvecD5swPk",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "san juan county floods",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "Evacuations issued for areas near Animas and San Juan Rivers in San Juan County",
+    "news_url": "https://www.koat.com/article/san-juan-county-river-evacuation-new-mexico/74223224",
+    "url": "https://www.koat.com/article/san-juan-county-river-evacuation-new-mexico/74223224",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ6NWNNj8IrBwGZqt4eSdyT2ltPiytB04m71F1u7676g2k6kDbrxlqnz2mnRIM",
+    "days": 1
+   },
+   {
+    "rank": 6,
     "title": "vaccinations",
     "traffic": 1000,
     "traffic_raw": "1000+",
@@ -1089,18 +1069,29 @@
     "days": 1
    },
    {
-    "rank": 3,
-    "title": "kmet",
-    "traffic": 200,
-    "traffic_raw": "200+",
-    "news_title": "Cole Kmet Injury: Former Notre Dame Star Gets Scary Outlook After Knee Injury",
+    "rank": 7,
+    "title": "flu shots",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "Kansas City offering free flu shots, health screenings at 18th and Vine this weekend",
+    "news_url": "https://www.kmbc.com/article/kansas-city-free-health-clinics-flu-shots-18th-vine/74223553",
+    "url": "https://www.kmbc.com/article/kansas-city-free-health-clinics-flu-shots-18th-vine/74223553",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv_-armi2_XfhS44HpQqMjgka3dQ-p3pFyxEBRSxVp-obMLpBAmocZt-I8nRo",
+    "days": 1
+   },
+   {
+    "rank": 8,
+    "title": "cole kmet injury",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Cole Kmet Injury: Former Notre Dame TE Gets Scary Outlook After Knee Injury",
     "news_url": "https://heavy.com/sports/college-football/notre-dame-fighting-irish/cole-kmet-injury-former-notre-dame-star-gets-scary-outlook-after-knee-injury/",
     "url": "https://heavy.com/sports/college-football/notre-dame-fighting-irish/cole-kmet-injury-former-notre-dame-star-gets-scary-outlook-after-knee-injury/",
     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQeD0PPTJtSv9swpjCJoDGCOfHOhcXdoZGhsxMFUQBa0r2HRKEIIfCRNWa_CFY",
     "days": 1
    },
    {
-    "rank": 4,
+    "rank": 9,
     "title": "bruce blakeman",
     "traffic": 2000,
     "traffic_raw": "2000+",
@@ -1111,58 +1102,14 @@
     "days": 1
    },
    {
-    "rank": 5,
-    "title": "brian flores",
-    "traffic": 500,
-    "traffic_raw": "500+",
-    "news_title": "Brian Flores is Forcing QBs to Embrace Blunders, a Bloodbath, or Both",
-    "news_url": "https://vikingsterritory.com/2026/news/opinion/brian-flores-blunders-blood",
-    "url": "https://vikingsterritory.com/2026/news/opinion/brian-flores-blunders-blood",
-    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8TXuB1yqnFA_q0muCjZpiBZyfDgz8qZxhceH4wBKLnSdoLetFy4Jm2cSxWL8",
-    "days": 1
-   },
-   {
-    "rank": 6,
-    "title": "josh turek",
-    "traffic": 500,
-    "traffic_raw": "500+",
-    "news_title": "Health care, housing, wages: Josh Turek outlines campaign goals at Davenport rally",
-    "news_url": "https://www.kwqc.com/2026/10/23/health-care-housing-wages-josh-turek-outlines-campaign-goals-davenport-rally/",
-    "url": "https://www.kwqc.com/2026/10/23/health-care-housing-wages-josh-turek-outlines-campaign-goals-davenport-rally/",
-    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlkzzXHbevfeDwv80cbGlAr8amsDooP7_YgbxNn-REiZJk6mjhPtq5jy8QsVo",
-    "days": 1
-   },
-   {
-    "rank": 7,
-    "title": "busy philipps",
-    "traffic": 500,
-    "traffic_raw": "500+",
-    "news_title": "‘Other Desert Cities’ Review: Julia Louis-Dreyfus’s Smashing Debut",
-    "news_url": "https://www.nytimes.com/2026/10/18/theater/other-desert-cities-review-julia-louis-dreyfus.html",
-    "url": "https://www.nytimes.com/2026/10/18/theater/other-desert-cities-review-julia-louis-dreyfus.html",
-    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQnc4sS0UiiNL4HlZyZLEFSbB9lSwK1iDckvX1wAMP7Oj-0A9AiEUPr2G32GJ0",
-    "days": 1
-   },
-   {
-    "rank": 8,
-    "title": "alex cooper",
-    "traffic": 200,
-    "traffic_raw": "200+",
-    "news_title": "Alex Cooper Welcomes First Baby After Revealing Nursery Plans Inside $11 Million Los Angeles Mansion",
-    "news_url": "https://www.realtor.com/news/celebrity-real-estate/alex-cooper-matt-kaplan-welcome-baby-los-angeles-home-nursery/",
-    "url": "https://www.realtor.com/news/celebrity-real-estate/alex-cooper-matt-kaplan-welcome-baby-los-angeles-home-nursery/",
-    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRy5DAQItrpoV5PSklrjDVhWBMni0NLKgho_2cL4UzwFLwDSp-uyctCR5oK8CU",
-    "days": 1
-   },
-   {
-    "rank": 9,
-    "title": "dallas stars",
-    "traffic": 2000,
-    "traffic_raw": "2000+",
-    "news_title": "Jets at Stars projected lineups",
-    "news_url": "https://www.nhl.com/news/winnipeg-jets-dallas-stars-game-preview-october-22-2026",
-    "url": "https://www.nhl.com/news/winnipeg-jets-dallas-stars-game-preview-october-22-2026",
-    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtlZWU9UlgU_M2ivJapjJvARReyO_D7wzWSo0bLumct7Vl-s5Bjr3YJ1pESlc",
+    "rank": 10,
+    "title": "bears kicker",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "Chicago Bears all-time points leader resigns from high school coaching role",
+    "news_url": "https://www.usatoday.com/story/sports/high-school/football/2026/10/21/robbie-gould-saint-viator-football-coach-departure/92370641007/",
+    "url": "https://www.usatoday.com/story/sports/high-school/football/2026/10/21/robbie-gould-saint-viator-football-coach-departure/92370641007/",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSvSV6sMyB3Qmo3gaLNk2z-C3p-xTFweHjdNewBcHOnJxXqfNrr6xUWis7M52c",
     "days": 1
    }
   ]
@@ -1877,8 +1824,8 @@
  "filtered": {
   "x_kr": 0,
   "x_world": 0,
-  "trends_kr": 2,
-  "trends_us": 1,
+  "trends_kr": 1,
+  "trends_us": 0,
   "wiki_en": 0,
   "wiki_ko": 3
  },
@@ -1918,33 +1865,33 @@
   {
    "key": "x_kr",
    "label": "X 트렌드 KR (trends24)",
-   "status": "ok",
-   "count": 20,
-   "error": "",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 403: Forbidden",
    "filtered": 0
   },
   {
    "key": "x_world",
    "label": "X 트렌드 WORLD (trends24)",
-   "status": "ok",
-   "count": 20,
-   "error": "",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 403: Forbidden",
    "filtered": 0
   },
   {
    "key": "youtube_kr",
    "label": "YouTube 인기 KR",
-   "status": "skip",
-   "count": 0,
-   "error": "YOUTUBE_API_KEY 없음",
+   "status": "ok",
+   "count": 50,
+   "error": "",
    "filtered": 0
   },
   {
    "key": "youtube_us",
    "label": "YouTube 인기 US",
-   "status": "skip",
-   "count": 0,
-   "error": "YOUTUBE_API_KEY 없음",
+   "status": "ok",
+   "count": 50,
+   "error": "",
    "filtered": 0
   },
   {
@@ -1953,7 +1900,7 @@
    "status": "ok",
    "count": 10,
    "error": "",
-   "filtered": 2
+   "filtered": 1
   },
   {
    "key": "trends_us",
@@ -1961,7 +1908,7 @@
    "status": "ok",
    "count": 10,
    "error": "",
-   "filtered": 1
+   "filtered": 0
   },
   {
    "key": "wiki_en",
