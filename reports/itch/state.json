@@ -1,9 +1,9 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 2,
-  "date": "2026-10-21",
-  "since": "2026-10-20"
+  "n": 1,
+  "date": "2026-10-23",
+  "since": "2026-10-23"
  },
  "tags:Idle": {
   "name": "Idle",
@@ -19,8 +19,8 @@
  },
  "tags:No generative AI was used": {
   "name": "No generative AI was used",
-  "n": 1,
-  "date": "2026-10-22",
+  "n": 2,
+  "date": "2026-10-23",
   "since": "2026-10-22"
  },
  "tags:Clicker": {
@@ -43,14 +43,14 @@
  },
  "tags:Pixel Art": {
   "name": "Pixel Art",
-  "n": 1,
-  "date": "2026-10-22",
+  "n": 2,
+  "date": "2026-10-23",
   "since": "2026-10-22"
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 3,
-  "date": "2026-10-22",
+  "n": 4,
+  "date": "2026-10-23",
   "since": "2026-10-20"
  },
  "genre:Action": {
@@ -61,32 +61,32 @@
  },
  "genre:Adventure": {
   "name": "Adventure",
-  "n": 1,
-  "date": "2026-10-22",
+  "n": 2,
+  "date": "2026-10-23",
   "since": "2026-10-22"
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 3,
-  "date": "2026-10-22",
+  "n": 4,
+  "date": "2026-10-23",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
   "name": "Strategy",
-  "n": 3,
-  "date": "2026-10-22",
+  "n": 4,
+  "date": "2026-10-23",
   "since": "2026-10-20"
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 3,
-  "date": "2026-10-22",
+  "n": 4,
+  "date": "2026-10-23",
   "since": "2026-10-20"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 3,
-  "date": "2026-10-22",
+  "n": 4,
+  "date": "2026-10-23",
   "since": "2026-10-20"
  },
  "made_with:Unreal Engine": {
@@ -96,10 +96,10 @@
   "since": "2026-10-20"
  },
  "pick": {
-  "name": "Dead Water (Playdate)",
+  "name": "Abattlacus",
   "n": 1,
-  "date": "2026-10-22",
-  "since": "2026-10-22"
+  "date": "2026-10-23",
+  "since": "2026-10-23"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
@@ -133,20 +133,20 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 2,
-  "date": "2026-10-22",
+  "n": 3,
+  "date": "2026-10-23",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 1,
-  "date": "2026-10-22",
+  "n": 2,
+  "date": "2026-10-23",
   "since": "2026-10-22"
  },
  "tags:3D": {
   "name": "3D",
-  "n": 1,
-  "date": "2026-10-22",
+  "n": 2,
+  "date": "2026-10-23",
   "since": "2026-10-22"
  },
  "tags:First-Person": {
@@ -172,5 +172,41 @@
   "n": 1,
   "date": "2026-10-22",
   "since": "2026-10-22"
+ },
+ "tags:Indie": {
+  "name": "Indie",
+  "n": 1,
+  "date": "2026-10-23",
+  "since": "2026-10-23"
+ },
+ "tags:Retro": {
+  "name": "Retro",
+  "n": 1,
+  "date": "2026-10-23",
+  "since": "2026-10-23"
+ },
+ "tags:Psychological Horror": {
+  "name": "Psychological Horror",
+  "n": 1,
+  "date": "2026-10-23",
+  "since": "2026-10-23"
+ },
+ "genre:Role Playing": {
+  "name": "Role Playing",
+  "n": 1,
+  "date": "2026-10-23",
+  "since": "2026-10-23"
+ },
+ "made_with:PICO-8": {
+  "name": "PICO-8",
+  "n": 1,
+  "date": "2026-10-23",
+  "since": "2026-10-23"
+ },
+ "made_with:RPG Maker": {
+  "name": "RPG Maker",
+  "n": 1,
+  "date": "2026-10-23",
+  "since": "2026-10-23"
  }
 }

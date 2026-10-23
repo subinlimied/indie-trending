@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 2,
-  "date": "2026-10-22",
+  "n": 3,
+  "date": "2026-10-23",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 2,
-  "date": "2026-10-22",
+  "n": 3,
+  "date": "2026-10-23",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 2,
-  "date": "2026-10-22",
+  "n": 3,
+  "date": "2026-10-23",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 2,
-  "date": "2026-10-22",
+  "n": 3,
+  "date": "2026-10-23",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 2,
-  "date": "2026-10-22",
+  "n": 3,
+  "date": "2026-10-23",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 2,
-  "date": "2026-10-22",
+  "n": 3,
+  "date": "2026-10-23",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -50,14 +50,14 @@
  "tag:Free to Play": {
   "name": "Free to Play",
   "n": 1,
-  "date": "2026-10-21",
-  "since": "2026-10-21"
+  "date": "2026-10-23",
+  "since": "2026-10-23"
  },
  "tag:Management": {
   "name": "Management",
   "n": 1,
-  "date": "2026-10-21",
-  "since": "2026-10-21"
+  "date": "2026-10-23",
+  "since": "2026-10-23"
  },
  "tag:Action Roguelike": {
   "name": "Action Roguelike",
@@ -67,15 +67,15 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 2,
-  "date": "2026-10-22",
+  "n": 3,
+  "date": "2026-10-23",
   "since": "2026-10-21"
  },
  "pick": {
-  "name": "CloverPit",
+  "name": "Liar's Bar",
   "n": 1,
-  "date": "2026-10-22",
-  "since": "2026-10-22"
+  "date": "2026-10-23",
+  "since": "2026-10-23"
  },
  "tag:RPG": {
   "name": "RPG",
@@ -94,5 +94,23 @@
   "n": 1,
   "date": "2026-10-22",
   "since": "2026-10-22"
+ },
+ "tag:Co-op": {
+  "name": "Co-op",
+  "n": 1,
+  "date": "2026-10-23",
+  "since": "2026-10-23"
+ },
+ "tag:Online Co-Op": {
+  "name": "Online Co-Op",
+  "n": 1,
+  "date": "2026-10-23",
+  "since": "2026-10-23"
+ },
+ "tag:PvP": {
+  "name": "PvP",
+  "n": 1,
+  "date": "2026-10-23",
+  "since": "2026-10-23"
  }
 }
