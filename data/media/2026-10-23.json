@@ -1,6 +1,6 @@
 {
  "date": "2026-10-23",
- "collected_at": "2026-10-23T03:26:33Z",
+ "collected_at": "2026-10-23T03:47:09Z",
  "params": {
   "kym_hours": 48,
   "kym_confirmed_hours": 168,
@@ -17,10 +17,6 @@
    "shorts",
    "gaming",
    "IndieGaming"
-  ],
-  "x_regions": [
-   "KR",
-   "WORLD"
   ]
  },
  "sources": {
@@ -39,7 +35,9 @@
      "platforms": [
       "TikTok"
      ],
-     "status": ""
+     "status": "submission",
+     "about": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. The trend began in August 2026 and was further popularized in October 2026. Some of the most popular versions of the meme are based on photographs of childhood Halloween costumes that were cringe or problematic in hindsight.",
+     "modified": "2026-10-22T19:20:28Z"
     },
     {
      "kind": "newsfeed",
@@ -49,7 +47,8 @@
      "summary": "The 2026 PHP Vulnerability or PHP Hack refers to two vulnerabilities, referred to as CVE-2026-109618 and CVE-2026-109619, found in PHP code, that could have allowed a hacker to access a website's file system and database and force code on a website. The vulnerabilities were purportedly discovered b…",
      "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/662/cvacover.jpg",
      "platforms": [],
-     "status": ""
+     "status": "submission",
+     "modified": "2026-10-22T18:03:40Z"
     },
     {
      "kind": "newsfeed",
@@ -61,7 +60,9 @@
      "platforms": [
       "TikTok"
      ],
-     "status": ""
+     "status": "submission",
+     "about": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting videos claiming, through text-to-speech voices and on-screen captions, that the filter was code-rotted. Many of the videos feature eerie music and vibes and claim that this is the first TikTok filter to experience code rot. As a meme, the videos often exaggerate the seriousness and scariness of code ro…",
+     "modified": "2026-10-22T16:50:23Z"
     },
     {
      "kind": "newsfeed",
@@ -71,7 +72,9 @@
      "summary": "Meximutt, also known as O Algo or Mateo, is a meme character derived from the Soyjak family of Wojak memes that caricatures Mexicans and Hispanic people through exaggerated facial features and stereotypical imagery. The meme is modeled after Amerimutt, a similar character used to mock Americans, an…",
      "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/656/Screenshot_2026-10-21_152120.jpg",
      "platforms": [],
-     "status": ""
+     "status": "submission",
+     "about": "Meximutt , also known as O Algo or Mateo , is a meme character derived from the Soyjak family of Wojak memes that caricature Mexicans and Hispanic people through exaggerated facial features and stereotypical imagery. The meme is modeled after Amerimutt , a similar character used to mock Americans, and incorporates the Spanish phrase, \"o algo,\" meaning \"or something,\" as a counterpart to Amerimutt's recurring catchphrase. Originally associated with imageboard culture, particularly SoyBooru, Soyjak.party and 4chan in the early to mid-2020s, the character has since spread to mainstream social me…",
+     "modified": "2026-10-22T20:49:47Z"
     }
    ]
   },
@@ -96,7 +99,9 @@
      "platforms": [
       "TikTok"
      ],
-     "status": "submission"
+     "status": "submission",
+     "about": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. The trend began in August 2026 and was further popularized in October 2026. Some of the most popular versions of the meme are based on photographs of childhood Halloween costumes that were cringe or problematic in hindsight.",
+     "modified": "2026-10-22T19:20:28Z"
     },
     {
      "kind": "submissions",
@@ -106,7 +111,8 @@
      "summary": "PHP2Shell or the 2026 PHP Vulnerability, also known as the 2026 PHP Hack, refers to two critical and widespread vulnerabilities, referred to as CVE-2026-109618 and CVE-2026-109619, found in PHP code (used by an estimated 70 percent of websites on the internet) that could allow a hacker to access a…",
      "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/662/cvacover.jpg",
      "platforms": [],
-     "status": "submission"
+     "status": "submission",
+     "modified": "2026-10-22T18:03:40Z"
     },
     {
      "kind": "submissions",
@@ -118,7 +124,9 @@
      "platforms": [
       "TikTok"
      ],
-     "status": "submission"
+     "status": "submission",
+     "about": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting videos claiming, through text-to-speech voices and on-screen captions, that the filter was code-rotted. Many of the videos feature eerie music and vibes and claim that this is the first TikTok filter to experience code rot. As a meme, the videos often exaggerate the seriousness and scariness of code ro…",
+     "modified": "2026-10-22T16:50:23Z"
     },
     {
      "kind": "submissions",
@@ -128,7 +136,9 @@
      "summary": "Ballhog or Ball Hog is a fashion aesthetic and trend denoted by wearing expensive, rare and vintage archival designer clothing that looks unimpressive or average to the untrained eye, but can be recognized as expensive to those more knowledgeable in fashion. The ballhog aesthetic was popularized by…",
      "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/657/bhogcover.jpg",
      "platforms": [],
-     "status": "submission"
+     "status": "submission",
+     "about": "Ballhog or Ball Hog is a fashion aesthetic and trend denoted by wearing expensive, rare and vintage archival designer clothing that looks unimpressive or average to the untrained eye, but can be recognized as expensive to those more knowledgeable in fashion. The ballhog aesthetic was popularized by streamer Brady Goodwin, also known as Bradygoo, a member of the Ball Hog collective, which includes rappers and streamers like BruceDropEmOff and Protect Ricky. The aesthetic became increasingly popularized online throughout 2026.",
+     "modified": "2026-10-21T21:24:03Z"
     },
     {
      "kind": "submissions",
@@ -138,7 +148,9 @@
      "summary": "Meximutt, also known as O Algo or Mateo, is a meme character derived from the Soyjak family of Wojak memes that caricature Mexicans and Hispanic people through exaggerated facial features and stereotypical imagery. The meme is modeled after Amerimutt, a similar character used to mock Americans, and…",
      "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/656/Screenshot_2026-10-21_152120.jpg",
      "platforms": [],
-     "status": "submission"
+     "status": "submission",
+     "about": "Meximutt , also known as O Algo or Mateo , is a meme character derived from the Soyjak family of Wojak memes that caricature Mexicans and Hispanic people through exaggerated facial features and stereotypical imagery. The meme is modeled after Amerimutt , a similar character used to mock Americans, and incorporates the Spanish phrase, \"o algo,\" meaning \"or something,\" as a counterpart to Amerimutt's recurring catchphrase. Originally associated with imageboard culture, particularly SoyBooru, Soyjak.party and 4chan in the early to mid-2020s, the character has since spread to mainstream social me…",
+     "modified": "2026-10-22T20:49:47Z"
     },
     {
      "kind": "submissions",
@@ -150,7 +162,9 @@
      "platforms": [
       "TikTok"
      ],
-     "status": "submission"
+     "status": "submission",
+     "about": "While They Are Out Partying or While They're Out Partying BTW is a catchphrase associated with a TikTok trend in which users display a useless skill, sometimes related to a video game, under the caption, \"While they're out partying,\" joking that they perfected this skill while everyone else was out partying. The meme trend began as early as December 2025 and was further popularized between August and October 2026 on sites including TikTok and Instagram Reels. The format is similar to the precursor meme and catchphrase While You Were Partying, I Studied the Blade from 2016.",
+     "modified": "2026-10-22T19:58:30Z"
     },
     {
      "kind": "submissions",
@@ -160,7 +174,8 @@
      "summary": "BioWare Shutdown refers to the shuttering of BioWare, the Edmonton-based video game developer known for creating franchises such as Mass Effect, Dragon Age, Baldur's Gate and Star Wars: Knights of the Old Republic. Announced in late October 2026, the closure marks the end of more than 30 years of g…",
      "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/654/Screenshot_2026-10-21_145411.jpg",
      "platforms": [],
-     "status": "submission"
+     "status": "submission",
+     "modified": "2026-10-23T03:28:39Z"
     },
     {
      "kind": "submissions",
@@ -170,7 +185,9 @@
      "summary": "Read More",
      "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/653/mario_luigi_wario_waluigi_wamario_wuigi_wawario_wawaluigi_mamario_maluigi_lumario_luluigi_by_alexpasley_dmwsq0e-pre.jpg",
      "platforms": [],
-     "status": "submission"
+     "status": "submission",
+     "about": "The Custom Mario Plumbers are made by fans since Mario, Luigi, Wario and Waluigi. plumbers have different shapes and colors. they have names like \"Ario\", Ma's and Wa's, and Luigi's. Custom Mario plumbers are Wawario, Wawaluigi, Wamario, Wuigi, Mamario, Maluigi and more. plumbers have different moustaches, hat letters and more. they can be heroes or villains. they are like Mario, Luigi, Wario and Waluigi.",
+     "modified": "2026-10-22T19:43:49Z"
     },
     {
      "kind": "submissions",
@@ -180,7 +197,9 @@
      "summary": "Hell Nah Cuh, also known as Hell Nah Cuz, refers to a viral video and audio clip in which content creator k3frmsw says, \"Hell nah cuh,\" in a high-pitched voice. The soundbite is most often known for being attached to a video of a raccoon running at someone after they tried to hit it with a broom. T…",
      "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/651/hnccover2.jpg",
      "platforms": [],
-     "status": "submission"
+     "status": "submission",
+     "about": "Hell Nah Cuh , also known as Hell Nah Cuz , refers to a viral video and audio clip in which content creator k3frmsw says, \"Hell nah cuh,\" in a high-pitched voice. The soundbite is most often known for being attached to a video of a raccoon running at someone after they tried to hit it with a broom. The video of k3frmsw was posted to YouTube on January 10th, 2014, and purportedly originated from Vine or another platform. A video that pairs the audio with the raccoon video was posted by TikToker @kymanss1 in September 2026 and went viral, inspiring memes including recreations and videos that re…",
+     "modified": "2026-10-21T18:17:56Z"
     },
     {
      "kind": "submissions",
@@ -192,7 +211,9 @@
      "platforms": [
       "TikTok"
      ],
-     "status": "submission"
+     "status": "submission",
+     "about": "Yohohoho refers to the song \"Binkusuno Sake\" by Ado , or \"Binks' Sake,\" is a track from the 2022 musical anime film One Piece Film: Red , which was released in Tokyo, Japan, on July 22nd, 2022. A remix of the song, which speeds up the \"Yohohoho\" portion of the track, was popularized on TikTok and Instagram Reels in October 2026 as a background track for funny videos. It also became the subject of lip dubs and Accuracy Reenactment videos as the \"Yo Ho Ho Ho\" meme spread online in late 2026.",
+     "modified": "2026-10-21T16:53:26Z"
     }
    ]
   },
@@ -211,6 +232,7 @@
      "modified": "2026-10-22T15:47:54Z",
      "summary": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character",
      "status": "confirmed",
+     "about": "Malfoid or Malfoid Female Draco Malfoy Art Trend , also known as Fem Malfoy or Draconia Malfoid , is a nickname for a gender-swapped version of the character Draco Malfoy from the Harry Potter series, popularized through a September 2026 fan art trend. The fan art trend was popularized on X / Twitter in September and October 2026 and typically involves drawing depictions of Draco Malfoy as a woman or teenage girl. The term \"Malfoid\" is a combination of \"Malfoy\" and \" foid ,\" a derogatory incel term for women derived from \" femoid ,\" a term meant to call women unintelligent.",
      "platforms": [
       "TikTok"
      ],
@@ -226,26 +248,13 @@
      "modified": "2026-10-22T13:45:32Z",
      "summary": "Scientists Reveal the Hi or Scientists Reveal the Secret, also known as Scientists Reveal the X, is an exploitable meme format based on an image macro of a",
      "status": "confirmed",
+     "about": "Scientists Reveal the Hi or Scientists Reveal the Secret , also known as Scientists Reveal the X , is an exploitable meme format based on an image macro of a dog on a couch standing over the caption, \"Scientists reveal the secret.\" The original meme was posted in July 2025 and was edited that day to replace the dog with an orange cat. Later, the caption was altered to change \"secret\" to \"hi.\" The meme spread over the following year and became the subject of further memes and recaption edits on sites like Instagram and TikTok in October 2026. The memes typically involve editing the photo in a…",
      "platforms": [
       "TikTok"
      ],
      "updated_only": true
     }
    ]
-  },
-  "x_kr": {
-   "label": "X 트렌드 KR (trends24)",
-   "status": "fail",
-   "error": "HTTPError: HTTP Error 403: Forbidden",
-   "count": 0,
-   "items": []
-  },
-  "x_world": {
-   "label": "X 트렌드 WORLD (trends24)",
-   "status": "fail",
-   "error": "HTTPError: HTTP Error 403: Forbidden",
-   "count": 0,
-   "items": []
   },
   "youtube_kr": {
    "label": "YouTube 인기 KR",

@@ -3,7 +3,7 @@
 
 사용:
   python3 media.py collect --date 2026-10-22 [--force] [--only wiki,reddit]   # data/media/<date>.json (소스별 상태 포함)
-  python3 media.py report  --date 2026-10-22             # reports/media/<date>.json .md .html (+ state.json)
+  python3 media.py report  --date 2026-10-22             # reports/media/<date>.json .md .html (+ state.json). ANTHROPIC_API_KEY 가 있으면 한국어 밈 설명·인사이트 추가
   python3 media.py cards   --date 2026-10-22             # reports/media/cards/<date>-N.png (Chrome 없으면 건너뜀)
   python3 media.py send    --date 2026-10-22 [--dry-run] # Discord 임베드 + 카드 PNG 전송
 
@@ -23,7 +23,7 @@ sys.path.insert(0, str(ROOT))
 from cards import find_chrome, screenshot  # noqa: E402
 from notify import (LIM_DESC, LIM_FIELD, LIM_FIELD_NAME, LIM_FOOTER, LIM_TITLE, LIM_TOTAL, MAX_FILES,  # noqa: E402
                     check_limits, clip, embed_len, post)
-from market import media_analyze, media_sources, render_media  # noqa: E402
+from market import llm, media_analyze, media_sources, render_media  # noqa: E402
 
 KST = timezone(timedelta(hours=9))
 DATA = ROOT / "data" / "media"
@@ -84,6 +84,14 @@ def cmd_report(args):
     if not (DATA / f"{args.date}.json").exists():
         sys.exit(f"[media] data/media/{args.date}.json 없음 — 먼저 collect 를 실행하세요")
     rep = media_analyze.analyze(media, args.date, ROOT / "data", ROOT / "reports")
+    if llm.available():
+        # 하루 1회: 밈 설명(한국어) 전부 + 인사이트를 한 요청으로. 실패·거절이면 설명 없이 리포트를 냅니다.
+        system, user = media_analyze.llm_request(rep)
+        result = llm.complete_json(system, user, media_analyze.LLM_SCHEMA, log=log)
+        n = media_analyze.attach_llm(rep, result)
+        log(f"[media] Claude 설명 {n}개 · 인사이트 {'있음' if rep.get('insight') else '없음'} · 토큰 input {rep['llm_usage']['input_tokens']} / output {rep['llm_usage']['output_tokens']}")
+    else:
+        log("[media] ANTHROPIC_API_KEY 없음 — 밈 설명·인사이트 건너뜀")
     REPORTS.mkdir(parents=True, exist_ok=True)
     (REPORTS / f"{args.date}.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1))
     (REPORTS / f"{args.date}.md").write_text(render_media.to_md(rep))

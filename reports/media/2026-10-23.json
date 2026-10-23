@@ -28,15 +28,15 @@
   ],
   [
    "게임 교차",
-   "1건"
+   "2건"
   ],
   [
    "수집",
-   "2026-10-23 03:26:33 UTC"
+   "2026-10-23 03:47:09 UTC"
   ]
  ],
- "collect_line": "소스 17/19 정상 · KYM 13건(틱톡·인스타 6) · 새 밈 10 · Reddit 6/6 · X 0/0 · 검색 9/10 · 위키 20/17 · 제외 필터 4건 · 실패: X 트렌드 KR (trends24), X 트렌드 WORLD (trends24)",
- "basis_line": "KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 48시간) · Reddit top(t=day) 8개 × 6개 서브레딧 · X 트렌드 trends24.in 한국·worldwide · YouTube 인기 중 60초 이하(키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · Imgflip 인기 템플릿 100개 중 상위 30 · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · 게임 교차 = Steam·itch 스냅샷 게임 이름과 대조",
+ "collect_line": "소스 17/17 정상 · KYM 13건(틱톡·인스타 6) · 새 밈 10 · Reddit 6/6 · 검색 9/10 · 위키 20/17 · 제외 필터 4건",
+ "basis_line": "KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 48시간) · Reddit top(t=day) 8개 × 6개 서브레딧 · YouTube 인기 급상승 KR·US Top 10(60초 이하는 쇼츠 표시, 키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · Imgflip 인기 템플릿 100개 중 상위 30 · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · 게임 교차 = Steam·itch 스냅샷 게임 이름과 대조",
  "pick": {
   "kind": "newsfeed",
   "title": "TikTokers Are Revealing Their Most Troubling Halloween Costumes In 'I'm So Sorry' Trend",
@@ -48,13 +48,15 @@
    "TikTok"
   ],
   "status": "submission",
+  "about": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. The trend began in August 2026 and was further popularized in October 2026. Some of the most popular versions of the meme are based on photographs of childhood Halloween costumes that were cringe or problematic in hindsight.",
+  "modified": "2026-10-22T19:20:28Z",
   "kinds": [
    "newsfeed",
    "submissions"
   ],
   "new": false,
-  "streak": 2,
-  "since": "2026-10-22",
+  "streak": 1,
+  "since": "2026-10-23",
   "reason": "KYM 최신 TikTok 항목"
  },
  "platform_counts": [
@@ -75,30 +77,13 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. The trend began in August 2026 and was further popularized in October 2026. Some of the most popular versions of the meme are based on photographs of childhood Halloween costumes that were cringe or problematic in hindsight.",
+   "modified": "2026-10-22T19:20:28Z",
    "kinds": [
     "newsfeed",
     "submissions"
    ],
    "new": false
-  },
-  {
-   "kind": "search",
-   "query": "tiktok",
-   "title": "Malfoid / Female Draco Malfoy",
-   "url": "https://knowyourmeme.com/memes/malfoid-female-draco-malfoy",
-   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/554/malfoidcover.jpg",
-   "published": "2026-09-30T15:05:54Z",
-   "modified": "2026-10-22T15:47:54Z",
-   "summary": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character",
-   "status": "confirmed",
-   "platforms": [
-    "TikTok"
-   ],
-   "updated_only": true,
-   "kinds": [
-    "search"
-   ],
-   "new": true
   },
   {
    "kind": "newsfeed",
@@ -111,30 +96,13 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting videos claiming, through text-to-speech voices and on-screen captions, that the filter was code-rotted. Many of the videos feature eerie music and vibes and claim that this is the first TikTok filter to experience code rot. As a meme, the videos often exaggerate the seriousness and scariness of code ro…",
+   "modified": "2026-10-22T16:50:23Z",
    "kinds": [
     "newsfeed",
     "submissions"
    ],
    "new": false
-  },
-  {
-   "kind": "search",
-   "query": "tiktok",
-   "title": "Scientists Reveal the Hi",
-   "url": "https://knowyourmeme.com/memes/scientists-reveal-the-hi",
-   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/623/srth.jpg",
-   "published": "2026-10-15T15:22:27Z",
-   "modified": "2026-10-22T13:45:32Z",
-   "summary": "Scientists Reveal the Hi or Scientists Reveal the Secret, also known as Scientists Reveal the X, is an exploitable meme format based on an image macro of a",
-   "status": "confirmed",
-   "platforms": [
-    "TikTok"
-   ],
-   "updated_only": true,
-   "kinds": [
-    "search"
-   ],
-   "new": true
   },
   {
    "kind": "submissions",
@@ -147,6 +115,8 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "While They Are Out Partying or While They're Out Partying BTW is a catchphrase associated with a TikTok trend in which users display a useless skill, sometimes related to a video game, under the caption, \"While they're out partying,\" joking that they perfected this skill while everyone else was out partying. The meme trend began as early as December 2025 and was further popularized between August and October 2026 on sites including TikTok and Instagram Reels. The format is similar to the precursor meme and catchphrase While You Were Partying, I Studied the Blade from 2016.",
+   "modified": "2026-10-22T19:58:30Z",
    "kinds": [
     "submissions"
    ],
@@ -163,8 +133,50 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "Yohohoho refers to the song \"Binkusuno Sake\" by Ado , or \"Binks' Sake,\" is a track from the 2022 musical anime film One Piece Film: Red , which was released in Tokyo, Japan, on July 22nd, 2022. A remix of the song, which speeds up the \"Yohohoho\" portion of the track, was popularized on TikTok and Instagram Reels in October 2026 as a background track for funny videos. It also became the subject of lip dubs and Accuracy Reenactment videos as the \"Yo Ho Ho Ho\" meme spread online in late 2026.",
+   "modified": "2026-10-21T16:53:26Z",
    "kinds": [
     "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Scientists Reveal the Hi",
+   "url": "https://knowyourmeme.com/memes/scientists-reveal-the-hi",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/623/srth.jpg",
+   "published": "2026-10-15T15:22:27Z",
+   "modified": "2026-10-22T13:45:32Z",
+   "summary": "Scientists Reveal the Hi or Scientists Reveal the Secret, also known as Scientists Reveal the X, is an exploitable meme format based on an image macro of a",
+   "status": "confirmed",
+   "about": "Scientists Reveal the Hi or Scientists Reveal the Secret , also known as Scientists Reveal the X , is an exploitable meme format based on an image macro of a dog on a couch standing over the caption, \"Scientists reveal the secret.\" The original meme was posted in July 2025 and was edited that day to replace the dog with an orange cat. Later, the caption was altered to change \"secret\" to \"hi.\" The meme spread over the following year and became the subject of further memes and recaption edits on sites like Instagram and TikTok in October 2026. The memes typically involve editing the photo in a…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Malfoid / Female Draco Malfoy",
+   "url": "https://knowyourmeme.com/memes/malfoid-female-draco-malfoy",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/554/malfoidcover.jpg",
+   "published": "2026-09-30T15:05:54Z",
+   "modified": "2026-10-22T15:47:54Z",
+   "summary": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character",
+   "status": "confirmed",
+   "about": "Malfoid or Malfoid Female Draco Malfoy Art Trend , also known as Fem Malfoy or Draconia Malfoid , is a nickname for a gender-swapped version of the character Draco Malfoy from the Harry Potter series, popularized through a September 2026 fan art trend. The fan art trend was popularized on X / Twitter in September and October 2026 and typically involves drawing depictions of Draco Malfoy as a woman or teenage girl. The term \"Malfoid\" is a combination of \"Malfoy\" and \" foid ,\" a derogatory incel term for women derived from \" femoid ,\" a term meant to call women unintelligent.",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
    ],
    "new": true
   }
@@ -181,6 +193,8 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. The trend began in August 2026 and was further popularized in October 2026. Some of the most popular versions of the meme are based on photographs of childhood Halloween costumes that were cringe or problematic in hindsight.",
+   "modified": "2026-10-22T19:20:28Z",
    "kinds": [
     "newsfeed",
     "submissions"
@@ -195,7 +209,8 @@
    "summary": "The 2026 PHP Vulnerability or PHP Hack refers to two vulnerabilities, referred to as CVE-2026-109618 and CVE-2026-109619, found in PHP code, that could have allowed a hacker to access a website's file system and database and force code on a website. The vulnerabilities were purportedly discovered b…",
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/662/cvacover.jpg",
    "platforms": [],
-   "status": "",
+   "status": "submission",
+   "modified": "2026-10-22T18:03:40Z",
    "kinds": [
     "newsfeed"
    ],
@@ -210,27 +225,9 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/662/cvacover.jpg",
    "platforms": [],
    "status": "submission",
+   "modified": "2026-10-22T18:03:40Z",
    "kinds": [
     "submissions"
-   ],
-   "new": true
-  },
-  {
-   "kind": "search",
-   "query": "tiktok",
-   "title": "Malfoid / Female Draco Malfoy",
-   "url": "https://knowyourmeme.com/memes/malfoid-female-draco-malfoy",
-   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/554/malfoidcover.jpg",
-   "published": "2026-09-30T15:05:54Z",
-   "modified": "2026-10-22T15:47:54Z",
-   "summary": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character",
-   "status": "confirmed",
-   "platforms": [
-    "TikTok"
-   ],
-   "updated_only": true,
-   "kinds": [
-    "search"
    ],
    "new": true
   },
@@ -245,30 +242,13 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting videos claiming, through text-to-speech voices and on-screen captions, that the filter was code-rotted. Many of the videos feature eerie music and vibes and claim that this is the first TikTok filter to experience code rot. As a meme, the videos often exaggerate the seriousness and scariness of code ro…",
+   "modified": "2026-10-22T16:50:23Z",
    "kinds": [
     "newsfeed",
     "submissions"
    ],
    "new": false
-  },
-  {
-   "kind": "search",
-   "query": "tiktok",
-   "title": "Scientists Reveal the Hi",
-   "url": "https://knowyourmeme.com/memes/scientists-reveal-the-hi",
-   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/623/srth.jpg",
-   "published": "2026-10-15T15:22:27Z",
-   "modified": "2026-10-22T13:45:32Z",
-   "summary": "Scientists Reveal the Hi or Scientists Reveal the Secret, also known as Scientists Reveal the X, is an exploitable meme format based on an image macro of a",
-   "status": "confirmed",
-   "platforms": [
-    "TikTok"
-   ],
-   "updated_only": true,
-   "kinds": [
-    "search"
-   ],
-   "new": true
   },
   {
    "kind": "newsfeed",
@@ -279,6 +259,8 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/656/Screenshot_2026-10-21_152120.jpg",
    "platforms": [],
    "status": "submission",
+   "about": "Meximutt , also known as O Algo or Mateo , is a meme character derived from the Soyjak family of Wojak memes that caricature Mexicans and Hispanic people through exaggerated facial features and stereotypical imagery. The meme is modeled after Amerimutt , a similar character used to mock Americans, and incorporates the Spanish phrase, \"o algo,\" meaning \"or something,\" as a counterpart to Amerimutt's recurring catchphrase. Originally associated with imageboard culture, particularly SoyBooru, Soyjak.party and 4chan in the early to mid-2020s, the character has since spread to mainstream social me…",
+   "modified": "2026-10-22T20:49:47Z",
    "kinds": [
     "newsfeed",
     "submissions"
@@ -294,6 +276,8 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/657/bhogcover.jpg",
    "platforms": [],
    "status": "submission",
+   "about": "Ballhog or Ball Hog is a fashion aesthetic and trend denoted by wearing expensive, rare and vintage archival designer clothing that looks unimpressive or average to the untrained eye, but can be recognized as expensive to those more knowledgeable in fashion. The ballhog aesthetic was popularized by streamer Brady Goodwin, also known as Bradygoo, a member of the Ball Hog collective, which includes rappers and streamers like BruceDropEmOff and Protect Ricky. The aesthetic became increasingly popularized online throughout 2026.",
+   "modified": "2026-10-21T21:24:03Z",
    "kinds": [
     "submissions"
    ],
@@ -310,6 +294,8 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "While They Are Out Partying or While They're Out Partying BTW is a catchphrase associated with a TikTok trend in which users display a useless skill, sometimes related to a video game, under the caption, \"While they're out partying,\" joking that they perfected this skill while everyone else was out partying. The meme trend began as early as December 2025 and was further popularized between August and October 2026 on sites including TikTok and Instagram Reels. The format is similar to the precursor meme and catchphrase While You Were Partying, I Studied the Blade from 2016.",
+   "modified": "2026-10-22T19:58:30Z",
    "kinds": [
     "submissions"
    ],
@@ -324,6 +310,7 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/654/Screenshot_2026-10-21_145411.jpg",
    "platforms": [],
    "status": "submission",
+   "modified": "2026-10-23T03:28:39Z",
    "kinds": [
     "submissions"
    ],
@@ -338,6 +325,8 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/653/mario_luigi_wario_waluigi_wamario_wuigi_wawario_wawaluigi_mamario_maluigi_lumario_luluigi_by_alexpasley_dmwsq0e-pre.jpg",
    "platforms": [],
    "status": "submission",
+   "about": "The Custom Mario Plumbers are made by fans since Mario, Luigi, Wario and Waluigi. plumbers have different shapes and colors. they have names like \"Ario\", Ma's and Wa's, and Luigi's. Custom Mario plumbers are Wawario, Wawaluigi, Wamario, Wuigi, Mamario, Maluigi and more. plumbers have different moustaches, hat letters and more. they can be heroes or villains. they are like Mario, Luigi, Wario and Waluigi.",
+   "modified": "2026-10-22T19:43:49Z",
    "kinds": [
     "submissions"
    ],
@@ -352,6 +341,8 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/651/hnccover2.jpg",
    "platforms": [],
    "status": "submission",
+   "about": "Hell Nah Cuh , also known as Hell Nah Cuz , refers to a viral video and audio clip in which content creator k3frmsw says, \"Hell nah cuh,\" in a high-pitched voice. The soundbite is most often known for being attached to a video of a raccoon running at someone after they tried to hit it with a broom. The video of k3frmsw was posted to YouTube on January 10th, 2014, and purportedly originated from Vine or another platform. A video that pairs the audio with the raccoon video was posted by TikToker @kymanss1 in September 2026 and went viral, inspiring memes including recreations and videos that re…",
+   "modified": "2026-10-21T18:17:56Z",
    "kinds": [
     "submissions"
    ],
@@ -368,8 +359,50 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "Yohohoho refers to the song \"Binkusuno Sake\" by Ado , or \"Binks' Sake,\" is a track from the 2022 musical anime film One Piece Film: Red , which was released in Tokyo, Japan, on July 22nd, 2022. A remix of the song, which speeds up the \"Yohohoho\" portion of the track, was popularized on TikTok and Instagram Reels in October 2026 as a background track for funny videos. It also became the subject of lip dubs and Accuracy Reenactment videos as the \"Yo Ho Ho Ho\" meme spread online in late 2026.",
+   "modified": "2026-10-21T16:53:26Z",
    "kinds": [
     "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Scientists Reveal the Hi",
+   "url": "https://knowyourmeme.com/memes/scientists-reveal-the-hi",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/623/srth.jpg",
+   "published": "2026-10-15T15:22:27Z",
+   "modified": "2026-10-22T13:45:32Z",
+   "summary": "Scientists Reveal the Hi or Scientists Reveal the Secret, also known as Scientists Reveal the X, is an exploitable meme format based on an image macro of a",
+   "status": "confirmed",
+   "about": "Scientists Reveal the Hi or Scientists Reveal the Secret , also known as Scientists Reveal the X , is an exploitable meme format based on an image macro of a dog on a couch standing over the caption, \"Scientists reveal the secret.\" The original meme was posted in July 2025 and was edited that day to replace the dog with an orange cat. Later, the caption was altered to change \"secret\" to \"hi.\" The meme spread over the following year and became the subject of further memes and recaption edits on sites like Instagram and TikTok in October 2026. The memes typically involve editing the photo in a…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Malfoid / Female Draco Malfoy",
+   "url": "https://knowyourmeme.com/memes/malfoid-female-draco-malfoy",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/554/malfoidcover.jpg",
+   "published": "2026-09-30T15:05:54Z",
+   "modified": "2026-10-22T15:47:54Z",
+   "summary": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character",
+   "status": "confirmed",
+   "about": "Malfoid or Malfoid Female Draco Malfoy Art Trend , also known as Fem Malfoy or Draconia Malfoid , is a nickname for a gender-swapped version of the character Draco Malfoy from the Harry Potter series, popularized through a September 2026 fan art trend. The fan art trend was popularized on X / Twitter in September and October 2026 and typically involves drawing depictions of Draco Malfoy as a woman or teenage girl. The term \"Malfoid\" is a combination of \"Malfoy\" and \" foid ,\" a derogatory incel term for women derived from \" femoid ,\" a term meant to call women unintelligent.",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
    ],
    "new": true
   }
@@ -387,6 +420,8 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. The trend began in August 2026 and was further popularized in October 2026. Some of the most popular versions of the meme are based on photographs of childhood Halloween costumes that were cringe or problematic in hindsight.",
+   "modified": "2026-10-22T19:20:28Z",
    "kinds": [
     "newsfeed",
     "submissions"
@@ -402,6 +437,7 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/662/cvacover.jpg",
    "platforms": [],
    "status": "submission",
+   "modified": "2026-10-22T18:03:40Z",
    "kinds": [
     "submissions"
    ],
@@ -418,6 +454,8 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting videos claiming, through text-to-speech voices and on-screen captions, that the filter was code-rotted. Many of the videos feature eerie music and vibes and claim that this is the first TikTok filter to experience code rot. As a meme, the videos often exaggerate the seriousness and scariness of code ro…",
+   "modified": "2026-10-22T16:50:23Z",
    "kinds": [
     "newsfeed",
     "submissions"
@@ -433,6 +471,8 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/656/Screenshot_2026-10-21_152120.jpg",
    "platforms": [],
    "status": "submission",
+   "about": "Meximutt , also known as O Algo or Mateo , is a meme character derived from the Soyjak family of Wojak memes that caricature Mexicans and Hispanic people through exaggerated facial features and stereotypical imagery. The meme is modeled after Amerimutt , a similar character used to mock Americans, and incorporates the Spanish phrase, \"o algo,\" meaning \"or something,\" as a counterpart to Amerimutt's recurring catchphrase. Originally associated with imageboard culture, particularly SoyBooru, Soyjak.party and 4chan in the early to mid-2020s, the character has since spread to mainstream social me…",
+   "modified": "2026-10-22T20:49:47Z",
    "kinds": [
     "newsfeed",
     "submissions"
@@ -448,6 +488,8 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/657/bhogcover.jpg",
    "platforms": [],
    "status": "submission",
+   "about": "Ballhog or Ball Hog is a fashion aesthetic and trend denoted by wearing expensive, rare and vintage archival designer clothing that looks unimpressive or average to the untrained eye, but can be recognized as expensive to those more knowledgeable in fashion. The ballhog aesthetic was popularized by streamer Brady Goodwin, also known as Bradygoo, a member of the Ball Hog collective, which includes rappers and streamers like BruceDropEmOff and Protect Ricky. The aesthetic became increasingly popularized online throughout 2026.",
+   "modified": "2026-10-21T21:24:03Z",
    "kinds": [
     "submissions"
    ],
@@ -464,6 +506,8 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "While They Are Out Partying or While They're Out Partying BTW is a catchphrase associated with a TikTok trend in which users display a useless skill, sometimes related to a video game, under the caption, \"While they're out partying,\" joking that they perfected this skill while everyone else was out partying. The meme trend began as early as December 2025 and was further popularized between August and October 2026 on sites including TikTok and Instagram Reels. The format is similar to the precursor meme and catchphrase While You Were Partying, I Studied the Blade from 2016.",
+   "modified": "2026-10-22T19:58:30Z",
    "kinds": [
     "submissions"
    ],
@@ -478,6 +522,7 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/654/Screenshot_2026-10-21_145411.jpg",
    "platforms": [],
    "status": "submission",
+   "modified": "2026-10-23T03:28:39Z",
    "kinds": [
     "submissions"
    ],
@@ -492,6 +537,8 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/653/mario_luigi_wario_waluigi_wamario_wuigi_wawario_wawaluigi_mamario_maluigi_lumario_luluigi_by_alexpasley_dmwsq0e-pre.jpg",
    "platforms": [],
    "status": "submission",
+   "about": "The Custom Mario Plumbers are made by fans since Mario, Luigi, Wario and Waluigi. plumbers have different shapes and colors. they have names like \"Ario\", Ma's and Wa's, and Luigi's. Custom Mario plumbers are Wawario, Wawaluigi, Wamario, Wuigi, Mamario, Maluigi and more. plumbers have different moustaches, hat letters and more. they can be heroes or villains. they are like Mario, Luigi, Wario and Waluigi.",
+   "modified": "2026-10-22T19:43:49Z",
    "kinds": [
     "submissions"
    ],
@@ -506,6 +553,8 @@
    "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/651/hnccover2.jpg",
    "platforms": [],
    "status": "submission",
+   "about": "Hell Nah Cuh , also known as Hell Nah Cuz , refers to a viral video and audio clip in which content creator k3frmsw says, \"Hell nah cuh,\" in a high-pitched voice. The soundbite is most often known for being attached to a video of a raccoon running at someone after they tried to hit it with a broom. The video of k3frmsw was posted to YouTube on January 10th, 2014, and purportedly originated from Vine or another platform. A video that pairs the audio with the raccoon video was posted by TikToker @kymanss1 in September 2026 and went viral, inspiring memes including recreations and videos that re…",
+   "modified": "2026-10-21T18:17:56Z",
    "kinds": [
     "submissions"
    ],
@@ -522,6 +571,8 @@
     "TikTok"
    ],
    "status": "submission",
+   "about": "Yohohoho refers to the song \"Binkusuno Sake\" by Ado , or \"Binks' Sake,\" is a track from the 2022 musical anime film One Piece Film: Red , which was released in Tokyo, Japan, on July 22nd, 2022. A remix of the song, which speeds up the \"Yohohoho\" portion of the track, was popularized on TikTok and Instagram Reels in October 2026 as a background track for funny videos. It also became the subject of lip dubs and Accuracy Reenactment videos as the \"Yo Ho Ho Ho\" meme spread online in late 2026.",
+   "modified": "2026-10-21T16:53:26Z",
    "kinds": [
     "submissions"
    ],
@@ -812,17 +863,24 @@
    ]
   }
  ],
- "x": {
-  "KR": [],
-  "KR_at": "",
-  "WORLD": [],
-  "WORLD_at": ""
- },
  "youtube": {
   "KR": {
    "status": "ok",
    "error": "",
    "items": [
+    {
+     "rank": 1,
+     "id": "bB8rDZPNjyI",
+     "title": "삐그덕 (seesaw)",
+     "channel": "Crush - Topic",
+     "views": 413490,
+     "likes": 8745,
+     "duration": 181,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=bB8rDZPNjyI",
+     "thumb": "https://i.ytimg.com/vi/bB8rDZPNjyI/mqdefault.jpg",
+     "published": "2026-10-21T09:03:29Z"
+    },
     {
      "rank": 2,
      "id": "JCdkBe3d2b8",
@@ -837,6 +895,71 @@
      "published": "2026-10-22T09:00:00Z"
     },
     {
+     "rank": 3,
+     "id": "n_UsDbwWcvQ",
+     "title": "마술 하나 보여줄까",
+     "channel": "랄로",
+     "views": 806068,
+     "likes": 4552,
+     "duration": 2224,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=n_UsDbwWcvQ",
+     "thumb": "https://i.ytimg.com/vi/n_UsDbwWcvQ/mqdefault.jpg",
+     "published": "2026-10-22T10:56:02Z"
+    },
+    {
+     "rank": 4,
+     "id": "rbMBhx_zT8U",
+     "title": "FIRESTARTER",
+     "channel": "K/DA - Topic",
+     "views": 442226,
+     "likes": 13053,
+     "duration": 188,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rbMBhx_zT8U",
+     "thumb": "https://i.ytimg.com/vi/rbMBhx_zT8U/mqdefault.jpg",
+     "published": "2026-10-22T01:12:01Z"
+    },
+    {
+     "rank": 5,
+     "id": "bll2jUTqHH8",
+     "title": "닥터X | 계수정 피흘리는 예고씬 분석! 장소장 사람들이 가져온 결정적 증거! [명작맛집]",
+     "channel": "명작맛집",
+     "views": 258991,
+     "likes": 790,
+     "duration": 934,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=bll2jUTqHH8",
+     "thumb": "https://i.ytimg.com/vi/bll2jUTqHH8/mqdefault.jpg",
+     "published": "2026-10-22T08:00:04Z"
+    },
+    {
+     "rank": 6,
+     "id": "s_7B7pMw-dk",
+     "title": "4년의 여정, 그 마지막 이야기 [좀비원정대 完]",
+     "channel": "동수칸TV",
+     "views": 311775,
+     "likes": 2506,
+     "duration": 7339,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=s_7B7pMw-dk",
+     "thumb": "https://i.ytimg.com/vi/s_7B7pMw-dk/mqdefault.jpg",
+     "published": "2026-10-22T09:59:36Z"
+    },
+    {
+     "rank": 7,
+     "id": "TBNG7bPabbM",
+     "title": "Full Count",
+     "channel": "BOL4 - Topic",
+     "views": 28254,
+     "likes": 344,
+     "duration": 194,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=TBNG7bPabbM",
+     "thumb": "https://i.ytimg.com/vi/TBNG7bPabbM/mqdefault.jpg",
+     "published": "2026-10-22T09:02:37Z"
+    },
+    {
      "rank": 8,
      "id": "-vyI4TqIqHY",
      "title": "「침향 시즌 2」1차 티저 공식 예고편 | Official Teaser Trailer 1 | AI BL [CHIMHYANG: Scent of the Needle] Season 2",
@@ -848,55 +971,174 @@
      "url": "https://www.youtube.com/shorts/-vyI4TqIqHY",
      "thumb": "https://i.ytimg.com/vi/-vyI4TqIqHY/mqdefault.jpg",
      "published": "2026-10-22T15:24:00Z"
+    },
+    {
+     "rank": 9,
+     "id": "yZ_4oJ2gMjE",
+     "title": "미친ㅋㅋㅋㅋ이렇게까지 커져도 돼요? ≪행성 키우기≫",
+     "channel": "혜안",
+     "views": 390971,
+     "likes": 8891,
+     "duration": 1400,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=yZ_4oJ2gMjE",
+     "thumb": "https://i.ytimg.com/vi/yZ_4oJ2gMjE/mqdefault.jpg",
+     "published": "2026-10-22T10:11:46Z"
+    },
+    {
+     "rank": 10,
+     "id": "6ruo4VVRjvo",
+     "title": "ILLIT (아일릿) '체포하겠어 (You’re Under Arrest)' | PRESS START♥︎ ENCORE",
+     "channel": "ILLIT",
+     "views": 922049,
+     "likes": 36820,
+     "duration": 216,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=6ruo4VVRjvo",
+     "thumb": "https://i.ytimg.com/vi/6ruo4VVRjvo/mqdefault.jpg",
+     "published": "2026-10-22T09:00:01Z"
     }
    ],
-   "total": 50
+   "total": 50,
+   "shorts": 2
   },
   "US": {
    "status": "ok",
    "error": "",
    "items": [
     {
-     "rank": 38,
-     "id": "cEVsq0JdE6c",
-     "title": "FNAF part 2 + Anime BATTLE PASS Official Trailer Reveal - Fortnite",
-     "channel": "SinX6",
-     "views": 66310,
-     "likes": 1241,
-     "duration": 31,
-     "shorts": true,
-     "url": "https://www.youtube.com/shorts/cEVsq0JdE6c",
-     "thumb": "https://i.ytimg.com/vi/cEVsq0JdE6c/mqdefault.jpg",
-     "published": "2026-10-22T14:29:49Z"
+     "rank": 1,
+     "id": "VOCEZQSO3t4",
+     "title": "WATCH ME",
+     "channel": "K/DA - Topic",
+     "views": 635145,
+     "likes": 20287,
+     "duration": 183,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=VOCEZQSO3t4",
+     "thumb": "https://i.ytimg.com/vi/VOCEZQSO3t4/mqdefault.jpg",
+     "published": "2026-10-22T01:12:01Z"
     },
     {
-     "rank": 50,
-     "id": "b9xxKtMXETQ",
-     "title": "NEW Season Official cinematic Trailer - Fortnite",
-     "channel": "shadowX6",
-     "views": 59085,
-     "likes": 1275,
-     "duration": 39,
-     "shorts": true,
-     "url": "https://www.youtube.com/shorts/b9xxKtMXETQ",
-     "thumb": "https://i.ytimg.com/vi/b9xxKtMXETQ/mqdefault.jpg",
-     "published": "2026-10-22T17:58:57Z"
+     "rank": 2,
+     "id": "hsRtzt_ApsU",
+     "title": "Mass Effect 5 Trailer Leak",
+     "channel": "deyoku",
+     "views": 83067,
+     "likes": 2563,
+     "duration": 138,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=hsRtzt_ApsU",
+     "thumb": "https://i.ytimg.com/vi/hsRtzt_ApsU/mqdefault.jpg",
+     "published": "2026-10-22T19:20:27Z"
     },
     {
-     "rank": 35,
-     "id": "XYKMAoGKN2Y",
-     "title": "Palia | Fall's Faire: Hearty Homecoming Trailer",
-     "channel": "Palia",
-     "views": 13404,
-     "likes": 495,
-     "duration": 30,
-     "shorts": true,
-     "url": "https://www.youtube.com/shorts/XYKMAoGKN2Y",
-     "thumb": "https://i.ytimg.com/vi/XYKMAoGKN2Y/mqdefault.jpg",
-     "published": "2026-10-22T16:59:30Z"
+     "rank": 3,
+     "id": "vQtP0JzeUMw",
+     "title": "🔴LIVE | NEW COD MULTIPLAYER | TIM X NICKMERCS X HUTCH X DRAC X NICO | I DIDN'T SLEEP | #Bungulate",
+     "channel": "TheBurntPeanut",
+     "views": 816280,
+     "likes": 10313,
+     "duration": 14407,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=vQtP0JzeUMw",
+     "thumb": "https://i.ytimg.com/vi/vQtP0JzeUMw/mqdefault.jpg",
+     "published": "2026-10-22T17:35:34Z"
+    },
+    {
+     "rank": 4,
+     "id": "Af5QTrnWrI4",
+     "title": "FattMack - Conversation [Official Music Video]",
+     "channel": "FattMack",
+     "views": 170913,
+     "likes": 12622,
+     "duration": 185,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Af5QTrnWrI4",
+     "thumb": "https://i.ytimg.com/vi/Af5QTrnWrI4/mqdefault.jpg",
+     "published": "2026-10-21T18:30:08Z"
+    },
+    {
+     "rank": 5,
+     "id": "maP_Kyy3DCA",
+     "title": "The Rings of Power - Season 3 Official Trailer | Prime Video",
+     "channel": "Prime Video",
+     "views": 3828761,
+     "likes": 21340,
+     "duration": 134,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=maP_Kyy3DCA",
+     "thumb": "https://i.ytimg.com/vi/maP_Kyy3DCA/mqdefault.jpg",
+     "published": "2026-10-21T16:30:20Z"
+    },
+    {
+     "rank": 6,
+     "id": "iHE0ChOoP8w",
+     "title": "Halloween On Goober Street…",
+     "channel": "CaseOh",
+     "views": 223020,
+     "likes": 8785,
+     "duration": 4957,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=iHE0ChOoP8w",
+     "thumb": "https://i.ytimg.com/vi/iHE0ChOoP8w/mqdefault.jpg",
+     "published": "2026-10-22T22:00:12Z"
+    },
+    {
+     "rank": 7,
+     "id": "9ov2RJJSZjE",
+     "title": "DeeBaby - Blood Sweat Tears Freestyle",
+     "channel": "Official DeeBabyTV",
+     "views": 155116,
+     "likes": 9279,
+     "duration": 193,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=9ov2RJJSZjE",
+     "thumb": "https://i.ytimg.com/vi/9ov2RJJSZjE/mqdefault.jpg",
+     "published": "2026-10-21T23:51:46Z"
+    },
+    {
+     "rank": 8,
+     "id": "IoUxPuoB1XE",
+     "title": "MEET THE VILLAINS - Calling All Villains",
+     "channel": "ZAMination",
+     "views": 423604,
+     "likes": 22998,
+     "duration": 123,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=IoUxPuoB1XE",
+     "thumb": "https://i.ytimg.com/vi/IoUxPuoB1XE/mqdefault.jpg",
+     "published": "2026-10-22T15:08:13Z"
+    },
+    {
+     "rank": 9,
+     "id": "l5Q3alU1g_c",
+     "title": "DO NOT Gamble at this Casino",
+     "channel": "SMii7Y",
+     "views": 2546511,
+     "likes": 68584,
+     "duration": 1622,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=l5Q3alU1g_c",
+     "thumb": "https://i.ytimg.com/vi/l5Q3alU1g_c/mqdefault.jpg",
+     "published": "2026-10-21T19:13:04Z"
+    },
+    {
+     "rank": 10,
+     "id": "zFLO82v3mjA",
+     "title": "Ren - The Music Business",
+     "channel": "Ren",
+     "views": 266394,
+     "likes": 24597,
+     "duration": 245,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=zFLO82v3mjA",
+     "thumb": "https://i.ytimg.com/vi/zFLO82v3mjA/mqdefault.jpg",
+     "published": "2026-10-22T18:00:08Z"
     }
    ],
-   "total": 50
+   "total": 50,
+   "shorts": 3
   }
  },
  "trends": {
@@ -1819,11 +2061,17 @@
    "platform": "steam",
    "game_url": "https://store.steampowered.com/app/3907910/",
    "url": "https://www.reddit.com/r/IndieGaming/comments/1xccik1/after_two_years_of_hard_work_passion_and_lots_of/"
+  },
+  {
+   "term": "Halloween On Goober Street…",
+   "source": "유튜브 US",
+   "game": "Halloween On Goober Street",
+   "platform": "steam",
+   "game_url": "https://store.steampowered.com/app/5279620/",
+   "url": "https://www.youtube.com/watch?v=iHE0ChOoP8w"
   }
  ],
  "filtered": {
-  "x_kr": 0,
-  "x_world": 0,
   "trends_kr": 1,
   "trends_us": 0,
   "wiki_en": 0,
@@ -1860,22 +2108,6 @@
    "status": "ok",
    "count": 2,
    "error": "",
-   "filtered": 0
-  },
-  {
-   "key": "x_kr",
-   "label": "X 트렌드 KR (trends24)",
-   "status": "fail",
-   "count": 0,
-   "error": "HTTPError: HTTP Error 403: Forbidden",
-   "filtered": 0
-  },
-  {
-   "key": "x_world",
-   "label": "X 트렌드 WORLD (trends24)",
-   "status": "fail",
-   "count": 0,
-   "error": "HTTPError: HTTP Error 403: Forbidden",
    "filtered": 0
   },
   {

@@ -48,6 +48,8 @@ jobs:
         run: python3 media.py collect --date "${{ steps.d.outputs.date }}" ${{ github.event.inputs.force == 'true' && '--force' || '' }}
 
       - name: 리포트 생성
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # 없으면 한국어 밈 설명·인사이트만 빠집니다
         run: python3 media.py report --date "${{ steps.d.outputs.date }}"
 
       - name: 한글 폰트 설치 (카드 이미지용)

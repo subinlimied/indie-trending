@@ -1,7 +1,7 @@
 """미디어·밈 트렌드 소스별 수집기 (표준 라이브러리만).
 
 소스: Know Your Meme(뉴스피드 RSS · 확정 엔트리 RSS · 제출 엔트리 RSS · 검색 "tiktok/instagram/reels" 최신순 + 엔트리 페이지)
-      · trends24.in X 트렌드(한국 · worldwide) · Reddit top(t=day) RSS · YouTube 인기 동영상(API 키가 있을 때만, 60초 이하 = 쇼츠)
+      · Reddit top(t=day) RSS · YouTube 인기 급상승(API 키가 있을 때만, 60초 이하는 "쇼츠" 표시)
       · Google 트렌드 일간 RSS(KR·US) · 위키백과 일간 조회수 상위(en·ko) · Imgflip 인기 밈 템플릿 100개.
 소스 하나가 실패해도 나머지는 계속 가고, 스냅샷의 sources[키] 에 status("ok"/"fail"/"skip") 와 error 를 남깁니다.
 모든 요청에 연락처가 든 User-Agent 를 붙이고 요청 사이 0.5초 쉽니다. 정치·경제 제외 필터는 분석 단계(media_analyze)에서 겁니다.
@@ -32,7 +32,6 @@ TRENDS_RSS = "https://trends.google.com/trending/rss"
 WIKI_TOP = "https://wikimedia.org/api/rest_v1/metrics/pageviews/top/{project}.wikipedia/all-access/{y}/{m}/{d}"
 REDDIT_RSS = "https://www.reddit.com/r/{sub}/top/.rss?t=day"
 IMGFLIP = "https://api.imgflip.com/get_memes"
-TRENDS24 = {"KR": "https://trends24.in/korea/", "WORLD": "https://trends24.in/"}
 YOUTUBE = "https://www.googleapis.com/youtube/v3/videos"
 
 # 제목·요약에서 뽑는 플랫폼 단서. (표시 이름, 정규식)
@@ -61,8 +60,12 @@ def _text(el, tag, ns=None):
     return (x.text or "").strip() if x is not None and x.text else ""
 
 
+PUNCT_RX = re.compile(r"\s+([,.;:!?)\]])")
+
+
 def plain(s, limit=None):
     s = WS_RX.sub(" ", H.unescape(TAG_RX.sub(" ", s or ""))).strip()
+    s = PUNCT_RX.sub(r"\1", s).replace("( ", "(").replace("[ ", "[")
     if limit and len(s) > limit:
         s = s[: limit - 1].rstrip() + "…"
     return s
@@ -134,10 +137,23 @@ RESULT_RX = re.compile(r'<a class="result" href="(/memes/[^"]+)">\s*<img[^>]*?al
 META_RX = re.compile(r"<meta property='([^']+)' content='([^']*)'")
 STATUS_RX = re.compile(r"<dt>\s*Status\s*</dt>\s*<dd>\s*([^<]+?)\s*</dd>", re.S)
 MODIFIED_RX = re.compile(r'"dateModified":"([^"]+)"')
+ABOUT_RX = re.compile(r'<h2 id="about">\s*About\s*</h2>(.*?)(?=<h2|<aside|</section|$)', re.S | re.I)
+P_RX = re.compile(r"<p[^>]*>(.*?)</p>", re.S)
+ABOUT_LEN = 600
+
+
+def kym_about(body, limit=ABOUT_LEN):
+    """엔트리 페이지의 About 문단(영어 원문) 앞부분. 없으면 빈 문자열."""
+    m = ABOUT_RX.search(body)
+    if not m:
+        return ""
+    paras = [plain(x) for x in P_RX.findall(m.group(1))]
+    text = " ".join(x for x in paras if x)
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
 
 
 def kym_entry(url):
-    """엔트리 페이지 → 발행·수정 시각, 요약(og:description), 이미지, 상태(Confirmed/Submission…)."""
+    """엔트리 페이지 → 발행·수정 시각, 요약(og:description), About 문단, 이미지, 상태(Confirmed/Submission…)."""
     body = _get(url, retries=2)
     if not body:
         raise RuntimeError("엔트리 페이지 없음")
@@ -147,7 +163,37 @@ def kym_entry(url):
     return {"published": _iso(_parse_iso(meta.get("article:published_time", ""))),
             "modified": _iso(_parse_iso(mod.group(1))) if mod else "",
             "summary": plain(meta.get("og:description", ""), 300), "image": meta.get("og:image", ""),
-            "status": (m.group(1).strip().lower() if m else "")}
+            "status": (m.group(1).strip().lower() if m else ""), "about": kym_about(body)}
+
+
+def enrich_kym(snap, keys=("kym_feed", "kym_submissions", "kym_confirmed", "kym_search"), max_fetch=30, log=print):
+    """KYM 항목(01·02 대상)의 엔트리 페이지를 한 번씩 열어 about(About 문단)과 빈 발행·상태·이미지를 채웁니다."""
+    cache, fetched, ok = {}, 0, 0
+    for key in keys:
+        for x in (snap["sources"].get(key) or {}).get("items") or []:
+            url = x.get("url")
+            if not url or "/memes/" not in url:
+                continue
+            if x.get("about"):          # 검색 경로에서 이미 페이지를 연 항목
+                ok += 1
+                continue
+            if url not in cache:
+                if fetched >= max_fetch:
+                    continue
+                fetched += 1
+                try:
+                    cache[url] = kym_entry(url)
+                except Exception as ex:  # noqa: BLE001
+                    cache[url] = {"error": str(ex)[:80]}
+            e = cache[url]
+            if e.get("about"):
+                x["about"] = e["about"]
+                ok += 1
+            for f in ("published", "modified", "status", "image", "summary"):
+                if not x.get(f) and e.get(f):
+                    x[f] = e[f]
+    log(f"[media] KYM About 문단: 페이지 {fetched}개 열어 {ok}개 항목에 저장")
+    return ok
 
 
 def collect_kym_search(queries, hours=48, per_query=7, max_fetch=12, known=(), now=None):
@@ -305,34 +351,7 @@ def collect_reddit(sub, top=8):
     return items
 
 
-# ---------- 6. X 트렌드 (trends24.in) ----------
-
-T24_LIST_RX = re.compile(r"<ol class=trend-card__list>(.*?)</ol>", re.S)
-T24_ITEM_RX = re.compile(r'<a href="([^"]+)" class=trend-link>(.*?)</a><span class=tweet-count data-count="([^"]*)">', re.S)
-T24_TIME_RX = re.compile(r"<h3 class=title data-timestamp=([\d.]+)>")
-
-
-def collect_trends24(region, top=20):
-    body = _get(TRENDS24[region], retries=2)
-    if not body:
-        raise RuntimeError("빈 응답")
-    m = T24_LIST_RX.search(body)
-    if not m:
-        raise RuntimeError("목록 마크업을 찾지 못함 (사이트 구조 변경?)")
-    ts = T24_TIME_RX.search(body)
-    items = []
-    for href, name, count in T24_ITEM_RX.findall(m.group(1))[:top]:
-        name = plain(name)
-        if not name:
-            continue
-        items.append({"rank": len(items) + 1, "title": name, "url": H.unescape(href), "count": int(count) if count.isdigit() else None})
-    if not items:
-        raise RuntimeError("항목 0개")
-    at = datetime.fromtimestamp(float(ts.group(1)), tz=timezone.utc) if ts else None
-    return {"at": _iso(at), "items": items}
-
-
-# ---------- 7. YouTube 인기 (키가 있을 때만) ----------
+# ---------- 6. YouTube 인기 급상승 (키가 있을 때만) ----------
 
 DUR_RX = re.compile(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?")
 
@@ -363,7 +382,7 @@ def collect_youtube(region, key, shorts_max=60):
     return items
 
 
-# ---------- 8. Imgflip ----------
+# ---------- 7. Imgflip ----------
 
 def collect_imgflip():
     data = http.get_json(IMGFLIP, headers=HEADERS, retries=3)
@@ -384,7 +403,7 @@ def _run(snap, key, label, fn, log):
     try:
         items = fn()
         extra = {}
-        if isinstance(items, dict):            # 위키 {"day"} · trends24 {"at"}
+        if isinstance(items, dict):            # 위키 {"day"}
             extra = {k: v for k, v in items.items() if k != "items"}
             items = items["items"]
         snap["sources"][key] = {"label": label, "status": "ok", "count": len(items), "items": items, **extra}
@@ -400,7 +419,7 @@ def _skip(snap, key, label, why, log):
     log(f"[media] {label}: 건너뜀 — {why}")
 
 
-GROUPS = ("kym", "trends", "wiki", "reddit", "x", "youtube", "imgflip")
+GROUPS = ("kym", "trends", "wiki", "reddit", "youtube", "imgflip")
 
 
 def collect(cfg, date, log=print, only=None, base=None):
@@ -409,7 +428,7 @@ def collect(cfg, date, log=print, only=None, base=None):
     hours = cfg.get("kym_hours", 48)
     snap = {"date": date, "collected_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "params": {"kym_hours": hours, "kym_confirmed_hours": cfg.get("kym_confirmed_hours", 168), "kym_queries": cfg.get("kym_queries", []), "wiki_top": cfg.get("wiki_top", 20),
-                       "reddit_subs": cfg.get("reddit_subs", []), "x_regions": list(TRENDS24)},
+                       "reddit_subs": cfg.get("reddit_subs", [])},
             "sources": dict((base or {}).get("sources") or {})}
 
     def want(group):
@@ -422,9 +441,10 @@ def collect(cfg, date, log=print, only=None, base=None):
         known = {x["url"] for k in ("kym_feed", "kym_confirmed", "kym_submissions") for x in snap["sources"].get(k, {}).get("items", [])}
         _run(snap, "kym_search", "KYM 검색 (tiktok·instagram·reels)",
              lambda: collect_kym_search(cfg.get("kym_queries") or ["tiktok", "instagram", "reels"], hours, known=known), log)
-    if want("x"):
-        for region in TRENDS24:
-            _run(snap, f"x_{region.lower()}", f"X 트렌드 {region} (trends24)", lambda r=region: collect_trends24(r), log)
+        try:
+            enrich_kym(snap, log=log)
+        except Exception as ex:  # noqa: BLE001  About 수집이 실패해도 항목은 남깁니다
+            log(f"[media] KYM About 문단: 실패 — {ex}")
     if want("youtube"):
         key = (os.environ.get("YOUTUBE_API_KEY") or "").strip()
         for region in ("KR", "US"):
@@ -443,4 +463,7 @@ def collect(cfg, date, log=print, only=None, base=None):
     if want("reddit"):   # 분당 1회라 가장 오래 걸리므로 맨 뒤
         for sub in cfg.get("reddit_subs", []):
             _run(snap, f"reddit_{sub.lower()}", f"Reddit r/{sub}", lambda s=sub: collect_reddit(s), log)
+    for k in list(snap["sources"]):        # 더 이상 받지 않는 소스(예: 예전 X 트렌드)는 기존 스냅샷에서도 지웁니다
+        if not k.startswith(("kym_", "trends_", "wiki_", "reddit_", "youtube_", "imgflip")):
+            del snap["sources"][k]
     return snap

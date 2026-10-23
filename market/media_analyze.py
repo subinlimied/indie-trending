@@ -1,10 +1,11 @@
 """미디어·밈 스냅샷 → 리포트 dict (숏폼 중심).
 
 우선순위: ① 틱톡·인스타 트렌드(KYM 네 소스에서 플랫폼 태그 TikTok/Instagram 항목) ② 새로 등록된 밈(KYM 확정·제출)
-③ 커뮤니티 베스트(Reddit) ④ X 트렌드(trends24) ⑤ 유튜브 쇼츠(키 있을 때) ⑥ 검색 급상승·위키(제외 필터 적용, 접힘)
-⑦ 밈 템플릿 변동 ⑧ 게임 교차. "오늘의 트렌드 한 건"은 ①에서 고릅니다.
+③ 커뮤니티 베스트(Reddit) ④ 유튜브 인기 급상승 Top 10(키 있을 때, 60초 이하는 "쇼츠" 표시) ⑤ 검색 급상승·위키(제외 필터 적용, 접힘)
+⑥ 밈 템플릿 변동 ⑦ 게임 교차. "오늘의 트렌드 한 건"은 ①에서 고릅니다.
 
-정치·경제·스포츠·사건사고 제외 필터(config media.exclude_keywords)는 Google 트렌드(제목+관련 뉴스 제목)·위키 제목·X 트렌드에 겁니다.
+정치·경제·스포츠·사건사고 제외 필터(config media.exclude_keywords)는 Google 트렌드(제목+관련 뉴스 제목)·위키 제목에 겁니다.
+밈 설명(한국어)·인사이트는 ANTHROPIC_API_KEY 가 있을 때 llm_request() 로 요청 본문을 만들고 attach_llm() 으로 리포트에 붙입니다(market/llm.py).
 한국어 키워드는 부분 일치, 영어(ASCII) 키워드는 단어 경계 일치(rate 가 pirate 를 거르지 않게). 사람 이름은 못 거르므로 완벽하지 않습니다.
 연속 일수는 reports/media/state.json 에 State 로 보관합니다: state["pick"](오늘의 트렌드), state["streaks"][소스][제목].
 """
@@ -110,6 +111,12 @@ def _streaks(state, key, titles, date, prev_date, carry=False):
 
 
 def _when(x):
+    """정렬 기준 = 발행 시각(없으면 수정 시각). 수정만으로 오래된 항목이 위로 오지 않게 합니다."""
+    return x.get("published") or x.get("modified") or ""
+
+
+def _recent(x):
+    """48시간 판정 기준 = 발행·수정 중 늦은 쪽(검색으로 찾은 '갱신' 항목을 살리기 위해)."""
     return max(x.get("published") or "", x.get("modified") or "")
 
 
@@ -159,7 +166,7 @@ def analyze(cfg, date, data_dir: Path, reports_dir: Path):
         cutoff = (datetime.strptime(today.get("collected_at", ""), "%Y-%m-%dT%H:%M:%SZ") - timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
     except ValueError:
         cutoff = ""
-    shortform = [x for x in kym_all if any(p in SHORTFORM for p in x["platforms"]) and (not _when(x) or _when(x) >= cutoff)]
+    shortform = [x for x in kym_all if any(p in SHORTFORM for p in x["platforms"]) and (not _recent(x) or _recent(x) >= cutoff)]
     counts = {}
     for x in kym_all:
         for p in x["platforms"]:
@@ -188,31 +195,16 @@ def analyze(cfg, date, data_dir: Path, reports_dir: Path):
         s = _src(today, f"reddit_{sub.lower()}")
         reddit.append({"sub": sub, "status": s.get("status"), "error": s.get("error", ""), "items": (s.get("items") or [])[:8]})
 
-    # ④ X 트렌드 (제외 필터)
-    x_trends = {}
-    for region in ("KR", "WORLD"):
-        key = f"x_{region.lower()}"
-        kept, dropped = [], 0
-        for x in _items(today, key):
-            k = hit(x["title"])
-            if k:
-                dropped += 1
-                continue
-            kept.append({**x, "rank": len(kept) + 1})
-        st = _streaks(state, key, [x["title"] for x in kept], date, prev_date)
-        x_trends[region] = [{**x, "days": st.get(x["title"], 1)} for x in kept[:trends_top]]
-        x_trends[f"{region}_at"] = _src(today, key).get("at", "")
-        filtered[key] = dropped
-
-    # ⑤ 유튜브 쇼츠
+    # ④ 유튜브 인기 급상승 Top 10 (60초 이하는 shorts=True)
     youtube = {}
     for region in ("KR", "US"):
         key = f"youtube_{region.lower()}"
         s = _src(today, key)
-        shorts = sorted([v for v in s.get("items") or [] if v.get("shorts")], key=lambda v: -v.get("views", 0))
-        youtube[region] = {"status": s.get("status"), "error": s.get("error", ""), "items": shorts[:10], "total": len(s.get("items") or [])}
+        items = s.get("items") or []
+        youtube[region] = {"status": s.get("status"), "error": s.get("error", ""), "items": items[:10], "total": len(items),
+                           "shorts": sum(1 for v in items if v.get("shorts"))}
 
-    # ⑥ 검색 급상승 · 위키 (제외 필터)
+    # ⑤ 검색 급상승 · 위키 (제외 필터)
     trends = {}
     for geo in ("KR", "US"):
         key = f"trends_{geo.lower()}"
@@ -243,7 +235,7 @@ def analyze(cfg, date, data_dir: Path, reports_dir: Path):
         wiki[f"{proj}_day"], wiki[f"{proj}_same"] = day, same
         filtered[key] = dropped
 
-    # ⑦ Imgflip 순위 변동
+    # ⑥ Imgflip 순위 변동
     cur_all = _items(today, "imgflip")
     prev_all = _items(prev, "imgflip") if prev else []
     prev_rank = {x["id"]: x["rank"] for x in prev_all}
@@ -257,7 +249,7 @@ def analyze(cfg, date, data_dir: Path, reports_dir: Path):
     imgflip = {"items": imgflip_items, "entered": entered, "exited": exited, "movers": movers[:10], "total": len(cur_all),
                "compared": bool(prev) and bool(prev_all)}
 
-    # ⑧ 게임 ↔ 밈 교차 (검색 · 위키 · Reddit · X · 쇼츠 · 숏폼 제목)
+    # ⑦ 게임 ↔ 밈 교차 (검색 · 위키 · Reddit · 유튜브 · 숏폼 제목)
     games = game_names(data_dir, date)
     cross, seen = [], set()
 
@@ -280,12 +272,9 @@ def analyze(cfg, date, data_dir: Path, reports_dir: Path):
     for r in reddit:
         for x in r["items"]:
             _cross(x["title"], f"r/{r['sub']}", x.get("url", ""))
-    for region in ("KR", "WORLD"):
-        for x in x_trends[region]:
-            _cross(x["title"], f"X {region}", x.get("url", ""))
     for region in ("KR", "US"):
         for v in youtube[region]["items"]:
-            _cross(v["title"], f"쇼츠 {region}", v.get("url", ""))
+            _cross(v["title"], f"유튜브 {region}", v.get("url", ""))
 
     # 수집 상태
     status_rows = []
@@ -299,7 +288,7 @@ def analyze(cfg, date, data_dir: Path, reports_dir: Path):
     n_filtered = sum(filtered.values())
     collect_line = (f"소스 {ok}/{len(status_rows) - skipped} 정상" + (f" · 건너뜀 {skipped}" if skipped else "")
                     + f" · KYM {len(kym_all)}건(틱톡·인스타 {len(shortform)}) · 새 밈 {len(new_memes)} · Reddit {len(reddit_ok)}/{len(reddit)}"
-                    + f" · X {len(x_trends['KR'])}/{len(x_trends['WORLD'])} · 검색 {len(trends['KR'])}/{len(trends['US'])} · 위키 {len(wiki['en'])}/{len(wiki['ko'])}"
+                    + f" · 검색 {len(trends['KR'])}/{len(trends['US'])} · 위키 {len(wiki['en'])}/{len(wiki['ko'])}"
                     + f" · 제외 필터 {n_filtered}건")
     if failed:
         collect_line += " · 실패: " + ", ".join(failed)
@@ -312,10 +301,106 @@ def analyze(cfg, date, data_dir: Path, reports_dir: Path):
         "kind": "media", "platform": "media", "platform_ko": "미디어·밈", "date": date, "round": rnd, "prev_date": prev_date,
         "status": status, "collect_line": collect_line,
         "basis_line": (f"KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 {hours}시간) · Reddit top(t=day) 8개 × {len(reddit)}개 서브레딧 · "
-                       f"X 트렌드 trends24.in 한국·worldwide · YouTube 인기 중 60초 이하(키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · "
+                       f"YouTube 인기 급상승 KR·US Top 10(60초 이하는 쇼츠 표시, 키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · "
                        f"Imgflip 인기 템플릿 100개 중 상위 {imgflip_top} · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · "
                        f"게임 교차 = Steam·itch 스냅샷 게임 이름과 대조"),
         "pick": pick, "platform_counts": platform_counts, "shortform": shortform, "kym_all": kym_all,
-        "kym_new": sum(1 for x in kym_all if x["new"]), "new_memes": new_memes, "reddit": reddit, "x": x_trends, "youtube": youtube,
+        "kym_new": sum(1 for x in kym_all if x["new"]), "new_memes": new_memes, "reddit": reddit, "youtube": youtube,
         "trends": trends, "wiki": wiki, "imgflip": imgflip, "cross": cross, "filtered": filtered, "sources": status_rows,
     }
+
+
+# ---------- 밈 설명(한국어) · 인사이트: Claude 요청 본문과 결합 ----------
+
+LLM_SYSTEM = """당신은 밈·숏폼 트렌드를 게임 제작자에게 설명하는 한국어 편집자입니다. 독자는 모바일 게임 UI 디자이너이며 혼자 만들 인디게임과 콘텐츠 소재를 찾고 있습니다.
+
+한국어 문장 규칙:
+- 조사와 어미를 생략하지 않고 완결된 문장으로 씁니다. 명사만 나열하지 않습니다.
+- 엠대시(—)를 쓰지 않습니다. 과장하거나 단정하지 않고, 추측은 "~로 보입니다"처럼 추측임을 밝힙니다.
+- 밈 이름, 플랫폼 이름, 계정 이름은 원어 그대로 둡니다.
+- 숫자를 반복해서 나열하지 않습니다.
+- 각 밈 설명(ko_what)은 두세 문장으로, 무엇인지·어디서 시작됐는지·어떻게 쓰이는지를 적습니다. 자료에 없는 사실을 지어내지 않습니다.
+- ko_idea 는 게임이나 콘텐츠 소재로 쓸 아이디어 한 문장입니다.
+- insight 는 리포트 전체를 보고 쓰는 한 문단(4~6문장)입니다. 대중문화·숏폼·과거 성공작의 계보와 연결하고, 추측은 추측이라고 표시합니다."""
+
+LLM_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "memes": {"type": "array", "items": {"type": "object", "properties": {
+            "id": {"type": "string"}, "ko_what": {"type": "string"}, "ko_idea": {"type": "string"}},
+            "required": ["id", "ko_what", "ko_idea"], "additionalProperties": False}},
+        "insight": {"type": "string"},
+    },
+    "required": ["memes", "insight"], "additionalProperties": False,
+}
+
+
+def llm_targets(rep, limit=12):
+    """설명 대상 = 01 틱톡·인스타 + 02 새 밈 (url 로 중복 제거, 최대 limit)."""
+    out, seen = [], set()
+    for x in list(rep.get("shortform") or []) + list(rep.get("new_memes") or []):
+        if x["url"] in seen:
+            continue
+        seen.add(x["url"])
+        out.append(x)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def llm_request(rep):
+    """→ (system, user) 문자열. 하루 1회: 밈 설명 전부 + 인사이트를 한 요청에서 JSON 으로 받습니다."""
+    targets = llm_targets(rep)
+    lines = [f"날짜: {rep['date']} · {rep['round']}회차", "", "## 설명할 밈 (id 는 그대로 돌려주십시오)"]
+    for i, x in enumerate(targets, 1):
+        lines.append(f"### id={x['url']}")
+        lines.append(f"제목: {x['title']}")
+        if x.get("platforms"):
+            lines.append("플랫폼 단서: " + ", ".join(x["platforms"]))
+        if x.get("status"):
+            lines.append(f"KYM 상태: {x['status']}")
+        lines.append("About: " + (x.get("about") or x.get("summary") or "(자료 없음)"))
+        lines.append("")
+    lines.append("## 리포트 요약 (insight 용)")
+    lines.append("플랫폼 집계: " + (", ".join(f"{a} {n}건" for a, n in rep.get("platform_counts") or []) or "없음"))
+    for r in rep.get("reddit") or []:
+        if r["status"] == "ok" and r["items"]:
+            lines.append(f"r/{r['sub']} 상위: " + " / ".join(x["title"][:80] for x in r["items"][:3]))
+    for region in ("KR", "US"):
+        y = (rep.get("youtube") or {}).get(region) or {}
+        if y.get("status") == "ok" and y.get("items"):
+            lines.append(f"유튜브 인기 {region}: " + " / ".join(f"{v['title'][:60]}{' (쇼츠)' if v.get('shorts') else ''}" for v in y["items"][:5]))
+    for geo in ("KR", "US"):
+        t = (rep.get("trends") or {}).get(geo) or []
+        if t:
+            lines.append(f"검색 급상승 {geo}: " + " / ".join(x["title"] for x in t[:5]))
+    im = rep.get("imgflip") or {}
+    if im.get("compared"):
+        lines.append("밈 템플릿 변동: " + (" / ".join(f"{x['name']} {x['prev_rank']}→{x['rank']}위" for x in im.get("movers", [])[:5]) or "상위 30 변동 없음"))
+    if rep.get("cross"):
+        lines.append("게임 교차: " + " / ".join(f"{c['term'][:50]} → {c['game']}" for c in rep["cross"][:5]))
+    lines.append("")
+    lines.append("위 자료만 근거로 memes 배열(각 id 마다 ko_what, ko_idea)과 insight 를 한국어로 작성하십시오.")
+    return LLM_SYSTEM, "\n".join(lines)
+
+
+def attach_llm(rep, result):
+    """complete_json 결과를 리포트에 붙입니다: 항목별 ko_what·ko_idea, rep["insight"], rep["llm_usage"]."""
+    rep["llm_usage"] = {**(result.get("usage") or {}), "model": result.get("model", ""), "stop_reason": result.get("stop_reason", ""),
+                        "error": result.get("error", ""), "ok": bool(result.get("ok"))}
+    data = result.get("data") or {}
+    if not result.get("ok") or not isinstance(data, dict):
+        return 0
+    by_id = {m.get("id"): m for m in data.get("memes") or [] if isinstance(m, dict)}
+    n = 0
+    for key in ("shortform", "new_memes", "kym_all"):
+        for x in rep.get(key) or []:
+            m = by_id.get(x["url"])
+            if m and (m.get("ko_what") or m.get("ko_idea")):
+                x["ko_what"], x["ko_idea"] = (m.get("ko_what") or "").strip(), (m.get("ko_idea") or "").strip()
+                n += key == "kym_all"
+    p = rep.get("pick")
+    if p and by_id.get(p["url"]):
+        p["ko_what"], p["ko_idea"] = (by_id[p["url"]].get("ko_what") or "").strip(), (by_id[p["url"]].get("ko_idea") or "").strip()
+    rep["insight"] = (data.get("insight") or "").strip()
+    return n
