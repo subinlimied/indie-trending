@@ -177,6 +177,9 @@ def fetch_details(appid, cc):
         "price_initial": po.get("initial"), "currency": po.get("currency"),
         "has_demo": bool(x.get("demos")),
         "recommendations": (x.get("recommendations") or {}).get("total"),
+        # 스토어 짧은 설명(태그 제거, 600자)과 헤더 이미지. 리포트의 "desc" 와 루틴 썸네일 근거입니다.
+        "short_description": re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", x.get("short_description") or ""))).strip()[:600],
+        "header_image": x.get("header_image"),
         "fetched": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
     }
 
@@ -307,6 +310,42 @@ def collect(cfg, date, data_dir: Path, log=print):
         "failed": [list(f) for f in failed],
         "apps": {str(k): v for k, v in apps.items()},
     }
+
+
+def refresh_meta(cfg, date, data_dir: Path, log=print):
+    """일회성: 오늘 자 스냅샷의 앱 중 캐시에 short_description 이 없는 것만 appdetails 로 다시 받아
+    캐시(data/cache/steam_meta.json)와 스냅샷 apps[*].meta 를 갱신합니다. fetched 날짜는 무시합니다. 1.6초 간격."""
+    snap_path = data_dir / "steam" / f"{date}.json"
+    if not snap_path.exists():
+        log(f"[steam] {snap_path.name} 없음 — 먼저 수집하세요")
+        return 0
+    snap = json.loads(snap_path.read_text())
+    cache_path = data_dir / "cache" / "steam_meta.json"
+    cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
+    need = [appid for appid in snap["apps"] if not (cache.get(str(appid)) or {}).get("short_description")]
+    log(f"[steam] 메타 설명 보강: {len(need)}/{len(snap['apps'])}개 조회 (약 {len(need) * 1.6 / 60:.0f}분)")
+    done = 0
+    for i, appid in enumerate(need):
+        try:
+            d = fetch_details(appid, cfg["cc"])
+        except Exception as e:  # noqa: BLE001
+            d = None
+            log(f"  {appid} 실패: {e}")
+        if d:
+            cache[str(appid)] = d
+            done += 1
+        time.sleep(1.6)
+        if (i + 1) % 50 == 0:
+            log(f"  {i + 1}/{len(need)}")
+            cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=1))
+    cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=1))
+    for appid in snap["apps"]:
+        meta = cache.get(str(appid))
+        if meta:
+            snap["apps"][appid]["meta"] = {k: v for k, v in meta.items() if k != "fetched"}
+    snap_path.write_text(json.dumps(snap, ensure_ascii=False, indent=1))
+    log(f"[steam] 설명 채움 {done}개 · 스냅샷 {snap_path.name} 갱신")
+    return done
 
 
 def recent_tracked(data_dir: Path, date, days):

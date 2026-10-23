@@ -50,6 +50,7 @@ def build_records(cfg, date, snaps):
             "made_with": [m for m in (p.get("made_with") or []) if m in ENGINES][:2],
             "price": price, "free": free, "nyop": bool(p.get("nyop")), "sale": bool(g.get("sale")),
             "platforms": g.get("platforms") or [], "status": p.get("status"),
+            "desc": _desc(g.get("short") or p.get("desc")),
             "published": pub, "age": age,
             "new": age is not None and age <= 365,
             "rating": rc, "rating_value": p.get("rating_value"),
@@ -152,10 +153,22 @@ def badges(r):
     return b
 
 
+DESC_LEN = 300
+
+
+def _desc(s):
+    """게임 설명(목록 셀 short 또는 페이지 og:description, 원문)을 300자로. 없으면 빈 문자열."""
+    s = (s or "").strip()
+    return s if len(s) <= DESC_LEN else s[: DESC_LEN - 1].rstrip() + "…"
+
+
 def item(r, extra=None):
-    return {"name": r["title"], "url": r["url"], "line": extra or line(r), "badges": badges(r),
-            "thumb": r.get("thumb"), "thumb_bg": r.get("thumb_bg"),
-            "sub": " · ".join(x for x in (r["author"], r["genre"], ", ".join(r["tags"][:3])) if x)}
+    d = {"name": r["title"], "url": r["url"], "line": extra or line(r), "badges": badges(r),
+         "thumb": r.get("thumb"), "thumb_bg": r.get("thumb_bg"),
+         "sub": " · ".join(x for x in (r["author"], r["genre"], ", ".join(r["tags"][:3])) if x)}
+    if r.get("desc"):
+        d["desc"] = r["desc"]
+    return d
 
 
 def analyze(cfg, date, data_dir, reports_dir):
@@ -318,6 +331,8 @@ def analyze(cfg, date, data_dir, reports_dir):
                      "thumb": pick.get("thumb"), "thumb_bg": pick.get("thumb_bg"),
                      "sub": " · ".join(x for x in (pick["author"], pick["genre"], ", ".join(pick["made_with"]), ", ".join(pick["tags"][:3])) if x),
                      "line": line(pick), "badges": badges(pick)}
+        if pick.get("desc"):
+            pick_info["desc"] = pick["desc"]
     else:
         pick_info = None
     if has_prev:

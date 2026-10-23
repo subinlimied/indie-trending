@@ -120,6 +120,8 @@ def fetch_page(url):
         "nyop": "Name your own price" in body,
         "price_text": _first(r'<span class="buy_message"><span class="sub">([^<]*)</span>', body)
                       or _first(r'class="buy_btn"[^>]*>([^<]*)<', body),
+        # 게임 설명(og:description). 목록 셀의 short(game_text) 가 없는 게임의 "desc" 근거입니다.
+        "desc": (html.unescape(_first(r'<meta property="og:description" content="([^"]*)"', body) or "").strip() or None),
     }
 
 

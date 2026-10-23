@@ -50,7 +50,8 @@
    "신작",
    "Godot",
    "웹"
-  ]
+  ],
+  "desc": "Abacus autobattler roguelike"
  },
  "headline": [
   "[Abattlacus](https://funbanan.itch.io/abattlacus) New & Popular 102→7위 ▲95 · 평점 39개(+7) · 4.8★ · 댓글 8(+3) · NYOP",
@@ -83,7 +84,8 @@
        ],
        "thumb": "https://img.itch.zone/aW1nLzMxMTE1MjMzLnBuZw==/315x250%23c/yf4ym5.png",
        "thumb_bg": "#eeeeee",
-       "sub": "FunB4nan · Strategy · Auto Battler, Deck Building, Idle"
+       "sub": "FunB4nan · Strategy · Auto Battler, Deck Building, Idle",
+       "desc": "Abacus autobattler roguelike"
       },
       {
        "name": "Side Hustle",
@@ -179,7 +181,8 @@
        ],
        "thumb": "https://img.itch.zone/aW1hZ2UvMTA2NTk5LzU4NjAxMi5naWY=/315x250%23c/ZFe38m.gif",
        "thumb_bg": "#ffe6f4",
-       "sub": "Team Salvato · Visual Novel · Anime, Cute, Horror"
+       "sub": "Team Salvato · Visual Novel · Anime, Cute, Horror",
+       "desc": "Will you write the way into her heart?"
       },
       {
        "name": "Big Bad Dogs",
@@ -228,7 +231,8 @@
        ],
        "thumb": "https://img.itch.zone/aW1hZ2UvMTA2NTk5LzU4NjAxMi5naWY=/315x250%23c/ZFe38m.gif",
        "thumb_bg": "#ffe6f4",
-       "sub": "Team Salvato · Visual Novel · Anime, Cute, Horror"
+       "sub": "Team Salvato · Visual Novel · Anime, Cute, Horror",
+       "desc": "Will you write the way into her heart?"
       },
       {
        "name": "Big Bad Dogs",
@@ -253,7 +257,8 @@
        ],
        "thumb": "https://img.itch.zone/aW1nLzgwNDQwODUucG5n/315x250%23c/u8%2FyA%2F.png",
        "thumb_bg": "#070707",
-       "sub": "DoctorHummer · Strategy · Fangame, Roguelike, Roguelite"
+       "sub": "DoctorHummer · Strategy · Fangame, Roguelike, Roguelite",
+       "desc": "The Binding of Isaac fangame, heavily inspired by Plants vs. Zombies"
       },
       {
        "name": "Tamaweb: Virtual Pet Game",
@@ -266,7 +271,8 @@
        ],
        "thumb": "https://img.itch.zone/aW1nLzE3Nzk3NDg4LnBuZw==/315x250%23c/ZJr4Ym.png",
        "thumb_bg": "#FFDEAD",
-       "sub": "SamanDev · Simulation · 2D, Animals, Cozy"
+       "sub": "SamanDev · Simulation · 2D, Animals, Cozy",
+       "desc": "A Tamagotchi-like Virtual Pet Game"
       },
       {
        "name": "Kirby ~ Soft & Wet",
@@ -278,7 +284,8 @@
        ],
        "thumb": "https://img.itch.zone/aW1nLzIyOTk0MTA2LnBuZw==/315x250%23c/vgviLq.png",
        "thumb_bg": "#2ce8f4",
-       "sub": "Strimp's Kitchen · Simulation · 2D, Arcade, Casual"
+       "sub": "Strimp's Kitchen · Simulation · 2D, Arcade, Casual",
+       "desc": "A fishing experience"
       }
      ]
     }
@@ -495,7 +502,8 @@
        ],
        "thumb": "https://img.itch.zone/aW1nLzMxMTE1MjMzLnBuZw==/315x250%23c/yf4ym5.png",
        "thumb_bg": "#eeeeee",
-       "sub": "FunB4nan · Strategy · Auto Battler, Deck Building, Idle"
+       "sub": "FunB4nan · Strategy · Auto Battler, Deck Building, Idle",
+       "desc": "Abacus autobattler roguelike"
       },
       {
        "name": "Neon Dodge",
@@ -532,7 +540,8 @@
        ],
        "thumb": "https://img.itch.zone/aW1nLzIzNTY4NDYwLnBuZw==/315x250%23c/vUSqr0.png",
        "thumb_bg": "#FEA513",
-       "sub": "ISNI · Simulation · 3D, aviation, Flight"
+       "sub": "ISNI · Simulation · 3D, aviation, Flight",
+       "desc": "Battle of britain/france simulator"
       },
       {
        "name": "Automated Love Obsession",
@@ -598,7 +607,8 @@
        ],
        "thumb": "https://img.itch.zone/aW1nLzI1Nzc4MTkuZ2lm/315x250%23c/7lg6Rj.gif",
        "thumb_bg": "#000000",
-       "sub": "Puppet Combo · Adventure · Altgame, creepypasta, Halloween"
+       "sub": "Puppet Combo · Adventure · Altgame, creepypasta, Halloween",
+       "desc": "Four of the scariest VHS soaked shorts in one shocking anthology! PS1 style survival horror!"
       },
       {
        "name": "Night of the Nun... aka Nun Massacre",

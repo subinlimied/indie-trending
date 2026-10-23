@@ -19,11 +19,11 @@
   ],
   [
    "모집단",
-   "430개 · 본문 110개"
+   "430개 · 본문 111개"
   ],
   [
    "신작",
-   "78/110"
+   "78/111"
   ],
   [
    "수집",
@@ -49,14 +49,15 @@
   "line": "Top Sellers 160→92위 · 동접 325(−8.7%) · $6.99",
   "badges": [
    "셀프 퍼블리싱"
-  ]
+  ],
+  "desc": "Dive into this multiplayer online experience set in a sketchy bar where the games are as dangerous as the patrons. Join a table of 4 and test your skills in Liar's Dice and Liar's Deck, where lying and bluffing are key to victory. Ready for a night at Liar's Bar?"
  },
  "headline": [
   "[Liar's Bar](https://store.steampowered.com/app/3097560/) Top Sellers 160→92위 ▲68 · 동접 325(−8.7%) · $6.99 · 할인 없음",
   "[MIMESIS](https://store.steampowered.com/app/2827200/) Top Sellers 163→110위 ▲53 · 동접 135(+17.4%) · $9.99 · 할인 없음"
  ],
  "notes": [
-  "본문 제외 110개 (출시 96 · 정가 24)"
+  "본문 제외 109개 (출시 96 · 정가 22)"
  ],
  "sections": [
   {
@@ -74,7 +75,8 @@
        "badges": [
         "셀프 퍼블리싱"
        ],
-       "sub": "Curve Animation · Multiplayer, Casual, PvP"
+       "sub": "Curve Animation · Multiplayer, Casual, PvP",
+       "desc": "Dive into this multiplayer online experience set in a sketchy bar where the games are as dangerous as the patrons. Join a table of 4 and test your skills in Liar's Dice and Liar's Deck, where lying and bluffing are key to victory. Ready for a night at Liar's Bar?"
       },
       {
        "name": "MIMESIS",
@@ -84,7 +86,8 @@
         "신작",
         "셀프 퍼블리싱"
        ],
-       "sub": "ReLU Games, Inc. · Action, Adventure, Casual"
+       "sub": "ReLU Games, Inc. · Action, Adventure, Casual",
+       "desc": "A 4-player online co-op survival horror game. Avoid the contaminated rain, gather scrap and get back to the tram. Monsters that copy your friends' voices and behavior, and many other threats, stand in your way. Gear up and stick together to survive."
       },
       {
        "name": "No More Room in Hell 2",
@@ -95,7 +98,8 @@
         "셀프 퍼블리싱",
         "할인 25%"
        ],
-       "sub": "Torn Banner Studios · Early Access, Zombies, Multiplayer"
+       "sub": "Torn Banner Studios · Early Access, Zombies, Multiplayer",
+       "desc": "No More Room in Hell 2 is an intense 8 player zombie shooter. Overcome the endless undead. Avoid infection. Survive hell together."
       }
      ]
     },
@@ -136,27 +140,19 @@
      ],
      "rows": [
       [
-       "Casual",
-       "12개 (40%)",
-       "40%",
-       "1.0×",
-       "[Liar's Bar](https://store.steampowered.com/app/3097560/) · [MIMESIS](https://store.steampowered.com/app/2827200/) · [Alchemy Factory](https://store.steampowered.com/app/3669570/)",
-       "3회차"
-      ],
-      [
        "Simulation",
-       "11개 (37%)",
-       "29%",
-       "1.2×",
+       "12개 (40%)",
+       "30%",
+       "1.4×",
        "[IRON NEST: Heavy Turret Simulator](https://store.steampowered.com/app/2950790/) · [Alchemy Factory](https://store.steampowered.com/app/3669570/) · [Retro Rewind - Video Store Simulator](https://store.steampowered.com/app/3552140/)",
        "3회차"
       ],
       [
-       "Action",
-       "8개 (27%)",
-       "34%",
-       "0.8×",
-       "[MIMESIS](https://store.steampowered.com/app/2827200/) · [IRON NEST: Heavy Turret Simulator](https://store.steampowered.com/app/2950790/) · [Space Engineers 2](https://store.steampowered.com/app/1133870/)",
+       "Casual",
+       "11개 (37%)",
+       "40%",
+       "0.9×",
+       "[Liar's Bar](https://store.steampowered.com/app/3097560/) · [MIMESIS](https://store.steampowered.com/app/2827200/) · [Alchemy Factory](https://store.steampowered.com/app/3669570/)",
        "3회차"
       ],
       [
@@ -168,10 +164,18 @@
        "3회차"
       ],
       [
+       "Action",
+       "7개 (23%)",
+       "34%",
+       "0.7×",
+       "[MIMESIS](https://store.steampowered.com/app/2827200/) · [IRON NEST: Heavy Turret Simulator](https://store.steampowered.com/app/2950790/) · [Space Engineers 2](https://store.steampowered.com/app/1133870/)",
+       "3회차"
+      ],
+      [
        "Adventure",
        "7개 (23%)",
-       "28%",
-       "0.8×",
+       "27%",
+       "0.9×",
        "[MIMESIS](https://store.steampowered.com/app/2827200/) · [Shroom and Gloom](https://store.steampowered.com/app/3271280/) · [Hollow Knight: Silksong](https://store.steampowered.com/app/1030300/)",
        "3회차"
       ],
@@ -239,7 +243,7 @@
    "no": "04",
    "title": "할인 · 이벤트와 상승의 관계",
    "basis": "광고비 지표가 없는 Steam에서는 할인이 상승의 외부 요인입니다. 할인 없이 오른 게임을 오가닉으로 봅니다.",
-   "text": "본문 포함 110개 중 할인 중 52개(47%). 상승 42개 중 할인 없이 오른 것 28개, 할인 동반 14개. Popular Upcoming 119개 중 데모 제공 27개.",
+   "text": "본문 포함 111개 중 할인 중 53개(48%). 상승 43개 중 할인 없이 오른 것 28개, 할인 동반 15개. Popular Upcoming 109개 중 데모 제공 24개.",
    "blocks": [
     {
      "title": "오가닉 (할인 없음)",
@@ -251,7 +255,8 @@
        "badges": [
         "셀프 퍼블리싱"
        ],
-       "sub": "Curve Animation · Multiplayer, Casual, PvP"
+       "sub": "Curve Animation · Multiplayer, Casual, PvP",
+       "desc": "Dive into this multiplayer online experience set in a sketchy bar where the games are as dangerous as the patrons. Join a table of 4 and test your skills in Liar's Dice and Liar's Deck, where lying and bluffing are key to victory. Ready for a night at Liar's Bar?"
       },
       {
        "name": "MIMESIS",
@@ -261,7 +266,8 @@
         "신작",
         "셀프 퍼블리싱"
        ],
-       "sub": "ReLU Games, Inc. · Action, Adventure, Casual"
+       "sub": "ReLU Games, Inc. · Action, Adventure, Casual",
+       "desc": "A 4-player online co-op survival horror game. Avoid the contaminated rain, gather scrap and get back to the tram. Monsters that copy your friends' voices and behavior, and many other threats, stand in your way. Gear up and stick together to survive."
       },
       {
        "name": "IRON NEST: Heavy Turret Simulator",
@@ -272,7 +278,8 @@
         "셀프 퍼블리싱",
         "데모"
        ],
-       "sub": "Nick Nieuwoudt · Action, Simulation"
+       "sub": "Nick Nieuwoudt · Action, Simulation",
+       "desc": "IRON NEST is a brutal dieselpunk heavy-artillery game where you dominate the battlefield through a colossal war machine. Take map measurements based on the received coordinates, strain the hydraulics, and gunlay the cannons to unleash devastating blows ⟹ Will you obey High Command, Operator?"
       },
       {
        "name": "Alchemy Factory",
@@ -281,7 +288,8 @@
        "badges": [
         "신작"
        ],
-       "sub": "D5 Copperhead · Casual, Simulation, Strategy"
+       "sub": "D5 Copperhead · Casual, Simulation, Strategy",
+       "desc": "Start small, team up with friends, and automate production with conveyor belts, pipes, and magical devices. Stock your shop with potions, jewelry, and relics, complete commissions, and build an alchemy empire! Alchemy Factory 1.0 is out now with the Wagon Logistics System and revamped shopkeeping."
       },
       {
        "name": "IdleOn - The Incremental MMO",
@@ -291,7 +299,8 @@
         "신작",
         "셀프 퍼블리싱"
        ],
-       "sub": "Lavaflame2 · Idler, Pixel Graphics, Free to Play"
+       "sub": "Lavaflame2 · Idler, Pixel Graphics, Free to Play",
+       "desc": "The incremental idle MMO where your heroes keep fighting while you're gone! Spend their loot on upgrades, unlock classes from Elemental-Wizard to Cannon-Pirate, and level 20 unique skills like Farming, Sailing, and Construction!"
       }
      ]
     },
@@ -307,7 +316,8 @@
         "셀프 퍼블리싱",
         "할인 25%"
        ],
-       "sub": "Torn Banner Studios · Early Access, Zombies, Multiplayer"
+       "sub": "Torn Banner Studios · Early Access, Zombies, Multiplayer",
+       "desc": "No More Room in Hell 2 is an intense 8 player zombie shooter. Overcome the endless undead. Avoid infection. Survive hell together."
       },
       {
        "name": "Voidtrain",
@@ -318,7 +328,8 @@
         "셀프 퍼블리싱",
         "할인 50%"
        ],
-       "sub": "HypeTrain Digital · Open World Survival Craft, Co-op, Survival"
+       "sub": "HypeTrain Digital · Open World Survival Craft, Co-op, Survival",
+       "desc": "Become a crew member of an Interdimensional Express Train! Discover a new world full of mysterious creatures, enemies and places. Upgrade and customize your train, gather new materials and build better weapons. Play solo or online сo-op with up to 4 people."
       },
       {
        "name": "Tavern Keeper 🍻",
@@ -330,7 +341,8 @@
         "데모",
         "할인 30%"
        ],
-       "sub": "Greenheart Games 💚 · RPG, Simulation, Strategy"
+       "sub": "Greenheart Games 💚 · RPG, Simulation, Strategy",
+       "desc": "From the creators of Game Dev Tycoon comes Tavern Keeper 🍻, a cosy-chaotic management sim, featuring a powerful decoration sandbox and a magical storybook RPG!"
       },
       {
        "name": "CUSTOM PENNANT BASEBALL",
@@ -341,18 +353,18 @@
         "셀프 퍼블리싱",
         "할인 25%"
        ],
-       "sub": "Yorumina · Simulation, Sports, Strategy"
+       "sub": "Yorumina · Simulation, Sports, Strategy",
+       "desc": "Draft prospects, develop your players and build a championship club. Set lineups, negotiate contracts and manage your budget in this baseball management sim. Discover hidden prospects, invest in your town and customize your league. Watch games without direct player control."
       },
       {
-       "name": "Farm to Table",
-       "url": "https://store.steampowered.com/app/3582250/",
-       "line": "Top Sellers 121→107위 · 동접 485(−6.6%) · $14.99 −40%",
+       "name": "Date Everything!",
+       "url": "https://store.steampowered.com/app/2201320/",
+       "line": "Top Sellers 150→135위 · 동접 370(+3.6%) · $29.99 −60%",
        "badges": [
-        "신작",
-        "셀프 퍼블리싱",
-        "할인 40%"
+        "할인 60%"
        ],
-       "sub": "indieGiant · Casual, Simulation, Early Access"
+       "sub": "Sassy Chap Games · Simulation",
+       "desc": "Date Everything! is a sandbox dating simulator set in the comfort of your own home, featuring 100 fully voice acted datable characters! Let the romance flow between your bed, smoke alarm and… Overwhelming Sense of Existential Dread? Are you ready to Date Everything?"
       }
      ]
     },
@@ -368,7 +380,8 @@
         "셀프 퍼블리싱",
         "데모"
        ],
-       "sub": "Logan Renz · Casual, Simulation, Sports"
+       "sub": "Logan Renz · Casual, Simulation, Sports",
+       "desc": "Build your squad, develop players, manage your club, and watch every match unfold in this 2D soccer management simulator. Chase trophies and build a dynasty."
       },
       {
        "name": "Bunny Bun",
@@ -379,29 +392,8 @@
         "셀프 퍼블리싱",
         "데모"
        ],
-       "sub": "MARIOCART · Casual"
-      },
-      {
-       "name": "Desktop Taxi",
-       "url": "https://store.steampowered.com/app/4006760/",
-       "line": "Popular Upcoming 55→8위 · 무료",
-       "badges": [
-        "출시 예정",
-        "셀프 퍼블리싱",
-        "데모"
-       ],
-       "sub": "Vasrak games · Casual, Simulation"
-      },
-      {
-       "name": "Gateholt",
-       "url": "https://store.steampowered.com/app/5207010/",
-       "line": "Popular Upcoming 59→11위 · 무료",
-       "badges": [
-        "출시 예정",
-        "셀프 퍼블리싱",
-        "데모"
-       ],
-       "sub": "DOMADOZ · Action, Adventure"
+       "sub": "MARIOCART · Casual",
+       "desc": "You are the experimenter Bunny Bun. To develop the “Wisdom Potion,” you have brought your talents to this laboratory. You must process raw materials and synthesize them to create potions with specific effects. To test a potion, you can take a sip and go crazy. The world needs you..."
       },
       {
        "name": "Starfall Hill",
@@ -412,7 +404,32 @@
         "셀프 퍼블리싱",
         "데모"
        ],
-       "sub": "SANO GAMES · Action, Adventure"
+       "sub": "SANO GAMES · Action, Adventure",
+       "desc": "Stars really fall from the sky over a quiet hilltop village. Gather them, light the lamps, and meet the villagers—until a black warship crosses the moon. Take up an old rifle and exploding stars to defend the hill in this story-driven first-person adventure."
+      },
+      {
+       "name": "Ashen Knight",
+       "url": "https://store.steampowered.com/app/4348240/",
+       "line": "Popular Upcoming 69→21위 · 무료",
+       "badges": [
+        "출시 예정",
+        "셀프 퍼블리싱",
+        "데모"
+       ],
+       "sub": "99 Interactive · Action, Casual, Early Access",
+       "desc": "A dark fantasy survivor roguelike with automatic combat, where every run starts from nothing. Unlock unique heroes, experiment with powerful skill builds, and survive relentless enemy waves."
+      },
+      {
+       "name": "7 Millimeters",
+       "url": "https://store.steampowered.com/app/4800650/",
+       "line": "Popular Upcoming 75→28위 · 무료",
+       "badges": [
+        "출시 예정",
+        "셀프 퍼블리싱",
+        "데모"
+       ],
+       "sub": "DNA ARMY GAMING · Action, Casual, Simulation",
+       "desc": "Start your journey as a carpenter in a new neighborhood. Take measurements, install furniture and fulfill customer orders. But success attracts trouble; a local gang demands a fee. Refuse, turn your shop into a fortress, and arm yourself to defend your life. will you pay or resist?"
       }
      ]
     }
@@ -423,7 +440,7 @@
    "title": "특이사항 · 이상현상",
    "basis": "",
    "list": [
-    "본문 제외 110개 (출시 96 · 정가 24)"
+    "본문 제외 109개 (출시 96 · 정가 22)"
    ]
   },
   {
@@ -725,14 +742,14 @@
        "[Clair Obscur: Expedition 33](https://store.steampowered.com/app/1903340/) ⊘",
        "Sandfall Interactive",
        "2025-04-24",
-       "$59.99 −21%",
+       "$49.99 −21%",
        "—",
        "—",
        "3,072",
        "2,000,000 .. 5,000,000",
        "—",
        "Turn-Based Combat, Story Rich, Fantasy",
-       "하락 · 정가 $59.99"
+       "하락 · 정가 $49.99"
       ],
       [
        "20 (23→)",
@@ -1085,7 +1102,7 @@
        "[DREDGE](https://store.steampowered.com/app/1562430/) ⊘",
        "Black Salt Games",
        "2023-03-30",
-       "$26.99 −60%",
+       "$24.99 −60%",
        "—",
        "—",
        "667",
@@ -1490,7 +1507,7 @@
        "[Sandustry](https://store.steampowered.com/app/2764460/)",
        "Lantto Games",
        "2026-08-13",
-       "$14.99 −35%",
+       "$19.99 −35%",
        "—",
        "—",
        "1,732",
@@ -2395,14 +2412,14 @@
        "[Clair Obscur: Expedition 33](https://store.steampowered.com/app/1903340/) ⊘",
        "Sandfall Interactive",
        "2025-04-24",
-       "$59.99 −21%",
+       "$49.99 −21%",
        "—",
        "—",
        "3,072",
        "2,000,000 .. 5,000,000",
        "—",
        "Turn-Based Combat, Story Rich, Fantasy",
-       "하락 · 정가 $59.99"
+       "하락 · 정가 $49.99"
       ],
       [
        "30 (28→)",
@@ -2620,7 +2637,7 @@
        "[DREDGE](https://store.steampowered.com/app/1562430/) ⊘",
        "Black Salt Games",
        "2023-03-30",
-       "$26.99 −60%",
+       "$24.99 −60%",
        "—",
        "—",
        "667",
@@ -3535,7 +3552,7 @@
        "[Sandustry](https://store.steampowered.com/app/2764460/)",
        "Lantto Games",
        "2026-08-13",
-       "$14.99 −35%",
+       "$19.99 −35%",
        "—",
        "—",
        "1,732",
@@ -3982,17 +3999,17 @@
       [
        "135 (150→)",
        "us 49 · cn — · kr — · jp — · de 191 · br 150 · gb 73",
-       "[Date Everything!](https://store.steampowered.com/app/2201320/) ⊘",
+       "[Date Everything!](https://store.steampowered.com/app/2201320/)",
        "Sassy Chap Games",
        "2025-06-17",
-       "$34.99 −60%",
+       "$29.99 −60%",
        "—",
        "—",
        "370",
        "0 .. 20,000",
        "—",
        "Simulation",
-       "상승 · 할인 동반 · 정가 $34.99"
+       "상승 · 할인 동반"
       ],
       [
        "136",
@@ -4994,7 +5011,7 @@
        "us 1 · cn 1 · kr 1 · jp 1 · de 1 · br 1 · gb 1",
        "[Renz Soccer Sim](https://store.steampowered.com/app/5222980/)",
        "Logan Renz",
-       "2026-10-22",
+       "출시 예정",
        "무료",
        "—",
        "—",
@@ -5010,7 +5027,7 @@
        "[Suspencil](https://store.steampowered.com/app/5303370/)",
        "KUROKIRI GAMES",
        "2026-10-22",
-       "무료",
+       "$2.99",
        "—",
        "—",
        "—",
@@ -5024,8 +5041,8 @@
        "us 3 · cn 3 · kr 3 · jp 3 · de 3 · br 3 · gb 3",
        "[Super Clown Save Santa](https://store.steampowered.com/app/5403390/)",
        "Valkeala Software",
-       "2026-10-22",
-       "무료",
+       "2026-10-23",
+       "$2.99",
        "—",
        "—",
        "—",
@@ -5039,7 +5056,7 @@
        "us 4 · cn 4 · kr 4 · jp 4 · de 4 · br 4 · gb 4",
        "[Touwers: Defend the Realm](https://store.steampowered.com/app/5132600/)",
        "Lily's Little Adventures",
-       "2026-10-22",
+       "출시 예정",
        "무료",
        "—",
        "—",
@@ -5054,7 +5071,7 @@
        "us 5 · cn 5 · kr 5 · jp 5 · de 6 · br 6 · gb 6",
        "[Bunny Bun](https://store.steampowered.com/app/5406050/)",
        "MARIOCART",
-       "2026-10-23",
+       "출시 예정",
        "무료",
        "—",
        "—",
@@ -5069,7 +5086,7 @@
        "us 6 · cn 6 · kr 6 · jp 6 · de 5 · br 5 · gb 5",
        "[Hubble Bubble](https://store.steampowered.com/app/5013160/)",
        "Parita Games",
-       "2026-10-23",
+       "출시 예정",
        "무료",
        "—",
        "—",
@@ -5085,7 +5102,7 @@
        "[Moon Sweepers](https://store.steampowered.com/app/5335510/)",
        "DragDrop Games",
        "2026-10-23",
-       "무료",
+       "$8.99",
        "—",
        "—",
        "—",
@@ -5099,8 +5116,8 @@
        "us 8 · cn 8 · kr 8 · jp 8 · de 8 · br 8 · gb 8",
        "[Desktop Taxi](https://store.steampowered.com/app/4006760/)",
        "Vasrak games",
-       "2026-10-23",
-       "무료",
+       "2026-10-22",
+       "$4.99",
        "—",
        "—",
        "—",
@@ -5114,7 +5131,7 @@
        "us 9 · cn 9 · kr 9 · jp 9 · de 9 · br 9 · gb 9",
        "[The Reflection](https://store.steampowered.com/app/4314340/)",
        "Pinwheels Studio",
-       "2026-10-23",
+       "출시 예정",
        "무료",
        "—",
        "—",
@@ -5130,7 +5147,7 @@
        "[/deploy.self](https://store.steampowered.com/app/5295940/)",
        "Dreeooz dev",
        "2026-10-23",
-       "무료",
+       "$2.99",
        "—",
        "—",
        "—",
@@ -5145,7 +5162,7 @@
        "[Gateholt](https://store.steampowered.com/app/5207010/)",
        "DOMADOZ",
        "2026-10-23",
-       "무료",
+       "$6.99",
        "—",
        "—",
        "—",
@@ -5159,7 +5176,7 @@
        "us 12 · cn 10 · kr 10 · jp 12 · de 12 · br 12 · gb 11",
        "[Teleport Master](https://store.steampowered.com/app/5236110/)",
        "Fluffy Games",
-       "2026-10-23",
+       "출시 예정",
        "무료",
        "—",
        "—",
@@ -5174,7 +5191,7 @@
        "us 13 · cn 13 · kr 13 · jp 13 · de 13 · br 13 · gb 13",
        "[Starfall Hill](https://store.steampowered.com/app/5389350/)",
        "SANO GAMES",
-       "2026-10-23",
+       "출시 예정",
        "무료",
        "—",
        "—",
@@ -5279,8 +5296,8 @@
        "us 20 · cn 20 · kr 20 · jp 20 · de 20 · br 20 · gb 20",
        "[Halloweenies Candy Run](https://store.steampowered.com/app/5377190/)",
        "MunkieVerse Studios",
-       "2026-10-23",
-       "무료",
+       "2026-10-22",
+       "$9.99",
        "—",
        "—",
        "—",
@@ -5309,8 +5326,8 @@
        "us 22 · cn 22 · kr 21 · jp 22 · de 22 · br 22 · gb 22",
        "[Saving Songburg™](https://store.steampowered.com/app/3954920/)",
        "Ken Calloway",
-       "2026-10-23",
-       "무료",
+       "2026-10-22",
+       "$14.99",
        "—",
        "—",
        "—",
@@ -6845,14 +6862,14 @@
        "[Clair Obscur: Expedition 33](https://store.steampowered.com/app/1903340/) ⊘",
        "Sandfall Interactive",
        "2025-04-24",
-       "$59.99 −21%",
+       "$49.99 −21%",
        "—",
        "—",
        "3,072",
        "2,000,000 .. 5,000,000",
        "—",
        "Turn-Based Combat, Story Rich, Fantasy",
-       "하락 · 정가 $59.99"
+       "하락 · 정가 $49.99"
       ],
       [
        "24 (25→)",
@@ -7175,7 +7192,7 @@
        "[DREDGE](https://store.steampowered.com/app/1562430/) ⊘",
        "Black Salt Games",
        "2023-03-30",
-       "$26.99 −60%",
+       "$24.99 −60%",
        "—",
        "—",
        "667",
@@ -7700,7 +7717,7 @@
        "[Sandustry](https://store.steampowered.com/app/2764460/)",
        "Lantto Games",
        "2026-08-13",
-       "$14.99 −35%",
+       "$19.99 −35%",
        "—",
        "—",
        "1,732",
@@ -7727,17 +7744,17 @@
       [
        "82 (96→)",
        "—",
-       "[Date Everything!](https://store.steampowered.com/app/2201320/) ⊘",
+       "[Date Everything!](https://store.steampowered.com/app/2201320/)",
        "Sassy Chap Games",
        "2025-06-17",
-       "$34.99 −60%",
+       "$29.99 −60%",
        "—",
        "—",
        "370",
        "0 .. 20,000",
        "—",
        "Simulation",
-       "상승 · 할인 동반 · 정가 $34.99"
+       "상승 · 할인 동반"
       ],
       [
        "83 (84→)",
@@ -8894,6 +8911,6 @@
    ]
   }
  ],
- "collect_line": "수집 목록 4/4 정상 · 모집단 430 · 본문 포함 110 · 신작 78 · 제외 110",
+ "collect_line": "수집 목록 4/4 정상 · 모집단 430 · 본문 포함 111 · 신작 78 · 제외 109",
  "basis_line": "Steam 검색 · Indie 태그 · 글로벌 합성(7개 지역 평균 순위: US·CN·KR·JP·DE·BR·GB) · 가격 USD · 목록 4개(Top Sellers 200 · New & Trending · Popular Upcoming 100 · New Releases 100) · 본문 포함 = 정가 $30 이하 · 3년 이내 · 리뷰 50,000 미만 · 신작 = 1년 이내"
 }

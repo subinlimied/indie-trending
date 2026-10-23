@@ -73,6 +73,7 @@ def build_records(cfg, date, snaps):
             "new": bool(age is not None and age <= cfg["new_release_days"]),
             "price_initial": price_initial, "price_final": a.get("price_final"), "discount": discount,
             "has_demo": bool(meta.get("has_demo")), "genres": meta.get("genres") or [],
+            "desc": _desc(meta.get("short_description")),
             # SteamSpy 태그는 신작에 비어 있는 일이 많아 appdetails 장르로 대신합니다.
             "tags": list((spy.get("tags") or {}).keys())[:5] or [g for g in (meta.get("genres") or []) if g != "Indie"][:3],
             "reviews": reviews, "pct_pos": a.get("review_pct"),
@@ -160,9 +161,21 @@ def badges(r):
     return b
 
 
+DESC_LEN = 300
+
+
+def _desc(s):
+    """스토어 짧은 설명(영어 원문)을 300자로. 없으면 빈 문자열."""
+    s = (s or "").strip()
+    return s if len(s) <= DESC_LEN else s[: DESC_LEN - 1].rstrip() + "…"
+
+
 def item(r, extra=None):
-    return {"name": r["name"], "url": r["url"], "line": extra or line(r), "badges": badges(r),
-            "sub": " · ".join(x for x in (r["dev"], ", ".join(r["tags"][:3])) if x)}
+    d = {"name": r["name"], "url": r["url"], "line": extra or line(r), "badges": badges(r),
+         "sub": " · ".join(x for x in (r["dev"], ", ".join(r["tags"][:3])) if x)}
+    if r.get("desc"):
+        d["desc"] = r["desc"]
+    return d
 
 
 def analyze(cfg, date, data_dir, reports_dir):
@@ -342,6 +355,8 @@ def analyze(cfg, date, data_dir, reports_dir):
                      "links": [("Steam", pick["url"]), ("SteamDB", f"https://steamdb.info/app/{pick['appid']}/")],
                      "sub": " · ".join(x for x in (pick["dev"], ", ".join(pick["tags"][:3]), pick["release_date"]) if x),
                      "line": line(pick), "badges": badges(pick)}
+        if pick.get("desc"):
+            pick_info["desc"] = pick["desc"]
     else:
         pick_info = None
     if has_prev:
