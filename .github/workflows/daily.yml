@@ -2,8 +2,8 @@ name: daily indie trending
 
 on:
   schedule:
-    # 매일 00:05 UTC = 09:05 KST. GitHub cron 은 수 분~수십 분 늦게 돌 수 있습니다.
-    - cron: "5 0 * * *"
+    # 매일 21:47 UTC = 다음 날 06:47 KST. 정각을 피한 이른 시각으로 잡아 GitHub 예약 지연(수 시간)이 있어도 아침 안에 도착하게 합니다.
+    - cron: "47 21 * * *"
   workflow_dispatch:
     inputs:
       date:

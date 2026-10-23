@@ -2,8 +2,8 @@ name: weekly indie analysis
 
 on:
   schedule:
-    # 매주 월요일 01:00 UTC = 10:00 KST. GitHub cron 은 수 분~수십 분 늦게 돌 수 있습니다.
-    - cron: "0 1 * * 1"
+    # 매주 일요일 22:53 UTC = 월요일 07:53 KST. 정각을 피한 이른 시각으로 잡아 예약 지연이 있어도 월요일 아침 안에 도착하게 합니다.
+    - cron: "53 22 * * 0"
   workflow_dispatch:
     inputs:
       date:
