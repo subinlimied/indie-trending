@@ -1,0 +1,1536 @@
+{
+ "date": "2026-10-22",
+ "collected_at": "2026-10-23T01:36:13Z",
+ "params": {
+  "kym_hours": 48,
+  "wiki_top": 20,
+  "reddit_subs": [
+   "memes",
+   "gaming",
+   "IndieGaming",
+   "gamedev",
+   "tiktokcringe"
+  ]
+ },
+ "sources": {
+  "kym": {
+   "label": "KYM 뉴스피드",
+   "status": "ok",
+   "count": 4,
+   "items": [
+    {
+     "title": "TikTokers Are Revealing Their Most Troubling Halloween Costumes In 'I'm So Sorry' Trend",
+     "url": "https://knowyourmeme.com/memes/im-so-sorry-tiktok-trend",
+     "published": "2026-10-22T18:38:08Z",
+     "summary": "The I'm So Sorry Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original photo was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. T…",
+     "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/663/sosorrycover.jpg",
+     "platforms": [
+      "TikTok"
+     ],
+     "guid": "post:96205"
+    },
+    {
+     "title": "Critical PHP Vulnerability Discovered Using AI Patched And No Longer A Threat",
+     "url": "https://knowyourmeme.com/memes/events/php2shell-2026-php-vulnerability-hack",
+     "published": "2026-10-22T17:09:26Z",
+     "summary": "The 2026 PHP Vulnerability or PHP Hack refers to two vulnerabilities, referred to as CVE-2026-109618 and CVE-2026-109619, found in PHP code, that could have allowed a hacker to access a website's file system and database and force code on a website. The vulnerabilities were purportedly discovered b…",
+     "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/662/cvacover.jpg",
+     "platforms": [],
+     "guid": "post:96201"
+    },
+    {
+     "title": "A Code Rotted TikTok Filter Was Discovered, Inspiring Memes Freaking Out About Code Rot",
+     "url": "https://knowyourmeme.com/memes/code-rot-filter-yep-its-code-rotted-indeed",
+     "published": "2026-10-22T15:25:32Z",
+     "summary": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting videos claimi…",
+     "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/661/coderotcover.jpg",
+     "platforms": [
+      "TikTok"
+     ],
+     "guid": "post:96198"
+    },
+    {
+     "title": "Meximutt / O Algo Explained",
+     "url": "https://knowyourmeme.com/memes/meximutt-o-algo",
+     "published": "2026-10-21T22:24:30Z",
+     "summary": "Meximutt, also known as O Algo or Mateo, is a meme character derived from the Soyjak family of Wojak memes that caricatures Mexicans and Hispanic people through exaggerated facial features and stereotypical imagery. The meme is modeled after Amerimutt, a similar character used to mock Americans, an…",
+     "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/656/Screenshot_2026-10-21_152120.jpg",
+     "platforms": [],
+     "guid": "post:96197"
+    }
+   ]
+  },
+  "trends_kr": {
+   "label": "Google 트렌드 KR",
+   "status": "ok",
+   "count": 10,
+   "items": [
+    {
+     "rank": 1,
+     "title": "네이버",
+     "traffic": 20000,
+     "traffic_raw": "20000+",
+     "news_title": "네이버, 대학·입시 검색 강화…모집요강·경쟁률 한눈에",
+     "news_url": "https://www.yna.co.kr/view/AKR20261023048400017",
+     "url": "https://www.yna.co.kr/view/AKR20261023048400017",
+     "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcROtU9zb2WeSpzdRGkEwunveNFdabsaG4Vhtaiu4Zpnw7dcTRhkjDS2SsPsJUM"
+    },
+    {
+     "rank": 2,
+     "title": "독도",
+     "traffic": 1000,
+     "traffic_raw": "1000+",
+     "news_title": "울릉도에 '독도교육원' 짓는다…현장 체험형 독도교육 거점 조성",
+     "news_url": "https://www.nocutnews.co.kr/news/6595522",
+     "url": "https://www.nocutnews.co.kr/news/6595522",
+     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSJiXz5bORhiIrl-sBfYMe_ssdJaqDr2HFc2GWwqttTqJobzkG8LCWLkDw5st0"
+    },
+    {
+     "rank": 3,
+     "title": "하나은행",
+     "traffic": 500,
+     "traffic_raw": "500+",
+     "news_title": "하나은행, 신보와 사회적기업에 200억원 규모 보증 지원",
+     "news_url": "https://www.yna.co.kr/view/AKR20261022064500002",
+     "url": "https://www.yna.co.kr/view/AKR20261022064500002",
+     "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR8jA3X1CNB3cksfqJjp1xJg5h0Evf0LBa6EcnudllIzdt3SAUrbP4YQZB3AwQ"
+    },
+    {
+     "rank": 4,
+     "title": "국민은행",
+     "traffic": 500,
+     "traffic_raw": "500+",
+     "news_title": "KB국민은행, 중국서도 'KB스타뱅킹'으로 QR 결제",
+     "news_url": "https://www.newsis.com/view/NISX20261022_0003837263",
+     "url": "https://www.newsis.com/view/NISX20261022_0003837263",
+     "picture": ""
+    },
+    {
+     "rank": 5,
+     "title": "카드뉴스",
+     "traffic": 100,
+     "traffic_raw": "100+",
+     "news_title": "인구전략위원회, 국민으로부터 인구관련 정책 아이디어를 직접 듣는 첫 토론회 개최",
+     "news_url": "https://go.seoul.co.kr/news/prnewsView.php?id=452593",
+     "url": "https://go.seoul.co.kr/news/prnewsView.php?id=452593",
+     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfr9kiT0WrIe6iG_gVfMiki5W5t8jHAg0NWQyE7R38twdcSVHy3ScL4PstbWA"
+    },
+    {
+     "rank": 6,
+     "title": "디티에스",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "[특징주] 디티에스, 코스닥 상장 첫날 장초반 '따블'",
+     "news_url": "https://www.yna.co.kr/view/AKR20261023040100008",
+     "url": "https://www.yna.co.kr/view/AKR20261023040100008",
+     "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSDIY0NQd5ZAXO-7Uu3n7sEU9vQkTtI_aCNnInzax2ct07B3N67OePfAvzEPA"
+    },
+    {
+     "rank": 7,
+     "title": "임윤찬",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "시흥 출신 임윤찬, 시흥아트센터 개관 첫 무대 선보여",
+     "news_url": "https://www.kyeonggi.com/article/20261023580044",
+     "url": "https://www.kyeonggi.com/article/20261023580044",
+     "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQSXckDmwJNpMXasf_3QJJmRWGreWeIe2cMyTM6CQPgJXzXTOwj70y6j3ekq9U"
+    },
+    {
+     "rank": 8,
+     "title": "우리은행",
+     "traffic": 1000,
+     "traffic_raw": "1000+",
+     "news_title": "우리은행, 모바일 신분증 발급 고객에 최대 10만원 쏜다",
+     "news_url": "https://www.newspim.com/news/view/20261023000266",
+     "url": "https://www.newspim.com/news/view/20261023000266",
+     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTUvxcRjW2XYUX4QBE2nhX86MMV2URxf2M3z5ZjLsgeFDz4qV6_HJTzgvktC7w"
+    },
+    {
+     "rank": 9,
+     "title": "다음",
+     "traffic": 5000,
+     "traffic_raw": "5000+",
+     "news_title": "스테이블코인 다음은 토큰화이다[MT시평/정구태] - 머니투데이",
+     "news_url": "https://www.mt.co.kr/opinion/2026/10/23/2026102113195832864",
+     "url": "https://www.mt.co.kr/opinion/2026/10/23/2026102113195832864",
+     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT3ZvKhA9LYCZNtuaXq3b8-jwaeBunAwXmVtEQE-bnV6CmnLsv4JABv6QEKQqA"
+    },
+    {
+     "rank": 10,
+     "title": "줌",
+     "traffic": 100,
+     "traffic_raw": "100+",
+     "news_title": "줌 \"회의 넘어 업무 실행까지\"…아태 기업용 AI 강화",
+     "news_url": "https://zdnet.co.kr/view/?no=20261022130731",
+     "url": "https://zdnet.co.kr/view/?no=20261022130731",
+     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSZDX8y3bWTAci0vYQQQhlfv91gvU8lSOOjIGHinTbHG0QNjtmsudIWFAQEdus"
+    }
+   ]
+  },
+  "trends_us": {
+   "label": "Google 트렌드 US",
+   "status": "ok",
+   "count": 10,
+   "items": [
+    {
+     "rank": 1,
+     "title": "kentavious caldwell-pope",
+     "traffic": 1000,
+     "traffic_raw": "1000+",
+     "news_title": "Tyrese Maxey keeps it real about Kentavious Caldwell-Pope after 76ers win vs. Knicks",
+     "news_url": "https://sports.yahoo.com/articles/tyrese-maxey-keeps-real-kentavious-073009591.html",
+     "url": "https://sports.yahoo.com/articles/tyrese-maxey-keeps-real-kentavious-073009591.html",
+     "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2gwOsGm7j7OhchAZ4UXkpvtDMVUcYBrAenRlV3N3YHreyIxuwyecZRfXvNZ8"
+    },
+    {
+     "rank": 2,
+     "title": "gavin newsom",
+     "traffic": 500,
+     "traffic_raw": "500+",
+     "news_title": "Op-ed | California Has Not Repented. It Has Only Paused.",
+     "news_url": "https://davisvanguard.org/2026/10/hood-calls-newsom-commute-sentences/",
+     "url": "https://davisvanguard.org/2026/10/hood-calls-newsom-commute-sentences/",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYSdRMCj2WoG_ARTcJ6ypKwzhTtkPMtGjOnkQevHXjyXKiTpP-hUUoZALTHb8"
+    },
+    {
+     "rank": 3,
+     "title": "christine ebersole",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "Elsbeth Season 4 Episode 2 Recap: “Death of a Playwright” Unravels a Family Legacy",
+     "news_url": "https://www.imdb.com/news/ni66065813/?ref_=ttnw_art_perm",
+     "url": "https://www.imdb.com/news/ni66065813/?ref_=ttnw_art_perm",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSnW64BjE3sZ4GBtoCDgPzMwkk55zvrnNZI4vki4fEjMMYmf50b4lUfCBXvmqg"
+    },
+    {
+     "rank": 4,
+     "title": "drake may",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "Re-drafting top 10 of the 2024 NFL Draft: Caleb Williams holds onto top spot, Drake Maye moves up",
+     "news_url": "https://www.cbssports.com/nfl/news/re-drafting-top-10-2024-nfl-draft-caleb-williams-drake-maye/",
+     "url": "https://www.cbssports.com/nfl/news/re-drafting-top-10-2024-nfl-draft-caleb-williams-drake-maye/",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTKq8ygA-GheBVOpAEBcgLMyFaxS7Gjrcp9EmnGMMoA6I94ub5IbDXw-7IrQww"
+    },
+    {
+     "rank": 5,
+     "title": "red wings vs canucks",
+     "traffic": 1000,
+     "traffic_raw": "1000+",
+     "news_title": "How to watch Red Wings vs. Canucks: TV channel and streaming options for October 22",
+     "news_url": "https://www.nytimes.com/athletic/7714967/2026/10/22/red-wings-vs-canucks-stream-how-to-watch-oct-22/",
+     "url": "https://www.nytimes.com/athletic/7714967/2026/10/22/red-wings-vs-canucks-stream-how-to-watch-oct-22/",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8gKruQS8SAbLnhQgCXfqypCOdh6S9trUwniriH5_kZ5G1-8KCh0nni5UUu70"
+    },
+    {
+     "rank": 6,
+     "title": "jennifer siebel newsom",
+     "traffic": 2000,
+     "traffic_raw": "2000+",
+     "news_title": "Jennifer Siebel Newsom Thinks It’s Time Tech Leaders Faced Accountability: “We’ve Let These Guys Go Unregulated for Too Long”",
+     "news_url": "https://www.hollywoodreporter.com/movies/movie-news/jennifer-siebel-newsom-tech-leaders-accountable-1236736747/",
+     "url": "https://www.hollywoodreporter.com/movies/movie-news/jennifer-siebel-newsom-tech-leaders-accountable-1236736747/",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUarjpanHmjkBHn3uLj9v7TaTmee62C0q6su_Mkc7oNlRzBRYvnoaL6elNs1c"
+    },
+    {
+     "rank": 7,
+     "title": "mammoth vs kraken",
+     "traffic": 1000,
+     "traffic_raw": "1000+",
+     "news_title": "Kraken (6-3-1) Mammoth (7-3-0) | 7:00 p.m.",
+     "news_url": "https://www.nhl.com/kraken/news/utah-mammoth-vs-seattle-kraken-game-preview-projected-lines-102226",
+     "url": "https://www.nhl.com/kraken/news/utah-mammoth-vs-seattle-kraken-game-preview-projected-lines-102226",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTRihryx9R_prwK_zC79l9Ijouw9o9BhlyhBxpXf40Ns9FTph10XM1Hr1vsuc"
+    },
+    {
+     "rank": 8,
+     "title": "anfernee simons",
+     "traffic": 2000,
+     "traffic_raw": "2000+",
+     "news_title": "This year’s Sixers aren’t just their star-studded starting five",
+     "news_url": "https://www.libertyballers.com/76ers-analysis/99546/sixers-star-studded-starting-five-bench-anfernee-simons-kentavious-caldwell-pope",
+     "url": "https://www.libertyballers.com/76ers-analysis/99546/sixers-star-studded-starting-five-bench-anfernee-simons-kentavious-caldwell-pope",
+     "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQWz2ByIkFsT8U2fbcEGcERdlM2NxllK6UMHJyH1hEUoN0AxkRRhMFiTddxnjI"
+    },
+    {
+     "rank": 9,
+     "title": "joe thuney",
+     "traffic": 1000,
+     "traffic_raw": "1000+",
+     "news_title": "Joe Thuney trade revisited: How Bears, Chiefs both came out as winners",
+     "news_url": "https://www.cbssports.com/nfl/news/joe-thuney-trade-revisited-bears-caleb-williams-chiefs/",
+     "url": "https://www.cbssports.com/nfl/news/joe-thuney-trade-revisited-bears-caleb-williams-chiefs/",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWEwW3kycoXyv90VNTrMmM0v8bQXyK7jbGMzHyWv2y-_5mRb8fjGMgXVJisG0"
+    },
+    {
+     "rank": 10,
+     "title": "adem bona",
+     "traffic": 500,
+     "traffic_raw": "500+",
+     "news_title": "76ers' Adem Bona: Limited to 10 minutes",
+     "news_url": "https://www.cbssports.com/fantasy/basketball/news/76ers-adem-bona-limited-to-10-minutes/",
+     "url": "https://www.cbssports.com/fantasy/basketball/news/76ers-adem-bona-limited-to-10-minutes/",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVhHLJecR8jZcn2DFNWuWPyprAXrk4VuZxLrfo9e2d1uZ5ykEOnBpvHGHR-Rg"
+    }
+   ]
+  },
+  "wiki_en": {
+   "label": "위키백과 en",
+   "status": "ok",
+   "count": 20,
+   "items": [
+    {
+     "title": "Jailer 2",
+     "views": 278796,
+     "rank": 1,
+     "src_rank": 4,
+     "url": "https://en.wikipedia.org/wiki/Jailer_2"
+    },
+    {
+     "title": "PHP2Shell",
+     "views": 238212,
+     "rank": 2,
+     "src_rank": 5,
+     "url": "https://en.wikipedia.org/wiki/PHP2Shell"
+    },
+    {
+     "title": "Elizabeth Holmes",
+     "views": 208412,
+     "rank": 3,
+     "src_rank": 6,
+     "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+    },
+    {
+     "title": "Aberfan disaster",
+     "views": 187692,
+     "rank": 4,
+     "src_rank": 7,
+     "url": "https://en.wikipedia.org/wiki/Aberfan_disaster"
+    },
+    {
+     "title": "Heath Ledger",
+     "views": 177482,
+     "rank": 5,
+     "src_rank": 8,
+     "url": "https://en.wikipedia.org/wiki/Heath_Ledger"
+    },
+    {
+     "title": "BioWare",
+     "views": 170992,
+     "rank": 6,
+     "src_rank": 9,
+     "url": "https://en.wikipedia.org/wiki/BioWare"
+    },
+    {
+     "title": "You Can See Everything",
+     "views": 170153,
+     "rank": 7,
+     "src_rank": 10,
+     "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything"
+    },
+    {
+     "title": "ChatGPT",
+     "views": 163328,
+     "rank": 8,
+     "src_rank": 11,
+     "url": "https://en.wikipedia.org/wiki/ChatGPT"
+    },
+    {
+     "title": "Amy Acton",
+     "views": 158230,
+     "rank": 9,
+     "src_rank": 12,
+     "url": "https://en.wikipedia.org/wiki/Amy_Acton"
+    },
+    {
+     "title": "Helen Haines",
+     "views": 154476,
+     "rank": 10,
+     "src_rank": 13,
+     "url": "https://en.wikipedia.org/wiki/Helen_Haines"
+    },
+    {
+     "title": "Dancing with the Stars (American TV series) season 35",
+     "views": 151353,
+     "rank": 11,
+     "src_rank": 14,
+     "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_%28American_TV_series%29_season_35"
+    },
+    {
+     "title": "Deaths in 2026",
+     "views": 131170,
+     "rank": 12,
+     "src_rank": 15,
+     "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
+    },
+    {
+     "title": "Vivek Ramaswamy",
+     "views": 126859,
+     "rank": 13,
+     "src_rank": 16,
+     "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
+    },
+    {
+     "title": "VisionQuest",
+     "views": 123339,
+     "rank": 14,
+     "src_rank": 17,
+     "url": "https://en.wikipedia.org/wiki/VisionQuest"
+    },
+    {
+     "title": "Como 1907",
+     "views": 113033,
+     "rank": 15,
+     "src_rank": 18,
+     "url": "https://en.wikipedia.org/wiki/Como_1907"
+    },
+    {
+     "title": "Kim Jong Un",
+     "views": 107182,
+     "rank": 16,
+     "src_rank": 19,
+     "url": "https://en.wikipedia.org/wiki/Kim_Jong_Un"
+    },
+    {
+     "title": "Clayface (film)",
+     "views": 105904,
+     "rank": 17,
+     "src_rank": 20,
+     "url": "https://en.wikipedia.org/wiki/Clayface_%28film%29"
+    },
+    {
+     "title": "Julia Stiles",
+     "views": 92740,
+     "rank": 18,
+     "src_rank": 21,
+     "url": "https://en.wikipedia.org/wiki/Julia_Stiles"
+    },
+    {
+     "title": "Street Fighter (2026 film)",
+     "views": 88932,
+     "rank": 19,
+     "src_rank": 22,
+     "url": "https://en.wikipedia.org/wiki/Street_Fighter_%282026_film%29"
+    },
+    {
+     "title": "PHP",
+     "views": 87141,
+     "rank": 20,
+     "src_rank": 23,
+     "url": "https://en.wikipedia.org/wiki/PHP"
+    }
+   ],
+   "day": "2026-10-21"
+  },
+  "wiki_ko": {
+   "label": "위키백과 ko",
+   "status": "ok",
+   "count": 20,
+   "items": [
+    {
+     "title": "문화방송",
+     "views": 16930,
+     "rank": 1,
+     "src_rank": 2,
+     "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1"
+    },
+    {
+     "title": "루카 모드리치",
+     "views": 10499,
+     "rank": 2,
+     "src_rank": 4,
+     "url": "https://ko.wikipedia.org/wiki/%EB%A3%A8%EC%B9%B4_%EB%AA%A8%EB%93%9C%EB%A6%AC%EC%B9%98"
+    },
+    {
+     "title": "한국방송공사",
+     "views": 9499,
+     "rank": 3,
+     "src_rank": 5,
+     "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EB%B0%A9%EC%86%A1%EA%B3%B5%EC%82%AC"
+    },
+    {
+     "title": "한국교육방송공사",
+     "views": 5607,
+     "rank": 4,
+     "src_rank": 6,
+     "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EA%B5%90%EC%9C%A1%EB%B0%A9%EC%86%A1%EA%B3%B5%EC%82%AC"
+    },
+    {
+     "title": "이윤형 (1979년)",
+     "views": 4897,
+     "rank": 5,
+     "src_rank": 7,
+     "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%9C%A4%ED%98%95_%281979%EB%85%84%29"
+    },
+    {
+     "title": "김정은",
+     "views": 2188,
+     "rank": 6,
+     "src_rank": 8,
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%A0%95%EC%9D%80"
+    },
+    {
+     "title": "유홍준",
+     "views": 2057,
+     "rank": 7,
+     "src_rank": 9,
+     "url": "https://ko.wikipedia.org/wiki/%EC%9C%A0%ED%99%8D%EC%A4%80"
+    },
+    {
+     "title": "강헌 (음악 평론가)",
+     "views": 2053,
+     "rank": 8,
+     "src_rank": 10,
+     "url": "https://ko.wikipedia.org/wiki/%EA%B0%95%ED%97%8C_%28%EC%9D%8C%EC%95%85_%ED%8F%89%EB%A1%A0%EA%B0%80%29"
+    },
+    {
+     "title": "박세영 (배우)",
+     "views": 2048,
+     "rank": 9,
+     "src_rank": 11,
+     "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%84%B8%EC%98%81_%28%EB%B0%B0%EC%9A%B0%29"
+    },
+    {
+     "title": "강신일",
+     "views": 1914,
+     "rank": 10,
+     "src_rank": 12,
+     "url": "https://ko.wikipedia.org/wiki/%EA%B0%95%EC%8B%A0%EC%9D%BC"
+    },
+    {
+     "title": "2026년 프랑스 학생 시위",
+     "views": 1846,
+     "rank": 11,
+     "src_rank": 13,
+     "url": "https://ko.wikipedia.org/wiki/2026%EB%85%84_%ED%94%84%EB%9E%91%EC%8A%A4_%ED%95%99%EC%83%9D_%EC%8B%9C%EC%9C%84"
+    },
+    {
+     "title": "5·18 광주 민주화 운동",
+     "views": 1754,
+     "rank": 12,
+     "src_rank": 14,
+     "url": "https://ko.wikipedia.org/wiki/5%C2%B718_%EA%B4%91%EC%A3%BC_%EB%AF%BC%EC%A3%BC%ED%99%94_%EC%9A%B4%EB%8F%99"
+    },
+    {
+     "title": "합동태풍경보센터",
+     "views": 1687,
+     "rank": 13,
+     "src_rank": 15,
+     "url": "https://ko.wikipedia.org/wiki/%ED%95%A9%EB%8F%99%ED%83%9C%ED%92%8D%EA%B2%BD%EB%B3%B4%EC%84%BC%ED%84%B0"
+    },
+    {
+     "title": "임진모",
+     "views": 1650,
+     "rank": 14,
+     "src_rank": 16,
+     "url": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%A7%84%EB%AA%A8"
+    },
+    {
+     "title": "김여정",
+     "views": 1641,
+     "rank": 15,
+     "src_rank": 17,
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%97%AC%EC%A0%95"
+    },
+    {
+     "title": "김용준 (가수)",
+     "views": 1576,
+     "rank": 16,
+     "src_rank": 18,
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%9A%A9%EC%A4%80_%28%EA%B0%80%EC%88%98%29"
+    },
+    {
+     "title": "박진영 (1994년)",
+     "views": 1489,
+     "rank": 17,
+     "src_rank": 20,
+     "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%84%EC%98%81_%281994%EB%85%84%29"
+    },
+    {
+     "title": "고려제약",
+     "views": 1378,
+     "rank": 18,
+     "src_rank": 21,
+     "url": "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A0%A4%EC%A0%9C%EC%95%BD"
+    },
+    {
+     "title": "김도영 (2003년)",
+     "views": 1355,
+     "rank": 19,
+     "src_rank": 22,
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%8F%84%EC%98%81_%282003%EB%85%84%29"
+    },
+    {
+     "title": "대한민국",
+     "views": 1308,
+     "rank": 20,
+     "src_rank": 23,
+     "url": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD"
+    }
+   ],
+   "day": "2026-10-21"
+  },
+  "reddit_memes": {
+   "label": "Reddit r/memes",
+   "status": "ok",
+   "count": 8,
+   "items": [
+    {
+     "rank": 1,
+     "title": "Enjoy it while it lasts......",
+     "url": "https://www.reddit.com/r/memes/comments/1xclxoh/enjoy_it_while_it_lasts/"
+    },
+    {
+     "rank": 2,
+     "title": "No sympathy from me",
+     "url": "https://www.reddit.com/r/memes/comments/1xcx4yj/no_sympathy_from_me/"
+    },
+    {
+     "rank": 3,
+     "title": "It's everywhere",
+     "url": "https://www.reddit.com/r/memes/comments/1xcd4py/its_everywhere/"
+    },
+    {
+     "rank": 4,
+     "title": "Bye Adobe and Microslop",
+     "url": "https://www.reddit.com/r/memes/comments/1xcaeqz/bye_adobe_and_microslop/"
+    },
+    {
+     "rank": 5,
+     "title": "Ur girlfriend is french iguess...",
+     "url": "https://www.reddit.com/r/memes/comments/1xciu86/ur_girlfriend_is_french_iguess/"
+    },
+    {
+     "rank": 6,
+     "title": "Me when I can't find my phone :",
+     "url": "https://www.reddit.com/r/memes/comments/1xcju4c/me_when_i_cant_find_my_phone/"
+    },
+    {
+     "rank": 7,
+     "title": "Relatable ain't it?",
+     "url": "https://www.reddit.com/r/memes/comments/1xcss8n/relatable_aint_it/"
+    },
+    {
+     "rank": 8,
+     "title": "grandpa you can't say that",
+     "url": "https://www.reddit.com/r/memes/comments/1xcv0p3/grandpa_you_cant_say_that/"
+    }
+   ]
+  },
+  "reddit_gaming": {
+   "label": "Reddit r/gaming",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "count": 0,
+   "items": []
+  },
+  "reddit_indiegaming": {
+   "label": "Reddit r/IndieGaming",
+   "status": "ok",
+   "count": 8,
+   "items": [
+    {
+     "rank": 1,
+     "title": "Working on a little simulated ecosystem game that is in the jar on your desktop. What do you think?",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xclwyi/working_on_a_little_simulated_ecosystem_game_that/"
+    },
+    {
+     "rank": 2,
+     "title": "I'm a solo dev creating a Mexican Folklore Horror game inspired by Resident Evil, Silent Hill and a real life location in Mexico - Here's the new trailer I made! What do you think?",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xcngnn/im_a_solo_dev_creating_a_mexican_folklore_horror/"
+    },
+    {
+     "rank": 3,
+     "title": "I spent 10 years making this hardcore action RPG and it has finally launched a demo on Steamfest",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xcezc5/i_spent_10_years_making_this_hardcore_action_rpg/"
+    },
+    {
+     "rank": 4,
+     "title": "After two years of hard work, passion, and lots of love, Cutout Village is now available in Steam Early Access!",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xccik1/after_two_years_of_hard_work_passion_and_lots_of/"
+    },
+    {
+     "rank": 5,
+     "title": "A hand-crafted fantasy RPG, made by just 2 people",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xccwgk/a_handcrafted_fantasy_rpg_made_by_just_2_people/"
+    },
+    {
+     "rank": 6,
+     "title": "Releasing my rock band management game in two weeks",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xcokp5/releasing_my_rock_band_management_game_in_two/"
+    },
+    {
+     "rank": 7,
+     "title": "10 years ago I started out as a composer, today I'm a lead developer. I've been so busy I only just started on the music, have I still got it?",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xch8r2/10_years_ago_i_started_out_as_a_composer_today_im/"
+    },
+    {
+     "rank": 8,
+     "title": "Who needs coworkers when you have a tiny pixel guy living on your desktop?",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xc696n/who_needs_coworkers_when_you_have_a_tiny_pixel/"
+    }
+   ]
+  },
+  "reddit_gamedev": {
+   "label": "Reddit r/gamedev",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "count": 0,
+   "items": []
+  },
+  "reddit_tiktokcringe": {
+   "label": "Reddit r/tiktokcringe",
+   "status": "ok",
+   "count": 8,
+   "items": [
+    {
+     "rank": 1,
+     "title": "Air bnb hosts crashing out about new rules",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xctpfn/air_bnb_hosts_crashing_out_about_new_rules/"
+    },
+    {
+     "rank": 2,
+     "title": "Creep risks his life to record neighbor non consensually",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xckfrv/creep_risks_his_life_to_record_neighbor_non/"
+    },
+    {
+     "rank": 3,
+     "title": "I don’t think Shanon likes candle dipping 😭",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xcfqzf/i_dont_think_shanon_likes_candle_dipping/"
+    },
+    {
+     "rank": 4,
+     "title": "Asking a German if they speak English",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xclzfp/asking_a_german_if_they_speak_english/"
+    },
+    {
+     "rank": 5,
+     "title": "Dad turns up at the house of son's bully",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xcc7o2/dad_turns_up_at_the_house_of_sons_bully/"
+    },
+    {
+     "rank": 6,
+     "title": "New Product",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xc7qxl/new_product/"
+    },
+    {
+     "rank": 7,
+     "title": "Me fr",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xcoyju/me_fr/"
+    },
+    {
+     "rank": 8,
+     "title": "Nobody calls Morpheus Larry",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xccumb/nobody_calls_morpheus_larry/"
+    }
+   ]
+  },
+  "imgflip": {
+   "label": "Imgflip 템플릿",
+   "status": "ok",
+   "count": 100,
+   "items": [
+    {
+     "rank": 1,
+     "id": "181913649",
+     "name": "Drake Hotline Bling",
+     "url": "https://i.imgflip.com/30b1gx.jpg",
+     "box_count": 2,
+     "captions": 1579000
+    },
+    {
+     "rank": 2,
+     "id": "87743020",
+     "name": "Two Buttons",
+     "url": "https://i.imgflip.com/1g8my4.jpg",
+     "box_count": 3,
+     "captions": 1227250
+    },
+    {
+     "rank": 3,
+     "id": "112126428",
+     "name": "Distracted Boyfriend",
+     "url": "https://i.imgflip.com/1ur9b0.jpg",
+     "box_count": 3,
+     "captions": 1201500
+    },
+    {
+     "rank": 4,
+     "id": "222403160",
+     "name": "Bernie I Am Once Again Asking For Your Support",
+     "url": "https://i.imgflip.com/3oevdk.jpg",
+     "box_count": 2,
+     "captions": 357250
+    },
+    {
+     "rank": 5,
+     "id": "217743513",
+     "name": "UNO Draw 25 Cards",
+     "url": "https://i.imgflip.com/3lmzyx.jpg",
+     "box_count": 2,
+     "captions": 668500
+    },
+    {
+     "rank": 6,
+     "id": "252600902",
+     "name": "Always Has Been",
+     "url": "https://i.imgflip.com/46e43q.png",
+     "box_count": 2,
+     "captions": 251500
+    },
+    {
+     "rank": 7,
+     "id": "124822590",
+     "name": "Left Exit 12 Off Ramp",
+     "url": "https://i.imgflip.com/22bdq6.jpg",
+     "box_count": 3,
+     "captions": 747750
+    },
+    {
+     "rank": 8,
+     "id": "322841258",
+     "name": "Anakin Padme 4 Panel",
+     "url": "https://i.imgflip.com/5c7lwq.png",
+     "box_count": 3,
+     "captions": 156500
+    },
+    {
+     "rank": 9,
+     "id": "135256802",
+     "name": "Epic Handshake",
+     "url": "https://i.imgflip.com/28j0te.jpg",
+     "box_count": 3,
+     "captions": 272000
+    },
+    {
+     "rank": 10,
+     "id": "131940431",
+     "name": "Gru's Plan",
+     "url": "https://i.imgflip.com/26jxvz.jpg",
+     "box_count": 4,
+     "captions": 388750
+    },
+    {
+     "rank": 11,
+     "id": "97984",
+     "name": "Disaster Girl",
+     "url": "https://i.imgflip.com/23ls.jpg",
+     "box_count": 2,
+     "captions": 444750
+    },
+    {
+     "rank": 12,
+     "id": "131087935",
+     "name": "Running Away Balloon",
+     "url": "https://i.imgflip.com/261o3j.jpg",
+     "box_count": 5,
+     "captions": 606750
+    },
+    {
+     "rank": 13,
+     "id": "4087833",
+     "name": "Waiting Skeleton",
+     "url": "https://i.imgflip.com/2fm6x.jpg",
+     "box_count": 2,
+     "captions": 499250
+    },
+    {
+     "rank": 14,
+     "id": "80707627",
+     "name": "Sad Pablo Escobar",
+     "url": "https://i.imgflip.com/1c1uej.jpg",
+     "box_count": 3,
+     "captions": 261000
+    },
+    {
+     "rank": 15,
+     "id": "91538330",
+     "name": "X, X Everywhere",
+     "url": "https://i.imgflip.com/1ihzfe.jpg",
+     "box_count": 2,
+     "captions": 413000
+    },
+    {
+     "rank": 16,
+     "id": "309868304",
+     "name": "Trade Offer",
+     "url": "https://i.imgflip.com/54hjww.jpg",
+     "box_count": 3,
+     "captions": 133750
+    },
+    {
+     "rank": 17,
+     "id": "124055727",
+     "name": "Y'all Got Any More Of That",
+     "url": "https://i.imgflip.com/21uy0f.jpg",
+     "box_count": 2,
+     "captions": 235000
+    },
+    {
+     "rank": 18,
+     "id": "188390779",
+     "name": "Woman Yelling At Cat",
+     "url": "https://i.imgflip.com/345v97.jpg",
+     "box_count": 2,
+     "captions": 411500
+    },
+    {
+     "rank": 19,
+     "id": "129242436",
+     "name": "Change My Mind",
+     "url": "https://i.imgflip.com/24y43o.jpg",
+     "box_count": 2,
+     "captions": 681500
+    },
+    {
+     "rank": 20,
+     "id": "224015000",
+     "name": "Bernie Sanders Once Again Asking",
+     "url": "https://i.imgflip.com/3pdf2w.png",
+     "box_count": 2,
+     "captions": 70500
+    },
+    {
+     "rank": 21,
+     "id": "438680",
+     "name": "Batman Slapping Robin",
+     "url": "https://i.imgflip.com/9ehk.jpg",
+     "box_count": 2,
+     "captions": 672500
+    },
+    {
+     "rank": 22,
+     "id": "161865971",
+     "name": "Marked Safe From",
+     "url": "https://i.imgflip.com/2odckz.jpg",
+     "box_count": 2,
+     "captions": 234000
+    },
+    {
+     "rank": 23,
+     "id": "102156234",
+     "name": "Mocking Spongebob",
+     "url": "https://i.imgflip.com/1otk96.jpg",
+     "box_count": 2,
+     "captions": 458750
+    },
+    {
+     "rank": 24,
+     "id": "101470",
+     "name": "Ancient Aliens",
+     "url": "https://i.imgflip.com/26am.jpg",
+     "box_count": 2,
+     "captions": 388250
+    },
+    {
+     "rank": 25,
+     "id": "79132341",
+     "name": "Bike Fall",
+     "url": "https://i.imgflip.com/1b42wl.jpg",
+     "box_count": 3,
+     "captions": 149000
+    },
+    {
+     "rank": 26,
+     "id": "100777631",
+     "name": "Is This A Pigeon",
+     "url": "https://i.imgflip.com/1o00in.jpg",
+     "box_count": 3,
+     "captions": 244250
+    },
+    {
+     "rank": 27,
+     "id": "61579",
+     "name": "One Does Not Simply",
+     "url": "https://i.imgflip.com/1bij.jpg",
+     "box_count": 2,
+     "captions": 495500
+    },
+    {
+     "rank": 28,
+     "id": "247375501",
+     "name": "Buff Doge vs. Cheems",
+     "url": "https://i.imgflip.com/43a45p.png",
+     "box_count": 4,
+     "captions": 387000
+    },
+    {
+     "rank": 29,
+     "id": "427308417",
+     "name": "0 days without (Lenny, Simpsons)",
+     "url": "https://i.imgflip.com/72epa9.png",
+     "box_count": 2,
+     "captions": 50250
+    },
+    {
+     "rank": 30,
+     "id": "180190441",
+     "name": "They're The Same Picture",
+     "url": "https://i.imgflip.com/2za3u1.jpg",
+     "box_count": 3,
+     "captions": 191750
+    },
+    {
+     "rank": 31,
+     "id": "177682295",
+     "name": "You Guys are Getting Paid",
+     "url": "https://i.imgflip.com/2xscjb.png",
+     "box_count": 2,
+     "captions": 75250
+    },
+    {
+     "rank": 32,
+     "id": "3218037",
+     "name": "This Is Where I'd Put My Trophy If I Had One",
+     "url": "https://i.imgflip.com/1wz1x.jpg",
+     "box_count": 2,
+     "captions": 166250
+    },
+    {
+     "rank": 33,
+     "id": "93895088",
+     "name": "Expanding Brain",
+     "url": "https://i.imgflip.com/1jwhww.jpg",
+     "box_count": 4,
+     "captions": 485750
+    },
+    {
+     "rank": 34,
+     "id": "252758727",
+     "name": "Mother Ignoring Kid Drowning In A Pool",
+     "url": "https://i.imgflip.com/46hhvr.jpg",
+     "box_count": 4,
+     "captions": 81500
+    },
+    {
+     "rank": 35,
+     "id": "505705955",
+     "name": "Absolute Cinema",
+     "url": "https://i.imgflip.com/8d317n.png",
+     "box_count": 2,
+     "captions": 33250
+    },
+    {
+     "rank": 36,
+     "id": "28251713",
+     "name": "Oprah You Get A",
+     "url": "https://i.imgflip.com/gtj5t.jpg",
+     "box_count": 2,
+     "captions": 227750
+    },
+    {
+     "rank": 37,
+     "id": "67452763",
+     "name": "Squidward window",
+     "url": "https://i.imgflip.com/145qvv.jpg",
+     "box_count": 2,
+     "captions": 71250
+    },
+    {
+     "rank": 38,
+     "id": "178591752",
+     "name": "Tuxedo Winnie The Pooh",
+     "url": "https://i.imgflip.com/2ybua0.png",
+     "box_count": 2,
+     "captions": 289000
+    },
+    {
+     "rank": 39,
+     "id": "370867422",
+     "name": "Megamind peeking",
+     "url": "https://i.imgflip.com/64sz4u.png",
+     "box_count": 2,
+     "captions": 103750
+    },
+    {
+     "rank": 40,
+     "id": "55311130",
+     "name": "This Is Fine",
+     "url": "https://i.imgflip.com/wxica.jpg",
+     "box_count": 2,
+     "captions": 166750
+    },
+    {
+     "rank": 41,
+     "id": "77045868",
+     "name": "Pawn Stars Best I Can Do",
+     "url": "https://i.imgflip.com/19vcz0.jpg",
+     "box_count": 2,
+     "captions": 57500
+    },
+    {
+     "rank": 42,
+     "id": "110163934",
+     "name": "I Bet He's Thinking About Other Women",
+     "url": "https://i.imgflip.com/1tl71a.jpg",
+     "box_count": 2,
+     "captions": 190250
+    },
+    {
+     "rank": 43,
+     "id": "208915813",
+     "name": "George Bush 9/11",
+     "url": "https://i.imgflip.com/3gdsh1.jpg",
+     "box_count": 2,
+     "captions": 31000
+    },
+    {
+     "rank": 44,
+     "id": "284929871",
+     "name": "They don't know",
+     "url": "https://i.imgflip.com/4pn1an.png",
+     "box_count": 2,
+     "captions": 52000
+    },
+    {
+     "rank": 45,
+     "id": "533936279",
+     "name": "Bell Curve",
+     "url": "https://i.imgflip.com/8tw3vb.png",
+     "box_count": 3,
+     "captions": 38750
+    },
+    {
+     "rank": 46,
+     "id": "171305372",
+     "name": "Soldier protecting sleeping child",
+     "url": "https://i.imgflip.com/2tzo2k.jpg",
+     "box_count": 3,
+     "captions": 49750
+    },
+    {
+     "rank": 47,
+     "id": "148909805",
+     "name": "Monkey Puppet",
+     "url": "https://i.imgflip.com/2gnnjh.jpg",
+     "box_count": 2,
+     "captions": 233500
+    },
+    {
+     "rank": 48,
+     "id": "354700819",
+     "name": "Two guys on a bus",
+     "url": "https://i.imgflip.com/5v6gwj.jpg",
+     "box_count": 2,
+     "captions": 32000
+    },
+    {
+     "rank": 49,
+     "id": "89370399",
+     "name": "Roll Safe Think About It",
+     "url": "https://i.imgflip.com/1h7in3.jpg",
+     "box_count": 2,
+     "captions": 346000
+    },
+    {
+     "rank": 50,
+     "id": "163573",
+     "name": "Imagination Spongebob",
+     "url": "https://i.imgflip.com/3i7p.jpg",
+     "box_count": 2,
+     "captions": 79250
+    },
+    {
+     "rank": 51,
+     "id": "27813981",
+     "name": "Hide the Pain Harold",
+     "url": "https://i.imgflip.com/gk5el.jpg",
+     "box_count": 2,
+     "captions": 247250
+    },
+    {
+     "rank": 52,
+     "id": "195515965",
+     "name": "Clown Applying Makeup",
+     "url": "https://i.imgflip.com/38el31.jpg",
+     "box_count": 4,
+     "captions": 132500
+    },
+    {
+     "rank": 53,
+     "id": "206151308",
+     "name": "Spider Man Triple",
+     "url": "https://i.imgflip.com/3eqjd8.jpg",
+     "box_count": 3,
+     "captions": 46750
+    },
+    {
+     "rank": 54,
+     "id": "316466202",
+     "name": "where monkey",
+     "url": "https://i.imgflip.com/58eyvu.png",
+     "box_count": 2,
+     "captions": 65500
+    },
+    {
+     "rank": 55,
+     "id": "137501417",
+     "name": "Friendship ended",
+     "url": "https://i.imgflip.com/29v4rt.jpg",
+     "box_count": 2,
+     "captions": 41000
+    },
+    {
+     "rank": 56,
+     "id": "84341851",
+     "name": "Evil Kermit",
+     "url": "https://i.imgflip.com/1e7ql7.jpg",
+     "box_count": 2,
+     "captions": 167500
+    },
+    {
+     "rank": 57,
+     "id": "1035805",
+     "name": "Boardroom Meeting Suggestion",
+     "url": "https://i.imgflip.com/m78d.jpg",
+     "box_count": 4,
+     "captions": 413500
+    },
+    {
+     "rank": 58,
+     "id": "187102311",
+     "name": "Three-headed Dragon",
+     "url": "https://i.imgflip.com/33e92f.jpg",
+     "box_count": 4,
+     "captions": 55250
+    },
+    {
+     "rank": 59,
+     "id": "166969924",
+     "name": "Flex Tape",
+     "url": "https://i.imgflip.com/2reqtg.png",
+     "box_count": 3,
+     "captions": 79750
+    },
+    {
+     "rank": 60,
+     "id": "119215120",
+     "name": "Types of Headaches meme",
+     "url": "https://i.imgflip.com/1yz6z4.jpg",
+     "box_count": 2,
+     "captions": 74750
+    },
+    {
+     "rank": 61,
+     "id": "216523697",
+     "name": "All My Homies Hate",
+     "url": "https://i.imgflip.com/3kwur5.jpg",
+     "box_count": 2,
+     "captions": 57500
+    },
+    {
+     "rank": 62,
+     "id": "61585",
+     "name": "Bad Luck Brian",
+     "url": "https://i.imgflip.com/1bip.jpg",
+     "box_count": 2,
+     "captions": 199000
+    },
+    {
+     "rank": 63,
+     "id": "247113703",
+     "name": "A train hitting a school bus",
+     "url": "https://i.imgflip.com/434i5j.png",
+     "box_count": 2,
+     "captions": 70500
+    },
+    {
+     "rank": 64,
+     "id": "99683372",
+     "name": "Sleeping Shaq",
+     "url": "https://i.imgflip.com/1nck6k.jpg",
+     "box_count": 2,
+     "captions": 116750
+    },
+    {
+     "rank": 65,
+     "id": "259237855",
+     "name": "Laughing Leo",
+     "url": "https://i.imgflip.com/4acd7j.png",
+     "box_count": 2,
+     "captions": 122250
+    },
+    {
+     "rank": 66,
+     "id": "129315248",
+     "name": "No - Yes",
+     "url": "https://i.imgflip.com/24zoa8.jpg",
+     "box_count": 2,
+     "captions": 40250
+    },
+    {
+     "rank": 67,
+     "id": "224514655",
+     "name": "Anime Girl Hiding from Terminator",
+     "url": "https://i.imgflip.com/3po4m7.jpg",
+     "box_count": 2,
+     "captions": 59250
+    },
+    {
+     "rank": 68,
+     "id": "114585149",
+     "name": "Inhaling Seagull",
+     "url": "https://i.imgflip.com/1w7ygt.jpg",
+     "box_count": 4,
+     "captions": 253750
+    },
+    {
+     "rank": 69,
+     "id": "145139900",
+     "name": "Scooby doo mask reveal",
+     "url": "https://i.imgflip.com/2eeunw.jpg",
+     "box_count": 4,
+     "captions": 35000
+    },
+    {
+     "rank": 70,
+     "id": "221578498",
+     "name": "Grant Gustin over grave",
+     "url": "https://i.imgflip.com/3nx72a.png",
+     "box_count": 2,
+     "captions": 62000
+    },
+    {
+     "rank": 71,
+     "id": "135678846",
+     "name": "Who Killed Hannibal",
+     "url": "https://i.imgflip.com/28s2gu.jpg",
+     "box_count": 3,
+     "captions": 144500
+    },
+    {
+     "rank": 72,
+     "id": "226297822",
+     "name": "Panik Kalm Panik",
+     "url": "https://i.imgflip.com/3qqcim.png",
+     "box_count": 3,
+     "captions": 227500
+    },
+    {
+     "rank": 73,
+     "id": "110133729",
+     "name": "spiderman pointing at spiderman",
+     "url": "https://i.imgflip.com/1tkjq9.jpg",
+     "box_count": 2,
+     "captions": 66750
+    },
+    {
+     "rank": 74,
+     "id": "101956210",
+     "name": "Whisper and Goosebumps",
+     "url": "https://i.imgflip.com/1op9wy.jpg",
+     "box_count": 2,
+     "captions": 63750
+    },
+    {
+     "rank": 75,
+     "id": "133946291",
+     "name": "You know, I'm something of a scientist myself",
+     "url": "https://i.imgflip.com/27qxmb.jpg",
+     "box_count": 2,
+     "captions": 29250
+    },
+    {
+     "rank": 76,
+     "id": "104893621",
+     "name": "Grim Reaper Knocking Door",
+     "url": "https://i.imgflip.com/1qg8fp.jpg",
+     "box_count": 3,
+     "captions": 30750
+    },
+    {
+     "rank": 77,
+     "id": "234202281",
+     "name": "AJ Styles & Undertaker",
+     "url": "https://i.imgflip.com/3vfrmx.jpg",
+     "box_count": 2,
+     "captions": 48000
+    },
+    {
+     "rank": 78,
+     "id": "371619279",
+     "name": "Megamind no bitches",
+     "url": "https://i.imgflip.com/65939r.jpg",
+     "box_count": 2,
+     "captions": 32250
+    },
+    {
+     "rank": 79,
+     "id": "155067746",
+     "name": "Surprised Pikachu",
+     "url": "https://i.imgflip.com/2kbn1e.jpg",
+     "box_count": 3,
+     "captions": 252000
+    },
+    {
+     "rank": 80,
+     "id": "61520",
+     "name": "Futurama Fry",
+     "url": "https://i.imgflip.com/1bgw.jpg",
+     "box_count": 2,
+     "captions": 322500
+    },
+    {
+     "rank": 81,
+     "id": "91998305",
+     "name": "Drake Blank",
+     "url": "https://i.imgflip.com/1iruch.jpg",
+     "box_count": 2,
+     "captions": 68250
+    },
+    {
+     "rank": 82,
+     "id": "72525473",
+     "name": "say the line bart! simpsons",
+     "url": "https://i.imgflip.com/176h0h.jpg",
+     "box_count": 3,
+     "captions": 32250
+    },
+    {
+     "rank": 83,
+     "id": "162372564",
+     "name": "Domino Effect",
+     "url": "https://i.imgflip.com/2oo7h0.jpg",
+     "box_count": 2,
+     "captions": 39250
+    },
+    {
+     "rank": 84,
+     "id": "20007896",
+     "name": "c'mon do something",
+     "url": "https://i.imgflip.com/bwu6w.jpg",
+     "box_count": 2,
+     "captions": 37250
+    },
+    {
+     "rank": 85,
+     "id": "142009471",
+     "name": "is this butterfly",
+     "url": "https://i.imgflip.com/2cjr7j.jpg",
+     "box_count": 3,
+     "captions": 35250
+    },
+    {
+     "rank": 86,
+     "id": "119139145",
+     "name": "Blank Nut Button",
+     "url": "https://i.imgflip.com/1yxkcp.jpg",
+     "box_count": 2,
+     "captions": 320750
+    },
+    {
+     "rank": 87,
+     "id": "29562797",
+     "name": "I'm The Captain Now",
+     "url": "https://i.imgflip.com/hlmst.jpg",
+     "box_count": 2,
+     "captions": 43500
+    },
+    {
+     "rank": 88,
+     "id": "309668311",
+     "name": "Two Paths",
+     "url": "https://i.imgflip.com/54d9lj.png",
+     "box_count": 3,
+     "captions": 29000
+    },
+    {
+     "rank": 89,
+     "id": "61556",
+     "name": "Grandma Finds The Internet",
+     "url": "https://i.imgflip.com/1bhw.jpg",
+     "box_count": 2,
+     "captions": 178250
+    },
+    {
+     "rank": 90,
+     "id": "21735",
+     "name": "The Rock Driving",
+     "url": "https://i.imgflip.com/grr.jpg",
+     "box_count": 2,
+     "captions": 233250
+    },
+    {
+     "rank": 91,
+     "id": "14371066",
+     "name": "Star Wars Yoda",
+     "url": "https://i.imgflip.com/8k0sa.jpg",
+     "box_count": 2,
+     "captions": 148000
+    },
+    {
+     "rank": 92,
+     "id": "92084495",
+     "name": "Charlie Conspiracy (Always Sunny in Philidelphia)",
+     "url": "https://i.imgflip.com/1itoun.jpg",
+     "box_count": 2,
+     "captions": 42250
+    },
+    {
+     "rank": 93,
+     "id": "123999232",
+     "name": "The Scroll Of Truth",
+     "url": "https://i.imgflip.com/21tqf4.jpg",
+     "box_count": 2,
+     "captions": 236750
+    },
+    {
+     "rank": 94,
+     "id": "29617627",
+     "name": "Look At Me",
+     "url": "https://i.imgflip.com/hmt3v.jpg",
+     "box_count": 2,
+     "captions": 71000
+    },
+    {
+     "rank": 95,
+     "id": "5496396",
+     "name": "Leonardo Dicaprio Cheers",
+     "url": "https://i.imgflip.com/39t1o.jpg",
+     "box_count": 2,
+     "captions": 252250
+    },
+    {
+     "rank": 96,
+     "id": "101288",
+     "name": "Third World Skeptical Kid",
+     "url": "https://i.imgflip.com/265k.jpg",
+     "box_count": 2,
+     "captions": 199750
+    },
+    {
+     "rank": 97,
+     "id": "342785297",
+     "name": "Gus Fring we are not the same",
+     "url": "https://i.imgflip.com/5o32tt.png",
+     "box_count": 3,
+     "captions": 40750
+    },
+    {
+     "rank": 98,
+     "id": "134797956",
+     "name": "American Chopper Argument",
+     "url": "https://i.imgflip.com/2896ro.jpg",
+     "box_count": 5,
+     "captions": 191750
+    },
+    {
+     "rank": 99,
+     "id": "101716",
+     "name": "Yo Dawg Heard You",
+     "url": "https://i.imgflip.com/26hg.jpg",
+     "box_count": 2,
+     "captions": 89250
+    },
+    {
+     "rank": 100,
+     "id": "16464531",
+     "name": "But That's None Of My Business",
+     "url": "https://i.imgflip.com/9sw43.jpg",
+     "box_count": 2,
+     "captions": 133250
+    }
+   ]
+  }
+ }
+}

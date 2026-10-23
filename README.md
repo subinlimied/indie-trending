@@ -72,6 +72,33 @@ DISCORD_WEBHOOK_URL=... python3 weekly.py --date 2026-10-22 --send-only   # 만�
 - 산출물: `reports/weekly/<date>.html` (표 전체 + 보드), `reports/weekly/<date>.json` (전송용 요약), `reports/weekly/cards/<date>-board-steam.png`, `-itch.png` (게임이 많으면 `-2.png`).
 - [.github/workflows/weekly.yml](.github/workflows/weekly.yml) 이 매주 월요일 10:00 KST(01:00 UTC)에 수집 → 커밋·push → Discord 전송을 합니다. 일간과 같은 concurrency 그룹(`daily`)이라 겹치면 순서대로 돕니다.
 
+## 미디어·밈 트렌드 리포트 (매일 09:30 KST · 개인 채널 전용)
+
+게임 리포트와 같은 뼈대(스냅샷 누적 → 전날 대비 → 임베드 카드 + 카드 PNG → Discord)로 틱톡·밈·검색 트렌드를 매일 받습니다. **개인 채널 전용**이라 공용 웹훅(`DISCORD_WEBHOOK_URL`)으로는 보내지 않습니다.
+
+```bash
+python3 media.py collect --date 2026-10-22            # 스냅샷 → data/media/<date>.json (소스별 정상/실패 상태 포함, --force 로 재수집)
+python3 media.py report  --date 2026-10-22            # reports/media/<date>.json .md .html (+ state.json 연속 일수)
+python3 media.py cards   --date 2026-10-22            # 카드 PNG 2장 → reports/media/cards/<date>-N.png (Chrome 없으면 건너뜀)
+python3 media.py send    --date 2026-10-22 --dry-run  # 전송 없이 임베드 JSON 출력
+DISCORD_WEBHOOK_URL_MEDIA=... python3 media.py send --date 2026-10-22   # 전송 (없으면 DISCORD_WEBHOOK_URL_PERSONAL, 둘 다 없으면 건너뜀)
+```
+
+| 소스 | 쓰는 값 | 비고 |
+|---|---|---|
+| Know Your Meme 뉴스피드 RSS | 최근 48시간 기사 제목·링크·요약·이미지, 제목의 플랫폼 단서(TikTok · Twitter/X · Reddit · YouTube · Instagram · Twitch) | 제목·요약은 영어 원문 그대로 |
+| Google 트렌드 일간 RSS (KR · US) | 검색어·대략 검색량·관련 뉴스 1개 | 어제도 있었으면 "n일 연속" |
+| 위키백과 조회수 상위 (en · ko) | 전날 상위 40개에서 대문·특수·프로젝트·파일·분류 문서를 뺀 20개 | 어제도 있었으면 "n일 연속" |
+| Reddit top (t=day) RSS | r/memes · r/gaming · r/IndieGaming · r/gamedev · r/tiktokcringe 상위 8개 | 403·429 면 그 서브레딧만 실패 처리 |
+| Imgflip 인기 템플릿 100개 | 이름·순위 | 전날 대비 ▲▼ · 신규 진입 · 이탈 |
+
+- **오늘의 트렌드 한 건** = KYM 에서 플랫폼 단서가 TikTok 인 최신 기사, 없으면 KYM 최신 기사. 연속 선정 일수는 `reports/media/state.json` 에 쌓입니다.
+- **게임 ↔ 밈 교차** = 검색·위키·Reddit 제목을 그날 `data/steam/` · `data/itch/` 스냅샷의 게임 이름과 대조(소문자 · 3글자 이상 · 부분 일치는 단어 경계, 이름이 2단어 이상이거나 8자 이상일 때만).
+- HTML 섹션: 01 오늘의 밈·숏폼 트렌드(KYM) · 02 검색 급상승 KR/US · 03 세상의 관심사(위키 en/ko) · 04 커뮤니티 베스트(Reddit) · 05 밈 템플릿 순위 변동 · 06 게임 ↔ 밈 교차 · 07 수집 상태. 상세 링크는 `reports/media/<date>.html`.
+- 카드 PNG: 표지(오늘의 트렌드 + 플랫폼 집계 + 검색 급상승 Top 5 KR/US) · 2장(밈 템플릿 변동 Top 5 + 게임 교차).
+- `config.json` 의 `media` 키: `reddit_subs` · `kym_hours` · `wiki_top` · `trends_top` · `imgflip_top`.
+- [.github/workflows/media.yml](.github/workflows/media.yml) 이 매일 09:30 KST(00:30 UTC, 게임 리포트 뒤)에 수집 → 리포트 → 카드 → 커밋·push → 전송을 합니다. 전송 단계에는 `DISCORD_WEBHOOK_URL_MEDIA` 와 `DISCORD_WEBHOOK_URL_PERSONAL` 만 넘깁니다(전용 채널을 쓰려면 `DISCORD_WEBHOOK_URL_MEDIA` secret 을 등록).
+
 ## GitHub Actions 자동 실행
 
 [.github/workflows/daily.yml](.github/workflows/daily.yml) 이 매일 09:05 KST(00:05 UTC)에 수집 → 리포트 → 카드 이미지 → 개인 리포트 생성 → 커밋·push → Discord 전송 → 개인 리포트 전송을 합니다.
@@ -101,6 +128,7 @@ Actions 탭에서 **Run workflow** 로 수동 실행할 수도 있습니다(날�
 ```
 collect.py / report.py / cards.py / notify.py   진입점
 weekly.py                          주간 리포트 진입점 (market/weekly.py 분석, market/render_weekly.py HTML·보드 카드)
+media.py                           미디어·밈 리포트 진입점 (market/media_sources.py 수집, media_analyze.py 분석, render_media.py 임베드·HTML·카드)
 personal.py                        개인 리포트 진입점 (profile.json → market/personal.py 분석, market/render_personal.py 임베드·카드)
 market/steam.py, itch.py            수집기
 market/analyze_steam.py, analyze_itch.py   판정·섹션 구성
@@ -110,6 +138,7 @@ config.json                         report_base_url(상세 보고서 링크), �
 data/<platform>/<date>.json         일간 스냅샷 (지우지 않음), data/cache/ 는 Steam 메타 캐시
 reports/<platform>/<date>.*         리포트, cards/<date>-N.png 는 카드 뉴스, state.json 은 연속 선정 회차 기록
 data/weekly/, reports/weekly/      주간 태그 데이터 · 주간 HTML · 보드 PNG
+data/media/, reports/media/        미디어·밈 스냅샷(소스별 상태 포함) · 리포트(.json .md .html) · cards/<date>-N.png · state.json
 reports/personal/<date>.*           개인 리포트(.json .md), cards/<date>.png 는 내 범위 Top 3 카드 1장
 profile.json                        개인 리포트의 "내 범위" 조건 (차원 · 엔진 · 제외 태그 · 가격 · 플레이 시간 · 멀티 제외 · watchlist)
 ```

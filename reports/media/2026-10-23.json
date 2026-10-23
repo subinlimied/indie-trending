@@ -1,0 +1,1380 @@
+{
+ "kind": "media",
+ "platform": "media",
+ "platform_ko": "미디어·밈",
+ "date": "2026-10-23",
+ "round": 2,
+ "prev_date": "2026-10-22",
+ "status": [
+  [
+   "회차",
+   "2회차"
+  ],
+  [
+   "비교 대상",
+   "2026-10-22 · 1일치"
+  ],
+  [
+   "KYM 기사",
+   "4건 (48시간)"
+  ],
+  [
+   "플랫폼",
+   "TikTok 2"
+  ],
+  [
+   "게임 교차",
+   "1건"
+  ],
+  [
+   "수집",
+   "2026-10-23 02:21:35 UTC"
+  ]
+ ],
+ "collect_line": "소스 11/11 정상 · KYM 4건 · 검색 KR 10 · US 10 · 위키 en 20 · ko 20 · Reddit 5/5 · Imgflip 100",
+ "basis_line": "KYM 뉴스피드(최근 48시간) · Google 트렌드 일간 KR·US Top 10 · 위키백과 전날 조회수 상위 en·ko 20개(대문·특수·프로젝트 문서 제외) · Reddit top(t=day) 8개 × 5개 서브레딧 · Imgflip 인기 템플릿 100개 중 상위 30 · 게임 교차 = Steam·itch 스냅샷 게임 이름과 대조",
+ "pick": {
+  "title": "TikTokers Are Revealing Their Most Troubling Halloween Costumes In 'I'm So Sorry' Trend",
+  "url": "https://knowyourmeme.com/memes/im-so-sorry-tiktok-trend",
+  "published": "2026-10-22T18:38:08Z",
+  "summary": "The I'm So Sorry Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original photo was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. T…",
+  "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/663/sosorrycover.jpg",
+  "platforms": [
+   "TikTok"
+  ],
+  "guid": "post:96205",
+  "new": false,
+  "streak": 2,
+  "since": "2026-10-22",
+  "reason": "KYM 최신 TikTok 기사"
+ },
+ "platform_counts": [
+  [
+   "TikTok",
+   2
+  ]
+ ],
+ "kym": [
+  {
+   "title": "TikTokers Are Revealing Their Most Troubling Halloween Costumes In 'I'm So Sorry' Trend",
+   "url": "https://knowyourmeme.com/memes/im-so-sorry-tiktok-trend",
+   "published": "2026-10-22T18:38:08Z",
+   "summary": "The I'm So Sorry Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original photo was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. T…",
+   "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/663/sosorrycover.jpg",
+   "platforms": [
+    "TikTok"
+   ],
+   "guid": "post:96205",
+   "new": false
+  },
+  {
+   "title": "Critical PHP Vulnerability Discovered Using AI Patched And No Longer A Threat",
+   "url": "https://knowyourmeme.com/memes/events/php2shell-2026-php-vulnerability-hack",
+   "published": "2026-10-22T17:09:26Z",
+   "summary": "The 2026 PHP Vulnerability or PHP Hack refers to two vulnerabilities, referred to as CVE-2026-109618 and CVE-2026-109619, found in PHP code, that could have allowed a hacker to access a website's file system and database and force code on a website. The vulnerabilities were purportedly discovered b…",
+   "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/662/cvacover.jpg",
+   "platforms": [],
+   "guid": "post:96201",
+   "new": false
+  },
+  {
+   "title": "A Code Rotted TikTok Filter Was Discovered, Inspiring Memes Freaking Out About Code Rot",
+   "url": "https://knowyourmeme.com/memes/code-rot-filter-yep-its-code-rotted-indeed",
+   "published": "2026-10-22T15:25:32Z",
+   "summary": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting videos claimi…",
+   "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/661/coderotcover.jpg",
+   "platforms": [
+    "TikTok"
+   ],
+   "guid": "post:96198",
+   "new": false
+  },
+  {
+   "title": "Meximutt / O Algo Explained",
+   "url": "https://knowyourmeme.com/memes/meximutt-o-algo",
+   "published": "2026-10-21T22:24:30Z",
+   "summary": "Meximutt, also known as O Algo or Mateo, is a meme character derived from the Soyjak family of Wojak memes that caricatures Mexicans and Hispanic people through exaggerated facial features and stereotypical imagery. The meme is modeled after Amerimutt, a similar character used to mock Americans, an…",
+   "image": "https://i.kym-cdn.com/entries/icons/mobile/000/057/656/Screenshot_2026-10-21_152120.jpg",
+   "platforms": [],
+   "guid": "post:96197",
+   "new": false
+  }
+ ],
+ "kym_new": 0,
+ "trends": {
+  "KR": [
+   {
+    "rank": 1,
+    "title": "제민일보",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "초강력 태풍 ‘참피’ 진로 틀었다…한반도 영향은?",
+    "news_url": "https://news.kbs.co.kr/news/view.do?ncd=8692903",
+    "url": "https://news.kbs.co.kr/news/view.do?ncd=8692903",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQm8FaoiKsZD1uAWuAddTSLM6hRIJyo7f1e2MjtyX5VH6Rg5yrRVkKPt1tsAYE",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "국회",
+    "traffic": 100,
+    "traffic_raw": "100+",
+    "news_title": "[오늘의 국회일정](23일·금)",
+    "news_url": "https://www.yna.co.kr/view/AKR20261022193400001",
+    "url": "https://www.yna.co.kr/view/AKR20261022193400001",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPMu1dwobQnXbqADe01tG3o44tuj6H5nvpjgnsleMQ93mt-I5-_BSoClKGX3g",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "신지애",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "Golf Legend Shin Ji-ai Advises Rookie Kim Min-sol: 'Keep Pushing'",
+    "news_url": "https://www.chosun.com/english/sports-en/2026/10/23/35CXHAP6CBBGZE4LJJDEKX6LIM/",
+    "url": "https://www.chosun.com/english/sports-en/2026/10/23/35CXHAP6CBBGZE4LJJDEKX6LIM/",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRyEXPZvZEuvAya5DT6noK_ZcibFT0Xehxjoit5dsnhmFZGhNXRMGkYSsMviOs",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "김세영",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "유해란, LPGA 3승 정조준…BMW 대회 첫날 공동 3위",
+    "news_url": "https://www.yna.co.kr/view/AKR20261022161000007",
+    "url": "https://www.yna.co.kr/view/AKR20261022161000007",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTColtaE8bg-PzDD5Q9tHlRQ79e1ZtQaqIVLFwk6MTr6gCgPFT5OHWZksa3eI8",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "기업은행",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "[게시판] IBK기업은행 'I-포켓몬 신용카드' 출시",
+    "news_url": "https://www.yna.co.kr/view/AKR20261023061800002",
+    "url": "https://www.yna.co.kr/view/AKR20261023061800002",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZS6ZMGKzuPs5gtLX-yhWJhnJSJ09dZin9EaeBL81J34lQg0ojrwu_I922Pq0",
+    "days": 1
+   },
+   {
+    "rank": 6,
+    "title": "네이버",
+    "traffic": 20000,
+    "traffic_raw": "20000+",
+    "news_title": "네이버, 대학·입시 검색 강화…모집요강·경쟁률 한눈에",
+    "news_url": "https://www.yna.co.kr/view/AKR20261023048400017",
+    "url": "https://www.yna.co.kr/view/AKR20261023048400017",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcROtU9zb2WeSpzdRGkEwunveNFdabsaG4Vhtaiu4Zpnw7dcTRhkjDS2SsPsJUM",
+    "days": 2
+   },
+   {
+    "rank": 7,
+    "title": "독도",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "울릉도에 '독도교육원' 짓는다…현장 체험형 독도교육 거점 조성",
+    "news_url": "https://www.nocutnews.co.kr/news/6595522",
+    "url": "https://www.nocutnews.co.kr/news/6595522",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSJiXz5bORhiIrl-sBfYMe_ssdJaqDr2HFc2GWwqttTqJobzkG8LCWLkDw5st0",
+    "days": 2
+   },
+   {
+    "rank": 8,
+    "title": "하나은행",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "하나은행·하나카드, 동국제강과 손잡고 스틸샵 구매기업 공급망 금융 지원 나선다",
+    "news_url": "https://www.yna.co.kr/view/RPR20261022003800353",
+    "url": "https://www.yna.co.kr/view/RPR20261022003800353",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSJ-EcreFp8z-_PEUFvpvpgbBnkS7CFW_gT8wXlHs18g-xrF3bG9ddibL-pYYU",
+    "days": 2
+   },
+   {
+    "rank": 9,
+    "title": "국민은행",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "KB국민은행, 중국서도 'KB스타뱅킹'으로 QR 결제",
+    "news_url": "https://www.newsis.com/view/NISX20261022_0003837263",
+    "url": "https://www.newsis.com/view/NISX20261022_0003837263",
+    "picture": "",
+    "days": 2
+   },
+   {
+    "rank": 10,
+    "title": "카드뉴스",
+    "traffic": 100,
+    "traffic_raw": "100+",
+    "news_title": "인구전략위원회, 국민으로부터 인구관련 정책 아이디어를 직접 듣는 첫 토론회 개최",
+    "news_url": "https://go.seoul.co.kr/news/prnewsView.php?id=452593",
+    "url": "https://go.seoul.co.kr/news/prnewsView.php?id=452593",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfr9kiT0WrIe6iG_gVfMiki5W5t8jHAg0NWQyE7R38twdcSVHy3ScL4PstbWA",
+    "days": 2
+   }
+  ],
+  "US": [
+   {
+    "rank": 1,
+    "title": "trevon brazile",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Could Nuggets rookie Trevon Brazile snag NBA minutes early in season?",
+    "news_url": "https://www.denverpost.com/2026/10/20/brazile-nuggets-playing-time-rotation/",
+    "url": "https://www.denverpost.com/2026/10/20/brazile-nuggets-playing-time-rotation/",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYP33rYhkFNIlXIe9M_4vQYM5FvLhncY9h-F-AlhhFvc2XJlxcAyTlSE1PuAI",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "lebron james",
+    "traffic": 10000,
+    "traffic_raw": "10000+",
+    "news_title": "President Trump criticizes 76ers' LeBron James for actions amid national anthem",
+    "news_url": "https://www.espn.com/nba/story/_/id/50251603/president-trump-criticizes-lebron-james-anthem-actions",
+    "url": "https://www.espn.com/nba/story/_/id/50251603/president-trump-criticizes-lebron-james-anthem-actions",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQsp2V6ggc5SQacDSRRleQ3Et0_bN_fe8rJRSLdvGyqnM-bHu50XeomERS3njY",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "demar derozan",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "For Nuggets, DeMar DeRozan’s wisdom and humor are as vital as the buckets",
+    "news_url": "https://www.denverpost.com/2026/10/22/demar-derozan-denver-nuggets/",
+    "url": "https://www.denverpost.com/2026/10/22/demar-derozan-denver-nuggets/",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSw6bKeXVpU29iVyHoPTKMmJybgVj86UdMkmboInh3x2F94a2INItKBLaaRah8",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "jeremy lin",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "Jeremy Lin participates in Reddit AMA",
+    "news_url": "https://www.nba.com/news/jeremy-lin-participates-in-reddit-ama",
+    "url": "https://www.nba.com/news/jeremy-lin-participates-in-reddit-ama",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO1tGC-1xDxNKHshLEHqcohGklXH8Hq6O_8dSc_FKOKNBrNAaxIjeAIIYJqb0",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "ryan phillippe",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "Licensable video: Ryan Phillippe's 9-1-1: Nashville character is too busy for romance",
+    "news_url": "https://www.reutersconnect.com/item/ryan-phillippes-9-1-1-nashville-character-is-too-busy-for-romance/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XU0hCQzExOTc2MjI",
+    "url": "https://www.reutersconnect.com/item/ryan-phillippes-9-1-1-nashville-character-is-too-busy-for-romance/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XU0hCQzExOTc2MjI",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQRK-j6jfPky-vSed1hxVsaOUgq2Fhbki7l76aoC_A1prMTwLgcAuAnwys-wmE",
+    "days": 1
+   },
+   {
+    "rank": 6,
+    "title": "jamal murray",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Jamal Murray: I thought I could have made All-Second Team",
+    "news_url": "https://sports.yahoo.com/articles/jamal-murray-thought-could-made-124657177.html",
+    "url": "https://sports.yahoo.com/articles/jamal-murray-thought-could-made-124657177.html",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQU7eRj_sa6Wn--Td4bGOxvvqpxBQ_XiJjWxzpiM-eD0poT2tZ8m6XxqTNybw4",
+    "days": 1
+   },
+   {
+    "rank": 7,
+    "title": "aaron gordon",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Just how IMPORTANT is Aaron Gordon to the Nuggets success? | Stokley and Evans with Mark Schlereth",
+    "news_url": "https://denversports.com/watch/just-how-important-is-aaron-gordon-to-the-nuggets-success-stokley-and-evans-with-mark-schlereth/01a1645e-44b0-8008-cc87-1c78b5530ac8",
+    "url": "https://denversports.com/watch/just-how-important-is-aaron-gordon-to-the-nuggets-success-stokley-and-evans-with-mark-schlereth/01a1645e-44b0-8008-cc87-1c78b5530ac8",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR8uOCcBb6ad4pfa-fKBFA6fEAPojQ_OZ_fMzNv7nrnFxEo6ET13H7fYUIc5cU",
+    "days": 1
+   },
+   {
+    "rank": 8,
+    "title": "archuleta county floods",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "Evacuations issued for areas near Animas and San Juan Rivers in San Juan County",
+    "news_url": "https://www.koat.com/article/san-juan-county-river-evacuation-new-mexico/74223224",
+    "url": "https://www.koat.com/article/san-juan-county-river-evacuation-new-mexico/74223224",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTr7-y9XD1IimdlkEkCE5bdcWCrzqtNJUiS835L_Y0rGa7wDhnE2VTiJnsEEbY",
+    "days": 1
+   },
+   {
+    "rank": 9,
+    "title": "memphis tigers football",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "Memphis football vs East Carolina prediction, preview for Week 8 game",
+    "news_url": "https://www.commercialappeal.com/story/sports/college/memphis-tigers/2026/10/21/memphis-football-east-carolina-prediction-tigers-week-8/92286656007/",
+    "url": "https://www.commercialappeal.com/story/sports/college/memphis-tigers/2026/10/21/memphis-football-east-carolina-prediction-tigers-week-8/92286656007/",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQUjaMFJwT6QiSBEFRv4mnXsX82pkIDJNSYRnzT36WoNIi1oAshExti3HUxvTQ",
+    "days": 1
+   },
+   {
+    "rank": 10,
+    "title": "jaylon johnson",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "Jaylon Johnson Called Out For Dismal Effort on End of Half TD in Bears vs. Patriots",
+    "news_url": "https://www.si.com/nfl/bears/onsi/jaylon-johnson-called-out-dismal-effort-end-half-td-bears-patriots",
+    "url": "https://www.si.com/nfl/bears/onsi/jaylon-johnson-called-out-dismal-effort-end-half-td-bears-patriots",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTblbr29dCZ-KK0Hshscx_mgdTjolAYbZ9d2WmZxzbDzP6Jq15_G702DoH4P8s",
+    "days": 1
+   }
+  ]
+ },
+ "wiki": {
+  "en": [
+   {
+    "title": "Tom Skerritt",
+    "views": 371141,
+    "rank": 1,
+    "src_rank": 4,
+    "url": "https://en.wikipedia.org/wiki/Tom_Skerritt",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "John Anderson (singer)",
+    "views": 336579,
+    "rank": 2,
+    "src_rank": 5,
+    "url": "https://en.wikipedia.org/wiki/John_Anderson_%28singer%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Jailer 2",
+    "views": 243842,
+    "rank": 3,
+    "src_rank": 6,
+    "url": "https://en.wikipedia.org/wiki/Jailer_2",
+    "days": 2,
+    "prev_rank": 1
+   },
+   {
+    "title": "Elizabeth Holmes",
+    "views": 182703,
+    "rank": 4,
+    "src_rank": 7,
+    "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+    "days": 2,
+    "prev_rank": 3
+   },
+   {
+    "title": "Clayface (film)",
+    "views": 168347,
+    "rank": 5,
+    "src_rank": 8,
+    "url": "https://en.wikipedia.org/wiki/Clayface_%28film%29",
+    "days": 2,
+    "prev_rank": 17
+   },
+   {
+    "title": "ChatGPT",
+    "views": 155469,
+    "rank": 6,
+    "src_rank": 9,
+    "url": "https://en.wikipedia.org/wiki/ChatGPT",
+    "days": 2,
+    "prev_rank": 8
+   },
+   {
+    "title": "PHP2Shell",
+    "views": 153627,
+    "rank": 7,
+    "src_rank": 10,
+    "url": "https://en.wikipedia.org/wiki/PHP2Shell",
+    "days": 2,
+    "prev_rank": 2
+   },
+   {
+    "title": "Deaths in 2026",
+    "views": 142776,
+    "rank": 8,
+    "src_rank": 11,
+    "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+    "days": 2,
+    "prev_rank": 12
+   },
+   {
+    "title": "Jerry Hall",
+    "views": 138456,
+    "rank": 9,
+    "src_rank": 12,
+    "url": "https://en.wikipedia.org/wiki/Jerry_Hall",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "You Can See Everything",
+    "views": 138013,
+    "rank": 10,
+    "src_rank": 13,
+    "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything",
+    "days": 2,
+    "prev_rank": 7
+   },
+   {
+    "title": "Amy Acton",
+    "views": 137065,
+    "rank": 11,
+    "src_rank": 14,
+    "url": "https://en.wikipedia.org/wiki/Amy_Acton",
+    "days": 2,
+    "prev_rank": 9
+   },
+   {
+    "title": "BioWare",
+    "views": 120343,
+    "rank": 12,
+    "src_rank": 15,
+    "url": "https://en.wikipedia.org/wiki/BioWare",
+    "days": 2,
+    "prev_rank": 6
+   },
+   {
+    "title": "Vivek Ramaswamy",
+    "views": 119711,
+    "rank": 13,
+    "src_rank": 16,
+    "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy",
+    "days": 2,
+    "prev_rank": 13
+   },
+   {
+    "title": "Ilhan Omar",
+    "views": 103302,
+    "rank": 14,
+    "src_rank": 17,
+    "url": "https://en.wikipedia.org/wiki/Ilhan_Omar",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Ron Duguay",
+    "views": 92485,
+    "rank": 15,
+    "src_rank": 18,
+    "url": "https://en.wikipedia.org/wiki/Ron_Duguay",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Heath Ledger",
+    "views": 92132,
+    "rank": 16,
+    "src_rank": 19,
+    "url": "https://en.wikipedia.org/wiki/Heath_Ledger",
+    "days": 2,
+    "prev_rank": 5
+   },
+   {
+    "title": "PHP",
+    "views": 88570,
+    "rank": 17,
+    "src_rank": 20,
+    "url": "https://en.wikipedia.org/wiki/PHP",
+    "days": 2,
+    "prev_rank": 20
+   },
+   {
+    "title": "Yaxel Lendeborg",
+    "views": 86107,
+    "rank": 18,
+    "src_rank": 21,
+    "url": "https://en.wikipedia.org/wiki/Yaxel_Lendeborg",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "VisionQuest",
+    "views": 80967,
+    "rank": 19,
+    "src_rank": 22,
+    "url": "https://en.wikipedia.org/wiki/VisionQuest",
+    "days": 2,
+    "prev_rank": 14
+   },
+   {
+    "title": "Aberfan disaster",
+    "views": 77524,
+    "rank": 20,
+    "src_rank": 23,
+    "url": "https://en.wikipedia.org/wiki/Aberfan_disaster",
+    "days": 2,
+    "prev_rank": 4
+   }
+  ],
+  "en_day": "2026-10-22",
+  "en_same": false,
+  "ko": [
+   {
+    "title": "문화방송",
+    "views": 14091,
+    "rank": 1,
+    "src_rank": 2,
+    "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1",
+    "days": 2,
+    "prev_rank": 1
+   },
+   {
+    "title": "한국방송공사",
+    "views": 9578,
+    "rank": 2,
+    "src_rank": 4,
+    "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EB%B0%A9%EC%86%A1%EA%B3%B5%EC%82%AC",
+    "days": 2,
+    "prev_rank": 3
+   },
+   {
+    "title": "한국교육방송공사",
+    "views": 5270,
+    "rank": 3,
+    "src_rank": 5,
+    "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EA%B5%90%EC%9C%A1%EB%B0%A9%EC%86%A1%EA%B3%B5%EC%82%AC",
+    "days": 2,
+    "prev_rank": 4
+   },
+   {
+    "title": "이윤형 (1979년)",
+    "views": 3799,
+    "rank": 4,
+    "src_rank": 6,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%9C%A4%ED%98%95_%281979%EB%85%84%29",
+    "days": 2,
+    "prev_rank": 5
+   },
+   {
+    "title": "김여정",
+    "views": 2145,
+    "rank": 5,
+    "src_rank": 7,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%97%AC%EC%A0%95",
+    "days": 2,
+    "prev_rank": 15
+   },
+   {
+    "title": "5·18 광주 민주화 운동",
+    "views": 1889,
+    "rank": 6,
+    "src_rank": 8,
+    "url": "https://ko.wikipedia.org/wiki/5%C2%B718_%EA%B4%91%EC%A3%BC_%EB%AF%BC%EC%A3%BC%ED%99%94_%EC%9A%B4%EB%8F%99",
+    "days": 2,
+    "prev_rank": 12
+   },
+   {
+    "title": "서현진 (배우)",
+    "views": 1882,
+    "rank": 7,
+    "src_rank": 9,
+    "url": "https://ko.wikipedia.org/wiki/%EC%84%9C%ED%98%84%EC%A7%84_%28%EB%B0%B0%EC%9A%B0%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "김정은",
+    "views": 1879,
+    "rank": 8,
+    "src_rank": 10,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%A0%95%EC%9D%80",
+    "days": 2,
+    "prev_rank": 6
+   },
+   {
+    "title": "강신일",
+    "views": 1517,
+    "rank": 9,
+    "src_rank": 11,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B0%95%EC%8B%A0%EC%9D%BC",
+    "days": 2,
+    "prev_rank": 10
+   },
+   {
+    "title": "코리아세일페스타",
+    "views": 1331,
+    "rank": 10,
+    "src_rank": 12,
+    "url": "https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A6%AC%EC%95%84%EC%84%B8%EC%9D%BC%ED%8E%98%EC%8A%A4%ED%83%80",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "합동태풍경보센터",
+    "views": 1297,
+    "rank": 11,
+    "src_rank": 13,
+    "url": "https://ko.wikipedia.org/wiki/%ED%95%A9%EB%8F%99%ED%83%9C%ED%92%8D%EA%B2%BD%EB%B3%B4%EC%84%BC%ED%84%B0",
+    "days": 2,
+    "prev_rank": 13
+   },
+   {
+    "title": "부캉이",
+    "views": 1260,
+    "rank": 12,
+    "src_rank": 14,
+    "url": "https://ko.wikipedia.org/wiki/%EB%B6%80%EC%BA%89%EC%9D%B4",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "한동훈",
+    "views": 1246,
+    "rank": 13,
+    "src_rank": 15,
+    "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%8F%99%ED%9B%88",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "A2O 엔터테인먼트",
+    "views": 1227,
+    "rank": 14,
+    "src_rank": 16,
+    "url": "https://ko.wikipedia.org/wiki/A2O_%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "대한민국",
+    "views": 1213,
+    "rank": 15,
+    "src_rank": 17,
+    "url": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+    "days": 2,
+    "prev_rank": 20
+   },
+   {
+    "title": "박진영 (1994년)",
+    "views": 1174,
+    "rank": 16,
+    "src_rank": 18,
+    "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%84%EC%98%81_%281994%EB%85%84%29",
+    "days": 2,
+    "prev_rank": 17
+   },
+   {
+    "title": "여성 사정",
+    "views": 1161,
+    "rank": 17,
+    "src_rank": 19,
+    "url": "https://ko.wikipedia.org/wiki/%EC%97%AC%EC%84%B1_%EC%82%AC%EC%A0%95",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "인스타그램",
+    "views": 1140,
+    "rank": 18,
+    "src_rank": 20,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "임진모",
+    "views": 1137,
+    "rank": 19,
+    "src_rank": 21,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%A7%84%EB%AA%A8",
+    "days": 2,
+    "prev_rank": 14
+   },
+   {
+    "title": "김용준 (가수)",
+    "views": 1108,
+    "rank": 20,
+    "src_rank": 23,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%9A%A9%EC%A4%80_%28%EA%B0%80%EC%88%98%29",
+    "days": 2,
+    "prev_rank": 16
+   }
+  ],
+  "ko_day": "2026-10-22",
+  "ko_same": false
+ },
+ "reddit": [
+  {
+   "sub": "memes",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "Enjoy it while it lasts......",
+     "url": "https://www.reddit.com/r/memes/comments/1xclxoh/enjoy_it_while_it_lasts/"
+    },
+    {
+     "rank": 2,
+     "title": "No sympathy from me",
+     "url": "https://www.reddit.com/r/memes/comments/1xcx4yj/no_sympathy_from_me/"
+    },
+    {
+     "rank": 3,
+     "title": "It's everywhere",
+     "url": "https://www.reddit.com/r/memes/comments/1xcd4py/its_everywhere/"
+    },
+    {
+     "rank": 4,
+     "title": "Bye Adobe and Microslop",
+     "url": "https://www.reddit.com/r/memes/comments/1xcaeqz/bye_adobe_and_microslop/"
+    },
+    {
+     "rank": 5,
+     "title": "Ur girlfriend is french iguess...",
+     "url": "https://www.reddit.com/r/memes/comments/1xciu86/ur_girlfriend_is_french_iguess/"
+    },
+    {
+     "rank": 6,
+     "title": "Me when I can't find my phone :",
+     "url": "https://www.reddit.com/r/memes/comments/1xcju4c/me_when_i_cant_find_my_phone/"
+    },
+    {
+     "rank": 7,
+     "title": "Relatable ain't it?",
+     "url": "https://www.reddit.com/r/memes/comments/1xcss8n/relatable_aint_it/"
+    },
+    {
+     "rank": 8,
+     "title": "grandpa you can't say that",
+     "url": "https://www.reddit.com/r/memes/comments/1xcv0p3/grandpa_you_cant_say_that/"
+    }
+   ]
+  },
+  {
+   "sub": "gaming",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "The Nintendo Switch 2 Has Been Hacked, First Jailbreak Opens The Floodgates To Emulation And Native PC Ports",
+     "url": "https://www.reddit.com/r/gaming/comments/1xcfm9l/the_nintendo_switch_2_has_been_hacked_first/"
+    },
+    {
+     "rank": 2,
+     "title": "A doctor, an investor, and a beer brewer - Bioware founders and their calling after gaming",
+     "url": "https://www.reddit.com/r/gaming/comments/1xc790s/a_doctor_an_investor_and_a_beer_brewer_bioware/"
+    },
+    {
+     "rank": 3,
+     "title": "I'm going to miss this place 😢.",
+     "url": "https://www.reddit.com/r/gaming/comments/1xc8cpl/im_going_to_miss_this_place/"
+    },
+    {
+     "rank": 4,
+     "title": "Canadian politician calls on government to help BioWare employees buy the studio and run it themselves",
+     "url": "https://www.reddit.com/r/gaming/comments/1xcx9e3/canadian_politician_calls_on_government_to_help/"
+    },
+    {
+     "rank": 5,
+     "title": "'Grand Theft Auto III' was released 25 years ago today",
+     "url": "https://www.reddit.com/r/gaming/comments/1xcm6n5/grand_theft_auto_iii_was_released_25_years_ago/"
+    },
+    {
+     "rank": 6,
+     "title": "Former BioWare Executive Producer Mark Darrah Says EA Might Be 'More Likely' to Sell IPs Like Mass Effect and Dragon Age After Studio’s Closure, but There's a Big Catch",
+     "url": "https://www.reddit.com/r/gaming/comments/1xc9raw/former_bioware_executive_producer_mark_darrah/"
+    },
+    {
+     "rank": 7,
+     "title": "Promising Sci-Fi RPG Exodus Changes Its Main Character's Face After Fan Criticism",
+     "url": "https://www.reddit.com/r/gaming/comments/1xcq9qf/promising_scifi_rpg_exodus_changes_its_main/"
+    },
+    {
+     "rank": 8,
+     "title": "‘Gears Of War: E-Day’ Cost Xbox $500 Million, Report Says",
+     "url": "https://www.reddit.com/r/gaming/comments/1xcygnh/gears_of_war_eday_cost_xbox_500_million_report/"
+    }
+   ]
+  },
+  {
+   "sub": "IndieGaming",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "Working on a little simulated ecosystem game that is in the jar on your desktop. What do you think?",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xclwyi/working_on_a_little_simulated_ecosystem_game_that/"
+    },
+    {
+     "rank": 2,
+     "title": "I'm a solo dev creating a Mexican Folklore Horror game inspired by Resident Evil, Silent Hill and a real life location in Mexico - Here's the new trailer I made! What do you think?",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xcngnn/im_a_solo_dev_creating_a_mexican_folklore_horror/"
+    },
+    {
+     "rank": 3,
+     "title": "I spent 10 years making this hardcore action RPG and it has finally launched a demo on Steamfest",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xcezc5/i_spent_10_years_making_this_hardcore_action_rpg/"
+    },
+    {
+     "rank": 4,
+     "title": "After two years of hard work, passion, and lots of love, Cutout Village is now available in Steam Early Access!",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xccik1/after_two_years_of_hard_work_passion_and_lots_of/"
+    },
+    {
+     "rank": 5,
+     "title": "A hand-crafted fantasy RPG, made by just 2 people",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xccwgk/a_handcrafted_fantasy_rpg_made_by_just_2_people/"
+    },
+    {
+     "rank": 6,
+     "title": "Releasing my rock band management game in two weeks",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xcokp5/releasing_my_rock_band_management_game_in_two/"
+    },
+    {
+     "rank": 7,
+     "title": "10 years ago I started out as a composer, today I'm a lead developer. I've been so busy I only just started on the music, have I still got it?",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xch8r2/10_years_ago_i_started_out_as_a_composer_today_im/"
+    },
+    {
+     "rank": 8,
+     "title": "Would you rebel against your programmer creator?",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xchn0h/would_you_rebel_against_your_programmer_creator/"
+    }
+   ]
+  },
+  {
+   "sub": "gamedev",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "17 days ago I launched a game where only one person in the world can play at a time. Players have now spent 4800 hours in it!",
+     "url": "https://www.reddit.com/r/gamedev/comments/1xcqrtm/17_days_ago_i_launched_a_game_where_only_one/"
+    },
+    {
+     "rank": 2,
+     "title": "57,000 Games Industry Jobs Have Vanished from 2022 till 2026",
+     "url": "https://www.reddit.com/r/gamedev/comments/1xcdhbg/57000_games_industry_jobs_have_vanished_from_2022/"
+    },
+    {
+     "rank": 3,
+     "title": "A bigger studio copied our game",
+     "url": "https://www.reddit.com/r/gamedev/comments/1xcm5f2/a_bigger_studio_copied_our_game/"
+    },
+    {
+     "rank": 4,
+     "title": "Are we making games to be played or to be watched?",
+     "url": "https://www.reddit.com/r/gamedev/comments/1xcjs4c/are_we_making_games_to_be_played_or_to_be_watched/"
+    },
+    {
+     "rank": 5,
+     "title": "Someone is already selling keys for my unreleased game — has this happened to you?",
+     "url": "https://www.reddit.com/r/gamedev/comments/1xcj9uo/someone_is_already_selling_keys_for_my_unreleased/"
+    },
+    {
+     "rank": 6,
+     "title": "How to find the ideal publishers for your game",
+     "url": "https://www.reddit.com/r/gamedev/comments/1xci6oh/how_to_find_the_ideal_publishers_for_your_game/"
+    },
+    {
+     "rank": 7,
+     "title": "What the hell kind of job or industry can I (an animator) pivot to?",
+     "url": "https://www.reddit.com/r/gamedev/comments/1xcs9qt/what_the_hell_kind_of_job_or_industry_can_i_an/"
+    },
+    {
+     "rank": 8,
+     "title": "Next Fest on Twitch, Oct 19–20: 382 games took 95% of the stream hours, 554 more had one or two streamers",
+     "url": "https://www.reddit.com/r/gamedev/comments/1xchmvk/next_fest_on_twitch_oct_1920_382_games_took_95_of/"
+    }
+   ]
+  },
+  {
+   "sub": "tiktokcringe",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "Air bnb hosts crashing out about new rules",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xctpfn/air_bnb_hosts_crashing_out_about_new_rules/"
+    },
+    {
+     "rank": 2,
+     "title": "Creep risks his life to record neighbor non consensually",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xckfrv/creep_risks_his_life_to_record_neighbor_non/"
+    },
+    {
+     "rank": 3,
+     "title": "I don’t think Shanon likes candle dipping 😭",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xcfqzf/i_dont_think_shanon_likes_candle_dipping/"
+    },
+    {
+     "rank": 4,
+     "title": "Asking a German if they speak English",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xclzfp/asking_a_german_if_they_speak_english/"
+    },
+    {
+     "rank": 5,
+     "title": "Dad turns up at the house of son's bully",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xcc7o2/dad_turns_up_at_the_house_of_sons_bully/"
+    },
+    {
+     "rank": 6,
+     "title": "New Product",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xc7qxl/new_product/"
+    },
+    {
+     "rank": 7,
+     "title": "Me fr",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xcoyju/me_fr/"
+    },
+    {
+     "rank": 8,
+     "title": "Nobody calls Morpheus Larry",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xccumb/nobody_calls_morpheus_larry/"
+    }
+   ]
+  }
+ ],
+ "imgflip": {
+  "items": [
+   {
+    "rank": 1,
+    "id": "181913649",
+    "name": "Drake Hotline Bling",
+    "url": "https://i.imgflip.com/30b1gx.jpg",
+    "box_count": 2,
+    "captions": 1579000,
+    "prev_rank": 1,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 2,
+    "id": "87743020",
+    "name": "Two Buttons",
+    "url": "https://i.imgflip.com/1g8my4.jpg",
+    "box_count": 3,
+    "captions": 1227500,
+    "prev_rank": 2,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 3,
+    "id": "112126428",
+    "name": "Distracted Boyfriend",
+    "url": "https://i.imgflip.com/1ur9b0.jpg",
+    "box_count": 3,
+    "captions": 1201500,
+    "prev_rank": 3,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 4,
+    "id": "222403160",
+    "name": "Bernie I Am Once Again Asking For Your Support",
+    "url": "https://i.imgflip.com/3oevdk.jpg",
+    "box_count": 2,
+    "captions": 357250,
+    "prev_rank": 4,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 5,
+    "id": "217743513",
+    "name": "UNO Draw 25 Cards",
+    "url": "https://i.imgflip.com/3lmzyx.jpg",
+    "box_count": 2,
+    "captions": 668500,
+    "prev_rank": 5,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 6,
+    "id": "252600902",
+    "name": "Always Has Been",
+    "url": "https://i.imgflip.com/46e43q.png",
+    "box_count": 2,
+    "captions": 251500,
+    "prev_rank": 6,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 7,
+    "id": "124822590",
+    "name": "Left Exit 12 Off Ramp",
+    "url": "https://i.imgflip.com/22bdq6.jpg",
+    "box_count": 3,
+    "captions": 748000,
+    "prev_rank": 7,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 8,
+    "id": "322841258",
+    "name": "Anakin Padme 4 Panel",
+    "url": "https://i.imgflip.com/5c7lwq.png",
+    "box_count": 3,
+    "captions": 156500,
+    "prev_rank": 8,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 9,
+    "id": "135256802",
+    "name": "Epic Handshake",
+    "url": "https://i.imgflip.com/28j0te.jpg",
+    "box_count": 3,
+    "captions": 272000,
+    "prev_rank": 9,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 10,
+    "id": "131940431",
+    "name": "Gru's Plan",
+    "url": "https://i.imgflip.com/26jxvz.jpg",
+    "box_count": 4,
+    "captions": 388750,
+    "prev_rank": 10,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 11,
+    "id": "97984",
+    "name": "Disaster Girl",
+    "url": "https://i.imgflip.com/23ls.jpg",
+    "box_count": 2,
+    "captions": 444750,
+    "prev_rank": 11,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 12,
+    "id": "131087935",
+    "name": "Running Away Balloon",
+    "url": "https://i.imgflip.com/261o3j.jpg",
+    "box_count": 5,
+    "captions": 606750,
+    "prev_rank": 12,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 13,
+    "id": "4087833",
+    "name": "Waiting Skeleton",
+    "url": "https://i.imgflip.com/2fm6x.jpg",
+    "box_count": 2,
+    "captions": 499500,
+    "prev_rank": 13,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 14,
+    "id": "80707627",
+    "name": "Sad Pablo Escobar",
+    "url": "https://i.imgflip.com/1c1uej.jpg",
+    "box_count": 3,
+    "captions": 261000,
+    "prev_rank": 14,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 15,
+    "id": "91538330",
+    "name": "X, X Everywhere",
+    "url": "https://i.imgflip.com/1ihzfe.jpg",
+    "box_count": 2,
+    "captions": 413000,
+    "prev_rank": 15,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 16,
+    "id": "309868304",
+    "name": "Trade Offer",
+    "url": "https://i.imgflip.com/54hjww.jpg",
+    "box_count": 3,
+    "captions": 133750,
+    "prev_rank": 16,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 17,
+    "id": "124055727",
+    "name": "Y'all Got Any More Of That",
+    "url": "https://i.imgflip.com/21uy0f.jpg",
+    "box_count": 2,
+    "captions": 235000,
+    "prev_rank": 17,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 18,
+    "id": "188390779",
+    "name": "Woman Yelling At Cat",
+    "url": "https://i.imgflip.com/345v97.jpg",
+    "box_count": 2,
+    "captions": 411500,
+    "prev_rank": 18,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 19,
+    "id": "129242436",
+    "name": "Change My Mind",
+    "url": "https://i.imgflip.com/24y43o.jpg",
+    "box_count": 2,
+    "captions": 681500,
+    "prev_rank": 19,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 20,
+    "id": "224015000",
+    "name": "Bernie Sanders Once Again Asking",
+    "url": "https://i.imgflip.com/3pdf2w.png",
+    "box_count": 2,
+    "captions": 70500,
+    "prev_rank": 20,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 21,
+    "id": "438680",
+    "name": "Batman Slapping Robin",
+    "url": "https://i.imgflip.com/9ehk.jpg",
+    "box_count": 2,
+    "captions": 672500,
+    "prev_rank": 21,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 22,
+    "id": "161865971",
+    "name": "Marked Safe From",
+    "url": "https://i.imgflip.com/2odckz.jpg",
+    "box_count": 2,
+    "captions": 234000,
+    "prev_rank": 22,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 23,
+    "id": "102156234",
+    "name": "Mocking Spongebob",
+    "url": "https://i.imgflip.com/1otk96.jpg",
+    "box_count": 2,
+    "captions": 458750,
+    "prev_rank": 23,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 24,
+    "id": "101470",
+    "name": "Ancient Aliens",
+    "url": "https://i.imgflip.com/26am.jpg",
+    "box_count": 2,
+    "captions": 388250,
+    "prev_rank": 24,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 25,
+    "id": "79132341",
+    "name": "Bike Fall",
+    "url": "https://i.imgflip.com/1b42wl.jpg",
+    "box_count": 3,
+    "captions": 149000,
+    "prev_rank": 25,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 26,
+    "id": "100777631",
+    "name": "Is This A Pigeon",
+    "url": "https://i.imgflip.com/1o00in.jpg",
+    "box_count": 3,
+    "captions": 244250,
+    "prev_rank": 26,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 27,
+    "id": "61579",
+    "name": "One Does Not Simply",
+    "url": "https://i.imgflip.com/1bij.jpg",
+    "box_count": 2,
+    "captions": 495500,
+    "prev_rank": 27,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 28,
+    "id": "247375501",
+    "name": "Buff Doge vs. Cheems",
+    "url": "https://i.imgflip.com/43a45p.png",
+    "box_count": 4,
+    "captions": 387000,
+    "prev_rank": 28,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 29,
+    "id": "427308417",
+    "name": "0 days without (Lenny, Simpsons)",
+    "url": "https://i.imgflip.com/72epa9.png",
+    "box_count": 2,
+    "captions": 50250,
+    "prev_rank": 29,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 30,
+    "id": "180190441",
+    "name": "They're The Same Picture",
+    "url": "https://i.imgflip.com/2za3u1.jpg",
+    "box_count": 3,
+    "captions": 191750,
+    "prev_rank": 30,
+    "delta": 0,
+    "new": false
+   }
+  ],
+  "entered": [
+   {
+    "rank": 100,
+    "id": "47169131",
+    "name": "Wolverine Remember",
+    "url": "https://i.imgflip.com/s2zxn.jpg",
+    "box_count": 2,
+    "captions": 22250
+   }
+  ],
+  "exited": [
+   {
+    "id": "16464531",
+    "name": "But That's None Of My Business",
+    "prev_rank": 100
+   }
+  ],
+  "movers": [],
+  "total": 100,
+  "compared": true
+ },
+ "cross": [
+  {
+   "term": "After two years of hard work, passion, and lots of love, Cutout Village is now available in Steam Early Access!",
+   "source": "r/IndieGaming",
+   "game": "Cutout Village",
+   "platform": "steam",
+   "game_url": "https://store.steampowered.com/app/3907910/",
+   "url": "https://www.reddit.com/r/IndieGaming/comments/1xccik1/after_two_years_of_hard_work_passion_and_lots_of/"
+  }
+ ],
+ "sources": [
+  {
+   "key": "kym",
+   "label": "KYM 뉴스피드",
+   "status": "ok",
+   "count": 4,
+   "error": ""
+  },
+  {
+   "key": "trends_kr",
+   "label": "Google 트렌드 KR",
+   "status": "ok",
+   "count": 10,
+   "error": ""
+  },
+  {
+   "key": "trends_us",
+   "label": "Google 트렌드 US",
+   "status": "ok",
+   "count": 10,
+   "error": ""
+  },
+  {
+   "key": "wiki_en",
+   "label": "위키백과 en",
+   "status": "ok",
+   "count": 20,
+   "error": ""
+  },
+  {
+   "key": "wiki_ko",
+   "label": "위키백과 ko",
+   "status": "ok",
+   "count": 20,
+   "error": ""
+  },
+  {
+   "key": "reddit_memes",
+   "label": "Reddit r/memes",
+   "status": "ok",
+   "count": 8,
+   "error": ""
+  },
+  {
+   "key": "reddit_gaming",
+   "label": "Reddit r/gaming",
+   "status": "ok",
+   "count": 8,
+   "error": ""
+  },
+  {
+   "key": "reddit_indiegaming",
+   "label": "Reddit r/IndieGaming",
+   "status": "ok",
+   "count": 8,
+   "error": ""
+  },
+  {
+   "key": "reddit_gamedev",
+   "label": "Reddit r/gamedev",
+   "status": "ok",
+   "count": 8,
+   "error": ""
+  },
+  {
+   "key": "reddit_tiktokcringe",
+   "label": "Reddit r/tiktokcringe",
+   "status": "ok",
+   "count": 8,
+   "error": ""
+  },
+  {
+   "key": "imgflip",
+   "label": "Imgflip 템플릿",
+   "status": "ok",
+   "count": 100,
+   "error": ""
+  }
+ ]
+}

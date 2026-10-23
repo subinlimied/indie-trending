@@ -90,5 +90,19 @@
     "max_pages_per_tag": 24,
     "min_games": 30,
     "niche_base": 10000
+  },
+
+  "media": {
+    "reddit_subs": [
+      "memes",
+      "gaming",
+      "IndieGaming",
+      "gamedev",
+      "tiktokcringe"
+    ],
+    "kym_hours": 48,
+    "wiki_top": 20,
+    "trends_top": 10,
+    "imgflip_top": 30
   }
 }
