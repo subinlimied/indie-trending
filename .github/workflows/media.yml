@@ -9,6 +9,10 @@ on:
       date:
         description: "수집 날짜 (YYYY-MM-DD, 비우면 오늘 KST)"
         required: false
+      force:
+        description: "같은 날짜 스냅샷이 있어도 다시 수집"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -41,7 +45,7 @@ jobs:
       - name: 수집
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}   # 없으면 유튜브 쇼츠 섹션만 건너뜁니다
-        run: python3 media.py collect --date "${{ steps.d.outputs.date }}"
+        run: python3 media.py collect --date "${{ steps.d.outputs.date }}" ${{ github.event.inputs.force == 'true' && '--force' || '' }}
 
       - name: 리포트 생성
         run: python3 media.py report --date "${{ steps.d.outputs.date }}"
