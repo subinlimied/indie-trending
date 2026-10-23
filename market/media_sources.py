@@ -112,9 +112,12 @@ def _kym_rss(url, kind, hours, now):
         desc_raw = _text(it, "description")
         m = IMG_RX.search(desc_raw)
         summary = plain(desc_raw, 300)
-        items.append({"kind": kind, "title": title, "url": link, "published": _iso(pub), "summary": summary,
-                      "image": m.group(1) if m else "", "platforms": platform_tags(title, summary),
-                      "status": {"confirmed": "confirmed", "submissions": "submission"}.get(kind, "")})
+        item = {"kind": kind, "title": title, "url": link, "published": _iso(pub), "summary": summary,
+                "platforms": platform_tags(title, summary),
+                "status": {"confirmed": "confirmed", "submissions": "submission"}.get(kind, "")}
+        if m:
+            item["image"] = m.group(1)          # 대표 이미지(RSS 설명의 img). 엔트리 페이지 og:image 가 있으면 enrich 에서 바꿉니다
+        items.append(item)
     items.sort(key=lambda x: x["published"], reverse=True)
     return items
 
@@ -189,9 +192,14 @@ def enrich_kym(snap, keys=("kym_feed", "kym_submissions", "kym_confirmed", "kym_
             if e.get("about"):
                 x["about"] = e["about"]
                 ok += 1
-            for f in ("published", "modified", "status", "image", "summary"):
+            if e.get("image"):
+                x["image"] = e["image"]          # 엔트리 페이지 og:image(원본 크기)를 RSS 의 작은 아이콘보다 우선
+            for f in ("published", "modified", "status", "summary"):
                 if not x.get(f) and e.get(f):
                     x[f] = e[f]
+            for f in ("image", "about"):
+                if f in x and not x[f]:
+                    del x[f]
     log(f"[media] KYM About 문단: 페이지 {fetched}개 열어 {ok}개 항목에 저장")
     return ok
 
@@ -211,7 +219,10 @@ def collect_kym_search(queries, hours=48, per_query=7, max_fetch=12, known=(), n
             if not slug or slug in GENERIC_SLUGS or url in seen:
                 continue
             seen.add(url)
-            cands.append({"kind": "search", "query": q, "title": plain(title), "url": url, "image": img})
+            c = {"kind": "search", "query": q, "title": plain(title), "url": url}
+            if img:
+                c["image"] = img
+            cands.append(c)
     items, fetched = [], 0
     for c in cands:
         if fetched >= max_fetch:
@@ -225,7 +236,8 @@ def collect_kym_search(queries, hours=48, per_query=7, max_fetch=12, known=(), n
         pub, mod = _parse_iso(e["published"]), _parse_iso(e["modified"])
         if not ((pub and pub >= cutoff) or (mod and mod >= cutoff)):
             continue
-        c.update(e)
+        c.update({k: v for k, v in e.items() if v})   # 빈 값(이미지·About 없음)은 키를 넣지 않습니다
+        c.setdefault("summary", "")
         c["platforms"] = platform_tags(c["title"], c["summary"], c["query"])
         c["updated_only"] = not (pub and pub >= cutoff)
         items.append(c)
