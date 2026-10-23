@@ -19,7 +19,7 @@ permissions:
 
 # 일간 실행과 같은 그룹: Steam 요청이 겹치지 않게 순서대로 돕니다.
 concurrency:
-  group: daily
+  group: weekly
   cancel-in-progress: false
 
 jobs:
