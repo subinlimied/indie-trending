@@ -1,0 +1,2129 @@
+{
+ "kind": "media",
+ "platform": "media",
+ "platform_ko": "미디어·밈",
+ "date": "2026-10-24",
+ "round": 3,
+ "prev_date": "2026-10-23",
+ "status": [
+  [
+   "회차",
+   "3회차"
+  ],
+  [
+   "비교 대상",
+   "2026-10-23 · 1일치"
+  ],
+  [
+   "틱톡·인스타",
+   "5건 / KYM 10"
+  ],
+  [
+   "새 밈",
+   "6건"
+  ],
+  [
+   "제외 필터",
+   "8건"
+  ],
+  [
+   "게임 교차",
+   "2건"
+  ],
+  [
+   "수집",
+   "2026-10-24 00:49:01 UTC"
+  ]
+ ],
+ "collect_line": "소스 17/17 정상 · KYM 10건(틱톡·인스타 5) · 새 밈 6 · Reddit 6/6 · 검색 7/8 · 위키 20/17 · 제외 필터 8건",
+ "basis_line": "KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 48시간) · Reddit top(t=day) 8개 × 6개 서브레딧 · YouTube 인기 급상승 KR·US Top 10(60초 이하는 쇼츠 표시, 키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · Imgflip 인기 템플릿 100개 중 상위 30 · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · 게임 교차 = Steam·itch 스냅샷 게임 이름과 대조",
+ "pick": {
+  "kind": "submissions",
+  "title": "Thank You For TikTok",
+  "url": "https://knowyourmeme.com/memes/thank-you-for-tiktok",
+  "published": "2026-10-23T19:28:53Z",
+  "summary": "Read More",
+  "platforms": [
+   "TikTok"
+  ],
+  "status": "submission",
+  "image": "https://i.kym-cdn.com/entries/icons/original/000/057/666/Screenshot_20261023_185832_Gallery.jpg",
+  "modified": "2026-10-23T21:55:30Z",
+  "kinds": [
+   "submissions"
+  ],
+  "new": true,
+  "streak": 1,
+  "since": "2026-10-24",
+  "reason": "KYM 최신 TikTok 항목"
+ },
+ "platform_counts": [
+  [
+   "TikTok",
+   5
+  ],
+  [
+   "Instagram",
+   1
+  ]
+ ],
+ "shortform": [
+  {
+   "kind": "submissions",
+   "title": "Thank You For TikTok",
+   "url": "https://knowyourmeme.com/memes/thank-you-for-tiktok",
+   "published": "2026-10-23T19:28:53Z",
+   "summary": "Read More",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/666/Screenshot_20261023_185832_Gallery.jpg",
+   "modified": "2026-10-23T21:55:30Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "\"I'm So Sorry\" TikTok Trend",
+   "url": "https://knowyourmeme.com/memes/im-so-sorry-tiktok-trend",
+   "published": "2026-10-22T18:14:09Z",
+   "summary": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/663/sosorrycover.jpg",
+   "about": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. The trend began in August 2026 and was further popularized in October 2026. Some of the most popular versions of the meme are based on photographs of childhood Halloween costumes that were cringe or problematic in hindsight.",
+   "modified": "2026-10-22T19:20:28Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Code Rot Filter / Yep It's Code Rotted Indeed",
+   "url": "https://knowyourmeme.com/memes/code-rot-filter-yep-its-code-rotted-indeed",
+   "published": "2026-10-22T15:21:36Z",
+   "summary": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting vid…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/661/coderotcover.jpg",
+   "about": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting videos claiming, through text-to-speech voices and on-screen captions, that the filter was code-rotted. Many of the videos feature eerie music and vibes and claim that this is the first TikTok filter to experience code rot. As a meme, the videos often exaggerate the seriousness and scariness of code ro…",
+   "modified": "2026-10-22T16:50:23Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Malfoid / Female Draco Malfoy",
+   "url": "https://knowyourmeme.com/memes/malfoid-female-draco-malfoy",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/554/malfoidcover.jpg",
+   "published": "2026-09-30T15:05:54Z",
+   "modified": "2026-10-24T00:33:32Z",
+   "summary": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character",
+   "status": "confirmed",
+   "about": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character Draco Malfoy from the Harry Potter series, popularized through a September 2026 fan art trend. The fan art trend was popularized on X / Twitter in September and October 2026 and typically involves drawing depictions of Draco Malfoy as a woman or teenage girl. The term \"Malfoid\" is a combination of \"Malfoy\" and \" foid,\" a derogatory incel term for women derived from \" femoid,\" a term meant to call women unintelligent.",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Snicker Cat",
+   "url": "https://knowyourmeme.com/memes/snicker-cat",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/056/783/cc2d91d5-2886-4075-8498-daecf0749263.jpg",
+   "published": "2026-05-09T23:56:51Z",
+   "modified": "2026-10-23T14:13:34Z",
+   "summary": "Snicker Cat refers to a series of viral short-form videos centered on a black cat character named Snicker, most commonly associated with the Instagram acco",
+   "status": "submission",
+   "about": "Snicker Cat refers to a series of viral short-form videos centered on a black cat character named Snicker, most commonly associated with the Instagram account @thesnickercat The videos usually depict Snicker and other cats driving cars, drifting, parking, escaping danger, avoiding crashes or performing exaggerated driving stunts. The meme became popular on Instagram Reels through highly edited action and comedy clips that present the cat as an unusually skilled, chaotic or heroic driver. The humor of the meme often comes from treating impossible cat-driving situations as normal everyday event…",
+   "platforms": [
+    "TikTok",
+    "Instagram"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  }
+ ],
+ "kym_all": [
+  {
+   "kind": "newsfeed",
+   "title": "Two Goats Named 'Nagi' And 'Pokke' Have Been Hired To Clear An Overgrown Lot In Japan",
+   "url": "https://knowyourmeme.com/memes/nagi-and-pokke",
+   "published": "2026-10-23T20:49:57Z",
+   "summary": "Nagi and Pokke are two goats in Japan deployed by Japan Rail to eat the overgrown grass near a train station in a lot in Yotsuya, an area in Shinjuku, Tokyo. News of the railway company hiring Nagi and Pokke went viral in late October 2026. The news inspired reactions, memes and discourse online.",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/667/nagipokke.jpg",
+   "about": "Nagi and Pokke are two goats in Japan deployed by Japan Rail to eat the overgrown grass near a train station in a lot in Yotsuya, an area in Shinjuku, Tokyo. News of the railway company hiring Nagi and Pokke went viral in late October 2026. The news inspired reactions, memes and discourse online.",
+   "modified": "2026-10-23T20:49:16Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "Ethan Klein Cheating Controversy Explodes Across Social Media",
+   "url": "https://knowyourmeme.com/memes/events/ethan-klein-cheating-controversy-h3-affair-scandal",
+   "published": "2026-10-23T20:30:02Z",
+   "summary": "Ethan Klein Cheating Controversy refers to a recent development in which Ethan Klein of the husband-and-wife duo h3h3productions was publicly revealed to have been having an affair by his wife Hila, culminating in an indefinite hiatus of the H3 Podcast. The controversy began on October 22nd, 2026,…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/665/Ethan_Klein_Cheating_Controversy_banner.jpg",
+   "modified": "2026-10-23T21:59:15Z",
+   "kinds": [
+    "newsfeed"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "Thank You For TikTok",
+   "url": "https://knowyourmeme.com/memes/thank-you-for-tiktok",
+   "published": "2026-10-23T19:28:53Z",
+   "summary": "Read More",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/666/Screenshot_20261023_185832_Gallery.jpg",
+   "modified": "2026-10-23T21:55:30Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "The 'What's Up Brah?' Meme Featuring Randy Marsh From 'South Park' Explained",
+   "url": "https://knowyourmeme.com/videos/440924-randy-marsh-vs-whats-up-brah",
+   "published": "2026-10-23T15:48:12Z",
+   "summary": "what's up brah?!",
+   "platforms": [],
+   "status": "",
+   "image": "https://i.kym-cdn.com/news_feeds/icons/mobile/000/096/214/89c.jpg",
+   "kinds": [
+    "newsfeed"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "Ethan Klein Cheating Controversy / H3 Affair Scandal",
+   "url": "https://knowyourmeme.com/memes/ethan-klein-cheating-controversy-h3-affair-scandal",
+   "published": "2026-10-23T14:38:26Z",
+   "summary": "Ethan Klein Cheating Controversy, also known as the H3 Affair Scandal, refers to a viral controversy in which Ethan Klein of the husband-and-wife duo h3h3productions was publicly revealed to have been having an affair by his wife, Hila, culminating in an indefinite hiatus of the H3 Podcast. The con…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/665/Ethan_Klein_Cheating_Controversy_banner.jpg",
+   "modified": "2026-10-23T21:59:15Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "\"I'm So Sorry\" TikTok Trend",
+   "url": "https://knowyourmeme.com/memes/im-so-sorry-tiktok-trend",
+   "published": "2026-10-22T18:14:09Z",
+   "summary": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/663/sosorrycover.jpg",
+   "about": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. The trend began in August 2026 and was further popularized in October 2026. Some of the most popular versions of the meme are based on photographs of childhood Halloween costumes that were cringe or problematic in hindsight.",
+   "modified": "2026-10-22T19:20:28Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "PHP2Shell / 2026 PHP Vulnerability / Hack",
+   "url": "https://knowyourmeme.com/memes/php2shell-2026-php-vulnerability-hack",
+   "published": "2026-10-22T16:47:42Z",
+   "summary": "PHP2Shell or the 2026 PHP Vulnerability, also known as the 2026 PHP Hack, refers to two critical and widespread vulnerabilities, referred to as CVE-2026-109618 and CVE-2026-109619, found in PHP code (used by an estimated 70 percent of websites on the internet) that could allow a hacker to access a…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/662/cvacover.jpg",
+   "modified": "2026-10-22T18:03:40Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Code Rot Filter / Yep It's Code Rotted Indeed",
+   "url": "https://knowyourmeme.com/memes/code-rot-filter-yep-its-code-rotted-indeed",
+   "published": "2026-10-22T15:21:36Z",
+   "summary": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting vid…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/661/coderotcover.jpg",
+   "about": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting videos claiming, through text-to-speech voices and on-screen captions, that the filter was code-rotted. Many of the videos feature eerie music and vibes and claim that this is the first TikTok filter to experience code rot. As a meme, the videos often exaggerate the seriousness and scariness of code ro…",
+   "modified": "2026-10-22T16:50:23Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Malfoid / Female Draco Malfoy",
+   "url": "https://knowyourmeme.com/memes/malfoid-female-draco-malfoy",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/554/malfoidcover.jpg",
+   "published": "2026-09-30T15:05:54Z",
+   "modified": "2026-10-24T00:33:32Z",
+   "summary": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character",
+   "status": "confirmed",
+   "about": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character Draco Malfoy from the Harry Potter series, popularized through a September 2026 fan art trend. The fan art trend was popularized on X / Twitter in September and October 2026 and typically involves drawing depictions of Draco Malfoy as a woman or teenage girl. The term \"Malfoid\" is a combination of \"Malfoy\" and \" foid,\" a derogatory incel term for women derived from \" femoid,\" a term meant to call women unintelligent.",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Snicker Cat",
+   "url": "https://knowyourmeme.com/memes/snicker-cat",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/056/783/cc2d91d5-2886-4075-8498-daecf0749263.jpg",
+   "published": "2026-05-09T23:56:51Z",
+   "modified": "2026-10-23T14:13:34Z",
+   "summary": "Snicker Cat refers to a series of viral short-form videos centered on a black cat character named Snicker, most commonly associated with the Instagram acco",
+   "status": "submission",
+   "about": "Snicker Cat refers to a series of viral short-form videos centered on a black cat character named Snicker, most commonly associated with the Instagram account @thesnickercat The videos usually depict Snicker and other cats driving cars, drifting, parking, escaping danger, avoiding crashes or performing exaggerated driving stunts. The meme became popular on Instagram Reels through highly edited action and comedy clips that present the cat as an unusually skilled, chaotic or heroic driver. The humor of the meme often comes from treating impossible cat-driving situations as normal everyday event…",
+   "platforms": [
+    "TikTok",
+    "Instagram"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  }
+ ],
+ "kym_new": 7,
+ "new_memes": [
+  {
+   "kind": "newsfeed",
+   "title": "Two Goats Named 'Nagi' And 'Pokke' Have Been Hired To Clear An Overgrown Lot In Japan",
+   "url": "https://knowyourmeme.com/memes/nagi-and-pokke",
+   "published": "2026-10-23T20:49:57Z",
+   "summary": "Nagi and Pokke are two goats in Japan deployed by Japan Rail to eat the overgrown grass near a train station in a lot in Yotsuya, an area in Shinjuku, Tokyo. News of the railway company hiring Nagi and Pokke went viral in late October 2026. The news inspired reactions, memes and discourse online.",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/667/nagipokke.jpg",
+   "about": "Nagi and Pokke are two goats in Japan deployed by Japan Rail to eat the overgrown grass near a train station in a lot in Yotsuya, an area in Shinjuku, Tokyo. News of the railway company hiring Nagi and Pokke went viral in late October 2026. The news inspired reactions, memes and discourse online.",
+   "modified": "2026-10-23T20:49:16Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "Thank You For TikTok",
+   "url": "https://knowyourmeme.com/memes/thank-you-for-tiktok",
+   "published": "2026-10-23T19:28:53Z",
+   "summary": "Read More",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/666/Screenshot_20261023_185832_Gallery.jpg",
+   "modified": "2026-10-23T21:55:30Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "Ethan Klein Cheating Controversy / H3 Affair Scandal",
+   "url": "https://knowyourmeme.com/memes/ethan-klein-cheating-controversy-h3-affair-scandal",
+   "published": "2026-10-23T14:38:26Z",
+   "summary": "Ethan Klein Cheating Controversy, also known as the H3 Affair Scandal, refers to a viral controversy in which Ethan Klein of the husband-and-wife duo h3h3productions was publicly revealed to have been having an affair by his wife, Hila, culminating in an indefinite hiatus of the H3 Podcast. The con…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/665/Ethan_Klein_Cheating_Controversy_banner.jpg",
+   "modified": "2026-10-23T21:59:15Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "\"I'm So Sorry\" TikTok Trend",
+   "url": "https://knowyourmeme.com/memes/im-so-sorry-tiktok-trend",
+   "published": "2026-10-22T18:14:09Z",
+   "summary": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/663/sosorrycover.jpg",
+   "about": "The \"I'm So Sorry\" TikTok Trend is a TikTok slideshow trend where a user shares what they claim is a photo of themselves and reveals, through each subsequent slide, that the original image was edited, revealing more of the original photo with each slide and finally apologizing for lying in the last slide. The trend began in August 2026 and was further popularized in October 2026. Some of the most popular versions of the meme are based on photographs of childhood Halloween costumes that were cringe or problematic in hindsight.",
+   "modified": "2026-10-22T19:20:28Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "PHP2Shell / 2026 PHP Vulnerability / Hack",
+   "url": "https://knowyourmeme.com/memes/php2shell-2026-php-vulnerability-hack",
+   "published": "2026-10-22T16:47:42Z",
+   "summary": "PHP2Shell or the 2026 PHP Vulnerability, also known as the 2026 PHP Hack, refers to two critical and widespread vulnerabilities, referred to as CVE-2026-109618 and CVE-2026-109619, found in PHP code (used by an estimated 70 percent of websites on the internet) that could allow a hacker to access a…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/662/cvacover.jpg",
+   "modified": "2026-10-22T18:03:40Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Code Rot Filter / Yep It's Code Rotted Indeed",
+   "url": "https://knowyourmeme.com/memes/code-rot-filter-yep-its-code-rotted-indeed",
+   "published": "2026-10-22T15:21:36Z",
+   "summary": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting vid…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/661/coderotcover.jpg",
+   "about": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting videos claiming, through text-to-speech voices and on-screen captions, that the filter was code-rotted. Many of the videos feature eerie music and vibes and claim that this is the first TikTok filter to experience code rot. As a meme, the videos often exaggerate the seriousness and scariness of code ro…",
+   "modified": "2026-10-22T16:50:23Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  }
+ ],
+ "reddit": [
+  {
+   "sub": "TikTokCringe",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "Can someone explain me how my baby knows when we are home?",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xdfwnb/can_someone_explain_me_how_my_baby_knows_when_we/"
+    },
+    {
+     "rank": 2,
+     "title": "Amazing role reversal from the “who has the best girlfriend ever?” “I do..”",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xdlf23/amazing_role_reversal_from_the_who_has_the_best/"
+    },
+    {
+     "rank": 3,
+     "title": "Best Cat Dad EVER!",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xd1i9x/best_cat_dad_ever/"
+    },
+    {
+     "rank": 4,
+     "title": "What was she talking about?",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xdizr4/what_was_she_talking_about/"
+    },
+    {
+     "rank": 5,
+     "title": "Taylor Swift when another pop girlie announces a new song release",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xdnw6m/taylor_swift_when_another_pop_girlie_announces_a/"
+    },
+    {
+     "rank": 6,
+     "title": "RIP to the chair",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xd01l0/rip_to_the_chair/"
+    },
+    {
+     "rank": 7,
+     "title": "The Missy Woods DNA scandal might be one of the worst miscarriages of justice in US history",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xdiw6l/the_missy_woods_dna_scandal_might_be_one_of_the/"
+    },
+    {
+     "rank": 8,
+     "title": "Should medical professionals be influencers?",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xdcq1c/should_medical_professionals_be_influencers/"
+    }
+   ]
+  },
+  {
+   "sub": "memes",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "that would be the final straw!",
+     "url": "https://www.reddit.com/r/memes/comments/1xd9q2w/that_would_be_the_final_straw/"
+    },
+    {
+     "rank": 2,
+     "title": "Free moneh",
+     "url": "https://www.reddit.com/r/memes/comments/1xdb1f0/free_moneh/"
+    },
+    {
+     "rank": 3,
+     "title": "Sequence matters",
+     "url": "https://www.reddit.com/r/memes/comments/1xd7icv/sequence_matters/"
+    },
+    {
+     "rank": 4,
+     "title": "Time to use the brain",
+     "url": "https://www.reddit.com/r/memes/comments/1xden4l/time_to_use_the_brain/"
+    },
+    {
+     "rank": 5,
+     "title": "the legends",
+     "url": "https://www.reddit.com/r/memes/comments/1xdbfwe/the_legends/"
+    },
+    {
+     "rank": 6,
+     "title": "It's lovely out here",
+     "url": "https://www.reddit.com/r/memes/comments/1xd2rlv/its_lovely_out_here/"
+    },
+    {
+     "rank": 7,
+     "title": "Never heard of it",
+     "url": "https://www.reddit.com/r/memes/comments/1xdq5i6/never_heard_of_it/"
+    },
+    {
+     "rank": 8,
+     "title": "Pfft. Amateurs.",
+     "url": "https://www.reddit.com/r/memes/comments/1xd0hqs/pfft_amateurs/"
+    }
+   ]
+  },
+  {
+   "sub": "popculturechat",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "Ms. Rachel: \"A black one-year-old is killed in a Walmart parking lot...and it's ruled justified? That child's whole future is taken away and that mom loses her, her world, her baby.\"",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xdh2on/ms_rachel_a_black_oneyearold_is_killed_in_a/"
+    },
+    {
+     "rank": 2,
+     "title": "Mandy Patinkin: \"Help get Abdul El-Sayed elected to the senate! Jewish safety depends on a real multiracial democracy - and Abdul is the one fighting to protect it.",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xdpnqb/mandy_patinkin_help_get_abdul_elsayed_elected_to/"
+    },
+    {
+     "rank": 3,
+     "title": "H3 Hila Klein posts Ethan Klein had an affair and they are separated",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xd63gw/h3_hila_klein_posts_ethan_klein_had_an_affair_and/"
+    },
+    {
+     "rank": 4,
+     "title": "Dallas Cowboy Cheerleaders have unionized",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xdniz7/dallas_cowboy_cheerleaders_have_unionized/"
+    },
+    {
+     "rank": 5,
+     "title": "H3 Podcast Crew Cuts Ties With Ethan Klein After Hila Klein Says He Has Been Having an Affair",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xdca7q/h3_podcast_crew_cuts_ties_with_ethan_klein_after/"
+    },
+    {
+     "rank": 6,
+     "title": "Macklemore performs his first concert at Red Rocks Amphitheatre in Colorado and makes his first public comments since being kicked off Ed Sheeran’s tour: \"Being a human being in this moment is not complicated. It is not political. It is human to have a heart.",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xdl18p/macklemore_performs_his_first_concert_at_red/"
+    },
+    {
+     "rank": 7,
+     "title": "Lisa Harrison Named as Accountant Alleged to have Defrauded RJ Mitte and Other Vulnerable Actors.",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xdmwh2/lisa_harrison_named_as_accountant_alleged_to_have/"
+    },
+    {
+     "rank": 8,
+     "title": "Benito Skinner and Owen Thiele as Pink Pantheress and Zara Larsson",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xdfwjo/benito_skinner_and_owen_thiele_as_pink_pantheress/"
+    }
+   ]
+  },
+  {
+   "sub": "shorts",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "#trending # #tiktok #danslabulledecali #birds #اكسبلور #animaux #kitten #shorts #shortvideo #song",
+     "url": "https://www.reddit.com/r/shorts/comments/1xdrdr1/trending_tiktok_danslabulledecali_birds_اكسبلور/"
+    },
+    {
+     "rank": 2,
+     "title": "Historic - 2002 Unreleased Techno Drop ⚡ #OldSchool #Techno",
+     "url": "https://www.reddit.com/r/shorts/comments/1xdo7ng/historic_2002_unreleased_techno_drop_oldschool/"
+    },
+    {
+     "rank": 3,
+     "title": "Homo Sait Rien",
+     "url": "https://www.reddit.com/r/shorts/comments/1xdacio/homo_sait_rien/"
+    },
+    {
+     "rank": 4,
+     "title": "They messed with wrong Guy💀🔥 | Modern Warfare 4 #shorts #callofduty #dlukgaming",
+     "url": "https://www.reddit.com/r/shorts/comments/1xd9cla/they_messed_with_wrong_guy_modern_warfare_4/"
+    },
+    {
+     "rank": 5,
+     "title": "টুকু যখন সেলফি তুলতে যায় || TunTuk Shorts",
+     "url": "https://www.reddit.com/r/shorts/comments/1xdd4jz/টক_যখন_সলফ_তলত_যয়_tuntuk_shorts/"
+    }
+   ]
+  },
+  {
+   "sub": "gaming",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "Fuck this forced advertisement right off. This is not ok.",
+     "url": "https://www.reddit.com/r/gaming/comments/1xd98bw/fuck_this_forced_advertisement_right_off_this_is/"
+    },
+    {
+     "rank": 2,
+     "title": "Mass Effect Fans Call for EA Boycott as Petition to Save BioWare's Canceled Game Garners More than 75,000 Signatures",
+     "url": "https://www.reddit.com/r/gaming/comments/1xdsl9l/mass_effect_fans_call_for_ea_boycott_as_petition/"
+    },
+    {
+     "rank": 3,
+     "title": "Seeing these 4 goats together in charge of the next Fallout game is a sight for sore eyes. (Fallout day video 2026)",
+     "url": "https://www.reddit.com/r/gaming/comments/1xdjqc3/seeing_these_4_goats_together_in_charge_of_the/"
+    },
+    {
+     "rank": 4,
+     "title": "There is a reason I keep coming back to Pokemon on GBA",
+     "url": "https://www.reddit.com/r/gaming/comments/1xdnxfn/there_is_a_reason_i_keep_coming_back_to_pokemon/"
+    },
+    {
+     "rank": 5,
+     "title": "If you bought Blightstone in early access you just got robbed.",
+     "url": "https://www.reddit.com/r/gaming/comments/1xd4beo/if_you_bought_blightstone_in_early_access_you/"
+    },
+    {
+     "rank": 6,
+     "title": "Arkane Lyon has until November 13 to find a buyer or Microsoft shuts them down",
+     "url": "https://www.reddit.com/r/gaming/comments/1xdeagf/arkane_lyon_has_until_november_13_to_find_a_buyer/"
+    },
+    {
+     "rank": 7,
+     "title": "So glad I never through this away - there's something really special about the old Sim City 2000 artwork",
+     "url": "https://www.reddit.com/r/gaming/comments/1xd9r9n/so_glad_i_never_through_this_away_theres/"
+    },
+    {
+     "rank": 8,
+     "title": "Official Factorio Trailer 2026",
+     "url": "https://www.reddit.com/r/gaming/comments/1xdb37l/official_factorio_trailer_2026/"
+    }
+   ]
+  },
+  {
+   "sub": "IndieGaming",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "After 15 years of making To the Moon games, we're finally going isometric!",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xdmman/after_15_years_of_making_to_the_moon_games_were/"
+    },
+    {
+     "rank": 2,
+     "title": "Our wolf game has a demo!",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xdjvwt/our_wolf_game_has_a_demo/"
+    },
+    {
+     "rank": 3,
+     "title": "dev gluttony is real, i keep adding systems to my cozy farm game T-T",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xd6qwq/dev_gluttony_is_real_i_keep_adding_systems_to_my/"
+    },
+    {
+     "rank": 4,
+     "title": "Revamp of my Roof. Your thoughts!?",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xdfb51/revamp_of_my_roof_your_thoughts/"
+    },
+    {
+     "rank": 5,
+     "title": "Backrooms drone sim is out now",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xdj64x/backrooms_drone_sim_is_out_now/"
+    },
+    {
+     "rank": 6,
+     "title": "We made a dark fairytale roguelite with ridiculous builds, curses and...",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xdapxx/we_made_a_dark_fairytale_roguelite_with/"
+    },
+    {
+     "rank": 7,
+     "title": "Relaxed frogs from my latest hidden object game",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xdffwm/relaxed_frogs_from_my_latest_hidden_object_game/"
+    },
+    {
+     "rank": 8,
+     "title": "I work 38.5 hours a week in a real sawmill. At night I build one where every log is a physics object",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xdhl1a/i_work_385_hours_a_week_in_a_real_sawmill_at/"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "KR": {
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "id": "iqQWCYMlMw0",
+     "title": "ATEEZ(에이티즈) - 'Drip' Official MV",
+     "channel": "KQ ENTERTAINMENT",
+     "views": 4687209,
+     "likes": 335399,
+     "duration": 191,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=iqQWCYMlMw0",
+     "thumb": "https://i.ytimg.com/vi/iqQWCYMlMw0/mqdefault.jpg",
+     "published": "2026-10-23T04:00:02Z"
+    },
+    {
+     "rank": 2,
+     "id": "JCdkBe3d2b8",
+     "title": "RESCENE [PULSE] Concept Trailer",
+     "channel": "RESCENE",
+     "views": 784189,
+     "likes": 33061,
+     "duration": 41,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/JCdkBe3d2b8",
+     "thumb": "https://i.ytimg.com/vi/JCdkBe3d2b8/mqdefault.jpg",
+     "published": "2026-10-22T09:00:00Z"
+    },
+    {
+     "rank": 3,
+     "id": "57dPyQ9HICo",
+     "title": "혜안져스 ≪봄바나나≫ 이제 잘하긴 ㄱㅐ뿔ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ(※40분 순삭)",
+     "channel": "혜안",
+     "views": 396482,
+     "likes": 16771,
+     "duration": 2283,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=57dPyQ9HICo",
+     "thumb": "https://i.ytimg.com/vi/57dPyQ9HICo/mqdefault.jpg",
+     "published": "2026-10-23T10:11:27Z"
+    },
+    {
+     "rank": 4,
+     "id": "bB8rDZPNjyI",
+     "title": "삐그덕 (seesaw)",
+     "channel": "Crush - Topic",
+     "views": 631384,
+     "likes": 10995,
+     "duration": 181,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=bB8rDZPNjyI",
+     "thumb": "https://i.ytimg.com/vi/bB8rDZPNjyI/mqdefault.jpg",
+     "published": "2026-10-21T09:03:29Z"
+    },
+    {
+     "rank": 5,
+     "id": "bll2jUTqHH8",
+     "title": "닥터X | 계수정 피흘리는 예고씬 분석! 장소장 사람들이 가져온 결정적 증거! [명작맛집]",
+     "channel": "명작맛집",
+     "views": 345419,
+     "likes": 1004,
+     "duration": 934,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=bll2jUTqHH8",
+     "thumb": "https://i.ytimg.com/vi/bll2jUTqHH8/mqdefault.jpg",
+     "published": "2026-10-22T08:00:04Z"
+    },
+    {
+     "rank": 6,
+     "id": "LTz_F18nlMU",
+     "title": "화폐가 생긴 마인크래프트 서버 생존기",
+     "channel": "코마",
+     "views": 554050,
+     "likes": 9152,
+     "duration": 1077,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=LTz_F18nlMU",
+     "thumb": "https://i.ytimg.com/vi/LTz_F18nlMU/mqdefault.jpg",
+     "published": "2026-10-23T07:27:35Z"
+    },
+    {
+     "rank": 7,
+     "id": "-5ZXrO_lYSA",
+     "title": "LISA - Tarantino (Official Music Video)",
+     "channel": "LISAOfficialVEVO",
+     "views": 36855124,
+     "likes": 720098,
+     "duration": 217,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=-5ZXrO_lYSA",
+     "thumb": "https://i.ytimg.com/vi/-5ZXrO_lYSA/mqdefault.jpg",
+     "published": "2026-10-23T04:00:07Z"
+    },
+    {
+     "rank": 8,
+     "id": "qB6udg11pi0",
+     "title": "푸른길 | 공식 티저 예고편 | 넷플릭스",
+     "channel": "Netflix Korea 넷플릭스 코리아",
+     "views": 491553,
+     "likes": 1895,
+     "duration": 88,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=qB6udg11pi0",
+     "thumb": "https://i.ytimg.com/vi/qB6udg11pi0/mqdefault.jpg",
+     "published": "2026-10-23T00:00:01Z"
+    },
+    {
+     "rank": 9,
+     "id": "BLyLB77Ir9M",
+     "title": "4드론 이블린",
+     "channel": "PAKA",
+     "views": 365699,
+     "likes": 1370,
+     "duration": 1352,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=BLyLB77Ir9M",
+     "thumb": "https://i.ytimg.com/vi/BLyLB77Ir9M/mqdefault.jpg",
+     "published": "2026-10-23T08:30:22Z"
+    },
+    {
+     "rank": 10,
+     "id": "oC6brLXQe4I",
+     "title": "BABYMONSTER - 'DESERVE' M/V",
+     "channel": "BABYMONSTER",
+     "views": 10927602,
+     "likes": 594403,
+     "duration": 215,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=oC6brLXQe4I",
+     "thumb": "https://i.ytimg.com/vi/oC6brLXQe4I/mqdefault.jpg",
+     "published": "2026-10-23T04:00:09Z"
+    }
+   ],
+   "total": 49,
+   "shorts": 2
+  },
+  "US": {
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "id": "-5ZXrO_lYSA",
+     "title": "LISA - Tarantino (Official Music Video)",
+     "channel": "LISAOfficialVEVO",
+     "views": 36855124,
+     "likes": 720098,
+     "duration": 217,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=-5ZXrO_lYSA",
+     "thumb": "https://i.ytimg.com/vi/-5ZXrO_lYSA/mqdefault.jpg",
+     "published": "2026-10-23T04:00:07Z"
+    },
+    {
+     "rank": 2,
+     "id": "u0yUYgZ0s30",
+     "title": "Aadarsha Kutumbam - Official Trailer | Venkatesh, Srinidhi Shetty | Trivikram | Thaman S",
+     "channel": "Haarika & Hassine Creations",
+     "views": 2256304,
+     "likes": 43529,
+     "duration": 153,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=u0yUYgZ0s30",
+     "thumb": "https://i.ytimg.com/vi/u0yUYgZ0s30/mqdefault.jpg",
+     "published": "2026-10-23T15:19:42Z"
+    },
+    {
+     "rank": 3,
+     "id": "y5IdSoHdkgg",
+     "title": "10,000 Players Simulate COLD WAR in Minecraft",
+     "channel": "Spoke",
+     "views": 4621527,
+     "likes": 147192,
+     "duration": 14381,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=y5IdSoHdkgg",
+     "thumb": "https://i.ytimg.com/vi/y5IdSoHdkgg/mqdefault.jpg",
+     "published": "2026-10-23T00:03:42Z"
+    },
+    {
+     "rank": 4,
+     "id": "iqQWCYMlMw0",
+     "title": "ATEEZ(에이티즈) - 'Drip' Official MV",
+     "channel": "KQ ENTERTAINMENT",
+     "views": 4687209,
+     "likes": 335399,
+     "duration": 191,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=iqQWCYMlMw0",
+     "thumb": "https://i.ytimg.com/vi/iqQWCYMlMw0/mqdefault.jpg",
+     "published": "2026-10-23T04:00:02Z"
+    },
+    {
+     "rank": 5,
+     "id": "T30sNNR8b3M",
+     "title": "Werewolf | Official Trailer",
+     "channel": "Smosh Games",
+     "views": 198094,
+     "likes": 15816,
+     "duration": 47,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/T30sNNR8b3M",
+     "thumb": "https://i.ytimg.com/vi/T30sNNR8b3M/mqdefault.jpg",
+     "published": "2026-10-23T17:00:06Z"
+    },
+    {
+     "rank": 6,
+     "id": "1-U3bZEzGgU",
+     "title": "TV Royale | EVO Mirror & Giant, Mini Puzzles & MORE!",
+     "channel": "Clash Royale",
+     "views": 658483,
+     "likes": 19627,
+     "duration": 169,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=1-U3bZEzGgU",
+     "thumb": "https://i.ytimg.com/vi/1-U3bZEzGgU/mqdefault.jpg",
+     "published": "2026-10-23T14:55:35Z"
+    },
+    {
+     "rank": 7,
+     "id": "tAg4Fa1JtPo",
+     "title": "Yung Miami - Dear JT (Official Visualizer)",
+     "channel": "Yung Miami",
+     "views": 223807,
+     "likes": 13898,
+     "duration": 198,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=tAg4Fa1JtPo",
+     "thumb": "https://i.ytimg.com/vi/tAg4Fa1JtPo/mqdefault.jpg",
+     "published": "2026-10-23T16:00:23Z"
+    },
+    {
+     "rank": 8,
+     "id": "ZOWrTNazZxM",
+     "title": "I Worked With BioWare on the Next Mass Effect - Here's What They Were Making",
+     "channel": "Dantics",
+     "views": 194412,
+     "likes": 10819,
+     "duration": 1124,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=ZOWrTNazZxM",
+     "thumb": "https://i.ytimg.com/vi/ZOWrTNazZxM/mqdefault.jpg",
+     "published": "2026-10-23T15:00:39Z"
+    },
+    {
+     "rank": 9,
+     "id": "KnqoEBV7ye8",
+     "title": "Trevor's Got Some BAD Things Planned... [GTA V Story Ep. 2/5]",
+     "channel": "Joe Bart Games",
+     "views": 365179,
+     "likes": 4195,
+     "duration": 12860,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=KnqoEBV7ye8",
+     "thumb": "https://i.ytimg.com/vi/KnqoEBV7ye8/mqdefault.jpg",
+     "published": "2026-10-22T23:54:46Z"
+    },
+    {
+     "rank": 10,
+     "id": "DX7HowkT8oQ",
+     "title": "Voy Tendido",
+     "channel": "Los Alegres Del Barranco - Topic",
+     "views": 77268,
+     "likes": 1621,
+     "duration": 166,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=DX7HowkT8oQ",
+     "thumb": "https://i.ytimg.com/vi/DX7HowkT8oQ/mqdefault.jpg",
+     "published": "2026-10-22T10:04:18Z"
+    }
+   ],
+   "total": 50,
+   "shorts": 3
+  }
+ },
+ "trends": {
+  "KR": [
+   {
+    "rank": 1,
+    "title": "김장",
+    "traffic": 100,
+    "traffic_raw": "100+",
+    "news_title": "“한 번 꺼낼 양부터”…김장김치 용기 나누는 기준",
+    "news_url": "https://www.vegannews.co.kr/news/article.html?no=396228",
+    "url": "https://www.vegannews.co.kr/news/article.html?no=396228",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTt33q8ahwYD1bwpnKnVn8LcRJoOeOrCs-H4GSaDr9kTFSchPrG1Jme5VSlllo",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "cblol",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "Worlds 2026: ''A gente não fica atrás em mecânica'', diz Duduhh sobre diferencial da LOS",
+    "news_url": "https://maisesports.com.br/cblol-2026-a-gente-nao-fica-atras-em-mecanica-diz-duduhh-sobre-diferencial-da-los",
+    "url": "https://maisesports.com.br/cblol-2026-a-gente-nao-fica-atras-em-mecanica-diz-duduhh-sobre-diferencial-da-los",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTwpLAMxKvOzIYJptZ8X325r4bQt8_FuZW2JS95fyopTPF51aBqZ4BYZnojTvs",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "단체교섭",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "“원·하청 상생” 내걸었지만…‘사용자성’ 놓고 진통",
+    "news_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8693997",
+    "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8693997",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdtDY_Kkj3jp0HAX9fAUyH_XhH5vOCNBNuIiWOuV9aLm_2b11BKn_sVWceDkg",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "颱風動態",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "",
+    "news_url": "",
+    "url": "https://trends.google.com/trends/explore?geo=KR&q=%E9%A2%B1%E9%A2%A8%E5%8B%95%E6%85%8B",
+    "picture": "",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "조세",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "",
+    "news_url": "",
+    "url": "https://trends.google.com/trends/explore?geo=KR&q=%EC%A1%B0%EC%84%B8",
+    "picture": "",
+    "days": 1
+   },
+   {
+    "rank": 6,
+    "title": "조선소",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "‘마스가’ 첫발은 뗐지만... 인력 확보·일감 수주 ‘산 넘어 산’",
+    "news_url": "https://www.chosun.com/economy/industry-company/2026/10/24/RRVVEJ425NBCDFJ44SNCALOZ5E/",
+    "url": "https://www.chosun.com/economy/industry-company/2026/10/24/RRVVEJ425NBCDFJ44SNCALOZ5E/",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNoFz8_P_w-A9KEajZG7n9ezOZoek8vxG-J5KofVnjnwYPyNphGiQpntXmnLU",
+    "days": 1
+   },
+   {
+    "rank": 7,
+    "title": "cfo",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "How CFOs can get better at post-deal integration",
+    "news_url": "https://www.cfobrew.com/stories/how-cfos-can-get-better-post-acquisition-integration",
+    "url": "https://www.cfobrew.com/stories/how-cfos-can-get-better-post-acquisition-integration",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rWIFvP02p_d79EDrVZ0tLG0_har3zJtY94-l3kYPTMrT3ddpNoszhCbUeXE",
+    "days": 1
+   }
+  ],
+  "US": [
+   {
+    "rank": 1,
+    "title": "christian yelich",
+    "traffic": 5000,
+    "traffic_raw": "5000+",
+    "news_title": "Mentor, Head Honcho, Captain: Christian Yelich Epitomizes The Brewers",
+    "news_url": "https://www.foxsports.com/stories/mlb/brewers-rays-world-series-yelich-captain",
+    "url": "https://www.foxsports.com/stories/mlb/brewers-rays-world-series-yelich-captain",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ZYCO-IzZq0twlH_Dxkh3VmaANp98rB-r5p4XyfEl8tAJ8YtrD4YPaYEYZ78",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "pat murphy",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "Nearly the Mets manager, Pat Murphy’s unique Brewers style is a New York what-if",
+    "news_url": "https://nypost.com/2026/10/23/sports/nearly-the-mets-manager-pat-murphys-brewers-style-is-a-new-york-what-if/",
+    "url": "https://nypost.com/2026/10/23/sports/nearly-the-mets-manager-pat-murphys-brewers-style-is-a-new-york-what-if/",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTwsncMcOX4IsAk0H7HaNzoBSq74ovwYy_LguQ3JrVGzf06-nEQ9r6wIXTQZWQ",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "spurs game tonight",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Game Recap: Thunder 116, Spurs 104",
+    "news_url": "https://www.nba.com/watch/video/game-recap-thunder-116-spurs-104",
+    "url": "https://www.nba.com/watch/video/game-recap-thunder-116-spurs-104",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5OHUSjZQws4NpzqNk6NA1PcjUW7QSww4NhHPz891HFUc1I1QPI6UGl0aGqCk",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "world series 2025",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "Where 2026 ranks among best World Series matchups since 2000",
+    "news_url": "https://www.espn.com/mlb/story/_/id/50223790/ranking-best-world-series-matchups-2000",
+    "url": "https://www.espn.com/mlb/story/_/id/50223790/ranking-best-world-series-matchups-2000",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv7psObSfHT1jFBKHCmvl9J_AFRbC2v1eECrWtu8QeebsBgUevfiXw_bO8YI8",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "tampa bay devil rays",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "How Rays' unique approach carried Tampa Bay to World Series",
+    "news_url": "https://www.espn.com/mlb/story/_/id/50222334/alcs-tampa-bay-rays-clinch-world-series-spot",
+    "url": "https://www.espn.com/mlb/story/_/id/50222334/alcs-tampa-bay-rays-clinch-world-series-spot",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRhjSUXMxh7cq2IK6lQhRQsfJ7FNS8LTWgIy7ZUcTc9mkTpKdAPcx8ef2WnEkw",
+    "days": 1
+   },
+   {
+    "rank": 6,
+    "title": "junior caminero",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "Caminero damages videoboard with BP homer before World Series Game 1",
+    "news_url": "https://www.mlb.com/news/junior-caminero-damages-american-family-field-videoboard-before-world-series-game-1",
+    "url": "https://www.mlb.com/news/junior-caminero-damages-american-family-field-videoboard-before-world-series-game-1",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSAWVma4xK2W9Y64NelvrhXaGg_g8jINVLSN5UQ0pHxN8IoOII07P_xRe5POYc",
+    "days": 1
+   },
+   {
+    "rank": 7,
+    "title": "john collins",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "John Collins and Jalen Duren may have to swap roles on defense against Miami",
+    "news_url": "https://pistonpowered.com/john-collins-jalen-duren-swap-roles-defense-against-miami-detroit-pistons",
+    "url": "https://pistonpowered.com/john-collins-jalen-duren-swap-roles-defense-against-miami-detroit-pistons",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwzpks58YCUH7qUcStADZzTIgA3aEM5ORChh_I49GOEbj6JHeCuPrbp_0aR1g",
+    "days": 1
+   },
+   {
+    "rank": 8,
+    "title": "nairobi kenya building collapse",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Many feared trapped as a tall building collapses in Kenya",
+    "news_url": "https://abcnews.com/International/wireStory/feared-trapped-tall-building-collapses-kenya-137507771",
+    "url": "https://abcnews.com/International/wireStory/feared-trapped-tall-building-collapses-kenya-137507771",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQAeUfwHRDVCWGjAE9uQy8eXL96BMYZd2fhnjwKMNtTs7DwJ172Vdy9eA5sok",
+    "days": 1
+   }
+  ]
+ },
+ "wiki": {
+  "en": [
+   {
+    "title": "Tom Skerritt",
+    "views": 371141,
+    "rank": 1,
+    "src_rank": 4,
+    "url": "https://en.wikipedia.org/wiki/Tom_Skerritt",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "John Anderson (singer)",
+    "views": 336579,
+    "rank": 2,
+    "src_rank": 5,
+    "url": "https://en.wikipedia.org/wiki/John_Anderson_%28singer%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Jailer 2",
+    "views": 243842,
+    "rank": 3,
+    "src_rank": 6,
+    "url": "https://en.wikipedia.org/wiki/Jailer_2",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Elizabeth Holmes",
+    "views": 182703,
+    "rank": 4,
+    "src_rank": 7,
+    "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Clayface (film)",
+    "views": 168347,
+    "rank": 5,
+    "src_rank": 8,
+    "url": "https://en.wikipedia.org/wiki/Clayface_%28film%29",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "ChatGPT",
+    "views": 155469,
+    "rank": 6,
+    "src_rank": 9,
+    "url": "https://en.wikipedia.org/wiki/ChatGPT",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "PHP2Shell",
+    "views": 153627,
+    "rank": 7,
+    "src_rank": 10,
+    "url": "https://en.wikipedia.org/wiki/PHP2Shell",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Deaths in 2026",
+    "views": 142776,
+    "rank": 8,
+    "src_rank": 11,
+    "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Jerry Hall",
+    "views": 138456,
+    "rank": 9,
+    "src_rank": 12,
+    "url": "https://en.wikipedia.org/wiki/Jerry_Hall",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "You Can See Everything",
+    "views": 138013,
+    "rank": 10,
+    "src_rank": 13,
+    "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Amy Acton",
+    "views": 137065,
+    "rank": 11,
+    "src_rank": 14,
+    "url": "https://en.wikipedia.org/wiki/Amy_Acton",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "BioWare",
+    "views": 120343,
+    "rank": 12,
+    "src_rank": 15,
+    "url": "https://en.wikipedia.org/wiki/BioWare",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Vivek Ramaswamy",
+    "views": 119711,
+    "rank": 13,
+    "src_rank": 16,
+    "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Ilhan Omar",
+    "views": 103302,
+    "rank": 14,
+    "src_rank": 17,
+    "url": "https://en.wikipedia.org/wiki/Ilhan_Omar",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Ron Duguay",
+    "views": 92485,
+    "rank": 15,
+    "src_rank": 18,
+    "url": "https://en.wikipedia.org/wiki/Ron_Duguay",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Heath Ledger",
+    "views": 92132,
+    "rank": 16,
+    "src_rank": 19,
+    "url": "https://en.wikipedia.org/wiki/Heath_Ledger",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "PHP",
+    "views": 88570,
+    "rank": 17,
+    "src_rank": 20,
+    "url": "https://en.wikipedia.org/wiki/PHP",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Yaxel Lendeborg",
+    "views": 86107,
+    "rank": 18,
+    "src_rank": 21,
+    "url": "https://en.wikipedia.org/wiki/Yaxel_Lendeborg",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "VisionQuest",
+    "views": 80967,
+    "rank": 19,
+    "src_rank": 22,
+    "url": "https://en.wikipedia.org/wiki/VisionQuest",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Aberfan disaster",
+    "views": 77524,
+    "rank": 20,
+    "src_rank": 23,
+    "url": "https://en.wikipedia.org/wiki/Aberfan_disaster",
+    "days": 2,
+    "prev_rank": null
+   }
+  ],
+  "en_day": "2026-10-22",
+  "en_same": true,
+  "ko": [
+   {
+    "title": "문화방송",
+    "views": 14091,
+    "rank": 1,
+    "src_rank": 2,
+    "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "이윤형 (1979년)",
+    "views": 3799,
+    "rank": 4,
+    "src_rank": 6,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%9C%A4%ED%98%95_%281979%EB%85%84%29",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "김여정",
+    "views": 2145,
+    "rank": 5,
+    "src_rank": 7,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%97%AC%EC%A0%95",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "5·18 광주 민주화 운동",
+    "views": 1889,
+    "rank": 6,
+    "src_rank": 8,
+    "url": "https://ko.wikipedia.org/wiki/5%C2%B718_%EA%B4%91%EC%A3%BC_%EB%AF%BC%EC%A3%BC%ED%99%94_%EC%9A%B4%EB%8F%99",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "서현진 (배우)",
+    "views": 1882,
+    "rank": 7,
+    "src_rank": 9,
+    "url": "https://ko.wikipedia.org/wiki/%EC%84%9C%ED%98%84%EC%A7%84_%28%EB%B0%B0%EC%9A%B0%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "김정은",
+    "views": 1879,
+    "rank": 8,
+    "src_rank": 10,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%A0%95%EC%9D%80",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "강신일",
+    "views": 1517,
+    "rank": 9,
+    "src_rank": 11,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B0%95%EC%8B%A0%EC%9D%BC",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "코리아세일페스타",
+    "views": 1331,
+    "rank": 10,
+    "src_rank": 12,
+    "url": "https://ko.wikipedia.org/wiki/%EC%BD%94%EB%A6%AC%EC%95%84%EC%84%B8%EC%9D%BC%ED%8E%98%EC%8A%A4%ED%83%80",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "부캉이",
+    "views": 1260,
+    "rank": 12,
+    "src_rank": 14,
+    "url": "https://ko.wikipedia.org/wiki/%EB%B6%80%EC%BA%89%EC%9D%B4",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "한동훈",
+    "views": 1246,
+    "rank": 13,
+    "src_rank": 15,
+    "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%8F%99%ED%9B%88",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "A2O 엔터테인먼트",
+    "views": 1227,
+    "rank": 14,
+    "src_rank": 16,
+    "url": "https://ko.wikipedia.org/wiki/A2O_%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "대한민국",
+    "views": 1213,
+    "rank": 15,
+    "src_rank": 17,
+    "url": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "박진영 (1994년)",
+    "views": 1174,
+    "rank": 16,
+    "src_rank": 18,
+    "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%84%EC%98%81_%281994%EB%85%84%29",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "여성 사정",
+    "views": 1161,
+    "rank": 17,
+    "src_rank": 19,
+    "url": "https://ko.wikipedia.org/wiki/%EC%97%AC%EC%84%B1_%EC%82%AC%EC%A0%95",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "인스타그램",
+    "views": 1140,
+    "rank": 18,
+    "src_rank": 20,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "임진모",
+    "views": 1137,
+    "rank": 19,
+    "src_rank": 21,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%A7%84%EB%AA%A8",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "김용준 (가수)",
+    "views": 1108,
+    "rank": 20,
+    "src_rank": 23,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%9A%A9%EC%A4%80_%28%EA%B0%80%EC%88%98%29",
+    "days": 2,
+    "prev_rank": null
+   }
+  ],
+  "ko_day": "2026-10-22",
+  "ko_same": true
+ },
+ "imgflip": {
+  "items": [
+   {
+    "rank": 1,
+    "id": "181913649",
+    "name": "Drake Hotline Bling",
+    "url": "https://i.imgflip.com/30b1gx.jpg",
+    "box_count": 2,
+    "captions": 1579750,
+    "prev_rank": 1,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 2,
+    "id": "87743020",
+    "name": "Two Buttons",
+    "url": "https://i.imgflip.com/1g8my4.jpg",
+    "box_count": 3,
+    "captions": 1228000,
+    "prev_rank": 2,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 3,
+    "id": "112126428",
+    "name": "Distracted Boyfriend",
+    "url": "https://i.imgflip.com/1ur9b0.jpg",
+    "box_count": 3,
+    "captions": 1202000,
+    "prev_rank": 3,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 4,
+    "id": "222403160",
+    "name": "Bernie I Am Once Again Asking For Your Support",
+    "url": "https://i.imgflip.com/3oevdk.jpg",
+    "box_count": 2,
+    "captions": 357750,
+    "prev_rank": 4,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 5,
+    "id": "217743513",
+    "name": "UNO Draw 25 Cards",
+    "url": "https://i.imgflip.com/3lmzyx.jpg",
+    "box_count": 2,
+    "captions": 668750,
+    "prev_rank": 5,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 6,
+    "id": "252600902",
+    "name": "Always Has Been",
+    "url": "https://i.imgflip.com/46e43q.png",
+    "box_count": 2,
+    "captions": 251750,
+    "prev_rank": 6,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 7,
+    "id": "124822590",
+    "name": "Left Exit 12 Off Ramp",
+    "url": "https://i.imgflip.com/22bdq6.jpg",
+    "box_count": 3,
+    "captions": 748000,
+    "prev_rank": 7,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 8,
+    "id": "322841258",
+    "name": "Anakin Padme 4 Panel",
+    "url": "https://i.imgflip.com/5c7lwq.png",
+    "box_count": 3,
+    "captions": 156750,
+    "prev_rank": 8,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 9,
+    "id": "135256802",
+    "name": "Epic Handshake",
+    "url": "https://i.imgflip.com/28j0te.jpg",
+    "box_count": 3,
+    "captions": 272000,
+    "prev_rank": 9,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 10,
+    "id": "131940431",
+    "name": "Gru's Plan",
+    "url": "https://i.imgflip.com/26jxvz.jpg",
+    "box_count": 4,
+    "captions": 389000,
+    "prev_rank": 10,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 11,
+    "id": "97984",
+    "name": "Disaster Girl",
+    "url": "https://i.imgflip.com/23ls.jpg",
+    "box_count": 2,
+    "captions": 445000,
+    "prev_rank": 11,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 12,
+    "id": "131087935",
+    "name": "Running Away Balloon",
+    "url": "https://i.imgflip.com/261o3j.jpg",
+    "box_count": 5,
+    "captions": 606750,
+    "prev_rank": 12,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 13,
+    "id": "4087833",
+    "name": "Waiting Skeleton",
+    "url": "https://i.imgflip.com/2fm6x.jpg",
+    "box_count": 2,
+    "captions": 499500,
+    "prev_rank": 13,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 14,
+    "id": "80707627",
+    "name": "Sad Pablo Escobar",
+    "url": "https://i.imgflip.com/1c1uej.jpg",
+    "box_count": 3,
+    "captions": 261250,
+    "prev_rank": 14,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 15,
+    "id": "91538330",
+    "name": "X, X Everywhere",
+    "url": "https://i.imgflip.com/1ihzfe.jpg",
+    "box_count": 2,
+    "captions": 413250,
+    "prev_rank": 15,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 16,
+    "id": "309868304",
+    "name": "Trade Offer",
+    "url": "https://i.imgflip.com/54hjww.jpg",
+    "box_count": 3,
+    "captions": 133750,
+    "prev_rank": 16,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 17,
+    "id": "188390779",
+    "name": "Woman Yelling At Cat",
+    "url": "https://i.imgflip.com/345v97.jpg",
+    "box_count": 2,
+    "captions": 411750,
+    "prev_rank": 18,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 18,
+    "id": "129242436",
+    "name": "Change My Mind",
+    "url": "https://i.imgflip.com/24y43o.jpg",
+    "box_count": 2,
+    "captions": 681750,
+    "prev_rank": 19,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 19,
+    "id": "124055727",
+    "name": "Y'all Got Any More Of That",
+    "url": "https://i.imgflip.com/21uy0f.jpg",
+    "box_count": 2,
+    "captions": 235250,
+    "prev_rank": 17,
+    "delta": -2,
+    "new": false
+   },
+   {
+    "rank": 20,
+    "id": "224015000",
+    "name": "Bernie Sanders Once Again Asking",
+    "url": "https://i.imgflip.com/3pdf2w.png",
+    "box_count": 2,
+    "captions": 70750,
+    "prev_rank": 20,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 21,
+    "id": "161865971",
+    "name": "Marked Safe From",
+    "url": "https://i.imgflip.com/2odckz.jpg",
+    "box_count": 2,
+    "captions": 234000,
+    "prev_rank": 22,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 22,
+    "id": "438680",
+    "name": "Batman Slapping Robin",
+    "url": "https://i.imgflip.com/9ehk.jpg",
+    "box_count": 2,
+    "captions": 672750,
+    "prev_rank": 21,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 23,
+    "id": "101470",
+    "name": "Ancient Aliens",
+    "url": "https://i.imgflip.com/26am.jpg",
+    "box_count": 2,
+    "captions": 388500,
+    "prev_rank": 24,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 24,
+    "id": "102156234",
+    "name": "Mocking Spongebob",
+    "url": "https://i.imgflip.com/1otk96.jpg",
+    "box_count": 2,
+    "captions": 458500,
+    "prev_rank": 23,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 25,
+    "id": "100777631",
+    "name": "Is This A Pigeon",
+    "url": "https://i.imgflip.com/1o00in.jpg",
+    "box_count": 3,
+    "captions": 244250,
+    "prev_rank": 26,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 26,
+    "id": "79132341",
+    "name": "Bike Fall",
+    "url": "https://i.imgflip.com/1b42wl.jpg",
+    "box_count": 3,
+    "captions": 149000,
+    "prev_rank": 25,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 27,
+    "id": "247375501",
+    "name": "Buff Doge vs. Cheems",
+    "url": "https://i.imgflip.com/43a45p.png",
+    "box_count": 4,
+    "captions": 387500,
+    "prev_rank": 28,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 28,
+    "id": "427308417",
+    "name": "0 days without (Lenny, Simpsons)",
+    "url": "https://i.imgflip.com/72epa9.png",
+    "box_count": 2,
+    "captions": 50500,
+    "prev_rank": 29,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 29,
+    "id": "61579",
+    "name": "One Does Not Simply",
+    "url": "https://i.imgflip.com/1bij.jpg",
+    "box_count": 2,
+    "captions": 495500,
+    "prev_rank": 27,
+    "delta": -2,
+    "new": false
+   },
+   {
+    "rank": 30,
+    "id": "177682295",
+    "name": "You Guys are Getting Paid",
+    "url": "https://i.imgflip.com/2xscjb.png",
+    "box_count": 2,
+    "captions": 75500,
+    "prev_rank": 31,
+    "delta": 1,
+    "new": false
+   }
+  ],
+  "entered": [
+   {
+    "rank": 99,
+    "id": "16464531",
+    "name": "But That's None Of My Business",
+    "url": "https://i.imgflip.com/9sw43.jpg",
+    "box_count": 2,
+    "captions": 133250
+   }
+  ],
+  "exited": [
+   {
+    "id": "47169131",
+    "name": "Wolverine Remember",
+    "prev_rank": 100
+   }
+  ],
+  "movers": [
+   {
+    "rank": 19,
+    "id": "124055727",
+    "name": "Y'all Got Any More Of That",
+    "url": "https://i.imgflip.com/21uy0f.jpg",
+    "box_count": 2,
+    "captions": 235250,
+    "prev_rank": 17,
+    "delta": -2,
+    "new": false
+   },
+   {
+    "rank": 29,
+    "id": "61579",
+    "name": "One Does Not Simply",
+    "url": "https://i.imgflip.com/1bij.jpg",
+    "box_count": 2,
+    "captions": 495500,
+    "prev_rank": 27,
+    "delta": -2,
+    "new": false
+   },
+   {
+    "rank": 17,
+    "id": "188390779",
+    "name": "Woman Yelling At Cat",
+    "url": "https://i.imgflip.com/345v97.jpg",
+    "box_count": 2,
+    "captions": 411750,
+    "prev_rank": 18,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 18,
+    "id": "129242436",
+    "name": "Change My Mind",
+    "url": "https://i.imgflip.com/24y43o.jpg",
+    "box_count": 2,
+    "captions": 681750,
+    "prev_rank": 19,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 21,
+    "id": "161865971",
+    "name": "Marked Safe From",
+    "url": "https://i.imgflip.com/2odckz.jpg",
+    "box_count": 2,
+    "captions": 234000,
+    "prev_rank": 22,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 22,
+    "id": "438680",
+    "name": "Batman Slapping Robin",
+    "url": "https://i.imgflip.com/9ehk.jpg",
+    "box_count": 2,
+    "captions": 672750,
+    "prev_rank": 21,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 23,
+    "id": "101470",
+    "name": "Ancient Aliens",
+    "url": "https://i.imgflip.com/26am.jpg",
+    "box_count": 2,
+    "captions": 388500,
+    "prev_rank": 24,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 24,
+    "id": "102156234",
+    "name": "Mocking Spongebob",
+    "url": "https://i.imgflip.com/1otk96.jpg",
+    "box_count": 2,
+    "captions": 458500,
+    "prev_rank": 23,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 25,
+    "id": "100777631",
+    "name": "Is This A Pigeon",
+    "url": "https://i.imgflip.com/1o00in.jpg",
+    "box_count": 3,
+    "captions": 244250,
+    "prev_rank": 26,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 26,
+    "id": "79132341",
+    "name": "Bike Fall",
+    "url": "https://i.imgflip.com/1b42wl.jpg",
+    "box_count": 3,
+    "captions": 149000,
+    "prev_rank": 25,
+    "delta": -1,
+    "new": false
+   }
+  ],
+  "total": 100,
+  "compared": true
+ },
+ "cross": [
+  {
+   "term": "Official Factorio Trailer 2026",
+   "source": "r/gaming",
+   "game": "Factorio",
+   "platform": "steam",
+   "game_url": "https://store.steampowered.com/app/427520/",
+   "url": "https://www.reddit.com/r/gaming/comments/1xdb37l/official_factorio_trailer_2026/"
+  },
+  {
+   "term": "After 15 years of making To the Moon games, we're finally going isometric!",
+   "source": "r/IndieGaming",
+   "game": "To the Moon",
+   "platform": "steam",
+   "game_url": "https://store.steampowered.com/app/206440/",
+   "url": "https://www.reddit.com/r/IndieGaming/comments/1xdmman/after_15_years_of_making_to_the_moon_games_were/"
+  }
+ ],
+ "filtered": {
+  "trends_kr": 3,
+  "trends_us": 2,
+  "wiki_en": 0,
+  "wiki_ko": 3
+ },
+ "sources": [
+  {
+   "key": "kym_feed",
+   "label": "KYM 뉴스피드",
+   "status": "ok",
+   "count": 3,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_confirmed",
+   "label": "KYM 확정 엔트리",
+   "status": "ok",
+   "count": 0,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_submissions",
+   "label": "KYM 제출 엔트리",
+   "status": "ok",
+   "count": 6,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_search",
+   "label": "KYM 검색 (tiktok·instagram·reels)",
+   "status": "ok",
+   "count": 2,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "youtube_kr",
+   "label": "YouTube 인기 KR",
+   "status": "ok",
+   "count": 49,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "youtube_us",
+   "label": "YouTube 인기 US",
+   "status": "ok",
+   "count": 50,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "trends_kr",
+   "label": "Google 트렌드 KR",
+   "status": "ok",
+   "count": 10,
+   "error": "",
+   "filtered": 3
+  },
+  {
+   "key": "trends_us",
+   "label": "Google 트렌드 US",
+   "status": "ok",
+   "count": 10,
+   "error": "",
+   "filtered": 2
+  },
+  {
+   "key": "wiki_en",
+   "label": "위키백과 en",
+   "status": "ok",
+   "count": 20,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "wiki_ko",
+   "label": "위키백과 ko",
+   "status": "ok",
+   "count": 20,
+   "error": "",
+   "filtered": 3
+  },
+  {
+   "key": "imgflip",
+   "label": "Imgflip 템플릿",
+   "status": "ok",
+   "count": 100,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_tiktokcringe",
+   "label": "Reddit r/TikTokCringe",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_memes",
+   "label": "Reddit r/memes",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_popculturechat",
+   "label": "Reddit r/popculturechat",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_shorts",
+   "label": "Reddit r/shorts",
+   "status": "ok",
+   "count": 5,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_gaming",
+   "label": "Reddit r/gaming",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_indiegaming",
+   "label": "Reddit r/IndieGaming",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  }
+ ]
+}
