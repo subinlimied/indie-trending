@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 3,
-  "date": "2026-10-23",
+  "n": 4,
+  "date": "2026-10-24",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 3,
-  "date": "2026-10-23",
+  "n": 4,
+  "date": "2026-10-24",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 3,
-  "date": "2026-10-23",
+  "n": 4,
+  "date": "2026-10-24",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 3,
-  "date": "2026-10-23",
+  "n": 4,
+  "date": "2026-10-24",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 3,
-  "date": "2026-10-23",
+  "n": 4,
+  "date": "2026-10-24",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 3,
-  "date": "2026-10-23",
+  "n": 4,
+  "date": "2026-10-24",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -55,8 +55,8 @@
  },
  "tag:Management": {
   "name": "Management",
-  "n": 1,
-  "date": "2026-10-23",
+  "n": 2,
+  "date": "2026-10-24",
   "since": "2026-10-23"
  },
  "tag:Action Roguelike": {
@@ -67,21 +67,21 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 3,
-  "date": "2026-10-23",
+  "n": 4,
+  "date": "2026-10-24",
   "since": "2026-10-21"
  },
  "pick": {
-  "name": "Liar's Bar",
+  "name": "Revolution Idle",
   "n": 1,
-  "date": "2026-10-23",
-  "since": "2026-10-23"
+  "date": "2026-10-24",
+  "since": "2026-10-24"
  },
  "tag:RPG": {
   "name": "RPG",
   "n": 1,
-  "date": "2026-10-22",
-  "since": "2026-10-22"
+  "date": "2026-10-24",
+  "since": "2026-10-24"
  },
  "tag:Building": {
   "name": "Building",
@@ -97,8 +97,8 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 1,
-  "date": "2026-10-23",
+  "n": 2,
+  "date": "2026-10-24",
   "since": "2026-10-23"
  },
  "tag:Online Co-Op": {
@@ -112,5 +112,17 @@
   "n": 1,
   "date": "2026-10-23",
   "since": "2026-10-23"
+ },
+ "tag:Free To Play": {
+  "name": "Free To Play",
+  "n": 1,
+  "date": "2026-10-24",
+  "since": "2026-10-24"
+ },
+ "tag:Singleplayer": {
+  "name": "Singleplayer",
+  "n": 1,
+  "date": "2026-10-24",
+  "since": "2026-10-24"
  }
 }

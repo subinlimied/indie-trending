@@ -1,8 +1,8 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 1,
-  "date": "2026-10-23",
+  "n": 2,
+  "date": "2026-10-24",
   "since": "2026-10-23"
  },
  "tags:Idle": {
@@ -32,8 +32,8 @@
  "tags:Atmospheric": {
   "name": "Atmospheric",
   "n": 1,
-  "date": "2026-10-22",
-  "since": "2026-10-22"
+  "date": "2026-10-24",
+  "since": "2026-10-24"
  },
  "tags:Cozy": {
   "name": "Cozy",
@@ -49,8 +49,8 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 4,
-  "date": "2026-10-23",
+  "n": 5,
+  "date": "2026-10-24",
   "since": "2026-10-20"
  },
  "genre:Action": {
@@ -61,14 +61,14 @@
  },
  "genre:Adventure": {
   "name": "Adventure",
-  "n": 2,
-  "date": "2026-10-23",
+  "n": 3,
+  "date": "2026-10-24",
   "since": "2026-10-22"
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 4,
-  "date": "2026-10-23",
+  "n": 5,
+  "date": "2026-10-24",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
@@ -79,8 +79,8 @@
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 4,
-  "date": "2026-10-23",
+  "n": 5,
+  "date": "2026-10-24",
   "since": "2026-10-20"
  },
  "made_with:Unity": {
@@ -92,20 +92,20 @@
  "made_with:Unreal Engine": {
   "name": "Unreal Engine",
   "n": 1,
-  "date": "2026-10-20",
-  "since": "2026-10-20"
+  "date": "2026-10-24",
+  "since": "2026-10-24"
  },
  "pick": {
-  "name": "Abattlacus",
+  "name": "Goodboy Galaxy (for GBA)",
   "n": 1,
-  "date": "2026-10-23",
-  "since": "2026-10-23"
+  "date": "2026-10-24",
+  "since": "2026-10-24"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 2,
-  "date": "2026-10-22",
-  "since": "2026-10-21"
+  "n": 1,
+  "date": "2026-10-24",
+  "since": "2026-10-24"
  },
  "tags:Card Game": {
   "name": "Card Game",
@@ -116,14 +116,14 @@
  "tags:Creepy": {
   "name": "Creepy",
   "n": 1,
-  "date": "2026-10-21",
-  "since": "2026-10-21"
+  "date": "2026-10-24",
+  "since": "2026-10-24"
  },
  "genre:Platformer": {
   "name": "Platformer",
   "n": 1,
-  "date": "2026-10-21",
-  "since": "2026-10-21"
+  "date": "2026-10-24",
+  "since": "2026-10-24"
  },
  "genre:Card Game": {
   "name": "Card Game",
@@ -133,20 +133,20 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 3,
-  "date": "2026-10-23",
+  "n": 4,
+  "date": "2026-10-24",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 2,
-  "date": "2026-10-23",
+  "n": 3,
+  "date": "2026-10-24",
   "since": "2026-10-22"
  },
  "tags:3D": {
   "name": "3D",
-  "n": 2,
-  "date": "2026-10-23",
+  "n": 3,
+  "date": "2026-10-24",
   "since": "2026-10-22"
  },
  "tags:First-Person": {
@@ -170,13 +170,13 @@
  "made_with:libGDX": {
   "name": "libGDX",
   "n": 1,
-  "date": "2026-10-22",
-  "since": "2026-10-22"
+  "date": "2026-10-24",
+  "since": "2026-10-24"
  },
  "tags:Indie": {
   "name": "Indie",
-  "n": 1,
-  "date": "2026-10-23",
+  "n": 2,
+  "date": "2026-10-24",
   "since": "2026-10-23"
  },
  "tags:Retro": {
@@ -193,8 +193,8 @@
  },
  "genre:Role Playing": {
   "name": "Role Playing",
-  "n": 1,
-  "date": "2026-10-23",
+  "n": 2,
+  "date": "2026-10-24",
   "since": "2026-10-23"
  },
  "made_with:PICO-8": {
@@ -205,8 +205,14 @@
  },
  "made_with:RPG Maker": {
   "name": "RPG Maker",
-  "n": 1,
-  "date": "2026-10-23",
+  "n": 2,
+  "date": "2026-10-24",
   "since": "2026-10-23"
+ },
+ "tags:Dark": {
+  "name": "Dark",
+  "n": 1,
+  "date": "2026-10-24",
+  "since": "2026-10-24"
  }
 }
