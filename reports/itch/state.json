@@ -1,8 +1,8 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 2,
-  "date": "2026-10-24",
+  "n": 3,
+  "date": "2026-10-25",
   "since": "2026-10-23"
  },
  "tags:Idle": {
@@ -31,8 +31,8 @@
  },
  "tags:Atmospheric": {
   "name": "Atmospheric",
-  "n": 1,
-  "date": "2026-10-24",
+  "n": 2,
+  "date": "2026-10-25",
   "since": "2026-10-24"
  },
  "tags:Cozy": {
@@ -49,26 +49,26 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 5,
-  "date": "2026-10-24",
+  "n": 6,
+  "date": "2026-10-25",
   "since": "2026-10-20"
  },
  "genre:Action": {
   "name": "Action",
   "n": 1,
-  "date": "2026-10-22",
-  "since": "2026-10-22"
+  "date": "2026-10-25",
+  "since": "2026-10-25"
  },
  "genre:Adventure": {
   "name": "Adventure",
-  "n": 3,
-  "date": "2026-10-24",
+  "n": 4,
+  "date": "2026-10-25",
   "since": "2026-10-22"
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 5,
-  "date": "2026-10-24",
+  "n": 6,
+  "date": "2026-10-25",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
@@ -85,9 +85,9 @@
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 4,
-  "date": "2026-10-23",
-  "since": "2026-10-20"
+  "n": 1,
+  "date": "2026-10-25",
+  "since": "2026-10-25"
  },
  "made_with:Unreal Engine": {
   "name": "Unreal Engine",
@@ -96,15 +96,15 @@
   "since": "2026-10-24"
  },
  "pick": {
-  "name": "Goodboy Galaxy (for GBA)",
+  "name": "18 Days to Live Demo",
   "n": 1,
-  "date": "2026-10-24",
-  "since": "2026-10-24"
+  "date": "2026-10-25",
+  "since": "2026-10-25"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 1,
-  "date": "2026-10-24",
+  "n": 2,
+  "date": "2026-10-25",
   "since": "2026-10-24"
  },
  "tags:Card Game": {
@@ -115,14 +115,14 @@
  },
  "tags:Creepy": {
   "name": "Creepy",
-  "n": 1,
-  "date": "2026-10-24",
+  "n": 2,
+  "date": "2026-10-25",
   "since": "2026-10-24"
  },
  "genre:Platformer": {
   "name": "Platformer",
-  "n": 1,
-  "date": "2026-10-24",
+  "n": 2,
+  "date": "2026-10-25",
   "since": "2026-10-24"
  },
  "genre:Card Game": {
@@ -133,14 +133,14 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 4,
-  "date": "2026-10-24",
+  "n": 5,
+  "date": "2026-10-25",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 3,
-  "date": "2026-10-24",
+  "n": 4,
+  "date": "2026-10-25",
   "since": "2026-10-22"
  },
  "tags:3D": {
@@ -158,25 +158,25 @@
  "tags:Cute": {
   "name": "Cute",
   "n": 1,
-  "date": "2026-10-22",
-  "since": "2026-10-22"
+  "date": "2026-10-25",
+  "since": "2026-10-25"
  },
  "made_with:Construct": {
   "name": "Construct",
   "n": 1,
-  "date": "2026-10-22",
-  "since": "2026-10-22"
+  "date": "2026-10-25",
+  "since": "2026-10-25"
  },
  "made_with:libGDX": {
   "name": "libGDX",
-  "n": 1,
-  "date": "2026-10-24",
+  "n": 2,
+  "date": "2026-10-25",
   "since": "2026-10-24"
  },
  "tags:Indie": {
   "name": "Indie",
-  "n": 2,
-  "date": "2026-10-24",
+  "n": 3,
+  "date": "2026-10-25",
   "since": "2026-10-23"
  },
  "tags:Retro": {
@@ -205,8 +205,8 @@
  },
  "made_with:RPG Maker": {
   "name": "RPG Maker",
-  "n": 2,
-  "date": "2026-10-24",
+  "n": 3,
+  "date": "2026-10-25",
   "since": "2026-10-23"
  },
  "tags:Dark": {
@@ -214,5 +214,11 @@
   "n": 1,
   "date": "2026-10-24",
   "since": "2026-10-24"
+ },
+ "tags:Anime": {
+  "name": "Anime",
+  "n": 1,
+  "date": "2026-10-25",
+  "since": "2026-10-25"
  }
 }

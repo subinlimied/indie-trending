@@ -4967,7 +4967,7 @@
   "recommendations": null,
   "short_description": "Survive a decimated yet beautiful post-apocalyptic landscape as Allie, a competent survivalist and mother raising her daughter against the backdrop of a broken world.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4087210/786e06b3d16871eba730d58e376c4f1864ef1908/header.jpg?t=1792550633",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4108000": {
   "name": "Machine Party",
@@ -5177,7 +5177,7 @@
   "recommendations": null,
   "short_description": "Challenge yourself in a frantic escape through an urban environment, where every mistake brings you one step closer to your demise. Only a perfect run will truly give you a chance to make it out alive.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4247410/403fbac62445f9e2028f0ff4c46e3d13100699b3/header.jpg?t=1788961040",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4285690": {
   "name": "Airport Security Sucks!",
@@ -5810,7 +5810,7 @@
   "recommendations": null,
   "short_description": "You are a scientist turned into test subject zero, forced to fight the infection by venturing through your own nightmares. Will you survive.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731510/42a3a96d1c5a7eebc927538ff3f9cdf60d437907/header.jpg?t=1791800422",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4756450": {
   "name": "Evercursed: Act I",
@@ -6302,7 +6302,7 @@
   "recommendations": null,
   "short_description": "Nobody can see the timers. 2–8 players strapped to their chairs at a sinister game-show table, shock collars on: estimate time blind, bluff, call people out. Miss the time and the collar answers; get doubted and the doubter pulls the trigger. Local, online or solo vs. bots.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5176820/94adab4a4b28d9b3a64dbe75bc6df91ac7eef1a1/header.jpg?t=1792468074",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5204830": {
   "name": "Deleted Wiki: Clean Up the Lost Files",
@@ -6401,7 +6401,7 @@
   "recommendations": null,
   "short_description": "Uncounted is a massive incremental tower defense. One sector, one wave: tens of thousands of hostiles simulated on the GPU. Place and aim every turret before the drop, then spend the run to unlock the next gun.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215390/695fd6585cb2d460febf23a414a6ee9e3ff563a3/header.jpg?t=1792700120",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5222980": {
   "name": "Renz Soccer Sim",
@@ -6428,7 +6428,7 @@
   "recommendations": null,
   "short_description": "Build your squad, develop players, manage your club, and watch every match unfold in this 2D soccer management simulator. Chase trophies and build a dynasty.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5222980/fa5724184a958a5b789cc0fc367e961603f65e4c/header.jpg?t=1789223499",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5227910": {
   "name": "Messa Anomaly",
@@ -6533,7 +6533,7 @@
   "recommendations": null,
   "short_description": "Teleport Master is a first-person puzzle adventure where you create portals to move through space, reach impossible places, and solve clever environmental challenges. Explore stylized sci-fi levels, experiment with movement, and find your way forward.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5236110/96d6e31b41ef998c61595ad2b74b8437619be595/header.jpg?t=1790930658",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5258340": {
   "name": "One Million Coins",
@@ -6738,7 +6738,7 @@
   "recommendations": null,
   "short_description": "Pactmage: Chess Roster is a turn-based tactics game where every character has skills and an element. Win in Adventure Mode and form a Pact to recruit them — all 60+ units are free. Play the story mode, fight a friend locally, or battle online in PvP. No gacha, no paid units.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5287260/f792016cf408ffb21db13a0c2550151628af4ae9/header.jpg?t=1792631334",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5291460": {
   "name": "Empty The Lake!",
@@ -6944,7 +6944,7 @@
   "recommendations": null,
   "short_description": "Play as the grossest survivors in town in this fast-paced top-down roguelite! Armed with raw fart power and other foul abilities, blast through endless enemy swarms across 2 arenas. Collect coins, upgrade your powers, and turn your nastiest traits into ultimate weapons!",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5306880/cbfc0f092d601eec228059eb446872ef96ca6b6d/header.jpg?t=1792680574",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5313320": {
   "name": "Zombie Last Stand",
@@ -7308,9 +7308,9 @@
  "5358030": {
   "name": "Lumbrix",
   "type": "game",
-  "release_date_raw": "Coming soon",
-  "release_date": null,
-  "coming_soon": true,
+  "release_date_raw": "Oct 24, 2026",
+  "release_date": "2026-10-24",
+  "coming_soon": false,
   "developers": [
    "JSM games"
   ],
@@ -7323,13 +7323,13 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 999,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
   "short_description": "Lumbrix is a survivors-like shooter where every segment of your growing worm is both a weapon and a life. Aim your head cannon, shield yourself with your body, evolve your weapons and survive ten minutes to face the boss.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5358030/4391375f4d14c46e75de48000347490246c29913/header.jpg?t=1792593949",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5358030/4391375f4d14c46e75de48000347490246c29913/header.jpg?t=1792882977",
+  "fetched": "2026-10-25"
  },
  "5362280": {
   "name": "Fungal Field",
@@ -7457,7 +7457,7 @@
   "recommendations": null,
   "short_description": "Your cat has turned the shop upside down, and 5,555 cat plushies are waiting to go back on their shelves. Upgrade your skills and your cat's, change the weather to transform the gameplay, play minigames and hunt for collectibles while you wonder what the garage hides once everything is tidy.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5365190/42bb79b1252d8e3a0bac14b847022593c8298404/header.jpg?t=1792450520",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5365780": {
   "name": "Deckbound",
@@ -7509,7 +7509,7 @@
   "recommendations": null,
   "short_description": "Compress. Aim. Release. Guide a little spring through the pages of an old patent. Judge slopes, ride moving platforms and set curious mechanisms in motion across 20 handcrafted physics challenges. Unlock six springs, each with a character of its own.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5367850/eaf3901b2b50ea921a0d6d5d6b18133b01891565/header.jpg?t=1791360828",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5373530": {
   "name": "Robot Fisher",
@@ -7667,7 +7667,7 @@
   "recommendations": null,
   "short_description": "CHAPA CHAPA Munchkin Mafia is a third-person fighting game centered on the mafia, in which you must build up your own gang and defeat all your enemies.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5383020/3aaf3b49661f03515d0bab87a1e1c5e56c3404da/header.jpg?t=1792591170",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5383030": {
   "name": "Police Activity: Cardboardman",
@@ -7693,7 +7693,7 @@
   "recommendations": null,
   "short_description": "Police Activity: Cardboardman is a first-person slasher game where, in one segment, you play as a serial killer nicknamed \"Cardboardman,\" and in the other, as a detective trying to catch him.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5383030/eaace9dd58646b2c53b072204ab97e9fdff9a594/header.jpg?t=1792565197",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5386200": {
   "name": "Mojo Is Loved",
@@ -7718,7 +7718,7 @@
   "recommendations": null,
   "short_description": "Mojo invites his ex and an old friend to hear his new EP. Their kindness is real... until the room starts rewriting every sign of rejection. A short psychological horror visual novel about love, reassurance, and the cost of demanding certainty.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5386200/0d9b58b839371c9557d969c2ffe53da0482cf0aa/header.jpg?t=1791869892",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5389350": {
   "name": "Starfall Hill",
@@ -7744,7 +7744,7 @@
   "recommendations": null,
   "short_description": "Stars really fall from the sky over a quiet hilltop village. Gather them, light the lamps, and meet the villagers—until a black warship crosses the moon. Take up an old rifle and exploding stars to defend the hill in this story-driven first-person adventure.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389350/2c6ba3de66a50d18739847ba3f341ec7453c0edf/header.jpg?t=1791972262",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5403390": {
   "name": "Super Clown Save Santa",
@@ -7794,7 +7794,7 @@
   "recommendations": null,
   "short_description": "A comedy game about installing a game. Get the progress bar from 0% to 100% while the installer stalls, bargains, lies, makes you agree to agree, runs away from your cursor and refuses to finish. One window. One loading bar. Please wait.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404530/a84c3562741ec01f255b889177bab9c3041db7ee/header.jpg?t=1792690281",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5406050": {
   "name": "Bunny Bun",
@@ -7819,7 +7819,7 @@
   "recommendations": null,
   "short_description": "You are the experimenter Bunny Bun. To develop the “Wisdom Potion,” you have brought your talents to this laboratory. You must process raw materials and synthesize them to create potions with specific effects. To test a potion, you can take a sip and go crazy. The world needs you...",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5406050/5345df463076f9cbf3d2b5fa31e7dfd04ad9f64b/header.jpg?t=1791729334",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5409020": {
   "name": "Spin To Win",
@@ -7844,7 +7844,7 @@
   "recommendations": null,
   "short_description": "Flick, brake and reverse your way from one tiny fidget spinner to a bustling pixel arcade. Restore machines, build gadget combinations, master mouse driven minigames and spend earned Tickets on chance games and cosmetics.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5409020/bf4f11534b1e4f5fff6b8261f9dde8bdbf17dc42/header.jpg?t=1792752127",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "3590": {
   "name": "Plants vs. Zombies GOTY Edition",
@@ -9320,7 +9320,7 @@
   "type": "game",
   "release_date_raw": "Oct 23, 2026",
   "release_date": "2026-10-23",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "NSOFT"
   ],
@@ -9334,13 +9334,13 @@
    "RPG"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 1899,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
   "short_description": "Due to the invasion of the Demon Lord, countries around the world have been destroyed. In the last remaining country, a hero is summoned. Players control the hero, gather allies, and set out on a journey to defeat the Demon Lord. Can the seemingly weak protagonist indeed vanquish the Demon Lord?",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445430/73af49db25b3df83735635072d2d08a6bee23297/header.jpg?t=1792552538",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445430/73af49db25b3df83735635072d2d08a6bee23297/header.jpg?t=1792810815",
+  "fetched": "2026-10-25"
  },
  "2763740": {
   "name": "Revolution Idle",
@@ -9555,7 +9555,7 @@
   "recommendations": null,
   "short_description": "A horror game about the night shift at a donut shop. To help pay for your sister's treatment, you take seven nights behind the counter. Fry, glaze and box the orders, and serve the customer who comes in after closing and knows far too much about you.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4073100/6bdd179b3cd098774f505ec19720e0de21b1737a/header.jpg?t=1792745847",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4100790": {
   "name": "Echoes of Pinebridge",
@@ -9716,7 +9716,7 @@
   "recommendations": null,
   "short_description": "A story about a beautiful river that hides deadly secrets beneath its calm surface.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715430/cf6bf3d2afc9969d205da930f214bc2d63ee7b8b/header.jpg?t=1792637897",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4764890": {
   "name": "+PROTECTUS-",
@@ -9740,7 +9740,7 @@
   "recommendations": null,
   "short_description": "🧲 A minimalist first‑person puzzle game where you have to escape from a ruined lunar complex using an experimental magnetic cannon and uncover the secrets of the ECHO project together with the drone Kruitni.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764890/c72c18f08e07487656a8297124218a736b906a67/header.jpg?t=1792503412",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4800650": {
   "name": "7 Millimeters",
@@ -9772,9 +9772,9 @@
  "4924290": {
   "name": "Fire Bug",
   "type": "game",
-  "release_date_raw": "Oct 25, 2026",
-  "release_date": "2026-10-25",
-  "coming_soon": true,
+  "release_date_raw": "Oct 24, 2026",
+  "release_date": "2026-10-24",
+  "coming_soon": false,
   "developers": [
    "Jesse Dale"
   ],
@@ -9787,13 +9787,13 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 299,
+  "currency": "USD",
   "has_demo": true,
   "recommendations": null,
   "short_description": "Hold the sun in your hand in this fast-paced arcade game. Play as a magnifying glass and cook swarms of bugs before time runs out. Chain ignitions, defeat tier bosses, and spend your Sparks on upgrades tree to unlock explosive criticals, burn trails, and smoldering spore clouds.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924290/2a0db0d043d9bc8febc2b0974520791cef78ee0a/header.jpg?t=1784419477",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924290/2a0db0d043d9bc8febc2b0974520791cef78ee0a/header.jpg?t=1792876542",
+  "fetched": "2026-10-25"
  },
  "4924750": {
   "name": "Village of the Mirror",
@@ -9821,7 +9821,7 @@
   "recommendations": null,
   "short_description": "A first-person psychological horror set in a forgotten village where Japanese and Anatolian folklore collide. Explore abandoned places, solve puzzles, uncover the past, and cross Torii gates into the afterlife to uncover the truth.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924750/66b63fc2e6a90af49d8fb0dc3ae0671112ef3c49/header.jpg?t=1792669750",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4956380": {
   "name": "The Lighthouse Restaurant",
@@ -9871,8 +9871,8 @@
   "has_demo": false,
   "recommendations": null,
   "short_description": "A first-person bodycam horror game, 1-4 player co-op about scavenging. Explore a procedurally generated maze of empty rooms for Hazard Recovery Co., collecting objects graded on rarity. Every corridor is a choice: leave with something ordinary, or go deeper in the dark for something worth more.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4984610/828404886866907cab7a67669c2999f180eb3243/header.jpg?t=1792564673",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4984610/09576a8b8ccc0f3ea52ef3aaf8b38e499d55aa90/header.jpg?t=1792862140",
+  "fetched": "2026-10-25"
  },
  "5169220": {
   "name": "Campsite",
@@ -9898,7 +9898,7 @@
   "recommendations": null,
   "short_description": "Warm nights in the evergreen forest, the peace and quiet, the gentle flicker of fire. Too quiet, almost unnatural. Something sinister lurks in the dark. It's faster than you, it's smarter than you, and it wants you out of it's forest. Your only hope to keep the flames from hollowing. Good luck.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169220/6f00c812052cec41867670beb755eb582a418fa8/header.jpg?t=1792749848",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5169900": {
   "name": "DODGE GAME",
@@ -9951,7 +9951,7 @@
   "recommendations": null,
   "short_description": "An incremental cooking game where you wake up on mysterious cloud islands and have to cook pancakes to find a way out.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5188640/33e13c82edbf12396ca290e9a9adb73ebbf619ba/header.jpg?t=1791899746",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5196710": {
   "name": "Paper and Pencil",
@@ -9978,7 +9978,7 @@
   "recommendations": null,
   "short_description": "A cosy newspaper of puzzles. Eighteen columns — sudoku, crosswords, nonograms, mazes and more — printed fresh every day, solved over a pixel-art coffee. Ten columns free forever; the Sunday Edition adds eight deeper puzzles. Fully offline, endless extras, and every puzzle has exactly one solution.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5196710/2ad4a5c7667bb1c028c26c840688dc7f93c9327e/header.jpg?t=1790683568",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5196790": {
   "name": "Coffee Keeper",
@@ -10010,8 +10010,8 @@
  "5199510": {
   "name": "Undervein",
   "type": "game",
-  "release_date_raw": "Coming soon",
-  "release_date": null,
+  "release_date_raw": "Nov 23, 2026",
+  "release_date": "2026-11-23",
   "coming_soon": true,
   "developers": [
    "Tanur Studios"
@@ -10031,8 +10031,8 @@
   "has_demo": false,
   "recommendations": null,
   "short_description": "Deep under the mountain there is a seam that never runs dry, a crew of dwarves who will mine it while you sleep, and a door covered in runes that nobody has opened. Click. Build. Descend. And be ready when the mountain's wrath wakes.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5199510/6c6b29ba5314454ed9962168db309466377aef7d/header.jpg?t=1792694819",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5199510/6c6b29ba5314454ed9962168db309466377aef7d/header.jpg?t=1792834920",
+  "fetched": "2026-10-25"
  },
  "5251070": {
   "name": "Want a Bomb?",
@@ -10090,7 +10090,7 @@
   "type": "game",
   "release_date_raw": "Oct 23, 2026",
   "release_date": "2026-10-23",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "Angel Carrillo"
   ],
@@ -10104,13 +10104,13 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 699,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
   "short_description": "Catch The Ducks is a colorful online party game where ducks and farmers clash across chaotic arenas. Chase, escape, paint and customize your character, then compete in Classic, Battle, Free Fall, Hot Potato and Infection modes.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5272490/0793ca637dce271e2166ba89d86c931783cb91ff/header.jpg?t=1792456846",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5272490/0793ca637dce271e2166ba89d86c931783cb91ff/header.jpg?t=1792819858",
+  "fetched": "2026-10-25"
  },
  "5284710": {
   "name": "SHAME",
@@ -10207,9 +10207,9 @@
   "currency": null,
   "has_demo": false,
   "recommendations": null,
-  "short_description": "First-person survival horror in a corn maze at night. Find the eight wards hidden across Halloway Farms and carry them to the chained gate. Every ward you take lets the Harvester closer. The maze is different every run. Play alone or with up to three friends online.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5317740/d9b86f6626ab6144c99c8e57016b96f2b0131e35/header.jpg?t=1792774895",
-  "fetched": "2026-10-24"
+  "short_description": "Something is moving through the corn. Explore Halloway Farms alone or with up to three friends online, recover eight wards, mend the broken ones in the Halloway mansion and escape before the Gleaner finds you. It listens for your footsteps and your voice, and it may even look like your friend.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5317740/d9b86f6626ab6144c99c8e57016b96f2b0131e35/header.jpg?t=1792818338",
+  "fetched": "2026-10-25"
  },
  "5319430": {
   "name": "Gen'ei ninja",
@@ -10234,7 +10234,7 @@
   "recommendations": null,
   "short_description": "Punch, leap and wall-jump through a retro side-scrolling action platformer. Battle through twelve areas and five bosses, collect weapons, and learn when to evade or strike. Gen'ei ninja combines platforming with close-range combat and old-school challenge.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5319430/72971a1e558de2595b5ab2715dccdadc890a95b1/header.jpg?t=1792774711",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5322590": {
   "name": "Railwright",
@@ -10266,9 +10266,9 @@
  "5342920": {
   "name": "SpellWeave",
   "type": "game",
-  "release_date_raw": "Coming soon",
-  "release_date": null,
-  "coming_soon": true,
+  "release_date_raw": "Oct 24, 2026",
+  "release_date": "2026-10-24",
+  "coming_soon": false,
   "developers": [
    "Josh Dillion"
   ],
@@ -10280,13 +10280,13 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 999,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
   "short_description": "Build a wand out of spell cards that modify and combine with each other, then fight down through an endless dungeon. Order is everything: a modifier changes every spell after it. No final floor — the run ends when you do.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5342920/5ff23ecd0c17e568c410e44f3e2fc1524a35fdb5/header.jpg?t=1791386169",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5342920/5ff23ecd0c17e568c410e44f3e2fc1524a35fdb5/header.jpg?t=1792883432",
+  "fetched": "2026-10-25"
  },
  "5353860": {
   "name": "Magehold Fairwinds",
@@ -10339,7 +10339,7 @@
   "recommendations": null,
   "short_description": "A zero-gravity push-your-luck roguelite about salvaging a derelict space station. There are no brakes: thrusters burn oxygen, so you stop by kicking off walls or throwing cargo the other way. Take all you can carry, but it only pays if you get it back to the airlock. Online co-op for up to 4.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5358580/7579384b6ab4f0c146214cb6f4b732d7213eff6e/header.jpg?t=1792505554",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5364900": {
   "name": "ABAX",
@@ -10387,8 +10387,8 @@
   "has_demo": false,
   "recommendations": null,
   "short_description": "Little Angler is a cozy fishing game that lives on your desktop. Catch dozens of creatures, complete your album, explore new regions, earn coins, unlock upgrades, and customize your angler with characters, islands, bobbers, rods, vests, and more.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371210/288bc6ebbe9305a7ebc288f9ac9b0dc681859899/header.jpg?t=1792674534",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371210/288bc6ebbe9305a7ebc288f9ac9b0dc681859899/header.jpg?t=1792813680",
+  "fetched": "2026-10-25"
  },
  "5377190": {
   "name": "Halloweenies Candy Run",
@@ -10467,14 +10467,14 @@
   "recommendations": null,
   "short_description": "One house, a lab inside, and thousands of zombies outside. Hold out for 25 waves while Dr. Ferrán finishes the cure. Every run earns coins for the upgrade tree: barbed wire, bear traps, mines, a mortar on the roof and, if you make it that far, an airstrike.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380860/665d5a432b695807c9d49cc009b8400e56dfbcde/header.jpg?t=1792025503",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5385830": {
   "name": "Lily or Horse",
   "type": "game",
   "release_date_raw": "Oct 24, 2026",
   "release_date": "2026-10-24",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "MetallJellyfish"
   ],
@@ -10486,13 +10486,13 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 499,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
   "short_description": "The easiest game in the world. Flip a coin and call it: lily or horse? Call it right 10 times in a row to win. Miss, and the coins you bet are thrown away. With a little luck, it only takes 10 flips.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5385830/920ed26d1fef714a3dbad95210df9e36bdfa4ff3/header.jpg?t=1792122537",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5385830/920ed26d1fef714a3dbad95210df9e36bdfa4ff3/header.jpg?t=1792853547",
+  "fetched": "2026-10-25"
  },
  "5393420": {
   "name": "Elya",
@@ -10518,7 +10518,7 @@
   "recommendations": null,
   "short_description": "Raise a desktop companion in a cozy single-player pet game. Chat, build your bond, collect memories, and customize her with characters, skins, animations, and Workshop creations.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5393420/a66d6a5fa0404cb0a6fa1559e7f97c1e8bb2af6e/header.jpg?t=1792611645",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5398190": {
   "name": "Fish with Friends",
@@ -10545,7 +10545,7 @@
   "recommendations": null,
   "short_description": "A co-op fishing game for 1 to 4 players. Catch fish, sell your haul and buy better rods and bigger boats. Head further out for bigger catches, but keep an eye on the weight. Every fish goes in the boat, and too many will sink it.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398190/df3c13c95ac7798f71447e8b79e917644f46105f/header.jpg?t=1792772483",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "219740": {
   "name": "Don't Starve",
@@ -10780,7 +10780,7 @@
   "recommendations": null,
   "short_description": "Your friends have heard your Roman emperor a hundred times. Nobody's ready for your cockerel.🐔 Hot Mic is an online party game played with your voice, for 2 to 8 players. Set your mic ablaze!🔥",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407560/f538cb2b25094829ce6cd1b0b87328a62d2819f3/header.jpg?t=1792692535",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "1446140": {
   "name": "Spook & Sell",
@@ -10808,7 +10808,7 @@
   "recommendations": null,
   "short_description": "Stage the haunt. Sell the house. You’re the world’s most desperate real-estate agents — hide the ghosts, mop the ectoplasm, and keep buyers calm in this chaotic 1–4 player co-op physics party game before the haunting meter tips over.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446140/ab58c51ac71f3cd2b063a87ae6267259af446f7b/header.jpg?t=1791574638",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "1665190": {
   "name": "Monster Prom 3: Monster Roadtrip",
@@ -10889,7 +10889,7 @@
   "recommendations": null,
   "short_description": "Take on the role of Colin Nox, a security operator monitoring surveillance cameras for anomalies. What starts as a routine job quickly turns sinister as the anomalies grow more aggressive, invading the houses you watch, breaking into your home, and crawling into your mind.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2430710/5149e97828b1564048a00f94feed8ec8f6879e0b/header.jpg?t=1792681979",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "2445260": {
   "name": "Tyr",
@@ -10945,7 +10945,7 @@
   "recommendations": null,
   "short_description": "A challenging post-apocalyptic roguelite turn-based RPG about the psychological stresses of adventuring with complete idiots. Lead a crew of flawed heroes against the consequences of their own terrible decisions. Can you keep your heroes together when everyone thinks they're in charge?",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2551970/header.jpg?t=1792515580",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "2869860": {
   "name": "Monster Prom 4: Monster Con",
@@ -11020,7 +11020,7 @@
   "recommendations": null,
   "short_description": "Evil has returned! Complete the card collection to seal it away! Build synergistic decks for tactical battles. Survive procedurally generated roguelike runs—solo or in co-op—with danger lurking around every corner. Carve your path and become the cardtographer!",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460540/85336a2b659dfef0ea72c32450c2730b2b9225dd/header.jpg?t=1792547548",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "3617620": {
   "name": "My Card Is Better Than Your Card!",
@@ -11100,7 +11100,7 @@
   "recommendations": null,
   "short_description": "Play as a droid bounty hunter for hire. Accept contracts, deploy into dangerous locations, eliminate targets, break into secure systems, and get paid. Spend your rewards on weapons, gear and software upgrades for your droid.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3721020/903e5e5402c51b3d386a0289aca2a024118690ae/header.jpg?t=1792666382",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "3866090": {
   "name": "Flipping Phantom",
@@ -11125,7 +11125,7 @@
   "recommendations": null,
   "short_description": "A puzzle platformer where you can’t jump?! Phase into the ground and flip upside-down to find your way around this spooky playground!",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3866090/d378166d3e2a16bc700995c489c240ceb9549ba5/header.jpg?t=1792445088",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4236650": {
   "name": "Adultery Marriage Punisher",
@@ -11153,7 +11153,7 @@
   "recommendations": null,
   "short_description": "\"Adultery Marriage Punisher\" Curing marriage pests! Investigate. Infiltrate. Snap. Spy. Steal. Outwit. What is your spouse doing behind your back? Your evidence, the deadliest sanction. Now, become the shadow of justice, and unveil every betrayal and infidelity!",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236650/55c41e7000387a840e905717b7d037632880d854/header.jpg?t=1791537637",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4439360": {
   "name": "Chain of Command",
@@ -11178,7 +11178,7 @@
   "recommendations": null,
   "short_description": "Chain of Command is a top-down arena shooter roguelike, where you control a snake-like chain of fighters that attack automatically. Choose your Commander and build your party to create high-synergy builds to crush the invading demon armies.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4439360/63fe49a716018ba4c6e4b3b832c038179ce4be69/header.jpg?t=1792686441",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4719390": {
   "name": "Change",
@@ -11203,7 +11203,7 @@
   "recommendations": null,
   "short_description": "Atmospheric simulator of the seller in a night stall of the 1993 model. Immerse yourself in the melancholy of the sleeping area: sell goods, count the change and communicate with customers.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4719390/57cb9b029984e075845a6df383fdf1fdbda2bd6a/header.jpg?t=1792611704",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4774030": {
   "name": "Conquer the Labyrinth",
@@ -11232,7 +11232,7 @@
   "recommendations": null,
   "short_description": "Conquer the Labyrinth is an anime-inspired third-person Action RPG where you battle through a 100-floor procedural dungeon filled with deadly monsters, powerful loot, and Epic Bosses guarding every portal to the floor below. Grow stronger through crafting, skill progression, and intense combat.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4774030/1dbac1febc0a764acb39b39aa08d7c1f5a63ba60/header.jpg?t=1792782925",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4780790": {
   "name": "Tetheg",
@@ -11258,7 +11258,7 @@
   "recommendations": null,
   "short_description": "Race to the other side in this original board game! The catch? You can’t let the strings tying the pieces together cross. Test your wits against your friends as you maneuver your pieces, block your opponent, and slip through their defenses in local multiplayer.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4780790/ce192f5859bec503d07fedb4b31e95913635dc08/header.jpg?t=1792618574",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4866750": {
   "name": "A Northern Evil: Tape One",
@@ -11310,7 +11310,7 @@
   "recommendations": null,
   "short_description": "A single-player mahjong roguelike with an ink-wash art style. Make runs and sets from your tiles to score points — complete a winning hand and your score multiplies. Buy Flower cards, talismans and treasures to get stronger.. Never played mahjong? A step-by-step tutorial gets you started.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4881270/157927cdbda851186656062157bd82116f65d988/header.jpg?t=1792796444",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4987640": {
   "name": "TRAPPIST-1",
@@ -11337,7 +11337,7 @@
   "recommendations": null,
   "short_description": "A short sci-fi horror game. Extract energy from a red dwarf, tune signals, and power distant worlds. Do your job. Don't ask what really keeps the station running.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4987640/e95dde623cff5f39b3b740ad7be27e030307a986/header.jpg?t=1792519937",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5000550": {
   "name": "Nitro Nonsense",
@@ -11363,7 +11363,7 @@
   "recommendations": null,
   "short_description": "A chaotic party racer for 1, 2, 4, 8, or up to 16 players, locally or online! Race in split-screen or share a top-down view, build custom tracks, and fill them with traps and obstacles when you win. If you lose, don’t worry: you get to upgrade your car and come back stronger for the next round!",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000550/0f79a4ddfa404701a8eabd9973f4037f3a9aee6c/header.jpg?t=1791500788",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5005180": {
   "name": "Checkmate: The Red General’s Last Move",
@@ -11389,7 +11389,7 @@
   "recommendations": null,
   "short_description": "Checkmate is a turn-based Xiangqi roguelite where a lone red general carries a cannon into a 9×10 battlefield. Move to reload, fire risky snap shots, aim for precision, and use enemy pieces as firing screens. Each upgrade also strengthens the opposing army.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005180/d9b6edeafec4db93b9cdd7dc6f9b31a3eaa0a32c/header.jpg?t=1790231105",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5027520": {
   "name": "Megastore: Tidy Up Together",
@@ -11442,7 +11442,7 @@
   "recommendations": null,
   "short_description": "Build a little workshop into a jewel-clearing machine. Pull the reels, set off colorful chain reactions, combine clever accessories, and invest your coins to conquer eight contracts. Keep building after victory or retire to begin again with a lasting Legacy. Play in 13 languages on Windows.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034850/b9fad2b99d4524f18d36be9f8419da25d67473b9/header.jpg?t=1792582378",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5087180": {
   "name": "Excids: Endless Siege",
@@ -11468,7 +11468,7 @@
   "recommendations": null,
   "short_description": "Defend your castle in a dark fantasy action roguelite. Choose your hero, survive endless enemy waves, unlock relics, skills, and upgrades, to try and finish every level.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087180/18547ff45b91de616b6f23a46443338fa1de4aa0/header.jpg?t=1792384050",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5107320": {
   "name": "WHAT LURKS BELOW",
@@ -11495,7 +11495,7 @@
   "recommendations": null,
   "short_description": "First-person hide-and-seek horror. Tag: a catch swaps Hunter and Runner. Hunt: a catch adds a Hunter. New maze each round. Online lobbies or bots, proximity voice.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5107320/a2ece44f37f3b336b571ec4e4a7233ee3d805f20/header.jpg?t=1791445181",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5131740": {
   "name": "单机斗地主",
@@ -11521,7 +11521,7 @@
   "recommendations": null,
   "short_description": "《单机斗地主》是一款专为喜欢经典斗地主玩法的玩家打造的单机休闲棋牌游戏。无需联网，无需匹配其他玩家，随时打开即可开始游戏。游戏采用经典斗地主规则，玩家将与电脑AI对手进行对局，体验叫地主、抢地主、出牌与配合的完整流程。游戏提供多种难度选择，AI对手会根据难度调整出牌策略，让新手可以轻松上手，也能满足熟悉斗地主玩法的玩家挑战更高难度。游戏节奏轻快，操作简单，并支持键盘、鼠标及手柄操作。无复杂养成、无强制社交，专注于纯粹的斗地主乐趣，适合碎片时间游玩，也适合长期休闲体验。",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5131740/97d0f20d2ff1859eb3d6b78388799c43147267b5/header.jpg?t=1791622944",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5171280": {
   "name": "wishbound",
@@ -11548,7 +11548,7 @@
   "recommendations": null,
   "short_description": "At 3am, an app called tally installs itself on your phone and starts granting wishes. All of them. A psychological horror story told entirely through a phone screen. 5 nights, 3 routes, 18 endings, some you can only reach by losing on purpose. Every wish is granted. Every wish is owed.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171280/8ccc831364a3c0a418201be73f6416ad7fbd62e1/header.jpg?t=1789496191",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5199280": {
   "name": "DOOM MATES",
@@ -11573,7 +11573,7 @@
   "recommendations": null,
   "short_description": "An online multiplayer horror for up to 5 players. One of you is the hunter, and the rest have to work together to escape strange places. No two runs are the same, because these places always change. Create your own jumpscare and watch your friends run into it in the dark!",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5199280/c16b1223136e048c3377d7728a9587819324a6a6/header.jpg?t=1791807742",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5224210": {
   "name": "Demonfall Continent",
@@ -11600,7 +11600,7 @@
   "recommendations": null,
   "short_description": "Explore a magic-soaked continent, battle beasts and towering bosses, learn a wide variety of skills, and shape your build with Inner Arts, attributes, and gear. Hunt for loot, cook useful food, reforge affixes, and grow stronger through every expedition in this dark mythic single-player action RPG.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5224210/096f2c29eac453b2bac48826bf4f18a1bceb201f/header.jpg?t=1792591748",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5230130": {
   "name": "The Consumed",
@@ -11651,7 +11651,7 @@
   "recommendations": null,
   "short_description": "Sharp eyes. Fast combos. Fierce rivals. Picpic is an anime-style spot-the-difference PvP game. Find differences before your opponent, rack up combo scores, and attack to disrupt their play. Keep your focus as the clock ticks down!",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248430/b86d9b9b62d1e76bc461998d23054f1e6f9f0430/header.jpg?t=1792550106",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5265120": {
   "name": "Lyra Quinn - Black Hole",
@@ -11676,7 +11676,7 @@
   "recommendations": null,
   "short_description": "A fast-paced 2D sci-fi arcade shooter. Pilot Lyra through 26 action-packed levels, destroy dangerous space enemies, survive escalating threats, and defeat the final boss in a challenging cosmic adventure.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265120/c2d97631e3d3d243bcf84b3c5b9ce8d423225e92/header.jpg?t=1789716350",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5278300": {
   "name": "Adventurer 95",
@@ -11703,7 +11703,7 @@
   "recommendations": null,
   "short_description": "A roguelite RPG inside a retro desktop. Choose your route, build your hero with skills, loot and relics, and face bosses in automatic combat. Unlock four classes, invest in permanent upgrades and return for a new run with tougher challenges.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5278300/ed6ac7b597b747e405fc55cb2c7f4babed724eec/header.jpg?t=1792106331",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5285750": {
   "name": "Tilt Rivals",
@@ -11729,7 +11729,7 @@
   "recommendations": null,
   "short_description": "Fast-paced pinball meets head-to-head competition. Challenge rivals online, face a friend in local PvP or take on the CPU solo. Defend your goal, unleash power-ups and survive double-ball chaos across unlockable arenas. One more point. One more rematch.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5285750/2dce297020bb5e304660c9341da80d58e73aa07f/header.jpg?t=1791145186",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5299880": {
   "name": "Leikkaus",
@@ -11754,7 +11754,7 @@
   "recommendations": null,
   "short_description": "One student, one abandoned university, and someone who is after their benefits... or more. Hide. Run. Don't get cut.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5299880/28d72c9ee2cdcd88f36d66a9bcc5231e1e4f2af7/header.jpg?t=1792256823",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5305770": {
   "name": "Gimby",
@@ -11782,7 +11782,7 @@
   "recommendations": null,
   "short_description": "Guard the Skull and Crown of the dead King of the Underworld. Explore, hunt, fish and build by day, then hold your tower against the horde each night.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305770/4d78d9f9c8be82438d5b87fcf324970b921a5f76/header.jpg?t=1792609613",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5311670": {
   "name": "The Drowned Table",
@@ -11807,8 +11807,8 @@
   "has_demo": true,
   "recommendations": null,
   "short_description": "A horror dice roguelike. After a shipwreck you wake at a table that keeps score. Cast strange dice, set your Curios to fire left to right, and meet each offering while presences enter the cabin and the sea rises. Eight depths to The Abyss, then Endless.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5311670/dff92a1387fff553b1a0087f9644bf980d5458be/header.jpg?t=1792774481",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5311670/dff92a1387fff553b1a0087f9644bf980d5458be/header.jpg?t=1792804547",
+  "fetched": "2026-10-25"
  },
  "5325200": {
   "name": "History Experience: Rome",
@@ -11834,7 +11834,7 @@
   "recommendations": null,
   "short_description": "Explore the daily life of historical Rome with an impressive level of detail and realism. Thanks to next-generation graphics, each space has been faithfully recreated, from the classical architecture of a Roman domus to the martial atmosphere of a castrum.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5325200/a228b28fd7674666baad196344f08a071a5d2ef7/header.jpg?t=1791638324",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5328810": {
   "name": "Blockmania",
@@ -11865,9 +11865,9 @@
  "5332800": {
   "name": "Halloween 3D",
   "type": "game",
-  "release_date_raw": "Oct 26, 2026",
-  "release_date": "2026-10-26",
-  "coming_soon": true,
+  "release_date_raw": "Oct 24, 2026",
+  "release_date": "2026-10-24",
+  "coming_soon": false,
   "developers": [
    "jmApp"
   ],
@@ -11879,13 +11879,13 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 699,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
   "short_description": "A haunted manor, its creatures and nine letters to gather. Explore the levels alone, fight up to four friends online, or build the shared manor with every player: a world made of blocks that everyone reshapes, and that stays.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5332800/fa287eab1553b56c8c51ba9c590ccc94830e9903/header.jpg?t=1791629106",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5332800/fa287eab1553b56c8c51ba9c590ccc94830e9903/header.jpg?t=1792833242",
+  "fetched": "2026-10-25"
  },
  "5347360": {
   "name": "Memory Access Violation",
@@ -11910,7 +11910,7 @@
   "recommendations": null,
   "short_description": "A first-person dream in rectangular prisms. Wander 27 corrupted memories of light and geometry: bend light through prisms, recall platforms that aren't there, ride a light cycle, and face the Warden, a giant soldier the war forgot.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5347360/8a9ffe897a7b048e95c8ad34b101df3283ba936f/header.jpg?t=1791476562",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5355280": {
   "name": "Only Luck",
@@ -11934,8 +11934,8 @@
   "has_demo": false,
   "recommendations": null,
   "short_description": "Five sixes is a 1 in 7776 roll. How about 1 in 10? Only Luck is a pixel-art dice clicker: click to charge your throw, toss up to 9 dice, collect 1100 rare combinations and earn prestige chips. Upgrade your table, spin the Wheel of Luck and bend the rules until the impossible roll becomes routine.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5355280/551e0e02f0d978d1b6d8fcf18583b0f89a248615/header.jpg?t=1792572229",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5355280/551e0e02f0d978d1b6d8fcf18583b0f89a248615/header.jpg?t=1792855010",
+  "fetched": "2026-10-25"
  },
  "5362060": {
   "name": "The Third Seal",
@@ -11961,7 +11961,7 @@
   "recommendations": null,
   "short_description": "At a table in the dark, everyone secretly grabs a cursed object. When the light comes back, you find out who had it in for you. A first-person duel of horror and deception for 1 to 4 players, solo against the AI or online with friends. The third seal sets you free.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362060/85933afd74ec8c156c09d5dc183cdaf570a72af6/header.jpg?t=1791999587",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5373170": {
   "name": "By The Sea : Pilgrimage of the Colorless",
@@ -11986,7 +11986,7 @@
   "recommendations": null,
   "short_description": "Walk through Claude Monet's paintings as a Great War veteran carrying his wife's ashes to the sea. Stop, look closer, and paint color back into the world he lost. A quiet, wordless pilgrimage where stillness is rewarded.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5373170/f6d8e2f27e6f60040ff91accce06ff1cce0f611c/header.jpg?t=1791864229",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5381250": {
   "name": "Grim Guild",
@@ -12012,7 +12012,7 @@
   "recommendations": null,
   "short_description": "You never go on the adventure. You only decide who does. Run the adventurers' guild your grandfather left you: find out what is out there, from dire wolves to a dragon in the old workings, write the contract, and wait at the door to count who comes back. Streaming? Name newcomers after your viewers.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381250/b4c250a245cabea6ec4357b08349e9bc71bdaf54/header.jpg?t=1792594666",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5383370": {
   "name": "Untitled Maze Game",
@@ -12037,7 +12037,7 @@
   "recommendations": null,
   "short_description": "This is an epic maze adventure all made by the genius bird guy.cs this game is probably only fun for 10 minutes but it is still worth a shot.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5383370/38969fa278db5f6fcbe80464c3e905d980269138/header.jpg?t=1792032919",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5389860": {
   "name": "Zanoka",
@@ -12063,7 +12063,7 @@
   "recommendations": null,
   "short_description": "ZANOKA is a single-player roguelike action hack and slash and survivorlike where every sword swing is yours. Chain light and heavy cuts into combos, time your dodges and combine elemental upgrades against enemy waves and bosses. Every run is different, and every run can reveal a new build.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389860/49384d4e39702bce3f5d0e6f041891833b36695c/header.jpg?t=1791805916",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5391620": {
   "name": "Beast Hunt",
@@ -12089,7 +12089,7 @@
   "recommendations": null,
   "short_description": "Hunt the Beast through deadly caves in this first-person survival horror game. Read the clues, map your route, and manage light, air, and sanity. Scavenge strange powers, evade giant spiders, and trust your deductions when it's time to take the shot.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5391620/b913cc10b7654b4f8320cfaf2c938b2780558e36/header.jpg?t=1792193347",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5396090": {
   "name": "One More Brick",
@@ -12114,15 +12114,15 @@
   "has_demo": false,
   "recommendations": null,
   "short_description": "A cozy incremental brick breaker on a scribbled sketchbook page. Smash bricks, collect the rewards, and buy upgrades until balls split, lasers fly, and the page gets wonderfully messy. Grow your skill tree, put the Infinite Breaker to work, and turn over a new page.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396090/d98a29cd2ef8fb454b7b25a2f861130ec6c1a1ba/header.jpg?t=1791665564",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396090/d98a29cd2ef8fb454b7b25a2f861130ec6c1a1ba/header.jpg?t=1792864649",
+  "fetched": "2026-10-25"
  },
  "5404950": {
   "name": "Foodland Puzzle",
   "type": "game",
-  "release_date_raw": "Oct 26, 2026",
-  "release_date": "2026-10-26",
-  "coming_soon": true,
+  "release_date_raw": "Oct 24, 2026",
+  "release_date": "2026-10-24",
+  "coming_soon": false,
   "developers": [
    "Valkeala Software"
   ],
@@ -12134,13 +12134,13 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 99,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
   "short_description": "Foodland puzzle is simplictic jigsaw puzzle game with food themed images",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404950/3b3d07bc6c3a9ffb0e3566021821733c1a55f0ee/header.jpg?t=1791699966",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404950/3b3d07bc6c3a9ffb0e3566021821733c1a55f0ee/header.jpg?t=1792825279",
+  "fetched": "2026-10-25"
  },
  "5408070": {
   "name": "Project Nekrios",
@@ -12165,7 +12165,7 @@
   "recommendations": null,
   "short_description": "A co-op sci-fi horror shooter for 1–4 players. Hold a derelict space station against endless waves of aliens: weld the barricades shut, haul in salvage with tractor beams, restore power, and build new rooms, weapons and upgrades to survive one more round.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5408070/365467459dbd787f3f576a0d06ec519101e65016/header.jpg?t=1791981794",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5408150": {
   "name": "Taskbar Parade",
@@ -12192,7 +12192,7 @@
   "recommendations": null,
   "short_description": "A desktop companion game: a tiny parade of cute animals walks along the top of your taskbar while you work. Pet them, catch sparkles on the road, grant their daily wishes, send them exploring, and collect hats, friends and souvenirs. Quiet by default — it never gets in the way.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5408150/1ecb13dd3c440f6ba94e8d1a86ef47d018ef65d7/header.jpg?t=1792409778",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5429970": {
   "name": "Climb for Kittens",
@@ -12217,7 +12217,7 @@
   "recommendations": null,
   "short_description": "Build your way up a giant tree to rescue stranded kittens! Craft and connect different objects, create your own climbing paths, and overcome tricky heights. Every rescued kitten unlocks new building materials. Build higher, don't fall, and save them all!",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429970/f5b516846b3c66dc11e68a0b9d610bb35c904bd6/header.jpg?t=1792663011",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "588030": {
   "name": "Derail Valley",
@@ -12430,7 +12430,7 @@
   "recommendations": null,
   "short_description": "Explore this foreign world and manipulate time to navigate through the challenges that lie along your path! Meet the inhabitants of this strange realm as they push you towards finding the Timeless Rain...",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2401350/618d9b455772860b6890210c841e3bc621db6478/header.jpg?t=1792574955",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "2434930": {
   "name": "Blue Ridge Hunting",
@@ -12457,7 +12457,7 @@
   "recommendations": null,
   "short_description": "Blue Ridge Hunting is a co-op horror game set in the Appalachian Mountains. Solo or with friends, investigate, document, and hunt cryptids based on real sightings, legends, and paranormal phenomena from the region.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434930/4a43c4caf14cb7029770a482b7bc50525ad685a4/header.jpg?t=1792672053",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "2765990": {
   "name": "Skullf!",
@@ -12484,7 +12484,7 @@
   "recommendations": null,
   "short_description": "You are Skullf! Disembodied skull of terror & mini-golf action! After another hilarious night terrorizing locals it's time to return to your grave. Dodge traps, spelunk tombs and even go head to head with friends (Friends not included). Never before have you had so much fun a graveyard! (Probably)",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2765990/049f81e4cdb52da263244feb08b1fe7642857154/header.jpg?t=1792515368",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "2878450": {
   "name": "Master of Command",
@@ -12566,7 +12566,7 @@
   "recommendations": null,
   "short_description": "CALVAR – THE DARKEST GATE is a first-person psychological horror game created by a two-person indie team. Explore a world of fractured memories, ritual corruption, disturbing creatures, and an abandoned asylum where reality itself begins to unravel.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3194080/79c17b920e3fa8cea547e422f1b6069ca6c29d65/header.jpg?t=1791834616",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "3310570": {
   "name": "Night Plane",
@@ -12593,7 +12593,7 @@
   "recommendations": null,
   "short_description": "Night Plane is a job-sim horror game where you work as a flight attendant on a doomed plane. Check tickets, serve passengers, and decide who stays onboard as demons hide among innocent souls. Naturally, management says it’s your problem.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310570/099222477ad986b53ecf83539e66947b9536deed/header.jpg?t=1792492027",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "3370490": {
   "name": "Giggleland",
@@ -12617,11 +12617,11 @@
   "is_free": false,
   "price_initial": null,
   "currency": null,
-  "has_demo": true,
+  "has_demo": false,
   "recommendations": null,
   "short_description": "Tolie isn’t allowed to leave the house. One night she wakes up alone in Giggleland, to a voice over the park speakers: her father is waiting for her at the information booth. A first-person psychological horror game in eight chapters. This game is not suitable for children.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370490/f4b2e1a2a10e5ed882829f32adcdd065b3b24180/header.jpg?t=1792790978",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "3590040": {
   "name": "The Gassal",
@@ -12646,8 +12646,8 @@
   "has_demo": true,
   "recommendations": null,
   "short_description": "The dead find peace through sacred burial rites, washed, wrapped, and prepared for their final journey. As a burial washer, it is your duty to perform them with precision and respect. But with no one to guide you, how well can you fulfill this sacred task?",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590040/d5c12e88a1e6459a3a4b8adf59a7369182908009/header.jpg?t=1792784421",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590040/45c9d3a185079d9b33301de31f4c1e19c9690203/header.jpg?t=1792867746",
+  "fetched": "2026-10-25"
  },
  "3712150": {
   "name": "TCG Card Collection: Tidy Up",
@@ -12673,7 +12673,7 @@
   "recommendations": null,
   "short_description": "Organize and restore a special collection of 3,200 TCG cards. Clean each card and reveal their true glory. Match and sort them to sixteen themed sets. Turn a room full of chaos back to a collector's gallery.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712150/4f175607e231b38c0273828316666dc7b69123b7/header.jpg?t=1792758632",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "3760770": {
   "name": "Space Savory",
@@ -12699,7 +12699,7 @@
   "recommendations": null,
   "short_description": "Not that far away, in a galaxy… A diner with questionable hygiene, bubbling with dark secrets and darker humor, in the middle of cosmic nothingness. Welcome to Space Savory. Don’t be fooled by appearances, the best flavor in the universe is cooked right here. (Only within the observable part.)",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3760770/f773d11996ef2bd826e1cb77079c585b7ac3b9a0/header.jpg?t=1792611908",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "3819640": {
   "name": "Megastore Simulator",
@@ -12760,8 +12760,8 @@
  "4192370": {
   "name": "Droste Detective",
   "type": "game",
-  "release_date_raw": "Oct 26, 2026",
-  "release_date": "2026-10-26",
+  "release_date_raw": "Q4 2026",
+  "release_date": null,
   "coming_soon": true,
   "developers": [
    "Figmenthol"
@@ -12780,8 +12780,8 @@
   "has_demo": true,
   "recommendations": null,
   "short_description": "A recursive anomaly and psychological horror where you wake up stuck in an office corridor and find out there is a framed photo of the corridor on the wall. There is something very strange about this picture...",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192370/6fdccc8b72a1b44ce4e7005e90cae3aad2b69d99/header.jpg?t=1792679178",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192370/6fdccc8b72a1b44ce4e7005e90cae3aad2b69d99/header.jpg?t=1792856159",
+  "fetched": "2026-10-25"
  },
  "4326130": {
   "name": "Spooky Market",
@@ -12808,7 +12808,7 @@
   "recommendations": null,
   "short_description": "Spooky Market is a co-op shop simulator for 1–4 players set in a world of eternal Halloween. Open your own business, sell a variety of goods, serve vampires, skeletons, and other creatures, hire unusual employees, and gradually grow and expand your store.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4326130/1c1e6ba872dd1f87fba104bfb486c6526f9898c1/header.jpg?t=1791743300",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4485570": {
   "name": "Punch Upon a Time",
@@ -12835,7 +12835,7 @@
   "recommendations": null,
   "short_description": "Punch Upon a Time is a team-based party fighter inspired by Smash Bros where you take on rounds of modes, mini-games, and combat alongside your friends. Assemble a squad of the biggest fairy tale names to punch, dunk, fly, score, and sumo your way to victory as the LAST TEAM STANDING.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4485570/18a2d8e920550675887050b3f38cef979a79718f/header.jpg?t=1792638651",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4634660": {
   "name": "Your Friends Vs Hidebehind",
@@ -12861,7 +12861,7 @@
   "recommendations": null,
   "short_description": "A co-op survival horror game for 1-6 players. Record your real scream and it plays back when it takes you. Explore a procedurally generated forest, deny it by facing the terror, and escape before the forest decides you're staying.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634660/039864eac08427d049f9377ef23116b564e28c8c/header.jpg?t=1792729710",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4677860": {
   "name": "The Spectacular Evermore",
@@ -12887,7 +12887,7 @@
   "recommendations": null,
   "short_description": "Learn each room of the theatre, spot anomalies, and photograph them to restore the room. Keep your eyes open for anything unusual, from living statues to possessed paintings.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4677860/402b59c5b6a97e6bbf44c48d4456faaa7979845e/header.jpg?t=1792406596",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4704520": {
   "name": "ShredDead",
@@ -12913,14 +12913,14 @@
   "recommendations": null,
   "short_description": "ShredDead is a quirky relaxing incremental zombie-shredding game focused on progression with no lose conditions. Defeat endless waves, collect loot, grow your skill tree and evolve the zombies.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704520/481c251d90942aa2a768de63a65dee1a508a91a7/header.jpg?t=1792168066",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4709550": {
   "name": "Behind the Corner",
   "type": "game",
   "release_date_raw": "Oct 24, 2026",
   "release_date": "2026-10-24",
-  "coming_soon": true,
+  "coming_soon": false,
   "developers": [
    "MetaProx Studio"
   ],
@@ -12932,13 +12932,13 @@
    "Indie"
   ],
   "is_free": false,
-  "price_initial": null,
-  "currency": null,
+  "price_initial": 999,
+  "currency": "USD",
   "has_demo": false,
   "recommendations": null,
   "short_description": "Explore dark vintage environments and survive encounters with a relentless entity in this first-person psychological horror game. Listen closely, watch the shadows, and face the unsettling feeling that something is waiting just around the corner.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4709550/ff067adc322fe8522b8775b0a55f8f5a8dd01fcb/header.jpg?t=1792764634",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4709550/ff067adc322fe8522b8775b0a55f8f5a8dd01fcb/header.jpg?t=1792861209",
+  "fetched": "2026-10-25"
  },
  "4711310": {
   "name": "How to Summon a Demon",
@@ -12963,7 +12963,7 @@
   "recommendations": null,
   "short_description": "Ready to summon a demon this Halloween? Three answers decide which of 20 demons answers your call. A short, fully voiced summoning ritual with a collection book for everyone who wants to summon them all!",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4711310/4e45f01bd6883224bc5753b6fb4b49e660d4d506/header.jpg?t=1790968193",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4742590": {
   "name": "Giraffe Champion 3: Halloween Party & The Ghost Guitar",
@@ -12990,7 +12990,7 @@
   "recommendations": null,
   "short_description": "Play rock and metal songs and compete against zombies, witches, ghosts in the guitar battle to get all your guitars back. You are going to perform at a Halloween party but zombies have stolen all your guitars. Collect all the guitars before the Halloween party starts!",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4742590/b90e353556938e51ce6684919e5681b6b5f8984a/header.jpg?t=1791390237",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4755440": {
   "name": "Maximilien — A Psychological Horror Interactive Novel",
@@ -13016,7 +13016,7 @@
   "recommendations": null,
   "short_description": "A psychological horror interactive novel, Boston 1926. Explore, investigate, lose your footing. Your choices shape a branching story, while your mental state distorts the very page you read. 4 intersecting routes, 12 possible endings, 1 to 3 hours per playthrough.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4755440/256d7220cb2616282b8e4c86ce1be6de03ad8320/header.jpg?t=1792587870",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4817620": {
   "name": "One Way Tickets",
@@ -13070,7 +13070,7 @@
   "recommendations": null,
   "short_description": "Step inside a circus performer's quiet home, but don't stop at the surface. In this short-form descent into dread, follow a hidden labyrinth deep beneath the floorboards and watch a simple investigation spiral into a claustrophobic nightmare.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4829810/0705f6a0333eea87138189d9925a0a549694b53e/header.jpg?t=1792031248",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4840960": {
   "name": "3 Switch Problem",
@@ -13096,7 +13096,7 @@
   "recommendations": null,
   "short_description": "A casual, 3D, observation and puzzle game. Flip switches and observe results to answer which switch is controlling an apparatus as you work your way through the nine challenges of the 3-Switch Problem Puzzle Park. Talk to other kids and play outdoor activities along the way.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840960/d3da633124d67db8afac834c4c6be860e71b4c85/header.jpg?t=1788483233",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4895300": {
   "name": "Hack And Slash Fury 2: Lancelot Betrayal",
@@ -13123,7 +13123,7 @@
   "recommendations": null,
   "short_description": "Destroy the dark warriors with your sword at the rythm of heavy metal and see epic cinematics while you master the complex combat system to humilliate your rivals online or offline, here you will find fun, satire, and war created and combined like never before by his developer.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4895300/33a2362f7b9b7e64875816a86abc7b3b933c4c46/header.jpg?t=1792409368",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4949930": {
   "name": "Fragments",
@@ -13149,7 +13149,7 @@
   "recommendations": null,
   "short_description": "Explore the LeBlanc hotel and reveal hidden illusions through Eugene’s camera, an archivist. Follow in Laura’s footsteps, an investigator working on the disappearance of Eugene's sister, 20 years ago. Armed with a camera and discretion, can you discover the hotel’s heart and its mysteries?",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4949930/3f8f8526188bc9c755ee4438bf120e1e3a5fbc68/header.jpg?t=1792704134",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4968160": {
   "name": "Kleromancy",
@@ -13174,7 +13174,7 @@
   "recommendations": null,
   "short_description": "What if Slay the Spire used dice instead of cards? Build your own 3D dice, customize their faces, and roll them with real physics in this turn-based roguelike. Create powerful combos, manipulate your rolls, and fight your way through 7 corrupted biomes.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968160/8864d2a3bd79587013f9c460e80d21f8d38ef866/header.jpg?t=1792510689",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4969270": {
   "name": "Jarkeeper",
@@ -13200,7 +13200,7 @@
   "recommendations": null,
   "short_description": "A cozy first-person sorting game in a spooky old mansion on a stormy night. You sleepwalked out the front door, and all 3,120 specimen jars hit the floor. Carry armfuls, learn odd little spells from the bimbous and put every jar back on its shelf.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4969270/9e0bd0e872f87c65d77e1ba673a151db6afea18c/header.jpg?t=1792571003",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "4992920": {
   "name": "Stay with me",
@@ -13225,7 +13225,7 @@
   "recommendations": null,
   "short_description": "Answer a late night call to care for an elderly woman with dementia. Explore a haunted house, solve environmental puzzles and uncover a terrifying truth in this first person psychological horror experience.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992920/cd6aeb5f78be3f84a46c28e86d5b1de566dee6ae/header.jpg?t=1792742136",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5015190": {
   "name": "Gorgeous Baby Bella",
@@ -13250,7 +13250,7 @@
   "recommendations": null,
   "short_description": "While her husband is away, Liora is forced to spend her days alone. But solitude is not as quiet as she thinks.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5015190/1d066f14c398413e8b15ce7c2546aead6f88c49e/header.jpg?t=1792761629",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5048870": {
   "name": "Scopa Sweep",
@@ -13276,7 +13276,7 @@
   "recommendations": null,
   "short_description": "Traditional Italian Scopa card game turned roguelike. Play against your rival and capture all the cards on the table while trying to score as many points as possible. Sweep the board with a SCOPA to increase your multiplier and complete objectives for permanent bonuses.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048870/33174ae89a52d6cd75ea662edc94500edfb3215d/header.jpg?t=1789985136",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5062910": {
   "name": "Life Is a Dungeon: Lean into It.",
@@ -13302,7 +13302,7 @@
   "recommendations": null,
   "short_description": "Choose one of four adventurers, each driven to clear dungeon floors in a different way. Set a destination or take direct control, then combine equipment with powerful—but sometimes troublesome—random skills to shape every expedition in this dungeon-crawling roguelite RPG.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062910/13649e0102367e24a68efa120a57d881f3ec1504/header.jpg?t=1791884098",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5080430": {
   "name": "TV Station Tycoon",
@@ -13328,7 +13328,7 @@
   "recommendations": null,
   "short_description": "Build and manage your own TV station. License shows, create schedules, attract viewers, sell advertising, grow your audience, and compete for the top spot in the ratings in this broadcasting management tycoon.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5080430/b12b0b5add858eba5e4913933ba82010934816d9/header.jpg?t=1792776918",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5105330": {
   "name": "Eternal Chamber",
@@ -13353,7 +13353,7 @@
   "recommendations": null,
   "short_description": "A psychological horror about repetition, isolation, and the need to keep moving forward. Keep pushing. Don't stop. Break through.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5105330/4be233ef9ccbb250a29608229e8429003c564967/header.jpg?t=1792662849",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5108270": {
   "name": "SUMOO",
@@ -13378,7 +13378,7 @@
   "recommendations": null,
   "short_description": "SUMOO is a minimalist grid puzzle where numbers slide, meet, and add up. Every stage demands one exact number. Use pits, portals, and multipliers to land on it.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5108270/ad55a6ed1de3771cf3126161f8b1efea50fb211d/header.jpg?t=1792596350",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5111110": {
   "name": "Night Drive - Anomaly",
@@ -13404,8 +13404,8 @@
   "has_demo": true,
   "recommendations": null,
   "short_description": "Night Drive - Anomaly is a supernatural driving horror game where you must navigate a mysterious endless night, spot anomalies, choose the right road, and survive until morning to escape the loop.",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5111110/c0e0573e88efb0dd32338339559b7dd7e684c0c0/header.jpg?t=1792617531",
-  "fetched": "2026-10-24"
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5111110/c0e0573e88efb0dd32338339559b7dd7e684c0c0/header.jpg?t=1792880269",
+  "fetched": "2026-10-25"
  },
  "5127570": {
   "name": "Terms of Service",
@@ -13430,7 +13430,7 @@
   "recommendations": null,
   "short_description": "Terms of Service is a short first-person psychological horror game where you answer 100 increasingly invasive Yes/No questions at an old CRT terminal. As the form becomes more cursed, disturbing memories bleed through the screen, the CRT deteriorates, and the agreement starts to feel less voluntary.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5127570/c588b5a3a0a9b50d55e20e31082096e1f523dc99/header.jpg?t=1792575847",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5130650": {
   "name": "TOWERTOWER",
@@ -13454,7 +13454,7 @@
   "recommendations": null,
   "short_description": "Stack. Mislead. Wipe them out. A punishing tower defense about building a fortress out of stacked blocks. Every tower is a weapon, a wall, and a piece of terrain that leads enemies astray. Let 50 through and it is over.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130650/a975c5449b15b48e4c8fabac4d0d829e4544483b/header.jpg?t=1789567969",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5171850": {
   "name": "Seven Doors",
@@ -13480,7 +13480,7 @@
   "recommendations": null,
   "short_description": "Seven Doors is a first-person horror game set in a mysterious world that resembles Korea's Joseon Dynasty. Explore dark and unsettling places, uncover hidden clues, and find a way to escape while hiding and running from terrifying entities lurking in the darkness.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171850/6d5068e6f6f2d463e2d8d2169d7389b4abadf822/header.jpg?t=1792548384",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5176280": {
   "name": "SplitOut",
@@ -13506,7 +13506,7 @@
   "recommendations": null,
   "short_description": "Split Out - The Ultimate Auto Battle Racing Experience Embark on an epic journey through the world of rally racing in Split Out, where your dream of becoming the #1 racer in the Race of Champions begins with a single street kart and rise to the global championship glory.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5176280/a405ee035bad7826f2c5d4a24f7b019ae82486e0/header.jpg?t=1792728217",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5336080": {
   "name": "Gacha Chaos Tidy Up Together",
@@ -13533,7 +13533,7 @@
   "recommendations": null,
   "short_description": "A cozy-chaotic co-op organizing sim. Sort 7,200 gacha capsules into 900 machines across 20 color zones, solo or with 1-4 players. Throw, catch, and SLAP capsules out of your friends' hands, unlock 13 team skills, and collect 100 capsule series. No timer, just chaos.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336080/cf2603371e8844d46f39bac818a4752a888c4270/header.jpg?t=1792172907",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5336190": {
   "name": "Wild Heroes: Fight Together",
@@ -13561,7 +13561,7 @@
   "recommendations": null,
   "short_description": "Team up with up to 3 friends in an online co-op action roguelite. Carve a path into the living Wild, battle monster packs in bramble arenas, topple three colossal bosses and come back stronger after every expedition.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336190/1ef6f35e078cb50ce7e47ce532405d0372337fdf/header.jpg?t=1792421963",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5352720": {
   "name": "MemeticBox",
@@ -13588,7 +13588,7 @@
   "recommendations": null,
   "short_description": "A brutal voxel gore sandbox. Every body is built from blocks you can shoot, slice, burn and blow apart. Play God: hurl people, strike them with lightning, hang them or impale them on spikes. Or grab a gun for Police raids, zombie waves and fully destructible cities.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5352720/c32da40c24de551d8f029740d528d436ad0603f9/header.jpg?t=1792534291",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5355200": {
   "name": "SORT THEM ALPACAS: OVERLOAD!",
@@ -13614,7 +13614,7 @@
   "recommendations": null,
   "short_description": "Sort 5,000 alpaca plushies in a first-person collectathon with a touch of chaos. Spend your sorting earnings on a deep upgrade system, and discover five hidden powers with chaotic upgrades of their own.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5355200/58bba9e4c422d61c77ee9c7559750bdd388db283/header.jpg?t=1792067276",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5367960": {
   "name": "Arcana",
@@ -13640,7 +13640,7 @@
   "recommendations": null,
   "short_description": "A poker roguelike with cheating bosses. Build hands, chain chips and multipliers with 21 arcana and face ten bosses who break the rules, all the way to THE JAILER, who keeps souls inside his deck.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5367960/383d8afe6a14435bf43ff58fd00bc1937d6be74a/header.jpg?t=1792570484",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5391120": {
   "name": "Visa Quest",
@@ -13665,7 +13665,7 @@
   "recommendations": null,
   "short_description": "A dark-humor bureaucracy sim with a retro PSX look. You have 21 days to get a visa: collect papers in absurd office minigames, flip burgers on night shifts to pay for them, and decide what your father and your dog Karabas can live without.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5391120/b1f4174b1cdb0e859095fa9156ce5a3c38489f3e/header.jpg?t=1792089216",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
  },
  "5394900": {
   "name": "Halloween Shop Simulator",
@@ -13691,6 +13691,525 @@
   "recommendations": null,
   "short_description": "Manage a Halloween shop in a town full of monsters. Furnish your home, adopt a weird pet, explore the streets and discover a nightlife full of secrets, smugglers and spooky surprises.",
   "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5394900/a038c7c1d4c027fe82359e56c671ab52d3a30856/header.jpg?t=1792786526",
-  "fetched": "2026-10-24"
+  "fetched": "2026-10-25"
+ },
+ "242640": {
+  "name": "Styx: Master of Shadows",
+  "type": "game",
+  "release_date_raw": "Oct 7, 2014",
+  "release_date": "2014-10-07",
+  "coming_soon": false,
+  "developers": [
+   "Cyanide Studio"
+  ],
+  "publishers": [
+   "Cyanide Studio",
+   "Nacon"
+  ],
+  "genres": [
+   "Action"
+  ],
+  "is_free": false,
+  "price_initial": 1999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 9682,
+  "short_description": "Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242640/header.jpg?t=1778174590",
+  "fetched": "2026-10-25"
+ },
+ "434170": {
+  "name": "The Jackbox Party Pack 3",
+  "type": "game",
+  "release_date_raw": "Oct 17, 2016",
+  "release_date": "2016-10-17",
+  "coming_soon": false,
+  "developers": [
+   "Jackbox Games, Inc."
+  ],
+  "publishers": [
+   "Jackbox Games, Inc."
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 5151,
+  "short_description": "The threequel to the party game phenomenon features the deadly quiz show Trivia Murder Party, the say-anything sequel Quiplash 2, the surprising survey game Guesspionage, the t-shirt slugfest Tee K.O., and the sneaky trickster game Fakin’ It.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/434170/header.jpg?t=1728584278",
+  "fetched": "2026-10-25"
+ },
+ "982290": {
+  "name": "Airborne Kingdom",
+  "type": "game",
+  "release_date_raw": "Mar 7, 2022",
+  "release_date": "2022-03-07",
+  "coming_soon": false,
+  "developers": [
+   "The Wandering Band LLC"
+  ],
+  "publishers": [
+   "The Wandering Band LLC"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 2112,
+  "short_description": "The sky city builder awaits. Create your own flying kingdom and lead it on a quest across an expansive world. Explore the varied landscape, build up a floating metropolis, aid struggling people below, uncover lost secrets and, ultimately, bring back the Airborne Kingdom legend.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/982290/a0ae27992426fe5d26e62e4f1689ff55b9866b21/header.jpg?t=1779640596",
+  "fetched": "2026-10-25"
+ },
+ "1253220": {
+  "name": "The Gold River Project",
+  "type": "game",
+  "release_date_raw": "Jan 23, 2026",
+  "release_date": "2026-01-23",
+  "coming_soon": false,
+  "developers": [
+   "Fairview Games Inc."
+  ],
+  "publishers": [
+   "Fairview Games Inc.",
+   "Sightline Games"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "Simulation",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": 2499,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 634,
+  "short_description": "The Gold River Project™ is a camping trip gone wrong in the Pacific Northwest. Explore, craft, build, and survive in this open-world experiment that traps you and up to 4 friends in this single player or co-op survival adventure game.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1253220/e01bce2a398fd27fe8e2a68a9e85976df8fa131b/header.jpg?t=1792812052",
+  "fetched": "2026-10-25"
+ },
+ "1509960": {
+  "name": "PICO PARK",
+  "type": "game",
+  "release_date_raw": "May 7, 2021",
+  "release_date": "2021-05-07",
+  "coming_soon": false,
+  "developers": [
+   "TECOPARK"
+  ],
+  "publishers": [
+   "TECOPARK"
+  ],
+  "genres": [
+   "Action",
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 499,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 23796,
+  "short_description": "PICO PARK is a cooperative local/online multiplay action puzzle game for 2-8 players.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1509960/header.jpg?t=1740033204",
+  "fetched": "2026-10-25"
+ },
+ "1805320": {
+  "name": "Romestead",
+  "type": "game",
+  "release_date_raw": "May 25, 2026",
+  "release_date": "2026-05-25",
+  "coming_soon": false,
+  "developers": [
+   "Beartwigs"
+  ],
+  "publishers": [
+   "Three Friends"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "RPG",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": 1399,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 4915,
+  "short_description": "Rome has fallen! Rebuild civilization in this action-adventure survival game for 1-8 players. Fight hordes of the walking dead, build settlements, restore the Roman gods... or kick back and farm with friends.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/408e4431f9116f0d588e66375491a7ae3d852d59/header.jpg?t=1790242632",
+  "fetched": "2026-10-25"
+ },
+ "3405340": {
+  "name": "Megabonk",
+  "type": "game",
+  "release_date_raw": "Sep 18, 2025",
+  "release_date": "2025-09-18",
+  "coming_soon": false,
+  "developers": [
+   "vedinad"
+  ],
+  "publishers": [
+   "vedinad"
+  ],
+  "genres": [
+   "Action",
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": 999,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 101355,
+  "short_description": "Smash your way through endless waves of enemies and grow absurdly powerful! Grab loot, level up, unlock characters and upgrade to create unique and crazy builds as you fend off hordes of creatures!",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405340/d06cb39a82a703e42541085fc61b42d80904b3f8/header.jpg?t=1760445338",
+  "fetched": "2026-10-25"
+ },
+ "3510740": {
+  "name": "Normal Golf Game",
+  "type": "game",
+  "release_date_raw": "Sep 21, 2026",
+  "release_date": "2026-09-21",
+  "coming_soon": false,
+  "developers": [
+   "Luke Muscat"
+  ],
+  "publishers": [
+   "Luke Muscat"
+  ],
+  "genres": [
+   "Simulation",
+   "Sports"
+  ],
+  "is_free": false,
+  "price_initial": 999,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 1493,
+  "short_description": "A very normal golf simulator. Hit anything. Shoot from anywhere. But remember: you’re not leaving until Luke Muscat himself (Fruit Ninja, Jetpack Joyride) is satisfied.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3510740/784171963ba639d5da6686da63460bb3ed32268c/header.jpg?t=1790726640",
+  "fetched": "2026-10-25"
+ },
+ "3558600": {
+  "name": "Leafy Corner",
+  "type": "game",
+  "release_date_raw": "Jul 30, 2026",
+  "release_date": "2026-07-30",
+  "coming_soon": false,
+  "developers": [
+   "Fireline Games"
+  ],
+  "publishers": [
+   "Fireline Games"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 999,
+  "currency": "USD",
+  "has_demo": true,
+  "recommendations": 2794,
+  "short_description": "Run a cute little plant shop in this cozy and relaxing game. Grow, sell, and care for a variety of real-life plants, help customers find their dream plants, complete orders, and customize your cozy shop just the way you like!",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558600/57deed9f6c4c6a94fba79c492dda70bf2311c435/header.jpg?t=1790252315",
+  "fetched": "2026-10-25"
+ },
+ "3628640": {
+  "name": "Marked Souls",
+  "type": "game",
+  "release_date_raw": "Oct 26, 2026",
+  "release_date": "2026-10-26",
+  "coming_soon": true,
+  "developers": [
+   "Marked Boy"
+  ],
+  "publishers": [
+   "Marked Boy"
+  ],
+  "genres": [
+   "Adventure",
+   "Indie",
+   "Early Access"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": true,
+  "recommendations": null,
+  "short_description": "How far would you go to undo death? Marked Souls is a psychological horror narrative adventure about grief, forbidden rituals, and a mystery buried for 13 years. Explore an isolated orphanage, uncover its secrets, build relationships, and make choices that shape the fate of its residents.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3628640/2753df7a54a1977b5a64b113c4a2f6b359fc7fa9/header.jpg?t=1792599308",
+  "fetched": "2026-10-25"
+ },
+ "3981100": {
+  "name": "Leaf it Alone",
+  "type": "game",
+  "release_date_raw": "Oct 30, 2025",
+  "release_date": "2025-10-30",
+  "coming_soon": false,
+  "developers": [
+   "Eternity"
+  ],
+  "publishers": [
+   "Eternity"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "is_free": false,
+  "price_initial": 599,
+  "currency": "USD",
+  "has_demo": false,
+  "recommendations": 6686,
+  "short_description": "Finally, it's that time of the year to clean up this leafy mess. It's been a while since the last time you've done it, so don't waste any second and derust your raking skills!",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/843d859123e902ca5c15ff53200c4bcb780c3304/header.jpg?t=1784878103",
+  "fetched": "2026-10-25"
+ },
+ "4599130": {
+  "name": "Brasil Haunted: Archive 01",
+  "type": "game",
+  "release_date_raw": "Oct 26, 2026",
+  "release_date": "2026-10-26",
+  "coming_soon": true,
+  "developers": [
+   "Conexcontrol Game Studio"
+  ],
+  "publishers": [
+   "Conexcontrol Game Studio"
+  ],
+  "genres": [
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "short_description": "Discover the dark side of Northeastern Brazil in a first-person horror mystery. Uncover century-old secrets, solve puzzles, and evade a relentless pursuer. The clock is ticking... Can you figure out which Brazilian legend is behind it all?",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599130/2bd5120b1ce8f16782f5d397a76434dd1cb9ee86/header.jpg?t=1792870635",
+  "fetched": "2026-10-25"
+ },
+ "4821630": {
+  "name": "MarsCity3026",
+  "type": "game",
+  "release_date_raw": "Oct 26, 2026",
+  "release_date": "2026-10-26",
+  "coming_soon": true,
+  "developers": [
+   "SolarLizardGames"
+  ],
+  "publishers": [
+   "SolarLizardGames"
+  ],
+  "genres": [
+   "Adventure",
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "short_description": "A game for kids and adults. Grapple, swing, move mechanical puzzle pieces. Play as a robot that solves mazes and mechanical puzzles. Each puzzle brings the atmosphere control fans back online so that the humans can wake from cryosleep.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4821630/42f884e9b7c096ad5761d692712360912b10b9a6/header.jpg?t=1792793818",
+  "fetched": "2026-10-25"
+ },
+ "4927070": {
+  "name": "Forged Cards",
+  "type": "game",
+  "release_date_raw": "Oct 26, 2026",
+  "release_date": "2026-10-26",
+  "coming_soon": true,
+  "developers": [
+   "Context Games"
+  ],
+  "publishers": [
+   "Context Games"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": true,
+  "recommendations": null,
+  "short_description": "A roguelike deckbuilder where YOU forge the cards. Slot casts into molds, temper their power, and etch combo inscriptions. Pick your path, battle, bargain, or brave the unknown, then outplay your enemy in simultaneous, position-based combat. Each run is different and each deck yours.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4927070/8dac08cc3309b35f00cfcdb1d3bfdef04fc9884a/header.jpg?t=1791493433",
+  "fetched": "2026-10-25"
+ },
+ "5012790": {
+  "name": "DET-33",
+  "type": "game",
+  "release_date_raw": "Oct 26, 2026",
+  "release_date": "2026-10-26",
+  "coming_soon": true,
+  "developers": [
+   "Twinspear"
+  ],
+  "publishers": [
+   "Twinspear"
+  ],
+  "genres": [
+   "Action",
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "short_description": "A bullet-heaven roguelite in the ruins of new London. Take contracts from four warring factions, build a gun that breaks the game, and reach the evac before the city closes over you. 700+ weapons, interlocking build engines, and a fresh map every run.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5012790/bd35ee2c85246dfabcb4b5ef5d32d68a562f62bf/header.jpg?t=1790984767",
+  "fetched": "2026-10-25"
+ },
+ "5085310": {
+  "name": "IncrementalOS",
+  "type": "game",
+  "release_date_raw": "Oct 26, 2026",
+  "release_date": "2026-10-26",
+  "coming_soon": true,
+  "developers": [
+   "Juice Store Studios"
+  ],
+  "publishers": [
+   "Juice Store Studios"
+  ],
+  "genres": [
+   "Indie",
+   "Simulation",
+   "Strategy"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": true,
+  "recommendations": null,
+  "short_description": "An incremental love letter to the 90s desktop. Start with a blank desktop and one icon, unlock programs, systems and minigames, make more money, and build your way up to a system worth bragging about.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085310/a70f2c1b9621bc07e9f5a08f46886d4b900f1070/header.jpg?t=1792453948",
+  "fetched": "2026-10-25"
+ },
+ "5155450": {
+  "name": "Hidden Raccoons in Winter",
+  "type": "game",
+  "release_date_raw": "Oct 26, 2026",
+  "release_date": "2026-10-26",
+  "coming_soon": true,
+  "developers": [
+   "Pixel Hidden Raccoons"
+  ],
+  "publishers": [
+   "Pixel Hidden Raccoons"
+  ],
+  "genres": [
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": true,
+  "recommendations": null,
+  "short_description": "Hidden Raccoons in Winter is a cozy pixel art hidden object game! Search for adorable raccoons hidden across handcrafted winter landscapes. Relax, take your time, and find them all!",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155450/07659699901f53c0a80d4e0222d1f461b85e20d6/header.jpg?t=1792763543",
+  "fetched": "2026-10-25"
+ },
+ "5195600": {
+  "name": "QuestAway",
+  "type": "game",
+  "release_date_raw": "Oct 23, 2026",
+  "release_date": "2026-10-23",
+  "coming_soon": false,
+  "developers": [
+   "ART X GAMES"
+  ],
+  "publishers": [
+   "ART X GAMES"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "RPG",
+   "Free To Play"
+  ],
+  "is_free": true,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "short_description": "A tiny idle RPG that lives next to your taskbar. Build a party of heroes, send them off to fight and get back to work. There's loot waiting when you come back. Twelve times a day, everyone takes on a giant Colossus together.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195600/46a7e932499272c331584e439bb050d4735f347d/header.jpg?t=1792803036",
+  "fetched": "2026-10-25"
+ },
+ "5230820": {
+  "name": "RE:COPY",
+  "type": "game",
+  "release_date_raw": "Oct 26, 2026",
+  "release_date": "2026-10-26",
+  "coming_soon": true,
+  "developers": [
+   "masasgames"
+  ],
+  "publishers": [
+   "masasgames"
+  ],
+  "genres": [
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": true,
+  "recommendations": null,
+  "short_description": "Control a robot, push boxes, and copy sections of the grid in this Sokoban-style puzzle game. Plan what to copy, where to put it, and how to move the boxes beforehand. Work out the steps to match the arrangement of patterns on the boxes and walls to the target pattern.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230820/86023e8ac80c8eed9f6e9f006d65ec019397467c/header.jpg?t=1792625408",
+  "fetched": "2026-10-25"
+ },
+ "5366400": {
+  "name": "Prism Core",
+  "type": "game",
+  "release_date_raw": "Oct 25, 2026",
+  "release_date": "2026-10-25",
+  "coming_soon": true,
+  "developers": [
+   "Studio Sieun"
+  ],
+  "publishers": [
+   "Studio Sieun"
+  ],
+  "genres": [
+   "Casual",
+   "Indie"
+  ],
+  "is_free": false,
+  "price_initial": null,
+  "currency": null,
+  "has_demo": false,
+  "recommendations": null,
+  "short_description": "A neon cyberpunk color-matching survival arcade game. Sync your color with incoming blocks to survive across 3 unique modes. Features active color system, shields, and 15 achievements. Fast-paced score attack gameplay with infinite replayability.",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5366400/7025f3cce15a39288e535820fd1f19453fe1f066/header.jpg?t=1792826461",
+  "fetched": "2026-10-25"
  }
 }

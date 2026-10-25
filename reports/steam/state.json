@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 4,
-  "date": "2026-10-24",
+  "n": 5,
+  "date": "2026-10-25",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 4,
-  "date": "2026-10-24",
+  "n": 5,
+  "date": "2026-10-25",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 4,
-  "date": "2026-10-24",
+  "n": 5,
+  "date": "2026-10-25",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 4,
-  "date": "2026-10-24",
+  "n": 5,
+  "date": "2026-10-25",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 4,
-  "date": "2026-10-24",
+  "n": 5,
+  "date": "2026-10-25",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 4,
-  "date": "2026-10-24",
+  "n": 5,
+  "date": "2026-10-25",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -67,27 +67,27 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 4,
-  "date": "2026-10-24",
+  "n": 5,
+  "date": "2026-10-25",
   "since": "2026-10-21"
  },
  "pick": {
-  "name": "Revolution Idle",
+  "name": "REKA",
   "n": 1,
-  "date": "2026-10-24",
-  "since": "2026-10-24"
+  "date": "2026-10-25",
+  "since": "2026-10-25"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 1,
-  "date": "2026-10-24",
+  "n": 2,
+  "date": "2026-10-25",
   "since": "2026-10-24"
  },
  "tag:Building": {
   "name": "Building",
   "n": 1,
-  "date": "2026-10-22",
-  "since": "2026-10-22"
+  "date": "2026-10-25",
+  "since": "2026-10-25"
  },
  "tag:Bullet Hell": {
   "name": "Bullet Hell",
@@ -121,8 +121,20 @@
  },
  "tag:Singleplayer": {
   "name": "Singleplayer",
-  "n": 1,
-  "date": "2026-10-24",
+  "n": 2,
+  "date": "2026-10-25",
   "since": "2026-10-24"
+ },
+ "tag:Sandbox": {
+  "name": "Sandbox",
+  "n": 1,
+  "date": "2026-10-25",
+  "since": "2026-10-25"
+ },
+ "tag:Character Customization": {
+  "name": "Character Customization",
+  "n": 1,
+  "date": "2026-10-25",
+  "since": "2026-10-25"
  }
 }
