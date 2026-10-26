@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 5,
-  "date": "2026-10-25",
+  "n": 6,
+  "date": "2026-10-26",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 5,
-  "date": "2026-10-25",
+  "n": 6,
+  "date": "2026-10-26",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 5,
-  "date": "2026-10-25",
+  "n": 6,
+  "date": "2026-10-26",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 5,
-  "date": "2026-10-25",
+  "n": 6,
+  "date": "2026-10-26",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 5,
-  "date": "2026-10-25",
+  "n": 6,
+  "date": "2026-10-26",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 5,
-  "date": "2026-10-25",
+  "n": 6,
+  "date": "2026-10-26",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -43,9 +43,9 @@
  },
  "tag:Pixel Graphics": {
   "name": "Pixel Graphics",
-  "n": 2,
-  "date": "2026-10-22",
-  "since": "2026-10-21"
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "tag:Free to Play": {
   "name": "Free to Play",
@@ -67,20 +67,20 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 5,
-  "date": "2026-10-25",
+  "n": 6,
+  "date": "2026-10-26",
   "since": "2026-10-21"
  },
  "pick": {
-  "name": "REKA",
+  "name": "Shroom and Gloom",
   "n": 1,
-  "date": "2026-10-25",
-  "since": "2026-10-25"
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 2,
-  "date": "2026-10-25",
+  "n": 3,
+  "date": "2026-10-26",
   "since": "2026-10-24"
  },
  "tag:Building": {
@@ -97,9 +97,9 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 2,
-  "date": "2026-10-24",
-  "since": "2026-10-23"
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "tag:Online Co-Op": {
   "name": "Online Co-Op",
@@ -136,5 +136,17 @@
   "n": 1,
   "date": "2026-10-25",
   "since": "2026-10-25"
+ },
+ "tag:Open World Survival Craft": {
+  "name": "Open World Survival Craft",
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
+ },
+ "tag:Survival": {
+  "name": "Survival",
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  }
 }

@@ -1,21 +1,21 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 3,
-  "date": "2026-10-25",
+  "n": 4,
+  "date": "2026-10-26",
   "since": "2026-10-23"
  },
  "tags:Idle": {
   "name": "Idle",
-  "n": 2,
-  "date": "2026-10-21",
-  "since": "2026-10-20"
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "tags:Incremental": {
   "name": "Incremental",
-  "n": 2,
-  "date": "2026-10-21",
-  "since": "2026-10-20"
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "tags:No generative AI was used": {
   "name": "No generative AI was used",
@@ -49,62 +49,62 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 6,
-  "date": "2026-10-25",
+  "n": 7,
+  "date": "2026-10-26",
   "since": "2026-10-20"
  },
  "genre:Action": {
   "name": "Action",
-  "n": 1,
-  "date": "2026-10-25",
+  "n": 2,
+  "date": "2026-10-26",
   "since": "2026-10-25"
  },
  "genre:Adventure": {
   "name": "Adventure",
-  "n": 4,
-  "date": "2026-10-25",
+  "n": 5,
+  "date": "2026-10-26",
   "since": "2026-10-22"
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 6,
-  "date": "2026-10-25",
+  "n": 7,
+  "date": "2026-10-26",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
   "name": "Strategy",
-  "n": 4,
-  "date": "2026-10-23",
-  "since": "2026-10-20"
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 5,
-  "date": "2026-10-24",
-  "since": "2026-10-20"
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 1,
-  "date": "2026-10-25",
+  "n": 2,
+  "date": "2026-10-26",
   "since": "2026-10-25"
  },
  "made_with:Unreal Engine": {
   "name": "Unreal Engine",
   "n": 1,
-  "date": "2026-10-24",
-  "since": "2026-10-24"
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "pick": {
-  "name": "18 Days to Live Demo",
+  "name": "Tiny Bastion",
   "n": 1,
-  "date": "2026-10-25",
-  "since": "2026-10-25"
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 2,
-  "date": "2026-10-25",
+  "n": 3,
+  "date": "2026-10-26",
   "since": "2026-10-24"
  },
  "tags:Card Game": {
@@ -133,21 +133,21 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 5,
-  "date": "2026-10-25",
+  "n": 6,
+  "date": "2026-10-26",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 4,
-  "date": "2026-10-25",
+  "n": 5,
+  "date": "2026-10-26",
   "since": "2026-10-22"
  },
  "tags:3D": {
   "name": "3D",
-  "n": 3,
-  "date": "2026-10-24",
-  "since": "2026-10-22"
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "tags:First-Person": {
   "name": "First-Person",
@@ -220,5 +220,17 @@
   "n": 1,
   "date": "2026-10-25",
   "since": "2026-10-25"
+ },
+ "tags:Amare": {
+  "name": "Amare",
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
+ },
+ "tags:Fantasy": {
+  "name": "Fantasy",
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  }
 }
