@@ -38,8 +38,8 @@
  "tag:Racing": {
   "name": "Racing",
   "n": 1,
-  "date": "2026-10-21",
-  "since": "2026-10-21"
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "tag:Pixel Graphics": {
   "name": "Pixel Graphics",
@@ -116,8 +116,8 @@
  "tag:Free To Play": {
   "name": "Free To Play",
   "n": 1,
-  "date": "2026-10-24",
-  "since": "2026-10-24"
+  "date": "2026-10-26",
+  "since": "2026-10-26"
  },
  "tag:Singleplayer": {
   "name": "Singleplayer",
@@ -145,6 +145,12 @@
  },
  "tag:Survival": {
   "name": "Survival",
+  "n": 1,
+  "date": "2026-10-26",
+  "since": "2026-10-26"
+ },
+ "tag:Base-Building": {
+  "name": "Base-Building",
   "n": 1,
   "date": "2026-10-26",
   "since": "2026-10-26"
