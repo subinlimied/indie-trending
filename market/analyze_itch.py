@@ -331,7 +331,8 @@ def analyze(cfg, date, data_dir, reports_dir):
         pick_info = {"name": pick["title"], "url": pick["url"], "streak": n_sel, "since": since, "links": links,
                      "thumb": pick.get("thumb"), "thumb_bg": pick.get("thumb_bg"),
                      "sub": " · ".join(x for x in (pick["author"], pick["genre"], ", ".join(pick["made_with"]), ", ".join(pick["tags"][:3])) if x),
-                     "line": line(pick), "badges": badges(pick)}
+                     "line": line(pick), "badges": badges(pick),
+                     "tags": ([pick["genre"]] if pick["genre"] else []) + pick["tags"][:5]}
         if pick.get("desc"):
             pick_info["desc"] = pick["desc"]
     else:

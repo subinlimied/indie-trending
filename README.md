@@ -21,24 +21,24 @@ DISCORD_WEBHOOK_URL_PERSONAL=... python3 personal.py --date 2026-10-21   # 개�
 
 ## 디자인 토큰 · 차트 (모든 리포트 공통)
 
-리포트의 색·글꼴·크기는 전부 [design/tokens.json](design/tokens.json) 한 파일에서 옵니다. **이 파일의 값만 바꾸면 모든 리포트의 HTML 과 카드 PNG 에 적용됩니다.** 키 이름은 코드가 찾으므로 바꾸지 말고 값만 바꾸십시오.
+리포트의 색·글꼴·크기는 전부 [design/tokens.json](design/tokens.json) 한 파일에서 옵니다. 값의 출처는 구글 스티치 시안 [design/stitch/DESIGN.md](design/stitch/DESIGN.md)("Terminal Editorial Intelligence", 표지 카드 [code.html](design/stitch/code.html) · [screen.png](design/stitch/screen.png))입니다. **이 파일의 값만 바꾸면 모든 리포트의 HTML 과 카드 PNG 에 적용됩니다.** 키 이름은 코드가 찾으므로 바꾸지 말고 값만 바꾸십시오. 시안이 라이트 모드를 의도적으로 지원하지 않아 **다크 전용**입니다.
 
 | 키 | 내용 |
 |---|---|
-| `색.다크` / `색.라이트` | 바탕 · 표면 · 표면_2 · 선 · 선_진함 · 글자_1/2/3 · 상승(초록) · 하락(산호) · 경고 · 플랫폼 강조 `steam`(남색 계열) `itch`(산호) `media`(보라) `personal`(노랑) · 각 `_연함` · 그림자. 카드 PNG 는 다크 고정, 웹은 둘 다 |
-| `글꼴.제목 / 본문 / 숫자` | 후보(앞부터 시도) + fallback. 제목 = 볼드 압축(Barlow Condensed · Black Han Sans), 본문 = Pretendard → Noto Sans KR → 시스템, 숫자 = 탭형 모노(JetBrains Mono). `웹폰트_링크` 가 `<head>` 에 들어감(Google Fonts + Pretendard jsdelivr CDN). 웹폰트가 안 받아지면 fallback(Actions 러너는 fonts-noto-cjk)으로 내려감 |
-| `글자_크기.카드 / 웹` | 라벨 · 보조 · 본문 · 강조 · 칩_숫자 · 제목 · 헤드라인 · 축 · 차트_라벨 (px) |
-| `간격` `모서리` `선_두께` `카드` | 8px 그리드 · 카드 여백 72 · 웹 거터 24 · 모서리 · 선 두께 · 카드 크기(1080×1350)와 표지 이미지 비율 |
+| `색.다크` | 바탕 `#0D1117` · 표면 `#171D25` · 표면_2(강조 패널, Steam 남색) `#1B2838` · 선 `#2A323D`(항상 1px) · 글자_1 `#F0F3F6` · 글자_2 `#8B949E` · 상승 `#00E676` · 하락 `#F43F5E` · 경고 `#FFB74D` · 델타 칩 배경 `상승_연함`/`하락_연함`(10% 투명) · 강조_밝음 `#75FF9E`(헤드라인 안 게임 이름) · 플랫폼 `steam`(초록) `itch`(산호) `media`(보라) `personal`(노랑) |
+| `글꼴.제목 / 본문 / 숫자` | 헤드라인 Barlow Condensed(700/600, 자간 −0.02em) → Noto Sans KR, 본문 Noto Sans + Noto Sans KR, 숫자·라벨·날짜·순위 JetBrains Mono(탭형). `웹폰트_링크`는 Google Fonts 만(CDN 스크립트 금지). 러너에서 못 받으면 fonts-noto-cjk fallback |
+| `타이포` | headline-xl 48/52 · headline-lg 32/36 · headline-md 22/26 · body 16/14/12 · data-xl 38 · data-lg 20 · data-md 14 · label-caps 11(대문자, 자간 0.06em) · badge-num 12 → CSS 변수 `--t-<이름>` 과 클래스 `.t-<이름>` |
+| `간격` `모서리` `선_두께` `카드` | 4px 기반(xs 4 · sm 8 · md 12 · lg 20 · xl 32) · 카드 여백 72 · 웹 거터 24 · 마진 32 · 최대 폭 1440 · 모서리 0 · 그림자 없음 · 스파크라인 1.5px · 카드 1080×1350, 표지 캡슐 16:9 최대 460px |
 
 모듈 (Python 표준 라이브러리만):
 
-- [market/ui.py](market/ui.py) — `font_links()`(head 링크), `css_vars(platform, scale="web"|"card", mode="both"|"dark"|"light")`(`:root` 변수: `--bg --surface --ink --accent --rise --fall --font-display --font-body --font-mono --fs-* --sp --r-* …`, 옛 이름 `--ground --muted --serif --sans --mono` 별칭 포함), `components_css()`(스탯 칩 `.chip` · 순위 배지 `.rank` · 플랫폼 태그 `.ptag` · 섹션 라벨 `.seclabel` · 배지 `.badge` · 제목 서체 `.display`), `card_head_css(platform)`(카드용 다크 변수 + 카드 틀 `.cardframe .cardhead .cardfoot .cardtitle .headline`), `chart_theme(scale)`.
-- [market/series.py](market/series.py) — 최근 7일 스냅샷 시계열. `window(data_dir, platform, date, days=7)`, `app_series(win, platform)` → 게임별 `{ranks: {목록: [순위|None]}, reviews, ccu}`, `top_bump(win, platform, 목록, n=10)` → 오늘 Top 10 의 7일 순위, `movers()`, `report_block(...)` → 리포트 JSON 의 `series` 키(분석기가 호출). 7일 미만이면 있는 만큼 돌려주고 `n_days` 로 알려 줍니다.
-- [market/charts.py](market/charts.py) — SVG 문자열 생성. `sparkline(values, width, height, scale, invert=True, labels=)`, `bump_chart(series, days, highlight=, secondary=, width, height, scale, n=10)`, `bar_lift(rows=[(태그, 개수, 배율)], width, height, scale)`. 색은 CSS 변수(`var(--rise)` …)로 넣어 라이트·다크 양쪽에서 읽히고, `scale="card"|"web"` 로 글자 크기를 고릅니다.
+- [market/ui.py](market/ui.py) — `font_links()`, `css_vars(platform)`(`:root` 변수: `--bg --surface --surface-2 --line --ink --ink-2 --rise --fall --warn --primary-light --accent --font-display/body/mono --t-* --fs-* --sp-* --r-* …`, 옛 이름 `--ground --muted --serif --sans --mono` 별칭), `components_css()`(패널 `.panel` · 라벨 칩 `.lchip`(pos/neg/ghost) · 플랫폼 태그 `.ptag` · 델타 칩 `.delta`(up/down/warn, ▲▼ 접두) · 순위 배지 `.rank`(`.top` 초록 반전) · 스탯 칩 `.chips > .chip`(.lbl .row .val .delta .sub) · 섹션 라벨 `.seclabel` · 배지 `.badge` · 타이포 `.t-*`), `card_head_css(platform)`(카드용 변수 + 틀 `.cardframe .cardhead .cardfoot .cardtitle`), `chart_theme()`.
+- [market/series.py](market/series.py) — 최근 7일 스냅샷 시계열. `window()`, `app_series()` → 게임별 `{ranks: {목록: [순위|None]}, reviews, ccu}`, `top_bump()` → 오늘 Top 10 의 7일 순위, `movers()`, `report_block()` → 리포트 JSON 의 `series` 키(분석기가 호출). 7일 미만이면 있는 만큼, `n_days` 로 알려 줍니다.
+- [market/charts.py](market/charts.py) — SVG 문자열. `sparkline(values, width, height, labels=['D-6',…,'TODAY'])`(1.5px, 상승 초록·하락 산호, 아래 옅은 세로 그라데이션, 점 아래 순위·날짜 라벨), `bump_chart(series, days, highlight=, secondary=)`(1px 안내선, 초록 강조 3px), `bar_lift(rows=[(태그, 개수, 배율)])`(사각 막대 + 배율 점). 색은 CSS 변수.
 
 일간 게임 리포트는 이 세 모듈 위에 있습니다(`market/render.py` 의 `DAILY_CSS` · `to_html` · `to_cards`). 주간·미디어·개인 리포트는 아직 옛 CSS(`render.CSS` · `render.CARD_CSS`)를 쓰지만 `render.CSS` 의 색·글꼴 변수는 이미 tokens.json 에서 오므로, 같은 방식으로 옮기면 됩니다.
 
-**카드 PNG 4장(일간)**: 1 표지(헤드라인 2줄 · 캡슐 이미지 · 스탯 칩 3개 · 7일 순위 스파크라인) → 2 범프 차트(Top Sellers 10 / itch New & Popular 10 의 7일 순위 이동, 가장 크게 오른·내린 게임) → 3 소재·장르 막대(상승 묶음 태그 Top 8 + 전체 대비 배율 점) → 4 큰 폭 변화. 다크 고정, 여백 72px, `reports/<platform>/cards/<date>-N.png`.
+**카드 PNG 4장(일간, screen.png 기준)**: 1 표지(메타 줄 "INDIE TRENDING · STEAM" + 날짜·회차 + EDITION, 초록 칩 라벨, Barlow Condensed 대문자 헤드라인 2줄 "<장르> <게임 이름>, <목록> +n계단 상승", 캡슐 16:9 + 태그·배지 칩 + 7일 리뷰 칩, 스탯 칩 3개, 7일 스파크라인 패널(D-n … TODAY, NEW PEAK), 푸터 "■ 자세히 보기 → indie-trending" + "1 / 4") → 2 범프 차트(Top Sellers 10 / itch New & Popular 10, 가장 크게 오른·내린 게임) → 3 소재·장르 막대 → 4 큰 폭 변화. 헤드라인의 장르 단어는 `render.GENRE_KO` 사전(Roguelike→로그라이크, Deckbuilding→덱빌딩, Cozy→코지 …)으로, 없으면 원어.
 
 ## 개인 리포트 (내 범위)
 

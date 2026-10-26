@@ -355,7 +355,7 @@ def analyze(cfg, date, data_dir, reports_dir):
         pick_info = {"name": pick["name"], "url": pick["url"], "streak": n_sel, "since": since,
                      "links": [("Steam", pick["url"]), ("SteamDB", f"https://steamdb.info/app/{pick['appid']}/")],
                      "sub": " · ".join(x for x in (pick["dev"], ", ".join(pick["tags"][:3]), pick["release_date"]) if x),
-                     "line": line(pick), "badges": badges(pick)}
+                     "line": line(pick), "badges": badges(pick), "tags": pick["tags"][:5]}
         if pick.get("desc"):
             pick_info["desc"] = pick["desc"]
     else:
