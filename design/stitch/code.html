@@ -1,0 +1,374 @@
+<!DOCTYPE html><html class="dark" lang="ko"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>INDIE TRENDING · Shroom and Gloom Telemetry</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Noto+Sans+KR:wght@400;500;700;800&amp;family=Noto+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "tertiary-fixed": "#ffdadb",
+            "surface-container-lowest": "#0a0e14",
+            "inverse-primary": "#006d35",
+            "surface-dim": "#10141a",
+            "error": "#ffb4ab",
+            "text-primary": "#F0F3F6",
+            "on-secondary-fixed-variant": "#3b4859",
+            "surface-bright": "#353940",
+            "on-error": "#690005",
+            "tertiary": "#ffdcdd",
+            "text-muted": "#8B949E",
+            "on-tertiary-fixed": "#40000d",
+            "error-container": "#93000a",
+            "inverse-on-surface": "#2d3137",
+            "on-primary-fixed": "#00210b",
+            "surface": "#10141a",
+            "on-error-container": "#ffdad6",
+            "trend-neutral": "#FFB74D",
+            "trend-positive": "#00E676",
+            "surface-container-low": "#181c22",
+            "on-secondary-container": "#acb9ce",
+            "surface-tint": "#00e475",
+            "outline-variant": "#3b4a3d",
+            "surface-elevated": "#171D25",
+            "secondary-container": "#3d4a5b",
+            "trend-negative": "#F43F5E",
+            "on-tertiary": "#67001b",
+            "surface-container-high": "#262a31",
+            "on-surface": "#dfe2eb",
+            "on-secondary-fixed": "#0f1c2c",
+            "secondary": "#bac7dd",
+            "on-primary": "#003918",
+            "secondary-fixed-dim": "#bac7dd",
+            "on-tertiary-container": "#aa0032",
+            "on-surface-variant": "#bacbb9",
+            "surface-container": "#1c2026",
+            "surface-accent": "#1B2838",
+            "on-primary-container": "#00612e",
+            "tertiary-container": "#ffb5b9",
+            "tertiary-fixed-dim": "#ffb2b7",
+            "surface-variant": "#31353c",
+            "on-secondary": "#243142",
+            "on-tertiary-fixed-variant": "#92002a",
+            "on-primary-fixed-variant": "#005226",
+            "secondary-fixed": "#d6e3f9",
+            "on-background": "#dfe2eb",
+            "surface-base": "#0D1117",
+            "primary-fixed": "#62ff96",
+            "border-subtle": "#2A323D",
+            "outline": "#859585",
+            "surface-container-highest": "#31353c",
+            "inverse-surface": "#dfe2eb",
+            "background": "#10141a",
+            "primary-fixed-dim": "#00e475",
+            "primary-container": "#00e676",
+            "primary": "#75ff9e"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-lg": "1.25rem",
+            "space-xs": "0.25rem",
+            "space-md": "0.75rem",
+            "gutter-desktop": "1.5rem",
+            "space-sm": "0.5rem",
+            "margin": "1rem",
+            "gutter": "1rem",
+            "margin-desktop": "2rem",
+            "space-xl": "2rem"
+          },
+          "fontFamily": {
+            "label-caps": ["JetBrains Mono", "monospace"],
+            "headline-lg-mobile": ["Barlow Condensed", "sans-serif"],
+            "headline-xl": ["Barlow Condensed", "Noto Sans KR", "sans-serif"],
+            "body-lg": ["Noto Sans", "Noto Sans KR", "sans-serif"],
+            "body-sm": ["Noto Sans", "Noto Sans KR", "sans-serif"],
+            "headline-md": ["Barlow Condensed", "Noto Sans KR", "sans-serif"],
+            "headline-xl-mobile": ["Barlow Condensed", "Noto Sans KR", "sans-serif"],
+            "data-md": ["JetBrains Mono", "monospace"],
+            "body-md": ["Noto Sans", "Noto Sans KR", "sans-serif"],
+            "badge-num": ["JetBrains Mono", "monospace"],
+            "data-lg": ["JetBrains Mono", "monospace"],
+            "headline-lg": ["Barlow Condensed", "Noto Sans KR", "sans-serif"],
+            "kr-sans": ["Noto Sans KR", "Noto Sans", "sans-serif"]
+          },
+          "fontSize": {
+            "label-caps": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }],
+            "headline-lg-mobile": ["26px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600" }],
+            "headline-xl": ["48px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+            "headline-md": ["22px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "headline-xl-mobile": ["36px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "data-md": ["14px", { "lineHeight": "18px", "letterSpacing": "-0.02em", "fontWeight": "500" }],
+            "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "badge-num": ["12px", { "lineHeight": "12px", "letterSpacing": "0.02em", "fontWeight": "700" }],
+            "data-lg": ["20px", { "lineHeight": "24px", "letterSpacing": "-0.03em", "fontWeight": "600" }],
+            "headline-lg": ["32px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" }]
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 1;
+      display: inline-block;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body class="bg-surface-base text-text-primary antialiased min-h-screen flex flex-col items-center justify-start p-0 sm:py-8">
+<!-- Top App Bar Navigation Anchor (Shared Component) -->
+<header class="flex justify-between items-center w-full px-space-lg md:px-margin-desktop h-14 bg-surface-elevated border-b border-border-subtle sticky top-0 z-50">
+<div class="flex items-center gap-space-lg">
+<span class="font-headline-md text-headline-md tracking-tight uppercase text-text-primary font-bold">INDIE TRENDING</span>
+<nav class="hidden md:flex items-center space-x-6">
+<a class="text-primary border-b-2 border-primary font-label-caps text-label-caps uppercase py-4" href="#steam">Steam</a>
+<a class="text-text-muted hover:text-text-primary font-label-caps text-label-caps uppercase py-4 transition-colors" href="#itch">Itch.io</a>
+<a class="text-text-muted hover:text-text-primary font-label-caps text-label-caps uppercase py-4 transition-colors" href="#gog">GOG</a>
+<a class="text-text-muted hover:text-text-primary font-label-caps text-label-caps uppercase py-4 transition-colors" href="#epic">Epic Games</a>
+<a class="text-text-muted hover:text-text-primary font-label-caps text-label-caps uppercase py-4 transition-colors" href="#archive">Archive</a>
+</nav>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="hidden sm:flex items-center space-x-3 text-text-muted">
+<button class="p-1.5 hover:text-text-primary hover:bg-surface-accent rounded transition-colors" title="Terminal Mode">
+<span class="material-symbols-outlined" data-icon="terminal">terminal</span>
+</button>
+<button class="p-1.5 hover:text-text-primary hover:bg-surface-accent rounded transition-colors" title="Share Snapshot">
+<span class="material-symbols-outlined" data-icon="share">share</span>
+</button>
+<button class="p-1.5 hover:text-text-primary hover:bg-surface-accent rounded transition-colors" title="Alerts">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+</div>
+<button class="bg-primary-container text-surface-base font-label-caps text-label-caps uppercase px-3.5 py-1.5 font-bold hover:bg-primary transition-colors flex items-center gap-1.5">
+        SUBSCRIBE
+      </button>
+</div>
+</header>
+<!-- Editorial Canvas Area: Exactly 1080x1350 Pixel Target Ratio Presentation -->
+<main class="w-full flex justify-center py-6 px-3 sm:px-6">
+<article class="w-full max-w-[1080px] bg-[#121820] border border-[#252F3D] flex flex-col justify-between p-6 sm:p-12 md:p-[72px] relative box-border shadow-2xl shadow-black/80">
+<!-- Top Decorative Technical Rule -->
+<div class="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent via-[#00E676] to-transparent opacity-80"></div>
+<!-- Main Vertical Stack -->
+<div class="flex flex-col gap-6 sm:gap-7">
+<!-- Header Metadata Strip -->
+<header class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-border-subtle gap-3">
+<div class="flex items-center gap-3">
+<span class="bg-[#171D25] border border-border-subtle text-text-primary px-2.5 py-1 font-label-caps text-label-caps uppercase tracking-wider flex items-center gap-1.5">
+<span class="inline-block w-2 h-2 rounded-full bg-trend-positive animate-pulse"></span>
+              INDIE TRENDING · STEAM
+            </span>
+<span class="text-text-muted font-label-caps text-label-caps uppercase">DAILY TELEMETRY UNIT</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-data-md text-data-md text-text-muted font-kr-sans">10월 26일 (월) · 5회차</span>
+<span class="text-border-subtle">|</span>
+<span class="font-label-caps text-label-caps text-[#8B949E] tracking-widest bg-surface-base px-2 py-0.5 border border-[#252F3D]">EDITION #05</span>
+</div>
+</header>
+<!-- Dynamic Headline Block -->
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-2">
+<span class="font-label-caps text-label-caps text-trend-positive uppercase px-2 py-0.5 bg-trend-positive/10 border border-trend-positive/30 font-bold">
+              BREAKOUT VELOCITY
+            </span>
+<span class="text-text-muted font-label-caps text-label-caps uppercase">ALGORITHM SHIFT DETECTED</span>
+</div>
+<h1 class="font-headline-xl text-[34px] sm:text-[44px] md:text-headline-xl leading-[1.08] text-text-primary tracking-tight font-extrabold uppercase">
+            슬라임 던전 로그라이크 <span class="text-[#75ff9e]">Shroom and Gloom</span>, <br class="hidden sm:inline">
+            Top Sellers <span class="text-trend-positive underline decoration-trend-positive/40 decoration-4 underline-offset-4">+63계단 상승</span>
+</h1>
+</div>
+<!-- Hero Game Capsule Artwork Frame -->
+<div class="relative w-full aspect-[16/9] max-h-[460px] overflow-hidden border border-[#2E3846] bg-surface-base group">
+<img alt="Shroom and Gloom Game Artwork" class="w-full h-full object-cover object-center transform transition-transform duration-700 group-hover:scale-[1.02]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmOBzlTAst1KeT3qlvohljlQ1Vj0cfDPmJNoxI-S-o4KJ6XPO5Dk5sbYvV9O6_Fk6EdSOsV6EUspQvfIalINHf1ilrWpiudjiU7Gelu4Jo9slgBhn16Nnf7Sysl8_zBvHNjvjs8VSZONQn_MOWeHdv5Nfs9dXJRqLfzvtL01uLD70wFMXPj5Vq6O6NhNK8sUHAkvL1F0bqVotVaZONHdUnW-bi5YpkPUDB4_rWVBJcd_V8o0XAySboPw">
+<!-- Platform / Genre Badges Overlay -->
+<div class="absolute top-4 left-4 flex flex-wrap gap-2 pointer-events-none">
+<span class="bg-[#0D1117]/90 backdrop-blur-sm border border-border-subtle text-text-primary font-label-caps text-label-caps uppercase px-2.5 py-1">
+              ROGUELIKE · DECKBUILDER
+            </span>
+<span class="bg-[#0D1117]/90 backdrop-blur-sm border border-border-subtle text-[#75ff9e] font-label-caps text-label-caps uppercase px-2.5 py-1">
+              STEAM EARLY ACCESS
+            </span>
+</div>
+<div class="absolute bottom-4 right-4 bg-[#0D1117]/90 backdrop-blur-sm border border-border-subtle px-3 py-1.5 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-trend-positive"></span>
+<span class="font-data-md text-data-md text-text-primary">VELOCITY SCORE: <strong class="text-trend-positive font-bold">94.8</strong></span>
+</div>
+</div>
+<!-- Quantitative Metric Chips: 3-Column Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
+<!-- Stat 1: Top Sellers Rank -->
+<div class="bg-surface-elevated border border-border-subtle p-4 sm:p-5 flex flex-col justify-between transition-colors hover:border-trend-positive/60">
+<span class="font-label-caps text-label-caps text-text-muted uppercase">TOP SELLERS RANK</span>
+<div class="flex items-baseline justify-between mt-3 mb-1">
+<span class="font-data-lg text-[32px] sm:text-[38px] leading-none text-text-primary font-bold">115<span class="text-data-md text-text-muted font-normal ml-0.5">위</span></span>
+<span class="bg-trend-positive/10 border border-trend-positive/30 text-trend-positive font-badge-num text-badge-num px-2 py-1 flex items-center gap-1 font-bold">
+                ▲ +63
+              </span>
+</div>
+<p class="font-data-md text-data-md text-text-muted mt-1">178위에서 급상승 (Steam KR)</p>
+</div>
+<!-- Stat 2: Concurrent Players -->
+<div class="bg-surface-elevated border border-border-subtle p-4 sm:p-5 flex flex-col justify-between transition-colors hover:border-trend-positive/60">
+<span class="font-label-caps text-label-caps text-text-muted uppercase">CONCURRENT PLAYERS</span>
+<div class="flex items-baseline justify-between mt-3 mb-1">
+<span class="font-data-lg text-[32px] sm:text-[38px] leading-none text-text-primary font-bold">395<span class="text-data-md text-text-muted font-normal ml-0.5">명</span></span>
+<span class="bg-trend-positive/10 border border-trend-positive/30 text-trend-positive font-badge-num text-badge-num px-2 py-1 flex items-center gap-1 font-bold">
+                ▲ +1.5%
+              </span>
+</div>
+<p class="font-data-md text-data-md text-text-muted mt-1">24시간 피크: 412명 동접 유지</p>
+</div>
+<!-- Stat 3: Current Price -->
+<div class="bg-surface-elevated border border-border-subtle p-4 sm:p-5 flex flex-col justify-between transition-colors hover:border-border-subtle">
+<span class="font-label-caps text-label-caps text-text-muted uppercase">CURRENT PRICE</span>
+<div class="flex items-baseline justify-between mt-3 mb-1">
+<span class="font-data-lg text-[32px] sm:text-[38px] leading-none text-text-primary font-bold">$14.99</span>
+<span class="bg-surface-base border border-border-subtle text-text-muted font-badge-num text-badge-num px-2 py-1 font-normal">
+                정상가 유지
+              </span>
+</div>
+<p class="font-data-md text-data-md text-text-muted mt-1">할인 프로모션 없음 (순수 바이럴)</p>
+</div>
+</div>
+<!-- 7-Day Sparkline & Forensic Telemetry Panel -->
+<div class="bg-surface-elevated border border-border-subtle p-5 sm:p-6 flex flex-col gap-4">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-border-subtle pb-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-trend-positive text-[18px]" data-icon="trending_up">trending_up</span>
+<span class="font-label-caps text-label-caps text-text-primary uppercase tracking-wider">7-DAY TOP SELLERS RANK TRAJECTORY</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-label-caps text-label-caps text-text-muted">단위: 글로벌 판매 순위 (역축)</span>
+<span class="font-label-caps text-label-caps text-trend-positive bg-trend-positive/10 px-2 py-0.5 border border-trend-positive/20">NEW PEAK</span>
+</div>
+</div>
+<!-- Sparkline Visualization -->
+<div class="relative w-full h-36 sm:h-44 pt-3 pb-2">
+<!-- Background Grid Horizontal Guides -->
+<div class="absolute inset-x-0 top-3 h-[1px] bg-[#252F3D] border-dashed"></div>
+<div class="absolute inset-x-0 top-1/2 h-[1px] bg-[#252F3D]"></div>
+<div class="absolute inset-x-0 bottom-6 h-[1px] bg-[#252F3D]"></div>
+<svg class="w-full h-full overflow-visible" preserveAspectRatio="none" viewBox="0 0 700 130">
+<defs>
+<linearGradient id="telemetryGradient" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#00E676" stop-opacity="0.32"></stop>
+<stop offset="85%" stop-color="#00E676" stop-opacity="0.0"></stop>
+</linearGradient>
+</defs>
+<!-- Filled Area Curve (Rank inverted: lower numerical rank = higher peak on Y-axis) -->
+<!-- Points: D-6 (210) -> D-5 (195) -> D-4 (188) -> D-3 (180) -> D-2 (178) -> D-1 (150) -> Today (115) -->
+<!-- Normalized SVG Y (0=peak/100위, 110=low/220위) -->
+<path d="M 10 105 L 115 92 L 225 86 L 335 78 L 445 76 L 555 48 L 685 15 L 685 115 L 10 115 Z" fill="url(#telemetryGradient)"></path>
+<!-- Sparkline Trajectory Stroke -->
+<path d="M 10 105 L 115 92 L 225 86 L 335 78 L 445 76 L 555 48 L 685 15" fill="none" stroke="#00E676" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+<!-- Data Node Coordinates -->
+<circle cx="10" cy="105" fill="#121820" r="3.5" stroke="#00E676" stroke-width="2"></circle>
+<circle cx="115" cy="92" fill="#121820" r="3.5" stroke="#00E676" stroke-width="2"></circle>
+<circle cx="225" cy="86" fill="#121820" r="3.5" stroke="#00E676" stroke-width="2"></circle>
+<circle cx="335" cy="78" fill="#121820" r="3.5" stroke="#00E676" stroke-width="2"></circle>
+<circle cx="445" cy="76" fill="#121820" r="3.5" stroke="#00E676" stroke-width="2"></circle>
+<circle cx="555" cy="48" fill="#121820" r="3.5" stroke="#00E676" stroke-width="2"></circle>
+<!-- Peak Terminal Target with Radar Halo -->
+<circle cx="685" cy="15" fill="#00E676" fill-opacity="0.25" r="7"></circle>
+<circle cx="685" cy="15" fill="#00E676" r="4.5" stroke="#0D1117" stroke-width="1.5"></circle>
+</svg>
+<!-- Final Peak Callout Badge Overlay -->
+<div class="absolute right-0 top-0 transform translate-y-[-6px] bg-[#00E676] text-[#0D1117] font-badge-num text-badge-num px-2 py-1 font-bold flex items-center gap-1 shadow-md">
+<span>115위 (NEW HIGH)</span>
+</div>
+</div>
+<!-- Tabular Bottom Time Labels -->
+<div class="grid grid-cols-7 text-center font-data-md text-data-md text-text-muted border-t border-border-subtle pt-2">
+<div>
+<span class="block text-text-primary text-[13px] font-bold">210위</span>
+<span class="block text-[11px] text-text-muted mt-0.5">D-6</span>
+</div>
+<div>
+<span class="block text-text-primary text-[13px] font-bold">195위</span>
+<span class="block text-[11px] text-text-muted mt-0.5">D-5</span>
+</div>
+<div>
+<span class="block text-text-primary text-[13px] font-bold">188위</span>
+<span class="block text-[11px] text-text-muted mt-0.5">D-4</span>
+</div>
+<div>
+<span class="block text-text-primary text-[13px] font-bold">180위</span>
+<span class="block text-[11px] text-text-muted mt-0.5">D-3</span>
+</div>
+<div>
+<span class="block text-text-primary text-[13px] font-bold">178위</span>
+<span class="block text-[11px] text-text-muted mt-0.5">D-2</span>
+</div>
+<div>
+<span class="block text-text-primary text-[13px] font-bold">150위</span>
+<span class="block text-[11px] text-text-muted mt-0.5">D-1</span>
+</div>
+<div>
+<span class="block text-trend-positive text-[13px] font-bold">115위</span>
+<span class="block text-[11px] text-trend-positive font-bold mt-0.5">TODAY</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Bar: Discord Routing & Technical Pagination -->
+<footer class="mt-8 pt-5 border-t border-[#252F3D] flex items-center justify-between text-text-muted">
+<a class="group flex items-center gap-2 hover:text-text-primary transition-colors" href="#discord-channel">
+<span class="inline-block w-2 h-2 bg-[#75ff9e] rounded-sm group-hover:scale-125 transition-transform"></span>
+<span class="font-data-md text-data-md font-medium text-text-primary group-hover:text-primary transition-colors">
+            자세히 보기 → <span class="text-text-muted font-normal">indie-trending</span>
+</span>
+<span class="hidden sm:inline font-label-caps text-label-caps text-[#8B949E] ml-2">#DISCORD-INTEL</span>
+</a>
+<div class="flex items-center gap-3">
+<span class="font-data-md text-data-md font-bold text-text-primary tracking-wider bg-surface-base px-2.5 py-1 border border-border-subtle">
+            1 / 4
+          </span>
+</div>
+</footer>
+</article>
+</main>
+<!-- Global Footer Component (Shared Component Anchor) -->
+<footer class="w-full border-t border-border-subtle bg-surface-base px-space-lg md:px-margin-desktop py-space-xl mt-8">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+<div class="flex flex-col gap-1 text-center md:text-left">
+<span class="font-headline-md text-headline-md uppercase text-text-primary font-bold">INDIE TRENDING</span>
+<span class="font-body-sm text-body-sm text-text-muted">
+          © 2024 INDIE TRENDING DAILY TELEMETRY. FORENSIC GAMING MARKET JOURNALISM.
+        </span>
+</div>
+<div class="flex flex-wrap items-center justify-center gap-6">
+<a class="text-text-muted hover:text-text-primary font-label-caps text-label-caps uppercase transition-colors" href="#intel">DISCORD INTEL</a>
+<a class="text-text-muted hover:text-text-primary font-label-caps text-label-caps uppercase transition-colors" href="#telemetry">TELEMETRY ARCHIVE</a>
+<a class="text-text-muted hover:text-text-primary font-label-caps text-label-caps uppercase transition-colors" href="#methodology">METHODOLOGY</a>
+<a class="text-text-muted hover:text-text-primary font-label-caps text-label-caps uppercase transition-colors" href="#api">API DOCS</a>
+<a class="text-text-muted hover:text-text-primary font-label-caps text-label-caps uppercase transition-colors" href="#disclaimer">DISCLAIMER</a>
+</div>
+</div>
+</footer>
+</body></html>
