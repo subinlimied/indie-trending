@@ -1,0 +1,3004 @@
+{
+ "date": "2026-10-26",
+ "collected_at": "2026-10-26T00:28:04Z",
+ "params": {
+  "kym_hours": 48,
+  "kym_confirmed_hours": 168,
+  "kym_queries": [
+   "tiktok",
+   "instagram",
+   "reels"
+  ],
+  "wiki_top": 20,
+  "reddit_subs": [
+   "TikTokCringe",
+   "memes",
+   "popculturechat",
+   "shorts",
+   "gaming",
+   "IndieGaming"
+  ]
+ },
+ "sources": {
+  "kym_feed": {
+   "label": "KYM 뉴스피드",
+   "status": "ok",
+   "count": 0,
+   "items": []
+  },
+  "kym_confirmed": {
+   "label": "KYM 확정 엔트리",
+   "status": "ok",
+   "count": 0,
+   "items": []
+  },
+  "kym_submissions": {
+   "label": "KYM 제출 엔트리",
+   "status": "ok",
+   "count": 0,
+   "items": []
+  },
+  "kym_search": {
+   "label": "KYM 검색 (tiktok·instagram·reels)",
+   "status": "ok",
+   "count": 4,
+   "items": [
+    {
+     "kind": "search",
+     "query": "tiktok",
+     "title": "Snicker Cat",
+     "url": "https://knowyourmeme.com/memes/snicker-cat",
+     "image": "https://i.kym-cdn.com/entries/icons/original/000/056/783/cc2d91d5-2886-4075-8498-daecf0749263.jpg",
+     "published": "2026-05-09T23:56:51Z",
+     "modified": "2026-10-25T19:37:19Z",
+     "summary": "Snicker Cat refers to a series of viral short-form videos centered on a black cat character named Snicker, most commonly associated with the Instagram acco",
+     "status": "submission",
+     "about": "Snicker Cat refers to a series of viral short-form videos centered on a black cat character named Snicker, most commonly associated with the Instagram account @thesnickercat The videos usually depict Snicker and other cats driving cars, drifting, parking, escaping danger, avoiding crashes or performing exaggerated driving stunts. The meme became popular on Instagram Reels through highly edited action and comedy clips that present the cat as an unusually skilled, chaotic or heroic driver. The humor of the meme often comes from treating impossible cat-driving situations as normal everyday event…",
+     "platforms": [
+      "TikTok",
+      "Instagram"
+     ],
+     "updated_only": true
+    },
+    {
+     "kind": "search",
+     "query": "tiktok",
+     "title": "Malfoid / Female Draco Malfoy",
+     "url": "https://knowyourmeme.com/memes/malfoid-female-draco-malfoy",
+     "image": "https://i.kym-cdn.com/entries/icons/original/000/057/554/malfoidcover.jpg",
+     "published": "2026-09-30T15:05:54Z",
+     "modified": "2026-10-25T19:33:43Z",
+     "summary": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character",
+     "status": "confirmed",
+     "about": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character Draco Malfoy from the Harry Potter series, popularized through a September 2026 fan art trend. The fan art trend was popularized on X / Twitter in September and October 2026 and typically involves drawing depictions of Draco Malfoy as a woman or teenage girl. The term \"Malfoid\" is a combination of \"Malfoy\" and \" foid,\" a derogatory incel term for women derived from \" femoid,\" a term meant to call women unintelligent.",
+     "platforms": [
+      "TikTok"
+     ],
+     "updated_only": true
+    },
+    {
+     "kind": "search",
+     "query": "tiktok",
+     "title": "Scientists Reveal the Hi",
+     "url": "https://knowyourmeme.com/memes/scientists-reveal-the-hi",
+     "image": "https://i.kym-cdn.com/entries/icons/original/000/057/623/srth.jpg",
+     "published": "2026-10-15T15:22:27Z",
+     "modified": "2026-10-25T11:30:47Z",
+     "summary": "Scientists Reveal the Hi or Scientists Reveal the Secret, also known as Scientists Reveal the X, is an exploitable meme format based on an image macro of a",
+     "status": "confirmed",
+     "about": "Scientists Reveal the Hi or Scientists Reveal the Secret, also known as Scientists Reveal the X, is an exploitable meme format based on an image macro of a dog on a couch standing over the caption, \"Scientists reveal the secret.\" The original meme was posted in July 2025 and was edited that day to replace the dog with an orange cat. Later, the caption was altered to change \"secret\" to \"hi.\" The meme spread over the following year and became the subject of further memes and recaption edits on sites like Instagram and TikTok in October 2026. The memes typically involve editing the photo in a va…",
+     "platforms": [
+      "TikTok"
+     ],
+     "updated_only": true
+    },
+    {
+     "kind": "search",
+     "query": "tiktok",
+     "title": "Code Rot Filter / Yep It's Code Rotted Indeed",
+     "url": "https://knowyourmeme.com/memes/code-rot-filter-yep-its-code-rotted-indeed",
+     "image": "https://i.kym-cdn.com/entries/icons/original/000/057/661/coderotcover.jpg",
+     "published": "2026-10-22T15:21:36Z",
+     "modified": "2026-10-24T22:00:47Z",
+     "summary": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim",
+     "status": "submission",
+     "about": "The Code Rot Filter and Yep It's Code Rotted Indeed refer to the TikTok filter game \"Despicable Me 4 – Correct\" and a series of memes and posts that claim the filter is experiencing code rot, leaving it in a state where you cannot properly play the game. In October 2026, TikTokers began posting videos claiming, through text-to-speech voices and on-screen captions, that the filter was code-rotted. Many of the videos feature eerie music and vibes and claim that this is the first TikTok filter to experience code rot. As a meme, the videos often exaggerate the seriousness and scariness of code ro…",
+     "platforms": [
+      "TikTok"
+     ],
+     "updated_only": true
+    }
+   ]
+  },
+  "youtube_kr": {
+   "label": "YouTube 인기 KR",
+   "status": "ok",
+   "count": 50,
+   "items": [
+    {
+     "rank": 1,
+     "id": "RgkoXU4BlOE",
+     "title": "RIIZE 라이즈 'Insomnia' MV",
+     "channel": "SMTOWN",
+     "views": 1397015,
+     "likes": 49680,
+     "duration": 228,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=RgkoXU4BlOE",
+     "thumb": "https://i.ytimg.com/vi/RgkoXU4BlOE/mqdefault.jpg",
+     "published": "2026-10-25T15:00:04Z"
+    },
+    {
+     "rank": 2,
+     "id": "OiTUOgShd7M",
+     "title": "아니 이게 진짜 스티브라고..? ≪어벤져스: 둠스데이≫ 스페셜 예고편 & TV 스팟 떡밥 총정리",
+     "channel": "무비띵크_Movie Think",
+     "views": 643369,
+     "likes": 3544,
+     "duration": 578,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=OiTUOgShd7M",
+     "thumb": "https://i.ytimg.com/vi/OiTUOgShd7M/mqdefault.jpg",
+     "published": "2026-10-25T10:16:52Z"
+    },
+    {
+     "rank": 3,
+     "id": "h91KAt-Qzs4",
+     "title": "스위스 스테이지 Day 2 | 2026 월드 챔피언십",
+     "channel": "LCK",
+     "views": 2550041,
+     "likes": null,
+     "duration": 32065,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=h91KAt-Qzs4",
+     "thumb": "https://i.ytimg.com/vi/h91KAt-Qzs4/mqdefault.jpg",
+     "published": "2026-10-25T01:51:46Z"
+    },
+    {
+     "rank": 4,
+     "id": "13SIThoH_54",
+     "title": "사랑하지 않아서 그랬어",
+     "channel": "Shin Ye Young - Topic",
+     "views": 77879,
+     "likes": 543,
+     "duration": 234,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=13SIThoH_54",
+     "thumb": "https://i.ytimg.com/vi/13SIThoH_54/mqdefault.jpg",
+     "published": "2026-10-25T09:04:24Z"
+    },
+    {
+     "rank": 5,
+     "id": "UfNu7pcR0e8",
+     "title": "Avengers: Doomsday | In Theaters December 18",
+     "channel": "Marvel Entertainment",
+     "views": 11005151,
+     "likes": 230292,
+     "duration": 31,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/UfNu7pcR0e8",
+     "thumb": "https://i.ytimg.com/vi/UfNu7pcR0e8/mqdefault.jpg",
+     "published": "2026-10-25T00:00:00Z"
+    },
+    {
+     "rank": 6,
+     "id": "9JMcEkbWhmE",
+     "title": "어렵게 하기가 어려운 타입 : 물타입 하트골드【포켓몬 모든타입 깨기】#1",
+     "channel": "근가놈",
+     "views": 442201,
+     "likes": 3181,
+     "duration": 1656,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=9JMcEkbWhmE",
+     "thumb": "https://i.ytimg.com/vi/9JMcEkbWhmE/mqdefault.jpg",
+     "published": "2026-10-25T09:00:08Z"
+    },
+    {
+     "rank": 7,
+     "id": "iqQWCYMlMw0",
+     "title": "ATEEZ(에이티즈) - 'Drip' Official MV",
+     "channel": "KQ ENTERTAINMENT",
+     "views": 12899785,
+     "likes": 447469,
+     "duration": 191,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=iqQWCYMlMw0",
+     "thumb": "https://i.ytimg.com/vi/iqQWCYMlMw0/mqdefault.jpg",
+     "published": "2026-10-23T04:00:02Z"
+    },
+    {
+     "rank": 8,
+     "id": "JCdkBe3d2b8",
+     "title": "RESCENE [PULSE] Concept Trailer",
+     "channel": "RESCENE",
+     "views": 982485,
+     "likes": 36553,
+     "duration": 41,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/JCdkBe3d2b8",
+     "thumb": "https://i.ytimg.com/vi/JCdkBe3d2b8/mqdefault.jpg",
+     "published": "2026-10-22T09:00:00Z"
+    },
+    {
+     "rank": 9,
+     "id": "7ltNfCtWdlk",
+     "title": "롤대남들의 멀쩡한 사람 하나 보내는 방법ㅋㅋㅋ",
+     "channel": "튜브김민교",
+     "views": 536435,
+     "likes": 1400,
+     "duration": 2848,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=7ltNfCtWdlk",
+     "thumb": "https://i.ytimg.com/vi/7ltNfCtWdlk/mqdefault.jpg",
+     "published": "2026-10-25T03:04:37Z"
+    },
+    {
+     "rank": 10,
+     "id": "SsUU0-rysY4",
+     "title": "Drip",
+     "channel": "ATEEZ - Topic",
+     "views": 839370,
+     "likes": 39942,
+     "duration": 182,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=SsUU0-rysY4",
+     "thumb": "https://i.ytimg.com/vi/SsUU0-rysY4/mqdefault.jpg",
+     "published": "2026-10-23T04:00:01Z"
+    },
+    {
+     "rank": 11,
+     "id": "7bU4ojt7WGU",
+     "title": "AVENGERS: DOOMSDAY New Trailer (2026) Extended",
+     "channel": "MovieGasm‍․com",
+     "views": 2887143,
+     "likes": 23959,
+     "duration": 230,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=7bU4ojt7WGU",
+     "thumb": "https://i.ytimg.com/vi/7bU4ojt7WGU/mqdefault.jpg",
+     "published": "2026-10-24T21:55:04Z"
+    },
+    {
+     "rank": 12,
+     "id": "RdCFiHSgbbA",
+     "title": "롤드컵 딮기전, 다 이긴 게임 '이 선수' 때문에 졌다. l T1 vs DK",
+     "channel": "정글선생 진 영준",
+     "views": 517705,
+     "likes": 5575,
+     "duration": 1050,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=RdCFiHSgbbA",
+     "thumb": "https://i.ytimg.com/vi/RdCFiHSgbbA/mqdefault.jpg",
+     "published": "2026-10-25T02:02:08Z"
+    },
+    {
+     "rank": 13,
+     "id": "Dt-Urn3-l28",
+     "title": "Sad Vow",
+     "channel": "Banhana - Topic",
+     "views": 48951,
+     "likes": 805,
+     "duration": 263,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Dt-Urn3-l28",
+     "thumb": "https://i.ytimg.com/vi/Dt-Urn3-l28/mqdefault.jpg",
+     "published": "2026-10-24T09:02:06Z"
+    },
+    {
+     "rank": 14,
+     "id": "oLJFJSNFklU",
+     "title": "EXCLUSIVE PREVIEW ⚾ MLB Crosses Over Into Avengers: Doomsday 🤯",
+     "channel": "MLB",
+     "views": 2622882,
+     "likes": 49543,
+     "duration": 60,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/oLJFJSNFklU",
+     "thumb": "https://i.ytimg.com/vi/oLJFJSNFklU/mqdefault.jpg",
+     "published": "2026-10-24T00:52:55Z"
+    },
+    {
+     "rank": 15,
+     "id": "qBI5vA8B72c",
+     "title": "남조선 피스톨 [콜 오브 듀티 : 모던 워페어4]",
+     "channel": "PAKA",
+     "views": 504788,
+     "likes": 2543,
+     "duration": 12216,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=qBI5vA8B72c",
+     "thumb": "https://i.ytimg.com/vi/qBI5vA8B72c/mqdefault.jpg",
+     "published": "2026-10-25T08:30:03Z"
+    },
+    {
+     "rank": 16,
+     "id": "bB8rDZPNjyI",
+     "title": "삐그덕 (seesaw)",
+     "channel": "Crush - Topic",
+     "views": 1104573,
+     "likes": 15225,
+     "duration": 181,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=bB8rDZPNjyI",
+     "thumb": "https://i.ytimg.com/vi/bB8rDZPNjyI/mqdefault.jpg",
+     "published": "2026-10-21T09:03:29Z"
+    },
+    {
+     "rank": 17,
+     "id": "bll2jUTqHH8",
+     "title": "닥터X | 계수정 피흘리는 예고씬 분석! 장소장 사람들이 가져온 결정적 증거! [명작맛집]",
+     "channel": "명작맛집",
+     "views": 433800,
+     "likes": 1193,
+     "duration": 934,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=bll2jUTqHH8",
+     "thumb": "https://i.ytimg.com/vi/bll2jUTqHH8/mqdefault.jpg",
+     "published": "2026-10-22T08:00:04Z"
+    },
+    {
+     "rank": 18,
+     "id": "c2_Qz_ZtJ5c",
+     "title": "전역한지 2주 됐는데 한반도 전쟁이 일어났다",
+     "channel": "김재원의 즐거운 세상",
+     "views": 477200,
+     "likes": 7553,
+     "duration": 14489,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=c2_Qz_ZtJ5c",
+     "thumb": "https://i.ytimg.com/vi/c2_Qz_ZtJ5c/mqdefault.jpg",
+     "published": "2026-10-25T05:42:32Z"
+    },
+    {
+     "rank": 19,
+     "id": "K2yUigzpe9M",
+     "title": "DESERVE",
+     "channel": "BABYMONSTER - Topic",
+     "views": 997818,
+     "likes": 45616,
+     "duration": 190,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=K2yUigzpe9M",
+     "thumb": "https://i.ytimg.com/vi/K2yUigzpe9M/mqdefault.jpg",
+     "published": "2026-10-14T06:01:51Z"
+    },
+    {
+     "rank": 20,
+     "id": "igE08Mhvhbk",
+     "title": "\"스타크래프트의 모든 이야기를 끝낼 최후의 대전쟁\" | 스타크래프트 2 공허의 유산 스토리 한눈에 보기 (完)",
+     "channel": "GCL 지씨엘",
+     "views": 358024,
+     "likes": 3028,
+     "duration": 6543,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=igE08Mhvhbk",
+     "thumb": "https://i.ytimg.com/vi/igE08Mhvhbk/mqdefault.jpg",
+     "published": "2026-10-25T04:00:28Z"
+    },
+    {
+     "rank": 21,
+     "id": "-5ZXrO_lYSA",
+     "title": "LISA - Tarantino (Official Music Video)",
+     "channel": "LISAOfficialVEVO",
+     "views": 56796744,
+     "likes": 974717,
+     "duration": 217,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=-5ZXrO_lYSA",
+     "thumb": "https://i.ytimg.com/vi/-5ZXrO_lYSA/mqdefault.jpg",
+     "published": "2026-10-23T04:00:07Z"
+    },
+    {
+     "rank": 22,
+     "id": "-HAkV88Dhjc",
+     "title": "도파민 좋음 청년",
+     "channel": "이도원",
+     "views": 484271,
+     "likes": 7831,
+     "duration": 1838,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=-HAkV88Dhjc",
+     "thumb": "https://i.ytimg.com/vi/-HAkV88Dhjc/mqdefault.jpg",
+     "published": "2026-10-24T08:00:22Z"
+    },
+    {
+     "rank": 23,
+     "id": "F2WbQwiP5vs",
+     "title": "Insomnia",
+     "channel": "RIIZE - Topic",
+     "views": 45563,
+     "likes": 3992,
+     "duration": 195,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=F2WbQwiP5vs",
+     "thumb": "https://i.ytimg.com/vi/F2WbQwiP5vs/mqdefault.jpg",
+     "published": "2026-10-25T15:04:15Z"
+    },
+    {
+     "rank": 24,
+     "id": "uAkiNrCDZKo",
+     "title": "와.. 죤나 무섭다;; 현재 로블록스에서 역대급으로 난리난 공포게임 ≪모노크롬≫",
+     "channel": "혜안",
+     "views": 394136,
+     "likes": 13548,
+     "duration": 857,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=uAkiNrCDZKo",
+     "thumb": "https://i.ytimg.com/vi/uAkiNrCDZKo/mqdefault.jpg",
+     "published": "2026-10-25T10:17:03Z"
+    },
+    {
+     "rank": 25,
+     "id": "6ruo4VVRjvo",
+     "title": "ILLIT (아일릿) '체포하겠어 (You’re Under Arrest)' | PRESS START♥︎ ENCORE",
+     "channel": "ILLIT",
+     "views": 3165969,
+     "likes": 83381,
+     "duration": 216,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=6ruo4VVRjvo",
+     "thumb": "https://i.ytimg.com/vi/6ruo4VVRjvo/mqdefault.jpg",
+     "published": "2026-10-22T09:00:01Z"
+    },
+    {
+     "rank": 26,
+     "id": "oc4-OxP5ZeA",
+     "title": "감스트 본캐 에우제비우 13카 성공!! 기대값 현금 7천만원.. 진짜 개사기 입니다 fc온라인",
+     "channel": "감스트GAMST",
+     "views": 942412,
+     "likes": 3622,
+     "duration": 896,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=oc4-OxP5ZeA",
+     "thumb": "https://i.ytimg.com/vi/oc4-OxP5ZeA/mqdefault.jpg",
+     "published": "2026-10-24T11:37:08Z"
+    },
+    {
+     "rank": 27,
+     "id": "fSw6Q64IW_M",
+     "title": "Quebec",
+     "channel": "BOL4 - Topic",
+     "views": 170091,
+     "likes": 1327,
+     "duration": 216,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=fSw6Q64IW_M",
+     "thumb": "https://i.ytimg.com/vi/fSw6Q64IW_M/mqdefault.jpg",
+     "published": "2026-10-22T09:02:22Z"
+    },
+    {
+     "rank": 28,
+     "id": "uEk2tTumHkI",
+     "title": "부티크 떡상템 정리해 드립니다 [팡이요,  메이플스토리]",
+     "channel": "팡이요",
+     "views": 261518,
+     "likes": 520,
+     "duration": 1240,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=uEk2tTumHkI",
+     "thumb": "https://i.ytimg.com/vi/uEk2tTumHkI/mqdefault.jpg",
+     "published": "2026-10-25T08:45:47Z"
+    },
+    {
+     "rank": 29,
+     "id": "sIT238KAths",
+     "title": "366 Days",
+     "channel": "DEOK(Kim Yong Deok) - Topic",
+     "views": 126027,
+     "likes": 6284,
+     "duration": 244,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=sIT238KAths",
+     "thumb": "https://i.ytimg.com/vi/sIT238KAths/mqdefault.jpg",
+     "published": "2026-10-21T03:02:35Z"
+    },
+    {
+     "rank": 30,
+     "id": "vIAHnCj2n9M",
+     "title": "【 탬탬버린 】 - 아니 진짜 레전드 벽력일섬 발생 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+     "channel": "탬탬버린",
+     "views": 271197,
+     "likes": 1857,
+     "duration": 1870,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=vIAHnCj2n9M",
+     "thumb": "https://i.ytimg.com/vi/vIAHnCj2n9M/mqdefault.jpg",
+     "published": "2026-10-25T07:57:32Z"
+    },
+    {
+     "rank": 31,
+     "id": "g1NLWrNqwLI",
+     "title": "[MV] Banhana(반하나) _ Sad Vow(슬픈 언약식)",
+     "channel": "1theK (원더케이)",
+     "views": 34505,
+     "likes": 542,
+     "duration": 263,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=g1NLWrNqwLI",
+     "thumb": "https://i.ytimg.com/vi/g1NLWrNqwLI/mqdefault.jpg",
+     "published": "2026-10-24T09:00:00Z"
+    },
+    {
+     "rank": 32,
+     "id": "I3UgZ332tf0",
+     "title": "생애최초로 거지 레알 아닌 부자 레알 맞췄습니다 방배우 딱대ㅋㅋㅋ",
+     "channel": "유봉훈",
+     "views": 262778,
+     "likes": 1082,
+     "duration": 790,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=I3UgZ332tf0",
+     "thumb": "https://i.ytimg.com/vi/I3UgZ332tf0/mqdefault.jpg",
+     "published": "2026-10-25T12:30:13Z"
+    },
+    {
+     "rank": 33,
+     "id": "rbMBhx_zT8U",
+     "title": "FIRESTARTER",
+     "channel": "K/DA - Topic",
+     "views": 996141,
+     "likes": 22537,
+     "duration": 188,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rbMBhx_zT8U",
+     "thumb": "https://i.ytimg.com/vi/rbMBhx_zT8U/mqdefault.jpg",
+     "published": "2026-10-22T01:12:01Z"
+    },
+    {
+     "rank": 34,
+     "id": "_6A0EB4eLkw",
+     "title": "예?",
+     "channel": "뜨뜨뜨뜨",
+     "views": 281177,
+     "likes": 773,
+     "duration": 1156,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=_6A0EB4eLkw",
+     "thumb": "https://i.ytimg.com/vi/_6A0EB4eLkw/mqdefault.jpg",
+     "published": "2026-10-25T05:08:58Z"
+    },
+    {
+     "rank": 35,
+     "id": "a6MYcuNgtjY",
+     "title": "UNCHILD 언차일드 ‘빛 (TRICKY GRLS)’ Performance Video (Full Ver.)",
+     "channel": "UNCHILD",
+     "views": 458805,
+     "likes": 32199,
+     "duration": 143,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=a6MYcuNgtjY",
+     "thumb": "https://i.ytimg.com/vi/a6MYcuNgtjY/mqdefault.jpg",
+     "published": "2026-10-25T10:00:00Z"
+    },
+    {
+     "rank": 36,
+     "id": "_DX4NJQucVU",
+     "title": "아내가 전설의 포켓몬을 잡았습니다",
+     "channel": "말왕TV",
+     "views": 263728,
+     "likes": 1620,
+     "duration": 2134,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=_DX4NJQucVU",
+     "thumb": "https://i.ytimg.com/vi/_DX4NJQucVU/mqdefault.jpg",
+     "published": "2026-10-25T05:19:54Z"
+    },
+    {
+     "rank": 37,
+     "id": "nV2Vdl4aQGI",
+     "title": "Plan B",
+     "channel": "Dakshood - Topic",
+     "views": 211829,
+     "likes": 1084,
+     "duration": 178,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=nV2Vdl4aQGI",
+     "thumb": "https://i.ytimg.com/vi/nV2Vdl4aQGI/mqdefault.jpg",
+     "published": "2026-10-24T09:03:19Z"
+    },
+    {
+     "rank": 38,
+     "id": "rigWjmjw_sQ",
+     "title": "공주님, 저 사실 밤마다 얼굴이… 완벽한 무도회 밤의 비밀!",
+     "channel": "잠뜰 TV",
+     "views": 228104,
+     "likes": 9328,
+     "duration": 1801,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rigWjmjw_sQ",
+     "thumb": "https://i.ytimg.com/vi/rigWjmjw_sQ/mqdefault.jpg",
+     "published": "2026-10-25T07:00:26Z"
+    },
+    {
+     "rank": 39,
+     "id": "N6VJE26qDeI",
+     "title": "Good Bye Sadness, Hello Happiness",
+     "channel": "Park Jinseo - Topic",
+     "views": 42780,
+     "likes": 603,
+     "duration": 274,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=N6VJE26qDeI",
+     "thumb": "https://i.ytimg.com/vi/N6VJE26qDeI/mqdefault.jpg",
+     "published": "2026-10-20T03:03:23Z"
+    },
+    {
+     "rank": 40,
+     "id": "UjCkjWNzEdc",
+     "title": "역대급 공포게임! 모노크롬2 하다가 정말 쓰러져 버렸습니다",
+     "channel": "흔한남매",
+     "views": 396971,
+     "likes": 4388,
+     "duration": 1395,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=UjCkjWNzEdc",
+     "thumb": "https://i.ytimg.com/vi/UjCkjWNzEdc/mqdefault.jpg",
+     "published": "2026-10-24T06:00:02Z"
+    },
+    {
+     "rank": 41,
+     "id": "0XYSv1KSuzg",
+     "title": "MISS ME",
+     "channel": "keshi - Topic",
+     "views": 451576,
+     "likes": 12836,
+     "duration": 194,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=0XYSv1KSuzg",
+     "thumb": "https://i.ytimg.com/vi/0XYSv1KSuzg/mqdefault.jpg",
+     "published": "2026-10-22T10:02:14Z"
+    },
+    {
+     "rank": 42,
+     "id": "slWGnCVUwIE",
+     "title": "세나투스 공식 클랜 토너먼트 데뷔전 【SENATUS EP.03】",
+     "channel": "킥튜브",
+     "views": 146473,
+     "likes": 564,
+     "duration": 1343,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=slWGnCVUwIE",
+     "thumb": "https://i.ytimg.com/vi/slWGnCVUwIE/mqdefault.jpg",
+     "published": "2026-10-25T09:11:31Z"
+    },
+    {
+     "rank": 43,
+     "id": "tPfHhOqpY4Q",
+     "title": "원필(WONPIL) - 좋아해.. (바른연애 길잡이 X 죠지 cover)",
+     "channel": "DAY6",
+     "views": 260928,
+     "likes": 11107,
+     "duration": 260,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=tPfHhOqpY4Q",
+     "thumb": "https://i.ytimg.com/vi/tPfHhOqpY4Q/mqdefault.jpg",
+     "published": "2026-10-22T11:00:03Z"
+    },
+    {
+     "rank": 44,
+     "id": "8V3CyIxiIt8",
+     "title": "유황 큐브가 없던 시절에 만든 거라고??(마인크래프트 : 님못본거)",
+     "channel": "마플 마인크래프트 채널",
+     "views": 200096,
+     "likes": 2933,
+     "duration": 1443,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=8V3CyIxiIt8",
+     "thumb": "https://i.ytimg.com/vi/8V3CyIxiIt8/mqdefault.jpg",
+     "published": "2026-10-25T12:00:14Z"
+    },
+    {
+     "rank": 45,
+     "id": "I03i0myIoVQ",
+     "title": "Circle",
+     "channel": "Feel Kim - Topic",
+     "views": 43731,
+     "likes": 437,
+     "duration": 243,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=I03i0myIoVQ",
+     "thumb": "https://i.ytimg.com/vi/I03i0myIoVQ/mqdefault.jpg",
+     "published": "2026-10-23T09:03:52Z"
+    },
+    {
+     "rank": 46,
+     "id": "b_lhrORIm9s",
+     "title": "차돌짬뽕 배달 왔다길래 게임 끝날 때까지 공격 안 가고 수비만 해봤습니다ㅋㅋ",
+     "channel": "[ALTUBE] 김성현TV",
+     "views": 296051,
+     "likes": 1079,
+     "duration": 2768,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=b_lhrORIm9s",
+     "thumb": "https://i.ytimg.com/vi/b_lhrORIm9s/mqdefault.jpg",
+     "published": "2026-10-25T02:30:11Z"
+    },
+    {
+     "rank": 47,
+     "id": "l0CG1QssEsg",
+     "title": "180도",
+     "channel": "LEE YEJOON - Topic",
+     "views": 349986,
+     "likes": 833,
+     "duration": 232,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=l0CG1QssEsg",
+     "thumb": "https://i.ytimg.com/vi/l0CG1QssEsg/mqdefault.jpg",
+     "published": "2026-10-21T09:02:44Z"
+    },
+    {
+     "rank": 48,
+     "id": "7owLb23WXtI",
+     "title": "\"밥보스 송신..!\" 돌아온 '밥'보스와 송'애'교..! 부부 치킨미션 중 폐급 이상호에 빡쳐버린 애교용?!",
+     "channel": "이상호",
+     "views": 392314,
+     "likes": 1487,
+     "duration": 977,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=7owLb23WXtI",
+     "thumb": "https://i.ytimg.com/vi/7owLb23WXtI/mqdefault.jpg",
+     "published": "2026-10-25T04:55:12Z"
+    },
+    {
+     "rank": 49,
+     "id": "8f3y-NuVw34",
+     "title": "처음 그 자리에",
+     "channel": "SONG HA YOUNG (fromis_9) - Topic",
+     "views": 101429,
+     "likes": 1288,
+     "duration": 233,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=8f3y-NuVw34",
+     "thumb": "https://i.ytimg.com/vi/8f3y-NuVw34/mqdefault.jpg",
+     "published": "2026-10-21T09:02:25Z"
+    },
+    {
+     "rank": 50,
+     "id": "Mb7I8V_CZFU",
+     "title": "성기사세요?",
+     "channel": "동수칸TV",
+     "views": 368881,
+     "likes": 1224,
+     "duration": 1682,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Mb7I8V_CZFU",
+     "thumb": "https://i.ytimg.com/vi/Mb7I8V_CZFU/mqdefault.jpg",
+     "published": "2026-10-25T07:52:10Z"
+    }
+   ]
+  },
+  "youtube_us": {
+   "label": "YouTube 인기 US",
+   "status": "ok",
+   "count": 49,
+   "items": [
+    {
+     "rank": 1,
+     "id": "ZRTYqleaQMY",
+     "title": "Jarahn - Maski Lo Luv (Audio) feat. BMT",
+     "channel": "Jarahn",
+     "views": 35949,
+     "likes": 1368,
+     "duration": 268,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=ZRTYqleaQMY",
+     "thumb": "https://i.ytimg.com/vi/ZRTYqleaQMY/mqdefault.jpg",
+     "published": "2026-10-22T20:37:02Z"
+    },
+    {
+     "rank": 2,
+     "id": "UfNu7pcR0e8",
+     "title": "Avengers: Doomsday | In Theaters December 18",
+     "channel": "Marvel Entertainment",
+     "views": 11005151,
+     "likes": 230292,
+     "duration": 31,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/UfNu7pcR0e8",
+     "thumb": "https://i.ytimg.com/vi/UfNu7pcR0e8/mqdefault.jpg",
+     "published": "2026-10-25T00:00:00Z"
+    },
+    {
+     "rank": 3,
+     "id": "UZfAbp3nlVQ",
+     "title": "Boys vs Girls: POOR to RICH Chunk Battle!",
+     "channel": "Cash",
+     "views": 420605,
+     "likes": 5029,
+     "duration": 1214,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=UZfAbp3nlVQ",
+     "thumb": "https://i.ytimg.com/vi/UZfAbp3nlVQ/mqdefault.jpg",
+     "published": "2026-10-25T15:00:20Z"
+    },
+    {
+     "rank": 4,
+     "id": "FWcdKVnSZGY",
+     "title": "Top Halloween Songs of All Time 🎃 Best Halloween Music Playlist",
+     "channel": "Darksteel Records",
+     "views": 33441,
+     "likes": 288,
+     "duration": 20195,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=FWcdKVnSZGY",
+     "thumb": "https://i.ytimg.com/vi/FWcdKVnSZGY/mqdefault.jpg",
+     "published": "2026-10-25T14:00:05Z"
+    },
+    {
+     "rank": 5,
+     "id": "7bU4ojt7WGU",
+     "title": "AVENGERS: DOOMSDAY New Trailer (2026) Extended",
+     "channel": "MovieGasm‍․com",
+     "views": 2887143,
+     "likes": 23959,
+     "duration": 230,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=7bU4ojt7WGU",
+     "thumb": "https://i.ytimg.com/vi/7bU4ojt7WGU/mqdefault.jpg",
+     "published": "2026-10-24T21:55:04Z"
+    },
+    {
+     "rank": 6,
+     "id": "oxsh6V3vqOQ",
+     "title": "🔴LIVE | PPARTY GAMES ALL NIGHT | TRAILER PARK | H20 DELIRIOUS X GIMMICK X HABIBI X GINGY |#BUNGULATE",
+     "channel": "TheBurntPeanut",
+     "views": 1143993,
+     "likes": 9990,
+     "duration": 28228,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=oxsh6V3vqOQ",
+     "thumb": "https://i.ytimg.com/vi/oxsh6V3vqOQ/mqdefault.jpg",
+     "published": "2026-10-25T07:33:53Z"
+    },
+    {
+     "rank": 7,
+     "id": "z_e1d5_VVfw",
+     "title": "Ramayana: Mangal Rang (Song) | Namit M, Nitesh T | AR Rahman, Arijit Singh, Shreya Ghoshal, Kumar V",
+     "channel": "T-Series",
+     "views": 16745384,
+     "likes": 228399,
+     "duration": 146,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=z_e1d5_VVfw",
+     "thumb": "https://i.ytimg.com/vi/z_e1d5_VVfw/mqdefault.jpg",
+     "published": "2026-10-25T03:30:09Z"
+    },
+    {
+     "rank": 8,
+     "id": "3lEUqM5ondI",
+     "title": "Calling All Villains - Official Trailer",
+     "channel": "ZAMination",
+     "views": 1500710,
+     "likes": 81132,
+     "duration": 82,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=3lEUqM5ondI",
+     "thumb": "https://i.ytimg.com/vi/3lEUqM5ondI/mqdefault.jpg",
+     "published": "2026-10-24T15:00:08Z"
+    },
+    {
+     "rank": 9,
+     "id": "yJI6LRhlchk",
+     "title": "I Made Unlimited Power - Sky Factory Season 7 EP 7",
+     "channel": "SSundeePlus",
+     "views": 272392,
+     "likes": 21297,
+     "duration": 2211,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=yJI6LRhlchk",
+     "thumb": "https://i.ytimg.com/vi/yJI6LRhlchk/mqdefault.jpg",
+     "published": "2026-10-25T17:37:20Z"
+    },
+    {
+     "rank": 10,
+     "id": "yVuCMW2H0dg",
+     "title": "Listen to the Music",
+     "channel": "The Doobie Brothers - Topic",
+     "views": 94283,
+     "likes": 1237,
+     "duration": 207,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=yVuCMW2H0dg",
+     "thumb": "https://i.ytimg.com/vi/yVuCMW2H0dg/mqdefault.jpg",
+     "published": "2026-10-22T10:00:08Z"
+    },
+    {
+     "rank": 11,
+     "id": "JNSFV75NpaU",
+     "title": "AVENGERS DOOMSDAY SPECIAL LOOK BREAKDOWN! Easter Eggs & Details You Missed!",
+     "channel": "New Rockstars",
+     "views": 796039,
+     "likes": 13190,
+     "duration": 970,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=JNSFV75NpaU",
+     "thumb": "https://i.ytimg.com/vi/JNSFV75NpaU/mqdefault.jpg",
+     "published": "2026-10-24T20:46:47Z"
+    },
+    {
+     "rank": 12,
+     "id": "_Q-QoRuLYCw",
+     "title": "when the trapper learns how to PVP...",
+     "channel": "JudeHigh",
+     "views": 669617,
+     "likes": 27847,
+     "duration": 2796,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=_Q-QoRuLYCw",
+     "thumb": "https://i.ytimg.com/vi/_Q-QoRuLYCw/mqdefault.jpg",
+     "published": "2026-10-25T15:29:07Z"
+    },
+    {
+     "rank": 13,
+     "id": "-5ZXrO_lYSA",
+     "title": "LISA - Tarantino (Official Music Video)",
+     "channel": "LISAOfficialVEVO",
+     "views": 56796744,
+     "likes": 974717,
+     "duration": 217,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=-5ZXrO_lYSA",
+     "thumb": "https://i.ytimg.com/vi/-5ZXrO_lYSA/mqdefault.jpg",
+     "published": "2026-10-23T04:00:07Z"
+    },
+    {
+     "rank": 14,
+     "id": "oLJFJSNFklU",
+     "title": "EXCLUSIVE PREVIEW ⚾ MLB Crosses Over Into Avengers: Doomsday 🤯",
+     "channel": "MLB",
+     "views": 2622882,
+     "likes": 49543,
+     "duration": 60,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/oLJFJSNFklU",
+     "thumb": "https://i.ytimg.com/vi/oLJFJSNFklU/mqdefault.jpg",
+     "published": "2026-10-24T00:52:55Z"
+    },
+    {
+     "rank": 15,
+     "id": "q09y0z5Vyxw",
+     "title": "RELL Seas: The Movie 3",
+     "channel": "RELLGames",
+     "views": 665753,
+     "likes": 30704,
+     "duration": 11524,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=q09y0z5Vyxw",
+     "thumb": "https://i.ytimg.com/vi/q09y0z5Vyxw/mqdefault.jpg",
+     "published": "2026-10-25T06:00:09Z"
+    },
+    {
+     "rank": 16,
+     "id": "Wi0eZkjF5-4",
+     "title": "Top Halloween Songs of All Time 🎃 Best Halloween Music Playlist 👻 Halloween Music Mix",
+     "channel": "Timeless Music",
+     "views": 108647,
+     "likes": 631,
+     "duration": 3679,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Wi0eZkjF5-4",
+     "thumb": "https://i.ytimg.com/vi/Wi0eZkjF5-4/mqdefault.jpg",
+     "published": "2026-10-24T12:29:08Z"
+    },
+    {
+     "rank": 17,
+     "id": "6H-_VHitfAA",
+     "title": "AVENGERS 5: DOOMSDAY Official “Steve Rogers Meets New Avengers” Teaser Trailer (2026)",
+     "channel": "KinoCheck.com",
+     "views": 2812911,
+     "likes": 22968,
+     "duration": 79,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=6H-_VHitfAA",
+     "thumb": "https://i.ytimg.com/vi/6H-_VHitfAA/mqdefault.jpg",
+     "published": "2026-10-24T01:07:13Z"
+    },
+    {
+     "rank": 18,
+     "id": "K0ttTq_IjT8",
+     "title": "I Played Roblox INSIDE Roblox...",
+     "channel": "Techy Plays",
+     "views": 415429,
+     "likes": 6386,
+     "duration": 856,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=K0ttTq_IjT8",
+     "thumb": "https://i.ytimg.com/vi/K0ttTq_IjT8/mqdefault.jpg",
+     "published": "2026-10-25T14:00:13Z"
+    },
+    {
+     "rank": 19,
+     "id": "tAg4Fa1JtPo",
+     "title": "Yung Miami - Dear JT (Official Visualizer)",
+     "channel": "Yung Miami",
+     "views": 761395,
+     "likes": 27136,
+     "duration": 198,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=tAg4Fa1JtPo",
+     "thumb": "https://i.ytimg.com/vi/tAg4Fa1JtPo/mqdefault.jpg",
+     "published": "2026-10-23T16:00:23Z"
+    },
+    {
+     "rank": 20,
+     "id": "nsUDlCRh-JU",
+     "title": "AVENGERS 5: DOOMSDAY New Trailer Extended (2026) Marvel",
+     "channel": "Movie Trailers Source",
+     "views": 204351,
+     "likes": 1357,
+     "duration": 236,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=nsUDlCRh-JU",
+     "thumb": "https://i.ytimg.com/vi/nsUDlCRh-JU/mqdefault.jpg",
+     "published": "2026-10-25T05:28:06Z"
+    },
+    {
+     "rank": 21,
+     "id": "3fLYEYo3iOY",
+     "title": "Finesse2Tymes - Playing With Fire [Official Music Video]",
+     "channel": "Finesse2Tymes",
+     "views": 329232,
+     "likes": 18649,
+     "duration": 214,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=3fLYEYo3iOY",
+     "thumb": "https://i.ytimg.com/vi/3fLYEYo3iOY/mqdefault.jpg",
+     "published": "2026-10-23T18:43:06Z"
+    },
+    {
+     "rank": 22,
+     "id": "WiyOKZPDirE",
+     "title": "Avengers Doomsday Trailer Doctor Doom Destroys The MCU",
+     "channel": "Emergency Awesome",
+     "views": 276050,
+     "likes": 4008,
+     "duration": 896,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=WiyOKZPDirE",
+     "thumb": "https://i.ytimg.com/vi/WiyOKZPDirE/mqdefault.jpg",
+     "published": "2026-10-24T21:31:20Z"
+    },
+    {
+     "rank": 23,
+     "id": "Wbwidn2PpwA",
+     "title": "We Broke EVERY BONE in Minecraft...",
+     "channel": "TechyCraft",
+     "views": 330956,
+     "likes": 6061,
+     "duration": 839,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Wbwidn2PpwA",
+     "thumb": "https://i.ytimg.com/vi/Wbwidn2PpwA/mqdefault.jpg",
+     "published": "2026-10-25T12:00:08Z"
+    },
+    {
+     "rank": 24,
+     "id": "iqQWCYMlMw0",
+     "title": "ATEEZ(에이티즈) - 'Drip' Official MV",
+     "channel": "KQ ENTERTAINMENT",
+     "views": 12899785,
+     "likes": 447469,
+     "duration": 191,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=iqQWCYMlMw0",
+     "thumb": "https://i.ytimg.com/vi/iqQWCYMlMw0/mqdefault.jpg",
+     "published": "2026-10-23T04:00:02Z"
+    },
+    {
+     "rank": 25,
+     "id": "rbmNiw9OH_0",
+     "title": "Avengers: Doomsday Baseball Trailer BREAKDOWN - Marvel Easter Eggs You Missed!",
+     "channel": "ScreenCrush",
+     "views": 264471,
+     "likes": 3836,
+     "duration": 702,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rbmNiw9OH_0",
+     "thumb": "https://i.ytimg.com/vi/rbmNiw9OH_0/mqdefault.jpg",
+     "published": "2026-10-24T16:54:08Z"
+    },
+    {
+     "rank": 26,
+     "id": "uhCh29TpcFs",
+     "title": "Stealing A Bioweapon For The FBI... [GTA V Ep. 3/5]",
+     "channel": "Joe Bart Games",
+     "views": 112447,
+     "likes": 2073,
+     "duration": 13447,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=uhCh29TpcFs",
+     "thumb": "https://i.ytimg.com/vi/uhCh29TpcFs/mqdefault.jpg",
+     "published": "2026-10-25T16:44:08Z"
+    },
+    {
+     "rank": 27,
+     "id": "afckk3ajjP0",
+     "title": "YFN Lucci - custom MADE. (feat. Tink) [Official Music Video]",
+     "channel": "YFN Lucci",
+     "views": 266730,
+     "likes": 11126,
+     "duration": 172,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=afckk3ajjP0",
+     "thumb": "https://i.ytimg.com/vi/afckk3ajjP0/mqdefault.jpg",
+     "published": "2026-10-23T17:00:07Z"
+    },
+    {
+     "rank": 28,
+     "id": "LXyEJPjiMsU",
+     "title": "Wuthering Waves Lore Trailer | TRANSCENDO",
+     "channel": "Wuthering Waves",
+     "views": 580365,
+     "likes": 37675,
+     "duration": 204,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=LXyEJPjiMsU",
+     "thumb": "https://i.ytimg.com/vi/LXyEJPjiMsU/mqdefault.jpg",
+     "published": "2026-10-25T03:00:11Z"
+    },
+    {
+     "rank": 29,
+     "id": "dh-s0pEstgA",
+     "title": "I Played The Hardest Golf Game on Steam...",
+     "channel": "SMii7Y",
+     "views": 1765582,
+     "likes": 65793,
+     "duration": 1491,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=dh-s0pEstgA",
+     "thumb": "https://i.ytimg.com/vi/dh-s0pEstgA/mqdefault.jpg",
+     "published": "2026-10-24T19:13:32Z"
+    },
+    {
+     "rank": 30,
+     "id": "37kT408ETtg",
+     "title": "Neton Vega, Fuerza Regida - Olimpo (Video Oficial)",
+     "channel": "Neton Vega",
+     "views": 703881,
+     "likes": 18549,
+     "duration": 153,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=37kT408ETtg",
+     "thumb": "https://i.ytimg.com/vi/37kT408ETtg/mqdefault.jpg",
+     "published": "2026-10-24T01:50:08Z"
+    },
+    {
+     "rank": 31,
+     "id": "Kyjq27ORERk",
+     "title": "AVENGERS: DOOMSDAY Official “Steve Rogers Reunites With Avengers” Teaser Trailer (2026)",
+     "channel": "FilmSelect",
+     "views": 428825,
+     "likes": 2923,
+     "duration": 71,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Kyjq27ORERk",
+     "thumb": "https://i.ytimg.com/vi/Kyjq27ORERk/mqdefault.jpg",
+     "published": "2026-10-24T01:06:23Z"
+    },
+    {
+     "rank": 32,
+     "id": "gat5IAIJfMA",
+     "title": "I Shouldn’t Have Invited My Friend Over…",
+     "channel": "CaseOh",
+     "views": 876773,
+     "likes": 18374,
+     "duration": 3575,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=gat5IAIJfMA",
+     "thumb": "https://i.ytimg.com/vi/gat5IAIJfMA/mqdefault.jpg",
+     "published": "2026-10-24T22:00:05Z"
+    },
+    {
+     "rank": 33,
+     "id": "QJpNOAMpgls",
+     "title": "Eudis El Invencible x La Insuperable - Tanto Que Tu Priva (Video Oficial)",
+     "channel": "Eudis El Invencible",
+     "views": 846810,
+     "likes": 13965,
+     "duration": 192,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=QJpNOAMpgls",
+     "thumb": "https://i.ytimg.com/vi/QJpNOAMpgls/mqdefault.jpg",
+     "published": "2026-10-15T19:00:09Z"
+    },
+    {
+     "rank": 34,
+     "id": "NwFDonyI-go",
+     "title": "MrBeast Lab: Official Trailer",
+     "channel": "Beast Animations",
+     "views": 312432,
+     "likes": 10687,
+     "duration": 94,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=NwFDonyI-go",
+     "thumb": "https://i.ytimg.com/vi/NwFDonyI-go/mqdefault.jpg",
+     "published": "2026-10-25T16:00:15Z"
+    },
+    {
+     "rank": 35,
+     "id": "bwteSD1jmNQ",
+     "title": "Fat Chance We Survive This Game...",
+     "channel": "SMii7Yplus",
+     "views": 452547,
+     "likes": 31846,
+     "duration": 1953,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=bwteSD1jmNQ",
+     "thumb": "https://i.ytimg.com/vi/bwteSD1jmNQ/mqdefault.jpg",
+     "published": "2026-10-25T20:15:11Z"
+    },
+    {
+     "rank": 36,
+     "id": "BE_vsYfOFik",
+     "title": "Halloween Songs Playlist 🎃 Top Halloween Music 2026 👻 Halloween Music Mix Halloween Party Playlist",
+     "channel": "Zephyr Lane",
+     "views": 43961,
+     "likes": 170,
+     "duration": 21160,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=BE_vsYfOFik",
+     "thumb": "https://i.ytimg.com/vi/BE_vsYfOFik/mqdefault.jpg",
+     "published": "2026-10-23T14:00:15Z"
+    },
+    {
+     "rank": 37,
+     "id": "KS0DiFJkz9c",
+     "title": "Tomb Raider - Official 30th Anniversary Celebration Trailer",
+     "channel": "IGN",
+     "views": 461914,
+     "likes": 4971,
+     "duration": 46,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/KS0DiFJkz9c",
+     "thumb": "https://i.ytimg.com/vi/KS0DiFJkz9c/mqdefault.jpg",
+     "published": "2026-10-25T01:00:25Z"
+    },
+    {
+     "rank": 38,
+     "id": "xzkiEXbnQ4c",
+     "title": "Hermitcraft 11: Episode 30 - FORBIDDEN ANGLE",
+     "channel": "Mumbo Jumbo",
+     "views": 319516,
+     "likes": 20258,
+     "duration": 1966,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=xzkiEXbnQ4c",
+     "thumb": "https://i.ytimg.com/vi/xzkiEXbnQ4c/mqdefault.jpg",
+     "published": "2026-10-25T18:00:00Z"
+    },
+    {
+     "rank": 39,
+     "id": "YDIhLayaHTs",
+     "title": "DONATY - TU MARIO (VIDEO OFICIAL)",
+     "channel": "Donaty",
+     "views": 44863,
+     "likes": 4160,
+     "duration": 127,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=YDIhLayaHTs",
+     "thumb": "https://i.ytimg.com/vi/YDIhLayaHTs/mqdefault.jpg",
+     "published": "2026-10-25T17:58:58Z"
+    },
+    {
+     "rank": 40,
+     "id": "vwWnVVeo6cw",
+     "title": "AVENGERS DOOMSDAY FULL TRAILER 4 | THOR and STEVE ROGER BIFROST TO TVA?!",
+     "channel": "Everything Always",
+     "views": 102103,
+     "likes": 1868,
+     "duration": 559,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=vwWnVVeo6cw",
+     "thumb": "https://i.ytimg.com/vi/vwWnVVeo6cw/mqdefault.jpg",
+     "published": "2026-10-25T01:33:49Z"
+    },
+    {
+     "rank": 41,
+     "id": "rCJ7vVaIl8c",
+     "title": "Jumping Minecraft CARS Across ENTIRE MAP In GTA 5...",
+     "channel": "TechyCrew",
+     "views": 284181,
+     "likes": 6851,
+     "duration": 758,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rCJ7vVaIl8c",
+     "thumb": "https://i.ytimg.com/vi/rCJ7vVaIl8c/mqdefault.jpg",
+     "published": "2026-10-25T13:00:22Z"
+    },
+    {
+     "rank": 42,
+     "id": "Xo3eX7mBaTE",
+     "title": "Grupo Aficion - El Manicero (En Vivo)",
+     "channel": "AficionTV",
+     "views": 325244,
+     "likes": 704,
+     "duration": 406,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Xo3eX7mBaTE",
+     "thumb": "https://i.ytimg.com/vi/Xo3eX7mBaTE/mqdefault.jpg",
+     "published": "2026-10-09T07:00:17Z"
+    },
+    {
+     "rank": 43,
+     "id": "qIOqiIKY3L8",
+     "title": "DRAGON BALL XENOVERSE 2 | 10th Anniversary Update Trailer",
+     "channel": "Bandai Namco Entertainment America",
+     "views": 100092,
+     "likes": 2536,
+     "duration": 99,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=qIOqiIKY3L8",
+     "thumb": "https://i.ytimg.com/vi/qIOqiIKY3L8/mqdefault.jpg",
+     "published": "2026-10-25T10:36:22Z"
+    },
+    {
+     "rank": 44,
+     "id": "Ed74ounoOhc",
+     "title": "Jerry The Dog [FULL MOVIE]",
+     "channel": "LookOut2DD",
+     "views": 374201,
+     "likes": 16027,
+     "duration": 7141,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Ed74ounoOhc",
+     "thumb": "https://i.ytimg.com/vi/Ed74ounoOhc/mqdefault.jpg",
+     "published": "2026-10-25T16:00:07Z"
+    },
+    {
+     "rank": 45,
+     "id": "TPsGnQ3OZAw",
+     "title": "FNAF Song “I Always Come Back” by FabvL & JT Music",
+     "channel": "FabvL",
+     "views": 182950,
+     "likes": 11597,
+     "duration": 229,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=TPsGnQ3OZAw",
+     "thumb": "https://i.ytimg.com/vi/TPsGnQ3OZAw/mqdefault.jpg",
+     "published": "2026-10-24T15:00:08Z"
+    },
+    {
+     "rank": 46,
+     "id": "u0yUYgZ0s30",
+     "title": "Aadarsha Kutumbam - Official Trailer | Venkatesh, Srinidhi Shetty | Trivikram | Thaman S",
+     "channel": "Haarika & Hassine Creations",
+     "views": 5924750,
+     "likes": 79592,
+     "duration": 153,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=u0yUYgZ0s30",
+     "thumb": "https://i.ytimg.com/vi/u0yUYgZ0s30/mqdefault.jpg",
+     "published": "2026-10-23T15:19:42Z"
+    },
+    {
+     "rank": 47,
+     "id": "xa70p5u-mmw",
+     "title": "TLAW vs BLG | WORLDS 2026 | Swiss Stage Day 2",
+     "channel": "LoL Esports",
+     "views": 2374036,
+     "likes": 11198,
+     "duration": 34106,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=xa70p5u-mmw",
+     "thumb": "https://i.ytimg.com/vi/xa70p5u-mmw/mqdefault.jpg",
+     "published": "2026-10-25T07:26:11Z"
+    },
+    {
+     "rank": 48,
+     "id": "ziZZt1ajf-Y",
+     "title": "Shakira & Maluma - Agua (Live from LMYNL World Tour)",
+     "channel": "Shakira",
+     "views": 2409395,
+     "likes": 28167,
+     "duration": 265,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=ziZZt1ajf-Y",
+     "thumb": "https://i.ytimg.com/vi/ziZZt1ajf-Y/mqdefault.jpg",
+     "published": "2026-10-14T16:59:06Z"
+    },
+    {
+     "rank": 49,
+     "id": "tYT9XwRZMJs",
+     "title": "AVENGERS 5: DOOMSDAY Official \"Ant-Man jokes about both Captains America\" TV Spot (2026)",
+     "channel": "ONE Media",
+     "views": 104575,
+     "likes": 699,
+     "duration": 43,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/tYT9XwRZMJs",
+     "thumb": "https://i.ytimg.com/vi/tYT9XwRZMJs/mqdefault.jpg",
+     "published": "2026-10-25T00:47:29Z"
+    }
+   ]
+  },
+  "trends_kr": {
+   "label": "Google 트렌드 KR",
+   "status": "ok",
+   "count": 10,
+   "items": [
+    {
+     "rank": 1,
+     "title": "폭죽",
+     "traffic": 100,
+     "traffic_raw": "100+",
+     "news_title": "“아버지 향해 쏴”…강릉 해변서 남성들 쏜 폭죽에 父 화상 ‘분통’",
+     "news_url": "https://www.donga.com/news/Society/article/all/20261025/134902406/1",
+     "url": "https://www.donga.com/news/Society/article/all/20261025/134902406/1",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS8BnNhG10H2AZuOfWH37c0UEAjwhvj0mrPdMsC46PqnIvmulwmZavlKhyr9Yk"
+    },
+    {
+     "rank": 2,
+     "title": "오클라호마시티 대 la 클리퍼스",
+     "traffic": 500,
+     "traffic_raw": "500+",
+     "news_title": "Los Angeles Lakers vs Utah Jazz Oct 25, 2026 Box Scores",
+     "news_url": "https://www.nba.com/game/lal-vs-uta-0022600112/box-score",
+     "url": "https://www.nba.com/game/lal-vs-uta-0022600112/box-score",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTPyLbN_wkG_xF0czjB988JZjbMhpYUvY2IVR8k2BU5VTFDZs81ogQHVJfLsxs"
+    },
+    {
+     "rank": 3,
+     "title": "치매",
+     "traffic": 1000,
+     "traffic_raw": "1000+",
+     "news_title": "中 보험업계, 치매 예방부터 재택돌봄까지 통합관리",
+     "news_url": "https://bravo.etoday.co.kr/view/atc_view/20306",
+     "url": "https://bravo.etoday.co.kr/view/atc_view/20306",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRkUC1caVvvpD4WGxJHTJkGHVSXyKc-usHRdGcCOmZmAT5fpIi7Bu8swXiuJno"
+    },
+    {
+     "rank": 4,
+     "title": "thứ hạng của barcelona gặp real madrid",
+     "traffic": 500,
+     "traffic_raw": "500+",
+     "news_title": "Cú sốc cho Real Madrid ở El Clasico",
+     "news_url": "https://lifestyle.zingnews.vn/cu-soc-cho-real-madrid-o-el-clasico-post1691988.html",
+     "url": "https://lifestyle.zingnews.vn/cu-soc-cho-real-madrid-o-el-clasico-post1691988.html",
+     "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-ODt4JkPiN9PmaQJq16iV4cWkls3KSSp540hX0TaqRkDTlbXMkGfqd6jRlJk"
+    },
+    {
+     "rank": 5,
+     "title": "барселона – реал мадрид турнирная таблица",
+     "traffic": 1000,
+     "traffic_raw": "1000+",
+     "news_title": "Дубль Мбаппе принес «Реалу» победу над «Барселоной» в матче чемпионата Испании",
+     "news_url": "https://sportmail.ru/news/football-foreign/72853558/",
+     "url": "https://sportmail.ru/news/football-foreign/72853558/",
+     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRY9mHBGi5K6pMD14E87DfpAJ5cNXsEv4DHSmzRiufzlZxSaFEs5Me4Z72ZW1g"
+    },
+    {
+     "rank": 6,
+     "title": "김연경",
+     "traffic": 2000,
+     "traffic_raw": "2000+",
+     "news_title": "'신인감독 김연경2' 원더독스, 짜릿한 역전승에 설욕 성공...자체 최고 5.4% [종합] - 머니투데이",
+     "news_url": "https://www.mt.co.kr/entertainment/2026/10/26/2026102608447223859",
+     "url": "https://www.mt.co.kr/entertainment/2026/10/26/2026102608447223859",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSZjuGV6l_IR3redntpp61G54QO86BpSOeOMWoVqzTX3PsHxrg0m4-c9u4-hlk"
+    },
+    {
+     "rank": 7,
+     "title": "열병합발전소",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "[단독] 전력 부족한데…열병합발전, 낙찰 받고도 2년째 착공 못해",
+     "news_url": "https://www.hankyung.com/article/2026102535691",
+     "url": "https://www.hankyung.com/article/2026102535691",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXM7T7MWMso98QveDj7U6dSn9mNg81B-WO0tHWgo6ylnj03zPhXeaOYpZ44AA"
+    },
+    {
+     "rank": 8,
+     "title": "베트남",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "롯데, 베트남 하노이 5개 명문대 찾아 인재 채용설명회",
+     "news_url": "https://www.khan.co.kr/article/202610251455001",
+     "url": "https://www.khan.co.kr/article/202610251455001",
+     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLjZgW1797I7dMzw5wFUnv-pQf9phKCpWVr1DvZ93ArVKeqxWsaQaEIEIHZ9w"
+    },
+    {
+     "rank": 9,
+     "title": "이건희",
+     "traffic": 100,
+     "traffic_raw": "100+",
+     "news_title": "젠슨 황·박세리 30년 후를 본 故 이건희 회장...삼성의 미래는 - 머니투데이",
+     "news_url": "https://www.mt.co.kr/opinion/2026/10/25/2026102506442386466",
+     "url": "https://www.mt.co.kr/opinion/2026/10/25/2026102506442386466",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWFROR4QDGK61_nL2aQpqqueYSPcE6079zj7pYfudtnCrY0w0qnSywutwc4gE"
+    },
+    {
+     "rank": 10,
+     "title": "klasemen fc barcelona vs real madrid",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "",
+     "news_url": "",
+     "url": "https://trends.google.com/trends/explore?geo=KR&q=klasemen%20fc%20barcelona%20vs%20real%20madrid",
+     "picture": ""
+    }
+   ]
+  },
+  "trends_us": {
+   "label": "Google 트렌드 US",
+   "status": "ok",
+   "count": 10,
+   "items": [
+    {
+     "rank": 1,
+     "title": "grizzlies vs kings",
+     "traffic": 2000,
+     "traffic_raw": "2000+",
+     "news_title": "Keegan Murray is officially out tonight with a stiff …",
+     "news_url": "https://sports.yahoo.com/articles/keegan-murray-officially-tonight-stiff-233757761.html",
+     "url": "https://sports.yahoo.com/articles/keegan-murray-officially-tonight-stiff-233757761.html",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ8JeB_iFhl5OEcsQ6ROIUu_Jnmj6qch6ahv0gWAoxCXncdjOAlhAjIHCNI7s"
+    },
+    {
+     "rank": 2,
+     "title": "lamelo ball",
+     "traffic": 5000,
+     "traffic_raw": "5000+",
+     "news_title": "Neal: Wolves paid a high price for LaMelo Ball. They expect a lot of time in return.",
+     "news_url": "https://www.startribune.com/minnesota-timberwolves-toronto-raptors-target-center-lamelo-ball-stats-anthony-edwards-chris-finch/601902946",
+     "url": "https://www.startribune.com/minnesota-timberwolves-toronto-raptors-target-center-lamelo-ball-stats-anthony-edwards-chris-finch/601902946",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTC1eR0-T80H-Hd8CQvKIYP-xkTYtP8rzEmh1_UMsyrsS497jLVr6H0UOw5j4U"
+    },
+    {
+     "rank": 3,
+     "title": "76ers game",
+     "traffic": 10000,
+     "traffic_raw": "10000+",
+     "news_title": "Embiid posts triple-double as LeBron-less Sixers stay unbeaten",
+     "news_url": "https://www.espn.com/nba/story/_/id/50272945/embiid-posts-triple-double-james-less-76ers-stay-unbeaten",
+     "url": "https://www.espn.com/nba/story/_/id/50272945/embiid-posts-triple-double-james-less-76ers-stay-unbeaten",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBpJapkHVgezZvw9Ungs9O8Nx4AHVY2g2ttjP521CpCQ8TPWpgQrpiojrHmFE"
+    },
+    {
+     "rank": 4,
+     "title": "ken jeong",
+     "traffic": 500,
+     "traffic_raw": "500+",
+     "news_title": "Ken Jeong Jokes His Wife Told Him He Has a ‘Face for Audio’ Ahead of New Audible Original (Exclusive)",
+     "news_url": "https://people.com/celebrity-ken-jeong-wife-said-he-has-a-face-for-audio-exclusive-12190021",
+     "url": "https://people.com/celebrity-ken-jeong-wife-said-he-has-a-face-for-audio-exclusive-12190021",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwSxws-E7mpNA29HfVu3BYhzeEgKlmylajNz2XD4sG2jVIEja-NHsUV1BN6pA"
+    },
+    {
+     "rank": 5,
+     "title": "terrence shannon jr.",
+     "traffic": 500,
+     "traffic_raw": "500+",
+     "news_title": "One Underrated Timberwolves Wing Gets High Praise From Chris Finch",
+     "news_url": "https://sports.yahoo.com/articles/one-underrated-timberwolves-wing-gets-130036612.html",
+     "url": "https://sports.yahoo.com/articles/one-underrated-timberwolves-wing-gets-130036612.html",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFV_Q14f5qo6hdhIICI6sxlpqbQ7TdUUs4p55pawt3kB-Dbym3yf_Znx-izP8"
+    },
+    {
+     "rank": 6,
+     "title": "querétaro - cruz azul",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "Querétaro vs Cruz Azul: posibles alineaciones y probabilidades",
+     "news_url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/17426445/queretaro-vs-cruz-azul-alineaciones-posibles-jornada-14",
+     "url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/17426445/queretaro-vs-cruz-azul-alineaciones-posibles-jornada-14",
+     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6cqclVemi_-V1jnCLQ4IQRcbLFCTWqTWztg_372pA_3xMk3EpdGMVF-jRqjU"
+    },
+    {
+     "rank": 7,
+     "title": "is taylor swift in seattle for chiefs game",
+     "traffic": 200,
+     "traffic_raw": "200+",
+     "news_title": "Is Taylor Swift at the Chiefs game tonight? Status for Week 7 vs. Seahawks",
+     "news_url": "https://www.usatoday.com/story/sports/nfl/chiefs/2026/10/25/taylor-swift-chiefs-seahawks/92415297007/",
+     "url": "https://www.usatoday.com/story/sports/nfl/chiefs/2026/10/25/taylor-swift-chiefs-seahawks/92415297007/",
+     "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQuZ_GbtT-CoEZzaTrGqFrmBpegtHQkMRseB07r5nkf3EvGqZkG_Y1u8xn2jRU"
+    },
+    {
+     "rank": 8,
+     "title": "kenneth walker",
+     "traffic": 2000,
+     "traffic_raw": "2000+",
+     "news_title": "Kenneth Walker III is thriving with Chiefs. Why did the Seahawks let him go?",
+     "news_url": "https://www.espn.com/nfl/story/_/id/50233140/seattle-seahawks-kansas-city-chiefs-kenneth-walker",
+     "url": "https://www.espn.com/nfl/story/_/id/50233140/seattle-seahawks-kansas-city-chiefs-kenneth-walker",
+     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqJSX6-NtKNZkcBS62Sl1MoFUQro_iJwvK9RRo3U5X2zRPfMDLMsYH3WdRg-A"
+    },
+    {
+     "rank": 9,
+     "title": "phantom blade zero",
+     "traffic": 1000,
+     "traffic_raw": "1000+",
+     "news_title": "Phantom Blade Zero Review",
+     "news_url": "https://www.ign.com/articles/phantom-blade-zero-review",
+     "url": "https://www.ign.com/articles/phantom-blade-zero-review",
+     "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSWnErwbNetwbBqN5iAeoTnSL6qe8j7fg5k47zXxCCYj4aNYIUJSQkBgrtSJWY"
+    },
+    {
+     "rank": 10,
+     "title": "dolar hoje",
+     "traffic": 500,
+     "traffic_raw": "500+",
+     "news_title": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
+     "news_url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana",
+     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTHzRE9hvdEhwGXV6bswo7vzyElfzgY8ijtIJhLTSZyn4AxCfqKJNKeFpWDV34"
+    }
+   ]
+  },
+  "wiki_en": {
+   "label": "위키백과 en",
+   "status": "ok",
+   "count": 20,
+   "items": [
+    {
+     "title": "Clayface (film)",
+     "views": 231483,
+     "rank": 1,
+     "src_rank": 4,
+     "url": "https://en.wikipedia.org/wiki/Clayface_%28film%29"
+    },
+    {
+     "title": "UFC 333",
+     "views": 224691,
+     "rank": 2,
+     "src_rank": 5,
+     "url": "https://en.wikipedia.org/wiki/UFC_333"
+    },
+    {
+     "title": "Jailer 2",
+     "views": 190945,
+     "rank": 3,
+     "src_rank": 6,
+     "url": "https://en.wikipedia.org/wiki/Jailer_2"
+    },
+    {
+     "title": "Elizabeth Holmes",
+     "views": 188874,
+     "rank": 4,
+     "src_rank": 7,
+     "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+    },
+    {
+     "title": ".xxx",
+     "views": 155001,
+     "rank": 5,
+     "src_rank": 8,
+     "url": "https://en.wikipedia.org/wiki/.xxx"
+    },
+    {
+     "title": "You Can See Everything",
+     "views": 152908,
+     "rank": 6,
+     "src_rank": 9,
+     "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything"
+    },
+    {
+     "title": "Jacob Misiorowski",
+     "views": 133083,
+     "rank": 7,
+     "src_rank": 10,
+     "url": "https://en.wikipedia.org/wiki/Jacob_Misiorowski"
+    },
+    {
+     "title": "Deaths in 2026",
+     "views": 124463,
+     "rank": 8,
+     "src_rank": 11,
+     "url": "https://en.wikipedia.org/wiki/Deaths_in_2026"
+    },
+    {
+     "title": "Ansel Adams",
+     "views": 124107,
+     "rank": 9,
+     "src_rank": 12,
+     "url": "https://en.wikipedia.org/wiki/Ansel_Adams"
+    },
+    {
+     "title": "Kehlsteinhaus",
+     "views": 110874,
+     "rank": 10,
+     "src_rank": 13,
+     "url": "https://en.wikipedia.org/wiki/Kehlsteinhaus"
+    },
+    {
+     "title": "Wildwood (film)",
+     "views": 96858,
+     "rank": 11,
+     "src_rank": 14,
+     "url": "https://en.wikipedia.org/wiki/Wildwood_%28film%29"
+    },
+    {
+     "title": "Tom Skerritt",
+     "views": 88131,
+     "rank": 12,
+     "src_rank": 15,
+     "url": "https://en.wikipedia.org/wiki/Tom_Skerritt"
+    },
+    {
+     "title": "Téa Leoni",
+     "views": 88011,
+     "rank": 13,
+     "src_rank": 16,
+     "url": "https://en.wikipedia.org/wiki/T%C3%A9a_Leoni"
+    },
+    {
+     "title": "Alexander Volkanovski",
+     "views": 87200,
+     "rank": 14,
+     "src_rank": 17,
+     "url": "https://en.wikipedia.org/wiki/Alexander_Volkanovski"
+    },
+    {
+     "title": "Dorothy (film)",
+     "views": 86581,
+     "rank": 15,
+     "src_rank": 18,
+     "url": "https://en.wikipedia.org/wiki/Dorothy_%28film%29"
+    },
+    {
+     "title": "Ainsley Earhardt",
+     "views": 84850,
+     "rank": 16,
+     "src_rank": 19,
+     "url": "https://en.wikipedia.org/wiki/Ainsley_Earhardt"
+    },
+    {
+     "title": "Wicker (film)",
+     "views": 83719,
+     "rank": 17,
+     "src_rank": 20,
+     "url": "https://en.wikipedia.org/wiki/Wicker_%28film%29"
+    },
+    {
+     "title": "H3h3Productions",
+     "views": 83511,
+     "rank": 18,
+     "src_rank": 21,
+     "url": "https://en.wikipedia.org/wiki/H3h3Productions"
+    },
+    {
+     "title": "Billy Evans (businessman)",
+     "views": 82296,
+     "rank": 19,
+     "src_rank": 22,
+     "url": "https://en.wikipedia.org/wiki/Billy_Evans_%28businessman%29"
+    },
+    {
+     "title": "Māori people",
+     "views": 81051,
+     "rank": 20,
+     "src_rank": 23,
+     "url": "https://en.wikipedia.org/wiki/M%C4%81ori_people"
+    }
+   ],
+   "day": "2026-10-24"
+  },
+  "wiki_ko": {
+   "label": "위키백과 ko",
+   "status": "ok",
+   "count": 20,
+   "items": [
+    {
+     "title": "문화방송",
+     "views": 10956,
+     "rank": 1,
+     "src_rank": 2,
+     "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1"
+    },
+    {
+     "title": "한국방송공사",
+     "views": 10049,
+     "rank": 2,
+     "src_rank": 3,
+     "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EB%B0%A9%EC%86%A1%EA%B3%B5%EC%82%AC"
+    },
+    {
+     "title": "한국교육방송공사",
+     "views": 6838,
+     "rank": 3,
+     "src_rank": 5,
+     "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EA%B5%90%EC%9C%A1%EB%B0%A9%EC%86%A1%EA%B3%B5%EC%82%AC"
+    },
+    {
+     "title": "이진희 (배우)",
+     "views": 5496,
+     "rank": 4,
+     "src_rank": 6,
+     "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84%ED%9D%AC_%28%EB%B0%B0%EC%9A%B0%29"
+    },
+    {
+     "title": "김지원 (배우)",
+     "views": 3701,
+     "rank": 5,
+     "src_rank": 7,
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%A7%80%EC%9B%90_%28%EB%B0%B0%EC%9A%B0%29"
+    },
+    {
+     "title": "5·18 광주 민주화 운동",
+     "views": 2565,
+     "rank": 6,
+     "src_rank": 8,
+     "url": "https://ko.wikipedia.org/wiki/5%C2%B718_%EA%B4%91%EC%A3%BC_%EB%AF%BC%EC%A3%BC%ED%99%94_%EC%9A%B4%EB%8F%99"
+    },
+    {
+     "title": "양홍원",
+     "views": 2557,
+     "rank": 7,
+     "src_rank": 9,
+     "url": "https://ko.wikipedia.org/wiki/%EC%96%91%ED%99%8D%EC%9B%90"
+    },
+    {
+     "title": "김영임 (국악인)",
+     "views": 2404,
+     "rank": 8,
+     "src_rank": 10,
+     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%98%81%EC%9E%84_%28%EA%B5%AD%EC%95%85%EC%9D%B8%29"
+    },
+    {
+     "title": "닥터X: 하얀 마피아의 시대",
+     "views": 2261,
+     "rank": 9,
+     "src_rank": 11,
+     "url": "https://ko.wikipedia.org/wiki/%EB%8B%A5%ED%84%B0X%3A_%ED%95%98%EC%96%80_%EB%A7%88%ED%94%BC%EC%95%84%EC%9D%98_%EC%8B%9C%EB%8C%80"
+    },
+    {
+     "title": "손석구",
+     "views": 2114,
+     "rank": 10,
+     "src_rank": 12,
+     "url": "https://ko.wikipedia.org/wiki/%EC%86%90%EC%84%9D%EA%B5%AC"
+    },
+    {
+     "title": "흥례문",
+     "views": 2032,
+     "rank": 11,
+     "src_rank": 13,
+     "url": "https://ko.wikipedia.org/wiki/%ED%9D%A5%EB%A1%80%EB%AC%B8"
+    },
+    {
+     "title": "푸사를라 벵카타 신두",
+     "views": 1959,
+     "rank": 12,
+     "src_rank": 14,
+     "url": "https://ko.wikipedia.org/wiki/%ED%91%B8%EC%82%AC%EB%A5%BC%EB%9D%BC_%EB%B2%B5%EC%B9%B4%ED%83%80_%EC%8B%A0%EB%91%90"
+    },
+    {
+     "title": "안세호",
+     "views": 1903,
+     "rank": 13,
+     "src_rank": 15,
+     "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%84%B8%ED%98%B8"
+    },
+    {
+     "title": "박진영 (1994년)",
+     "views": 1861,
+     "rank": 14,
+     "src_rank": 16,
+     "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%84%EC%98%81_%281994%EB%85%84%29"
+    },
+    {
+     "title": "전두환",
+     "views": 1803,
+     "rank": 15,
+     "src_rank": 17,
+     "url": "https://ko.wikipedia.org/wiki/%EC%A0%84%EB%91%90%ED%99%98"
+    },
+    {
+     "title": "웅산 (가수)",
+     "views": 1762,
+     "rank": 16,
+     "src_rank": 18,
+     "url": "https://ko.wikipedia.org/wiki/%EC%9B%85%EC%82%B0_%28%EA%B0%80%EC%88%98%29"
+    },
+    {
+     "title": "오세훈",
+     "views": 1747,
+     "rank": 17,
+     "src_rank": 19,
+     "url": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%84%B8%ED%9B%88"
+    },
+    {
+     "title": "최희서",
+     "views": 1663,
+     "rank": 18,
+     "src_rank": 20,
+     "url": "https://ko.wikipedia.org/wiki/%EC%B5%9C%ED%9D%AC%EC%84%9C"
+    },
+    {
+     "title": "100일의 거짓말",
+     "views": 1506,
+     "rank": 19,
+     "src_rank": 21,
+     "url": "https://ko.wikipedia.org/wiki/100%EC%9D%BC%EC%9D%98_%EA%B1%B0%EC%A7%93%EB%A7%90"
+    },
+    {
+     "title": "이정림 (연출가)",
+     "views": 1485,
+     "rank": 20,
+     "src_rank": 22,
+     "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A0%95%EB%A6%BC_%28%EC%97%B0%EC%B6%9C%EA%B0%80%29"
+    }
+   ],
+   "day": "2026-10-24"
+  },
+  "imgflip": {
+   "label": "Imgflip 템플릿",
+   "status": "ok",
+   "count": 100,
+   "items": [
+    {
+     "rank": 1,
+     "id": "181913649",
+     "name": "Drake Hotline Bling",
+     "url": "https://i.imgflip.com/30b1gx.jpg",
+     "box_count": 2,
+     "captions": 1579000
+    },
+    {
+     "rank": 2,
+     "id": "87743020",
+     "name": "Two Buttons",
+     "url": "https://i.imgflip.com/1g8my4.jpg",
+     "box_count": 3,
+     "captions": 1227250
+    },
+    {
+     "rank": 3,
+     "id": "112126428",
+     "name": "Distracted Boyfriend",
+     "url": "https://i.imgflip.com/1ur9b0.jpg",
+     "box_count": 3,
+     "captions": 1201750
+    },
+    {
+     "rank": 4,
+     "id": "222403160",
+     "name": "Bernie I Am Once Again Asking For Your Support",
+     "url": "https://i.imgflip.com/3oevdk.jpg",
+     "box_count": 2,
+     "captions": 357250
+    },
+    {
+     "rank": 5,
+     "id": "217743513",
+     "name": "UNO Draw 25 Cards",
+     "url": "https://i.imgflip.com/3lmzyx.jpg",
+     "box_count": 2,
+     "captions": 668500
+    },
+    {
+     "rank": 6,
+     "id": "252600902",
+     "name": "Always Has Been",
+     "url": "https://i.imgflip.com/46e43q.png",
+     "box_count": 2,
+     "captions": 251750
+    },
+    {
+     "rank": 7,
+     "id": "124822590",
+     "name": "Left Exit 12 Off Ramp",
+     "url": "https://i.imgflip.com/22bdq6.jpg",
+     "box_count": 3,
+     "captions": 747750
+    },
+    {
+     "rank": 8,
+     "id": "322841258",
+     "name": "Anakin Padme 4 Panel",
+     "url": "https://i.imgflip.com/5c7lwq.png",
+     "box_count": 3,
+     "captions": 156500
+    },
+    {
+     "rank": 9,
+     "id": "135256802",
+     "name": "Epic Handshake",
+     "url": "https://i.imgflip.com/28j0te.jpg",
+     "box_count": 3,
+     "captions": 272000
+    },
+    {
+     "rank": 10,
+     "id": "131940431",
+     "name": "Gru's Plan",
+     "url": "https://i.imgflip.com/26jxvz.jpg",
+     "box_count": 4,
+     "captions": 388750
+    },
+    {
+     "rank": 11,
+     "id": "97984",
+     "name": "Disaster Girl",
+     "url": "https://i.imgflip.com/23ls.jpg",
+     "box_count": 2,
+     "captions": 444750
+    },
+    {
+     "rank": 12,
+     "id": "131087935",
+     "name": "Running Away Balloon",
+     "url": "https://i.imgflip.com/261o3j.jpg",
+     "box_count": 5,
+     "captions": 606750
+    },
+    {
+     "rank": 13,
+     "id": "4087833",
+     "name": "Waiting Skeleton",
+     "url": "https://i.imgflip.com/2fm6x.jpg",
+     "box_count": 2,
+     "captions": 499500
+    },
+    {
+     "rank": 14,
+     "id": "80707627",
+     "name": "Sad Pablo Escobar",
+     "url": "https://i.imgflip.com/1c1uej.jpg",
+     "box_count": 3,
+     "captions": 261000
+    },
+    {
+     "rank": 15,
+     "id": "91538330",
+     "name": "X, X Everywhere",
+     "url": "https://i.imgflip.com/1ihzfe.jpg",
+     "box_count": 2,
+     "captions": 413000
+    },
+    {
+     "rank": 16,
+     "id": "309868304",
+     "name": "Trade Offer",
+     "url": "https://i.imgflip.com/54hjww.jpg",
+     "box_count": 3,
+     "captions": 133750
+    },
+    {
+     "rank": 17,
+     "id": "129242436",
+     "name": "Change My Mind",
+     "url": "https://i.imgflip.com/24y43o.jpg",
+     "box_count": 2,
+     "captions": 681500
+    },
+    {
+     "rank": 18,
+     "id": "188390779",
+     "name": "Woman Yelling At Cat",
+     "url": "https://i.imgflip.com/345v97.jpg",
+     "box_count": 2,
+     "captions": 411750
+    },
+    {
+     "rank": 19,
+     "id": "161865971",
+     "name": "Marked Safe From",
+     "url": "https://i.imgflip.com/2odckz.jpg",
+     "box_count": 2,
+     "captions": 234000
+    },
+    {
+     "rank": 20,
+     "id": "224015000",
+     "name": "Bernie Sanders Once Again Asking",
+     "url": "https://i.imgflip.com/3pdf2w.png",
+     "box_count": 2,
+     "captions": 70500
+    },
+    {
+     "rank": 21,
+     "id": "124055727",
+     "name": "Y'all Got Any More Of That",
+     "url": "https://i.imgflip.com/21uy0f.jpg",
+     "box_count": 2,
+     "captions": 235000
+    },
+    {
+     "rank": 22,
+     "id": "438680",
+     "name": "Batman Slapping Robin",
+     "url": "https://i.imgflip.com/9ehk.jpg",
+     "box_count": 2,
+     "captions": 672750
+    },
+    {
+     "rank": 23,
+     "id": "101470",
+     "name": "Ancient Aliens",
+     "url": "https://i.imgflip.com/26am.jpg",
+     "box_count": 2,
+     "captions": 388250
+    },
+    {
+     "rank": 24,
+     "id": "102156234",
+     "name": "Mocking Spongebob",
+     "url": "https://i.imgflip.com/1otk96.jpg",
+     "box_count": 2,
+     "captions": 458250
+    },
+    {
+     "rank": 25,
+     "id": "79132341",
+     "name": "Bike Fall",
+     "url": "https://i.imgflip.com/1b42wl.jpg",
+     "box_count": 3,
+     "captions": 149000
+    },
+    {
+     "rank": 26,
+     "id": "100777631",
+     "name": "Is This A Pigeon",
+     "url": "https://i.imgflip.com/1o00in.jpg",
+     "box_count": 3,
+     "captions": 244000
+    },
+    {
+     "rank": 27,
+     "id": "247375501",
+     "name": "Buff Doge vs. Cheems",
+     "url": "https://i.imgflip.com/43a45p.png",
+     "box_count": 4,
+     "captions": 387250
+    },
+    {
+     "rank": 28,
+     "id": "61579",
+     "name": "One Does Not Simply",
+     "url": "https://i.imgflip.com/1bij.jpg",
+     "box_count": 2,
+     "captions": 495250
+    },
+    {
+     "rank": 29,
+     "id": "427308417",
+     "name": "0 days without (Lenny, Simpsons)",
+     "url": "https://i.imgflip.com/72epa9.png",
+     "box_count": 2,
+     "captions": 50250
+    },
+    {
+     "rank": 30,
+     "id": "180190441",
+     "name": "They're The Same Picture",
+     "url": "https://i.imgflip.com/2za3u1.jpg",
+     "box_count": 3,
+     "captions": 191500
+    },
+    {
+     "rank": 31,
+     "id": "177682295",
+     "name": "You Guys are Getting Paid",
+     "url": "https://i.imgflip.com/2xscjb.png",
+     "box_count": 2,
+     "captions": 75250
+    },
+    {
+     "rank": 32,
+     "id": "505705955",
+     "name": "Absolute Cinema",
+     "url": "https://i.imgflip.com/8d317n.png",
+     "box_count": 2,
+     "captions": 33250
+    },
+    {
+     "rank": 33,
+     "id": "93895088",
+     "name": "Expanding Brain",
+     "url": "https://i.imgflip.com/1jwhww.jpg",
+     "box_count": 4,
+     "captions": 485750
+    },
+    {
+     "rank": 34,
+     "id": "252758727",
+     "name": "Mother Ignoring Kid Drowning In A Pool",
+     "url": "https://i.imgflip.com/46hhvr.jpg",
+     "box_count": 4,
+     "captions": 81250
+    },
+    {
+     "rank": 35,
+     "id": "3218037",
+     "name": "This Is Where I'd Put My Trophy If I Had One",
+     "url": "https://i.imgflip.com/1wz1x.jpg",
+     "box_count": 2,
+     "captions": 166000
+    },
+    {
+     "rank": 36,
+     "id": "67452763",
+     "name": "Squidward window",
+     "url": "https://i.imgflip.com/145qvv.jpg",
+     "box_count": 2,
+     "captions": 71250
+    },
+    {
+     "rank": 37,
+     "id": "28251713",
+     "name": "Oprah You Get A",
+     "url": "https://i.imgflip.com/gtj5t.jpg",
+     "box_count": 2,
+     "captions": 227750
+    },
+    {
+     "rank": 38,
+     "id": "178591752",
+     "name": "Tuxedo Winnie The Pooh",
+     "url": "https://i.imgflip.com/2ybua0.png",
+     "box_count": 2,
+     "captions": 289000
+    },
+    {
+     "rank": 39,
+     "id": "370867422",
+     "name": "Megamind peeking",
+     "url": "https://i.imgflip.com/64sz4u.png",
+     "box_count": 2,
+     "captions": 103500
+    },
+    {
+     "rank": 40,
+     "id": "55311130",
+     "name": "This Is Fine",
+     "url": "https://i.imgflip.com/wxica.jpg",
+     "box_count": 2,
+     "captions": 166750
+    },
+    {
+     "rank": 41,
+     "id": "77045868",
+     "name": "Pawn Stars Best I Can Do",
+     "url": "https://i.imgflip.com/19vcz0.jpg",
+     "box_count": 2,
+     "captions": 57500
+    },
+    {
+     "rank": 42,
+     "id": "110163934",
+     "name": "I Bet He's Thinking About Other Women",
+     "url": "https://i.imgflip.com/1tl71a.jpg",
+     "box_count": 2,
+     "captions": 190250
+    },
+    {
+     "rank": 43,
+     "id": "284929871",
+     "name": "They don't know",
+     "url": "https://i.imgflip.com/4pn1an.png",
+     "box_count": 2,
+     "captions": 52000
+    },
+    {
+     "rank": 44,
+     "id": "208915813",
+     "name": "George Bush 9/11",
+     "url": "https://i.imgflip.com/3gdsh1.jpg",
+     "box_count": 2,
+     "captions": 31000
+    },
+    {
+     "rank": 45,
+     "id": "533936279",
+     "name": "Bell Curve",
+     "url": "https://i.imgflip.com/8tw3vb.png",
+     "box_count": 3,
+     "captions": 38750
+    },
+    {
+     "rank": 46,
+     "id": "171305372",
+     "name": "Soldier protecting sleeping child",
+     "url": "https://i.imgflip.com/2tzo2k.jpg",
+     "box_count": 3,
+     "captions": 49750
+    },
+    {
+     "rank": 47,
+     "id": "148909805",
+     "name": "Monkey Puppet",
+     "url": "https://i.imgflip.com/2gnnjh.jpg",
+     "box_count": 2,
+     "captions": 233500
+    },
+    {
+     "rank": 48,
+     "id": "354700819",
+     "name": "Two guys on a bus",
+     "url": "https://i.imgflip.com/5v6gwj.jpg",
+     "box_count": 2,
+     "captions": 32000
+    },
+    {
+     "rank": 49,
+     "id": "89370399",
+     "name": "Roll Safe Think About It",
+     "url": "https://i.imgflip.com/1h7in3.jpg",
+     "box_count": 2,
+     "captions": 346000
+    },
+    {
+     "rank": 50,
+     "id": "27813981",
+     "name": "Hide the Pain Harold",
+     "url": "https://i.imgflip.com/gk5el.jpg",
+     "box_count": 2,
+     "captions": 247250
+    },
+    {
+     "rank": 51,
+     "id": "195515965",
+     "name": "Clown Applying Makeup",
+     "url": "https://i.imgflip.com/38el31.jpg",
+     "box_count": 4,
+     "captions": 132500
+    },
+    {
+     "rank": 52,
+     "id": "163573",
+     "name": "Imagination Spongebob",
+     "url": "https://i.imgflip.com/3i7p.jpg",
+     "box_count": 2,
+     "captions": 79250
+    },
+    {
+     "rank": 53,
+     "id": "1035805",
+     "name": "Boardroom Meeting Suggestion",
+     "url": "https://i.imgflip.com/m78d.jpg",
+     "box_count": 4,
+     "captions": 413750
+    },
+    {
+     "rank": 54,
+     "id": "316466202",
+     "name": "where monkey",
+     "url": "https://i.imgflip.com/58eyvu.png",
+     "box_count": 2,
+     "captions": 65250
+    },
+    {
+     "rank": 55,
+     "id": "206151308",
+     "name": "Spider Man Triple",
+     "url": "https://i.imgflip.com/3eqjd8.jpg",
+     "box_count": 3,
+     "captions": 46750
+    },
+    {
+     "rank": 56,
+     "id": "137501417",
+     "name": "Friendship ended",
+     "url": "https://i.imgflip.com/29v4rt.jpg",
+     "box_count": 2,
+     "captions": 41000
+    },
+    {
+     "rank": 57,
+     "id": "84341851",
+     "name": "Evil Kermit",
+     "url": "https://i.imgflip.com/1e7ql7.jpg",
+     "box_count": 2,
+     "captions": 167750
+    },
+    {
+     "rank": 58,
+     "id": "187102311",
+     "name": "Three-headed Dragon",
+     "url": "https://i.imgflip.com/33e92f.jpg",
+     "box_count": 4,
+     "captions": 55250
+    },
+    {
+     "rank": 59,
+     "id": "166969924",
+     "name": "Flex Tape",
+     "url": "https://i.imgflip.com/2reqtg.png",
+     "box_count": 3,
+     "captions": 79750
+    },
+    {
+     "rank": 60,
+     "id": "119215120",
+     "name": "Types of Headaches meme",
+     "url": "https://i.imgflip.com/1yz6z4.jpg",
+     "box_count": 2,
+     "captions": 75000
+    },
+    {
+     "rank": 61,
+     "id": "216523697",
+     "name": "All My Homies Hate",
+     "url": "https://i.imgflip.com/3kwur5.jpg",
+     "box_count": 2,
+     "captions": 57500
+    },
+    {
+     "rank": 62,
+     "id": "61585",
+     "name": "Bad Luck Brian",
+     "url": "https://i.imgflip.com/1bip.jpg",
+     "box_count": 2,
+     "captions": 199000
+    },
+    {
+     "rank": 63,
+     "id": "114585149",
+     "name": "Inhaling Seagull",
+     "url": "https://i.imgflip.com/1w7ygt.jpg",
+     "box_count": 4,
+     "captions": 254000
+    },
+    {
+     "rank": 64,
+     "id": "247113703",
+     "name": "A train hitting a school bus",
+     "url": "https://i.imgflip.com/434i5j.png",
+     "box_count": 2,
+     "captions": 70500
+    },
+    {
+     "rank": 65,
+     "id": "99683372",
+     "name": "Sleeping Shaq",
+     "url": "https://i.imgflip.com/1nck6k.jpg",
+     "box_count": 2,
+     "captions": 116500
+    },
+    {
+     "rank": 66,
+     "id": "129315248",
+     "name": "No - Yes",
+     "url": "https://i.imgflip.com/24zoa8.jpg",
+     "box_count": 2,
+     "captions": 40250
+    },
+    {
+     "rank": 67,
+     "id": "224514655",
+     "name": "Anime Girl Hiding from Terminator",
+     "url": "https://i.imgflip.com/3po4m7.jpg",
+     "box_count": 2,
+     "captions": 59250
+    },
+    {
+     "rank": 68,
+     "id": "221578498",
+     "name": "Grant Gustin over grave",
+     "url": "https://i.imgflip.com/3nx72a.png",
+     "box_count": 2,
+     "captions": 62000
+    },
+    {
+     "rank": 69,
+     "id": "259237855",
+     "name": "Laughing Leo",
+     "url": "https://i.imgflip.com/4acd7j.png",
+     "box_count": 2,
+     "captions": 122500
+    },
+    {
+     "rank": 70,
+     "id": "226297822",
+     "name": "Panik Kalm Panik",
+     "url": "https://i.imgflip.com/3qqcim.png",
+     "box_count": 3,
+     "captions": 227750
+    },
+    {
+     "rank": 71,
+     "id": "145139900",
+     "name": "Scooby doo mask reveal",
+     "url": "https://i.imgflip.com/2eeunw.jpg",
+     "box_count": 4,
+     "captions": 35000
+    },
+    {
+     "rank": 72,
+     "id": "101956210",
+     "name": "Whisper and Goosebumps",
+     "url": "https://i.imgflip.com/1op9wy.jpg",
+     "box_count": 2,
+     "captions": 63750
+    },
+    {
+     "rank": 73,
+     "id": "371619279",
+     "name": "Megamind no bitches",
+     "url": "https://i.imgflip.com/65939r.jpg",
+     "box_count": 2,
+     "captions": 32250
+    },
+    {
+     "rank": 74,
+     "id": "133946291",
+     "name": "You know, I'm something of a scientist myself",
+     "url": "https://i.imgflip.com/27qxmb.jpg",
+     "box_count": 2,
+     "captions": 29250
+    },
+    {
+     "rank": 75,
+     "id": "110133729",
+     "name": "spiderman pointing at spiderman",
+     "url": "https://i.imgflip.com/1tkjq9.jpg",
+     "box_count": 2,
+     "captions": 66750
+    },
+    {
+     "rank": 76,
+     "id": "104893621",
+     "name": "Grim Reaper Knocking Door",
+     "url": "https://i.imgflip.com/1qg8fp.jpg",
+     "box_count": 3,
+     "captions": 31000
+    },
+    {
+     "rank": 77,
+     "id": "234202281",
+     "name": "AJ Styles & Undertaker",
+     "url": "https://i.imgflip.com/3vfrmx.jpg",
+     "box_count": 2,
+     "captions": 48000
+    },
+    {
+     "rank": 78,
+     "id": "155067746",
+     "name": "Surprised Pikachu",
+     "url": "https://i.imgflip.com/2kbn1e.jpg",
+     "box_count": 3,
+     "captions": 251750
+    },
+    {
+     "rank": 79,
+     "id": "135678846",
+     "name": "Who Killed Hannibal",
+     "url": "https://i.imgflip.com/28s2gu.jpg",
+     "box_count": 3,
+     "captions": 144500
+    },
+    {
+     "rank": 80,
+     "id": "91998305",
+     "name": "Drake Blank",
+     "url": "https://i.imgflip.com/1iruch.jpg",
+     "box_count": 2,
+     "captions": 68250
+    },
+    {
+     "rank": 81,
+     "id": "72525473",
+     "name": "say the line bart! simpsons",
+     "url": "https://i.imgflip.com/176h0h.jpg",
+     "box_count": 3,
+     "captions": 32250
+    },
+    {
+     "rank": 82,
+     "id": "119139145",
+     "name": "Blank Nut Button",
+     "url": "https://i.imgflip.com/1yxkcp.jpg",
+     "box_count": 2,
+     "captions": 321000
+    },
+    {
+     "rank": 83,
+     "id": "61520",
+     "name": "Futurama Fry",
+     "url": "https://i.imgflip.com/1bgw.jpg",
+     "box_count": 2,
+     "captions": 322750
+    },
+    {
+     "rank": 84,
+     "id": "142009471",
+     "name": "is this butterfly",
+     "url": "https://i.imgflip.com/2cjr7j.jpg",
+     "box_count": 3,
+     "captions": 35250
+    },
+    {
+     "rank": 85,
+     "id": "162372564",
+     "name": "Domino Effect",
+     "url": "https://i.imgflip.com/2oo7h0.jpg",
+     "box_count": 2,
+     "captions": 39250
+    },
+    {
+     "rank": 86,
+     "id": "20007896",
+     "name": "c'mon do something",
+     "url": "https://i.imgflip.com/bwu6w.jpg",
+     "box_count": 2,
+     "captions": 37250
+    },
+    {
+     "rank": 87,
+     "id": "309668311",
+     "name": "Two Paths",
+     "url": "https://i.imgflip.com/54d9lj.png",
+     "box_count": 3,
+     "captions": 29000
+    },
+    {
+     "rank": 88,
+     "id": "29562797",
+     "name": "I'm The Captain Now",
+     "url": "https://i.imgflip.com/hlmst.jpg",
+     "box_count": 2,
+     "captions": 43500
+    },
+    {
+     "rank": 89,
+     "id": "29617627",
+     "name": "Look At Me",
+     "url": "https://i.imgflip.com/hmt3v.jpg",
+     "box_count": 2,
+     "captions": 71000
+    },
+    {
+     "rank": 90,
+     "id": "61556",
+     "name": "Grandma Finds The Internet",
+     "url": "https://i.imgflip.com/1bhw.jpg",
+     "box_count": 2,
+     "captions": 178000
+    },
+    {
+     "rank": 91,
+     "id": "21735",
+     "name": "The Rock Driving",
+     "url": "https://i.imgflip.com/grr.jpg",
+     "box_count": 2,
+     "captions": 233250
+    },
+    {
+     "rank": 92,
+     "id": "123999232",
+     "name": "The Scroll Of Truth",
+     "url": "https://i.imgflip.com/21tqf4.jpg",
+     "box_count": 2,
+     "captions": 236750
+    },
+    {
+     "rank": 93,
+     "id": "92084495",
+     "name": "Charlie Conspiracy (Always Sunny in Philidelphia)",
+     "url": "https://i.imgflip.com/1itoun.jpg",
+     "box_count": 2,
+     "captions": 42250
+    },
+    {
+     "rank": 94,
+     "id": "342785297",
+     "name": "Gus Fring we are not the same",
+     "url": "https://i.imgflip.com/5o32tt.png",
+     "box_count": 3,
+     "captions": 40750
+    },
+    {
+     "rank": 95,
+     "id": "14371066",
+     "name": "Star Wars Yoda",
+     "url": "https://i.imgflip.com/8k0sa.jpg",
+     "box_count": 2,
+     "captions": 148000
+    },
+    {
+     "rank": 96,
+     "id": "5496396",
+     "name": "Leonardo Dicaprio Cheers",
+     "url": "https://i.imgflip.com/39t1o.jpg",
+     "box_count": 2,
+     "captions": 252250
+    },
+    {
+     "rank": 97,
+     "id": "101288",
+     "name": "Third World Skeptical Kid",
+     "url": "https://i.imgflip.com/265k.jpg",
+     "box_count": 2,
+     "captions": 199750
+    },
+    {
+     "rank": 98,
+     "id": "360597639",
+     "name": "whe i'm in a competition and my opponent is",
+     "url": "https://i.imgflip.com/5youx3.jpg",
+     "box_count": 2,
+     "captions": 29000
+    },
+    {
+     "rank": 99,
+     "id": "134797956",
+     "name": "American Chopper Argument",
+     "url": "https://i.imgflip.com/2896ro.jpg",
+     "box_count": 5,
+     "captions": 191750
+    },
+    {
+     "rank": 100,
+     "id": "16464531",
+     "name": "But That's None Of My Business",
+     "url": "https://i.imgflip.com/9sw43.jpg",
+     "box_count": 2,
+     "captions": 133250
+    }
+   ]
+  },
+  "reddit_tiktokcringe": {
+   "label": "Reddit r/TikTokCringe",
+   "status": "ok",
+   "count": 8,
+   "items": [
+    {
+     "rank": 1,
+     "title": "Brush your enthusiasm",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xf389m/brush_your_enthusiasm/"
+    },
+    {
+     "rank": 2,
+     "title": "Bro is really badass",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xeot10/bro_is_really_badass/"
+    },
+    {
+     "rank": 3,
+     "title": "Getting wet can be depressing",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xeqamy/getting_wet_can_be_depressing/"
+    },
+    {
+     "rank": 4,
+     "title": "Girl thought he was rapping",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xf6s1s/girl_thought_he_was_rapping/"
+    },
+    {
+     "rank": 5,
+     "title": "We dont need eyebrows to express ourselves",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xf7ltm/we_dont_need_eyebrows_to_express_ourselves/"
+    },
+    {
+     "rank": 6,
+     "title": "Cops are called on a black three-year-old due to being too good at soccer",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xffyqt/cops_are_called_on_a_black_threeyearold_due_to/"
+    },
+    {
+     "rank": 7,
+     "title": "Will the real Slim Hades please stand up? You got 24 hours to respond.",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xetwat/will_the_real_slim_hades_please_stand_up_you_got/"
+    },
+    {
+     "rank": 8,
+     "title": "Copycat!",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xf37i3/copycat/"
+    }
+   ]
+  },
+  "reddit_memes": {
+   "label": "Reddit r/memes",
+   "status": "ok",
+   "count": 8,
+   "items": [
+    {
+     "rank": 1,
+     "title": "It ain't much, but it's honest work",
+     "url": "https://www.reddit.com/r/memes/comments/1xf0lnz/it_aint_much_but_its_honest_work/"
+    },
+    {
+     "rank": 2,
+     "title": "Where is it",
+     "url": "https://www.reddit.com/r/memes/comments/1xexnp6/where_is_it/"
+    },
+    {
+     "rank": 3,
+     "title": "It is who I am",
+     "url": "https://www.reddit.com/r/memes/comments/1xeqc5w/it_is_who_i_am/"
+    },
+    {
+     "rank": 4,
+     "title": "Aaaaaaaaaaaaaa",
+     "url": "https://www.reddit.com/r/memes/comments/1xfauu0/aaaaaaaaaaaaaa/"
+    },
+    {
+     "rank": 5,
+     "title": "How foolish we were.",
+     "url": "https://www.reddit.com/r/memes/comments/1xf7b0u/how_foolish_we_were/"
+    },
+    {
+     "rank": 6,
+     "title": "Asked bro and gf for $500",
+     "url": "https://www.reddit.com/r/memes/comments/1xf8llv/asked_bro_and_gf_for_500/"
+    },
+    {
+     "rank": 7,
+     "title": "Sweet irony",
+     "url": "https://www.reddit.com/r/memes/comments/1xexmcq/sweet_irony/"
+    },
+    {
+     "rank": 8,
+     "title": "Just give them 6-12 months (its exponential, trust us guys!)",
+     "url": "https://www.reddit.com/r/memes/comments/1xf0rki/just_give_them_612_months_its_exponential_trust/"
+    }
+   ]
+  },
+  "reddit_popculturechat": {
+   "label": "Reddit r/popculturechat",
+   "status": "ok",
+   "count": 8,
+   "items": [
+    {
+     "rank": 1,
+     "title": "Cardi B at the KATSEYE concert with her daughters Kulture and Blossom in New York City - October 24, 2026",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xevlnf/cardi_b_at_the_katseye_concert_with_her_daughters/"
+    },
+    {
+     "rank": 2,
+     "title": "Nicki Minaj Floated As Press Secretary Replacement By White House Staffers",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xfemnx/nicki_minaj_floated_as_press_secretary/"
+    },
+    {
+     "rank": 3,
+     "title": "Ms. Rachel: “Vote like children's lives depend on it because they do.”",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xf2xgu/ms_rachel_vote_like_childrens_lives_depend_on_it/"
+    },
+    {
+     "rank": 4,
+     "title": "The Weeknd’s Halloween costumes throughout the years🎃",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xerzq9/the_weeknds_halloween_costumes_throughout_the/"
+    },
+    {
+     "rank": 5,
+     "title": "15 years ago, Tumblr BLEW up when Zac Efron and Ashley Tisdale were caught acting sus on a beach together, six month after Zanessa ended",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xf2l2t/15_years_ago_tumblr_blew_up_when_zac_efron_and/"
+    },
+    {
+     "rank": 6,
+     "title": "Jon Batiste shares pictures with wife Suleika Jaouad as she continues battling acute myeloid leukemia: ‘The kids doing alright today, and still madly in love 🙏🏾’",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xfbejj/jon_batiste_shares_pictures_with_wife_suleika/"
+    },
+    {
+     "rank": 7,
+     "title": "Turnstile performed a free concert on the National Mall in Washington to raise funds for humanitarian relief efforts in Palestine, Sudan, and Lebanon - October 24, 2026",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xf1gmw/turnstile_performed_a_free_concert_on_the/"
+    },
+    {
+     "rank": 8,
+     "title": "Tom Brady and Supermodel Candice Swanepoel Have Been Dating ‘For a While,’ Source Says",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xf3q8a/tom_brady_and_supermodel_candice_swanepoel_have/"
+    }
+   ]
+  },
+  "reddit_shorts": {
+   "label": "Reddit r/shorts",
+   "status": "ok",
+   "count": 6,
+   "items": [
+    {
+     "rank": 1,
+     "title": "Public Shame — Surveillance, Outrage and False Matches (56s documentary excerpt)",
+     "url": "https://www.reddit.com/r/shorts/comments/1xfdnam/public_shame_surveillance_outrage_and_false/"
+    },
+    {
+     "rank": 2,
+     "title": "Zephyr'in Hikâyesi: Rüzgâr Dansçısı ve Harpiler | Rift Survivors #Shorts",
+     "url": "https://www.reddit.com/r/shorts/comments/1xfawj8/zephyrin_hikâyesi_rüzgâr_dansçısı_ve_harpiler/"
+    },
+    {
+     "rank": 3,
+     "title": "Fana Tiek",
+     "url": "https://www.reddit.com/r/shorts/comments/1xf8hwc/fana_tiek/"
+    },
+    {
+     "rank": 4,
+     "title": "63 DERECEDE YAŞAYAN CANLI!",
+     "url": "https://www.reddit.com/r/shorts/comments/1xf3yoc/63_derecede_yaşayan_canli/"
+    },
+    {
+     "rank": 5,
+     "title": "Hubble Teleskobu Bir Galaksiyi Tam Kenarından Görüntüledi! 🌌",
+     "url": "https://www.reddit.com/r/shorts/comments/1xf3jj9/hubble_teleskobu_bir_galaksiyi_tam_kenarından/"
+    },
+    {
+     "rank": 6,
+     "title": "The Club Promo",
+     "url": "https://www.reddit.com/r/shorts/comments/1xet5a5/the_club_promo/"
+    }
+   ]
+  },
+  "reddit_gaming": {
+   "label": "Reddit r/gaming",
+   "status": "ok",
+   "count": 8,
+   "items": [
+    {
+     "rank": 1,
+     "title": "Zelda painting - acrylics on canvas",
+     "url": "https://www.reddit.com/r/gaming/comments/1xf1z75/zelda_painting_acrylics_on_canvas/"
+    },
+    {
+     "rank": 2,
+     "title": "Within 3 years (2007-2009), BioWare made two of the best narrative-driven Sci-Fi and fantasy games of all time",
+     "url": "https://www.reddit.com/r/gaming/comments/1xet4wt/within_3_years_20072009_bioware_made_two_of_the/"
+    },
+    {
+     "rank": 3,
+     "title": "The total overhaul mod for TES3: Morrowind, Morrowind Rebirth, releases another update (v 7.2)",
+     "url": "https://www.reddit.com/r/gaming/comments/1xesilf/the_total_overhaul_mod_for_tes3_morrowind/"
+    },
+    {
+     "rank": 4,
+     "title": "Shenmue 3 Enhanced Delayed to Early 2027",
+     "url": "https://www.reddit.com/r/gaming/comments/1xf94bz/shenmue_3_enhanced_delayed_to_early_2027/"
+    },
+    {
+     "rank": 5,
+     "title": "Battlefield 3 turns 15 today. I finally finished the tribute I’ve wanted to make for years.",
+     "url": "https://www.reddit.com/r/gaming/comments/1xf9aba/battlefield_3_turns_15_today_i_finally_finished/"
+    },
+    {
+     "rank": 6,
+     "title": "Harder to find!",
+     "url": "https://www.reddit.com/r/gaming/comments/1xfdjbv/harder_to_find/"
+    },
+    {
+     "rank": 7,
+     "title": "What was the last game you beat and what are you playing now?",
+     "url": "https://www.reddit.com/r/gaming/comments/1xf7ayz/what_was_the_last_game_you_beat_and_what_are_you/"
+    },
+    {
+     "rank": 8,
+     "title": "SimCity 4 - Pushing the limit of a 23 year old game",
+     "url": "https://www.reddit.com/r/gaming/comments/1xf10xq/simcity_4_pushing_the_limit_of_a_23_year_old_game/"
+    }
+   ]
+  },
+  "reddit_indiegaming": {
+   "label": "Reddit r/IndieGaming",
+   "status": "ok",
+   "count": 8,
+   "items": [
+    {
+     "rank": 1,
+     "title": "My response to AI slop? Painting every pixel by hand",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xesu0z/my_response_to_ai_slop_painting_every_pixel_by/"
+    },
+    {
+     "rank": 2,
+     "title": "COP BASTARD - solodev VHS style FPS inpired by 90s action movies and Max Payne/F.E.A.R",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xf2c9k/cop_bastard_solodev_vhs_style_fps_inpired_by_90s/"
+    },
+    {
+     "rank": 3,
+     "title": "I'm making a game where you catch stars from the sky using a black hole on a fishing rod",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xexeko/im_making_a_game_where_you_catch_stars_from_the/"
+    },
+    {
+     "rank": 4,
+     "title": "US Military vs Horde Zombies. Who's gonna win?",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xfbqe6/us_military_vs_horde_zombies_whos_gonna_win/"
+    },
+    {
+     "rank": 5,
+     "title": "I'm making a game where you draw your own hero, then team up with friends to fight hordes as your drawing",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xf1ql7/im_making_a_game_where_you_draw_your_own_hero/"
+    },
+    {
+     "rank": 6,
+     "title": "THE 180+ HIDDEN GEMS — FALL STEAM NEXT FEST 2026 — ZERO GEN-AI!",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xew97s/the_180_hidden_gems_fall_steam_next_fest_2026/"
+    },
+    {
+     "rank": 7,
+     "title": "Making a boomer shooter by hand in a world obsessed with AI.",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xf6hm1/making_a_boomer_shooter_by_hand_in_a_world/"
+    },
+    {
+     "rank": 8,
+     "title": "Less than 500 wishlists but I am glad this is out soon. Feedback is welcome!!",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xep7fu/less_than_500_wishlists_but_i_am_glad_this_is_out/"
+    }
+   ]
+  }
+ }
+}
