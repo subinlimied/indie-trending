@@ -129,7 +129,7 @@ Steam과 itch.io는 **각각 별도 리포트** 로 냅니다. 공통 섹션 "�
 | 소스 | 쓰는 값 | 한계 |
 |---|---|---|
 | Steam 검색 JSON (`search/results/?infinite=1`) | 목록 순위(지역 7개 × 목록 3개 + New Releases), 이름, 태그, 가격, 할인 | 비공식, 구조 변경 가능. 글로벌 순위는 지역 평균 합성값 |
-| Steam `appreviews` | 리뷰 총수·긍정·부정 | 공식 |
+| Steam `appreviews` | 리뷰 총수·긍정·부정 | 공식. 2026-10-23 부터 302 로 응답하지 않음. **리뷰 수 = SteamSpy 긍정+부정 합계(appreviews 차단 이후)** → 없으면 검색 결과의 리뷰 수 → appdetails recommendations 순. SteamSpy 는 집계가 하루쯤 늦어 스토어 표시값과 다를 수 있고, 소스는 `reviews_source` 로 남김. appreviews 가 다시 열려도 시계열 일관성을 위해 당분간 SteamSpy 를 기본으로 둠 |
 | Steam `GetNumberOfCurrentPlayers` | 현재 동접 | 공식, 수집 시각 의존 |
 | Steam `appdetails` | 출시일, 개발사, 퍼블리셔, 장르, 데모 | 분당 호출 제한 → 메타는 캐시 |
 | SteamSpy `appdetails` | 오너 구간, 2주 평균 플레이, 태그 투표 수 | 추정치, 초당 1회 |

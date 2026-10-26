@@ -17,6 +17,7 @@ DISCORD_WEBHOOK_URL_PERSONAL=... python3 personal.py --date 2026-10-21   # 개�
 - `--date` 를 빼면 오늘(KST)입니다. `--only steam|itch` 로 한 플랫폼만 돌릴 수 있습니다.
 - 같은 날짜 스냅샷이 있으면 수집을 건너뜁니다. 다시 받으려면 `collect.py --force`.
 - 수집은 한 번에 하나만 돌리세요. 같은 IP에서 겹치면 Steam 리뷰 API가 429를 냅니다.
+- **리뷰 수 소스**: Steam `appreviews` 가 2026-10-23 무렵부터 302 로 스토어 첫 화면을 돌려줍니다. 수집기는 응답이 JSON 이 아니면 포기하고(처음 5개가 연속 실패하면 나머지 호출 생략) **SteamSpy `positive+negative`(기본, 집계가 하루쯤 늦어 스토어 표시값과 다를 수 있음)** → 검색 목록 행의 `review_count` → appdetails `recommendations.total` → appreviews 순으로 채우며, 어떤 소스를 썼는지 `reviews_source`(appreviews · search · spy · recommendations)에 남깁니다. 같은 앱은 전날과 같은 소스를 우선해 7일 증가량이 소스 변경으로 흔들리지 않게 합니다. 공식 집계가 아닐 때는 리포트 머리의 기준 줄에 "리뷰 수는 검색 집계 기준" 각주가 한 줄 붙고, 상태 칸 "리뷰 소스"에 소스별 개수가 나옵니다. 비어 있는 옛 스냅샷은 `python3 scripts/backfill_reviews.py` 로 같은 순서로 한 번 채울 수 있습니다(SteamSpy 값이 없는 앱은 다시 받아 `data/cache/steam_spy_reviews.json` 에 저장, 우선순위가 바뀌면 `--redo`).
 - 회차 1은 비교 대상이 없어 "회차 1 · 비교 없음"으로 나오고, 급상승 판정은 회차 2부터, 연속 판정(승격)은 회차 3부터 들어갑니다.
 
 ## 디자인 토큰 · 차트 (모든 리포트 공통)

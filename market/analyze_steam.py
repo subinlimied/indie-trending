@@ -1,6 +1,6 @@
 """Steam 스냅샷 → 리포트 dict (rules.md §4~§9)."""
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from . import series as series_mod
 from .common import (State, delta, fmt_int, fmt_money, fmt_pct, fmt_signed, fmt_usd, load_snaps, pct,
@@ -9,6 +9,7 @@ from .common import (State, delta, fmt_int, fmt_money, fmt_pct, fmt_signed, fmt_
 LIST_KO = {"topsellers": "Top Sellers", "popularnew": "New & Trending",
            "comingsoon": "Popular Upcoming", "newreleases": "New Releases"}
 PRIMARY = ("popularnew", "topsellers")  # 급상승 판정에 쓰는 목록
+SOURCE_KO = {"appreviews": "appreviews 공식 집계", "search": "검색 집계", "spy": "SteamSpy 합계", "recommendations": "appdetails 추천 수", "없음": "없음"}
 
 
 def app_url(appid):
@@ -55,6 +56,34 @@ def included_ids(cfg, snap, date):
     return {str(appid) for appid, a in snap.get("apps", {}).items() if not excl_reasons(cfg, a, today)}
 
 
+def _src(a):
+    """스냅샷 앱의 리뷰 소스. 옛 스냅샷(소스 표시 전)은 appreviews."""
+    if not a or a.get("reviews_total") is None:
+        return None
+    return a.get("reviews_source") or "appreviews"
+
+
+def same_source_reviews(today_app, other_app):
+    """다른 날 앱의 리뷰 수를 오늘과 같은 소스일 때만 돌려줍니다(소스가 다르면 증가량이 왜곡되므로 None)."""
+    s0, s1 = _src(today_app), _src(other_app)
+    return other_app.get("reviews_total") if (s0 and s1 == s0) else None
+
+
+def source_window(today_app, appid, snaps, today, days):
+    """창(days 일) 안에서 오늘과 같은 소스로 리뷰 수가 있는 가장 오래된 스냅샷의 (리뷰 수, 며칠 전). 없으면 (None, None).
+    소스가 바뀐 날(appreviews 차단) 이후로는 그날부터 다시 셉니다."""
+    best = (None, None)
+    for d, s in snaps[:-1]:
+        age = (today - to_date(d)).days
+        if age > days:
+            continue
+        v = same_source_reviews(today_app, s["apps"].get(appid, {}))
+        if v is not None:
+            best = (v, age)
+            break  # snaps 는 오름차순이라 처음 만나는 것이 가장 오래된 것
+    return best
+
+
 def build_records(cfg, date, snaps):
     today_snap = snaps[-1][1]
     prev_date, prev_snap = (snaps[-2] if len(snaps) >= 2 else (None, None))
@@ -79,9 +108,9 @@ def build_records(cfg, date, snaps):
         dev = (meta.get("developers") or [spy.get("developer")] or [None])[0]
         pub = (meta.get("publishers") or [spy.get("publisher")] or [None])[0]
         prev_app = (prev_snap or {}).get("apps", {}).get(appid, {}) if prev_snap else {}
-        r7 = (s7 or {}).get("apps", {}).get(appid, {}).get("reviews_total") if s7 else None
-        r30 = (s30 or {}).get("apps", {}).get(appid, {}).get("reviews_total") if s30 else None
-        series = [reviews] + [s["apps"].get(appid, {}).get("reviews_total") for _, s in reversed(snaps[:-1])]
+        r7, a_n7 = source_window(a, appid, snaps, today, 7)
+        r30, a_n30 = source_window(a, appid, snaps, today, 30)
+        series = [reviews] + [same_source_reviews(a, s["apps"].get(appid, {})) for _, s in reversed(snaps[:-1])]
 
         excl = excl_reasons(cfg, a, today)
         mult = cfg["review_multiplier"]["under_1y"] if (age is None or age <= 365) else cfg["review_multiplier"]["under_3y"]
@@ -101,9 +130,9 @@ def build_records(cfg, date, snaps):
             # SteamSpy 태그는 신작에 비어 있는 일이 많아 appdetails 장르로 대신합니다.
             "tags": list((spy.get("tags") or {}).keys())[:5] or [g for g in (meta.get("genres") or []) if g != "Indie"][:3],
             "reviews": reviews, "reviews_any": reviews_any, "pct_pos": a.get("review_pct"),
-            "reviews_d1": delta(reviews, prev_app.get("reviews_total")),
-            "reviews_d7": delta(reviews, r7), "n7": n7,
-            "reviews_d30": delta(reviews, r30), "n30": n30,
+            "reviews_d1": delta(reviews, same_source_reviews(a, prev_app)),
+            "reviews_d7": delta(reviews, r7), "n7": a_n7 or n7,
+            "reviews_d30": delta(reviews, r30), "n30": a_n30 or n30,
             "growth7": pct(reviews, r7),
             "ccu": a.get("ccu_now"), "ccu_d1": pct(a.get("ccu_now"), prev_app.get("ccu_now")),
             "owners": spy.get("owners"), "avg_2weeks": spy.get("avg_2weeks"),
@@ -209,6 +238,10 @@ def analyze(cfg, date, data_dir, reports_dir):
     if not snaps or snaps[-1][0] != date:
         raise SystemExit(f"[steam] {date} 스냅샷이 없습니다.")
     recs, prev_date, (d7, n7), (d30, n30) = build_records(cfg, date, snaps)
+    _n7s = Counter(r["n7"] for r in recs.values() if r["reviews_d7"] is not None)
+    if _n7s:
+        n7 = _n7s.most_common(1)[0][0]
+        d7 = (to_date(date) - timedelta(days=n7)).strftime("%Y-%m-%d")
     rn = round_no(data_dir, "steam", date)
     has_prev = prev_date is not None
     state = State(reports_dir / "steam" / "state.json")
@@ -400,9 +433,15 @@ def analyze(cfg, date, data_dir, reports_dir):
                 headline.append(f"{b['title'][2:].strip()}: [{it['name']}]({it['url']}) · {it['line']}")
 
     n_new = sum(1 for r in body if r["new"])
+    src_cnt = Counter((a.get("reviews_source") or ("appreviews" if a.get("reviews_total") is not None else "없음")) for a in snaps[-1][1]["apps"].values())
+    src_line = " · ".join(f"{SOURCE_KO.get(k, k)} {v}" for k, v in src_cnt.most_common())
+    non_official = sum(v for k, v in src_cnt.items() if k not in ("appreviews", "없음"))
+    main_src = next((k for k, _ in src_cnt.most_common() if k != "없음"), "없음")
+    review_note = (f"리뷰 수는 {SOURCE_KO.get(main_src, main_src)} 기준 (appreviews 차단 이후 · 스토어 표시값과 다를 수 있음 · {src_line})"
+                   if non_official and src_cnt.get("appreviews", 0) < non_official else "")
     status = [("회차", f"{rn}회차"), ("비교 대상", f"{prev_date} · 1일치" if prev_date else "없음 (첫 회차)"),
               ("리뷰 창", f"{d7} 대비 {n7}일" if d7 else "—"), ("모집단", f"{len(recs)}개 · 본문 {len(body)}개"),
-              ("신작", f"{n_new}/{len(body)}"), ("수집", snaps[-1][1]["collected_at"][:16].replace("T", " ") + " UTC")]
+              ("신작", f"{n_new}/{len(body)}"), ("리뷰 소스", src_line), ("수집", snaps[-1][1]["collected_at"][:16].replace("T", " ") + " UTC")]
     n_lists_ok = sum(1 for rows in snaps[-1][1]["lists"].values() if rows)
     n_fail = len(snaps[-1][1].get("failed") or [])
     collect_line = (f"수집 목록 {n_lists_ok}/{len(snaps[-1][1]['lists'])} 정상 · 모집단 {len(recs)} · 본문 포함 {len(body)} · 신작 {n_new} · 제외 {len(recs) - len(inc)}"
@@ -417,7 +456,7 @@ def analyze(cfg, date, data_dir, reports_dir):
                    if len(regions) > 1 else "미국 스토어")
     return {"platform": "steam", "platform_ko": "Steam 인디", "date": date, "round": rn, "prev_date": prev_date,
             "status": status, "pick": pick_info, "headline": headline[:3], "notes": notes[:3],
-            "sections": sections, "collect_line": collect_line, "series": series_blk,
+            "sections": sections, "collect_line": collect_line, "series": series_blk, "review_note": review_note,
             # url → 썸네일(appdetails header_image, 해시 경로). 렌더러가 03 예시·큰 폭 변화에서 씁니다.
             "thumbs": {r["url"]: {"src": r["thumb"]} for r in recs.values() if r.get("thumb")},
-            "basis_line": f"Steam 검색 · Indie 태그 · {region_line} · 목록 4개(Top Sellers 200 · New & Trending · Popular Upcoming 100 · New Releases 100) · 본문 포함 = 정가 ${cfg['max_price_usd']} 이하 · 3년 이내 · 리뷰 {fmt_int(cfg['max_reviews'])} 미만 · 신작 = 1년 이내"}
+            "basis_line": f"Steam 검색 · Indie 태그 · {region_line} · 목록 4개(Top Sellers 200 · New & Trending · Popular Upcoming 100 · New Releases 100) · 본문 포함 = 정가 ${cfg['max_price_usd']} 이하 · 3년 이내 · 리뷰 {fmt_int(cfg['max_reviews'])} 미만 · 신작 = 1년 이내" + (f" · {review_note}" if review_note else "")}

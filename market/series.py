@@ -31,11 +31,22 @@ def _name(platform, snap, gid):
     return a.get("name") or a.get("title") or str(gid)
 
 
-def _reviews(platform, snap, gid):
+def _reviews(platform, snap, gid, source=None):
+    """리뷰(평점) 수. Steam 은 reviews_total(소스가 source 와 같을 때만) → 검색 집계 review_count → SteamSpy positive+negative → recommendations 순 폴백."""
     a = snap.get(APPS_KEY[platform], {}).get(str(gid)) or {}
-    if platform == "steam":
-        return a.get("reviews_total")
-    return (a.get("page") or {}).get("rating_count")
+    if platform != "steam":
+        return (a.get("page") or {}).get("rating_count")
+    if a.get("reviews_total") is not None:
+        if source and (a.get("reviews_source") or "appreviews") != source:
+            return None
+        return a["reviews_total"]
+    if a.get("review_count") is not None:
+        return a["review_count"]
+    spy = a.get("spy") or {}
+    sp = (spy.get("positive") or 0) + (spy.get("negative") or 0)
+    if sp > 0:
+        return sp
+    return (a.get("meta") or {}).get("recommendations")
 
 
 def _ccu(platform, snap, gid):
@@ -75,7 +86,7 @@ def app_series(win, platform, ids=None, only_ids=None):
         out[gid] = {
             "name": name, "dates": dates,
             "ranks": {ln: [m.get(ln, {}).get(gid) for m in maps] for ln in lists},
-            "reviews": [_reviews(platform, s, gid) for _, s in win],
+            "reviews": [_reviews(platform, s, gid, source=(win[-1][1].get(APPS_KEY[platform], {}).get(gid) or {}).get("reviews_source")) for _, s in win],
             "ccu": [_ccu(platform, s, gid) for _, s in win],
         }
     return out

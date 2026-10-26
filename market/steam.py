@@ -121,16 +121,51 @@ def merge_regions(per_region, want, primary):
 
 
 def fetch_reviews(appid):
-    d = get_json(REVIEWS.format(appid=appid), {
+    """appreviews 공식 집계. 2026-10-23 무렵부터 302 로 스토어 첫 화면(HTML)을 돌려주는 일이 있어,
+    JSON 이 아니면 {"_ok": False} 를 돌려주고 호출자가 다른 소스(검색 집계 · SteamSpy · recommendations)로 채웁니다."""
+    body = get(REVIEWS.format(appid=appid), {
         "json": 1, "language": "all", "purchase_type": "all", "num_per_page": 0, "filter": "all",
     })
-    q = (d or {}).get("query_summary") or {}
+    try:
+        d = json.loads(body) if body else None
+    except json.JSONDecodeError:
+        d = None
+    if not isinstance(d, dict) or "query_summary" not in d:
+        return {"_ok": False}
+    q = d.get("query_summary") or {}
     return {
+        "_ok": True,
         "reviews_total": q.get("total_reviews"),
         "reviews_pos": q.get("total_positive"),
         "reviews_neg": q.get("total_negative"),
         "review_score_desc": q.get("review_score_desc"),
     }
+
+
+# 기본 순서: SteamSpy 긍정+부정 합계(모든 앱에 있음, 0+0 은 없음으로) → 검색 목록 행의 review_count → appdetails recommendations.total
+# → appreviews(응답이 JSON 일 때). appreviews 가 다시 열려도 시계열 일관성을 위해 당분간 SteamSpy 를 기본으로 둡니다.
+REVIEW_SOURCES = ("spy", "search", "recommendations", "appreviews")
+
+
+def resolve_reviews(app, prefer=None):
+    """앱 dict 에서 리뷰 수와 소스를 고릅니다(REVIEW_SOURCES 순서).
+    prefer(전날 소스)가 있으면 날마다 소스가 바뀌어 증가량이 왜곡되지 않게 그 소스를 먼저 씁니다."""
+    cands = {}
+    if app.get("_reviews_ok") and app.get("reviews_total") is not None:
+        cands["appreviews"] = app["reviews_total"]
+    if app.get("review_count") is not None:
+        cands["search"] = app["review_count"]
+    spy = app.get("spy") or {}
+    sp = (spy.get("positive") or 0) + (spy.get("negative") or 0)
+    if spy.get("positive") is not None and sp > 0:
+        cands["spy"] = sp
+    rec = (app.get("meta") or {}).get("recommendations")
+    if rec:
+        cands["recommendations"] = rec
+    order = ([prefer] if prefer in cands else []) + [k for k in REVIEW_SOURCES if k in cands and k != prefer]
+    if not order:
+        return None, None
+    return cands[order[0]], order[0]
 
 
 def fetch_players(appid):
@@ -150,6 +185,7 @@ def fetch_spy(appid):
     return {
         "developer": d.get("developer"), "publisher": d.get("publisher"),
         "owners": d.get("owners"), "ccu_spy": d.get("ccu"),
+        "positive": _to_int(d.get("positive")), "negative": _to_int(d.get("negative")),
         "avg_2weeks": d.get("average_2weeks"), "median_2weeks": d.get("median_2weeks"),
         "price": _to_int(d.get("price")), "initialprice": _to_int(d.get("initialprice")),
         "discount": _to_int(d.get("discount")), "genre": d.get("genre"), "tags": tags,
@@ -241,6 +277,7 @@ def collect(cfg, date, data_dir: Path, log=print):
 
     ids = sorted(apps)
     failed = []
+    prev_source = previous_sources(data_dir, date)
 
     def safe(fn, appid, default):
         """한 앱의 실패(429 소진 등)가 전체 수집을 멈추지 않게 합니다."""
@@ -250,8 +287,21 @@ def collect(cfg, date, data_dir: Path, log=print):
             failed.append((appid, fn.__name__, str(e)[:80]))
             return default
 
+    # appreviews 가 302(HTML)만 돌려주면 처음 5개가 연속으로 실패한 시점에 나머지 호출을 건너뜁니다(살아나면 다시 씀).
+    dead = {"streak": 0, "off": False, "ok": 0}
+
     def reviews_and_players(appid):
-        rv = safe(fetch_reviews, appid, {})
+        if dead["off"]:
+            rv = {"_ok": False}
+        else:
+            rv = safe(fetch_reviews, appid, {"_ok": False})
+            if rv.get("_ok"):
+                dead["streak"] = 0
+                dead["ok"] += 1
+            else:
+                dead["streak"] += 1
+                if dead["streak"] >= 5 and dead["ok"] == 0:
+                    dead["off"] = True
         pc = safe(fetch_players, appid, None)
         time.sleep(0.5)
         return rv, pc
@@ -259,10 +309,14 @@ def collect(cfg, date, data_dir: Path, log=print):
     log("[steam] 리뷰·동접 (동시 2개)")
     with ThreadPoolExecutor(max_workers=2) as ex:
         for i, (appid, (rv, pc)) in enumerate(zip(ids, ex.map(reviews_and_players, ids)), 1):
+            ok = rv.pop("_ok", False)
             apps[appid].update(rv)
+            apps[appid]["_reviews_ok"] = ok
             apps[appid]["ccu_now"] = pc
             if i % 100 == 0:
                 log(f"  {i}/{len(ids)}")
+    if dead["off"]:
+        log("  appreviews 가 JSON 을 돌려주지 않아(302 → 스토어 첫 화면) 나머지 호출을 건너뜀 · 검색 집계·SteamSpy·recommendations 로 채웁니다")
     if failed:
         log(f"  실패 {len(failed)}건 (예: {failed[0]})")
 
@@ -301,6 +355,19 @@ def collect(cfg, date, data_dir: Path, log=print):
         meta = cache.get(str(appid))
         if meta:
             apps[appid]["meta"] = {k: v for k, v in meta.items() if k != "fetched"}
+
+    # 리뷰 수 소스 결정 (전날과 같은 소스 우선)
+    counts = {}
+    for appid in ids:
+        a = apps[appid]
+        total, src = resolve_reviews(a, prefer=prev_source.get(str(appid)))
+        a.pop("_reviews_ok", None)
+        if src != "appreviews":
+            a["reviews_pos"] = a["reviews_neg"] = a["review_score_desc"] = None
+        a["reviews_total"] = total
+        a["reviews_source"] = src
+        counts[src or "없음"] = counts.get(src or "없음", 0) + 1
+    log("[steam] 리뷰 수 소스: " + " · ".join(f"{k} {v}" for k, v in sorted(counts.items(), key=lambda kv: -kv[1])))
 
     return {
         "platform": "steam", "date": date,
@@ -346,6 +413,23 @@ def refresh_meta(cfg, date, data_dir: Path, log=print):
     snap_path.write_text(json.dumps(snap, ensure_ascii=False, indent=1))
     log(f"[steam] 설명 채움 {done}개 · 스냅샷 {snap_path.name} 갱신")
     return done
+
+
+def previous_sources(data_dir: Path, date):
+    """직전 스냅샷의 {appid: reviews_source}. 같은 앱에 같은 소스를 쓰기 위한 것."""
+    today = datetime.strptime(date, "%Y-%m-%d")
+    best = None
+    for p in (data_dir / "steam").glob("*.json"):
+        try:
+            d = datetime.strptime(p.stem, "%Y-%m-%d")
+        except ValueError:
+            continue
+        if d < today and (best is None or d > best[0]):
+            best = (d, p)
+    if not best:
+        return {}
+    snap = json.loads(best[1].read_text())
+    return {k: v.get("reviews_source") for k, v in snap.get("apps", {}).items() if v.get("reviews_source")}
 
 
 def recent_tracked(data_dir: Path, date, days):

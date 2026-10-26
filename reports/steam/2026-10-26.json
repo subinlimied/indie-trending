@@ -15,15 +15,19 @@
   ],
   [
    "리뷰 창",
-   "2026-10-21 대비 5일"
+   "2026-10-23 대비 3일"
   ],
   [
    "모집단",
-   "535개 · 본문 104개"
+   "535개 · 본문 99개"
   ],
   [
    "신작",
-   "75/104"
+   "75/99"
+  ],
+  [
+   "리뷰 소스",
+   "없음 253 · SteamSpy 합계 168 · 검색 집계 77 · appdetails 추천 수 37"
   ],
   [
    "수집",
@@ -46,7 +50,7 @@
    ]
   ],
   "sub": "Team Lazerbeam · Adventure, Early Access · 2026-09-10",
-  "line": "Top Sellers 178→115위 · 동접 395(+1.5%) · $14.99",
+  "line": "Top Sellers 178→115위 · 리뷰 1,922(+7) · 3일 +33 · 동접 395(+1.5%) · $14.99",
   "badges": [
    "신작",
    "데모"
@@ -59,17 +63,18 @@
   "desc": "Gather and grow cards in Shroom & Gloom, a moody first-person, roguelike double-deckbuilder bursting with fungal foes and mountains of mega-combos!"
  },
  "headline": [
-  "[Shroom and Gloom](https://store.steampowered.com/app/3271280/) Top Sellers 178→115위 ▲63 · 동접 395(+1.5%) · $14.99 · 할인 없음",
-  "[Leafy Corner](https://store.steampowered.com/app/3558600/) Top Sellers 115→72위 ▲43 · 동접 294(+50.8%) · $9.99 −20% · 할인 동반"
+  "[Shroom and Gloom](https://store.steampowered.com/app/3271280/) Top Sellers 178→115위 ▲63 · 3일 리뷰 +33 · 할인 없음",
+  "[Leafy Corner](https://store.steampowered.com/app/3558600/) Top Sellers 115→72위 ▲43 · 3일 리뷰 +5 · 할인 동반",
+  "[Moon Sweepers](https://store.steampowered.com/app/5335510/) 3일 리뷰 +403.2% (+637) · New & Trending 25→14위 · 리뷰 795(+338) · 2일 +637 · 동접 32,062(+197.9%) · $8.99 −15%"
  ],
  "notes": [
-  "본문 제외 142개 (출시 117 · 리뷰 48 · 정가 30)"
+  "본문 제외 148개 (출시 117 · 리뷰 82 · 정가 30)"
  ],
  "sections": [
   {
    "no": "01",
    "title": "급상승 Top 3 · 기준 3개",
-   "basis": "2026-10-25 대비 1일치. 리뷰 증가는 2026-10-21(5일 전) 대비. 본문 제외 게임은 06에만.",
+   "basis": "2026-10-25 대비 1일치. 리뷰 증가는 2026-10-23(3일 전) 대비. 본문 제외 게임은 06에만.",
    "blocks": [
     {
      "title": "① 순위 상승폭 (New & Trending · Top Sellers)",
@@ -77,7 +82,7 @@
       {
        "name": "Shroom and Gloom",
        "url": "https://store.steampowered.com/app/3271280/",
-       "line": "Top Sellers 178→115위 ▲63 · Top Sellers 178→115위 · 동접 395(+1.5%) · $14.99",
+       "line": "Top Sellers 178→115위 ▲63 · Top Sellers 178→115위 · 리뷰 1,922(+7) · 3일 +33 · 동접 395(+1.5%) · $14.99",
        "badges": [
         "신작",
         "데모"
@@ -89,7 +94,7 @@
       {
        "name": "Leafy Corner",
        "url": "https://store.steampowered.com/app/3558600/",
-       "line": "Top Sellers 115→72위 ▲43 · New & Trending 98위 · 동접 294(+50.8%) · $9.99 −20%",
+       "line": "Top Sellers 115→72위 ▲43 · New & Trending 98위 · 리뷰 1,455(+5) · 동접 294(+50.8%) · $9.99 −20%",
        "badges": [
         "신작",
         "셀프 퍼블리싱",
@@ -103,7 +108,7 @@
       {
        "name": "Voidtrain",
        "url": "https://store.steampowered.com/app/1159690/",
-       "line": "Top Sellers 183→140위 ▲43 · Top Sellers 183→140위 · 동접 479(+2.6%) · $29.99 −50%",
+       "line": "Top Sellers 183→140위 ▲43 · Top Sellers 183→140위 · 리뷰 5,956(0) · 3일 0 · 동접 479(+2.6%) · $29.99 −50%",
        "badges": [
         "신작",
         "셀프 퍼블리싱",
@@ -116,12 +121,91 @@
      ]
     },
     {
-     "title": "② 5일 리뷰 증가율",
-     "items": []
+     "title": "② 3일 리뷰 증가율",
+     "items": [
+      {
+       "name": "Moon Sweepers",
+       "url": "https://store.steampowered.com/app/5335510/",
+       "line": "+403.2% (+637) · New & Trending 25→14위 · 리뷰 795(+338) · 2일 +637 · 동접 32,062(+197.9%) · $8.99 −15%",
+       "badges": [
+        "신작",
+        "셀프 퍼블리싱",
+        "할인 15%"
+       ],
+       "sub": "DragDrop Games · Action, Adventure, Casual",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg?t=1792738801",
+       "desc": "An entire Moon to clean. One toothbrush to start. Team up with up to 16 players, collect and sell lunar dust, upgrade your tools, and unlock cleaning vehicles. Turn a ridiculous job into a thriving operation, if your friends actually help."
+      },
+      {
+       "name": "Moadra",
+       "url": "https://store.steampowered.com/app/1713730/",
+       "line": "+326.9% (+85) · Top Sellers 106→156위 · 리뷰 111(+29) · 3일 +85 · 동접 120(−10.4%) · $24.99 −10%",
+       "badges": [
+        "신작",
+        "셀프 퍼블리싱",
+        "데모",
+        "할인 10%"
+       ],
+       "sub": "Gloomsoft · Action, Adventure",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1713730/1cef7bac0a7ccc38387fee0de3570195f728a699/header.jpg?t=1792652437",
+       "desc": "Endure... Evolve... or die. Embrace the unknown and traverse a vast alien world riddled with bizarre creatures, deadly hazards, and grim mysteries. Seek redemption, and confront the terrifying sin buried in the depths of the forgotten planet Protea VI."
+      },
+      {
+       "name": "Hubble Bubble",
+       "url": "https://store.steampowered.com/app/5013160/",
+       "line": "+222.7% (+49) · Top Sellers 132→125위 · 리뷰 71(+29) · 2일 +49 · 동접 213(−7.0%) · $7.99 −20%",
+       "badges": [
+        "신작",
+        "셀프 퍼블리싱",
+        "할인 20%"
+       ],
+       "sub": "Parita Games · Action, Adventure",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5013160/0b9d8ae5607debc9304edf94f4a6dd5c8afefdba/header.jpg?t=1792775360",
+       "desc": "Co-op hookah shop sim for 1 to 4 friends. Run Ghalyan's Hookah Lounge on a space station: pack the bowl, light the coals, serve the aliens and act normal. Nothing on this station is normal."
+      }
+     ]
     },
     {
-     "title": "③ 절대 규모 · 5일 리뷰 증가 수",
-     "items": []
+     "title": "③ 절대 규모 · 3일 리뷰 증가 수",
+     "items": [
+      {
+       "name": "Moon Sweepers",
+       "url": "https://store.steampowered.com/app/5335510/",
+       "line": "+637 · 추정 판매 23,850 · New & Trending 25→14위 · 리뷰 795(+338) · 2일 +637 · 동접 32,062(+197.9%) · $8.99 −15%",
+       "badges": [
+        "신작",
+        "셀프 퍼블리싱",
+        "할인 15%"
+       ],
+       "sub": "DragDrop Games · Action, Adventure, Casual",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg?t=1792738801",
+       "desc": "An entire Moon to clean. One toothbrush to start. Team up with up to 16 players, collect and sell lunar dust, upgrade your tools, and unlock cleaning vehicles. Turn a ridiculous job into a thriving operation, if your friends actually help."
+      },
+      {
+       "name": "One Way Tickets",
+       "url": "https://store.steampowered.com/app/4817620/",
+       "line": "+637 · 추정 판매 39,450 · Top Sellers 168→197위 · 리뷰 1,315(+240) · 2일 +637 · 동접 208(−42.9%) · $17.99 −20%",
+       "badges": [
+        "신작",
+        "셀프 퍼블리싱",
+        "할인 20%"
+       ],
+       "sub": "Future Tech. · Action, Adventure, Racing",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4817620/c42131d24be331249117880f8c8280448c07a8d7/header.jpg?t=1792731606",
+       "desc": "“One Way Tickets” is a roguelite incremental adventure game where you embark on a exciting journey in a fantasy world. Choose your vehicle, equip your device and face challenges from all kinds of enemies. Ram! Unload bullets! Swing with all your might! Keep growing and push forward!"
+      },
+      {
+       "name": "Dressmaker",
+       "url": "https://store.steampowered.com/app/4019220/",
+       "line": "+550 · 추정 판매 389,940 · New & Trending 3위 · 리뷰 12,998(+199) · 3일 +550 · 동접 25,001(+9.3%) · $14.99",
+       "badges": [
+        "신작"
+       ],
+       "sub": "Cozy Lives · Casual, Simulation",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1792401675",
+       "desc": "Become a dressmaker! Choose fabric, cut out pattern pieces and sew them all together to make the dresses of your dreams - in this cozy crafting game, inspired by real dressmaking."
+      }
+     ]
     }
    ]
   },
@@ -132,7 +216,81 @@
    "blocks": [
     {
      "title": "연속 회차 리뷰 증가 (3회차 이상 승격 후보)",
-     "items": []
+     "items": [
+      {
+       "name": "Dressmaker",
+       "url": "https://store.steampowered.com/app/4019220/",
+       "line": "3회차 연속 · 승격 통과 · 3회차 오가닉 · New & Trending 3위 · 리뷰 12,998(+199) · 3일 +550 · 동접 25,001(+9.3%) · $14.99",
+       "badges": [
+        "신작"
+       ],
+       "sub": "Cozy Lives · Casual, Simulation",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1792401675",
+       "desc": "Become a dressmaker! Choose fabric, cut out pattern pieces and sew them all together to make the dresses of your dreams - in this cozy crafting game, inspired by real dressmaking."
+      },
+      {
+       "name": "over the hill",
+       "url": "https://store.steampowered.com/app/2929250/",
+       "line": "3회차 연속 · 꾸준한 상승 3회차 · 할인 중 · New & Trending 6→5위 · 리뷰 2,568(+162) · 3일 +448 · 동접 6,316(+8.2%) · $24.99 −20%",
+       "badges": [
+        "신작",
+        "셀프 퍼블리싱",
+        "할인 20%"
+       ],
+       "sub": "Funselektor Labs Inc. · Adventure, Casual, Racing",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792666389",
+       "desc": "Explore the world in the golden age of offroading. Drive iconic 4x4 vehicles from the 60s to 80s by yourself or with friends through challenging trails and beautiful scenery."
+      },
+      {
+       "name": "One Million Coins",
+       "url": "https://store.steampowered.com/app/5258340/",
+       "line": "3회차 연속 · 승격 통과 · 3회차 오가닉 · New & Trending 70→63위 · 리뷰 716(+97) · 3일 +212 · 동접 1,492(−4.8%) · $2.49",
+       "badges": [
+        "신작"
+       ],
+       "sub": "ShoXx · Casual",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5258340/11ce91f7fb2c45add1b4607a0ba1c26b1c0fcd31/header.jpg?t=1792736726",
+       "desc": "A short, focused first-person incremental mining game. Dig through a vault of one million coins, bank your haul, buy better tools, and build an ever-faster gold-collecting operation."
+      },
+      {
+       "name": "Big Dig",
+       "url": "https://store.steampowered.com/app/4304900/",
+       "line": "3회차 연속 · 꾸준한 상승 3회차 · 할인 중 · Top Sellers 54→53위 · 리뷰 524(+63) · 3일 +191 · 동접 344(+1.8%) · $7.99 −25%",
+       "badges": [
+        "신작",
+        "셀프 퍼블리싱",
+        "할인 25%"
+       ],
+       "sub": "Dan Schumacher · Casual, Strategy",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/f70f4692753e297cd45617fed789c15ce5b1c4c6/header.jpg?t=1792598351",
+       "desc": "Big Dig is a short incremental narrative game about digging up artifacts to help Mayor Dog win the election! Recover artifacts, grow your museum, and upgrade your tools while building a highway across the Animal Republic!"
+      },
+      {
+       "name": "How to Fish",
+       "url": "https://store.steampowered.com/app/4001890/",
+       "line": "3회차 연속 · 승격 통과 · 3회차 오가닉 · New & Trending 2위 · 리뷰 29,125(+77) · 3일 +180 · 동접 6,549(−11.7%) · $7.99",
+       "badges": [
+        "신작",
+        "셀프 퍼블리싱"
+       ],
+       "sub": "Dazed Games · Action, Casual, Simulation",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1792508550",
+       "desc": "A 1-4 player physics based fishing simulator. While drinking and boating you suddenly crash into a small island. To work your way back home you have to learn How to Fish."
+      },
+      {
+       "name": "Brick by Brick: Tidy Up the Small Town!",
+       "url": "https://store.steampowered.com/app/5228920/",
+       "line": "3회차 연속 · 꾸준한 상승 3회차 · 할인 중 · New & Trending 33→25위 · 리뷰 502(+56) · 3일 +128 · 동접 3,259(+13.0%) · $7.99 −38%",
+       "badges": [
+        "신작",
+        "셀프 퍼블리싱",
+        "할인 38%"
+       ],
+       "sub": "PaperPixel Games · Casual, Simulation",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5228920/8c57f18ab6a1940b328584fe5556f4c87839e1a0/header.jpg?t=1792140551",
+       "desc": "Brick By Brick is a relaxing tidy-up game you can play solo or co-op with up to 5 players. Collect, sort, and place 18,490 bricks to rebuild a charming town. Unlock helpful abilities and watch scattered piles become finished buildings. One brick at a time!"
+      }
+     ]
     }
    ]
   },
@@ -153,98 +311,98 @@
      "rows": [
       [
        "Casual",
-       "14개 (47%)",
+       "27개 (52%)",
        "42%",
-       "1.1×",
+       "1.2×",
        "[Leafy Corner](https://store.steampowered.com/app/3558600/) · [Nientum - Op.ZERO](https://store.steampowered.com/app/2725250/) · [The Artisan of Glimmith](https://store.steampowered.com/app/4160210/)",
        "6회차"
       ],
       [
-       "Simulation",
-       "13개 (43%)",
-       "31%",
-       "1.4×",
-       "[Leafy Corner](https://store.steampowered.com/app/3558600/) · [Sandustry](https://store.steampowered.com/app/2764460/) · [CloverPit](https://store.steampowered.com/app/3314790/)",
-       "6회차"
-      ],
-      [
        "Adventure",
-       "9개 (30%)",
+       "19개 (37%)",
        "30%",
-       "1.0×",
+       "1.2×",
        "[Shroom and Gloom](https://store.steampowered.com/app/3271280/) · [Romestead](https://store.steampowered.com/app/1805320/) · [Nientum - Op.ZERO](https://store.steampowered.com/app/2725250/)",
        "6회차"
       ],
       [
+       "Simulation",
+       "18개 (35%)",
+       "31%",
+       "1.1×",
+       "[Leafy Corner](https://store.steampowered.com/app/3558600/) · [Sandustry](https://store.steampowered.com/app/2764460/) · [CloverPit](https://store.steampowered.com/app/3314790/)",
+       "6회차"
+      ],
+      [
        "Action",
-       "7개 (23%)",
+       "17개 (33%)",
        "34%",
-       "0.7×",
+       "1.0×",
        "[Romestead](https://store.steampowered.com/app/1805320/) · [Nientum - Op.ZERO](https://store.steampowered.com/app/2725250/) · [CloverPit](https://store.steampowered.com/app/3314790/)",
        "6회차"
       ],
       [
+       "Strategy",
+       "9개 (17%)",
+       "16%",
+       "1.1×",
+       "[Sandustry](https://store.steampowered.com/app/2764460/) · [The Artisan of Glimmith](https://store.steampowered.com/app/4160210/) · [Legion Breaker](https://store.steampowered.com/app/4425980/)",
+       "6회차"
+      ],
+      [
        "Early Access",
-       "4개 (13%)",
-       "11%",
-       "1.2×",
+       "6개 (12%)",
+       "12%",
+       "1.0×",
        "[Shroom and Gloom](https://store.steampowered.com/app/3271280/) · [Sandustry](https://store.steampowered.com/app/2764460/) · [Jump Space](https://store.steampowered.com/app/1757300/)",
        "6회차"
       ],
       [
        "RPG",
-       "4개 (13%)",
+       "6개 (12%)",
        "11%",
-       "1.2×",
+       "1.1×",
        "[Romestead](https://store.steampowered.com/app/1805320/) · [The Witch's Bakery](https://store.steampowered.com/app/2967950/) · [Sovereign Tower](https://store.steampowered.com/app/4113940/)",
        "3회차"
       ],
       [
-       "Strategy",
-       "4개 (13%)",
-       "16%",
-       "0.9×",
-       "[Sandustry](https://store.steampowered.com/app/2764460/) · [The Artisan of Glimmith](https://store.steampowered.com/app/4160210/) · [Legion Breaker](https://store.steampowered.com/app/4425980/)",
-       "6회차"
-      ],
-      [
        "Multiplayer",
-       "3개 (10%)",
-       "3%",
-       "3.3×",
+       "3개 (6%)",
+       "2%",
+       "2.5×",
        "[Voidtrain](https://store.steampowered.com/app/1159690/) · [Sephiria](https://store.steampowered.com/app/2436940/) · [Liar's Bar](https://store.steampowered.com/app/3097560/)",
        "6회차"
       ],
       [
-       "Open World Survival Craft",
-       "2개 (7%)",
-       "1%",
-       "8.7×",
-       "[Voidtrain](https://store.steampowered.com/app/1159690/) · [Core Keeper](https://store.steampowered.com/app/1621690/)",
+       "Racing",
+       "3개 (6%)",
+       "2%",
+       "3.7×",
+       "[One Way Tickets](https://store.steampowered.com/app/4817620/) · [over the hill](https://store.steampowered.com/app/2929250/) · [Happy Wheels](https://store.steampowered.com/app/4705510/)",
        "1회차"
       ],
       [
        "Co-op",
-       "2개 (7%)",
+       "2개 (4%)",
        "1%",
-       "5.2×",
+       "3.7×",
        "[Voidtrain](https://store.steampowered.com/app/1159690/) · [Liar's Bar](https://store.steampowered.com/app/3097560/)",
        "1회차"
       ],
       [
-       "Survival",
-       "2개 (7%)",
-       "1%",
-       "8.7×",
-       "[Voidtrain](https://store.steampowered.com/app/1159690/) · [Core Keeper](https://store.steampowered.com/app/1621690/)",
+       "Free To Play",
+       "2개 (4%)",
+       "5%",
+       "0.7×",
+       "[DUNGEON SLASHER](https://store.steampowered.com/app/2712460/) · [QuestAway](https://store.steampowered.com/app/5195600/)",
        "1회차"
       ],
       [
-       "Pixel Graphics",
-       "2개 (7%)",
+       "Open World Survival Craft",
+       "1개 (2%)",
        "1%",
-       "6.6×",
-       "[Core Keeper](https://store.steampowered.com/app/1621690/) · [Sephiria](https://store.steampowered.com/app/2436940/)",
+       "3.7×",
+       "[Voidtrain](https://store.steampowered.com/app/1159690/)",
        "1회차"
       ]
      ]
@@ -255,7 +413,7 @@
    "no": "04",
    "title": "할인 · 이벤트와 상승의 관계",
    "basis": "광고비 지표가 없는 Steam에서는 할인이 상승의 외부 요인입니다. 할인 없이 오른 게임을 오가닉으로 봅니다.",
-   "text": "본문 포함 104개 중 할인 중 40개(38%). 상승 48개 중 할인 없이 오른 것 27개, 할인 동반 21개. Popular Upcoming 130개 중 데모 제공 54개.",
+   "text": "본문 포함 99개 중 할인 중 39개(39%). 상승 46개 중 할인 없이 오른 것 25개, 할인 동반 21개. Popular Upcoming 130개 중 데모 제공 54개.",
    "blocks": [
     {
      "title": "오가닉 (할인 없음)",
@@ -263,7 +421,7 @@
       {
        "name": "Shroom and Gloom",
        "url": "https://store.steampowered.com/app/3271280/",
-       "line": "Top Sellers 178→115위 · 동접 395(+1.5%) · $14.99",
+       "line": "Top Sellers 178→115위 · 리뷰 1,922(+7) · 3일 +33 · 동접 395(+1.5%) · $14.99",
        "badges": [
         "신작",
         "데모"
@@ -275,7 +433,7 @@
       {
        "name": "Romestead",
        "url": "https://store.steampowered.com/app/1805320/",
-       "line": "Top Sellers 196→154위 · 동접 466(+3.6%) · $13.99",
+       "line": "Top Sellers 196→154위 · 리뷰 1,401(+2) · 동접 466(+3.6%) · $13.99",
        "badges": [
         "신작"
        ],
@@ -286,7 +444,7 @@
       {
        "name": "CloverPit",
        "url": "https://store.steampowered.com/app/3314790/",
-       "line": "Top Sellers 188→161위 · 동접 754(−10.8%) · $9.99",
+       "line": "Top Sellers 188→161위 · 리뷰 25,181(0) · 3일 0 · 동접 754(−10.8%) · $9.99",
        "badges": [
         "데모"
        ],
@@ -297,7 +455,7 @@
       {
        "name": "Alchemy Factory",
        "url": "https://store.steampowered.com/app/3669570/",
-       "line": "New & Trending 82→83위 · 동접 1,325(−16.3%) · $17.99",
+       "line": "New & Trending 82→83위 · 리뷰 1,457(+4) · 3일 +5 · 동접 1,325(−16.3%) · $17.99",
        "badges": [
         "신작"
        ],
@@ -308,7 +466,7 @@
       {
        "name": "DinoBones: Tidy Up the Museum",
        "url": "https://store.steampowered.com/app/5064340/",
-       "line": "Top Sellers 121→102위 · 동접 298(+4.6%) · $5.99",
+       "line": "Top Sellers 121→102위 · 리뷰 1,532(+24) · 3일 +68 · 동접 298(+4.6%) · $5.99",
        "badges": [
         "신작",
         "셀프 퍼블리싱"
@@ -325,7 +483,7 @@
       {
        "name": "Leafy Corner",
        "url": "https://store.steampowered.com/app/3558600/",
-       "line": "New & Trending 98위 · 동접 294(+50.8%) · $9.99 −20%",
+       "line": "New & Trending 98위 · 리뷰 1,455(+5) · 동접 294(+50.8%) · $9.99 −20%",
        "badges": [
         "신작",
         "셀프 퍼블리싱",
@@ -339,7 +497,7 @@
       {
        "name": "Voidtrain",
        "url": "https://store.steampowered.com/app/1159690/",
-       "line": "Top Sellers 183→140위 · 동접 479(+2.6%) · $29.99 −50%",
+       "line": "Top Sellers 183→140위 · 리뷰 5,956(0) · 3일 0 · 동접 479(+2.6%) · $29.99 −50%",
        "badges": [
         "신작",
         "셀프 퍼블리싱",
@@ -352,7 +510,7 @@
       {
        "name": "Nientum - Op.ZERO",
        "url": "https://store.steampowered.com/app/2725250/",
-       "line": "Top Sellers 170→130위 · 동접 15(−37.5%) · $19.99 −20%",
+       "line": "Top Sellers 170→130위 · 리뷰 390(+30) · 3일 +79 · 동접 15(−37.5%) · $19.99 −20%",
        "badges": [
         "신작",
         "셀프 퍼블리싱",
@@ -365,7 +523,7 @@
       {
        "name": "Sandustry",
        "url": "https://store.steampowered.com/app/2764460/",
-       "line": "New & Trending 92→90위 · 동접 2,179(−7.3%) · $19.99 −35%",
+       "line": "New & Trending 92→90위 · 리뷰 3,452(+11) · 3일 +32 · 동접 2,179(−7.3%) · $19.99 −35%",
        "badges": [
         "신작",
         "데모",
@@ -378,7 +536,7 @@
       {
        "name": "The Artisan of Glimmith",
        "url": "https://store.steampowered.com/app/4160210/",
-       "line": "Top Sellers 185→155위 · 동접 341(+8.6%) · $12.99 −25%",
+       "line": "Top Sellers 185→155위 · 리뷰 2,699(0) · 2일 0 · 동접 341(+8.6%) · $12.99 −25%",
        "badges": [
         "신작",
         "셀프 퍼블리싱",
@@ -467,7 +625,7 @@
    "title": "특이사항 · 이상현상",
    "basis": "",
    "list": [
-    "본문 제외 142개 (출시 117 · 리뷰 48 · 정가 30)"
+    "본문 제외 148개 (출시 117 · 리뷰 82 · 정가 30)"
    ]
   },
   {
@@ -485,7 +643,7 @@
       "출시",
       "가격",
       "리뷰 (1일)",
-      "5일",
+      "3일",
       "동접",
       "오너 구간",
       "추정 판매",
@@ -500,13 +658,13 @@
        "Keen Games GmbH",
        "2026-10-15",
        "$39.99 −10%",
-       "—",
-       "—",
+       "78,080 (0)",
+       "0",
        "74,530",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,342,400",
        "Open World, Survival, Base-Building",
-       "잔류 · 정가 $39.99, 리뷰 51,613"
+       "잔류 · 정가 $39.99, 리뷰 78,080"
       ],
       [
        "2",
@@ -515,13 +673,13 @@
        "Dazed Games",
        "2026-08-20",
        "$7.99",
-       "—",
-       "—",
+       "29,125 (+77)",
+       "+180",
        "6,549",
        "0 .. 20,000",
-       "—",
+       "873,750",
        "Action, Casual, Simulation",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "3",
@@ -530,13 +688,13 @@
        "Cozy Lives",
        "2026-09-21",
        "$14.99",
-       "—",
-       "—",
+       "12,998 (+199)",
+       "+550",
        "25,001",
        "0 .. 20,000",
-       "—",
+       "389,940",
        "Casual, Simulation",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "4",
@@ -545,13 +703,13 @@
        "Ludeon Studios",
        "2018-10-17",
        "$34.99 −20%",
-       "—",
-       "—",
+       "210,517 (0)",
+       "0",
        "28,186",
        "5,000,000 .. 10,000,000",
-       "—",
+       "8,420,680",
        "Colony Sim, Base-Building, Survival",
-       "잔류 · 정가 $34.99, 출시 8년, 리뷰 120,198"
+       "잔류 · 정가 $34.99, 출시 8년, 리뷰 210,517"
       ],
       [
        "5 (6→)",
@@ -560,13 +718,13 @@
        "Funselektor Labs Inc.",
        "2026-10-14",
        "$24.99 −20%",
-       "—",
-       "—",
+       "2,568 (+162)",
+       "+448",
        "6,316",
        "0 .. 20,000",
-       "—",
+       "77,040",
        "Adventure, Casual, Racing",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "6 (5→)",
@@ -575,13 +733,13 @@
        "Facepunch Studios",
        "2018-02-08",
        "$39.99",
-       "—",
-       "—",
+       "1,227,784 (0)",
+       "0",
        "70,074",
        "20,000,000 .. 50,000,000",
-       "—",
+       "49,111,360",
        "Survival, Crafting, Multiplayer",
-       "하락 · 정가 $39.99, 출시 8년, 리뷰 533,888"
+       "하락 · 정가 $39.99, 출시 8년, 리뷰 1,227,784"
       ],
       [
        "7",
@@ -590,13 +748,13 @@
        "Lefto Studio",
        "2026-09-02",
        "$7.99 −40%",
-       "—",
-       "—",
+       "1,291 (+17)",
+       "+43",
        "1,962",
        "0 .. 20,000",
-       "—",
+       "38,730",
        "Casual",
-       "잔류"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "8",
@@ -605,13 +763,13 @@
        "Hopoo Games",
        "2020-08-11",
        "$24.99",
-       "—",
-       "—",
+       "313,577 (0)",
+       "0",
        "19,388",
        "5,000,000 .. 10,000,000",
-       "—",
+       "12,543,080",
        "Third-Person Shooter, Action Roguelike, Multiplayer",
-       "잔류 · 출시 6년, 리뷰 165,090"
+       "잔류 · 출시 6년, 리뷰 313,577"
       ],
       [
        "9",
@@ -620,13 +778,13 @@
        "ConcernedApe",
        "2016-02-26",
        "$14.99",
-       "—",
-       "—",
+       "886,195 (0)",
+       "0",
        "43,126",
        "20,000,000 .. 50,000,000",
-       "—",
+       "35,447,800",
        "Farming Sim, Pixel Graphics, Multiplayer",
-       "상승 · 출시 10년, 리뷰 396,322"
+       "상승 · 출시 10년, 리뷰 886,195"
       ],
       [
        "10",
@@ -635,13 +793,13 @@
        "The Indie Stone",
        "2013-11-08",
        "$24.99",
-       "—",
-       "—",
+       "377,063 (0)",
+       "0",
        "52,739",
        "10,000,000 .. 20,000,000",
-       "—",
+       "15,082,520",
        "Survival, Zombies, Open World",
-       "잔류 · 출시 12년, 리뷰 161,298"
+       "잔류 · 출시 12년, 리뷰 377,063"
       ],
       [
        "11 (12→)",
@@ -650,13 +808,13 @@
        "Pocketpair",
        "2026-07-09",
        "$29.99",
-       "—",
-       "—",
+       "380,709 (0)",
+       "0",
        "32,590",
        "50,000,000 .. 100,000,000",
-       "—",
+       "11,421,270",
        "Open World, Survival, Creature Collector",
-       "상승 · 리뷰 184,716"
+       "상승 · 리뷰 380,709"
       ],
       [
        "12 (11→)",
@@ -665,13 +823,13 @@
        "Iron Gate AB",
        "2026-09-09",
        "$29.99",
-       "—",
-       "—",
+       "499,828 (0)",
+       "0",
        "84,124",
        "10,000,000 .. 20,000,000",
-       "—",
+       "14,994,840",
        "Open World Survival Craft, Survival, Online Co-Op",
-       "잔류 · 리뷰 267,077"
+       "잔류 · 리뷰 499,828"
       ],
       [
        "13",
@@ -680,13 +838,13 @@
        "Kinetic Games",
        "2020-09-18",
        "$19.99 −30%",
-       "—",
-       "—",
+       "768,779 (0)",
+       "0",
        "13,041",
        "10,000,000 .. 20,000,000",
-       "—",
+       "30,751,160",
        "Horror, Online Co-Op, Multiplayer",
-       "잔류 · 출시 6년, 리뷰 360,546"
+       "잔류 · 출시 6년, 리뷰 768,779"
       ],
       [
        "14 (25→)",
@@ -695,11 +853,11 @@
        "DragDrop Games",
        "2026-10-23",
        "$8.99 −15%",
-       "—",
-       "—",
+       "795 (+338)",
+       "+637",
        "32,062",
        "0 .. 20,000",
-       "—",
+       "23,850",
        "Action, Adventure, Casual",
        "상승 · 할인 동반"
       ],
@@ -710,13 +868,13 @@
        "Wube Software LTD.",
        "2020-08-14",
        "$35.00",
-       "—",
-       "—",
+       "215,209 (0)",
+       "0",
        "17,577",
        "5,000,000 .. 10,000,000",
-       "—",
+       "8,608,360",
        "Automation, Base-Building, Resource Management",
-       "하락 · 정가 $35.00, 출시 6년, 리뷰 118,593"
+       "하락 · 정가 $35.00, 출시 6년, 리뷰 215,209"
       ],
       [
        "16 (15→)",
@@ -725,13 +883,13 @@
        "lemorion_1224",
        "2026-06-09",
        "$5.99",
-       "—",
-       "—",
+       "44,169 (+34)",
+       "+77",
        "2,776",
        "0 .. 20,000",
-       "—",
+       "1,325,070",
        "Casual",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "17",
@@ -740,13 +898,13 @@
        "Redbeet Interactive",
        "2022-06-20",
        "$19.99",
-       "—",
-       "—",
+       "346,359 (0)",
+       "0",
        "3,938",
        "10,000,000 .. 20,000,000",
-       "—",
+       "13,854,360",
        "Survival, Multiplayer, Open World Survival Craft",
-       "상승 · 출시 4년, 리뷰 130,598"
+       "상승 · 출시 4년, 리뷰 346,359"
       ],
       [
        "18 (20→)",
@@ -755,13 +913,13 @@
        "SCS Software",
        "2012-10-12",
        "$19.99",
-       "—",
-       "—",
+       "867,404 (0)",
+       "0",
        "20,580",
        "10,000,000 .. 20,000,000",
-       "—",
+       "34,696,160",
        "Driving, Transportation, Simulation",
-       "상승 · 출시 14년, 리뷰 147,058"
+       "상승 · 출시 14년, 리뷰 867,404"
       ],
       [
        "19 (16→)",
@@ -770,13 +928,13 @@
        "Ludogram",
        "2026-10-08",
        "$12.99",
-       "—",
-       "—",
+       "1,156 (+36)",
+       "+115",
        "1,483",
        "0 .. 20,000",
-       "—",
+       "34,680",
        "Action, Adventure, Simulation",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "20 (21→)",
@@ -785,13 +943,13 @@
        "Klei Entertainment",
        "2016-04-21",
        "$14.99 −66%",
-       "—",
-       "—",
+       "499,061 (0)",
+       "0",
        "13,704",
        "10,000,000 .. 20,000,000",
-       "—",
+       "19,962,440",
        "Survival, Open World Survival Craft, Multiplayer",
-       "상승 · 할인 동반 · 출시 10년, 리뷰 82,401"
+       "상승 · 할인 동반 · 출시 10년, 리뷰 499,061"
       ],
       [
        "21 (23→)",
@@ -800,28 +958,28 @@
        "Nuggets Entertainment",
        "2025-10-21",
        "$7.99",
-       "—",
-       "—",
+       "32,174 (+22)",
+       "+43",
        "3,188",
        "0 .. 20,000",
-       "—",
+       "1,286,960",
        "Action, Adventure",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "22",
        "us 28 · cn 10 · kr 28 · jp 28 · de 37 · br 37 · gb 37",
-       "[Escape the Backrooms](https://store.steampowered.com/app/1943950/)",
+       "[Escape the Backrooms](https://store.steampowered.com/app/1943950/) ⊘",
        "Fancy Games",
        "2025-10-23",
        "$9.99",
-       "—",
-       "—",
+       "102,529 (0)",
+       "0",
        "2,268",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,101,160",
        "Horror, Multiplayer, Online Co-Op",
-       "상승"
+       "상승 · 리뷰 102,529"
       ],
       [
        "23 (19→)",
@@ -830,13 +988,13 @@
        "Re-Logic",
        "2011-05-16",
        "$9.99",
-       "—",
-       "—",
+       "1,409,473 (0)",
+       "0",
        "24,326",
        "20,000,000 .. 50,000,000",
-       "—",
+       "56,378,920",
        "Open World Survival Craft, Sandbox, Survival",
-       "하락 · 출시 15년, 리뷰 604,853"
+       "하락 · 출시 15년, 리뷰 1,409,473"
       ],
       [
        "24 (18→)",
@@ -845,13 +1003,13 @@
        "Mike Klubnika",
        "2026-07-30",
        "$7.99",
-       "—",
-       "—",
+       "1,969 (+6)",
+       "+10",
        "508",
        "0 .. 20,000",
-       "—",
+       "59,070",
        "Action",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "25 (33→)",
@@ -860,13 +1018,13 @@
        "PaperPixel Games",
        "2026-10-15",
        "$7.99 −38%",
-       "—",
-       "—",
+       "502 (+56)",
+       "+128",
        "3,259",
        "0 .. 20,000",
-       "—",
+       "15,060",
        "Casual, Simulation",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "26 (24→)",
@@ -875,13 +1033,13 @@
        "Thekla, Inc.",
        "2026-10-08",
        "$29.99",
-       "—",
-       "—",
+       "1,740 (+21)",
+       "+81",
        "2,824",
        "0 .. 20,000",
-       "—",
+       "52,200",
        "Adventure, Strategy",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "27 (26→)",
@@ -890,13 +1048,13 @@
        "AdHoc Studio",
        "2025-10-22",
        "$29.99 −20%",
-       "—",
-       "—",
+       "109,440 (+40)",
+       "+92",
        "1,608",
        "0 .. 20,000",
-       "—",
+       "4,377,600",
        "Action, Adventure, Casual",
-       "잔류 · 리뷰 109,440"
+       "꾸준한 상승 3회차 · 할인 중 · 리뷰 109,440"
       ],
       [
        "28 (43→)",
@@ -905,13 +1063,13 @@
        "Rike Games",
        "2026-07-29",
        "$6.99 −20%",
-       "—",
-       "—",
+       "6,218 (+25)",
+       "+64",
        "1,053",
        "0 .. 20,000",
-       "—",
+       "186,540",
        "Action, Casual, Simulation",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "29 (30→)",
@@ -920,11 +1078,11 @@
        "Reiza Studios",
        "2020-06-30",
        "$39.99 −70%",
-       "—",
-       "—",
+       "11,009 (0)",
+       "0",
        "1,473",
        "200,000 .. 500,000",
-       "—",
+       "440,360",
        "Racing, Simulation, Sports",
        "상승 · 할인 동반 · 정가 $39.99, 출시 6년"
       ],
@@ -935,13 +1093,13 @@
        "Studio Wildcard",
        "2017-08-27",
        "$14.99 −34%",
-       "—",
-       "—",
+       "730,170 (0)",
+       "0",
        "12,030",
        "20,000,000 .. 50,000,000",
-       "—",
+       "29,206,800",
        "Open World Survival Craft, Survival, Multiplayer",
-       "상승 · 할인 동반 · 출시 9년, 리뷰 256,777"
+       "상승 · 할인 동반 · 출시 9년, 리뷰 730,170"
       ],
       [
        "31 (28→)",
@@ -950,13 +1108,13 @@
        "poncle",
        "2022-10-20",
        "$4.99 −25%",
-       "—",
-       "—",
+       "250,334 (0)",
+       "0",
        "4,044",
        "5,000,000 .. 10,000,000",
-       "—",
+       "10,013,360",
        "Action Roguelike, Bullet Hell, Pixel Graphics",
-       "하락 · 출시 4년, 리뷰 128,408"
+       "하락 · 출시 4년, 리뷰 250,334"
       ],
       [
        "32 (29→)",
@@ -965,13 +1123,13 @@
        "Nicalis, Inc.",
        "2014-11-04",
        "$14.99",
-       "—",
-       "—",
+       "343,420 (0)",
+       "0",
        "33,943",
        "5,000,000 .. 10,000,000",
-       "—",
+       "13,736,800",
        "Action Roguelike, Rogue-like, Indie",
-       "하락 · 출시 11년, 리뷰 166,565"
+       "하락 · 출시 11년, 리뷰 343,420"
       ],
       [
        "33 (38→)",
@@ -980,13 +1138,13 @@
        "Sandfall Interactive",
        "2025-04-24",
        "$49.99 −21%",
-       "—",
-       "—",
+       "111,032 (0)",
+       "0",
        "4,504",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,441,280",
        "Turn-Based Combat, Story Rich, Fantasy",
-       "상승 · 할인 동반 · 정가 $49.99, 리뷰 103,666"
+       "상승 · 할인 동반 · 정가 $49.99, 리뷰 111,032"
       ],
       [
        "34",
@@ -995,13 +1153,13 @@
        "TVGS",
        "2025-03-24",
        "$19.99",
-       "—",
-       "—",
+       "204,041 (0)",
+       "0",
        "15,129",
        "10,000,000 .. 20,000,000",
-       "—",
+       "8,161,640",
        "Simulation, Co-op, Crime",
-       "상승 · 리뷰 204,071"
+       "상승 · 리뷰 204,041"
       ],
       [
        "35 (46→)",
@@ -1010,13 +1168,13 @@
        "Mandragora",
        "2026-08-06",
        "$19.99",
-       "—",
-       "—",
+       "5,863 (+16)",
+       "+45",
        "1,193",
        "0 .. 20,000",
-       "—",
+       "175,890",
        "Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "36 (31→)",
@@ -1025,11 +1183,11 @@
        "Lavaflame2",
        "2025-11-06",
        "무료",
-       "—",
-       "—",
+       "21,716 (0)",
+       "0",
        "13,642",
        "1,000,000 .. 2,000,000",
-       "—",
+       "651,480",
        "Idler, Pixel Graphics, Free to Play",
        "하락"
       ],
@@ -1040,13 +1198,13 @@
        "Pigeons at Play",
        "2026-10-20",
        "$14.99 −50%",
-       "—",
-       "—",
+       "3,265 (+36)",
+       "+128",
        "3,170",
        "0 .. 20,000",
-       "—",
+       "97,950",
        "Action",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "38 (27→)",
@@ -1055,13 +1213,13 @@
        "Coffee Stain Studios",
        "2024-09-10",
        "$39.99",
-       "—",
-       "—",
+       "232,064 (0)",
+       "0",
        "18,853",
        "10,000,000 .. 20,000,000",
-       "—",
+       "9,282,560",
        "Base-Building, Automation, Open World",
-       "하락 · 정가 $39.99, 리뷰 138,489"
+       "하락 · 정가 $39.99, 리뷰 232,064"
       ],
       [
        "39 (36→)",
@@ -1070,13 +1228,13 @@
        "Ghost Town Games Ltd.",
        "2018-08-07",
        "$24.99 −66%",
-       "—",
-       "—",
+       "72,801 (0)",
+       "0",
        "1,413",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,912,040",
        "Multiplayer, Online Co-Op, Local Co-Op",
-       "상승 · 할인 동반 · 출시 8년"
+       "상승 · 할인 동반 · 출시 8년, 리뷰 72,801"
       ],
       [
        "40 (37→)",
@@ -1085,13 +1243,13 @@
        "Afterthought LLC",
        "2015-12-01",
        "$19.99",
-       "—",
-       "—",
+       "94,804 (0)",
+       "0",
        "17,153",
        "500,000 .. 1,000,000",
-       "—",
+       "3,792,160",
        "Dinosaurs, Survival, Open World",
-       "상승 · 출시 10년, 리뷰 63,009"
+       "상승 · 출시 10년, 리뷰 94,804"
       ],
       [
        "41 (40→)",
@@ -1100,13 +1258,13 @@
        "Motion Twin",
        "2018-08-06",
        "$24.99 −50%",
-       "—",
-       "—",
+       "168,464 (0)",
+       "0",
        "1,678",
        "5,000,000 .. 10,000,000",
-       "—",
+       "6,738,560",
        "Adventure, Action Roguelike, Metroidvania",
-       "하락 · 출시 8년"
+       "하락 · 출시 8년, 리뷰 168,464"
       ],
       [
        "42 (45→)",
@@ -1115,11 +1273,11 @@
        "OPNeon Games",
        "2026-09-14",
        "$19.99",
-       "—",
-       "—",
+       "39,499 (0)",
+       "0",
        "4,300",
        "2,000,000 .. 5,000,000",
-       "—",
+       "1,184,970",
        "Simulation, Management, Economy",
        "상승"
       ],
@@ -1130,13 +1288,13 @@
        "GONE Studios",
        "2026-10-20",
        "$9.99 −33%",
-       "—",
-       "—",
+       "2,216 (+18)",
+       "+38",
        "1,679",
        "0 .. 20,000",
-       "—",
+       "66,480",
        "Action, Adventure",
-       "하락"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "44 (39→)",
@@ -1145,13 +1303,13 @@
        "Rebuilt Games",
        "2018-09-20",
        "$14.99",
-       "—",
-       "—",
+       "53,814 (0)",
+       "0",
        "1,242",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,152,560",
        "Multiplayer, Funny, Online Co-Op",
-       "하락 · 출시 8년"
+       "하락 · 출시 8년, 리뷰 53,814"
       ],
       [
        "45 (42→)",
@@ -1160,13 +1318,13 @@
        "Supergiant Games",
        "2025-09-25",
        "$29.99",
-       "—",
-       "—",
+       "64,132 (0)",
+       "0",
        "3,418",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,565,280",
        "Action, Rogue-like, Rogue-lite",
-       "상승 · 리뷰 66,164"
+       "상승 · 리뷰 64,132"
       ],
       [
        "46 (53→)",
@@ -1175,43 +1333,43 @@
        "Excellent Rectangle",
        "2023-05-03",
        "$19.99 −10%",
-       "—",
-       "—",
+       "2,958 (0)",
+       "0",
        "2,567",
        "200,000 .. 500,000",
-       "—",
+       "118,320",
        "Colorful, Sports, Rogue-lite",
        "상승 · 할인 동반 · 출시 3년"
       ],
       [
        "47 (58→)",
        "us 60 · cn — · kr 17 · jp 14 · de — · br 45 · gb —",
-       "[Core Keeper](https://store.steampowered.com/app/1621690/)",
+       "[Core Keeper](https://store.steampowered.com/app/1621690/) ⊘",
        "Pugstorm",
        "2024-08-27",
        "$19.99",
-       "—",
-       "—",
+       "54,979 (0)",
+       "0",
        "5,929",
        "1,000,000 .. 2,000,000",
-       "—",
+       "2,199,160",
        "Pixel Graphics, Open World Survival Craft, Online Co-Op",
-       "상승"
+       "상승 · 리뷰 54,979"
       ],
       [
        "48 (47→)",
        "us 55 · cn 97 · kr — · jp 45 · de 39 · br 54 · gb 50",
-       "[Supermarket Simulator](https://store.steampowered.com/app/2670630/)",
+       "[Supermarket Simulator](https://store.steampowered.com/app/2670630/) ⊘",
        "Nokta Games",
        "2025-06-19",
        "$19.99",
-       "—",
-       "—",
+       "68,341 (0)",
+       "0",
        "2,967",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,733,640",
        "Simulation, Management, Economy",
-       "하락"
+       "하락 · 리뷰 68,341"
       ],
       [
        "49 (48→)",
@@ -1220,11 +1378,11 @@
        "Black Salt Games",
        "2023-03-30",
        "$24.99 −60%",
-       "—",
-       "—",
+       "43,966 (0)",
+       "0",
        "1,068",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,758,640",
        "Exploration, Fishing, Lovecraftian",
        "하락 · 출시 3년"
       ],
@@ -1235,13 +1393,13 @@
        "Massive Monster",
        "2022-08-11",
        "$24.99",
-       "—",
-       "—",
+       "103,228 (0)",
+       "0",
        "2,766",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,129,120",
        "Base-Building, Cute, Action Roguelike",
-       "상승 · 출시 4년, 리뷰 61,401"
+       "상승 · 출시 4년, 리뷰 103,228"
       ],
       [
        "51 (50→)",
@@ -1250,13 +1408,13 @@
        "Blue Mammoth Games",
        "2017-10-17",
        "무료",
-       "—",
-       "—",
+       "386,456 (0)",
+       "0",
        "13,180",
        "20,000,000 .. 50,000,000",
-       "—",
+       "15,458,240",
        "Free to Play, Multiplayer, Fighting",
-       "하락 · 출시 9년, 리뷰 179,855"
+       "하락 · 출시 9년, 리뷰 386,456"
       ],
       [
        "52 (44→)",
@@ -1265,13 +1423,13 @@
        "Kunos Simulazioni",
        "2014-12-19",
        "$19.99",
-       "—",
-       "—",
+       "151,391 (0)",
+       "0",
        "8,979",
        "5,000,000 .. 10,000,000",
-       "—",
+       "6,055,640",
        "Racing, Automobile Sim, Simulation",
-       "하락 · 출시 11년, 리뷰 61,032"
+       "하락 · 출시 11년, 리뷰 151,391"
       ],
       [
        "53 (64→)",
@@ -1280,13 +1438,13 @@
        "Berserk Games",
        "2015-06-05",
        "$19.99",
-       "—",
-       "—",
+       "70,660 (0)",
+       "0",
        "9,031",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,826,400",
        "Tabletop, Board Game, Simulation",
-       "상승 · 출시 11년"
+       "상승 · 출시 11년, 리뷰 70,660"
       ],
       [
        "54",
@@ -1295,13 +1453,13 @@
        "Alex Massé and team",
        "2026-05-25",
        "$39.99",
-       "—",
-       "—",
+       "14,755 (+9)",
+       "+25",
        "1,261",
        "0 .. 20,000",
-       "—",
+       "442,650",
        "Simulation, Early Access",
-       "잔류 · 정가 $39.99"
+       "승격 통과 · 3회차 오가닉 · 정가 $39.99"
       ],
       [
        "55 (57→)",
@@ -1310,13 +1468,13 @@
        "Facepunch Studios",
        "2006-11-29",
        "$9.99",
-       "—",
-       "—",
+       "1,159,707 (0)",
+       "0",
        "26,752",
        "20,000,000 .. 50,000,000",
-       "—",
+       "46,388,280",
        "Sandbox, Moddable, Multiplayer",
-       "상승 · 출시 19년, 리뷰 542,200"
+       "상승 · 출시 19년, 리뷰 1,159,707"
       ],
       [
        "56 (66→)",
@@ -1325,11 +1483,11 @@
        "Recreate Games",
        "2023-09-20",
        "$19.99",
-       "—",
-       "—",
+       "17,300 (+4)",
+       "+5",
        "1,519",
        "2,000,000 .. 5,000,000",
-       "—",
+       "692,000",
        "Multiplayer, Funny, Casual",
        "상승 · 출시 3년"
       ],
@@ -1340,13 +1498,13 @@
        "Team Cherry",
        "2017-02-24",
        "$14.99",
-       "—",
-       "—",
+       "415,946 (0)",
+       "0",
        "6,263",
        "5,000,000 .. 10,000,000",
-       "—",
+       "16,637,840",
        "Metroidvania, Souls-like, Platformer",
-       "잔류 · 출시 9년, 리뷰 185,690"
+       "잔류 · 출시 9년, 리뷰 415,946"
       ],
       [
        "58 (81→)",
@@ -1355,13 +1513,13 @@
        "Gunfire Reborn Studio",
        "2021-11-17",
        "$19.99 −30%",
-       "—",
-       "—",
+       "99,172 (0)",
+       "0",
        "809",
        "2,000,000 .. 5,000,000",
-       "—",
+       "3,966,880",
        "Rogue-lite, FPS, Rogue-like",
-       "상승 · 할인 동반 · 출시 4년"
+       "상승 · 할인 동반 · 출시 4년, 리뷰 99,172"
       ],
       [
        "59",
@@ -1370,13 +1528,13 @@
        "Hello Games",
        "2016-08-12",
        "$59.99",
-       "—",
-       "—",
+       "352,858 (0)",
+       "0",
        "13,719",
        "5,000,000 .. 10,000,000",
-       "—",
+       "14,114,320",
        "Open World, Open World Survival Craft, Space",
-       "상승 · 정가 $59.99, 출시 10년, 리뷰 187,144"
+       "상승 · 정가 $59.99, 출시 10년, 리뷰 352,858"
       ],
       [
        "60 (52→)",
@@ -1385,13 +1543,13 @@
        "Nimble Neuron",
        "2023-07-19",
        "무료",
-       "—",
-       "—",
+       "65,046 (0)",
+       "0",
        "2,048",
        "5,000,000 .. 10,000,000",
-       "—",
+       "2,601,840",
        "Free to Play, Anime, Sexual Content",
-       "하락 · 출시 3년"
+       "하락 · 출시 3년, 리뷰 65,046"
       ],
       [
        "61 (75→)",
@@ -1400,13 +1558,13 @@
        "ArtRising",
        "2026-04-30",
        "$5.99",
-       "—",
-       "—",
+       "16,673 (+12)",
+       "+48",
        "1,712",
        "0 .. 20,000",
-       "—",
+       "500,190",
        "Casual, Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "62 (51→)",
@@ -1415,13 +1573,13 @@
        "Wild Dog",
        "2026-10-09",
        "$14.99",
-       "—",
-       "—",
+       "591 (+15)",
+       "+48",
        "507",
        "0 .. 20,000",
-       "—",
+       "17,730",
        "Casual, Simulation, Early Access",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "63 (70→)",
@@ -1430,13 +1588,13 @@
        "ShoXx",
        "2026-10-13",
        "$2.49",
-       "—",
-       "—",
+       "716 (+97)",
+       "+212",
        "1,492",
        "0 .. 20,000",
-       "—",
+       "21,480",
        "Casual",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "64 (78→)",
@@ -1445,13 +1603,13 @@
        "LocalThunk",
        "2024-02-20",
        "$14.99",
-       "—",
-       "—",
+       "153,566 (0)",
+       "0",
        "7,489",
        "2,000,000 .. 5,000,000",
-       "—",
+       "6,142,640",
        "Card Game, Roguelike Deckbuilder, Rogue-like",
-       "상승 · 리뷰 105,302"
+       "상승 · 리뷰 153,566"
       ],
       [
        "65 (74→)",
@@ -1460,11 +1618,11 @@
        "Maxim Karpenko",
        "2021-12-02",
        "$19.99",
-       "—",
-       "—",
+       "44,062 (0)",
+       "0",
        "2,146",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,762,480",
        "Sandbox, God Game, Simulation",
        "상승 · 출시 4년"
       ],
@@ -1475,11 +1633,11 @@
        "TEAM HORAY",
        "2026-07-31",
        "$17.99",
-       "—",
-       "—",
+       "2,180 (0)",
+       "0",
        "854",
        "100,000 .. 200,000",
-       "—",
+       "65,400",
        "Multiplayer, Action Roguelike, Inventory Management",
        "상승"
       ],
@@ -1490,13 +1648,13 @@
        "Jim Bonacci",
        "2026-09-21",
        "$4.99",
-       "—",
-       "—",
+       "3,363 (+34)",
+       "+82",
        "1,230",
        "0 .. 20,000",
-       "—",
+       "100,890",
        "Action, Casual, Racing",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "68 (95→)",
@@ -1505,13 +1663,13 @@
        "Mega Crit",
        "2026-03-05",
        "$24.99",
-       "—",
-       "—",
+       "71,487 (+64)",
+       "+161",
        "44,837",
        "0 .. 20,000",
-       "—",
+       "2,144,610",
        "Strategy, Early Access",
-       "상승 · 리뷰 71,487"
+       "승격 통과 · 3회차 오가닉 · 리뷰 71,487"
       ],
       [
        "69 (60→)",
@@ -1520,13 +1678,13 @@
        "tobyfox",
        "2015-09-15",
        "$9.99 −75%",
-       "—",
-       "—",
+       "272,932 (0)",
+       "0",
        "1,911",
        "5,000,000 .. 10,000,000",
-       "—",
+       "10,917,280",
        "Great Soundtrack, Story Rich, Choices Matter",
-       "상승 · 할인 동반 · 출시 11년, 리뷰 155,344"
+       "상승 · 할인 동반 · 출시 11년, 리뷰 272,932"
       ],
       [
        "70 (55→)",
@@ -1535,13 +1693,13 @@
        "Auroch Digital",
        "2026-10-14",
        "$24.99",
-       "—",
-       "—",
+       "820 (+42)",
+       "+100",
        "493",
        "0 .. 20,000",
-       "—",
+       "24,600",
        "Action",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "71 (68→)",
@@ -1550,13 +1708,13 @@
        "MINTROCKET",
        "2023-06-28",
        "$19.99",
-       "—",
-       "—",
+       "129,331 (0)",
+       "0",
        "2,552",
        "5,000,000 .. 10,000,000",
-       "—",
+       "5,173,240",
        "Pixel Graphics, Casual, Management",
-       "상승 · 출시 3년, 리뷰 51,501"
+       "상승 · 출시 3년, 리뷰 129,331"
       ],
       [
        "72",
@@ -1565,13 +1723,13 @@
        "Klei Entertainment",
        "2013-04-23",
        "$9.99 −75%",
-       "—",
-       "—",
+       "109,816 (0)",
+       "0",
        "1,088",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,392,640",
        "Survival, Open World Survival Craft, Crafting",
-       "잔류 · 출시 13년"
+       "잔류 · 출시 13년, 리뷰 109,816"
       ],
       [
        "73 (62→)",
@@ -1580,13 +1738,13 @@
        "Mega Crit",
        "2019-01-23",
        "$24.99 −75%",
-       "—",
-       "—",
+       "182,277 (0)",
+       "0",
        "4,213",
        "5,000,000 .. 10,000,000",
-       "—",
+       "7,291,080",
        "Roguelike Deckbuilder, Card Game, Card Battler",
-       "상승 · 할인 동반 · 출시 7년, 리뷰 77,338"
+       "상승 · 할인 동반 · 출시 7년, 리뷰 182,277"
       ],
       [
        "74 (73→)",
@@ -1595,11 +1753,11 @@
        "Polymorph Games",
        "2025-01-31",
        "$34.99",
-       "—",
-       "—",
+       "20,132 (0)",
+       "0",
        "1,842",
        "500,000 .. 1,000,000",
-       "—",
+       "805,280",
        "City Builder, Simulation, Medieval",
        "하락 · 정가 $34.99"
       ],
@@ -1610,13 +1768,13 @@
        "Team Cherry",
        "2025-09-04",
        "$19.99",
-       "—",
-       "—",
+       "146,950 (+37)",
+       "+85",
        "6,017",
        "0 .. 20,000",
-       "—",
+       "5,878,000",
        "Action, Adventure",
-       "하락 · 리뷰 146,950"
+       "승격 통과 · 3회차 오가닉 · 리뷰 146,950"
       ],
       [
        "76 (61→)",
@@ -1625,13 +1783,13 @@
        "Nick Nieuwoudt",
        "2026-08-06",
        "$19.99",
-       "—",
-       "—",
+       "8,230 (+10)",
+       "+26",
        "368",
        "0 .. 20,000",
-       "—",
+       "246,900",
        "Action, Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "77 (86→)",
@@ -1640,13 +1798,13 @@
        "Beat Games",
        "2019-05-21",
        "$19.99",
-       "—",
-       "—",
+       "74,612 (0)",
+       "0",
        "407",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,984,480",
        "VR, Rhythm, Music",
-       "상승 · 출시 7년, 리뷰 53,108"
+       "상승 · 출시 7년, 리뷰 74,612"
       ],
       [
        "78 (63→)",
@@ -1655,13 +1813,13 @@
        "Studio MDHR Entertainment Inc.",
        "2017-09-29",
        "$19.99",
-       "—",
-       "—",
+       "186,835 (0)",
+       "0",
        "2,199",
        "5,000,000 .. 10,000,000",
-       "—",
+       "7,473,400",
        "Difficult, Cartoon, Co-op",
-       "하락 · 출시 9년, 리뷰 66,546"
+       "하락 · 출시 9년, 리뷰 186,835"
       ],
       [
        "79 (71→)",
@@ -1670,28 +1828,28 @@
        "RobTop Games",
        "2014-12-22",
        "$4.99",
-       "—",
-       "—",
+       "429,921 (0)",
+       "0",
        "53,092",
        "5,000,000 .. 10,000,000",
-       "—",
+       "17,196,840",
        "Difficult, Music, Level Editor",
-       "하락 · 출시 11년, 리뷰 308,394"
+       "하락 · 출시 11년, 리뷰 429,921"
       ],
       [
        "80 (69→)",
        "us — · cn 44 · kr 84 · jp 69 · de — · br 66 · gb —",
-       "[Buckshot Roulette](https://store.steampowered.com/app/2835570/)",
+       "[Buckshot Roulette](https://store.steampowered.com/app/2835570/) ⊘",
        "Mike Klubnika",
        "2024-04-04",
        "$2.99 −50%",
-       "—",
-       "—",
+       "95,541 (0)",
+       "0",
        "1,005",
        "2,000,000 .. 5,000,000",
-       "—",
+       "3,821,640",
        "Multiplayer, Dark, Gambling",
-       "하락"
+       "하락 · 리뷰 95,541"
       ],
       [
        "81 (79→)",
@@ -1700,11 +1858,11 @@
        "Team Soda",
        "2025-10-16",
        "$17.99 −30%",
-       "—",
-       "—",
+       "10,728 (+5)",
+       "+12",
        "1,132",
        "0 .. 20,000",
-       "—",
+       "429,120",
        "Action, Adventure, RPG",
        "상승 · 할인 동반"
       ],
@@ -1715,13 +1873,13 @@
        "上海アリス幻樂団",
        "2026-09-09",
        "무료",
-       "—",
-       "—",
+       "1,717 (+1)",
+       "+9",
        "115",
        "0 .. 20,000",
-       "—",
+       "51,510",
        "Action",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "83 (82→)",
@@ -1730,11 +1888,11 @@
        "D5 Copperhead",
        "2026-09-07",
        "$17.99",
-       "—",
-       "—",
+       "1,457 (+4)",
+       "+5",
        "1,325",
        "0 .. 20,000",
-       "—",
+       "43,710",
        "Casual, Simulation, Strategy",
        "상승"
       ],
@@ -1745,13 +1903,13 @@
        "No Brakes Games",
        "2016-07-22",
        "$19.99",
-       "—",
-       "—",
+       "213,640 (0)",
+       "0",
        "557",
        "10,000,000 .. 20,000,000",
-       "—",
+       "8,545,600",
        "Co-op, Funny, Puzzle",
-       "상승 · 출시 10년"
+       "상승 · 출시 10년, 리뷰 213,640"
       ],
       [
        "85 (83→)",
@@ -1760,13 +1918,13 @@
        "Eleventh Hour Games",
        "2024-02-21",
        "$34.99",
-       "—",
-       "—",
+       "110,623 (0)",
+       "0",
        "4,289",
        "20,000,000 .. 50,000,000",
-       "—",
+       "4,424,920",
        "Action RPG, Loot, Hack and Slash",
-       "상승 · 정가 $34.99, 리뷰 59,858"
+       "상승 · 정가 $34.99, 리뷰 110,623"
       ],
       [
        "86",
@@ -1775,13 +1933,13 @@
        "WILD WITS GAMES",
        "2026-08-06",
        "$19.99",
-       "—",
-       "—",
+       "2,149 (+9)",
+       "+30",
        "682",
        "0 .. 20,000",
-       "—",
+       "64,470",
        "RPG",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "87 (97→)",
@@ -1790,11 +1948,11 @@
        "Curve Animation",
        "2024-10-02",
        "$6.99",
-       "—",
-       "—",
+       "48,550 (0)",
+       "0",
        "482",
        "2,000,000 .. 5,000,000",
-       "—",
+       "1,942,000",
        "Multiplayer, Casual, PvP",
        "상승"
       ],
@@ -1805,11 +1963,11 @@
        "ReLU Games, Inc.",
        "2025-10-27",
        "$9.99",
-       "—",
-       "—",
+       "2,124 (0)",
+       "+1",
        "226",
        "0 .. 20,000",
-       "—",
+       "63,720",
        "Action, Adventure, Casual",
        "하락"
       ],
@@ -1820,13 +1978,13 @@
        "Red Hook Studios",
        "2016-01-19",
        "$24.99",
-       "—",
-       "—",
+       "149,456 (0)",
+       "0",
        "2,760",
        "2,000,000 .. 5,000,000",
-       "—",
+       "5,978,240",
        "Turn-Based Combat, Dark Fantasy, Dungeon Crawler",
-       "상승 · 출시 10년, 리뷰 57,363"
+       "상승 · 출시 10년, 리뷰 149,456"
       ],
       [
        "90 (92→)",
@@ -1835,13 +1993,13 @@
        "Lantto Games",
        "2026-08-13",
        "$19.99 −35%",
-       "—",
-       "—",
+       "3,452 (+11)",
+       "+32",
        "2,179",
        "0 .. 20,000",
-       "—",
+       "103,560",
        "Simulation, Strategy, Early Access",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "91 (80→)",
@@ -1850,13 +2008,13 @@
        "lowiro",
        "2026-09-09",
        "$39.99",
-       "—",
-       "—",
+       "1,322 (+6)",
+       "+16",
        "88",
        "0 .. 20,000",
-       "—",
+       "39,660",
        "Action",
-       "하락 · 정가 $39.99"
+       "승격 통과 · 3회차 오가닉 · 정가 $39.99"
       ],
       [
        "92 (88→)",
@@ -1865,13 +2023,13 @@
        "Bajka Games",
        "2026-09-07",
        "$14.99 −20%",
-       "—",
-       "—",
+       "917 (+3)",
+       "+10",
        "343",
        "0 .. 20,000",
-       "—",
+       "27,510",
        "Casual, Simulation",
-       "하락"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "93 (100→)",
@@ -1880,13 +2038,13 @@
        "Mob Entertainment",
        "2021-10-12",
        "무료",
-       "—",
-       "—",
+       "98,914 (0)",
+       "0",
        "987",
        "5,000,000 .. 10,000,000",
-       "—",
+       "3,956,560",
        "Horror, Free to Play, Singleplayer",
-       "상승 · 출시 5년, 리뷰 62,805"
+       "상승 · 출시 5년, 리뷰 98,914"
       ],
       [
        "94 (76→)",
@@ -1895,13 +2053,13 @@
        "Endnight Games Ltd",
        "2018-04-30",
        "$19.99",
-       "—",
-       "—",
+       "627,791 (0)",
+       "0",
        "3,498",
        "20,000,000 .. 50,000,000",
-       "—",
+       "25,111,640",
        "Open World Survival Craft, Survival, Open World",
-       "하락 · 출시 8년, 리뷰 178,275"
+       "하락 · 출시 8년, 리뷰 627,791"
       ],
       [
        "95 (91→)",
@@ -1910,11 +2068,11 @@
        "ProjectMoon",
        "2018-04-09",
        "$24.99",
-       "—",
-       "—",
+       "43,932 (0)",
+       "0",
        "895",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,757,280",
        "Management, Difficult, Psychological Horror",
        "하락 · 출시 8년"
       ],
@@ -1925,13 +2083,13 @@
        "Klei Entertainment",
        "2019-07-30",
        "$24.99",
-       "—",
-       "—",
+       "128,390 (0)",
+       "0",
        "4,764",
        "2,000,000 .. 5,000,000",
-       "—",
+       "5,135,600",
        "Colony Sim, Base-Building, Survival",
-       "상승 · 출시 7년"
+       "상승 · 출시 7년, 리뷰 128,390"
       ],
       [
        "97 (96→)",
@@ -1940,13 +2098,13 @@
        "BLANBEE",
        "2026-09-22",
        "$13.99",
-       "—",
-       "—",
+       "770 (+1)",
+       "+10",
        "9",
        "0 .. 20,000",
-       "—",
+       "23,100",
        "Casual, Simulation, Early Access",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "98",
@@ -1955,11 +2113,11 @@
        "Fireline Games",
        "2026-07-30",
        "$9.99 −20%",
-       "—",
-       "—",
+       "1,455 (+5)",
+       "+5",
        "294",
        "0 .. 20,000",
-       "—",
+       "43,650",
        "Casual, Simulation",
        "상승 · 할인 동반"
       ],
@@ -1970,11 +2128,11 @@
        "tobspr Games",
        "2026-04-23",
        "$29.99 −40%",
-       "—",
-       "—",
+       "11,061 (0)",
+       "0",
        "721",
        "200,000 .. 500,000",
-       "—",
+       "331,830",
        "Management, Strategy, Automation",
        "하락"
       ],
@@ -1985,13 +2143,13 @@
        "GraveYardDev",
        "2026-09-29",
        "$2.99",
-       "—",
-       "—",
+       "1,335 (+42)",
+       "+123",
        "423",
        "0 .. 20,000",
-       "—",
+       "40,050",
        "Casual, Simulation, Strategy",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ]
      ]
     },
@@ -2005,7 +2163,7 @@
       "출시",
       "가격",
       "리뷰 (1일)",
-      "5일",
+      "3일",
       "동접",
       "오너 구간",
       "추정 판매",
@@ -2020,11 +2178,11 @@
        "DragDrop Games",
        "2026-10-23",
        "$8.99 −15%",
-       "—",
-       "—",
+       "795 (+338)",
+       "+637",
        "32,062",
        "0 .. 20,000",
-       "—",
+       "23,850",
        "Action, Adventure, Casual",
        "상승 · 할인 동반"
       ],
@@ -2035,13 +2193,13 @@
        "Keen Games GmbH",
        "2026-10-15",
        "$39.99 −10%",
-       "—",
-       "—",
+       "78,080 (0)",
+       "0",
        "74,530",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,342,400",
        "Open World, Survival, Base-Building",
-       "잔류 · 정가 $39.99, 리뷰 51,613"
+       "잔류 · 정가 $39.99, 리뷰 78,080"
       ],
       [
        "3 (2→)",
@@ -2050,13 +2208,13 @@
        "Ludeon Studios",
        "2018-10-17",
        "$34.99 −20%",
-       "—",
-       "—",
+       "210,517 (0)",
+       "0",
        "28,186",
        "5,000,000 .. 10,000,000",
-       "—",
+       "8,420,680",
        "Colony Sim, Base-Building, Survival",
-       "잔류 · 정가 $34.99, 출시 8년, 리뷰 120,198"
+       "잔류 · 정가 $34.99, 출시 8년, 리뷰 210,517"
       ],
       [
        "4 (3→)",
@@ -2065,13 +2223,13 @@
        "Dazed Games",
        "2026-08-20",
        "$7.99",
-       "—",
-       "—",
+       "29,125 (+77)",
+       "+180",
        "6,549",
        "0 .. 20,000",
-       "—",
+       "873,750",
        "Action, Casual, Simulation",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "5",
@@ -2080,13 +2238,13 @@
        "Cozy Lives",
        "2026-09-21",
        "$14.99",
-       "—",
-       "—",
+       "12,998 (+199)",
+       "+550",
        "25,001",
        "0 .. 20,000",
-       "—",
+       "389,940",
        "Casual, Simulation",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "6 (7→)",
@@ -2095,13 +2253,13 @@
        "Funselektor Labs Inc.",
        "2026-10-14",
        "$24.99 −20%",
-       "—",
-       "—",
+       "2,568 (+162)",
+       "+448",
        "6,316",
        "0 .. 20,000",
-       "—",
+       "77,040",
        "Adventure, Casual, Racing",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "7 (6→)",
@@ -2110,13 +2268,13 @@
        "Facepunch Studios",
        "2018-02-08",
        "$39.99",
-       "—",
-       "—",
+       "1,227,784 (0)",
+       "0",
        "70,074",
        "20,000,000 .. 50,000,000",
-       "—",
+       "49,111,360",
        "Survival, Crafting, Multiplayer",
-       "하락 · 정가 $39.99, 출시 8년, 리뷰 533,888"
+       "하락 · 정가 $39.99, 출시 8년, 리뷰 1,227,784"
       ],
       [
        "8",
@@ -2125,13 +2283,13 @@
        "Lefto Studio",
        "2026-09-02",
        "$7.99 −40%",
-       "—",
-       "—",
+       "1,291 (+17)",
+       "+43",
        "1,962",
        "0 .. 20,000",
-       "—",
+       "38,730",
        "Casual",
-       "잔류"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "9",
@@ -2140,13 +2298,13 @@
        "Mega Crit",
        "2026-03-05",
        "$24.99",
-       "—",
-       "—",
+       "71,487 (+64)",
+       "+161",
        "44,837",
        "0 .. 20,000",
-       "—",
+       "2,144,610",
        "Strategy, Early Access",
-       "상승 · 리뷰 71,487"
+       "승격 통과 · 3회차 오가닉 · 리뷰 71,487"
       ],
       [
        "10 (11→)",
@@ -2155,13 +2313,13 @@
        "ConcernedApe",
        "2016-02-26",
        "$14.99",
-       "—",
-       "—",
+       "886,195 (0)",
+       "0",
        "43,126",
        "20,000,000 .. 50,000,000",
-       "—",
+       "35,447,800",
        "Farming Sim, Pixel Graphics, Multiplayer",
-       "상승 · 출시 10년, 리뷰 396,322"
+       "상승 · 출시 10년, 리뷰 886,195"
       ],
       [
        "11 (20→)",
@@ -2170,13 +2328,13 @@
        "PaperPixel Games",
        "2026-10-15",
        "$7.99 −38%",
-       "—",
-       "—",
+       "502 (+56)",
+       "+128",
        "3,259",
        "0 .. 20,000",
-       "—",
+       "15,060",
        "Casual, Simulation",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "12 (10→)",
@@ -2185,13 +2343,13 @@
        "Kinetic Games",
        "2020-09-18",
        "$19.99 −30%",
-       "—",
-       "—",
+       "768,779 (0)",
+       "0",
        "13,041",
        "10,000,000 .. 20,000,000",
-       "—",
+       "30,751,160",
        "Horror, Online Co-Op, Multiplayer",
-       "잔류 · 출시 6년, 리뷰 360,546"
+       "잔류 · 출시 6년, 리뷰 768,779"
       ],
       [
        "13",
@@ -2200,13 +2358,13 @@
        "Klei Entertainment",
        "2016-04-21",
        "$14.99 −66%",
-       "—",
-       "—",
+       "499,061 (0)",
+       "0",
        "13,704",
        "10,000,000 .. 20,000,000",
-       "—",
+       "19,962,440",
        "Survival, Open World Survival Craft, Multiplayer",
-       "상승 · 할인 동반 · 출시 10년, 리뷰 82,401"
+       "상승 · 할인 동반 · 출시 10년, 리뷰 499,061"
       ],
       [
        "14 (17→)",
@@ -2215,13 +2373,13 @@
        "Pocketpair",
        "2026-07-09",
        "$29.99",
-       "—",
-       "—",
+       "380,709 (0)",
+       "0",
        "32,590",
        "50,000,000 .. 100,000,000",
-       "—",
+       "11,421,270",
        "Open World, Survival, Creature Collector",
-       "상승 · 리뷰 184,716"
+       "상승 · 리뷰 380,709"
       ],
       [
        "15 (12→)",
@@ -2230,13 +2388,13 @@
        "Hopoo Games",
        "2020-08-11",
        "$24.99",
-       "—",
-       "—",
+       "313,577 (0)",
+       "0",
        "19,388",
        "5,000,000 .. 10,000,000",
-       "—",
+       "12,543,080",
        "Third-Person Shooter, Action Roguelike, Multiplayer",
-       "잔류 · 출시 6년, 리뷰 165,090"
+       "잔류 · 출시 6년, 리뷰 313,577"
       ],
       [
        "16 (15→)",
@@ -2245,13 +2403,13 @@
        "The Indie Stone",
        "2013-11-08",
        "$24.99",
-       "—",
-       "—",
+       "377,063 (0)",
+       "0",
        "52,739",
        "10,000,000 .. 20,000,000",
-       "—",
+       "15,082,520",
        "Survival, Zombies, Open World",
-       "잔류 · 출시 12년, 리뷰 161,298"
+       "잔류 · 출시 12년, 리뷰 377,063"
       ],
       [
        "17 (14→)",
@@ -2260,13 +2418,13 @@
        "Wube Software LTD.",
        "2020-08-14",
        "$35.00",
-       "—",
-       "—",
+       "215,209 (0)",
+       "0",
        "17,577",
        "5,000,000 .. 10,000,000",
-       "—",
+       "8,608,360",
        "Automation, Base-Building, Resource Management",
-       "하락 · 정가 $35.00, 출시 6년, 리뷰 118,593"
+       "하락 · 정가 $35.00, 출시 6년, 리뷰 215,209"
       ],
       [
        "18",
@@ -2275,13 +2433,13 @@
        "Iron Gate AB",
        "2026-09-09",
        "$29.99",
-       "—",
-       "—",
+       "499,828 (0)",
+       "0",
        "84,124",
        "10,000,000 .. 20,000,000",
-       "—",
+       "14,994,840",
        "Open World Survival Craft, Survival, Online Co-Op",
-       "잔류 · 리뷰 267,077"
+       "잔류 · 리뷰 499,828"
       ],
       [
        "19",
@@ -2290,13 +2448,13 @@
        "lemorion_1224",
        "2026-06-09",
        "$5.99",
-       "—",
-       "—",
+       "44,169 (+34)",
+       "+77",
        "2,776",
        "0 .. 20,000",
-       "—",
+       "1,325,070",
        "Casual",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "20 (16→)",
@@ -2305,13 +2463,13 @@
        "Ludogram",
        "2026-10-08",
        "$12.99",
-       "—",
-       "—",
+       "1,156 (+36)",
+       "+115",
        "1,483",
        "0 .. 20,000",
-       "—",
+       "34,680",
        "Action, Adventure, Simulation",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "21 (22→)",
@@ -2320,28 +2478,28 @@
        "Redbeet Interactive",
        "2022-06-20",
        "$19.99",
-       "—",
-       "—",
+       "346,359 (0)",
+       "0",
        "3,938",
        "10,000,000 .. 20,000,000",
-       "—",
+       "13,854,360",
        "Survival, Multiplayer, Open World Survival Craft",
-       "상승 · 출시 4년, 리뷰 130,598"
+       "상승 · 출시 4년, 리뷰 346,359"
       ],
       [
        "22 (23→)",
        "us 32 · cn 14 · kr 34 · jp 39 · de 46 · br 39 · gb 43",
-       "[Escape the Backrooms](https://store.steampowered.com/app/1943950/)",
+       "[Escape the Backrooms](https://store.steampowered.com/app/1943950/) ⊘",
        "Fancy Games",
        "2025-10-23",
        "$9.99",
-       "—",
-       "—",
+       "102,529 (0)",
+       "0",
        "2,268",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,101,160",
        "Horror, Multiplayer, Online Co-Op",
-       "상승"
+       "상승 · 리뷰 102,529"
       ],
       [
        "23 (28→)",
@@ -2350,13 +2508,13 @@
        "SCS Software",
        "2012-10-12",
        "$19.99",
-       "—",
-       "—",
+       "867,404 (0)",
+       "0",
        "20,580",
        "10,000,000 .. 20,000,000",
-       "—",
+       "34,696,160",
        "Driving, Transportation, Simulation",
-       "상승 · 출시 14년, 리뷰 147,058"
+       "상승 · 출시 14년, 리뷰 867,404"
       ],
       [
        "24",
@@ -2365,13 +2523,13 @@
        "Mike Klubnika",
        "2026-07-30",
        "$7.99",
-       "—",
-       "—",
+       "1,969 (+6)",
+       "+10",
        "508",
        "0 .. 20,000",
-       "—",
+       "59,070",
        "Action",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "25 (21→)",
@@ -2380,13 +2538,13 @@
        "GONE Studios",
        "2026-10-20",
        "$9.99 −33%",
-       "—",
-       "—",
+       "2,216 (+18)",
+       "+38",
        "1,679",
        "0 .. 20,000",
-       "—",
+       "66,480",
        "Action, Adventure",
-       "하락"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "26",
@@ -2395,13 +2553,13 @@
        "AdHoc Studio",
        "2025-10-22",
        "$29.99 −20%",
-       "—",
-       "—",
+       "109,440 (+40)",
+       "+92",
        "1,608",
        "0 .. 20,000",
-       "—",
+       "4,377,600",
        "Action, Adventure, Casual",
-       "잔류 · 리뷰 109,440"
+       "꾸준한 상승 3회차 · 할인 중 · 리뷰 109,440"
       ],
       [
        "27 (25→)",
@@ -2410,13 +2568,13 @@
        "Re-Logic",
        "2011-05-16",
        "$9.99",
-       "—",
-       "—",
+       "1,409,473 (0)",
+       "0",
        "24,326",
        "20,000,000 .. 50,000,000",
-       "—",
+       "56,378,920",
        "Open World Survival Craft, Sandbox, Survival",
-       "하락 · 출시 15년, 리뷰 604,853"
+       "하락 · 출시 15년, 리뷰 1,409,473"
       ],
       [
        "28 (29→)",
@@ -2425,11 +2583,11 @@
        "Reiza Studios",
        "2020-06-30",
        "$39.99 −70%",
-       "—",
-       "—",
+       "11,009 (0)",
+       "0",
        "1,473",
        "200,000 .. 500,000",
-       "—",
+       "440,360",
        "Racing, Simulation, Sports",
        "상승 · 할인 동반 · 정가 $39.99, 출시 6년"
       ],
@@ -2440,13 +2598,13 @@
        "Nuggets Entertainment",
        "2025-10-21",
        "$7.99",
-       "—",
-       "—",
+       "32,174 (+22)",
+       "+43",
        "3,188",
        "0 .. 20,000",
-       "—",
+       "1,286,960",
        "Action, Adventure",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "30 (31→)",
@@ -2455,13 +2613,13 @@
        "Pigeons at Play",
        "2026-10-20",
        "$14.99 −50%",
-       "—",
-       "—",
+       "3,265 (+36)",
+       "+128",
        "3,170",
        "0 .. 20,000",
-       "—",
+       "97,950",
        "Action",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "31 (46→)",
@@ -2470,13 +2628,13 @@
        "Rike Games",
        "2026-07-29",
        "$6.99 −20%",
-       "—",
-       "—",
+       "6,218 (+25)",
+       "+64",
        "1,053",
        "0 .. 20,000",
-       "—",
+       "186,540",
        "Action, Casual, Simulation",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "32 (34→)",
@@ -2485,13 +2643,13 @@
        "Studio Wildcard",
        "2017-08-27",
        "$14.99 −34%",
-       "—",
-       "—",
+       "730,170 (0)",
+       "0",
        "12,030",
        "20,000,000 .. 50,000,000",
-       "—",
+       "29,206,800",
        "Open World Survival Craft, Survival, Multiplayer",
-       "상승 · 할인 동반 · 출시 9년, 리뷰 256,777"
+       "상승 · 할인 동반 · 출시 9년, 리뷰 730,170"
       ],
       [
        "33 (27→)",
@@ -2500,13 +2658,13 @@
        "poncle",
        "2022-10-20",
        "$4.99 −25%",
-       "—",
-       "—",
+       "250,334 (0)",
+       "0",
        "4,044",
        "5,000,000 .. 10,000,000",
-       "—",
+       "10,013,360",
        "Action Roguelike, Bullet Hell, Pixel Graphics",
-       "하락 · 출시 4년, 리뷰 128,408"
+       "하락 · 출시 4년, 리뷰 250,334"
       ],
       [
        "34 (35→)",
@@ -2515,13 +2673,13 @@
        "Ghost Town Games Ltd.",
        "2018-08-07",
        "$24.99 −66%",
-       "—",
-       "—",
+       "72,801 (0)",
+       "0",
        "1,413",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,912,040",
        "Multiplayer, Online Co-Op, Local Co-Op",
-       "상승 · 할인 동반 · 출시 8년"
+       "상승 · 할인 동반 · 출시 8년, 리뷰 72,801"
       ],
       [
        "35 (53→)",
@@ -2530,13 +2688,13 @@
        "Gunfire Reborn Studio",
        "2021-11-17",
        "$19.99 −30%",
-       "—",
-       "—",
+       "99,172 (0)",
+       "0",
        "809",
        "2,000,000 .. 5,000,000",
-       "—",
+       "3,966,880",
        "Rogue-lite, FPS, Rogue-like",
-       "상승 · 할인 동반 · 출시 4년"
+       "상승 · 할인 동반 · 출시 4년, 리뷰 99,172"
       ],
       [
        "36 (32→)",
@@ -2545,11 +2703,11 @@
        "Excellent Rectangle",
        "2023-05-03",
        "$19.99 −10%",
-       "—",
-       "—",
+       "2,958 (0)",
+       "0",
        "2,567",
        "200,000 .. 500,000",
-       "—",
+       "118,320",
        "Colorful, Sports, Rogue-lite",
        "상승 · 할인 동반 · 출시 3년"
       ],
@@ -2560,13 +2718,13 @@
        "Thekla, Inc.",
        "2026-10-08",
        "$29.99",
-       "—",
-       "—",
+       "1,740 (+21)",
+       "+81",
        "2,824",
        "0 .. 20,000",
-       "—",
+       "52,200",
        "Adventure, Strategy",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "38 (43→)",
@@ -2575,13 +2733,13 @@
        "ShoXx",
        "2026-10-13",
        "$2.49",
-       "—",
-       "—",
+       "716 (+97)",
+       "+212",
        "1,492",
        "0 .. 20,000",
-       "—",
+       "21,480",
        "Casual",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "39 (38→)",
@@ -2590,13 +2748,13 @@
        "Klei Entertainment",
        "2013-04-23",
        "$9.99 −75%",
-       "—",
-       "—",
+       "109,816 (0)",
+       "0",
        "1,088",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,392,640",
        "Survival, Open World Survival Craft, Crafting",
-       "잔류 · 출시 13년"
+       "잔류 · 출시 13년, 리뷰 109,816"
       ],
       [
        "40 (36→)",
@@ -2605,13 +2763,13 @@
        "Motion Twin",
        "2018-08-06",
        "$24.99 −50%",
-       "—",
-       "—",
+       "168,464 (0)",
+       "0",
        "1,678",
        "5,000,000 .. 10,000,000",
-       "—",
+       "6,738,560",
        "Adventure, Action Roguelike, Metroidvania",
-       "하락 · 출시 8년"
+       "하락 · 출시 8년, 리뷰 168,464"
       ],
       [
        "41 (42→)",
@@ -2620,13 +2778,13 @@
        "Mega Crit",
        "2019-01-23",
        "$24.99 −75%",
-       "—",
-       "—",
+       "182,277 (0)",
+       "0",
        "4,213",
        "5,000,000 .. 10,000,000",
-       "—",
+       "7,291,080",
        "Roguelike Deckbuilder, Card Game, Card Battler",
-       "상승 · 할인 동반 · 출시 7년, 리뷰 77,338"
+       "상승 · 할인 동반 · 출시 7년, 리뷰 182,277"
       ],
       [
        "42 (41→)",
@@ -2635,13 +2793,13 @@
        "Nicalis, Inc.",
        "2014-11-04",
        "$14.99",
-       "—",
-       "—",
+       "343,420 (0)",
+       "0",
        "33,943",
        "5,000,000 .. 10,000,000",
-       "—",
+       "13,736,800",
        "Action Roguelike, Rogue-like, Indie",
-       "하락 · 출시 11년, 리뷰 166,565"
+       "하락 · 출시 11년, 리뷰 343,420"
       ],
       [
        "43 (57→)",
@@ -2650,13 +2808,13 @@
        "Mandragora",
        "2026-08-06",
        "$19.99",
-       "—",
-       "—",
+       "5,863 (+16)",
+       "+45",
        "1,193",
        "0 .. 20,000",
-       "—",
+       "175,890",
        "Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "44 (45→)",
@@ -2665,13 +2823,13 @@
        "TVGS",
        "2025-03-24",
        "$19.99",
-       "—",
-       "—",
+       "204,041 (0)",
+       "0",
        "15,129",
        "10,000,000 .. 20,000,000",
-       "—",
+       "8,161,640",
        "Simulation, Co-op, Crime",
-       "상승 · 리뷰 204,071"
+       "상승 · 리뷰 204,041"
       ],
       [
        "45 (39→)",
@@ -2680,11 +2838,11 @@
        "Black Salt Games",
        "2023-03-30",
        "$24.99 −60%",
-       "—",
-       "—",
+       "43,966 (0)",
+       "0",
        "1,068",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,758,640",
        "Exploration, Fishing, Lovecraftian",
        "하락 · 출시 3년"
       ],
@@ -2695,13 +2853,13 @@
        "Rebuilt Games",
        "2018-09-20",
        "$14.99",
-       "—",
-       "—",
+       "53,814 (0)",
+       "0",
        "1,242",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,152,560",
        "Multiplayer, Funny, Online Co-Op",
-       "하락 · 출시 8년"
+       "하락 · 출시 8년, 리뷰 53,814"
       ],
       [
        "47 (52→)",
@@ -2710,13 +2868,13 @@
        "Sandfall Interactive",
        "2025-04-24",
        "$49.99 −21%",
-       "—",
-       "—",
+       "111,032 (0)",
+       "0",
        "4,504",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,441,280",
        "Turn-Based Combat, Story Rich, Fantasy",
-       "상승 · 할인 동반 · 정가 $49.99, 리뷰 103,666"
+       "상승 · 할인 동반 · 정가 $49.99, 리뷰 111,032"
       ],
       [
        "48 (37→)",
@@ -2725,13 +2883,13 @@
        "Coffee Stain Studios",
        "2024-09-10",
        "$39.99",
-       "—",
-       "—",
+       "232,064 (0)",
+       "0",
        "18,853",
        "10,000,000 .. 20,000,000",
-       "—",
+       "9,282,560",
        "Base-Building, Automation, Open World",
-       "하락 · 정가 $39.99, 리뷰 138,489"
+       "하락 · 정가 $39.99, 리뷰 232,064"
       ],
       [
        "49",
@@ -2740,13 +2898,13 @@
        "Team Cherry",
        "2017-02-24",
        "$14.99",
-       "—",
-       "—",
+       "415,946 (0)",
+       "0",
        "6,263",
        "5,000,000 .. 10,000,000",
-       "—",
+       "16,637,840",
        "Metroidvania, Souls-like, Platformer",
-       "잔류 · 출시 9년, 리뷰 185,690"
+       "잔류 · 출시 9년, 리뷰 415,946"
       ],
       [
        "50 (55→)",
@@ -2755,28 +2913,28 @@
        "tobyfox",
        "2015-09-15",
        "$9.99 −75%",
-       "—",
-       "—",
+       "272,932 (0)",
+       "0",
        "1,911",
        "5,000,000 .. 10,000,000",
-       "—",
+       "10,917,280",
        "Great Soundtrack, Story Rich, Choices Matter",
-       "상승 · 할인 동반 · 출시 11년, 리뷰 155,344"
+       "상승 · 할인 동반 · 출시 11년, 리뷰 272,932"
       ],
       [
        "51 (48→)",
        "us 59 · cn 137 · kr 188 · jp 61 · de 39 · br 61 · gb 51",
-       "[Supermarket Simulator](https://store.steampowered.com/app/2670630/)",
+       "[Supermarket Simulator](https://store.steampowered.com/app/2670630/) ⊘",
        "Nokta Games",
        "2025-06-19",
        "$19.99",
-       "—",
-       "—",
+       "68,341 (0)",
+       "0",
        "2,967",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,733,640",
        "Simulation, Management, Economy",
-       "하락"
+       "하락 · 리뷰 68,341"
       ],
       [
        "52 (56→)",
@@ -2785,13 +2943,13 @@
        "Afterthought LLC",
        "2015-12-01",
        "$19.99",
-       "—",
-       "—",
+       "94,804 (0)",
+       "0",
        "17,153",
        "500,000 .. 1,000,000",
-       "—",
+       "3,792,160",
        "Dinosaurs, Survival, Open World",
-       "상승 · 출시 10년, 리뷰 63,009"
+       "상승 · 출시 10년, 리뷰 94,804"
       ],
       [
        "53 (54→)",
@@ -2800,13 +2958,13 @@
        "Dan Schumacher",
        "2026-10-19",
        "$7.99 −25%",
-       "—",
-       "—",
+       "524 (+63)",
+       "+191",
        "344",
        "0 .. 20,000",
-       "—",
+       "15,720",
        "Casual, Strategy",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "54 (44→)",
@@ -2815,11 +2973,11 @@
        "Lavaflame2",
        "2025-11-06",
        "무료",
-       "—",
-       "—",
+       "21,716 (0)",
+       "0",
        "13,642",
        "1,000,000 .. 2,000,000",
-       "—",
+       "651,480",
        "Idler, Pixel Graphics, Free to Play",
        "하락"
       ],
@@ -2830,13 +2988,13 @@
        "Nugem Studio",
        "2026-05-27",
        "무료",
-       "—",
-       "—",
+       "8,694 (+10)",
+       "+42",
        "50,489",
        "0 .. 20,000",
-       "—",
+       "260,820",
        "Casual, RPG, Free To Play",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "56 (59→)",
@@ -2845,13 +3003,13 @@
        "Supergiant Games",
        "2025-09-25",
        "$29.99",
-       "—",
-       "—",
+       "64,132 (0)",
+       "0",
        "3,418",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,565,280",
        "Action, Rogue-like, Rogue-lite",
-       "상승 · 리뷰 66,164"
+       "상승 · 리뷰 64,132"
       ],
       [
        "57 (47→)",
@@ -2860,11 +3018,11 @@
        "Torn Banner Studios",
        "2026-08-11",
        "$29.99 −25%",
-       "—",
-       "—",
+       "16,515 (0)",
+       "0",
        "2,402",
        "200,000 .. 500,000",
-       "—",
+       "495,450",
        "Early Access, Zombies, Multiplayer",
        "하락"
       ],
@@ -2875,11 +3033,11 @@
        "Maxim Karpenko",
        "2021-12-02",
        "$19.99",
-       "—",
-       "—",
+       "44,062 (0)",
+       "0",
        "2,146",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,762,480",
        "Sandbox, God Game, Simulation",
        "상승 · 출시 4년"
       ],
@@ -2890,13 +3048,13 @@
        "LocalThunk",
        "2024-02-20",
        "$14.99",
-       "—",
-       "—",
+       "153,566 (0)",
+       "0",
        "7,489",
        "2,000,000 .. 5,000,000",
-       "—",
+       "6,142,640",
        "Card Game, Roguelike Deckbuilder, Rogue-like",
-       "상승 · 리뷰 105,302"
+       "상승 · 리뷰 153,566"
       ],
       [
        "60 (58→)",
@@ -2905,11 +3063,11 @@
        "OPNeon Games",
        "2026-09-14",
        "$19.99",
-       "—",
-       "—",
+       "39,499 (0)",
+       "0",
        "4,300",
        "2,000,000 .. 5,000,000",
-       "—",
+       "1,184,970",
        "Simulation, Management, Economy",
        "상승"
       ],
@@ -2920,13 +3078,13 @@
        "Team Cherry",
        "2025-09-04",
        "$19.99",
-       "—",
-       "—",
+       "146,950 (+37)",
+       "+85",
        "6,017",
        "0 .. 20,000",
-       "—",
+       "5,878,000",
        "Action, Adventure",
-       "하락 · 리뷰 146,950"
+       "승격 통과 · 3회차 오가닉 · 리뷰 146,950"
       ],
       [
        "62 (90→)",
@@ -2935,28 +3093,28 @@
        "MINTROCKET",
        "2023-06-28",
        "$19.99",
-       "—",
-       "—",
+       "129,331 (0)",
+       "0",
        "2,552",
        "5,000,000 .. 10,000,000",
-       "—",
+       "5,173,240",
        "Pixel Graphics, Casual, Management",
-       "상승 · 출시 3년, 리뷰 51,501"
+       "상승 · 출시 3년, 리뷰 129,331"
       ],
       [
        "63 (61→)",
        "us 166 · cn 33 · kr 109 · jp 101 · de 119 · br 49 · gb 136",
-       "[Buckshot Roulette](https://store.steampowered.com/app/2835570/)",
+       "[Buckshot Roulette](https://store.steampowered.com/app/2835570/) ⊘",
        "Mike Klubnika",
        "2024-04-04",
        "$2.99 −50%",
-       "—",
-       "—",
+       "95,541 (0)",
+       "0",
        "1,005",
        "2,000,000 .. 5,000,000",
-       "—",
+       "3,821,640",
        "Multiplayer, Dark, Gambling",
-       "하락"
+       "하락 · 리뷰 95,541"
       ],
       [
        "64 (80→)",
@@ -2965,13 +3123,13 @@
        "ArtRising",
        "2026-04-30",
        "$5.99",
-       "—",
-       "—",
+       "16,673 (+12)",
+       "+48",
        "1,712",
        "0 .. 20,000",
-       "—",
+       "500,190",
        "Casual, Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "65 (85→)",
@@ -2980,11 +3138,11 @@
        "Recreate Games",
        "2023-09-20",
        "$19.99",
-       "—",
-       "—",
+       "17,300 (+4)",
+       "+5",
        "1,519",
        "2,000,000 .. 5,000,000",
-       "—",
+       "692,000",
        "Multiplayer, Funny, Casual",
        "상승 · 출시 3년"
       ],
@@ -2995,13 +3153,13 @@
        "Berserk Games",
        "2015-06-05",
        "$19.99",
-       "—",
-       "—",
+       "70,660 (0)",
+       "0",
        "9,031",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,826,400",
        "Tabletop, Board Game, Simulation",
-       "상승 · 출시 11년"
+       "상승 · 출시 11년, 리뷰 70,660"
       ],
       [
        "67 (51→)",
@@ -3010,28 +3168,28 @@
        "Kunos Simulazioni",
        "2014-12-19",
        "$19.99",
-       "—",
-       "—",
+       "151,391 (0)",
+       "0",
        "8,979",
        "5,000,000 .. 10,000,000",
-       "—",
+       "6,055,640",
        "Racing, Automobile Sim, Simulation",
-       "하락 · 출시 11년, 리뷰 61,032"
+       "하락 · 출시 11년, 리뷰 151,391"
       ],
       [
        "68 (62→)",
        "us 81 · cn 171 · kr 19 · jp 14 · de 187 · br 74 · gb —",
-       "[Core Keeper](https://store.steampowered.com/app/1621690/)",
+       "[Core Keeper](https://store.steampowered.com/app/1621690/) ⊘",
        "Pugstorm",
        "2024-08-27",
        "$19.99",
-       "—",
-       "—",
+       "54,979 (0)",
+       "0",
        "5,929",
        "1,000,000 .. 2,000,000",
-       "—",
+       "2,199,160",
        "Pixel Graphics, Open World Survival Craft, Online Co-Op",
-       "상승"
+       "상승 · 리뷰 54,979"
       ],
       [
        "69 (68→)",
@@ -3040,13 +3198,13 @@
        "Blue Mammoth Games",
        "2017-10-17",
        "무료",
-       "—",
-       "—",
+       "386,456 (0)",
+       "0",
        "13,180",
        "20,000,000 .. 50,000,000",
-       "—",
+       "15,458,240",
        "Free to Play, Multiplayer, Fighting",
-       "하락 · 출시 9년, 리뷰 179,855"
+       "하락 · 출시 9년, 리뷰 386,456"
       ],
       [
        "70 (65→)",
@@ -3055,13 +3213,13 @@
        "Massive Monster",
        "2022-08-11",
        "$24.99",
-       "—",
-       "—",
+       "103,228 (0)",
+       "0",
        "2,766",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,129,120",
        "Base-Building, Cute, Action Roguelike",
-       "상승 · 출시 4년, 리뷰 61,401"
+       "상승 · 출시 4년, 리뷰 103,228"
       ],
       [
        "71 (63→)",
@@ -3070,13 +3228,13 @@
        "Facepunch Studios",
        "2006-11-29",
        "$9.99",
-       "—",
-       "—",
+       "1,159,707 (0)",
+       "0",
        "26,752",
        "20,000,000 .. 50,000,000",
-       "—",
+       "46,388,280",
        "Sandbox, Moddable, Multiplayer",
-       "상승 · 출시 19년, 리뷰 542,200"
+       "상승 · 출시 19년, 리뷰 1,159,707"
       ],
       [
        "72 (115→)",
@@ -3085,11 +3243,11 @@
        "Fireline Games",
        "2026-07-30",
        "$9.99 −20%",
-       "—",
-       "—",
+       "1,455 (+5)",
+       "+5",
        "294",
        "0 .. 20,000",
-       "—",
+       "43,650",
        "Casual, Simulation",
        "상승 · 할인 동반"
       ],
@@ -3100,13 +3258,13 @@
        "Mob Entertainment",
        "2021-10-12",
        "무료",
-       "—",
-       "—",
+       "98,914 (0)",
+       "0",
        "987",
        "5,000,000 .. 10,000,000",
-       "—",
+       "3,956,560",
        "Horror, Free to Play, Singleplayer",
-       "상승 · 출시 5년, 리뷰 62,805"
+       "상승 · 출시 5년, 리뷰 98,914"
       ],
       [
        "74 (69→)",
@@ -3115,13 +3273,13 @@
        "RobTop Games",
        "2014-12-22",
        "$4.99",
-       "—",
-       "—",
+       "429,921 (0)",
+       "0",
        "53,092",
        "5,000,000 .. 10,000,000",
-       "—",
+       "17,196,840",
        "Difficult, Music, Level Editor",
-       "하락 · 출시 11년, 리뷰 308,394"
+       "하락 · 출시 11년, 리뷰 429,921"
       ],
       [
        "75 (86→)",
@@ -3130,11 +3288,11 @@
        "TEAM HORAY",
        "2026-07-31",
        "$17.99",
-       "—",
-       "—",
+       "2,180 (0)",
+       "0",
        "854",
        "100,000 .. 200,000",
-       "—",
+       "65,400",
        "Multiplayer, Action Roguelike, Inventory Management",
        "상승"
       ],
@@ -3145,13 +3303,13 @@
        "Hello Games",
        "2016-08-12",
        "$59.99",
-       "—",
-       "—",
+       "352,858 (0)",
+       "0",
        "13,719",
        "5,000,000 .. 10,000,000",
-       "—",
+       "14,114,320",
        "Open World, Open World Survival Craft, Space",
-       "상승 · 정가 $59.99, 출시 10년, 리뷰 187,144"
+       "상승 · 정가 $59.99, 출시 10년, 리뷰 352,858"
       ],
       [
        "77 (76→)",
@@ -3160,11 +3318,11 @@
        "Beautiful Glitch",
        "2025-04-24",
        "$14.99 −30%",
-       "—",
-       "—",
+       "1,444 (0)",
+       "0",
        "86",
        "50,000 .. 100,000",
-       "—",
+       "57,760",
        "Visual Novel, Comedy, LGBTQ+",
        "하락"
       ],
@@ -3175,13 +3333,13 @@
        "Alex Massé and team",
        "2026-05-25",
        "$39.99",
-       "—",
-       "—",
+       "14,755 (+9)",
+       "+25",
        "1,261",
        "0 .. 20,000",
-       "—",
+       "442,650",
        "Simulation, Early Access",
-       "잔류 · 정가 $39.99"
+       "승격 통과 · 3회차 오가닉 · 정가 $39.99"
       ],
       [
        "79 (78→)",
@@ -3190,13 +3348,13 @@
        "Studio MDHR Entertainment Inc.",
        "2017-09-29",
        "$19.99",
-       "—",
-       "—",
+       "186,835 (0)",
+       "0",
        "2,199",
        "5,000,000 .. 10,000,000",
-       "—",
+       "7,473,400",
        "Difficult, Cartoon, Co-op",
-       "하락 · 출시 9년, 리뷰 66,546"
+       "하락 · 출시 9년, 리뷰 186,835"
       ],
       [
        "80 (88→)",
@@ -3205,13 +3363,13 @@
        "Nick Nieuwoudt",
        "2026-08-06",
        "$19.99",
-       "—",
-       "—",
+       "8,230 (+10)",
+       "+26",
        "368",
        "0 .. 20,000",
-       "—",
+       "246,900",
        "Action, Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "81 (66→)",
@@ -3220,13 +3378,13 @@
        "Wild Dog",
        "2026-10-09",
        "$14.99",
-       "—",
-       "—",
+       "591 (+15)",
+       "+48",
        "507",
        "0 .. 20,000",
-       "—",
+       "17,730",
        "Casual, Simulation, Early Access",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "82 (73→)",
@@ -3235,11 +3393,11 @@
        "Curve Animation",
        "2024-10-02",
        "$6.99",
-       "—",
-       "—",
+       "48,550 (0)",
+       "0",
        "482",
        "2,000,000 .. 5,000,000",
-       "—",
+       "1,942,000",
        "Multiplayer, Casual, PvP",
        "상승"
       ],
@@ -3250,11 +3408,11 @@
        "ART X GAMES",
        "2026-10-23",
        "무료",
-       "—",
-       "—",
+       "475 (+174)",
+       "+174",
        "5,353",
        "0 .. 20,000",
-       "—",
+       "14,250",
        "Casual, RPG, Free To Play",
        "하락"
       ],
@@ -3265,11 +3423,11 @@
        "STAR ENGINE PROJECT",
        "2024-02-28",
        "무료",
-       "—",
-       "—",
+       "16,969 (0)",
+       "0",
        "715",
        "1,000,000 .. 2,000,000",
-       "—",
+       "678,760",
        "Sexual Content, Hentai, Anime",
        "하락"
       ],
@@ -3280,13 +3438,13 @@
        "Auroch Digital",
        "2026-10-14",
        "$24.99",
-       "—",
-       "—",
+       "820 (+42)",
+       "+100",
        "493",
        "0 .. 20,000",
-       "—",
+       "24,600",
        "Action",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "86 (75→)",
@@ -3295,13 +3453,13 @@
        "Jim Bonacci",
        "2026-09-21",
        "$4.99",
-       "—",
-       "—",
+       "3,363 (+34)",
+       "+82",
        "1,230",
        "0 .. 20,000",
-       "—",
+       "100,890",
        "Action, Casual, Racing",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "87",
@@ -3310,11 +3468,11 @@
        "Double Fine Productions",
        "2015-01-26",
        "$14.99 −85%",
-       "—",
+       "8,202",
        "—",
        "109",
        "500,000 .. 1,000,000",
-       "—",
+       "328,080",
        "Adventure, Point & Click, Classic",
        "신규 진입 · 할인 동반 · 출시 11년"
       ],
@@ -3325,13 +3483,13 @@
        "Eleventh Hour Games",
        "2024-02-21",
        "$34.99",
-       "—",
-       "—",
+       "110,623 (0)",
+       "0",
        "4,289",
        "20,000,000 .. 50,000,000",
-       "—",
+       "4,424,920",
        "Action RPG, Loot, Hack and Slash",
-       "상승 · 정가 $34.99, 리뷰 59,858"
+       "상승 · 정가 $34.99, 리뷰 110,623"
       ],
       [
        "89 (87→)",
@@ -3340,11 +3498,11 @@
        "tobspr Games",
        "2026-04-23",
        "$29.99 −40%",
-       "—",
-       "—",
+       "11,061 (0)",
+       "0",
        "721",
        "200,000 .. 500,000",
-       "—",
+       "331,830",
        "Management, Strategy, Automation",
        "하락"
       ],
@@ -3355,11 +3513,11 @@
        "The Wandering Band LLC",
        "2022-03-07",
        "$24.99 −80%",
-       "—",
-       "—",
+       "2,161 (0)",
+       "0",
        "83",
        "200,000 .. 500,000",
-       "—",
+       "86,440",
        "City Builder, Base-Building, Exploration",
        "상승 · 할인 동반 · 출시 4년"
       ],
@@ -3370,11 +3528,11 @@
        "Pathea Games",
        "2023-11-02",
        "$39.99 −70%",
-       "—",
-       "—",
+       "26,283 (0)",
+       "0",
        "1,095",
        "500,000 .. 1,000,000",
-       "—",
+       "1,051,320",
        "Life Sim, Building, Farming Sim",
        "상승 · 할인 동반 · 정가 $39.99"
       ],
@@ -3385,11 +3543,11 @@
        "Emberstorm Entertainment",
        "2024-09-12",
        "$19.99",
-       "—",
-       "—",
+       "2,626 (0)",
+       "0",
        "328",
        "100,000 .. 200,000",
-       "—",
+       "105,040",
        "Early Access, Building, Indie",
        "상승"
       ],
@@ -3400,13 +3558,13 @@
        "Beat Games",
        "2019-05-21",
        "$19.99",
-       "—",
-       "—",
+       "74,612 (0)",
+       "0",
        "407",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,984,480",
        "VR, Rhythm, Music",
-       "상승 · 출시 7년, 리뷰 53,108"
+       "상승 · 출시 7년, 리뷰 74,612"
       ],
       [
        "94 (97→)",
@@ -3415,11 +3573,11 @@
        "Obb Studio Inc.",
        "2024-06-14",
        "$19.99 −10%",
-       "—",
-       "—",
+       "32,031 (0)",
+       "0",
        "1,692",
        "500,000 .. 1,000,000",
-       "—",
+       "1,281,240",
        "RPG, Choices Matter, Multiple Endings",
        "상승 · 할인 동반"
       ],
@@ -3430,13 +3588,13 @@
        "Nimble Neuron",
        "2023-07-19",
        "무료",
-       "—",
-       "—",
+       "65,046 (0)",
+       "0",
        "2,048",
        "5,000,000 .. 10,000,000",
-       "—",
+       "2,601,840",
        "Free to Play, Anime, Sexual Content",
-       "하락 · 출시 3년"
+       "하락 · 출시 3년, 리뷰 65,046"
       ],
       [
        "96 (84→)",
@@ -3445,11 +3603,11 @@
        "Polymorph Games",
        "2025-01-31",
        "$34.99",
-       "—",
-       "—",
+       "20,132 (0)",
+       "0",
        "1,842",
        "500,000 .. 1,000,000",
-       "—",
+       "805,280",
        "City Builder, Simulation, Medieval",
        "하락 · 정가 $34.99"
       ],
@@ -3460,11 +3618,11 @@
        "MaFi Games",
        "2022-05-31",
        "$34.99 −30%",
-       "—",
-       "—",
+       "7,154 (0)",
+       "0",
        "1,936",
        "200,000 .. 500,000",
-       "—",
+       "286,160",
        "Base-Building, Automation, Resource Management",
        "하락 · 정가 $34.99, 출시 4년"
       ],
@@ -3475,11 +3633,11 @@
        "KovaaK Games",
        "2018-04-03",
        "$9.99 −49%",
-       "—",
-       "—",
+       "35,305 (0)",
+       "0",
        "2,507",
        "500,000 .. 1,000,000",
-       "—",
+       "1,412,200",
        "Action, Shooter, Simulation",
        "상승 · 할인 동반 · 출시 8년"
       ],
@@ -3490,13 +3648,13 @@
        "Lunch Money Games",
        "2026-03-18",
        "$6.99",
-       "—",
-       "—",
+       "9,133 (+18)",
+       "+40",
        "1,677",
        "0 .. 20,000",
-       "—",
+       "273,990",
        "Casual, Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "100 (112→)",
@@ -3505,13 +3663,13 @@
        "Wombat Brawler",
        "2025-06-16",
        "$14.99 −33%",
-       "—",
-       "—",
+       "5,291 (+8)",
+       "+19",
        "495",
        "0 .. 20,000",
-       "—",
+       "211,640",
        "Casual, RPG, Simulation",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "101 (102→)",
@@ -3520,13 +3678,13 @@
        "No Brakes Games",
        "2016-07-22",
        "$19.99",
-       "—",
-       "—",
+       "213,640 (0)",
+       "0",
        "557",
        "10,000,000 .. 20,000,000",
-       "—",
+       "8,545,600",
        "Co-op, Funny, Puzzle",
-       "상승 · 출시 10년"
+       "상승 · 출시 10년, 리뷰 213,640"
       ],
       [
        "102 (121→)",
@@ -3535,13 +3693,13 @@
        "Indie Souls Studio",
        "2026-09-25",
        "$5.99",
-       "—",
-       "—",
+       "1,532 (+24)",
+       "+68",
        "298",
        "0 .. 20,000",
-       "—",
+       "45,960",
        "Casual, Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "103 (98→)",
@@ -3550,13 +3708,13 @@
        "Bajka Games",
        "2026-09-07",
        "$14.99 −20%",
-       "—",
-       "—",
+       "917 (+3)",
+       "+10",
        "343",
        "0 .. 20,000",
-       "—",
+       "27,510",
        "Casual, Simulation",
-       "하락"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "104 (110→)",
@@ -3565,13 +3723,13 @@
        "Klei Entertainment",
        "2019-07-30",
        "$24.99",
-       "—",
-       "—",
+       "128,390 (0)",
+       "0",
        "4,764",
        "2,000,000 .. 5,000,000",
-       "—",
+       "5,135,600",
        "Colony Sim, Base-Building, Survival",
-       "상승 · 출시 7년"
+       "상승 · 출시 7년, 리뷰 128,390"
       ],
       [
        "105 (118→)",
@@ -3580,13 +3738,13 @@
        "Monomi Park",
        "2017-08-01",
        "$19.99 −75%",
-       "—",
-       "—",
+       "138,097 (0)",
+       "0",
        "1,276",
        "2,000,000 .. 5,000,000",
-       "—",
+       "5,523,880",
        "Cute, Exploration, Adventure",
-       "상승 · 할인 동반 · 출시 9년, 리뷰 65,981"
+       "상승 · 할인 동반 · 출시 9년, 리뷰 138,097"
       ],
       [
        "106 (93→)",
@@ -3595,11 +3753,11 @@
        "Videocult",
        "2017-03-28",
        "$24.99 −65%",
-       "—",
-       "—",
+       "42,277 (0)",
+       "0",
        "1,245",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,691,080",
        "Difficult, Atmospheric, Survival",
        "하락 · 출시 9년"
       ],
@@ -3610,11 +3768,11 @@
        "Sense Games",
        "2025-03-27",
        "$34.99 −35%",
-       "—",
-       "—",
+       "22,025 (0)",
+       "0",
        "144",
        "200,000 .. 500,000",
-       "—",
+       "881,000",
        "Souls-like, Female Protagonist, Anime",
        "상승 · 할인 동반 · 정가 $34.99"
       ],
@@ -3625,11 +3783,11 @@
        "ReLU Games, Inc.",
        "2025-10-27",
        "$9.99",
-       "—",
-       "—",
+       "2,124 (0)",
+       "+1",
        "226",
        "0 .. 20,000",
-       "—",
+       "63,720",
        "Action, Adventure, Casual",
        "하락"
       ],
@@ -3640,13 +3798,13 @@
        "Sunny Lab",
        "2026-10-14",
        "$19.99 −10%",
-       "—",
-       "—",
+       "312 (+18)",
+       "+53",
        "324",
        "0 .. 20,000",
-       "—",
+       "9,360",
        "Adventure, RPG",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "110 (96→)",
@@ -3655,11 +3813,11 @@
        "Keen Software House",
        "2025-01-27",
        "$29.99",
-       "—",
-       "—",
+       "2,144 (0)",
+       "0",
        "1,288",
        "100,000 .. 200,000",
-       "—",
+       "85,760",
        "Simulation, Sandbox, Action",
        "하락"
       ],
@@ -3670,11 +3828,11 @@
        "D5 Copperhead",
        "2026-09-07",
        "$17.99",
-       "—",
-       "—",
+       "1,457 (+4)",
+       "+5",
        "1,325",
        "0 .. 20,000",
-       "—",
+       "43,710",
        "Casual, Simulation, Strategy",
        "상승"
       ],
@@ -3685,13 +3843,13 @@
        "Endnight Games Ltd",
        "2018-04-30",
        "$19.99",
-       "—",
-       "—",
+       "627,791 (0)",
+       "0",
        "3,498",
        "20,000,000 .. 50,000,000",
-       "—",
+       "25,111,640",
        "Open World Survival Craft, Survival, Open World",
-       "하락 · 출시 8년, 리뷰 178,275"
+       "하락 · 출시 8년, 리뷰 627,791"
       ],
       [
        "113 (135→)",
@@ -3700,11 +3858,11 @@
        "にゅう工房",
        "2024-08-30",
        "$24.99 −23%",
-       "—",
-       "—",
+       "3,045 (0)",
+       "0",
        "42",
        "100,000 .. 200,000",
-       "—",
+       "121,800",
        "Sexual Content, Hentai, Mature",
        "상승 · 할인 동반"
       ],
@@ -3715,11 +3873,11 @@
        "Baffled Engineer",
        "2026-10-13",
        "$6.99 −20%",
-       "—",
-       "—",
+       "623 (0)",
+       "0",
        "246",
        "0 .. 20,000",
-       "—",
+       "18,690",
        "Casual, Simulation, Strategy",
        "상승 · 할인 동반"
       ],
@@ -3730,13 +3888,13 @@
        "Team Lazerbeam",
        "2026-09-10",
        "$14.99",
-       "—",
-       "—",
+       "1,922 (+7)",
+       "+33",
        "395",
        "0 .. 20,000",
-       "—",
+       "57,660",
        "Adventure, Early Access",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "116",
@@ -3745,11 +3903,11 @@
        "Pounce Light",
        "2024-09-23",
        "$14.99",
-       "—",
-       "—",
+       "22,997 (0)",
+       "0",
        "327",
        "500,000 .. 1,000,000",
-       "—",
+       "919,880",
        "Building, Design & Illustration, Relaxing",
        "신규 진입"
       ],
@@ -3760,11 +3918,11 @@
        "Team Soda",
        "2025-10-16",
        "$17.99 −30%",
-       "—",
-       "—",
+       "10,728 (+5)",
+       "+12",
        "1,132",
        "0 .. 20,000",
-       "—",
+       "429,120",
        "Action, Adventure, RPG",
        "상승 · 할인 동반"
       ],
@@ -3775,13 +3933,13 @@
        "Gamexcite",
        "2026-02-18",
        "$34.99 −30%",
-       "—",
-       "—",
+       "3,182 (+5)",
+       "+8",
        "304",
        "0 .. 20,000",
-       "—",
+       "95,460",
        "Strategy",
-       "하락 · 정가 $34.99"
+       "꾸준한 상승 3회차 · 할인 중 · 정가 $34.99"
       ],
       [
        "119 (164→)",
@@ -3790,11 +3948,11 @@
        "Ink Stains Games",
        "2020-02-06",
        "$24.99 −30%",
-       "—",
-       "—",
+       "30,062 (0)",
+       "0",
        "895",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,202,480",
        "RPG, Rogue-like, Strategy",
        "상승 · 할인 동반 · 출시 6년"
       ],
@@ -3805,11 +3963,11 @@
        "Metal Head Games",
        "2025-07-17",
        "$23.99 −25%",
-       "—",
-       "—",
+       "4,935 (0)",
+       "0",
        "114",
        "200,000 .. 500,000",
-       "—",
+       "197,400",
        "RPG, Story Rich, Pixel Graphics",
        "하락"
       ],
@@ -3820,13 +3978,13 @@
        "Hazelight Studios",
        "2020-06-18",
        "$29.99",
-       "—",
+       "82,462",
        "—",
        "311",
        "2,000,000 .. 5,000,000",
-       "—",
+       "3,298,480",
        "Online Co-Op, Co-op, Split Screen",
-       "신규 진입 · 출시 6년"
+       "신규 진입 · 출시 6년, 리뷰 82,462"
       ],
       [
        "122 (163→)",
@@ -3835,11 +3993,11 @@
        "Indoor Astronaut",
        "2020-09-23",
        "$19.99 −85%",
-       "—",
-       "—",
+       "18,669 (0)",
+       "0",
        "140",
        "1,000,000 .. 2,000,000",
-       "—",
+       "746,760",
        "Multiplayer, Co-op, Online Co-Op",
        "상승 · 할인 동반 · 출시 6년"
       ],
@@ -3850,13 +4008,13 @@
        "GraveYardDev",
        "2026-09-29",
        "$2.99",
-       "—",
-       "—",
+       "1,335 (+42)",
+       "+123",
        "423",
        "0 .. 20,000",
-       "—",
+       "40,050",
        "Casual, Simulation, Strategy",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "124 (101→)",
@@ -3865,13 +4023,13 @@
        "Game in a Bottle",
        "2026-10-21",
        "$9.99",
-       "—",
-       "—",
+       "112 (+13)",
+       "+41",
        "541",
        "0 .. 20,000",
-       "—",
+       "3,360",
        "Casual, Strategy",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "125 (132→)",
@@ -3880,11 +4038,11 @@
        "Parita Games",
        "2026-10-23",
        "$7.99 −20%",
-       "—",
-       "—",
+       "71 (+29)",
+       "+49",
        "213",
        "0 .. 20,000",
-       "—",
+       "2,130",
        "Action, Adventure",
        "상승 · 할인 동반"
       ],
@@ -3895,11 +4053,11 @@
        "Beautiful Glitch",
        "2022-10-21",
        "$11.99 −69%",
-       "—",
-       "—",
+       "3,112 (0)",
+       "0",
        "48",
        "100,000 .. 200,000",
-       "—",
+       "124,480",
        "Visual Novel, LGBTQ+, Dating Sim",
        "하락 · 출시 4년"
       ],
@@ -3910,13 +4068,13 @@
        "Blood Pact Studios",
        "2026-03-17",
        "$19.90",
-       "—",
-       "—",
+       "8,130 (+10)",
+       "+23",
        "680",
        "0 .. 20,000",
-       "—",
+       "243,900",
        "Casual, Simulation",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "128 (156→)",
@@ -3925,13 +4083,13 @@
        "Tuxedo Labs",
        "2022-04-21",
        "$29.99",
-       "—",
-       "—",
+       "109,462 (0)",
+       "0",
        "2,349",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,378,480",
        "Destruction, Physics, Sandbox",
-       "상승 · 출시 4년, 리뷰 76,876"
+       "상승 · 출시 4년, 리뷰 109,462"
       ],
       [
        "129",
@@ -3940,11 +4098,11 @@
        "Pine Studio",
        "2021-10-19",
        "$19.99 −51%",
-       "—",
+       "17,308",
        "—",
        "279",
        "1,000,000 .. 2,000,000",
-       "—",
+       "692,320",
        "Puzzle, Co-op, Multiplayer",
        "신규 진입 · 할인 동반 · 출시 5년"
       ],
@@ -3955,13 +4113,13 @@
        "QueseraGames",
        "2026-10-13",
        "$19.99 −20%",
-       "—",
-       "—",
+       "390 (+30)",
+       "+79",
        "15",
        "0 .. 20,000",
-       "—",
+       "11,700",
        "Action, Adventure, Casual",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "131 (174→)",
@@ -3970,11 +4128,11 @@
        "Isolated Games",
        "2020-07-28",
        "$17.99 −25%",
-       "—",
-       "—",
+       "13,900 (0)",
+       "0",
        "1,463",
        "500,000 .. 1,000,000",
-       "—",
+       "556,000",
        "Life Sim, Pixel Graphics, Management",
        "상승 · 할인 동반 · 출시 6년"
       ],
@@ -3985,13 +4143,13 @@
        "Lantto Games",
        "2026-08-13",
        "$19.99 −35%",
-       "—",
-       "—",
+       "3,452 (+11)",
+       "+32",
        "2,179",
        "0 .. 20,000",
-       "—",
+       "103,560",
        "Simulation, Strategy, Early Access",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "133 (145→)",
@@ -4000,13 +4158,13 @@
        "7th Beat Games",
        "2019-01-24",
        "$5.99",
-       "—",
-       "—",
+       "73,471 (0)",
+       "0",
        "500",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,938,840",
        "Rhythm, Music, Difficult",
-       "상승 · 출시 7년"
+       "상승 · 출시 7년, 리뷰 73,471"
       ],
       [
        "134",
@@ -4015,13 +4173,13 @@
        "上海アリス幻樂団",
        "2026-09-09",
        "무료",
-       "—",
-       "—",
+       "1,717 (+1)",
+       "+9",
        "115",
        "0 .. 20,000",
-       "—",
+       "51,510",
        "Action",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "135 (149→)",
@@ -4030,13 +4188,13 @@
        "WILD WITS GAMES",
        "2026-08-06",
        "$19.99",
-       "—",
-       "—",
+       "2,149 (+9)",
+       "+30",
        "682",
        "0 .. 20,000",
-       "—",
+       "64,470",
        "RPG",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "136",
@@ -4045,11 +4203,11 @@
        "Cyanide Studio",
        "2014-10-07",
        "$19.99 −90%",
-       "—",
-       "—",
+       "10,590 (0)",
+       "0",
        "114",
        "500,000 .. 1,000,000",
-       "—",
+       "423,600",
        "Stealth, Singleplayer, Action",
        "잔류 · 출시 12년"
       ],
@@ -4060,11 +4218,11 @@
        "Armchair Interactive",
        "2025-10-27",
        "$29.99 −30%",
-       "—",
-       "—",
+       "2,594 (+4)",
+       "+6",
        "386",
        "0 .. 20,000",
-       "—",
+       "77,820",
        "Strategy",
        "하락"
       ],
@@ -4075,13 +4233,13 @@
        "96Percent",
        "2026-07-16",
        "무료",
-       "—",
-       "—",
+       "397 (+3)",
+       "+10",
        "149",
        "0 .. 20,000",
-       "—",
+       "11,910",
        "Action, Adventure, Free To Play",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "139 (144→)",
@@ -4090,13 +4248,13 @@
        "shu3",
        "2026-09-01",
        "$3.99",
-       "—",
-       "—",
+       "2,240 (+28)",
+       "+78",
        "21",
        "0 .. 20,000",
-       "—",
+       "67,200",
        "Adventure, Casual",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "140 (183→)",
@@ -4105,11 +4263,11 @@
        "HypeTrain Digital",
        "2025-11-07",
        "$29.99 −50%",
-       "—",
-       "—",
+       "5,956 (0)",
+       "0",
        "479",
        "200,000 .. 500,000",
-       "—",
+       "178,680",
        "Open World Survival Craft, Co-op, Survival",
        "상승 · 할인 동반"
       ],
@@ -4120,11 +4278,11 @@
        "playinworld",
        "2026-06-27",
        "무료",
-       "—",
-       "—",
+       "212 (0)",
+       "0",
        "477",
        "0 .. 20,000",
-       "—",
+       "6,360",
        "Action, Adventure, Massively Multiplayer",
        "하락"
       ],
@@ -4135,11 +4293,11 @@
        "Beautiful Glitch",
        "2018-04-27",
        "$11.99 −80%",
-       "—",
-       "—",
+       "13,998 (0)",
+       "0",
        "197",
        "500,000 .. 1,000,000",
-       "—",
+       "559,920",
        "Dating Sim, Comedy, LGBTQ+",
        "상승 · 할인 동반 · 출시 8년"
       ],
@@ -4150,11 +4308,11 @@
        "Wrong Organ",
        "2024-09-26",
        "$12.99 −40%",
-       "—",
-       "—",
+       "29,864 (0)",
+       "0",
        "127",
        "500,000 .. 1,000,000",
-       "—",
+       "1,194,560",
        "Psychological Horror, Story Rich, Horror",
        "상승 · 할인 동반"
       ],
@@ -4165,11 +4323,11 @@
        "Tarsier Studios",
        "2021-02-10",
        "$29.99 −67%",
-       "—",
-       "—",
+       "43,042 (0)",
+       "0",
        "203",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,721,680",
        "Horror, Adventure, Singleplayer",
        "상승 · 할인 동반 · 출시 5년"
       ],
@@ -4180,13 +4338,13 @@
        "Acacia",
        "2025-07-18",
        "$29.99",
-       "—",
-       "—",
+       "718 (+1)",
+       "+4",
        "144",
        "0 .. 20,000",
-       "—",
+       "28,720",
        "Adventure, Simulation",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "146 (162→)",
@@ -4195,11 +4353,11 @@
        "Fairview Games Inc.",
        "2026-01-23",
        "$24.99 −50%",
-       "—",
-       "—",
+       "639 (+5)",
+       "+5",
        "61",
        "0 .. 20,000",
-       "—",
+       "19,170",
        "Adventure, Simulation, Early Access",
        "상승 · 할인 동반"
       ],
@@ -4210,11 +4368,11 @@
        "Shiro Games",
        "2023-04-12",
        "$34.99",
-       "—",
+       "29,336",
        "—",
        "1,359",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,173,440",
        "RPG, Open World, Turn-Based Strategy",
        "신규 진입 · 정가 $34.99, 출시 3년"
       ],
@@ -4225,11 +4383,11 @@
        "ProjectMoon",
        "2018-04-09",
        "$24.99",
-       "—",
-       "—",
+       "43,932 (0)",
+       "0",
        "895",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,757,280",
        "Management, Difficult, Psychological Horror",
        "하락 · 출시 8년"
       ],
@@ -4240,13 +4398,13 @@
        "Jackbox Games, Inc.",
        "2026-10-14",
        "$29.99",
-       "—",
-       "—",
+       "73 (+2)",
+       "+5",
        "130",
        "0 .. 20,000",
-       "—",
+       "2,190",
        "Casual, Strategy",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "150 (129→)",
@@ -4255,11 +4413,11 @@
        "Passtech Games",
        "2024-09-26",
        "$24.99",
-       "—",
-       "—",
+       "16,153 (0)",
+       "0",
        "1,787",
        "200,000 .. 500,000",
-       "—",
+       "646,120",
        "Rogue-like, Co-op, Action Roguelike",
        "하락"
       ],
@@ -4270,13 +4428,13 @@
        "BLANBEE",
        "2026-09-22",
        "$13.99",
-       "—",
-       "—",
+       "770 (+1)",
+       "+10",
        "9",
        "0 .. 20,000",
-       "—",
+       "23,100",
        "Casual, Simulation, Early Access",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "152 (146→)",
@@ -4285,13 +4443,13 @@
        "Oni Gaming",
        "2025-05-01",
        "무료",
-       "—",
-       "—",
+       "7,574 (+4)",
+       "+15",
        "7,027",
        "0 .. 20,000",
-       "—",
+       "302,960",
        "Casual, Simulation, Free To Play",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "153",
@@ -4300,11 +4458,11 @@
        "Luminite",
        "2021-09-01",
        "$14.99",
-       "—",
-       "—",
+       "4,423 (0)",
+       "0",
        "474",
        "200,000 .. 500,000",
-       "—",
+       "176,920",
        "Simulation, Flight, Sports",
        "신규 진입 · 출시 5년"
       ],
@@ -4315,11 +4473,11 @@
        "Beartwigs",
        "2026-05-25",
        "$13.99",
-       "—",
-       "—",
+       "1,401 (+2)",
+       "+2",
        "466",
        "0 .. 20,000",
-       "—",
+       "42,030",
        "Action, Adventure, RPG",
        "상승"
       ],
@@ -4330,11 +4488,11 @@
        "Lunarch Studios",
        "2026-03-17",
        "$12.99 −25%",
-       "—",
-       "—",
+       "2,699 (0)",
+       "0",
        "341",
        "0 .. 20,000",
-       "—",
+       "80,970",
        "Casual, Strategy",
        "상승 · 할인 동반"
       ],
@@ -4345,13 +4503,13 @@
        "Gloomsoft",
        "2026-10-22",
        "$24.99 −10%",
-       "—",
-       "—",
+       "111 (+29)",
+       "+85",
        "120",
        "0 .. 20,000",
-       "—",
+       "3,330",
        "Action, Adventure",
-       "하락"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "157 (150→)",
@@ -4360,13 +4518,13 @@
        "ChillyRoom",
        "2026-10-13",
        "$17.99 −14%",
-       "—",
-       "—",
+       "576 (+14)",
+       "+44",
        "232",
        "0 .. 20,000",
-       "—",
+       "17,280",
        "Action, Adventure, Early Access",
-       "하락"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "158 (175→)",
@@ -4375,11 +4533,11 @@
        "Keepsake Games",
        "2025-09-19",
        "$19.99",
-       "—",
-       "—",
+       "8,449 (+6)",
+       "+9",
        "675",
        "0 .. 20,000",
-       "—",
+       "337,960",
        "Action, Adventure, Early Access",
        "상승"
       ],
@@ -4390,11 +4548,11 @@
        "LoopCap",
        "2026-08-26",
        "$3.99",
-       "—",
+       "1,684",
        "—",
        "244",
        "0 .. 20,000",
-       "—",
+       "50,520",
        "Casual, Simulation",
        "신규 진입"
       ],
@@ -4405,13 +4563,13 @@
        "Red Hook Studios",
        "2016-01-19",
        "$24.99",
-       "—",
-       "—",
+       "149,456 (0)",
+       "0",
        "2,760",
        "2,000,000 .. 5,000,000",
-       "—",
+       "5,978,240",
        "Turn-Based Combat, Dark Fantasy, Dungeon Crawler",
-       "상승 · 출시 10년, 리뷰 57,363"
+       "상승 · 출시 10년, 리뷰 149,456"
       ],
       [
        "161 (188→)",
@@ -4420,11 +4578,11 @@
        "Panik Arcade",
        "2025-09-26",
        "$9.99",
-       "—",
-       "—",
+       "25,181 (0)",
+       "0",
        "754",
        "0 .. 20,000",
-       "—",
+       "1,007,240",
        "Action, Adventure, Simulation",
        "상승"
       ],
@@ -4435,11 +4593,11 @@
        "Red Dot Games",
        "2021-08-11",
        "$24.99",
-       "—",
-       "—",
+       "29,841 (0)",
+       "0",
        "1,225",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,193,640",
        "Simulation, Automobile Sim, Realistic",
        "상승 · 출시 5년"
       ],
@@ -4450,11 +4608,11 @@
        "Motion Twin",
        "2024-10-24",
        "$24.99 −30%",
-       "—",
-       "—",
+       "8,453 (0)",
+       "0",
        "256",
        "200,000 .. 500,000",
-       "—",
+       "338,120",
        "Early Access, Action Roguelike, Hack and Slash",
        "하락"
       ],
@@ -4465,13 +4623,13 @@
        "PopCap Games, Inc.",
        "2009-05-05",
        "$4.99",
-       "—",
-       "—",
+       "139,925 (0)",
+       "0",
        "1,783",
        "2,000,000 .. 5,000,000",
-       "—",
+       "5,597,000",
        "Tower Defense, Zombies, Strategy",
-       "상승 · 출시 17년"
+       "상승 · 출시 17년, 리뷰 139,925"
       ],
       [
        "165 (122→)",
@@ -4480,11 +4638,11 @@
        "Prideful Sloth",
        "2026-07-16",
        "$27.99 −20%",
-       "—",
-       "—",
+       "1,828 (0)",
+       "0",
        "121",
        "100,000 .. 200,000",
-       "—",
+       "54,840",
        "Early Access, Simulation, City Builder",
        "하락"
       ],
@@ -4495,13 +4653,13 @@
        "lowiro",
        "2026-09-09",
        "$39.99",
-       "—",
-       "—",
+       "1,322 (+6)",
+       "+16",
        "88",
        "0 .. 20,000",
-       "—",
+       "39,660",
        "Action",
-       "하락 · 정가 $39.99"
+       "승격 통과 · 3회차 오가닉 · 정가 $39.99"
       ],
       [
        "167 (169→)",
@@ -4510,13 +4668,13 @@
        "BunnyHop",
        "2026-06-29",
        "$4.99",
-       "—",
-       "—",
+       "1,587 (+2)",
+       "+9",
        "425",
        "0 .. 20,000",
-       "—",
+       "47,610",
        "Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "168 (143→)",
@@ -4525,11 +4683,11 @@
        "Kyle Thompson",
        "2026-09-22",
        "$19.99",
-       "—",
-       "—",
+       "3,905 (0)",
+       "0",
        "359",
        "0 .. 20,000",
-       "—",
+       "117,150",
        "Action, Adventure, RPG",
        "하락"
       ],
@@ -4540,11 +4698,11 @@
        "Trioskaz",
        "2025-09-15",
        "$14.99",
-       "—",
-       "—",
+       "27,918 (0)",
+       "0",
        "341",
        "0 .. 20,000",
-       "—",
+       "1,116,720",
        "Simulation",
        "신규 진입"
       ],
@@ -4555,11 +4713,11 @@
        "Stairway Games",
        "2023-11-14",
        "$29.99",
-       "—",
-       "—",
+       "21,728 (0)",
+       "0",
        "2,368",
        "500,000 .. 1,000,000",
-       "—",
+       "869,120",
        "Farming Sim, Life Sim, Relaxing",
        "신규 진입"
       ],
@@ -4570,28 +4728,28 @@
        "Sassy Chap Games",
        "2025-06-17",
        "$29.99 −60%",
-       "—",
-       "—",
+       "6,137 (+4)",
+       "+8",
        "426",
        "0 .. 20,000",
-       "—",
+       "245,480",
        "Simulation",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "172 (130→)",
        "us 88 · cn — · kr — · jp — · de — · br — · gb 64",
-       "[Blade and Sorcery](https://store.steampowered.com/app/629730/)",
+       "[Blade and Sorcery](https://store.steampowered.com/app/629730/) ⊘",
        "WarpFrog",
        "2024-06-17",
        "$29.99",
-       "—",
-       "—",
+       "57,485 (0)",
+       "0",
        "668",
        "1,000,000 .. 2,000,000",
-       "—",
+       "2,299,400",
        "VR, Swordplay, Moddable",
-       "하락"
+       "하락 · 리뷰 57,485"
       ],
       [
        "173 (161→)",
@@ -4600,13 +4758,13 @@
        "Out of the Park Developments",
        "2026-03-13",
        "$49.99 −50%",
-       "—",
-       "—",
+       "540 (+3)",
+       "+7",
        "1,153",
        "0 .. 20,000",
-       "—",
+       "16,200",
        "Simulation, Sports, Strategy",
-       "하락 · 정가 $49.99"
+       "꾸준한 상승 3회차 · 할인 중 · 정가 $49.99"
       ],
       [
        "174",
@@ -4615,13 +4773,13 @@
        "Landfall",
        "2021-04-01",
        "$19.99",
-       "—",
-       "—",
+       "135,943 (0)",
+       "0",
        "1,881",
        "2,000,000 .. 5,000,000",
-       "—",
+       "5,437,720",
        "Sandbox, Simulation, Funny",
-       "신규 진입 · 출시 5년, 리뷰 85,136"
+       "신규 진입 · 출시 5년, 리뷰 135,943"
       ],
       [
        "175 (173→)",
@@ -4630,11 +4788,11 @@
        "JakeHub",
        "2026-06-05",
        "$7.99",
-       "—",
-       "—",
+       "493 (0)",
+       "0",
        "42",
        "0 .. 20,000",
-       "—",
+       "14,790",
        "Action, Casual, Simulation",
        "하락"
       ],
@@ -4645,11 +4803,11 @@
        "Luke Muscat",
        "2026-09-21",
        "$9.99",
-       "—",
-       "—",
+       "1,501 (+8)",
+       "+8",
        "240",
        "0 .. 20,000",
-       "—",
+       "45,030",
        "Simulation, Sports",
        "하락"
       ],
@@ -4660,13 +4818,13 @@
        "keepeetron",
        "2026-08-14",
        "$3.99",
-       "—",
-       "—",
+       "337 (+5)",
+       "+26",
        "416",
        "0 .. 20,000",
-       "—",
+       "10,110",
        "Casual",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "178 (117→)",
@@ -4675,11 +4833,11 @@
        "Lion's Shade",
        "2026-10-18",
        "$14.99 −15%",
-       "—",
-       "—",
+       "116 (0)",
+       "0",
        "100",
        "0 .. 20,000",
-       "—",
+       "3,480",
        "Third-Person Shooter, PvE, Shooter",
        "하락"
       ],
@@ -4690,11 +4848,11 @@
        "TECOPARK",
        "2021-05-07",
        "$4.99",
-       "—",
-       "—",
+       "28,499 (0)",
+       "0",
        "100",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,139,960",
        "Multiplayer, Online Co-Op, Puzzle-Platformer",
        "상승 · 출시 5년"
       ],
@@ -4705,11 +4863,11 @@
        "Beautiful Glitch",
        "2020-10-23",
        "$11.99 −75%",
-       "—",
-       "—",
+       "5,973 (0)",
+       "0",
        "88",
        "200,000 .. 500,000",
-       "—",
+       "238,920",
        "Dating Sim, LGBTQ+, Comedy",
        "상승 · 할인 동반 · 출시 6년"
       ],
@@ -4720,11 +4878,11 @@
        "CookieDev",
        "2025-06-17",
        "$14.99 −49%",
-       "—",
-       "—",
+       "6,469 (0)",
+       "0",
        "511",
        "0 .. 20,000",
-       "—",
+       "258,760",
        "Action, Simulation",
        "신규 진입 · 할인 동반"
       ],
@@ -4735,13 +4893,13 @@
        "Straight Back Games",
        "2021-01-28",
        "$9.99",
-       "—",
-       "—",
+       "82,514 (0)",
+       "0",
        "586",
        "2,000,000 .. 5,000,000",
-       "—",
+       "3,300,560",
        "Horror, Online Co-Op, Multiplayer",
-       "하락 · 출시 5년"
+       "하락 · 출시 5년, 리뷰 82,514"
       ],
       [
        "183 (172→)",
@@ -4750,11 +4908,11 @@
        "ProjectMoon",
        "2021-08-10",
        "$29.99",
-       "—",
-       "—",
+       "34,509 (0)",
+       "0",
        "964",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,380,360",
        "Story Rich, Card Game, Strategy",
        "하락 · 출시 5년"
       ],
@@ -4765,13 +4923,13 @@
        "FuturLab",
        "2022-07-14",
        "$24.99",
-       "—",
+       "52,410",
        "—",
        "1,100",
        "1,000,000 .. 2,000,000",
-       "—",
+       "2,096,400",
        "Casual, Relaxing, Simulation",
-       "신규 진입 · 출시 4년"
+       "신규 진입 · 출시 4년, 리뷰 52,410"
       ],
       [
        "185 (139→)",
@@ -4780,13 +4938,13 @@
        "Rayll",
        "2026-06-10",
        "$7.99",
-       "—",
-       "—",
+       "3,657 (+5)",
+       "+13",
        "176",
        "0 .. 20,000",
-       "—",
+       "109,710",
        "Adventure, Casual",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "186 (176→)",
@@ -4795,11 +4953,11 @@
        "Yolo Games Studio",
        "2026-02-02",
        "$13.99 −30%",
-       "—",
-       "—",
+       "1,109 (0)",
+       "+2",
        "999",
        "0 .. 20,000",
-       "—",
+       "33,270",
        "Casual, Simulation, Early Access",
        "하락"
       ],
@@ -4810,11 +4968,11 @@
        "LumenLabs",
        "2026-10-16",
        "$7.79",
-       "—",
-       "—",
+       "28",
+       "+2",
        "93",
        "0 .. 20,000",
-       "—",
+       "840",
        "Action, Casual",
        "신규 진입"
       ],
@@ -4825,13 +4983,13 @@
        "Hwonze",
        "2026-10-02",
        "$4.99",
-       "—",
-       "—",
+       "331 (+10)",
+       "+37",
        "3,508",
        "0 .. 20,000",
-       "—",
+       "9,930",
        "Casual",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "189 (186→)",
@@ -4840,11 +4998,11 @@
        " New One Studio",
        "2026-06-08",
        "$18.00",
-       "—",
-       "—",
+       "7,987 (0)",
+       "0",
        "105",
        "0 .. 20,000",
-       "—",
+       "239,610",
        "Adventure, Casual, RPG",
        "하락"
       ],
@@ -4855,11 +5013,11 @@
        "Aether Studios",
        "2024-10-23",
        "$29.99 −50%",
-       "—",
+       "7,294",
        "—",
        "612",
        "200,000 .. 500,000",
-       "—",
+       "291,760",
        "Fighting, Multiplayer, Indie",
        "신규 진입 · 할인 동반"
       ],
@@ -4870,13 +5028,13 @@
        "Mobius Digital",
        "2020-06-18",
        "$24.99",
-       "—",
-       "—",
+       "84,488 (0)",
+       "0",
        "1,275",
        "1,000,000 .. 2,000,000",
-       "—",
+       "3,379,520",
        "Exploration, Space, Mystery",
-       "상승 · 출시 6년, 리뷰 53,591"
+       "상승 · 출시 6년, 리뷰 84,488"
       ],
       [
        "192 (193→)",
@@ -4885,11 +5043,11 @@
        "Eternity",
        "2025-10-30",
        "$5.99",
-       "—",
-       "—",
+       "3,533 (+5)",
+       "+5",
        "267",
        "0 .. 20,000",
-       "—",
+       "105,990",
        "Casual, Simulation",
        "상승"
       ],
@@ -4900,11 +5058,11 @@
        "Ironhide Game Studio",
        "2026-09-24",
        "$19.99",
-       "—",
-       "—",
+       "4,749 (0)",
+       "0",
        "550",
        "0 .. 20,000",
-       "—",
+       "142,470",
        "Action, Strategy",
        "하락"
       ],
@@ -4915,11 +5073,11 @@
        "NEXT Studios",
        "2020-03-26",
        "$14.99 −88%",
-       "—",
+       "8,822",
        "—",
        "111",
        "500,000 .. 1,000,000",
-       "—",
+       "352,880",
        "Character Customization, Emotional, Co-op",
        "신규 진입 · 할인 동반 · 출시 6년"
       ],
@@ -4930,11 +5088,11 @@
        "Team 1B",
        "2026-10-16",
        "$5.99 −20%",
-       "—",
-       "—",
+       "118 (0)",
+       "0",
        "108",
        "0 .. 20,000",
-       "—",
+       "3,540",
        "",
        "신규 진입 · 할인 동반"
       ],
@@ -4945,13 +5103,13 @@
        "Expression Games",
        "2021-07-27",
        "$49.99",
-       "—",
+       "137,677",
        "—",
        "2,392",
        "2,000,000 .. 5,000,000",
-       "—",
+       "5,507,080",
        "Shooter, Realistic, World War II",
-       "신규 진입 · 정가 $49.99, 출시 5년, 리뷰 62,979"
+       "신규 진입 · 정가 $49.99, 출시 5년, 리뷰 137,677"
       ],
       [
        "197 (168→)",
@@ -4960,11 +5118,11 @@
        "Future Tech.",
        "2026-10-22",
        "$17.99 −20%",
-       "—",
-       "—",
+       "1,315 (+240)",
+       "+637",
        "208",
        "0 .. 20,000",
-       "—",
+       "39,450",
        "Action, Adventure, Racing",
        "하락"
       ],
@@ -4975,11 +5133,11 @@
        "Pengonauts",
        "2026-09-29",
        "$14.99",
-       "—",
-       "—",
+       "897 (0)",
+       "0",
        "372",
        "0 .. 20,000",
-       "—",
+       "26,910",
        "Casual, Strategy",
        "하락"
       ],
@@ -4990,11 +5148,11 @@
        "Supermassive Games",
        "2025-10-09",
        "$39.99",
-       "—",
+       "5,090",
        "—",
        "232",
        "0 .. 20,000",
-       "—",
+       "203,600",
        "Adventure",
        "신규 진입 · 정가 $39.99"
       ],
@@ -5005,11 +5163,11 @@
        "Loiste Interactive",
        "2018-12-11",
        "$19.99",
-       "—",
+       "1,077",
        "—",
        "1,006",
        "50,000 .. 100,000",
-       "—",
+       "43,080",
        "Indie, Survival, RPG",
        "신규 진입 · 출시 7년"
       ]
@@ -5025,7 +5183,7 @@
       "출시",
       "가격",
       "리뷰 (1일)",
-      "5일",
+      "3일",
       "동접",
       "오너 구간",
       "추정 판매",
@@ -6545,7 +6703,7 @@
       "출시",
       "가격",
       "리뷰 (1일)",
-      "5일",
+      "3일",
       "동접",
       "오너 구간",
       "추정 판매",
@@ -6560,13 +6718,13 @@
        "Keen Games GmbH",
        "2026-10-15",
        "$39.99 −10%",
-       "—",
-       "—",
+       "78,080 (0)",
+       "0",
        "74,530",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,342,400",
        "Open World, Survival, Base-Building",
-       "잔류 · 정가 $39.99, 리뷰 51,613"
+       "잔류 · 정가 $39.99, 리뷰 78,080"
       ],
       [
        "2",
@@ -6575,13 +6733,13 @@
        "Cozy Lives",
        "2026-09-21",
        "$14.99",
-       "—",
-       "—",
+       "12,998 (+199)",
+       "+550",
        "25,001",
        "0 .. 20,000",
-       "—",
+       "389,940",
        "Casual, Simulation",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "3 (4→)",
@@ -6590,13 +6748,13 @@
        "Funselektor Labs Inc.",
        "2026-10-14",
        "$24.99 −20%",
-       "—",
-       "—",
+       "2,568 (+162)",
+       "+448",
        "6,316",
        "0 .. 20,000",
-       "—",
+       "77,040",
        "Adventure, Casual, Racing",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "4 (3→)",
@@ -6605,13 +6763,13 @@
        "Facepunch Studios",
        "2018-02-08",
        "$39.99",
-       "—",
-       "—",
+       "1,227,784 (0)",
+       "0",
        "70,074",
        "20,000,000 .. 50,000,000",
-       "—",
+       "49,111,360",
        "Survival, Crafting, Multiplayer",
-       "하락 · 정가 $39.99, 출시 8년, 리뷰 533,888"
+       "하락 · 정가 $39.99, 출시 8년, 리뷰 1,227,784"
       ],
       [
        "5",
@@ -6620,13 +6778,13 @@
        "Hopoo Games",
        "2020-08-11",
        "$24.99",
-       "—",
-       "—",
+       "313,577 (0)",
+       "0",
        "19,388",
        "5,000,000 .. 10,000,000",
-       "—",
+       "12,543,080",
        "Third-Person Shooter, Action Roguelike, Multiplayer",
-       "잔류 · 출시 6년, 리뷰 165,090"
+       "잔류 · 출시 6년, 리뷰 313,577"
       ],
       [
        "6",
@@ -6635,13 +6793,13 @@
        "Dazed Games",
        "2026-08-20",
        "$7.99",
-       "—",
-       "—",
+       "29,125 (+77)",
+       "+180",
        "6,549",
        "0 .. 20,000",
-       "—",
+       "873,750",
        "Action, Casual, Simulation",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "7",
@@ -6650,13 +6808,13 @@
        "Ludeon Studios",
        "2018-10-17",
        "$34.99 −20%",
-       "—",
-       "—",
+       "210,517 (0)",
+       "0",
        "28,186",
        "5,000,000 .. 10,000,000",
-       "—",
+       "8,420,680",
        "Colony Sim, Base-Building, Survival",
-       "잔류 · 정가 $34.99, 출시 8년, 리뷰 120,198"
+       "잔류 · 정가 $34.99, 출시 8년, 리뷰 210,517"
       ],
       [
        "8",
@@ -6665,13 +6823,13 @@
        "The Indie Stone",
        "2013-11-08",
        "$24.99",
-       "—",
-       "—",
+       "377,063 (0)",
+       "0",
        "52,739",
        "10,000,000 .. 20,000,000",
-       "—",
+       "15,082,520",
        "Survival, Zombies, Open World",
-       "잔류 · 출시 12년, 리뷰 161,298"
+       "잔류 · 출시 12년, 리뷰 377,063"
       ],
       [
        "9",
@@ -6680,13 +6838,13 @@
        "Iron Gate AB",
        "2026-09-09",
        "$29.99",
-       "—",
-       "—",
+       "499,828 (0)",
+       "0",
        "84,124",
        "10,000,000 .. 20,000,000",
-       "—",
+       "14,994,840",
        "Open World Survival Craft, Survival, Online Co-Op",
-       "잔류 · 리뷰 267,077"
+       "잔류 · 리뷰 499,828"
       ],
       [
        "10 (11→)",
@@ -6695,13 +6853,13 @@
        "Lefto Studio",
        "2026-09-02",
        "$7.99 −40%",
-       "—",
-       "—",
+       "1,291 (+17)",
+       "+43",
        "1,962",
        "0 .. 20,000",
-       "—",
+       "38,730",
        "Casual",
-       "잔류"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "11 (10→)",
@@ -6710,13 +6868,13 @@
        "Mega Crit",
        "2026-03-05",
        "$24.99",
-       "—",
-       "—",
+       "71,487 (+64)",
+       "+161",
        "44,837",
        "0 .. 20,000",
-       "—",
+       "2,144,610",
        "Strategy, Early Access",
-       "상승 · 리뷰 71,487"
+       "승격 통과 · 3회차 오가닉 · 리뷰 71,487"
       ],
       [
        "12 (14→)",
@@ -6725,13 +6883,13 @@
        "TVGS",
        "2025-03-24",
        "$19.99",
-       "—",
-       "—",
+       "204,041 (0)",
+       "0",
        "15,129",
        "10,000,000 .. 20,000,000",
-       "—",
+       "8,161,640",
        "Simulation, Co-op, Crime",
-       "상승 · 리뷰 204,071"
+       "상승 · 리뷰 204,041"
       ],
       [
        "13 (15→)",
@@ -6740,13 +6898,13 @@
        "Pocketpair",
        "2026-07-09",
        "$29.99",
-       "—",
-       "—",
+       "380,709 (0)",
+       "0",
        "32,590",
        "50,000,000 .. 100,000,000",
-       "—",
+       "11,421,270",
        "Open World, Survival, Creature Collector",
-       "상승 · 리뷰 184,716"
+       "상승 · 리뷰 380,709"
       ],
       [
        "14 (25→)",
@@ -6755,11 +6913,11 @@
        "DragDrop Games",
        "2026-10-23",
        "$8.99 −15%",
-       "—",
-       "—",
+       "795 (+338)",
+       "+637",
        "32,062",
        "0 .. 20,000",
-       "—",
+       "23,850",
        "Action, Adventure, Casual",
        "상승 · 할인 동반"
       ],
@@ -6770,13 +6928,13 @@
        "Kinetic Games",
        "2020-09-18",
        "$19.99 −30%",
-       "—",
-       "—",
+       "768,779 (0)",
+       "0",
        "13,041",
        "10,000,000 .. 20,000,000",
-       "—",
+       "30,751,160",
        "Horror, Online Co-Op, Multiplayer",
-       "잔류 · 출시 6년, 리뷰 360,546"
+       "잔류 · 출시 6년, 리뷰 768,779"
       ],
       [
        "16 (13→)",
@@ -6785,11 +6943,11 @@
        "Torn Banner Studios",
        "2026-08-11",
        "$29.99 −25%",
-       "—",
-       "—",
+       "16,515 (0)",
+       "0",
        "2,402",
        "200,000 .. 500,000",
-       "—",
+       "495,450",
        "Early Access, Zombies, Multiplayer",
        "하락"
       ],
@@ -6800,13 +6958,13 @@
        "ConcernedApe",
        "2016-02-26",
        "$14.99",
-       "—",
-       "—",
+       "886,195 (0)",
+       "0",
        "43,126",
        "20,000,000 .. 50,000,000",
-       "—",
+       "35,447,800",
        "Farming Sim, Pixel Graphics, Multiplayer",
-       "상승 · 출시 10년, 리뷰 396,322"
+       "상승 · 출시 10년, 리뷰 886,195"
       ],
       [
        "18",
@@ -6815,13 +6973,13 @@
        "Wube Software LTD.",
        "2020-08-14",
        "$35.00",
-       "—",
-       "—",
+       "215,209 (0)",
+       "0",
        "17,577",
        "5,000,000 .. 10,000,000",
-       "—",
+       "8,608,360",
        "Automation, Base-Building, Resource Management",
-       "하락 · 정가 $35.00, 출시 6년, 리뷰 118,593"
+       "하락 · 정가 $35.00, 출시 6년, 리뷰 215,209"
       ],
       [
        "19",
@@ -6830,13 +6988,13 @@
        "Afterthought LLC",
        "2015-12-01",
        "$19.99",
-       "—",
-       "—",
+       "94,804 (0)",
+       "0",
        "17,153",
        "500,000 .. 1,000,000",
-       "—",
+       "3,792,160",
        "Dinosaurs, Survival, Open World",
-       "상승 · 출시 10년, 리뷰 63,009"
+       "상승 · 출시 10년, 리뷰 94,804"
       ],
       [
        "20 (16→)",
@@ -6845,11 +7003,11 @@
        "Lavaflame2",
        "2025-11-06",
        "무료",
-       "—",
-       "—",
+       "21,716 (0)",
+       "0",
        "13,642",
        "1,000,000 .. 2,000,000",
-       "—",
+       "651,480",
        "Idler, Pixel Graphics, Free to Play",
        "하락"
       ],
@@ -6860,13 +7018,13 @@
        "Ludogram",
        "2026-10-08",
        "$12.99",
-       "—",
-       "—",
+       "1,156 (+36)",
+       "+115",
        "1,483",
        "0 .. 20,000",
-       "—",
+       "34,680",
        "Action, Adventure, Simulation",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "22 (21→)",
@@ -6875,13 +7033,13 @@
        "AdHoc Studio",
        "2025-10-22",
        "$29.99 −20%",
-       "—",
-       "—",
+       "109,440 (+40)",
+       "+92",
        "1,608",
        "0 .. 20,000",
-       "—",
+       "4,377,600",
        "Action, Adventure, Casual",
-       "잔류 · 리뷰 109,440"
+       "꾸준한 상승 3회차 · 할인 중 · 리뷰 109,440"
       ],
       [
        "23 (26→)",
@@ -6890,13 +7048,13 @@
        "Hello Games",
        "2016-08-12",
        "$59.99",
-       "—",
-       "—",
+       "352,858 (0)",
+       "0",
        "13,719",
        "5,000,000 .. 10,000,000",
-       "—",
+       "14,114,320",
        "Open World, Open World Survival Craft, Space",
-       "상승 · 정가 $59.99, 출시 10년, 리뷰 187,144"
+       "상승 · 정가 $59.99, 출시 10년, 리뷰 352,858"
       ],
       [
        "24 (23→)",
@@ -6905,13 +7063,13 @@
        "Coffee Stain Studios",
        "2024-09-10",
        "$39.99",
-       "—",
-       "—",
+       "232,064 (0)",
+       "0",
        "18,853",
        "10,000,000 .. 20,000,000",
-       "—",
+       "9,282,560",
        "Base-Building, Automation, Open World",
-       "하락 · 정가 $39.99, 리뷰 138,489"
+       "하락 · 정가 $39.99, 리뷰 232,064"
       ],
       [
        "25 (22→)",
@@ -6920,13 +7078,13 @@
        "Jim Bonacci",
        "2026-09-21",
        "$4.99",
-       "—",
-       "—",
+       "3,363 (+34)",
+       "+82",
        "1,230",
        "0 .. 20,000",
-       "—",
+       "100,890",
        "Action, Casual, Racing",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "26 (24→)",
@@ -6935,13 +7093,13 @@
        "Pigeons at Play",
        "2026-10-20",
        "$14.99 −50%",
-       "—",
-       "—",
+       "3,265 (+36)",
+       "+128",
        "3,170",
        "0 .. 20,000",
-       "—",
+       "97,950",
        "Action",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "27 (33→)",
@@ -6950,11 +7108,11 @@
        "Excellent Rectangle",
        "2023-05-03",
        "$19.99 −10%",
-       "—",
-       "—",
+       "2,958 (0)",
+       "0",
        "2,567",
        "200,000 .. 500,000",
-       "—",
+       "118,320",
        "Colorful, Sports, Rogue-lite",
        "상승 · 할인 동반 · 출시 3년"
       ],
@@ -6965,13 +7123,13 @@
        "Mandragora",
        "2026-08-06",
        "$19.99",
-       "—",
-       "—",
+       "5,863 (+16)",
+       "+45",
        "1,193",
        "0 .. 20,000",
-       "—",
+       "175,890",
        "Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "29 (30→)",
@@ -6980,28 +7138,28 @@
        "Nicalis, Inc.",
        "2014-11-04",
        "$14.99",
-       "—",
-       "—",
+       "343,420 (0)",
+       "0",
        "33,943",
        "5,000,000 .. 10,000,000",
-       "—",
+       "13,736,800",
        "Action Roguelike, Rogue-like, Indie",
-       "하락 · 출시 11년, 리뷰 166,565"
+       "하락 · 출시 11년, 리뷰 343,420"
       ],
       [
        "30 (31→)",
        "—",
-       "[Escape the Backrooms](https://store.steampowered.com/app/1943950/)",
+       "[Escape the Backrooms](https://store.steampowered.com/app/1943950/) ⊘",
        "Fancy Games",
        "2025-10-23",
        "$9.99",
-       "—",
-       "—",
+       "102,529 (0)",
+       "0",
        "2,268",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,101,160",
        "Horror, Multiplayer, Online Co-Op",
-       "상승"
+       "상승 · 리뷰 102,529"
       ],
       [
        "31 (37→)",
@@ -7010,13 +7168,13 @@
        "Nuggets Entertainment",
        "2025-10-21",
        "$7.99",
-       "—",
-       "—",
+       "32,174 (+22)",
+       "+43",
        "3,188",
        "0 .. 20,000",
-       "—",
+       "1,286,960",
        "Action, Adventure",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "32 (28→)",
@@ -7025,13 +7183,13 @@
        "Sandfall Interactive",
        "2025-04-24",
        "$49.99 −21%",
-       "—",
-       "—",
+       "111,032 (0)",
+       "0",
        "4,504",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,441,280",
        "Turn-Based Combat, Story Rich, Fantasy",
-       "상승 · 할인 동반 · 정가 $49.99, 리뷰 103,666"
+       "상승 · 할인 동반 · 정가 $49.99, 리뷰 111,032"
       ],
       [
        "33 (29→)",
@@ -7040,13 +7198,13 @@
        "lemorion_1224",
        "2026-06-09",
        "$5.99",
-       "—",
-       "—",
+       "44,169 (+34)",
+       "+77",
        "2,776",
        "0 .. 20,000",
-       "—",
+       "1,325,070",
        "Casual",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "34 (51→)",
@@ -7055,13 +7213,13 @@
        "PaperPixel Games",
        "2026-10-15",
        "$7.99 −38%",
-       "—",
-       "—",
+       "502 (+56)",
+       "+128",
        "3,259",
        "0 .. 20,000",
-       "—",
+       "15,060",
        "Casual, Simulation",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "35 (32→)",
@@ -7070,13 +7228,13 @@
        "Re-Logic",
        "2011-05-16",
        "$9.99",
-       "—",
-       "—",
+       "1,409,473 (0)",
+       "0",
        "24,326",
        "20,000,000 .. 50,000,000",
-       "—",
+       "56,378,920",
        "Open World Survival Craft, Sandbox, Survival",
-       "하락 · 출시 15년, 리뷰 604,853"
+       "하락 · 출시 15년, 리뷰 1,409,473"
       ],
       [
        "36 (39→)",
@@ -7085,13 +7243,13 @@
        "Berserk Games",
        "2015-06-05",
        "$19.99",
-       "—",
-       "—",
+       "70,660 (0)",
+       "0",
        "9,031",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,826,400",
        "Tabletop, Board Game, Simulation",
-       "상승 · 출시 11년"
+       "상승 · 출시 11년, 리뷰 70,660"
       ],
       [
        "37 (38→)",
@@ -7100,13 +7258,13 @@
        "Klei Entertainment",
        "2016-04-21",
        "$14.99 −66%",
-       "—",
-       "—",
+       "499,061 (0)",
+       "0",
        "13,704",
        "10,000,000 .. 20,000,000",
-       "—",
+       "19,962,440",
        "Survival, Open World Survival Craft, Multiplayer",
-       "상승 · 할인 동반 · 출시 10년, 리뷰 82,401"
+       "상승 · 할인 동반 · 출시 10년, 리뷰 499,061"
       ],
       [
        "38 (35→)",
@@ -7115,13 +7273,13 @@
        "Auroch Digital",
        "2026-10-14",
        "$24.99",
-       "—",
-       "—",
+       "820 (+42)",
+       "+100",
        "493",
        "0 .. 20,000",
-       "—",
+       "24,600",
        "Action",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "39 (34→)",
@@ -7130,13 +7288,13 @@
        "Thekla, Inc.",
        "2026-10-08",
        "$29.99",
-       "—",
-       "—",
+       "1,740 (+21)",
+       "+81",
        "2,824",
        "0 .. 20,000",
-       "—",
+       "52,200",
        "Adventure, Strategy",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "40 (42→)",
@@ -7145,13 +7303,13 @@
        "Blue Mammoth Games",
        "2017-10-17",
        "무료",
-       "—",
-       "—",
+       "386,456 (0)",
+       "0",
        "13,180",
        "20,000,000 .. 50,000,000",
-       "—",
+       "15,458,240",
        "Free to Play, Multiplayer, Fighting",
-       "하락 · 출시 9년, 리뷰 179,855"
+       "하락 · 출시 9년, 리뷰 386,456"
       ],
       [
        "41 (40→)",
@@ -7160,13 +7318,13 @@
        "Redbeet Interactive",
        "2022-06-20",
        "$19.99",
-       "—",
-       "—",
+       "346,359 (0)",
+       "0",
        "3,938",
        "10,000,000 .. 20,000,000",
-       "—",
+       "13,854,360",
        "Survival, Multiplayer, Open World Survival Craft",
-       "상승 · 출시 4년, 리뷰 130,598"
+       "상승 · 출시 4년, 리뷰 346,359"
       ],
       [
        "42 (36→)",
@@ -7175,13 +7333,13 @@
        "Mike Klubnika",
        "2026-07-30",
        "$7.99",
-       "—",
-       "—",
+       "1,969 (+6)",
+       "+10",
        "508",
        "0 .. 20,000",
-       "—",
+       "59,070",
        "Action",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "43",
@@ -7190,13 +7348,13 @@
        "Alex Massé and team",
        "2026-05-25",
        "$39.99",
-       "—",
-       "—",
+       "14,755 (+9)",
+       "+25",
        "1,261",
        "0 .. 20,000",
-       "—",
+       "442,650",
        "Simulation, Early Access",
-       "잔류 · 정가 $39.99"
+       "승격 통과 · 3회차 오가닉 · 정가 $39.99"
       ],
       [
        "44 (52→)",
@@ -7205,13 +7363,13 @@
        "Rike Games",
        "2026-07-29",
        "$6.99 −20%",
-       "—",
-       "—",
+       "6,218 (+25)",
+       "+64",
        "1,053",
        "0 .. 20,000",
-       "—",
+       "186,540",
        "Action, Casual, Simulation",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "45 (41→)",
@@ -7220,13 +7378,13 @@
        "Jackbox Games, Inc.",
        "2026-10-14",
        "$29.99",
-       "—",
-       "—",
+       "73 (+2)",
+       "+5",
        "130",
        "0 .. 20,000",
-       "—",
+       "2,190",
        "Casual, Strategy",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "46 (44→)",
@@ -7235,11 +7393,11 @@
        "OPNeon Games",
        "2026-09-14",
        "$19.99",
-       "—",
-       "—",
+       "39,499 (0)",
+       "0",
        "4,300",
        "2,000,000 .. 5,000,000",
-       "—",
+       "1,184,970",
        "Simulation, Management, Economy",
        "상승"
       ],
@@ -7250,13 +7408,13 @@
        "Massive Monster",
        "2022-08-11",
        "$24.99",
-       "—",
-       "—",
+       "103,228 (0)",
+       "0",
        "2,766",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,129,120",
        "Base-Building, Cute, Action Roguelike",
-       "상승 · 출시 4년, 리뷰 61,401"
+       "상승 · 출시 4년, 리뷰 103,228"
       ],
       [
        "48 (45→)",
@@ -7265,13 +7423,13 @@
        "Facepunch Studios",
        "2006-11-29",
        "$9.99",
-       "—",
-       "—",
+       "1,159,707 (0)",
+       "0",
        "26,752",
        "20,000,000 .. 50,000,000",
-       "—",
+       "46,388,280",
        "Sandbox, Moddable, Multiplayer",
-       "상승 · 출시 19년, 리뷰 542,200"
+       "상승 · 출시 19년, 리뷰 1,159,707"
       ],
       [
        "49 (47→)",
@@ -7280,11 +7438,11 @@
        "Reiza Studios",
        "2020-06-30",
        "$39.99 −70%",
-       "—",
-       "—",
+       "11,009 (0)",
+       "0",
        "1,473",
        "200,000 .. 500,000",
-       "—",
+       "440,360",
        "Racing, Simulation, Sports",
        "상승 · 할인 동반 · 정가 $39.99, 출시 6년"
       ],
@@ -7295,13 +7453,13 @@
        "GONE Studios",
        "2026-10-20",
        "$9.99 −33%",
-       "—",
-       "—",
+       "2,216 (+18)",
+       "+38",
        "1,679",
        "0 .. 20,000",
-       "—",
+       "66,480",
        "Action, Adventure",
-       "하락"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "51 (50→)",
@@ -7310,13 +7468,13 @@
        "Nick Nieuwoudt",
        "2026-08-06",
        "$19.99",
-       "—",
-       "—",
+       "8,230 (+10)",
+       "+26",
        "368",
        "0 .. 20,000",
-       "—",
+       "246,900",
        "Action, Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "52 (53→)",
@@ -7325,11 +7483,11 @@
        "Black Salt Games",
        "2023-03-30",
        "$24.99 −60%",
-       "—",
-       "—",
+       "43,966 (0)",
+       "0",
        "1,068",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,758,640",
        "Exploration, Fishing, Lovecraftian",
        "하락 · 출시 3년"
       ],
@@ -7340,13 +7498,13 @@
        "poncle",
        "2022-10-20",
        "$4.99 −25%",
-       "—",
-       "—",
+       "250,334 (0)",
+       "0",
        "4,044",
        "5,000,000 .. 10,000,000",
-       "—",
+       "10,013,360",
        "Action Roguelike, Bullet Hell, Pixel Graphics",
-       "하락 · 출시 4년, 리뷰 128,408"
+       "하락 · 출시 4년, 리뷰 250,334"
       ],
       [
        "54",
@@ -7355,13 +7513,13 @@
        "Kunos Simulazioni",
        "2014-12-19",
        "$19.99",
-       "—",
-       "—",
+       "151,391 (0)",
+       "0",
        "8,979",
        "5,000,000 .. 10,000,000",
-       "—",
+       "6,055,640",
        "Racing, Automobile Sim, Simulation",
-       "하락 · 출시 11년, 리뷰 61,032"
+       "하락 · 출시 11년, 리뷰 151,391"
       ],
       [
        "55",
@@ -7370,13 +7528,13 @@
        "Motion Twin",
        "2018-08-06",
        "$24.99 −50%",
-       "—",
-       "—",
+       "168,464 (0)",
+       "0",
        "1,678",
        "5,000,000 .. 10,000,000",
-       "—",
+       "6,738,560",
        "Adventure, Action Roguelike, Metroidvania",
-       "하락 · 출시 8년"
+       "하락 · 출시 8년, 리뷰 168,464"
       ],
       [
        "56",
@@ -7385,28 +7543,28 @@
        "Team Lazerbeam",
        "2026-09-10",
        "$14.99",
-       "—",
-       "—",
+       "1,922 (+7)",
+       "+33",
        "395",
        "0 .. 20,000",
-       "—",
+       "57,660",
        "Adventure, Early Access",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "57 (58→)",
        "—",
-       "[Supermarket Simulator](https://store.steampowered.com/app/2670630/)",
+       "[Supermarket Simulator](https://store.steampowered.com/app/2670630/) ⊘",
        "Nokta Games",
        "2025-06-19",
        "$19.99",
-       "—",
-       "—",
+       "68,341 (0)",
+       "0",
        "2,967",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,733,640",
        "Simulation, Management, Economy",
-       "하락"
+       "하락 · 리뷰 68,341"
       ],
       [
        "58 (61→)",
@@ -7415,13 +7573,13 @@
        "LocalThunk",
        "2024-02-20",
        "$14.99",
-       "—",
-       "—",
+       "153,566 (0)",
+       "0",
        "7,489",
        "2,000,000 .. 5,000,000",
-       "—",
+       "6,142,640",
        "Card Game, Roguelike Deckbuilder, Rogue-like",
-       "상승 · 리뷰 105,302"
+       "상승 · 리뷰 153,566"
       ],
       [
        "59 (65→)",
@@ -7430,13 +7588,13 @@
        "Studio Wildcard",
        "2017-08-27",
        "$14.99 −34%",
-       "—",
-       "—",
+       "730,170 (0)",
+       "0",
        "12,030",
        "20,000,000 .. 50,000,000",
-       "—",
+       "29,206,800",
        "Open World Survival Craft, Survival, Multiplayer",
-       "상승 · 할인 동반 · 출시 9년, 리뷰 256,777"
+       "상승 · 할인 동반 · 출시 9년, 리뷰 730,170"
       ],
       [
        "60 (57→)",
@@ -7445,13 +7603,13 @@
        "Supergiant Games",
        "2025-09-25",
        "$29.99",
-       "—",
-       "—",
+       "64,132 (0)",
+       "0",
        "3,418",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,565,280",
        "Action, Rogue-like, Rogue-lite",
-       "상승 · 리뷰 66,164"
+       "상승 · 리뷰 64,132"
       ],
       [
        "61 (63→)",
@@ -7460,28 +7618,28 @@
        "Beat Games",
        "2019-05-21",
        "$19.99",
-       "—",
-       "—",
+       "74,612 (0)",
+       "0",
        "407",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,984,480",
        "VR, Rhythm, Music",
-       "상승 · 출시 7년, 리뷰 53,108"
+       "상승 · 출시 7년, 리뷰 74,612"
       ],
       [
        "62 (64→)",
        "—",
-       "[Core Keeper](https://store.steampowered.com/app/1621690/)",
+       "[Core Keeper](https://store.steampowered.com/app/1621690/) ⊘",
        "Pugstorm",
        "2024-08-27",
        "$19.99",
-       "—",
-       "—",
+       "54,979 (0)",
+       "0",
        "5,929",
        "1,000,000 .. 2,000,000",
-       "—",
+       "2,199,160",
        "Pixel Graphics, Open World Survival Craft, Online Co-Op",
-       "상승"
+       "상승 · 리뷰 54,979"
       ],
       [
        "63 (59→)",
@@ -7490,13 +7648,13 @@
        "Tuxedo Labs",
        "2022-04-21",
        "$29.99",
-       "—",
-       "—",
+       "109,462 (0)",
+       "0",
        "2,349",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,378,480",
        "Destruction, Physics, Sandbox",
-       "상승 · 출시 4년, 리뷰 76,876"
+       "상승 · 출시 4년, 리뷰 109,462"
       ],
       [
        "64 (60→)",
@@ -7505,13 +7663,13 @@
        "Mobius Digital",
        "2020-06-18",
        "$24.99",
-       "—",
-       "—",
+       "84,488 (0)",
+       "0",
        "1,275",
        "1,000,000 .. 2,000,000",
-       "—",
+       "3,379,520",
        "Exploration, Space, Mystery",
-       "상승 · 출시 6년, 리뷰 53,591"
+       "상승 · 출시 6년, 리뷰 84,488"
       ],
       [
        "65 (67→)",
@@ -7520,11 +7678,11 @@
        "Maxim Karpenko",
        "2021-12-02",
        "$19.99",
-       "—",
-       "—",
+       "44,062 (0)",
+       "0",
        "2,146",
        "1,000,000 .. 2,000,000",
-       "—",
+       "1,762,480",
        "Sandbox, God Game, Simulation",
        "상승 · 출시 4년"
       ],
@@ -7535,13 +7693,13 @@
        "SCS Software",
        "2012-10-12",
        "$19.99",
-       "—",
-       "—",
+       "867,404 (0)",
+       "0",
        "20,580",
        "10,000,000 .. 20,000,000",
-       "—",
+       "34,696,160",
        "Driving, Transportation, Simulation",
-       "상승 · 출시 14년, 리뷰 147,058"
+       "상승 · 출시 14년, 리뷰 867,404"
       ],
       [
        "67 (66→)",
@@ -7550,13 +7708,13 @@
        "WILD WITS GAMES",
        "2026-08-06",
        "$19.99",
-       "—",
-       "—",
+       "2,149 (+9)",
+       "+30",
        "682",
        "0 .. 20,000",
-       "—",
+       "64,470",
        "RPG",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "68 (71→)",
@@ -7565,13 +7723,13 @@
        "Gunfire Reborn Studio",
        "2021-11-17",
        "$19.99 −30%",
-       "—",
-       "—",
+       "99,172 (0)",
+       "0",
        "809",
        "2,000,000 .. 5,000,000",
-       "—",
+       "3,966,880",
        "Rogue-lite, FPS, Rogue-like",
-       "상승 · 할인 동반 · 출시 4년"
+       "상승 · 할인 동반 · 출시 4년, 리뷰 99,172"
       ],
       [
        "69 (75→)",
@@ -7580,13 +7738,13 @@
        "MINTROCKET",
        "2023-06-28",
        "$19.99",
-       "—",
-       "—",
+       "129,331 (0)",
+       "0",
        "2,552",
        "5,000,000 .. 10,000,000",
-       "—",
+       "5,173,240",
        "Pixel Graphics, Casual, Management",
-       "상승 · 출시 3년, 리뷰 51,501"
+       "상승 · 출시 3년, 리뷰 129,331"
       ],
       [
        "70 (62→)",
@@ -7595,11 +7753,11 @@
        "Polymorph Games",
        "2025-01-31",
        "$34.99",
-       "—",
-       "—",
+       "20,132 (0)",
+       "0",
        "1,842",
        "500,000 .. 1,000,000",
-       "—",
+       "805,280",
        "City Builder, Simulation, Medieval",
        "하락 · 정가 $34.99"
       ],
@@ -7610,13 +7768,13 @@
        "RobTop Games",
        "2014-12-22",
        "$4.99",
-       "—",
-       "—",
+       "429,921 (0)",
+       "0",
        "53,092",
        "5,000,000 .. 10,000,000",
-       "—",
+       "17,196,840",
        "Difficult, Music, Level Editor",
-       "하락 · 출시 11년, 리뷰 308,394"
+       "하락 · 출시 11년, 리뷰 429,921"
       ],
       [
        "72 (68→)",
@@ -7625,13 +7783,13 @@
        "Wild Dog",
        "2026-10-09",
        "$14.99",
-       "—",
-       "—",
+       "591 (+15)",
+       "+48",
        "507",
        "0 .. 20,000",
-       "—",
+       "17,730",
        "Casual, Simulation, Early Access",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "73 (77→)",
@@ -7640,13 +7798,13 @@
        "ArtRising",
        "2026-04-30",
        "$5.99",
-       "—",
-       "—",
+       "16,673 (+12)",
+       "+48",
        "1,712",
        "0 .. 20,000",
-       "—",
+       "500,190",
        "Casual, Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "74",
@@ -7655,13 +7813,13 @@
        "Team Cherry",
        "2017-02-24",
        "$14.99",
-       "—",
-       "—",
+       "415,946 (0)",
+       "0",
        "6,263",
        "5,000,000 .. 10,000,000",
-       "—",
+       "16,637,840",
        "Metroidvania, Souls-like, Platformer",
-       "잔류 · 출시 9년, 리뷰 185,690"
+       "잔류 · 출시 9년, 리뷰 415,946"
       ],
       [
        "75 (69→)",
@@ -7670,11 +7828,11 @@
        "Crux Games",
        "2026-08-24",
        "$9.99 −20%",
-       "—",
-       "—",
+       "1,883 (+17)",
+       "+52",
        "753",
        "0 .. 20,000",
-       "—",
+       "56,490",
        "Strategy",
        "—"
       ],
@@ -7685,13 +7843,13 @@
        "tobyfox",
        "2015-09-15",
        "$9.99 −75%",
-       "—",
-       "—",
+       "272,932 (0)",
+       "0",
        "1,911",
        "5,000,000 .. 10,000,000",
-       "—",
+       "10,917,280",
        "Great Soundtrack, Story Rich, Choices Matter",
-       "상승 · 할인 동반 · 출시 11년, 리뷰 155,344"
+       "상승 · 할인 동반 · 출시 11년, 리뷰 272,932"
       ],
       [
        "77 (76→)",
@@ -7700,13 +7858,13 @@
        "Team Cherry",
        "2025-09-04",
        "$19.99",
-       "—",
-       "—",
+       "146,950 (+37)",
+       "+85",
        "6,017",
        "0 .. 20,000",
-       "—",
+       "5,878,000",
        "Action, Adventure",
-       "하락 · 리뷰 146,950"
+       "승격 통과 · 3회차 오가닉 · 리뷰 146,950"
       ],
       [
        "78 (82→)",
@@ -7715,11 +7873,11 @@
        "Turning Wheel LLC",
        "2015-06-23",
        "$19.99",
-       "—",
-       "—",
+       "10,511 (0)",
+       "0",
        "926",
        "500,000 .. 1,000,000",
-       "—",
+       "420,440",
        "Dungeon Crawler, Action Roguelike, Online Co-Op",
        "— · 출시 11년"
       ],
@@ -7730,13 +7888,13 @@
        "ShoXx",
        "2026-10-13",
        "$2.49",
-       "—",
-       "—",
+       "716 (+97)",
+       "+212",
        "1,492",
        "0 .. 20,000",
-       "—",
+       "21,480",
        "Casual",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "80 (81→)",
@@ -7745,13 +7903,13 @@
        "Endnight Games Ltd",
        "2018-04-30",
        "$19.99",
-       "—",
-       "—",
+       "627,791 (0)",
+       "0",
        "3,498",
        "20,000,000 .. 50,000,000",
-       "—",
+       "25,111,640",
        "Open World Survival Craft, Survival, Open World",
-       "하락 · 출시 8년, 리뷰 178,275"
+       "하락 · 출시 8년, 리뷰 627,791"
       ],
       [
        "81 (84→)",
@@ -7760,13 +7918,13 @@
        "Blood Pact Studios",
        "2026-03-17",
        "$19.90",
-       "—",
-       "—",
+       "8,130 (+10)",
+       "+23",
        "680",
        "0 .. 20,000",
-       "—",
+       "243,900",
        "Casual, Simulation",
-       "하락"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "82 (88→)",
@@ -7775,13 +7933,13 @@
        "Bajka Games",
        "2026-09-07",
        "$14.99 −20%",
-       "—",
-       "—",
+       "917 (+3)",
+       "+10",
        "343",
        "0 .. 20,000",
-       "—",
+       "27,510",
        "Casual, Simulation",
-       "하락"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "83 (72→)",
@@ -7790,28 +7948,28 @@
        "Studio MDHR Entertainment Inc.",
        "2017-09-29",
        "$19.99",
-       "—",
-       "—",
+       "186,835 (0)",
+       "0",
        "2,199",
        "5,000,000 .. 10,000,000",
-       "—",
+       "7,473,400",
        "Difficult, Cartoon, Co-op",
-       "하락 · 출시 9년, 리뷰 66,546"
+       "하락 · 출시 9년, 리뷰 186,835"
       ],
       [
        "84 (86→)",
        "—",
-       "[Blade and Sorcery](https://store.steampowered.com/app/629730/)",
+       "[Blade and Sorcery](https://store.steampowered.com/app/629730/) ⊘",
        "WarpFrog",
        "2024-06-17",
        "$29.99",
-       "—",
-       "—",
+       "57,485 (0)",
+       "0",
        "668",
        "1,000,000 .. 2,000,000",
-       "—",
+       "2,299,400",
        "VR, Swordplay, Moddable",
-       "하락"
+       "하락 · 리뷰 57,485"
       ],
       [
        "85",
@@ -7820,11 +7978,11 @@
        "Beautiful Glitch",
        "2025-04-24",
        "$14.99 −30%",
-       "—",
-       "—",
+       "1,444 (0)",
+       "0",
        "86",
        "50,000 .. 100,000",
-       "—",
+       "57,760",
        "Visual Novel, Comedy, LGBTQ+",
        "하락"
       ],
@@ -7835,13 +7993,13 @@
        "Eleventh Hour Games",
        "2024-02-21",
        "$34.99",
-       "—",
-       "—",
+       "110,623 (0)",
+       "0",
        "4,289",
        "20,000,000 .. 50,000,000",
-       "—",
+       "4,424,920",
        "Action RPG, Loot, Hack and Slash",
-       "상승 · 정가 $34.99, 리뷰 59,858"
+       "상승 · 정가 $34.99, 리뷰 110,623"
       ],
       [
        "87 (91→)",
@@ -7850,11 +8008,11 @@
        "Recreate Games",
        "2023-09-20",
        "$19.99",
-       "—",
-       "—",
+       "17,300 (+4)",
+       "+5",
        "1,519",
        "2,000,000 .. 5,000,000",
-       "—",
+       "692,000",
        "Multiplayer, Funny, Casual",
        "상승 · 출시 3년"
       ],
@@ -7865,13 +8023,13 @@
        "Klei Entertainment",
        "2013-04-23",
        "$9.99 −75%",
-       "—",
-       "—",
+       "109,816 (0)",
+       "0",
        "1,088",
        "2,000,000 .. 5,000,000",
-       "—",
+       "4,392,640",
        "Survival, Open World Survival Craft, Crafting",
-       "잔류 · 출시 13년"
+       "잔류 · 출시 13년, 리뷰 109,816"
       ],
       [
        "89 (83→)",
@@ -7880,13 +8038,13 @@
        "上海アリス幻樂団",
        "2026-09-09",
        "무료",
-       "—",
-       "—",
+       "1,717 (+1)",
+       "+9",
        "115",
        "0 .. 20,000",
-       "—",
+       "51,510",
        "Action",
-       "잔류"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "90 (93→)",
@@ -7895,13 +8053,13 @@
        "Ghost Town Games Ltd.",
        "2018-08-07",
        "$24.99 −66%",
-       "—",
-       "—",
+       "72,801 (0)",
+       "0",
        "1,413",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,912,040",
        "Multiplayer, Online Co-Op, Local Co-Op",
-       "상승 · 할인 동반 · 출시 8년"
+       "상승 · 할인 동반 · 출시 8년, 리뷰 72,801"
       ],
       [
        "91 (89→)",
@@ -7910,11 +8068,11 @@
        "Keepsake Games",
        "2025-09-19",
        "$19.99",
-       "—",
-       "—",
+       "8,449 (+6)",
+       "+9",
        "675",
        "0 .. 20,000",
-       "—",
+       "337,960",
        "Action, Adventure, Early Access",
        "상승"
       ],
@@ -7925,11 +8083,11 @@
        "TEAM HORAY",
        "2026-07-31",
        "$17.99",
-       "—",
-       "—",
+       "2,180 (0)",
+       "0",
        "854",
        "100,000 .. 200,000",
-       "—",
+       "65,400",
        "Multiplayer, Action Roguelike, Inventory Management",
        "상승"
       ],
@@ -7940,11 +8098,11 @@
        "Passtech Games",
        "2024-09-26",
        "$24.99",
-       "—",
-       "—",
+       "16,153 (0)",
+       "0",
        "1,787",
        "200,000 .. 500,000",
-       "—",
+       "646,120",
        "Rogue-like, Co-op, Action Roguelike",
        "하락"
       ],
@@ -7955,13 +8113,13 @@
        "Lantto Games",
        "2026-08-13",
        "$19.99 −35%",
-       "—",
-       "—",
+       "3,452 (+11)",
+       "+32",
        "2,179",
        "0 .. 20,000",
-       "—",
+       "103,560",
        "Simulation, Strategy, Early Access",
-       "상승 · 할인 동반"
+       "꾸준한 상승 3회차 · 할인 중"
       ],
       [
        "95 (85→)",
@@ -7970,13 +8128,13 @@
        "Red Hook Studios",
        "2016-01-19",
        "$24.99",
-       "—",
-       "—",
+       "149,456 (0)",
+       "0",
        "2,760",
        "2,000,000 .. 5,000,000",
-       "—",
+       "5,978,240",
        "Turn-Based Combat, Dark Fantasy, Dungeon Crawler",
-       "상승 · 출시 10년, 리뷰 57,363"
+       "상승 · 출시 10년, 리뷰 149,456"
       ],
       [
        "96 (100→)",
@@ -7985,11 +8143,11 @@
        "Keen Software House",
        "2025-01-27",
        "$29.99",
-       "—",
-       "—",
+       "2,144 (0)",
+       "0",
        "1,288",
        "100,000 .. 200,000",
-       "—",
+       "85,760",
        "Simulation, Sandbox, Action",
        "하락"
       ],
@@ -8000,13 +8158,13 @@
        "Lunch Money Games",
        "2026-03-18",
        "$6.99",
-       "—",
-       "—",
+       "9,133 (+18)",
+       "+40",
        "1,677",
        "0 .. 20,000",
-       "—",
+       "273,990",
        "Casual, Simulation",
-       "상승"
+       "승격 통과 · 3회차 오가닉"
       ],
       [
        "98 (90→)",
@@ -8015,11 +8173,11 @@
        "ANB_Seth",
        "2026-09-10",
        "$24.99",
-       "—",
-       "—",
+       "1,688 (+2)",
+       "+15",
        "55",
        "0 .. 20,000",
-       "—",
+       "50,640",
        "Action, Early Access",
        "—"
       ],
@@ -8030,13 +8188,13 @@
        "Unknown Worlds Entertainment",
        "2018-01-23",
        "$29.99",
-       "—",
-       "—",
+       "313,707 (0)",
+       "0",
        "2,289",
        "5,000,000 .. 10,000,000",
-       "—",
+       "12,548,280",
        "Open World Survival Craft, Survival, Horror",
-       "— · 출시 8년, 리뷰 189,933"
+       "— · 출시 8년, 리뷰 313,707"
       ],
       [
        "100",
@@ -8045,13 +8203,13 @@
        "Rebuilt Games",
        "2018-09-20",
        "$14.99",
-       "—",
-       "—",
+       "53,814 (0)",
+       "0",
        "1,242",
        "2,000,000 .. 5,000,000",
-       "—",
+       "2,152,560",
        "Multiplayer, Funny, Online Co-Op",
-       "하락 · 출시 8년"
+       "하락 · 출시 8년, 리뷰 53,814"
       ]
      ]
     },
@@ -8060,330 +8218,330 @@
      "cols": [
       "게임",
       "리뷰 (1일)",
-      "5일",
+      "3일",
       "동접",
       "판정"
      ],
      "rows": [
       [
        "[Stray](https://store.steampowered.com/app/1332010/)",
-       "— (—)",
-       "—",
+       "156,607 (0)",
+       "0",
        "488",
        "목록 밖 추적"
       ],
       [
        "[Stranded Deep](https://store.steampowered.com/app/313120/)",
-       "— (—)",
-       "—",
+       "45,828 (0)",
+       "0",
        "651",
        "목록 밖 추적"
       ],
       [
        "[Noita](https://store.steampowered.com/app/881100/)",
-       "— (—)",
-       "—",
+       "78,477 (0)",
+       "0",
        "1,953",
        "목록 밖 추적"
       ],
       [
        "[Overcooked! All You Can Eat](https://store.steampowered.com/app/1243830/)",
-       "— (—)",
-       "—",
+       "6,141 (0)",
+       "0",
        "284",
        "목록 밖 추적"
       ],
       [
        "[Loop Dungeon - Incremental](https://store.steampowered.com/app/4621970/)",
-       "— (—)",
+       "259 (—)",
        "—",
        "151",
        "이탈 (규모 정체)"
       ],
       [
        "[Mind Over Magic](https://store.steampowered.com/app/1270580/)",
-       "— (—)",
-       "—",
+       "3,477 (0)",
+       "0",
        "299",
        "목록 밖 추적"
       ],
       [
        "[Gang Beasts](https://store.steampowered.com/app/285900/)",
-       "— (—)",
-       "—",
+       "60,270 (0)",
+       "0",
        "671",
        "이탈 (규모 정체)"
       ],
       [
        "[Chants of Sennaar](https://store.steampowered.com/app/1931770/)",
-       "— (—)",
-       "—",
+       "22,453 (0)",
+       "0",
        "260",
        "이탈 (규모 정체)"
       ],
       [
        "[XENOTILT: HOSTILE PINBALL ACTION](https://store.steampowered.com/app/2008980/)",
-       "— (—)",
-       "—",
+       "617 (0)",
+       "0",
        "18",
        "목록 밖 추적"
       ],
       [
        "[Yet Another Zombie Survivors](https://store.steampowered.com/app/2163330/)",
-       "— (—)",
-       "—",
+       "11,213 (0)",
+       "0",
        "731",
        "목록 밖 추적"
       ],
       [
        "[Solarpunk™](https://store.steampowered.com/app/1805110/)",
-       "— (—)",
-       "—",
+       "3,721 (0)",
+       "0",
        "411",
        "목록 밖 추적"
       ],
       [
        "[Farm to Table](https://store.steampowered.com/app/3582250/)",
-       "— (—)",
-       "—",
+       "801 (0)",
+       "0",
        "371",
        "목록 밖 추적"
       ],
       [
        "[Crime Scene Cleaner](https://store.steampowered.com/app/1040200/)",
-       "— (—)",
-       "—",
+       "22,018 (0)",
+       "0",
        "964",
        "목록 밖 추적"
       ],
       [
        "[Celeste](https://store.steampowered.com/app/504230/)",
-       "— (—)",
-       "—",
+       "120,602 (0)",
+       "0",
        "1,893",
        "목록 밖 추적"
       ],
       [
        "[I Am Your Beast](https://store.steampowered.com/app/1876590/)",
-       "— (—)",
-       "—",
+       "3,660 (0)",
+       "0",
        "59",
        "목록 밖 추적"
       ],
       [
        "[Vampire Crawlers: The Turbo Wildcard from Vampire Survivors](https://store.steampowered.com/app/3265700/)",
-       "— (—)",
-       "—",
+       "18,984 (0)",
+       "0",
        "617",
        "목록 밖 추적"
       ],
       [
        "[SOMA](https://store.steampowered.com/app/282140/)",
-       "— (—)",
-       "—",
+       "45,365 (0)",
+       "0",
        "212",
        "목록 밖 추적"
       ],
       [
        "[The Escapists 2](https://store.steampowered.com/app/641990/)",
-       "— (—)",
-       "—",
+       "31,948 (0)",
+       "0",
        "341",
        "목록 밖 추적"
       ],
       [
        "[Tavern Keeper 🍻](https://store.steampowered.com/app/436780/)",
-       "— (—)",
-       "—",
+       "4,765 (0)",
+       "0",
        "383",
        "목록 밖 추적"
       ],
       [
        "[Five Nights with Maids](https://store.steampowered.com/app/4771580/)",
-       "— (—)",
-       "—",
+       "116 (0)",
+       "0",
        "9",
        "목록 밖 추적"
       ],
       [
        "[Fell & Sell](https://store.steampowered.com/app/4627110/)",
-       "— (—)",
+       "1,846 (—)",
        "—",
        "495",
        "목록 밖 추적"
       ],
       [
        "[Insurgency: Sandstorm](https://store.steampowered.com/app/581320/)",
-       "— (—)",
-       "—",
+       "126,918 (0)",
+       "0",
        "1,142",
        "목록 밖 추적"
       ],
       [
        "[Beyond These Stars](https://store.steampowered.com/app/2295060/)",
-       "— (—)",
-       "—",
+       "171 (0)",
+       "0",
        "220",
        "목록 밖 추적"
       ],
       [
        "[Warhammer 40,000: Boltgun](https://store.steampowered.com/app/2005010/)",
-       "— (—)",
-       "—",
+       "15,030 (0)",
+       "0",
        "203",
        "목록 밖 추적"
       ],
       [
        "[Sea Power : Naval Combat in the Missile Age](https://store.steampowered.com/app/1286220/)",
-       "— (—)",
-       "—",
+       "3,787 (0)",
+       "0",
        "1,403",
        "이탈 (규모 정체)"
       ],
       [
        "[To the Moon](https://store.steampowered.com/app/206440/)",
-       "— (—)",
-       "—",
+       "80,261 (0)",
+       "0",
        "51",
        "목록 밖 추적"
       ],
       [
        "[Tokyo Xtreme Racer](https://store.steampowered.com/app/2634950/)",
-       "— (—)",
-       "—",
+       "11,230 (0)",
+       "0",
        "165",
        "목록 밖 추적"
       ],
       [
        "[Hell Clock](https://store.steampowered.com/app/1782460/)",
-       "— (—)",
-       "—",
+       "3,595 (0)",
+       "0",
        "318",
        "목록 밖 추적"
       ],
       [
        "[Space Haven](https://store.steampowered.com/app/979110/)",
-       "— (—)",
-       "—",
+       "9,009 (0)",
+       "0",
        "687",
        "목록 밖 추적"
       ],
       [
        "[Blasphemous](https://store.steampowered.com/app/774361/)",
-       "— (—)",
-       "—",
+       "51,484 (0)",
+       "0",
        "782",
        "목록 밖 추적"
       ],
       [
        "[Automation - The Car Company Tycoon Game](https://store.steampowered.com/app/293760/)",
-       "— (—)",
-       "—",
+       "14,457 (0)",
+       "0",
        "537",
        "이탈 (규모 정체)"
       ],
       [
        "[Liftoff®: FPV Drone Racing](https://store.steampowered.com/app/410340/)",
-       "— (—)",
-       "—",
+       "11,107 (0)",
+       "0",
        "369",
        "목록 밖 추적"
       ],
       [
        "[The House in Fata Morgana](https://store.steampowered.com/app/303310/)",
-       "— (—)",
-       "—",
+       "5,103 (0)",
+       "0",
        "70",
        "목록 밖 추적"
       ],
       [
        "[Forever Ago](https://store.steampowered.com/app/1215940/)",
-       "— (—)",
-       "—",
+       "335 (0)",
+       "0",
        "44",
        "목록 밖 추적"
       ],
       [
        "[BlazBlue Entropy Effect](https://store.steampowered.com/app/2273430/)",
-       "— (—)",
-       "—",
+       "30,290 (0)",
+       "0",
        "289",
        "이탈 (규모 정체)"
       ],
       [
        "[Kerbal Space Program](https://store.steampowered.com/app/220200/)",
-       "— (—)",
-       "—",
+       "127,162 (0)",
+       "0",
        "3,358",
        "목록 밖 추적"
       ],
       [
        "[Lorelei and the Laser Eyes](https://store.steampowered.com/app/2008920/)",
-       "— (—)",
-       "—",
+       "2,271 (0)",
+       "0",
        "91",
        "목록 밖 추적"
       ],
       [
        "[Lost Castle 2](https://store.steampowered.com/app/2445690/)",
-       "— (—)",
-       "—",
+       "8,290 (0)",
+       "0",
        "416",
        "이탈 (규모 정체)"
       ],
       [
        "[Stacklands](https://store.steampowered.com/app/1948280/)",
-       "— (—)",
-       "—",
+       "29,437 (0)",
+       "0",
        "225",
        "목록 밖 추적"
       ],
       [
        "[Unity of Command II](https://store.steampowered.com/app/809230/)",
-       "— (—)",
-       "—",
+       "1,896 (0)",
+       "0",
        "85",
        "목록 밖 추적"
       ],
       [
        "[Shelves and Sorcery: Tidy Up the Enchanted Shop](https://store.steampowered.com/app/3614130/)",
-       "— (—)",
-       "—",
+       "795 (0)",
+       "0",
        "454",
        "목록 밖 추적"
       ],
       [
        "[Disco Elysium - The Final Cut](https://store.steampowered.com/app/632470/)",
-       "— (—)",
-       "—",
+       "111,712 (0)",
+       "0",
        "1,344",
        "목록 밖 추적"
       ],
       [
        "[Dub Together](https://store.steampowered.com/app/5020310/)",
-       "— (—)",
-       "—",
+       "635 (0)",
+       "0",
        "980",
        "목록 밖 추적"
       ],
       [
        "[Firestone – Idle Clicker Online RPG](https://store.steampowered.com/app/1013320/)",
-       "— (—)",
-       "—",
+       "6,292 (0)",
+       "0",
        "1,688",
        "이탈 (규모 정체)"
       ],
       [
        "[Enter the Gungeon](https://store.steampowered.com/app/311690/)",
-       "— (—)",
-       "—",
+       "85,562 (0)",
+       "0",
        "878",
        "목록 밖 추적"
       ],
       [
        "[Gallipoli](https://store.steampowered.com/app/3065940/)",
-       "— (—)",
-       "—",
+       "4,544 (0)",
+       "0",
        "275",
        "목록 밖 추적"
       ],
@@ -8732,8 +8890,8 @@
       ],
       [
        "[Red Chat Ritual  – TSUMIMI TIME](https://store.steampowered.com/app/4413070/)",
-       "— (—)",
-       "—",
+       "128 (0)",
+       "0",
        "19",
        "목록 밖 추적"
       ],
@@ -9061,22 +9219,22 @@
       ],
       [
        "[Blue Prince](https://store.steampowered.com/app/1569580/)",
-       "— (—)",
-       "—",
+       "8,402 (0)",
+       "0",
        "1,343",
        "목록 밖 추적"
       ],
       [
        "[Project Hospital](https://store.steampowered.com/app/868360/)",
-       "— (—)",
-       "—",
+       "8,348 (0)",
+       "0",
        "330",
        "목록 밖 추적"
       ],
       [
        "[The Life and Suffering of Sir Brante](https://store.steampowered.com/app/1272160/)",
-       "— (—)",
-       "—",
+       "8,619 (0)",
+       "0",
        "191",
        "목록 밖 추적"
       ],
@@ -9089,15 +9247,15 @@
       ],
       [
        "[Realm of the Mad God Exalt](https://store.steampowered.com/app/200210/)",
-       "— (—)",
-       "—",
+       "46,620 (0)",
+       "0",
        "1,252",
        "목록 밖 추적"
       ],
       [
        "[Yunyun Syndrome!? Rhythm Psychosis](https://store.steampowered.com/app/2914150/)",
-       "— (—)",
-       "—",
+       "4,156 (0)",
+       "0",
        "70",
        "목록 밖 추적"
       ],
@@ -9110,43 +9268,43 @@
       ],
       [
        "[The Chef's Shift](https://store.steampowered.com/app/2390230/)",
-       "— (—)",
-       "—",
+       "385 (0)",
+       "0",
        "59",
        "목록 밖 추적"
       ],
       [
        "[Tribes of Midgard](https://store.steampowered.com/app/858820/)",
-       "— (—)",
-       "—",
+       "22,475 (0)",
+       "0",
        "132",
        "목록 밖 추적"
       ],
       [
        "[Eslabong](https://store.steampowered.com/app/4560660/)",
-       "— (—)",
-       "—",
+       "1,602 (0)",
+       "0",
        "297",
        "목록 밖 추적"
       ],
       [
        "[DRAPLINE](https://store.steampowered.com/app/3103780/)",
-       "— (—)",
-       "—",
+       "2,635 (0)",
+       "0",
        "55",
        "목록 밖 추적"
       ],
       [
        "[Super Fantasy Kingdom](https://store.steampowered.com/app/2289750/)",
-       "— (—)",
-       "—",
+       "5,706 (0)",
+       "0",
        "208",
        "목록 밖 추적"
       ],
       [
        "[Across the Obelisk](https://store.steampowered.com/app/1385380/)",
-       "— (—)",
-       "—",
+       "11,866 (0)",
+       "0",
        "463",
        "목록 밖 추적"
       ],
@@ -9439,15 +9597,15 @@
       ],
       [
        "[Tears of Metal](https://store.steampowered.com/app/1913120/)",
-       "— (—)",
+       "2,544 (—)",
        "—",
        "159",
        "목록 밖 추적"
       ],
       [
        "[Idle Slayer](https://store.steampowered.com/app/1353300/)",
-       "— (—)",
-       "—",
+       "8,767 (0)",
+       "0",
        "1,295",
        "목록 밖 추적"
       ],
@@ -9467,36 +9625,36 @@
       ],
       [
        "[Stumble Guys](https://store.steampowered.com/app/1677740/)",
-       "— (—)",
-       "—",
+       "128,011 (0)",
+       "0",
        "2,478",
        "목록 밖 추적"
       ],
       [
        "[Megastore: Tidy Up Together](https://store.steampowered.com/app/5027520/)",
-       "— (—)",
-       "—",
+       "608 (0)",
+       "0",
        "1,036",
        "이탈 (규모 정체)"
       ],
       [
        "[Dinkum](https://store.steampowered.com/app/1062520/)",
-       "— (—)",
-       "—",
+       "24,584 (0)",
+       "0",
        "792",
        "목록 밖 추적"
       ],
       [
        "[My Card Is Better Than Your Card!](https://store.steampowered.com/app/3617620/)",
-       "— (—)",
-       "—",
+       "1,211 (0)",
+       "0",
        "168",
        "목록 밖 추적"
       ],
       [
        "[SpaceEngine](https://store.steampowered.com/app/314650/)",
-       "— (—)",
-       "—",
+       "12,617 (0)",
+       "0",
        "234",
        "목록 밖 추적"
       ],
@@ -9565,57 +9723,57 @@
       ],
       [
        "[Muse Dash](https://store.steampowered.com/app/774171/)",
-       "— (—)",
-       "—",
+       "119,429 (0)",
+       "0",
        "271",
        "목록 밖 추적"
       ],
       [
        "[Demonologist](https://store.steampowered.com/app/1929610/)",
-       "— (—)",
-       "—",
+       "21,748 (0)",
+       "0",
        "616",
        "이탈 (규모 정체)"
       ],
       [
        "[BONELAB](https://store.steampowered.com/app/1592190/)",
-       "— (—)",
-       "—",
+       "16,281 (0)",
+       "0",
        "516",
        "목록 밖 추적"
       ],
       [
        "[Hades](https://store.steampowered.com/app/1145360/)",
-       "— (—)",
-       "—",
+       "279,741 (0)",
+       "0",
        "3,091",
        "목록 밖 추적"
       ],
       [
        "[Ratatan](https://store.steampowered.com/app/2949320/)",
-       "— (—)",
-       "—",
+       "2,599 (0)",
+       "0",
        "160",
        "목록 밖 추적"
       ],
       [
        "[Jump King](https://store.steampowered.com/app/1061090/)",
-       "— (—)",
-       "—",
+       "12,303 (0)",
+       "0",
        "80",
        "목록 밖 추적"
       ],
       [
        "[Derail Valley](https://store.steampowered.com/app/588030/)",
-       "— (—)",
-       "—",
+       "7,375 (0)",
+       "0",
        "473",
        "목록 밖 추적"
       ],
       [
        "[Wobbly Life](https://store.steampowered.com/app/1211020/)",
-       "— (—)",
-       "—",
+       "26,940 (0)",
+       "0",
        "835",
        "이탈 (규모 정체)"
       ],
@@ -9635,35 +9793,35 @@
       ],
       [
        "[Spiral Knights](https://store.steampowered.com/app/99900/)",
-       "— (—)",
-       "—",
+       "23,658 (0)",
+       "0",
        "256",
        "이탈 (규모 정체)"
       ],
       [
        "[The Jackbox Party Pack 3](https://store.steampowered.com/app/434170/)",
-       "— (—)",
-       "—",
+       "6,284 (0)",
+       "0",
        "218",
        "이탈 (규모 정체)"
       ],
       [
        "[ZERO PARADES: Director's Cut](https://store.steampowered.com/app/2863680/)",
-       "— (—)",
+       "3,180 (—)",
        "—",
        "220",
        "이탈 (규모 정체)"
       ],
       [
        "[Castle Crashers®](https://store.steampowered.com/app/204360/)",
-       "— (—)",
-       "—",
+       "125,598 (0)",
+       "0",
        "706",
        "이탈 (규모 정체)"
       ],
       [
        "[Megabonk](https://store.steampowered.com/app/3405340/)",
-       "— (—)",
+       "101,355 (—)",
        "—",
        "3,428",
        "이탈 (규모 정체)"
@@ -9687,7 +9845,7 @@
    ]
   }
  ],
- "collect_line": "수집 목록 4/4 정상 · 모집단 535 · 본문 포함 104 · 신작 75 · 제외 142",
+ "collect_line": "수집 목록 4/4 정상 · 모집단 535 · 본문 포함 99 · 신작 75 · 제외 148",
  "series": {
   "n_days": 6,
   "dates": [
@@ -9792,20 +9950,20 @@
      6,
      8
     ],
-    "Escape the Backrooms": [
-     null,
-     null,
-     13,
+    "Machine Party": [
+     11,
+     10,
+     15,
      10,
      10,
      9
     ],
-    "Machine Party": [
-     11,
-     10,
-     16,
-     11,
-     11,
+    "GONE Fishing": [
+     6,
+     5,
+     8,
+     8,
+     9,
      10
     ]
    },
@@ -9818,21 +9976,21 @@
     "Brick by Brick: Tidy Up the Small Town!": "5228920",
     "MECCHA CHAMELEON": "4704690",
     "Invokyr": "3883570",
-    "Escape the Backrooms": "1943950",
-    "Machine Party": "4108000"
+    "Machine Party": "4108000",
+    "GONE Fishing": "3645890"
    }
   },
   "biggest_up": [
    "REKA",
-   97,
-   38,
-   59
+   92,
+   34,
+   58
   ],
   "biggest_down": [
-   "The Witch's Bakery",
-   27,
-   45,
-   -18
+   "Escape From Duckov",
+   28,
+   48,
+   -20
   ],
   "pick": {
    "list": "topsellers",
@@ -9846,12 +10004,12 @@
     115
    ],
    "reviews": [
-    1959,
-    1966,
     null,
     null,
-    null,
-    null
+    1889,
+    1904,
+    1915,
+    1922
    ],
    "ccu": [
     352,
@@ -9863,6 +10021,7 @@
    ]
   }
  },
+ "review_note": "리뷰 수는 SteamSpy 합계 기준 (appreviews 차단 이후 · 스토어 표시값과 다를 수 있음 · 없음 253 · SteamSpy 합계 168 · 검색 집계 77 · appdetails 추천 수 37)",
  "thumbs": {
   "https://store.steampowered.com/app/5335510/": {
    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg?t=1792738801"
@@ -11440,5 +11599,5 @@
    "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599130/2bd5120b1ce8f16782f5d397a76434dd1cb9ee86/header.jpg?t=1792941508"
   }
  },
- "basis_line": "Steam 검색 · Indie 태그 · 글로벌 합성(7개 지역 평균 순위: US·CN·KR·JP·DE·BR·GB) · 가격 USD · 목록 4개(Top Sellers 200 · New & Trending · Popular Upcoming 100 · New Releases 100) · 본문 포함 = 정가 $30 이하 · 3년 이내 · 리뷰 50,000 미만 · 신작 = 1년 이내"
+ "basis_line": "Steam 검색 · Indie 태그 · 글로벌 합성(7개 지역 평균 순위: US·CN·KR·JP·DE·BR·GB) · 가격 USD · 목록 4개(Top Sellers 200 · New & Trending · Popular Upcoming 100 · New Releases 100) · 본문 포함 = 정가 $30 이하 · 3년 이내 · 리뷰 50,000 미만 · 신작 = 1년 이내 · 리뷰 수는 SteamSpy 합계 기준 (appreviews 차단 이후 · 스토어 표시값과 다를 수 있음 · 없음 253 · SteamSpy 합계 168 · 검색 집계 77 · appdetails 추천 수 37)"
 }
