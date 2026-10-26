@@ -1,6 +1,7 @@
 """itch.io 스냅샷 → 리포트 dict."""
 from collections import Counter
 
+from . import series as series_mod
 from .common import (State, delta, fmt_int, fmt_pct, fmt_signed, load_snaps, pct, round_no, streak_up,
                      to_date, window_snap)
 
@@ -356,9 +357,11 @@ def analyze(cfg, date, data_dir, reports_dir):
     n_lists_ok = sum(1 for rows in snaps[-1][1]["lists"].values() if rows)
     collect_line = f"수집 목록 {n_lists_ok}/{len(snaps[-1][1]['lists'])} 정상 · 모집단 {len(recs)} · 본문 {len(body)} · 신작 {n_new} · 페이지 실패 {len(bad)}"
     state.save()
+    pick_list = next((ln for ln in PRIMARY if pick and ln in pick["ranks"]), "new-and-popular") if pick else None
+    series_blk = series_mod.report_block(data_dir, "itch", date, "new-and-popular", pick_id=pick["id"] if pick else None, pick_list=pick_list)
     return {"platform": "itch", "platform_ko": "itch.io", "date": date, "round": rn, "prev_date": prev_date,
             "status": status, "pick": pick_info, "headline": headline[:3], "notes": notes[:3],
-            "sections": sections, "collect_line": collect_line,
+            "sections": sections, "collect_line": collect_line, "series": series_blk,
             # url → 썸네일. 03 예시처럼 링크만 있는 자리에서 렌더러가 이미지를 찾는 데 씁니다.
             "thumbs": {r["url"]: {"src": r["thumb"], "bg": r["thumb_bg"]} for r in recs.values() if r["url"] and (r["thumb"] or r["thumb_bg"])},
             "basis_line": "itch.io 목록 5개(New & Popular 108 · Top Sellers 108 · Popular 72 · Top Rated 72 · Newest 36) · 급상승 판정은 앞 3개 목록 · 신작 = 공개일 1년 이내 (공개일 미상은 집계 제외)"}

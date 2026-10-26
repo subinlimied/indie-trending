@@ -9,7 +9,7 @@ Steam과 itch.io에서 "소규모 팀이 만들 수 있는 인디게임"이 어�
 ```bash
 python3 collect.py --date 2026-10-21            # 스냅샷 수집 → data/steam/, data/itch/ (Steam 약 15분)
 python3 report.py  --date 2026-10-21            # 리포트 생성 → reports/<platform>/<date>.md .html .json
-python3 cards.py   --date 2026-10-21            # 이미지 카드 뉴스 → reports/<platform>/cards/<date>-N.png (헤드리스 Chrome 필요, 없으면 건너뜀)
+python3 cards.py   --date 2026-10-21            # 이미지 카드 뉴스 4장 → reports/<platform>/cards/<date>-N.png (헤드리스 Chrome 필요, 없으면 건너뜀)
 DISCORD_WEBHOOK_URL=... python3 notify.py --date 2026-10-21   # Discord 전송 (--dry-run 으로 임베드 JSON·첨부 목록만 확인)
 DISCORD_WEBHOOK_URL_PERSONAL=... python3 personal.py --date 2026-10-21   # 개인 리포트 (profile.json 기준 "내 범위") → 비공개 채널
 ```
@@ -18,6 +18,27 @@ DISCORD_WEBHOOK_URL_PERSONAL=... python3 personal.py --date 2026-10-21   # 개�
 - 같은 날짜 스냅샷이 있으면 수집을 건너뜁니다. 다시 받으려면 `collect.py --force`.
 - 수집은 한 번에 하나만 돌리세요. 같은 IP에서 겹치면 Steam 리뷰 API가 429를 냅니다.
 - 회차 1은 비교 대상이 없어 "회차 1 · 비교 없음"으로 나오고, 급상승 판정은 회차 2부터, 연속 판정(승격)은 회차 3부터 들어갑니다.
+
+## 디자인 토큰 · 차트 (모든 리포트 공통)
+
+리포트의 색·글꼴·크기는 전부 [design/tokens.json](design/tokens.json) 한 파일에서 옵니다. **이 파일의 값만 바꾸면 모든 리포트의 HTML 과 카드 PNG 에 적용됩니다.** 키 이름은 코드가 찾으므로 바꾸지 말고 값만 바꾸십시오.
+
+| 키 | 내용 |
+|---|---|
+| `색.다크` / `색.라이트` | 바탕 · 표면 · 표면_2 · 선 · 선_진함 · 글자_1/2/3 · 상승(초록) · 하락(산호) · 경고 · 플랫폼 강조 `steam`(남색 계열) `itch`(산호) `media`(보라) `personal`(노랑) · 각 `_연함` · 그림자. 카드 PNG 는 다크 고정, 웹은 둘 다 |
+| `글꼴.제목 / 본문 / 숫자` | 후보(앞부터 시도) + fallback. 제목 = 볼드 압축(Barlow Condensed · Black Han Sans), 본문 = Pretendard → Noto Sans KR → 시스템, 숫자 = 탭형 모노(JetBrains Mono). `웹폰트_링크` 가 `<head>` 에 들어감(Google Fonts + Pretendard jsdelivr CDN). 웹폰트가 안 받아지면 fallback(Actions 러너는 fonts-noto-cjk)으로 내려감 |
+| `글자_크기.카드 / 웹` | 라벨 · 보조 · 본문 · 강조 · 칩_숫자 · 제목 · 헤드라인 · 축 · 차트_라벨 (px) |
+| `간격` `모서리` `선_두께` `카드` | 8px 그리드 · 카드 여백 72 · 웹 거터 24 · 모서리 · 선 두께 · 카드 크기(1080×1350)와 표지 이미지 비율 |
+
+모듈 (Python 표준 라이브러리만):
+
+- [market/ui.py](market/ui.py) — `font_links()`(head 링크), `css_vars(platform, scale="web"|"card", mode="both"|"dark"|"light")`(`:root` 변수: `--bg --surface --ink --accent --rise --fall --font-display --font-body --font-mono --fs-* --sp --r-* …`, 옛 이름 `--ground --muted --serif --sans --mono` 별칭 포함), `components_css()`(스탯 칩 `.chip` · 순위 배지 `.rank` · 플랫폼 태그 `.ptag` · 섹션 라벨 `.seclabel` · 배지 `.badge` · 제목 서체 `.display`), `card_head_css(platform)`(카드용 다크 변수 + 카드 틀 `.cardframe .cardhead .cardfoot .cardtitle .headline`), `chart_theme(scale)`.
+- [market/series.py](market/series.py) — 최근 7일 스냅샷 시계열. `window(data_dir, platform, date, days=7)`, `app_series(win, platform)` → 게임별 `{ranks: {목록: [순위|None]}, reviews, ccu}`, `top_bump(win, platform, 목록, n=10)` → 오늘 Top 10 의 7일 순위, `movers()`, `report_block(...)` → 리포트 JSON 의 `series` 키(분석기가 호출). 7일 미만이면 있는 만큼 돌려주고 `n_days` 로 알려 줍니다.
+- [market/charts.py](market/charts.py) — SVG 문자열 생성. `sparkline(values, width, height, scale, invert=True, labels=)`, `bump_chart(series, days, highlight=, secondary=, width, height, scale, n=10)`, `bar_lift(rows=[(태그, 개수, 배율)], width, height, scale)`. 색은 CSS 변수(`var(--rise)` …)로 넣어 라이트·다크 양쪽에서 읽히고, `scale="card"|"web"` 로 글자 크기를 고릅니다.
+
+일간 게임 리포트는 이 세 모듈 위에 있습니다(`market/render.py` 의 `DAILY_CSS` · `to_html` · `to_cards`). 주간·미디어·개인 리포트는 아직 옛 CSS(`render.CSS` · `render.CARD_CSS`)를 쓰지만 `render.CSS` 의 색·글꼴 변수는 이미 tokens.json 에서 오므로, 같은 방식으로 옮기면 됩니다.
+
+**카드 PNG 4장(일간)**: 1 표지(헤드라인 2줄 · 캡슐 이미지 · 스탯 칩 3개 · 7일 순위 스파크라인) → 2 범프 차트(Top Sellers 10 / itch New & Popular 10 의 7일 순위 이동, 가장 크게 오른·내린 게임) → 3 소재·장르 막대(상승 묶음 태그 Top 8 + 전체 대비 배율 점) → 4 큰 폭 변화. 다크 고정, 여백 72px, `reports/<platform>/cards/<date>-N.png`.
 
 ## 개인 리포트 (내 범위)
 
@@ -149,7 +170,9 @@ personal.py                        개인 리포트 진입점 (profile.json → 
 market/steam.py, itch.py            수집기
 market/analyze_steam.py, analyze_itch.py   판정·섹션 구성
 market/render.py                    Discord 본문(markdown), HTML, 이미지 카드 HTML(to_cards)
+market/ui.py, series.py, charts.py  디자인 토큰 CSS · 7일 시계열 · SVG 차트 (design/tokens.json 이 값의 원본)
 market/common.py, http.py           공통 (스냅샷 로드, 회차 상태, 재시도 HTTP)
+design/tokens.json                  색·글꼴·크기 토큰 (이 파일만 바꾸면 모든 리포트에 적용)
 config.json                         report_base_url(상세 보고서 링크), 목록 크기, Steam 합성 지역(regions), 본문 포함 조건, 대형 퍼블리셔 목록
 data/<platform>/<date>.json         일간 스냅샷 (지우지 않음), data/cache/ 는 Steam 메타 캐시
 reports/<platform>/<date>.*         리포트, cards/<date>-N.png 는 카드 뉴스, state.json 은 연속 선정 회차 기록

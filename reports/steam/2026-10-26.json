@@ -9665,5 +9665,180 @@
   }
  ],
  "collect_line": "수집 목록 4/4 정상 · 모집단 535 · 본문 포함 112 · 신작 78 · 제외 134",
+ "series": {
+  "n_days": 6,
+  "dates": [
+   "2026-10-21",
+   "2026-10-22",
+   "2026-10-23",
+   "2026-10-24",
+   "2026-10-25",
+   "2026-10-26"
+  ],
+  "days": [
+   "10-21",
+   "10-22",
+   "10-23",
+   "10-24",
+   "10-25",
+   "10-26"
+  ],
+  "bump": {
+   "dates": [
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26"
+   ],
+   "days": [
+    "10-21",
+    "10-22",
+    "10-23",
+    "10-24",
+    "10-25",
+    "10-26"
+   ],
+   "n_days": 6,
+   "list": "topsellers",
+   "list_ko": "Top Sellers",
+   "n": 10,
+   "series": {
+    "Moon Sweepers": [
+     null,
+     null,
+     null,
+     4,
+     4,
+     1
+    ],
+    "Enshrouded": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     2
+    ],
+    "RimWorld": [
+     13,
+     4,
+     2,
+     3,
+     2,
+     3
+    ],
+    "How to Fish": [
+     7,
+     7,
+     7,
+     6,
+     3,
+     4
+    ],
+    "Dressmaker": [
+     3,
+     2,
+     5,
+     5,
+     5,
+     5
+    ],
+    "over the hill": [
+     5,
+     8,
+     9,
+     8,
+     7,
+     6
+    ],
+    "Rust": [
+     12,
+     14,
+     3,
+     2,
+     6,
+     7
+    ],
+    "BOMBANANA!": [
+     6,
+     6,
+     4,
+     7,
+     8,
+     8
+    ],
+    "Slay the Spire 2": [
+     10,
+     9,
+     12,
+     10,
+     9,
+     9
+    ],
+    "Stardew Valley": [
+     11,
+     11,
+     14,
+     12,
+     11,
+     10
+    ]
+   },
+   "ids": {
+    "Moon Sweepers": "5335510",
+    "Enshrouded": "1203620",
+    "RimWorld": "294100",
+    "How to Fish": "4001890",
+    "Dressmaker": "4019220",
+    "over the hill": "2929250",
+    "Rust": "252490",
+    "BOMBANANA!": "4656000",
+    "Slay the Spire 2": "2868840",
+    "Stardew Valley": "413150"
+   }
+  },
+  "biggest_up": [
+   "Automobilista 2",
+   162,
+   28,
+   134
+  ],
+  "biggest_down": [
+   "Clair Obscur: Expedition 33",
+   22,
+   47,
+   -25
+  ],
+  "pick": {
+   "list": "topsellers",
+   "list_ko": "Top Sellers",
+   "ranks": [
+    189,
+    184,
+    162,
+    null,
+    178,
+    115
+   ],
+   "reviews": [
+    1959,
+    1966,
+    null,
+    null,
+    null,
+    null
+   ],
+   "ccu": [
+    352,
+    352,
+    321,
+    315,
+    389,
+    395
+   ]
+  }
+ },
  "basis_line": "Steam 검색 · Indie 태그 · 글로벌 합성(7개 지역 평균 순위: US·CN·KR·JP·DE·BR·GB) · 가격 USD · 목록 4개(Top Sellers 200 · New & Trending · Popular Upcoming 100 · New Releases 100) · 본문 포함 = 정가 $30 이하 · 3년 이내 · 리뷰 50,000 미만 · 신작 = 1년 이내"
 }

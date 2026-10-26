@@ -19,10 +19,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
-from market import render  # noqa: E402
+from market import render, ui  # noqa: E402
 
 KST = timezone(timedelta(hours=9))
-WIDTH, HEIGHT = 1080, 1350
+WIDTH, HEIGHT = ui.tokens()["카드"]["폭"], ui.tokens()["카드"]["높이"]  # design/tokens.json
 MAC_CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 
@@ -64,6 +64,8 @@ def main():
     ap.add_argument("--html-dir", help="카드 HTML 을 임시 폴더 대신 여기에 남깁니다(디자인 확인용)")
     args = ap.parse_args()
 
+    cfg = json.loads((ROOT / "config.json").read_text())
+    base = (cfg.get("report_base_url") or "").rstrip("/")
     chrome = find_chrome()
     if not chrome:
         print("경고: Chrome 을 찾지 못해 카드를 건너뜁니다 (CHROME_BIN 환경변수로 지정할 수 있습니다).")
@@ -87,7 +89,8 @@ def main():
             for old in out_dir.glob(f"{args.date}-*.png"):
                 old.unlink()
             made = []
-            for fname, html in render.to_cards(rep):
+            link = f"{base}/{platform}/{args.date}.html" if base else None
+            for fname, html in render.to_cards(rep, link):
                 html_path = html_dir / f"{platform}-{Path(fname).stem}.html"
                 html_path.write_text(html)
                 out_png = out_dir / fname

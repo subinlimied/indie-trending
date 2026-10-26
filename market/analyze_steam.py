@@ -2,6 +2,7 @@
 from collections import Counter
 from datetime import datetime
 
+from . import series as series_mod
 from .common import (State, delta, fmt_int, fmt_money, fmt_pct, fmt_signed, fmt_usd, load_snaps, pct,
                      round_no, streak_up, to_date, window_snap)
 
@@ -382,9 +383,12 @@ def analyze(cfg, date, data_dir, reports_dir):
     collect_line = (f"수집 목록 {n_lists_ok}/{len(snaps[-1][1]['lists'])} 정상 · 모집단 {len(recs)} · 본문 포함 {len(body)} · 신작 {n_new} · 제외 {len(recs) - len(inc)}"
                     + (f" · API 실패 {n_fail}건" if n_fail else ""))
     state.save()
+    # 최근 7일 시계열(표지 스파크라인 · 범프 차트 · 가장 크게 오른/내린 게임). 렌더러가 rep["series"] 로 읽습니다.
+    pick_list = next((ln for ln in ("popularnew", "topsellers", "comingsoon") if pick and ln in pick["ranks"]), "topsellers") if pick else None
+    series_blk = series_mod.report_block(data_dir, "steam", date, "topsellers", pick_id=pick["appid"] if pick else None, pick_list=pick_list)
     region_line = (f"글로벌 합성({len(regions)}개 지역 평균 순위: {'·'.join(r.upper() for r in regions)}) · 가격 USD"
                    if len(regions) > 1 else "미국 스토어")
     return {"platform": "steam", "platform_ko": "Steam 인디", "date": date, "round": rn, "prev_date": prev_date,
             "status": status, "pick": pick_info, "headline": headline[:3], "notes": notes[:3],
-            "sections": sections, "collect_line": collect_line,
+            "sections": sections, "collect_line": collect_line, "series": series_blk,
             "basis_line": f"Steam 검색 · Indie 태그 · {region_line} · 목록 4개(Top Sellers 200 · New & Trending · Popular Upcoming 100 · New Releases 100) · 본문 포함 = 정가 ${cfg['max_price_usd']} 이하 · 3년 이내 · 리뷰 {fmt_int(cfg['max_reviews'])} 미만 · 신작 = 1년 이내"}
