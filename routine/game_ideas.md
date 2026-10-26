@@ -16,7 +16,7 @@
   - `reports/steam/<날짜>.json` (Steam 공용 리포트)
   - `reports/itch/<날짜>.json` (itch.io 공용 리포트)
   - `reports/personal/<날짜>.json` (개인 범위 리포트. 없을 수도 있으니 404 면 건너뜁니다)
-- Steam 과 itch 파일이 둘 다 404 이면 300초 기다렸다가 다시 시도합니다. 최대 12번까지 기다려도 없으면 "오늘 리포트가 아직 없어 건너뜁니다"라고 남기고 끝냅니다. 어제 날짜로 대체하지 않습니다.
+- Steam 과 itch 파일이 둘 다 404 이면 300초 기다렸다가 다시 시도합니다. 최대 30번(약 2시간 30분)까지 기다려도 없으면 "오늘 리포트가 아직 없어 건너뜁니다"라고 남기고 끝냅니다. 어제 날짜로 대체하지 않습니다.
 - 상세 HTML: `https://subinlimied.github.io/indie-trending/reports/steam/<날짜>.html`, 같은 형식으로 `itch`.
 
 ## 2. 읽을 항목

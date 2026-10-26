@@ -12,7 +12,7 @@
 
 - 날짜는 한국 시간 기준 오늘입니다: `TZ=Asia/Seoul date +%F`
 - 주소: `https://raw.githubusercontent.com/subinlimied/indie-trending/main/reports/media/<날짜>.json`
-- curl 로 받고, 404 이거나 JSON 이 아니면 300초 기다렸다가 다시 시도합니다. 최대 12번까지 기다려도 없으면 "오늘 리포트가 아직 없어 건너뜁니다"라고 남기고 끝냅니다. 어제 날짜로 대체하지 않습니다.
+- curl 로 받고, 404 이거나 JSON 이 아니면 300초 기다렸다가 다시 시도합니다. 최대 30번(약 2시간 30분)까지 기다려도 없으면 "오늘 리포트가 아직 없어 건너뜁니다"라고 남기고 끝냅니다. 어제 날짜로 대체하지 않습니다.
 - 같은 날짜의 HTML 상세: `https://subinlimied.github.io/indie-trending/reports/media/<날짜>.html`
 
 ## 2. 읽을 항목
