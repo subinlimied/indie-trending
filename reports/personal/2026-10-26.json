@@ -36,7 +36,7 @@
      "id": "3271280",
      "name": "Shroom and Gloom",
      "url": "https://store.steampowered.com/app/3271280/",
-     "line": "Top Sellers 178→115위 ▲63 · 동접 395(+1.5%) · $14.99",
+     "line": "Top Sellers 178→115위 ▲63 · 리뷰 1,922(+7) · 3일 +33 · 동접 395(+1.5%) · $14.99",
      "badges": [
       "신작",
       "데모"
@@ -44,7 +44,7 @@
      "sub": "Team Lazerbeam · Adventure, Early Access",
      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3271280/0b105208662f52e5f6282d0f3beb2bec5a90c3da/header.jpg?t=1790708707",
      "thumb_bg": null,
-     "score": 72.0,
+     "score": 75.8,
      "same": "공용 선정과 동일",
      "facts": [
       "Adventure",
@@ -55,9 +55,38 @@
       "신작"
      ],
      "tags": [],
-     "reviews": null,
-     "d1": null,
+     "reviews": 1922,
+     "d1": 7,
      "age": 46,
+     "new": true
+    },
+    {
+     "platform": "steam",
+     "id": "2725250",
+     "name": "Nientum - Op.ZERO",
+     "url": "https://store.steampowered.com/app/2725250/",
+     "line": "Top Sellers 170→130위 ▲40 · 리뷰 390(+30) · 3일 +79 · 동접 15(−37.5%) · $19.99 −20%",
+     "badges": [
+      "신작",
+      "셀프 퍼블리싱",
+      "할인 20%"
+     ],
+     "sub": "QueseraGames · Action, Adventure, Casual",
+     "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2725250/29049beddb4ece7370fc561f5fa8fedd9e133c6b/header.jpg?t=1791950185",
+     "thumb_bg": null,
+     "score": 59.5,
+     "same": null,
+     "facts": [
+      "Action · Adventure",
+      "$19.99",
+      "플레이 시간 미상",
+      "셀프 퍼블리싱",
+      "신작"
+     ],
+     "tags": [],
+     "reviews": 390,
+     "d1": 30,
+     "age": 13,
      "new": true
     },
     {
@@ -65,7 +94,7 @@
      "id": "3558600",
      "name": "Leafy Corner",
      "url": "https://store.steampowered.com/app/3558600/",
-     "line": "Top Sellers 115→72위 ▲43 · 동접 294(+50.8%) · $9.99 −20%",
+     "line": "Top Sellers 115→72위 ▲43 · 리뷰 1,455(+5) · 동접 294(+50.8%) · $9.99 −20%",
      "badges": [
       "신작",
       "셀프 퍼블리싱",
@@ -75,7 +104,7 @@
      "sub": "Fireline Games · Casual, Simulation",
      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558600/57deed9f6c4c6a94fba79c492dda70bf2311c435/header.jpg?t=1790252315",
      "thumb_bg": null,
-     "score": 49.0,
+     "score": 49.6,
      "same": "공용 큰 폭 변화와 동일",
      "facts": [
       "Simulation",
@@ -86,41 +115,22 @@
       "신작"
      ],
      "tags": [],
-     "reviews": null,
-     "d1": null,
+     "reviews": 1455,
+     "d1": 5,
      "age": 88,
-     "new": true
-    },
-    {
-     "platform": "steam",
-     "id": "1805320",
-     "name": "Romestead",
-     "url": "https://store.steampowered.com/app/1805320/",
-     "line": "Top Sellers 196→154위 ▲42 · 동접 466(+3.6%) · $13.99",
-     "badges": [
-      "신작"
-     ],
-     "sub": "Beartwigs · Action, Adventure, RPG",
-     "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/408e4431f9116f0d588e66375491a7ae3d852d59/header.jpg?t=1790242632",
-     "thumb_bg": null,
-     "score": 49.0,
-     "same": null,
-     "facts": [
-      "2D",
-      "Action · Adventure · RPG",
-      "$13.99",
-      "플레이 시간 미상",
-      "퍼블리셔 있음",
-      "신작"
-     ],
-     "tags": [],
-     "reviews": null,
-     "d1": null,
-     "age": 154,
      "new": true
     }
    ],
-   "pushed": [],
+   "pushed": [
+    {
+     "name": "Moon Sweepers",
+     "url": "https://store.steampowered.com/app/5335510/",
+     "reasons": [
+      "Multiplayer"
+     ],
+     "role": "큰 폭 변화"
+    }
+   ],
    "why": "",
    "same_as_public": false,
    "scatter": [
@@ -157,14 +167,6 @@
      "top": 0
     },
     {
-     "name": "Supermarket Simulator",
-     "platform": "steam",
-     "price_usd": 19.99,
-     "playtime_h": null,
-     "reviews": 34556,
-     "top": 0
-    },
-    {
      "name": "Big Dig",
      "platform": "steam",
      "price_usd": 7.99,
@@ -185,15 +187,7 @@
      "platform": "steam",
      "price_usd": 19.99,
      "playtime_h": null,
-     "reviews": 34238,
-     "top": 0
-    },
-    {
-     "name": "Buckshot Roulette",
-     "platform": "steam",
-     "price_usd": 2.99,
-     "playtime_h": null,
-     "reviews": 36743,
+     "reviews": 39499,
      "top": 0
     },
     {
@@ -210,7 +204,7 @@
      "price_usd": 9.99,
      "playtime_h": null,
      "reviews": 1455,
-     "top": 2
+     "top": 3
     },
     {
      "name": "IRON NEST: Heavy Turret Simulator",
@@ -241,7 +235,7 @@
      "platform": "steam",
      "price_usd": 19.99,
      "playtime_h": null,
-     "reviews": 1949,
+     "reviews": 2626,
      "top": 0
     },
     {
@@ -289,7 +283,7 @@
      "platform": "steam",
      "price_usd": 6.99,
      "playtime_h": null,
-     "reviews": 681,
+     "reviews": 623,
      "top": 0
     },
     {
@@ -305,7 +299,7 @@
      "platform": "steam",
      "price_usd": 14.99,
      "playtime_h": null,
-     "reviews": 14032,
+     "reviews": 22997,
      "top": 0
     },
     {
@@ -346,7 +340,7 @@
      "price_usd": 19.99,
      "playtime_h": null,
      "reviews": 390,
-     "top": 0
+     "top": 2
     },
     {
      "name": "Sandustry",
@@ -385,7 +379,7 @@
      "platform": "steam",
      "price_usd": 12.99,
      "playtime_h": null,
-     "reviews": 24942,
+     "reviews": 29864,
      "top": 0
     },
     {
@@ -402,14 +396,14 @@
      "price_usd": 13.99,
      "playtime_h": null,
      "reviews": 1401,
-     "top": 3
+     "top": 0
     },
     {
      "name": "The Artisan of Glimmith",
      "platform": "steam",
      "price_usd": 12.99,
      "playtime_h": null,
-     "reviews": 1564,
+     "reviews": 2699,
      "top": 0
     },
     {
@@ -433,7 +427,7 @@
      "platform": "steam",
      "price_usd": 9.99,
      "playtime_h": null,
-     "reviews": 12893,
+     "reviews": 25181,
      "top": 0
     },
     {
@@ -449,7 +443,7 @@
      "platform": "steam",
      "price_usd": 19.99,
      "playtime_h": null,
-     "reviews": 1891,
+     "reviews": 3905,
      "top": 0
     },
     {
@@ -457,7 +451,7 @@
      "platform": "steam",
      "price_usd": 14.99,
      "playtime_h": null,
-     "reviews": 10192,
+     "reviews": 27918,
      "top": 0
     },
     {
@@ -481,7 +475,7 @@
      "platform": "steam",
      "price_usd": 14.99,
      "playtime_h": null,
-     "reviews": 214,
+     "reviews": 116,
      "top": 0
     },
     {
@@ -505,7 +499,7 @@
      "platform": "steam",
      "price_usd": 18.0,
      "playtime_h": null,
-     "reviews": 535,
+     "reviews": 7987,
      "top": 0
     },
     {
@@ -521,7 +515,7 @@
      "platform": "steam",
      "price_usd": 19.99,
      "playtime_h": null,
-     "reviews": 911,
+     "reviews": 4749,
      "top": 0
     },
     {
@@ -529,7 +523,7 @@
      "platform": "steam",
      "price_usd": 5.99,
      "playtime_h": null,
-     "reviews": 132,
+     "reviews": 118,
      "top": 0
     },
     {
@@ -545,7 +539,7 @@
      "platform": "steam",
      "price_usd": 14.99,
      "playtime_h": null,
-     "reviews": 930,
+     "reviews": 897,
      "top": 0
     }
    ],
@@ -553,7 +547,8 @@
     "pick": "Shroom and Gloom",
     "headline": [
      "Shroom and Gloom",
-     "Leafy Corner"
+     "Leafy Corner",
+     "Moon Sweepers"
     ],
     "top3": [
      "Shroom and Gloom",
@@ -562,19 +557,19 @@
     ]
    },
    "counts": {
-    "body": 104,
-    "mine": 53,
-    "cands": 29
+    "body": 99,
+    "mine": 51,
+    "cands": 31
    },
-   "fail_line": "Multiplayer 34 · 정가 21 · 태그 7",
+   "fail_line": "Multiplayer 32 · 정가 20 · 태그 7",
    "pool": [
     {
      "platform": "steam",
      "id": "4019220",
      "name": "Dressmaker",
      "url": "https://store.steampowered.com/app/4019220/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 12998,
+     "d1": 199,
      "age": 35,
      "tags": []
     },
@@ -583,8 +578,8 @@
      "id": "4421010",
      "name": "Bills Must Be Paid",
      "url": "https://store.steampowered.com/app/4421010/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 6218,
+     "d1": 25,
      "age": 89,
      "tags": []
     },
@@ -593,8 +588,8 @@
      "id": "5258340",
      "name": "One Million Coins",
      "url": "https://store.steampowered.com/app/5258340/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 716,
+     "d1": 97,
      "age": 13,
      "tags": []
     },
@@ -603,8 +598,8 @@
      "id": "3812600",
      "name": "ReStory: Chill Electronics Repairs",
      "url": "https://store.steampowered.com/app/3812600/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 5863,
+     "d1": 16,
      "age": 81,
      "tags": []
     },
@@ -613,8 +608,8 @@
      "id": "4304900",
      "name": "Big Dig",
      "url": "https://store.steampowered.com/app/4304900/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 524,
+     "d1": 63,
      "age": 7,
      "tags": []
     },
@@ -623,8 +618,8 @@
      "id": "3070070",
      "name": "TCG Card Shop Simulator",
      "url": "https://store.steampowered.com/app/3070070/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 39499,
+     "d1": 0,
      "age": 42,
      "tags": [
       "Simulation",
@@ -638,8 +633,8 @@
      "id": "3558600",
      "name": "Leafy Corner",
      "url": "https://store.steampowered.com/app/3558600/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 1455,
+     "d1": 5,
      "age": 88,
      "tags": []
     },
@@ -648,8 +643,8 @@
      "id": "2950790",
      "name": "IRON NEST: Heavy Turret Simulator",
      "url": "https://store.steampowered.com/app/2950790/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 8230,
+     "d1": 10,
      "age": 81,
      "tags": []
     },
@@ -658,8 +653,8 @@
      "id": "5195600",
      "name": "QuestAway",
      "url": "https://store.steampowered.com/app/5195600/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 475,
+     "d1": 174,
      "age": 3,
      "tags": []
     },
@@ -668,8 +663,8 @@
      "id": "4705510",
      "name": "Happy Wheels",
      "url": "https://store.steampowered.com/app/4705510/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 3363,
+     "d1": 34,
      "age": 35,
      "tags": []
     },
@@ -678,8 +673,8 @@
      "id": "5064340",
      "name": "DinoBones: Tidy Up the Museum",
      "url": "https://store.steampowered.com/app/5064340/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 1532,
+     "d1": 24,
      "age": 31,
      "tags": []
     },
@@ -688,8 +683,8 @@
      "id": "3375110",
      "name": "Tiny Eden",
      "url": "https://store.steampowered.com/app/3375110/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 917,
+     "d1": 3,
      "age": 49,
      "tags": []
     },
@@ -698,8 +693,8 @@
      "id": "2967950",
      "name": "The Witch's Bakery",
      "url": "https://store.steampowered.com/app/2967950/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 312,
+     "d1": 18,
      "age": 12,
      "tags": []
     },
@@ -708,8 +703,8 @@
      "id": "4425980",
      "name": "Legion Breaker",
      "url": "https://store.steampowered.com/app/4425980/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 623,
+     "d1": 0,
      "age": 13,
      "tags": []
     },
@@ -718,8 +713,8 @@
      "id": "3271280",
      "name": "Shroom and Gloom",
      "url": "https://store.steampowered.com/app/3271280/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 1922,
+     "d1": 7,
      "age": 46,
      "tags": []
     },
@@ -728,8 +723,8 @@
      "id": "5245810",
      "name": "ForgeTax",
      "url": "https://store.steampowered.com/app/5245810/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 1335,
+     "d1": 42,
      "age": 27,
      "tags": []
     },
@@ -738,8 +733,8 @@
      "id": "4207990",
      "name": "GemCraft - Legacy Collection",
      "url": "https://store.steampowered.com/app/4207990/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 112,
+     "d1": 13,
      "age": 5,
      "tags": []
     },
@@ -748,8 +743,8 @@
      "id": "2725250",
      "name": "Nientum - Op.ZERO",
      "url": "https://store.steampowered.com/app/2725250/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 390,
+     "d1": 30,
      "age": 13,
      "tags": []
     },
@@ -758,8 +753,8 @@
      "id": "2764460",
      "name": "Sandustry",
      "url": "https://store.steampowered.com/app/2764460/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 3452,
+     "d1": 11,
      "age": 74,
      "tags": []
     },
@@ -768,8 +763,8 @@
      "id": "4659620",
      "name": "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil",
      "url": "https://store.steampowered.com/app/4659620/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 1717,
+     "d1": 1,
      "age": 47,
      "tags": []
     },
@@ -778,8 +773,8 @@
      "id": "5044770",
      "name": "The Death Game Report",
      "url": "https://store.steampowered.com/app/5044770/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 2240,
+     "d1": 28,
      "age": 55,
      "tags": []
     },
@@ -788,8 +783,8 @@
      "id": "3299050",
      "name": "No Such Place",
      "url": "https://store.steampowered.com/app/3299050/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 576,
+     "d1": 14,
      "age": 13,
      "tags": [
       "Pixel Graphics"
@@ -800,7 +795,7 @@
      "id": "3946950",
      "name": "Click the Button",
      "url": "https://store.steampowered.com/app/3946950/",
-     "reviews": null,
+     "reviews": 1684,
      "d1": null,
      "age": 61,
      "tags": [
@@ -812,8 +807,8 @@
      "id": "3699590",
      "name": "Well Dweller",
      "url": "https://store.steampowered.com/app/3699590/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 3905,
+     "d1": 0,
      "age": 34,
      "tags": []
     },
@@ -822,8 +817,8 @@
      "id": "3510740",
      "name": "Normal Golf Game",
      "url": "https://store.steampowered.com/app/3510740/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 1501,
+     "d1": 8,
      "age": 35,
      "tags": []
     },
@@ -832,8 +827,8 @@
      "id": "1946560",
      "name": "sobosuba",
      "url": "https://store.steampowered.com/app/1946560/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 337,
+     "d1": 5,
      "age": 73,
      "tags": []
     },
@@ -842,8 +837,8 @@
      "id": "1478970",
      "name": "AI Olympius",
      "url": "https://store.steampowered.com/app/1478970/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 116,
+     "d1": 0,
      "age": 8,
      "tags": [
       "Third-Person Shooter",
@@ -857,8 +852,8 @@
      "id": "4364930",
      "name": "Birb",
      "url": "https://store.steampowered.com/app/4364930/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 331,
+     "d1": 10,
      "age": 24,
      "tags": []
     },
@@ -867,8 +862,8 @@
      "id": "4259190",
      "name": "Kingdom Rush 6: Genesis TD",
      "url": "https://store.steampowered.com/app/4259190/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 4749,
+     "d1": 0,
      "age": 32,
      "tags": []
     },
@@ -877,8 +872,8 @@
      "id": "2069070",
      "name": "Hay! One Billion!",
      "url": "https://store.steampowered.com/app/2069070/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 118,
+     "d1": 0,
      "age": 10,
      "tags": []
     },
@@ -887,8 +882,8 @@
      "id": "4817620",
      "name": "One Way Tickets",
      "url": "https://store.steampowered.com/app/4817620/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 1315,
+     "d1": 240,
      "age": 4,
      "tags": []
     },
@@ -897,8 +892,8 @@
      "id": "3917700",
      "name": "Dicevaders",
      "url": "https://store.steampowered.com/app/3917700/",
-     "reviews": null,
-     "d1": null,
+     "reviews": 897,
+     "d1": 0,
      "age": 27,
      "tags": []
     }
@@ -908,12 +903,12 @@
      "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3271280/0b105208662f52e5f6282d0f3beb2bec5a90c3da/header.jpg?t=1790708707",
      "bg": null
     },
-    "https://store.steampowered.com/app/3558600/": {
-     "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558600/57deed9f6c4c6a94fba79c492dda70bf2311c435/header.jpg?t=1790252315",
+    "https://store.steampowered.com/app/2725250/": {
+     "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2725250/29049beddb4ece7370fc561f5fa8fedd9e133c6b/header.jpg?t=1791950185",
      "bg": null
     },
-    "https://store.steampowered.com/app/1805320/": {
-     "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/408e4431f9116f0d588e66375491a7ae3d852d59/header.jpg?t=1790242632",
+    "https://store.steampowered.com/app/3558600/": {
+     "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558600/57deed9f6c4c6a94fba79c492dda70bf2311c435/header.jpg?t=1790252315",
      "bg": null
     }
    }
@@ -3525,48 +3520,34 @@
   ],
   "fast": [
    {
-    "platform": "itch",
-    "name": "Breadwinner",
-    "url": "https://mithikagames.itch.io/breadwinner",
-    "rate": 14.0,
-    "reviews": 99,
-    "age": 22,
-    "basis": "5일 관측",
-    "tags": [
-     "Atmospheric",
-     "Dark",
-     "filipino",
-     "Horror"
-    ]
+    "platform": "steam",
+    "name": "One Way Tickets",
+    "url": "https://store.steampowered.com/app/4817620/",
+    "rate": 240.0,
+    "reviews": 1315,
+    "age": 4,
+    "basis": "1일 관측",
+    "tags": []
    },
    {
-    "platform": "itch",
-    "name": "Trauma lab",
-    "url": "https://traumalab.itch.io/trauma-lab",
-    "rate": 12.2,
-    "reviews": 56,
-    "age": 6,
-    "basis": "5일 관측",
-    "tags": [
-     "anatomy",
-     "browser",
-     "Gore",
-     "medical"
-    ]
+    "platform": "steam",
+    "name": "QuestAway",
+    "url": "https://store.steampowered.com/app/5195600/",
+    "rate": 174.0,
+    "reviews": 475,
+    "age": 3,
+    "basis": "1일 관측",
+    "tags": []
    },
    {
-    "platform": "itch",
-    "name": "Troll the King",
-    "url": "https://sheepolution.itch.io/troll-the-king",
-    "rate": 10.2,
-    "reviews": 48,
-    "age": 6,
+    "platform": "steam",
+    "name": "One Million Coins",
+    "url": "https://store.steampowered.com/app/5258340/",
+    "rate": 62.8,
+    "reviews": 716,
+    "age": 13,
     "basis": "5일 관측",
-    "tags": [
-     "Ludum Dare",
-     "Ludum Dare 60",
-     "No generative AI was used"
-    ]
+    "tags": []
    }
   ]
  },
@@ -3576,13 +3557,20 @@
    {
     "title": "Steam 인디 · 내 범위 급상승 Top 3 · 6회차",
     "color": 7032763,
-    "description": "**1. [Shroom and Gloom](https://store.steampowered.com/app/3271280/)** · Top Sellers 178→115위 ▲63 · 동접 395(+1.5%) · $14.99\n신작 · 데모 · 공용 선정과 동일\n**2. [Leafy Corner](https://store.steampowered.com/app/3558600/)** · Top Sellers 115→72위 ▲43 · 동접 294(+50.8%) · $9.99 −20%\n신작 · 셀프 퍼블리싱 · 데모 · 공용 큰 폭 변화와 동일\n**3. [Romestead](https://store.steampowered.com/app/1805320/)** · Top Sellers 196→154위 ▲42 · 동접 466(+3.6%) · $13.99\n신작",
+    "description": "**1. [Shroom and Gloom](https://store.steampowered.com/app/3271280/)** · Top Sellers 178→115위 ▲63 · 리뷰 1,922(+7) · 3일 +33 · 동접 395(+1.5%) · $14.99\n신작 · 데모 · 공용 선정과 동일\n**2. [Nientum - Op.ZERO](https://store.steampowered.com/app/2725250/)** · Top Sellers 170→130위 ▲40 · 리뷰 390(+30) · 3일 +79 · 동접 15(−37.5%) · $19.99 −20%\n신작 · 셀프 퍼블리싱 · 할인 20%\n**3. [Leafy Corner](https://store.steampowered.com/app/3558600/)** · Top Sellers 115→72위 ▲43 · 리뷰 1,455(+5) · 동접 294(+50.8%) · $9.99 −20%\n신작 · 셀프 퍼블리싱 · 데모 · 공용 큰 폭 변화와 동일",
+    "fields": [
+     {
+      "name": "내 범위 밖으로 밀린 공용 게임",
+      "value": "• [Moon Sweepers](https://store.steampowered.com/app/5335510/) (큰 폭 변화) — Multiplayer",
+      "inline": false
+     }
+    ],
     "url": "https://store.steampowered.com/app/3271280/",
     "image": {
      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3271280/0b105208662f52e5f6282d0f3beb2bec5a90c3da/header.jpg?t=1790708707"
     },
     "footer": {
-     "text": "본문 104개 → 내 범위 53개 · 밀린 이유: Multiplayer 34 · 정가 21 · 태그 7"
+     "text": "본문 99개 → 내 범위 51개 · 밀린 이유: Multiplayer 32 · 정가 20 · 태그 7"
     }
    },
    {
@@ -3633,7 +3621,7 @@
      },
      {
       "name": "리뷰가 가장 빨리 쌓인 신작 3개",
-      "value": "1. [Breadwinner](https://mithikagames.itch.io/breadwinner) (itch.io) · 일 평균 +14 · 누적 99 · 출시 22일 · 5일 관측\n2. [Trauma lab](https://traumalab.itch.io/trauma-lab) (itch.io) · 일 평균 +12.2 · 누적 56 · 출시 6일 · 5일 관측\n3. [Troll the King](https://sheepolution.itch.io/troll-the-king) (itch.io) · 일 평균 +10.2 · 누적 48 · 출시 6일 · 5일 관측",
+      "value": "1. [One Way Tickets](https://store.steampowered.com/app/4817620/) (Steam) · 일 평균 +240 · 누적 1,315 · 출시 4일 · 1일 관측\n2. [QuestAway](https://store.steampowered.com/app/5195600/) (Steam) · 일 평균 +174 · 누적 475 · 출시 3일 · 1일 관측\n3. [One Million Coins](https://store.steampowered.com/app/5258340/) (Steam) · 일 평균 +62.8 · 누적 716 · 출시 13일 · 5일 관측",
       "inline": false
      }
     ]
