@@ -8,7 +8,7 @@ import re
 from datetime import datetime
 from urllib.parse import quote
 
-from . import charts, ui
+from . import charts, headline, ui
 
 WEEK = "월화수목금토일"
 LINK = re.compile(r"\[([^\]]+)\]\((https?://[^)]+)\)")
@@ -515,14 +515,14 @@ nav.toc a{font:var(--t-label-caps-w) var(--t-label-caps) var(--font-mono);letter
 @media(max-width:1023px){.top{grid-template-columns:1fr}}
 .pick{padding:var(--sp-lg);display:flex;flex-direction:column;gap:var(--sp-lg);min-width:0}
 .kick{display:flex;align-items:center;gap:var(--sp-sm);flex-wrap:wrap}
-.hl{display:block;margin:0;font:var(--t-headline-xl-w) var(--t-headline-xl) var(--font-display);letter-spacing:var(--t-headline-xl-ls);text-transform:uppercase;font-synthesis:none;text-wrap:balance}
-@media(max-width:767px){.hl{font:var(--t-headline-xl-mobile-w) var(--t-headline-xl-mobile) var(--font-display)}.hl br.hb{display:none}}
+h1.hl,h2.hl{display:block;margin:0;font:var(--t-headline-xl-w) var(--t-headline-xl) var(--font-display);letter-spacing:var(--t-headline-xl-ls);text-transform:uppercase;font-synthesis:none;text-wrap:balance}
+@media(max-width:767px){h1.hl,h2.hl{font:var(--t-headline-xl-mobile-w) var(--t-headline-xl-mobile) var(--font-display)}.hl br.hb{display:none}}
 @media(max-width:600px){.appbar .when{display:none}.appbar{min-width:0}.appbar .brand{white-space:nowrap}.status{grid-template-columns:1fr 1fr}.status dd{white-space:normal;font:var(--t-data-md-w) var(--t-data-md) var(--font-mono)}.hrow .r{width:100%;justify-content:space-between}.chips{grid-template-columns:1fr}.chip{flex-direction:row;align-items:center;gap:var(--sp-md);flex-wrap:wrap}.chip .lbl{flex:1 1 100%}.chip .row{margin:0;flex:1 1 auto}.chip .sub{margin:0;flex:0 0 auto}}
 .hl .hi{color:var(--primary-light)}
 .hl .ul{color:var(--rise);text-decoration:underline;text-decoration-color:var(--rise-line);text-decoration-thickness:4px;text-underline-offset:5px}
 .hl a{color:inherit}
 .hero{position:relative;overflow:hidden;border:var(--bw) solid var(--line-strong);background:var(--bg);aspect-ratio:16/9;max-height:460px;max-width:100%;display:block}
-.hero .bgl{position:absolute;inset:-8%;background-size:cover;background-position:center;filter:blur(18px) saturate(1.1);opacity:.5}
+.hero .bgl{position:absolute;inset:-10%;background-size:cover;background-position:center;filter:blur(24px) brightness(.6);transform:scale(1.15)}
 .hero .img{position:absolute;inset:0;background-size:contain;background-position:center;background-repeat:no-repeat}
 body.steam .hero .img{background-size:cover}
 .hero .ov{position:absolute;display:flex;gap:var(--sp-sm);flex-wrap:wrap;max-width:calc(100% - 32px)}
@@ -652,71 +652,16 @@ def daily_css(platform):
 # ---------- 헤드라인 문장 · 스탯 칩 ----------
 
 RX_FROM = re.compile(r"^(\d+)위에서$")
-# 장르 태그 → 한국어 한 단어. 없으면 원어. 장르가 아닌 태그는 건너뜀.
-GENRE_KO = {"Roguelike": "로그라이크", "Roguelite": "로그라이트", "Action Roguelike": "액션 로그라이크", "Deckbuilding": "덱빌딩", "Deckbuilder": "덱빌딩",
-            "Card Game": "카드 게임", "Cozy": "코지", "Simulation": "시뮬레이션", "Casual": "캐주얼", "Adventure": "어드벤처", "Action": "액션",
-            "Strategy": "전략", "RPG": "RPG", "Puzzle": "퍼즐", "Horror": "호러", "Psychological Horror": "심리 호러", "Survival Horror": "서바이벌 호러",
-            "Survival": "서바이벌", "Platformer": "플랫포머", "2D Platformer": "2D 플랫포머", "Visual Novel": "비주얼 노벨", "Dating Sim": "연애 시뮬",
-            "Idle": "방치형", "Incremental": "방치형", "Tower Defense": "타워 디펜스", "Shooter": "슈터", "FPS": "FPS", "Shoot 'Em Up": "슈팅",
-            "Bullet Hell": "탄막", "Open World Survival Craft": "오픈월드 생존", "Open World": "오픈월드", "Farming Sim": "농장 시뮬", "City Builder": "도시 건설",
-            "Base Building": "기지 건설", "Colony Sim": "콜로니 심", "Management": "경영", "Automation": "자동화", "Metroidvania": "메트로배니아",
-            "Rhythm": "리듬", "Racing": "레이싱", "Sports": "스포츠", "Sandbox": "샌드박스", "Point & Click": "포인트 앤 클릭", "Walking Simulator": "워킹 심",
-            "Interactive Fiction": "인터랙티브 픽션", "Souls-like": "소울라이크", "Turn-Based Strategy": "턴제 전략", "Turn-Based Tactics": "턴제 택틱스",
-            "JRPG": "JRPG", "Action RPG": "액션 RPG", "Strategy RPG": "전략 RPG", "Dungeon Crawler": "던전 크롤러", "Auto Battler": "오토 배틀러",
-            "Life Sim": "라이프 심", "Hidden Object": "숨은그림찾기", "Fantasy": "판타지", "Fighting": "격투", "Stealth": "잠입", "Crafting": "제작",
-            "Exploration": "탐험", "Mystery": "미스터리", "Comedy": "코미디", "Educational": "교육", "Arcade": "아케이드", "Clicker": "클리커", "Cards": "카드",
-            "Tactical": "택티컬", "Physics": "물리", "Driving": "드라이빙", "Pinball": "핀볼", "Board Game": "보드 게임", "Trivia": "퀴즈", "Word Game": "단어 게임",
-            "Amare": "아마레", "castle": "성채", "Minigames": "미니게임", "Multiplayer": "멀티플레이", "Co-op": "협동", "Tycoon": "타이쿤", "Shop Simulator": "상점 경영"}
-GENRE_SKIP = {"Indie", "Singleplayer", "2D", "3D", "Early Access", "Pixel Graphics", "Cute", "Atmospheric", "Relaxing", "Colorful", "Free to Play",
-              "Female Protagonist", "No AI", "No generative AI was used", "Short", "Story Rich", "Difficult", "Anime", "Retro", "Dark", "Funny"}
-
-
-def genre_word(p):
-    """선정 게임 태그 중 장르로 쓸 첫 단어(한국어). 없으면 빈 문자열."""
-    tags = p.get("tags") or []
-    if not tags and p.get("sub"):
-        tags = [t.strip() for seg in split_dots(p["sub"]) for t in seg.split(",") if t.strip()]
-    for t in tags:
-        if t in GENRE_SKIP or re.fullmatch(r"\d{4}-\d{2}-\d{2}", t):
-            continue
-        if t in GENRE_KO:
-            return GENRE_KO[t]
-        if re.search(r"[A-Za-z]", t) and len(t) <= 24 and t not in (p.get("sub") or "").split(" · ")[0]:
-            return t
-    return ""
+GENRE_KO, GENRE_SKIP = headline.GENRE_KO, headline.GENRE_SKIP  # 하위 호환 (사전은 market/headline.py)
 
 
 def headline_parts(p):
-    """선정 게임 → (장르, 이름, 목록·수치 앞말, 강조 수치, 방향). 3단계 전까지의 규칙 문장:
-    '<장르> <이름>, <목록> +n계단 상승'. 순위 변화가 없으면 '<목록> n위', 순위가 없으면 다음 수치."""
-    segs = split_dots(p.get("line", ""))
-    first = segs[0] if segs else ""
-    m = RX_RANK.match(first)
-    if m and m.group(2):
-        a, b = int(m.group(2)), int(m.group(3))
-        d = a - b
-        if d > 0:
-            return genre_word(p), p["name"], m.group(1), f"+{d}계단 상승", "up"
-        if d < 0:
-            return genre_word(p), p["name"], m.group(1), f"{-d}계단 하락", "down"
-        return genre_word(p), p["name"], m.group(1), f"{b}위 유지", ""
-    if m:
-        return genre_word(p), p["name"], m.group(1), f"{m.group(3)}위", ""
-    hero, cap, dirn, _ = key_metric(p.get("line", ""))
-    if hero:
-        return genre_word(p), p["name"], cap, hero, dirn
-    return genre_word(p), p["name"], "", "", ""
+    """선정 게임 헤드라인 조각 (market/headline.game_pick). 방향은 headline.direction 으로."""
+    return headline.game_pick(p)
 
 
 def headline_html(p, link=True):
-    g, name, lead, hero, dirn = headline_parts(p)
-    nm = f'<a href="{H.escape(p["url"], quote=True)}" target="_blank" rel="noopener" class="hi">{esc(name)}</a>' if link else f'<span class="hi">{esc(name)}</span>'
-    s = (esc(g) + " " if g else "") + nm
-    if hero:
-        cls = "ul" if dirn == "up" else "dn" if dirn == "down" else "ul"
-        hero_s = f'<span class="{cls}" style="white-space:nowrap">{esc(hero)}</span>'
-        s += f', <br class="hb">{esc(lead)} {hero_s}' if lead else f', <br class="hb">{hero_s}'
-    return s
+    return headline.to_html(headline.game_pick(p), link=p.get("url") if link else None)
 
 
 def pick_chips(p):
@@ -789,9 +734,21 @@ def hero_html(name, url, rep, it=None, overlays=""):
             f'<span class="bgl" style="{img}"></span><span class="img" style="{img}"></span>{overlays}</a>')
 
 
+def image_hero_html(src, overlays="", name="", url=None, bg=None, cls="hero"):
+    """이미지 주소 하나로 만드는 프레임(미디어·주간 등): 흐린 배경 + 원본 가운데. 이미지가 없으면 머리글자 색 블록."""
+    initial = (name or "?").strip()[:1].upper()
+    layers = ([f"url({quote(src, safe=':/%?=&#.-_~')})"] if src else []) + [f"url({letter_svg(initial, True)})"]
+    base = (f"background-color:{H.escape(bg, quote=True)};" if bg else f"--h:{hue(name)};")
+    img = base + "background-image:" + ",".join(layers)
+    tag = "a" if url else "div"
+    href = f' href="{H.escape(url, quote=True)}" target="_blank" rel="noopener"' if url else ""
+    return (f'<{tag} class="{cls}"{href} aria-label="{H.escape(name or "", quote=True)}">'
+            f'<span class="bgl" style="{img}"></span><span class="img" style="{img}"></span>{overlays}</{tag}>')
+
+
 def hero_overlays(p):
     """이미지 위 칩: 왼쪽 위 태그 2개 + 배지(초록), 오른쪽 아래 값 칩(7일 리뷰·평점 증가가 있을 때만)."""
-    tags = [t for t in (p.get("tags") or []) if t not in GENRE_SKIP][:2]
+    tags = [t for t in (p.get("tags") or []) if t not in headline.GENRE_SKIP][:2]
     chips = []
     if tags:
         chips.append(f'<span class="lchip">{esc(" · ".join(tags))}</span>')
@@ -1186,7 +1143,7 @@ DAILY_CARD_CSS = """
 .hl .ul{color:var(--rise);text-decoration:underline;text-decoration-color:var(--rise-line);text-decoration-thickness:4px;text-underline-offset:6px}
 .hl .dn{color:var(--fall);text-decoration:underline;text-decoration-color:var(--fall-line);text-decoration-thickness:4px;text-underline-offset:6px}
 .hero{position:relative;overflow:hidden;border:var(--bw) solid var(--line-strong);background:var(--bg);width:100%;height:var(--cover-max-h);display:block}
-.hero .bgl{position:absolute;inset:-8%;background-size:cover;background-position:center;filter:blur(24px) saturate(1.1);opacity:.5}
+.hero .bgl{position:absolute;inset:-10%;background-size:cover;background-position:center;filter:blur(24px) brightness(.6);transform:scale(1.15)}
 .hero .img{position:absolute;inset:0;background-size:contain;background-position:center;background-repeat:no-repeat}
 body.steam .hero .img{background-size:cover}
 .hero .ov{position:absolute;display:flex;gap:var(--sp-sm);flex-wrap:wrap;max-width:calc(100% - 32px)}
@@ -1237,20 +1194,29 @@ def card_inner_width():
     return T["카드"]["폭"] - 2 * T["간격"]["카드_여백"]
 
 
-def _card_page(rep, body, i, n, link=None):
-    tag = PLATFORM_TAG.get(rep["platform"], rep["platform"])
+def card_page(platform, tag, kind, when, edition, body, i, n, link=None, fallback_see="", extra_css="", title=""):
+    """모든 리포트가 공유하는 카드 틀. platform 은 tokens 의 색 키(steam·itch·media·personal), tag 는 상단 라벨("Indie Trending · Weekly"),
+    kind 는 그 옆 회색 라벨("Daily Report"), when 은 오른쪽 날짜 문구, edition 은 회차 숫자(없으면 None).
+    푸터: 링크가 있으면 "■ 자세히 보기 → indie-trending <주소>", 없으면 fallback_see. 오른쪽 "i / n"."""
     see = (f'<span class="see">자세히 보기 → indie-trending <span>{esc(link.split("://", 1)[-1])}</span></span>' if link
-           else f'<span class="see">{esc(rep["platform_ko"])} 트렌딩 <span>{esc(date_ko(rep["date"]))}</span></span>')
+           else f'<span class="see">{esc(fallback_see or tag)}</span>')
+    ed = f'<span class="sep">|</span><span class="lchip ghost">Edition #{edition:02d}</span>' if edition is not None else ""
     return f"""<!doctype html>
-<html lang="ko" data-theme="dark"><head><meta charset="utf-8"><title>{esc(rep['platform_ko'])} {esc(rep['date'])} {i}/{n}</title>
+<html lang="ko" data-theme="dark"><head><meta charset="utf-8"><title>{esc(title or tag)} {i}/{n}</title>
 {ui.font_links()}
-<style>{ui.card_head_css(rep['platform'])}{DAILY_CARD_CSS}</style></head>
-<body class="{esc(rep['platform'])}"><div class="cardframe">
-<div class="cardhead"><div class="l"><span class="ptag">{esc(tag)}</span><span class="seclabel">Daily Report</span></div>
-<div class="r"><span class="when">{esc(date_ko(rep['date']))} · {rep['round']}회차</span><span class="sep">|</span><span class="lchip ghost">Edition #{rep['round']:02d}</span></div></div>
+<style>{ui.card_head_css(platform)}{DAILY_CARD_CSS}{extra_css}</style></head>
+<body class="{esc(platform)}"><div class="cardframe">
+<div class="cardhead"><div class="l"><span class="ptag">{esc(tag)}</span><span class="seclabel">{esc(kind)}</span></div>
+<div class="r"><span class="when">{esc(when)}</span>{ed}</div></div>
 {body}
 <div class="cardfoot">{see}<span class="pg">{i} / {n}</span></div>
 </div></body></html>"""
+
+
+def _card_page(rep, body, i, n, link=None):
+    return card_page(rep["platform"], PLATFORM_TAG.get(rep["platform"], rep["platform"]), "Daily Report",
+                     f"{date_ko(rep['date'])} · {rep['round']}회차", rep["round"], body, i, n, link,
+                     fallback_see=f"{rep['platform_ko']} 트렌딩 · {date_ko(rep['date'])}", title=f"{rep['platform_ko']} {rep['date']}")
 
 
 def _title_block(kick, kick_sub, title):
@@ -1266,7 +1232,7 @@ def _cover_card(rep):
         first = strip_links(split_dots(hl[0])[0]) if hl else ""
         return _title_block("NO PICK", "", "오늘은 선정 게임이 없습니다") + (f'<div class="lines"><p>큰 폭 변화 · <b>{esc(first)}</b></p></div>' if first else "") + '<div class="grow"></div>'
     sr = (rep.get("series") or {}).get("pick") or {}
-    _, _, _, _, dirn = headline_parts(p)
+    dirn = headline.direction(headline_parts(p))
     kick = "BREAKOUT" if dirn == "up" else "PICK OF THE DAY"
     kick_sub = (f"{p['streak']}일 연속 선정" if p.get("streak", 1) > 1 else "오늘의 선정 게임") + (f" · {sr['list_ko']}" if sr else "")
     return (f'<div class="cardtitle"><div class="kick"><span class="lchip pos">{kick}</span><span class="seclabel">{esc(kick_sub)}</span></div>'

@@ -9706,114 +9706,114 @@
    ],
    "n_days": 6,
    "list": "topsellers",
-   "list_ko": "Top Sellers",
+   "list_ko": "인디 Top Sellers",
    "n": 10,
    "series": {
     "Moon Sweepers": [
      null,
      null,
      null,
-     4,
-     4,
+     1,
+     2,
      1
     ],
-    "Enshrouded": [
-     1,
-     1,
-     1,
-     1,
+    "How to Fish": [
+     5,
+     4,
+     3,
+     3,
      1,
      2
     ],
-    "RimWorld": [
-     13,
-     4,
+    "Dressmaker": [
+     2,
+     1,
+     2,
      2,
      3,
-     2,
      3
     ],
-    "How to Fish": [
-     7,
-     7,
-     7,
-     6,
+    "over the hill": [
      3,
+     5,
+     5,
+     5,
+     4,
      4
     ],
-    "Dressmaker": [
+    "BOMBANANA!": [
+     4,
      3,
-     2,
-     5,
-     5,
+     1,
+     4,
      5,
      5
     ],
-    "over the hill": [
-     5,
-     8,
-     9,
-     8,
+    "Slay the Spire 2": [
      7,
+     6,
+     7,
+     6,
+     6,
      6
     ],
-    "Rust": [
-     12,
-     14,
-     3,
-     2,
-     6,
+    "Brick by Brick: Tidy Up the Small Town!": [
+     8,
+     10,
+     15,
+     10,
+     11,
      7
     ],
-    "BOMBANANA!": [
-     6,
-     6,
+    "Palworld": [
+     1,
+     2,
      4,
      7,
      8,
      8
     ],
-    "Slay the Spire 2": [
+    "Valheim": [
+     10,
+     11,
      10,
      9,
-     12,
-     10,
      9,
      9
     ],
-    "Stardew Valley": [
-     11,
-     11,
-     14,
+    "MECCHA CHAMELEON": [
+     13,
+     13,
      12,
-     11,
+     12,
+     10,
      10
     ]
    },
    "ids": {
     "Moon Sweepers": "5335510",
-    "Enshrouded": "1203620",
-    "RimWorld": "294100",
     "How to Fish": "4001890",
     "Dressmaker": "4019220",
     "over the hill": "2929250",
-    "Rust": "252490",
     "BOMBANANA!": "4656000",
     "Slay the Spire 2": "2868840",
-    "Stardew Valley": "413150"
+    "Brick by Brick: Tidy Up the Small Town!": "5228920",
+    "Palworld": "1623730",
+    "Valheim": "892970",
+    "MECCHA CHAMELEON": "4704690"
    }
   },
   "biggest_up": [
-   "Automobilista 2",
-   162,
-   28,
-   134
+   "REKA",
+   105,
+   46,
+   59
   ],
   "biggest_down": [
-   "Clair Obscur: Expedition 33",
-   22,
-   47,
-   -25
+   "Core Keeper",
+   15,
+   34,
+   -19
   ],
   "pick": {
    "list": "topsellers",

@@ -385,7 +385,9 @@ def analyze(cfg, date, data_dir, reports_dir):
     state.save()
     # 최근 7일 시계열(표지 스파크라인 · 범프 차트 · 가장 크게 오른/내린 게임). 렌더러가 rep["series"] 로 읽습니다.
     pick_list = next((ln for ln in ("popularnew", "topsellers", "comingsoon") if pick and ln in pick["ranks"]), "topsellers") if pick else None
-    series_blk = series_mod.report_block(data_dir, "steam", date, "topsellers", pick_id=pick["appid"] if pick else None, pick_list=pick_list)
+    # 범프 차트·가장 크게 오른/내린 게임은 본문 포함(소형 인디) 게임만으로 다시 매긴 Top Sellers 순위를 씁니다.
+    series_blk = series_mod.report_block(data_dir, "steam", date, "topsellers", pick_id=pick["appid"] if pick else None, pick_list=pick_list,
+                                         only_ids={r["appid"] for r in inc}, list_ko="인디 Top Sellers")
     region_line = (f"글로벌 합성({len(regions)}개 지역 평균 순위: {'·'.join(r.upper() for r in regions)}) · 가격 USD"
                    if len(regions) > 1 else "미국 스토어")
     return {"platform": "steam", "platform_ko": "Steam 인디", "date": date, "round": rn, "prev_date": prev_date,

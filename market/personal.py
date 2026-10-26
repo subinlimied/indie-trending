@@ -259,8 +259,11 @@ def analyze_platform(platform, rep, games, prof):
     pool = [{"platform": platform, "id": g["id"], "name": g["name"], "url": g["url"], "reviews": g["reviews"], "d1": g["d1"],
              "age": g["age"], "tags": [t for t in g["tags"] if t.lower() not in GENERIC_TAGS][:4]}
             for g in mine if g["age"] is not None and 0 <= g["age"] <= 90]
+    top_names = {t["name"]: i for i, t in enumerate(top, 1)}
+    scatter = [{"name": g["name"], "platform": platform, "price_usd": g["price_usd"], "playtime_h": g["playtime_h"],
+                "top": top_names.get(g["name"], 0)} for g in mine]
     return {"platform": platform, "platform_ko": rep["platform_ko"], "round": rep["round"], "has_prev": has_prev,
-            "top": top, "pushed": pushed, "why": why, "same_as_public": same_as_public,
+            "top": top, "pushed": pushed, "why": why, "same_as_public": same_as_public, "scatter": scatter,
             "public": {"pick": pub_pick, "headline": pub_heads, "top3": pub_top3},
             "counts": {"body": len(body), "mine": len(mine), "cands": len(cands)},
             "fail_line": " · ".join(f"{k} {v}" for k, v in fail_cnt.most_common(5)),

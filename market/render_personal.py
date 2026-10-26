@@ -1,12 +1,15 @@
 """개인 리포트 dict → Discord 임베드 payload, markdown(dry-run 본문), 이미지 카드 HTML 1장.
 
-공용 render.py 의 썸네일·카드 CSS·날짜 표기를 그대로 가져다 씁니다(수정하지 않음).
+임베드와 markdown 은 그대로이고, 카드만 design/tokens.json + market/ui.py + market/charts.py 를 씁니다:
+내 범위 Top 3(Steam·itch 합쳐 썸네일 · 이름 · 핵심 델타 칩) + 가격 × 플레이 시간 산점도(선정 게임 강조, 플레이 시간 미상은 점선 줄) + 제작 메모 한 줄.
 """
-from .render import CARD_CSS, badge_cls, date_ko, esc, key_metric, thumb_html, thumb_url
+from . import charts, headline, render, ui
+from .render import badge_cls, date_ko, esc, key_metric, thumb_html, thumb_url
 
 COLOR = {"mine": 0x6B4FBB, "same": 0x8891A0, "week": 0x146C43}
 LIM_TITLE, LIM_DESC, LIM_FIELD, LIM_FOOTER, LIM_TOTAL = 256, 4096, 1024, 2048, 6000
 PLAT = {"steam": "Steam", "itch": "itch.io"}
+TAG = "Indie Trending · Personal"
 
 
 def clip(s, n):
@@ -131,66 +134,81 @@ def to_md(res):
     return "\n".join(out) + "\n"
 
 
-# ---------- 이미지 카드 1장 (Steam · itch 내 범위 Top 3) ----------
+# ---------- 이미지 카드 1장 ----------
 
-EXTRA_CSS = """
-.card::before{background:#6B4FBB}.eyebrow{color:#6B4FBB}
-.body{margin-top:18px}
-.sec{font-size:24px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#6B4FBB;margin:16px 0 0}
-.sec:first-child{margin-top:0}
-.p .row{padding:11px 0;gap:22px;grid-template-columns:190px minmax(0,1fr)}
-.p-itch .row{grid-template-columns:140px minmax(0,1fr)}
-.p .row:first-child{border-top:0;padding-top:6px}
-.p .rb{gap:2px}
-.p .nm{font-size:34px;line-height:1.25;-webkit-line-clamp:1;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.p .kpi{font-size:44px;padding-top:0;line-height:1.1}
-.p .cap{font-size:24px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.p .meta{font-size:22px;-webkit-line-clamp:1}
-.p .rk{font-size:22px;font-weight:700;color:#8891A0;margin-right:10px}
-.p-itch .th.xs{aspect-ratio:315/250;width:140px}
-.same{display:inline-block;font-size:19px;color:#6B4FBB;background:#EFEBF9;border-radius:999px;padding:0 12px;margin-left:8px;vertical-align:middle;line-height:1.6}
-.p .badge{font-size:19px;padding:0 12px;border-width:1.5px;margin-left:6px;vertical-align:middle;line-height:1.6}
-.empty{font-size:26px;margin:14px 0}
-.memo{margin-top:auto;padding-top:14px;border-top:2px solid #DDE1E8;font-size:24px;color:#4E5768;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.memo b{color:#14161C}
+CARD_CSS = """
+.rows{display:flex;flex-direction:column;background:var(--surface);border:var(--bw) solid var(--line)}
+.row{display:grid;grid-template-columns:auto auto minmax(0,1fr) auto;gap:16px;align-items:center;padding:12px 16px;border-top:var(--bw) solid var(--line)}
+.row:first-child{border-top:0}
+.row .th{display:block;border:var(--bw) solid var(--line-strong);background-color:hsl(var(--h,220) var(--ph-s) var(--ph-l));background-size:cover;background-position:center;width:150px;aspect-ratio:616/353}
+.row .th.itch{width:100px;aspect-ratio:315/250}
+.row .nm{margin:0;font:var(--t-headline-md-w) var(--t-headline-md) var(--font-display);letter-spacing:var(--t-headline-md-ls);text-transform:uppercase;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .cap{font:var(--t-data-md-w) var(--t-data-md) var(--font-mono);letter-spacing:var(--t-data-md-ls);color:var(--ink-2);margin:4px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .cap .same{color:var(--primary-light)}
+.row .big{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.row .big .delta{font:700 var(--t-data-lg) var(--font-mono);letter-spacing:var(--t-data-lg-ls)}
+.row .big small{font:var(--t-label-caps-w) var(--t-label-caps) var(--font-mono);letter-spacing:var(--t-label-caps-ls);text-transform:uppercase;color:var(--ink-2);text-align:right;max-width:16ch}
+.memo{display:flex;gap:12px;align-items:baseline;font:var(--t-body-md-w) var(--t-body-md) var(--font-body);color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.memo b{color:var(--ink);font-family:var(--font-mono);flex:none}
 """
 
 
-def _rows(pl):
-    if not pl["top"]:
-        return f'<p class="empty">내 범위 후보 없음 (본문 {pl["counts"]["body"]} → 내 범위 {pl["counts"]["mine"]})</p>'
-    rep = {"thumbs": pl.get("thumbs") or {}}
-    out = []
-    for i, t in enumerate(pl["top"], 1):
-        hero, cap, dirn, rest = key_metric(t["line"])
-        th = thumb_html(t["name"], t["url"], rep, t, cls="th xs", big=True)
-        pills = "".join(f'<span class="badge {badge_cls(b)}">{esc(b)}</span>' for b in t["badges"][:1 if t["same"] else 2])
-        same = f'<span class="same">{esc(t["same"])}</span>' if t["same"] else ""
-        kpi = f'<div class="kpi {dirn}">{esc(hero)}</div>' if hero else ""
-        capline = " · ".join(([cap] if hero and cap else []) + rest[:2])
-        out.append(f'<div class="row">{th}<div class="rb"><div class="rh"><div class="nm"><span class="rk">{i}</span>{esc(t["name"])}{same}{pills}</div>{kpi}</div>'
-                   + (f'<div class="cap">{esc(capline)}</div>' if capline else "")
-                   + (f'<div class="meta">{esc(" · ".join(t["facts"]))}</div>' if t.get("facts") else "") + "</div></div>")
-    return f'<div class="p p-{pl["platform"]}">' + "".join(out) + "</div>"
-
-
-def to_card(res):
-    """내 범위 Top 3 (Steam · itch) 카드 1장의 HTML."""
-    body = []
+def merged_top(res, n=3):
+    """Steam·itch 내 범위 Top 을 점수순으로 합쳐 n개."""
+    items = []
     for p in ("steam", "itch"):
         pl = res["platforms"].get(p)
-        body.append(f'<p class="sec">{esc(PLAT[p])}</p>' + (_rows(pl) if pl else '<p class="empty">오늘 리포트 없음</p>'))
+        for t in (pl or {}).get("top", []):
+            items.append((t.get("score") or 0, p, t, {"thumbs": pl.get("thumbs") or {}}))
+    items.sort(key=lambda x: -x[0])
+    return items[:n]
+
+
+def _row(i, platform, t, rep):
+    hero, cap, dirn, rest = key_metric(t["line"])
+    th = thumb_html(t["name"], t["url"], rep, t, cls="th" + (" itch" if platform == "itch" else ""), big=True)
+    facts = " · ".join((t.get("facts") or [])[:4])
+    same = f'<span class="same">{esc(t["same"])}</span> · ' if t.get("same") else ""
+    big = (f'<div class="big"><span class="delta {dirn}">{esc(hero)}</span>' + (f'<small>{esc(cap)}</small>' if cap else "") + "</div>") if hero else ""
+    return (f'<div class="row"><span class="rank{" top" if i <= 3 else ""}">{i:02d}</span>{th}<div><h3 class="nm">{esc(t["name"])}</h3>'
+            f'<p class="cap">{same}{esc(PLAT[platform])} · {esc(facts)}</p></div>{big}</div>')
+
+
+def _scatter(res, width, height):
+    prof = res.get("profile") or {}
+    pts = []
+    for p in ("steam", "itch"):
+        pl = res["platforms"].get(p) or {}
+        for g in pl.get("scatter") or []:
+            if g.get("price_usd") is None:
+                continue
+            kind = "pick" if g.get("top") == 1 else "hi" if g.get("top") else ""
+            pts.append((g["name"], g["price_usd"], g.get("playtime_h"), 1, kind))
+    quad = None
+    if prof.get("max_price_usd") and prof.get("max_playtime_hours"):
+        quad = {"x": prof["max_price_usd"], "y": prof["max_playtime_hours"], "label": ""}
+    return charts.scatter(pts, width=width, height=height, scale="card", x_kind="usd", y_kind="hours", x_label="정가 (USD)", y_label="평균 플레이 시간",
+                          none_label="시간 미상", title="가격 × 플레이 시간", size_range=(6, 6), label_chars=18, quadrant=None), len(pts)
+
+
+def to_card(res, link=None):
+    """내 범위 카드 1장의 HTML."""
+    w = ui.tokens()["카드"]["폭"] - 2 * ui.tokens()["간격"]["카드_여백"]
+    tops = merged_top(res)
+    counts = " · ".join(f"{PLAT[p]} {res['platforms'][p]['counts']['mine']}/{res['platforms'][p]['counts']['body']}" for p in ("steam", "itch") if p in res["platforms"])
+    if tops:
+        _, p1, t1, _ = tops[0]
+        hl = headline.to_html(headline.personal_top(t1, 1))
+    else:
+        hl = "오늘은 내 범위 후보가 없습니다"
+    rows = "".join(_row(i, p, t, rep) for i, (_, p, t, rep) in enumerate(tops, 1)) or '<p class="empty" style="padding:16px">내 범위 후보 없음</p>'
+    svg, n_pts = _scatter(res, w - 48, 400)
     m = res.get("memo")
-    foot_l = f"내 범위 리포트 · {date_ko(res['date'])}"
-    memo = f'<div class="memo"><b>메모 · {esc(m["name"])}</b> · {esc(m["text"])}</div>' if m else ""
-    return f"""<!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><title>내 범위 급상승 Top 3</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
-<style>{CARD_CSS}{EXTRA_CSS}</style></head>
-<body class="personal"><div class="card">
-<div class="top"><span class="eyebrow">개인 리포트 · 내 범위</span><span class="page">1 / 1</span></div>
-<h1>내 범위 급상승 Top 3</h1><p class="date">{esc(date_ko(res["date"]))}</p>
-<div class="body">{"".join(body)}{memo}</div>
-<div class="foot"><span>{esc(foot_l)}</span><span>indie-trending · personal</span></div>
-</div></body></html>"""
+    memo = f'<div class="memo"><b>MEMO</b><span><b style="font-family:var(--font-body)">{esc(m["name"])}</b> · {esc(m["text"])}</span></div>' if m else ""
+    body = (f'<div class="cardtitle"><div class="kick"><span class="lchip pos">MY RANGE</span><span class="seclabel">profile.json 기준 내 범위 · {esc(counts)}</span></div>'
+            f'<h1 class="hl">{hl}</h1></div>'
+            f'<div class="rows">{rows}</div>'
+            f'<div class="chartp" style="flex:0 0 auto"><div class="ph"><p class="seclabel strong">가격 × 플레이 시간 · 내 범위 {n_pts}개</p><p class="seclabel">초록 = 내 범위 Top 3 · 흰 테두리 = 1위 · 아래 점선 = 플레이 시간 미상</p></div>'
+            f'<div class="body">{svg}</div></div>{memo}')
+    return render.card_page("personal", TAG, "My Range", f"{date_ko(res['date'])}", None, body, 1, 1, link,
+                            fallback_see=f"내 범위 리포트 · {date_ko(res['date'])} · 비공개", extra_css=CARD_CSS, title="내 범위 리포트")

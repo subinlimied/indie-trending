@@ -57,6 +57,10 @@ def build_payload(summary, link):
     if link:
         embeds[0]["url"] = link
     files = []
+    niche_png = ROOT / "reports" / "weekly" / "cards" / (s.get("niche_png") or "")
+    if s.get("niche_png") and niche_png.exists():
+        embeds[0]["image"] = {"url": f"attachment://{niche_png.name}"}
+        files.append(niche_png)
     for platform, ko in (("steam", "Steam"), ("itch", "itch.io")):
         b = s["boards"].get(platform) or {}
         pngs = [ROOT / "reports" / "weekly" / "cards" / f for f in b.get("pngs") or []]
@@ -74,12 +78,16 @@ def build_payload(summary, link):
     return {"content": clip(content, 2000), "embeds": embeds, "allowed_mentions": {"parse": []}}, files[:10]
 
 
-def make_boards(dates, out_dir, html_dir, profile, chrome, cache_path):
-    """플랫폼별 보드 PNG. {platform: {"games": [...], "pngs": [파일명], "count": n}}"""
+def make_boards(dates, out_dir, html_dir, profile, chrome, cache_path, link=""):
+    """플랫폼별 보드 PNG. {platform: {"games": [...], "pngs": [파일명], "count": n}}. 페이지 번호는 틈새 지도(1장) 뒤부터."""
     cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
     boards = {}
+    games_by = {p: weekly.board_games(p, dates, ROOT / "reports") for p in ("steam", "itch")}
+    n_pages = {p: len(render_weekly.board_pages(games_by[p][:render_weekly.PER_CARD[p] * render_weekly.MAX_CARDS], p)) for p in games_by}
+    n_total = 1 + sum(n_pages.values())
+    start = 2
     for platform in ("steam", "itch"):
-        games = weekly.board_games(platform, dates, ROOT / "reports")
+        games = games_by[platform]
         limit = render_weekly.PER_CARD[platform] * render_weekly.MAX_CARDS
         shown = games[:limit]
         log(f"[board/{platform}] 게임 {len(games)}개 (보드에 {len(shown)}개) · 이미지 받는 중")
@@ -88,7 +96,7 @@ def make_boards(dates, out_dir, html_dir, profile, chrome, cache_path):
         pngs = []
         for old in out_dir.glob(f"{dates[-1]}-board-{platform}*.png"):
             old.unlink()
-        for fname, html in render_weekly.board_cards(shown, platform, dates):
+        for fname, html in render_weekly.board_cards(shown, platform, dates, link, start, n_total):
             hp = html_dir / f"{Path(fname).stem}.html"
             hp.write_text(html)
             if not chrome:
@@ -103,6 +111,7 @@ def make_boards(dates, out_dir, html_dir, profile, chrome, cache_path):
         boards[platform] = {"games": [{k: v for k, v in g.items() if k != "prio"} for g in games],
                             "pngs": pngs, "count": len(games)}
         log(f"[board/{platform}] 카드 {len(pngs)}장: " + ", ".join(pngs))
+        start += n_pages[platform]
     cache_path.parent.mkdir(parents=True, exist_ok=True)
     cache_path.write_text(json.dumps(cache, indent=0))
     return boards
@@ -153,12 +162,25 @@ def main():
         with tempfile.TemporaryDirectory(prefix="indie-weekly-") as tmp:
             html_dir = Path(args.html_dir) if args.html_dir else Path(tmp) / "html"
             html_dir.mkdir(parents=True, exist_ok=True)
-            boards = make_boards(dates, cards_dir, html_dir, Path(tmp) / "profile", chrome, data_dir / "images.json")
+            boards = make_boards(dates, cards_dir, html_dir, Path(tmp) / "profile", chrome, data_dir / "images.json", link)
+            # 틈새 지도 카드 (1장, 페이지 1/n)
+            niche_png = None
+            n_total = 1 + sum(len(b["pngs"]) for b in boards.values())
+            fname = f"{args.date}-niche.png"
+            hp = html_dir / f"{Path(fname).stem}.html"
+            hp.write_text(render_weekly.niche_card(data, top, niche, dates, link, 1, n_total))
+            if chrome:
+                try:
+                    screenshot(chrome, hp, cards_dir / fname, Path(tmp) / "profile")
+                    niche_png = fname
+                    log(f"[weekly] 틈새 지도 카드: {fname}")
+                except Exception as e:  # noqa: BLE001
+                    log(f"[weekly] 경고: 틈새 지도 카드 실패 — {e}")
 
         # C. HTML + 전송용 요약
         html_path = rep_dir / f"{args.date}.html"
-        html_path.write_text(render_weekly.to_html(data, top, niche, boards, dates, cfg))
-        summary = {"date": args.date, "dates": dates, "tag_count": len(data["tags"]), "games_total": data["games_total"],
+        html_path.write_text(render_weekly.to_html(data, top, niche, boards, dates, cfg, niche_png))
+        summary = {"date": args.date, "dates": dates, "tag_count": len(data["tags"]), "games_total": data["games_total"], "niche_png": niche_png,
                    "window_days": data["window_days"], "success_reviews": data["success_reviews"], "mid_reviews": data["mid_reviews"],
                    "top": [{k: t[k] for k in ("name", "n", "p_success", "p_mid", "median", "niche")} for t in top],
                    "niche": [{k: t[k] for k in ("name", "n", "p_success", "p_mid", "median", "niche")} for t in niche],

@@ -34,11 +34,13 @@ DISCORD_WEBHOOK_URL_PERSONAL=... python3 personal.py --date 2026-10-21   # 개�
 
 - [market/ui.py](market/ui.py) — `font_links()`, `css_vars(platform)`(`:root` 변수: `--bg --surface --surface-2 --line --ink --ink-2 --rise --fall --warn --primary-light --accent --font-display/body/mono --t-* --fs-* --sp-* --r-* …`, 옛 이름 `--ground --muted --serif --sans --mono` 별칭), `components_css()`(패널 `.panel` · 라벨 칩 `.lchip`(pos/neg/ghost) · 플랫폼 태그 `.ptag` · 델타 칩 `.delta`(up/down/warn, ▲▼ 접두) · 순위 배지 `.rank`(`.top` 초록 반전) · 스탯 칩 `.chips > .chip`(.lbl .row .val .delta .sub) · 섹션 라벨 `.seclabel` · 배지 `.badge` · 타이포 `.t-*`), `card_head_css(platform)`(카드용 변수 + 틀 `.cardframe .cardhead .cardfoot .cardtitle`), `chart_theme()`.
 - [market/series.py](market/series.py) — 최근 7일 스냅샷 시계열. `window()`, `app_series()` → 게임별 `{ranks: {목록: [순위|None]}, reviews, ccu}`, `top_bump()` → 오늘 Top 10 의 7일 순위, `movers()`, `report_block()` → 리포트 JSON 의 `series` 키(분석기가 호출). 7일 미만이면 있는 만큼, `n_days` 로 알려 줍니다.
-- [market/charts.py](market/charts.py) — SVG 문자열. `sparkline(values, width, height, labels=['D-6',…,'TODAY'])`(1.5px, 상승 초록·하락 산호, 아래 옅은 세로 그라데이션, 점 아래 순위·날짜 라벨), `bump_chart(series, days, highlight=, secondary=)`(1px 안내선, 초록 강조 3px), `bar_lift(rows=[(태그, 개수, 배율)])`(사각 막대 + 배율 점). 색은 CSS 변수.
+- [market/charts.py](market/charts.py) — SVG 문자열. `sparkline(values, width, height, labels=['D-6',…,'TODAY'])`(1.5px, 상승 초록·하락 산호, 아래 옅은 세로 그라데이션, 점 아래 순위·날짜 라벨, 목록에 없던 날은 '목록 밖'), `bump_chart(series, days, highlight=, secondary=)`(1px 안내선, 초록 강조 3px), `bar_lift(rows=[(태그, 개수, 배율)])`(사각 막대 + 배율 점, 긴 이름은 두 줄), `scatter(points=[(이름, x, y, 크기, kind)], x_log=, quadrant=, none_label=)`(틈새 지도 · 가격×플레이 시간), `donut(parts=[(라벨, 값)])`. 색은 CSS 변수.
+- [market/headline.py](market/headline.py) — 헤드라인 규칙 문장(3단계 전까지). `game_pick(pick)` "<장르> <이름>, <목록> +n계단 상승"(장르 사전 `GENRE_KO`), `weekly_niche(tag)` "Cozy, 출시 48개 중 성공률 18%", `media_pick(pick)` "틱톡 'I'm So Sorry' 트렌드, KYM 2일 연속", `personal_top(item)` "내 범위 1위 Tiny Bastion, New & Popular +70계단". `to_html(segs, link)` 가 이름(.hi 연초록)·수치(.ul 초록 밑줄, .dn 산호) 스팬과 줄바꿈을 만듭니다.
+- 카드 틀은 `render.card_page(platform, tag, kind, when, edition, body, i, n, link)` 하나를 모든 리포트가 씁니다(상단 라벨 "INDIE TRENDING · STEAM / ITCH.IO / WEEKLY / MEDIA / PERSONAL", 푸터 "■ 자세히 보기 → indie-trending <주소>" + "i / n").
 
-일간 게임 리포트는 이 세 모듈 위에 있습니다(`market/render.py` 의 `DAILY_CSS` · `to_html` · `to_cards`). 주간·미디어·개인 리포트는 아직 옛 CSS(`render.CSS` · `render.CARD_CSS`)를 쓰지만 `render.CSS` 의 색·글꼴 변수는 이미 tokens.json 에서 오므로, 같은 방식으로 옮기면 됩니다.
+모든 리포트(일간 · 주간 · 미디어 · 개인)가 이 모듈 위에 있습니다. HTML 은 `render.daily_css(platform)` + 각 리포트의 배치 규칙 몇 줄, 카드는 `render.card_page` + `ui.components_css` 의 칩·배지·패널. 옛 `render.CSS` · `render.CARD_CSS` 는 호환용으로만 남아 있습니다.
 
-**카드 PNG 4장(일간, screen.png 기준)**: 1 표지(메타 줄 "INDIE TRENDING · STEAM" + 날짜·회차 + EDITION, 초록 칩 라벨, Barlow Condensed 대문자 헤드라인 2줄 "<장르> <게임 이름>, <목록> +n계단 상승", 캡슐 16:9 + 태그·배지 칩 + 7일 리뷰 칩, 스탯 칩 3개, 7일 스파크라인 패널(D-n … TODAY, NEW PEAK), 푸터 "■ 자세히 보기 → indie-trending" + "1 / 4") → 2 범프 차트(Top Sellers 10 / itch New & Popular 10, 가장 크게 오른·내린 게임) → 3 소재·장르 막대 → 4 큰 폭 변화. 헤드라인의 장르 단어는 `render.GENRE_KO` 사전(Roguelike→로그라이크, Deckbuilding→덱빌딩, Cozy→코지 …)으로, 없으면 원어.
+**카드 PNG 4장(일간, screen.png 기준)**: 범프 차트는 본문 포함(소형 인디) 게임만으로 다시 매긴 "인디 Top Sellers 10"(itch 는 New & Popular 10)을 그립니다. 1 표지(메타 줄 "INDIE TRENDING · STEAM" + 날짜·회차 + EDITION, 초록 칩 라벨, Barlow Condensed 대문자 헤드라인 2줄 "<장르> <게임 이름>, <목록> +n계단 상승", 캡슐 16:9 + 태그·배지 칩 + 7일 리뷰 칩, 스탯 칩 3개, 7일 스파크라인 패널(D-n … TODAY, NEW PEAK), 푸터 "■ 자세히 보기 → indie-trending" + "1 / 4") → 2 범프 차트(Top Sellers 10 / itch New & Popular 10, 가장 크게 오른·내린 게임) → 3 소재·장르 막대 → 4 큰 폭 변화. 헤드라인의 장르 단어는 `render.GENRE_KO` 사전(Roguelike→로그라이크, Deckbuilding→덱빌딩, Cozy→코지 …)으로, 없으면 원어.
 
 ## 개인 리포트 (내 범위)
 
@@ -72,7 +74,7 @@ python3 personal.py --weekly                       # 월요일 섹션 강제 (�
 - 제작 관점 메모는 오늘 내 범위 1위(Steam 우선)의 차원 · 태그 · 가격 · 플레이 시간 · 데모 · 퍼블리싱 사실만 한 줄로 잇습니다. 기간 추정은 하지 않습니다.
 - Steam · itch 모두 공용 선정·Top 3 와 완전히 같으면 짧은 한 줄 임베드만 보냅니다.
 - KST 월요일(또는 `--weekly`)에는 지난 7일 `reports/personal/*.json` 으로 "가장 자주 오른 태그 조합 Top 3" 와 "출시 90일 이내 내 범위 신작 중 리뷰가 가장 빨리 쌓인 3개(일 평균)" 를 더합니다. 7일치가 안 되면 있는 만큼 계산하고 "n일치" 를 적습니다.
-- 전송: 임베드 2~4개(Steam Top 3 · itch Top 3 · 메모·watchlist · 주간) + 카드 PNG 1장(`reports/personal/cards/<date>.png`, Chrome 없으면 건너뜀). 웹훅은 GitHub Secret `DISCORD_WEBHOOK_URL_PERSONAL`.
+- 전송: 임베드 2~4개(Steam Top 3 · itch Top 3 · 메모·watchlist · 주간) + 카드 PNG 1장(`reports/personal/cards/<date>.png`: 내 범위 Top 3(Steam·itch 합산) + 가격 × 플레이 시간 산점도(Top 3 초록, 1위 흰 테두리, 플레이 시간 미상은 아래 점선 줄) + 제작 메모, Chrome 없으면 건너뜀). 웹훅은 GitHub Secret `DISCORD_WEBHOOK_URL_PERSONAL`.
 - 워크플로에서는 커밋 전에 `--no-send` 로 만들고(그래야 그날 커밋에 들어감), 공용 전송 뒤에 `--send-only` 로 보냅니다.
 
 ## 주간 리포트 (월요일 10:00 KST)
@@ -90,7 +92,7 @@ DISCORD_WEBHOOK_URL=... python3 weekly.py --date 2026-10-22 --send-only   # 만�
 
 - `--date` 는 주의 마지막 날이고, 보드는 그날까지 7일치 `reports/<platform>/<date>.json` 을 씁니다.
 - 태그 데이터 `data/weekly/<date>-tags.json` 이 있으면 수집을 건너뜁니다(`--force` 로 재수집). `data/weekly/images.json` 은 Steam header · itch og:image 주소 캐시입니다.
-- 산출물: `reports/weekly/<date>.html` (표 전체 + 보드), `reports/weekly/<date>.json` (전송용 요약), `reports/weekly/cards/<date>-board-steam.png`, `-itch.png` (게임이 많으면 `-2.png`).
+- 산출물: `reports/weekly/<date>.html` (틈새 지도 + 표 전체 + 보드), `reports/weekly/<date>.json` (전송용 요약), `reports/weekly/cards/<date>-niche.png` (틈새 지도: 가로 = 1년 출시 수 로그, 세로 = 성공률, 점 크기 = 중앙값 리뷰, 왼쪽 위 사분면이 틈새 · 첫 임베드 이미지로 첨부), `<date>-board-steam.png`, `-itch.png` (게임이 많으면 `-2.png`).
 - [.github/workflows/weekly.yml](.github/workflows/weekly.yml) 이 매주 월요일 10:00 KST(01:00 UTC)에 수집 → 커밋·push → Discord 전송을 합니다. 일간과 같은 concurrency 그룹(`daily`)이라 겹치면 순서대로 돕니다.
 
 ## 미디어·밈 트렌드 리포트 (매일 09:30 KST · 개인 채널 전용)
@@ -130,7 +132,7 @@ X 트렌드(trends24.in)는 GitHub Actions 의 IP 대역이 차단되어 뺐습�
 
 **유튜브** — GitHub secret `YOUTUBE_API_KEY` 로 YouTube Data API v3 `videos.list(chart=mostPopular)` 를 KR·US 각 1회(하루 2회, 호출당 1유닛) 불러 인기 급상승 Top 10 을 싣고 60초 이하 영상에 "쇼츠"를 표시합니다. 키가 없는 환경(로컬)에서는 04 섹션이 "건너뜀"으로 나오고 임베드에서는 빠집니다. 키 만들기: Google Cloud 콘솔 → 새 프로젝트 → API 및 서비스 → 라이브러리 → **YouTube Data API v3** 사용 설정 → 사용자 인증 정보 → **API 키 만들기** → GitHub 저장소 Secrets 에 `YOUTUBE_API_KEY` 로 등록. 결제 등록은 필요 없고 일 10,000 유닛까지 무료입니다. 로컬에서는 `YOUTUBE_API_KEY=... python3 media.py collect --only youtube` 로 그 소스만 다시 받을 수 있습니다.
 
-- 카드 PNG: 표지(오늘의 틱톡·인스타 트렌드 + 플랫폼 집계 + 다른 숏폼 항목) · 2장(Claude 설명이 있으면 "밈 설명 3개 + 인사이트", 없으면 새 밈 + 커뮤니티 베스트 + 게임 교차).
+- 카드 PNG 2장: 표지(오늘의 트렌드 KYM 이미지 + 플랫폼 칩 + 한 줄 요약(Claude 설명이 있으면 그것) + 플랫폼 집계 도넛 + 유튜브 KR 인기 Top 3) · 2장(새 밈 5개 격자 — 없으면 틱톡·인스타 트렌드로 대신 — + 밈 템플릿 순위 변동 Top 5 + 게임 교차).
 - Discord 임베드: 표지(+오늘의 인사이트) · 새 밈 · 커뮤니티 · 유튜브 인기 KR/US · 검색·위키·밈 템플릿·게임 교차(상세 링크 `reports/media/<date>.html`, footer 수집 상태).
 - Reddit 익명 RSS 는 IP 당 약 1분에 1회만 허용해 서브레딧 사이를 62초 간격으로 보냅니다(6개 ≈ 6분). 위키 조회수는 09:30 KST 에 전날 집계가 아직 없어 2~3일 전까지 거슬러 받습니다.
 - `config.json` 의 `media` 키: `reddit_subs` · `kym_queries` · `kym_hours` · `kym_confirmed_hours` · `wiki_top` · `trends_top` · `imgflip_top` · `exclude_keywords`.

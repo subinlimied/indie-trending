@@ -1,16 +1,18 @@
 """미디어·밈 리포트 dict → markdown(dry-run 본문) · HTML(01~08) · 카드 HTML 2장 · Discord 임베드.
 
-HTML 은 render.py 의 CSS 토큰(색·서체·카드·배지)을 그대로 쓰고 미디어용 규칙만 덧붙입니다.
+HTML 과 카드는 design/tokens.json + market/ui.py + market/charts.py 위에 있습니다(render.daily_css("media") + 미디어 규칙 몇 줄).
 KYM·Reddit 제목과 About 원문은 영어 그대로 두고, 한국어 설명(ko_what · ko_idea)과 인사이트는 Claude 가 만든 경우에만 붙습니다.
 """
 import html as H
 from datetime import datetime, timezone, timedelta
 
-from .render import CSS, CARD_CSS, date_ko, esc
+from . import charts, headline, render, ui
+from .render import date_ko, esc
 from .media_analyze import KIND_KO
 
 KST = timezone(timedelta(hours=9))
 TITLE = "미디어·밈 트렌드"
+TAG = "Indie Trending · Media"
 SECTIONS = [("01", "틱톡·인스타 트렌드", "KYM"), ("02", "새로 등록된 밈", "KYM 확정 · 제출"), ("03", "커뮤니티 베스트", "Reddit"),
             ("04", "유튜브 인기 급상승", "KR / US Top 10 · 60초 이하는 쇼츠"), ("05", "검색 급상승 · 세상의 관심사", "Google 트렌드 · 위키 (접힘)"),
             ("06", "밈 템플릿 순위 변동", "Imgflip"), ("07", "게임 ↔ 밈 교차", "Steam · itch"), ("08", "수집 상태", "")]
@@ -18,29 +20,33 @@ SUMMARY_LEN = 120
 COLOR = 0x6B3FA0
 
 MEDIA_CSS = """
-.pick .pk-img img{width:100%;max-width:360px;border-radius:6px;display:block}
-.pk-sum{margin:0;font-size:15px;color:var(--ink);line-height:1.55}
-.ko{margin:4px 0 0;font-size:15px;line-height:1.6;color:var(--ink)}
-.ko .idea{display:block;color:var(--accent);font-weight:500}
-.g .im{width:120px;height:120px;border-radius:6px;object-fit:cover;background:var(--surface-2);flex:none;display:block}
+.card{background:var(--surface);border:var(--bw) solid var(--line)}
+.lbl{font:var(--t-label-caps-w) var(--t-label-caps) var(--font-mono);letter-spacing:var(--t-label-caps-ls);text-transform:uppercase;color:var(--ink-2);margin:0 0 var(--sp-sm)}
+.pick{padding:var(--sp-lg);display:flex;flex-direction:column;gap:var(--sp-md)}
+.pick .ph{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--sp-lg);align-items:start}
+@media(max-width:767px){.pick .ph{grid-template-columns:1fr}}
+.pk-sum{margin:0;font:var(--t-body-lg-w) var(--t-body-lg) var(--font-body);color:var(--ink)}
+.ko{margin:4px 0 0;font:var(--t-body-md-w) var(--t-body-md) var(--font-body);color:var(--ink)}
+.ko .idea{display:block;color:var(--primary-light);font-weight:500}
+.g .im{width:120px;height:120px;object-fit:cover;background:var(--surface-2);flex:none;display:block;border:var(--bw) solid var(--line)}
 .g .im.sq{width:72px;height:72px}
 .g .nm a{color:inherit}
-.rk{font-family:var(--mono);font-size:14px;color:var(--faint);min-width:2.2ch;text-align:right;padding-top:3px}
+.rk{font:var(--t-badge-num-w) var(--t-badge-num) var(--font-mono);color:var(--ink-3);min-width:2.2ch;text-align:right;padding-top:5px}
 .g.r{grid-template-columns:auto minmax(0,1fr) auto}
-.g.r .nm{font-weight:500}
+.g.r .nm{font-weight:500;font-family:var(--font-body);font-size:var(--fs-body)}
 .trf{font-variant-numeric:tabular-nums;white-space:nowrap}
-.src-ok{color:var(--rise);font-weight:600}.src-fail{color:var(--fall);font-weight:600}.src-skip{color:var(--muted);font-weight:600}
+.kpi b{font:700 var(--t-data-lg) var(--font-mono);letter-spacing:var(--t-data-lg-ls);color:var(--ink)}
+.src-ok{color:var(--rise);font-weight:600}.src-fail{color:var(--fall);font-weight:600}.src-skip{color:var(--ink-2);font-weight:600}
 td.wrap{white-space:normal}
-.pc{display:flex;flex-wrap:wrap;gap:8px}
-.pc .tile{min-width:110px}
-details.dt .blocks{padding:14px}
-details.ab{margin-top:4px;font-size:13.5px;color:var(--muted)}
-details.ab summary{cursor:pointer;color:var(--accent);font-weight:500;list-style:none}
+details.dt .blocks{padding:var(--sp-md)}
+details.ab{margin-top:4px;font:var(--t-body-sm-w) var(--t-body-sm) var(--font-body);color:var(--ink-2)}
+details.ab summary{cursor:pointer;color:var(--primary-light);font-weight:500;list-style:none}
 details.ab summary::-webkit-details-marker{display:none}
 details.ab p{margin:4px 0 0;line-height:1.55}
-.yt{width:120px;aspect-ratio:16/9;border-radius:6px;object-fit:cover;background:var(--surface-2);flex:none;display:block}
-.insight{padding:18px 22px;font-size:16px;line-height:1.7}
-.insight .lbl{margin-bottom:6px}
+.yt{width:120px;aspect-ratio:16/9;object-fit:cover;background:var(--surface-2);flex:none;display:block;border:var(--bw) solid var(--line)}
+.insight{padding:var(--sp-lg);font:var(--t-body-lg-w) var(--t-body-lg) var(--font-body)}
+.pc{display:flex;gap:var(--sp-md);align-items:center;flex-wrap:wrap}
+ul.hl .h1{font:600 var(--t-body-md) var(--font-body)}
 """
 
 PLATFORM_CLS = {"TikTok": "acc", "Instagram": "new", "YouTube": "excl", "Twitter/X": "", "Reddit": "disc", "Twitch": "acc"}
@@ -209,31 +215,39 @@ def _about_html(x):
     return f'<details class="ab"><summary>About (영어 원문)</summary><p>{esc(x["about"])}</p></details>' if x.get("about") else ""
 
 
-def _pick_html(p):
+def _pick_html(p, rep):
     if not p:
-        return '<div class="card side"><p class="lbl">오늘의 트렌드</p><p class="empty">최근 48시간 KYM 항목이 없습니다.</p></div>'
-    streak = f" · {p['streak']}일 연속" if p.get("streak", 1) > 1 else ""
-    img = f'<img src="{H.escape(p["image"], quote=True)}" alt="">' if p.get("image") else ""
-    body = _ko_html(p) or f'<p class="pk-sum">{esc(p.get("summary", ""))}</p>'
-    return (f'<div class="card pick"><div class="pk-img">{img}</div><div class="pk-body"><p class="lbl">오늘의 트렌드{esc(streak)} · {esc(p.get("reason", ""))}</p>'
-            f'<h2 class="pk-name" style="font-size:24px">{_a(p["title"], p["url"])}</h2>{body}{_pills(p.get("platforms"), _flags(p))}{_about_html(p)}'
-            f'<p class="pk-sub">KYM {esc(_kinds_ko(p))} · {esc(_kst(_when(p)))} KST</p></div></div>')
+        return '<div class="card side"><p class="seclabel">오늘의 트렌드</p><p class="empty">최근 48시간 KYM 항목이 없습니다.</p></div>'
+    streak = f"{p['streak']}일 연속" if p.get("streak", 1) > 1 else "오늘"
+    body = _ko_html(p) or f'<p class="pk-sum">{esc(_sum(p.get("summary"), 200))}</p>'
+    chips = [f'<span class="lchip">{esc(a)}</span>' for a in (p.get("platforms") or [])[:3]] + [f'<span class="lchip ghost">{esc(f)}</span>' for f in _flags(p)[:2]]
+    hero = render.image_hero_html(p.get("image"), f'<span class="ov tl">{"".join(chips)}</span>' if chips else "", name=p["title"], url=p["url"])
+    donut = charts.donut([(a, n) for a, n in rep["platform_counts"][:3]] + ([("기타", sum(n for _, n in rep["platform_counts"][3:]))] if len(rep["platform_counts"]) > 3 else []),
+                         width=360, height=170, scale="web", center_label="KYM 건", title="플랫폼 집계")
+    return (f'<article class="panel pick"><div class="kick"><span class="lchip pos">TODAY\'S TREND</span><span class="seclabel">KYM · {esc(streak)} · {esc(p.get("reason", ""))}</span></div>'
+            f'<h2 class="hl">{headline.to_html(headline.media_pick(p), link=p["url"])}</h2>{hero}'
+            f'<div class="ph"><div>{body}{_about_html(p)}<p class="pk-sub" style="margin-top:var(--sp-sm);font:var(--t-data-md-w) var(--t-data-md) var(--font-mono);color:var(--ink-2)">KYM {esc(_kinds_ko(p))} · {esc(_kst(_when(p)))} KST</p></div>'
+            f'<div class="panel" style="padding:var(--sp-md)"><p class="seclabel">플랫폼 집계 · KYM {len(rep["kym_all"])}건 · 신규 {rep["kym_new"]}</p>{donut}</div></div></article>')
 
 
 def _side_html(rep):
-    tiles = "".join(f'<dl class="tile"><dt>{esc(a)}</dt><dd>{n}<small>건</small></dd></dl>' for a, n in rep["platform_counts"][:6])
-    tiles = tiles or '<p class="empty">플랫폼 단서가 있는 항목이 없습니다.</p>'
-    quick = [f'<li class="nothumb"><div class="h1">새로 등록된 밈 {len(rep["new_memes"])}건</div><div class="h2">' + "".join(f"<span>{esc(x['title'])}</span>" for x in rep["new_memes"][:3]) + "</div></li>"]
+    quick = []
+    memes = rep["new_memes"][:3]
+    quick.append('<li class="nothumb"><div><div class="h1">새로 등록된 밈 ' + f'{len(rep["new_memes"])}건</div><div class="h2">' + ("".join(f"<span>{esc(x['title'])}</span>" for x in memes) or "<span>최근 48시간 없음</span>") + "</div></div></li>")
     rd = [r for r in rep["reddit"] if r["status"] == "ok" and r["items"]][:3]
-    quick.append('<li class="nothumb"><div class="h1">커뮤니티 베스트</div><div class="h2">' + ("".join(f"<span>r/{esc(r['sub'])} · {esc(r['items'][0]['title'][:50])}</span>" for r in rd) or "<span>수집 실패</span>") + "</div></li>")
-    return (f'<div class="card side"><div><p class="lbl">플랫폼 집계 · KYM {len(rep["kym_all"])}건 · 틱톡·인스타 {len(rep["shortform"])} · 신규 {rep["kym_new"]}</p><div class="pc tiles">{tiles}</div></div>'
-            f'<div><ul class="hl">{"".join(quick)}</ul></div></div>')
+    quick.append('<li class="nothumb"><div><div class="h1">커뮤니티 베스트</div><div class="h2">' + ("".join(f"<span>r/{esc(r['sub'])} · {esc(r['items'][0]['title'][:50])}</span>" for r in rd) or "<span>수집 실패</span>") + "</div></div></li>")
+    y = (rep.get("youtube") or {}).get("KR") or {}
+    if y.get("status") == "ok":
+        quick.append('<li class="nothumb"><div><div class="h1">유튜브 KR 인기 Top 3</div><div class="h2">' + "".join(f"<span>{v['rank']}. {esc(v['title'][:40])}</span>" for v in y["items"][:3]) + "</div></div></li>")
+    others = [x for x in rep["shortform"] if not rep.get("pick") or x["url"] != rep["pick"]["url"]][:3]
+    quick.append('<li class="nothumb"><div><div class="h1">다른 틱톡·인스타 트렌드</div><div class="h2">' + ("".join(f"<span>{esc(x['title'][:50])}</span>" for x in others) or "<span>없음</span>") + "</div></div></li>")
+    return f'<aside class="panel side"><p class="seclabel">AT A GLANCE</p><ul class="hl">{"".join(quick)}</ul></aside>'
 
 
 def _insight_html(rep):
     if not rep.get("insight"):
         return ""
-    return f'<div class="card insight" style="margin-top:18px"><p class="lbl">오늘의 인사이트 · Claude</p>{esc(rep["insight"])}</div>'
+    return f'<div class="panel insight" style="margin-top:var(--gutter)"><p class="seclabel" style="margin-bottom:var(--sp-sm)">오늘의 인사이트 · Claude</p>{esc(rep["insight"])}</div>'
 
 
 def _kym_rows(items, empty):
@@ -340,143 +354,121 @@ def to_html(rep):
               "02": _kym_rows(rep["new_memes"], "최근 48시간에 등록된 엔트리가 없습니다."),
               "03": _reddit_html(rep), "04": _youtube_html(rep), "05": _search_wiki_html(rep),
               "06": _imgflip_html(rep), "07": _cross_html(rep), "08": _status_html(rep)}
-    secs = "".join(f'<section id="s{no}"><h2><span class="no">{no}</span>{esc(t)}' + (f' <small style="color:var(--muted);font-weight:500">{esc(sub)}</small>' if sub else "") + f"</h2>{bodies[no]}</section>" for no, t, sub in SECTIONS)
+    secs = "".join(f'<section id="s{no}"><h2><span class="no">{no}</span>{esc(t)}' + (f' <small style="color:var(--ink-2);font-weight:500">{esc(sub)}</small>' if sub else "") + f"</h2>{bodies[no]}</section>" for no, t, sub in SECTIONS)
     toc = "".join(f'<a href="#s{no}"><b>{no}</b>{esc(t)}</a>' for no, t, _ in SECTIONS)
     status = "".join(f"<div><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>" for k, v in rep["status"] if v not in (None, "", "—"))
     basis = "".join(f"<li>{esc(x)}</li>" for x in rep["basis_line"].split(" · "))
     return f"""<!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<html lang="ko" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{esc(TITLE)} · {esc(rep['date'])}</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
-<style>{CSS}{MEDIA_CSS}</style></head>
+{ui.font_links()}
+<style>{render.daily_css("media")}{MEDIA_CSS}</style></head>
 <body class="media"><div class="wrap">
-<header><p class="eyebrow">미디어·밈 리포트 · {rep['round']}회차</p><h1>{esc(TITLE)} · {date_ko(rep['date'])}</h1>
+<div class="appbar"><div style="display:flex;align-items:center;gap:var(--sp-lg);height:100%"><span class="brand">Indie Trending</span><nav><a href="../steam/{rep['date']}.html">Steam</a><a href="../itch/{rep['date']}.html">itch.io</a><a class="on" href="#">Media</a></nav></div><span class="when">{esc(date_ko(rep['date']))} · {rep['round']}회차</span></div>
+<header class="rh"><div class="hrow"><div class="l"><span class="ptag">{esc(TAG)}</span><span class="seclabel">Daily Media Report</span></div><div class="r"><span class="when">{esc(rep['date'])}</span><span class="lchip ghost">Edition #{rep['round']:02d}</span></div></div>
+<h1>{esc(TITLE)} · {date_ko(rep['date'])}</h1>
 <ul class="basis">{basis}</ul><dl class="status">{status}</dl></header>
 <nav class="toc">{toc}</nav>
-<div class="top">{_pick_html(rep.get("pick"))}{_side_html(rep)}</div>
+<div class="top">{_pick_html(rep.get("pick"), rep)}{_side_html(rep)}</div>
 {_insight_html(rep)}
 {secs}
-<footer>{esc(rep['collect_line'])} · 생성 {datetime.now().strftime('%Y-%m-%d %H:%M')}<br>KYM·Reddit 제목과 About 은 원문 그대로입니다. 한국어 설명과 인사이트는 Claude 가 About 을 바탕으로 쓴 글이라 틀릴 수 있습니다. 검색량은 Google 트렌드의 대략값입니다.</footer>
+<footer class="pf">{esc(rep['collect_line'])} · 생성 {datetime.now().strftime('%Y-%m-%d %H:%M')}<br>KYM·Reddit 제목과 About 은 원문 그대로입니다. 한국어 설명과 인사이트는 Claude 가 About 을 바탕으로 쓴 글이라 틀릴 수 있습니다. 검색량은 Google 트렌드의 대략값입니다.</footer>
 </div></body></html>"""
 
 
 # ====================================================================
-# 이미지 카드 (1080×1350 × 2장)
+# 이미지 카드 (1080×1350 × 2장, tokens.json 틀)
 # ====================================================================
 
 MEDIA_CARD_CSS = """
-.card::before{background:#6B3FA0}.eyebrow{color:#6B3FA0}
-.hero{display:flex;justify-content:center;margin-top:18px}
-.hero img{width:100%;max-height:250px;object-fit:cover;border-radius:16px;background:#DDE1E8;box-shadow:0 10px 30px rgba(20,22,28,.14)}
-.ttl{font-size:38px;line-height:1.2;font-weight:700;margin:14px 0 4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.sum{font-size:24px;color:#4E5768;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:0}
-.sum.ko{font-size:25px;color:#14161C;-webkit-line-clamp:3;line-height:1.42}
-.badge.tk{color:#6B3FA0;border-color:transparent;background:#EFE6FA}.badge.ig{color:#B4261D;border-color:transparent;background:#FBEAE8}
-.pills{margin-top:10px}
-.tiles.sm{margin-top:12px;gap:14px}.tiles.sm .tile{padding:10px 18px 8px}.tiles.sm .tile dd{font-size:38px}.tiles.sm .tile dt,.tiles.sm .tile dd small{font-size:22px}
-.ln{display:grid;grid-template-columns:40px minmax(0,1fr) auto;gap:10px;align-items:baseline;padding:7px 0;border-top:2px solid #DDE1E8;font-size:27px;line-height:1.3}
-.ln:first-of-type{border-top:0}
-.ln .r{color:#BFC6D1;font-weight:700;font-variant-numeric:tabular-nums}
-.ln .t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:500}
-.ln .v{color:#4E5768;font-size:23px;white-space:nowrap}
-.mv{display:grid;grid-template-columns:88px minmax(0,1fr) auto;gap:20px;align-items:center;padding:10px 0;border-top:2px solid #DDE1E8}
-.mv:first-of-type{border-top:0;padding-top:4px}
-.mv img{width:88px;height:88px;object-fit:cover;border-radius:12px;background:#DDE1E8}
-.mv .nm{font-size:31px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
-.mv .cap{font-size:24px;color:#4E5768}
-.mv .kpi{font-size:26px;color:#6B3FA0}
-.xr{padding:10px 0;border-top:2px solid #DDE1E8;font-size:28px;line-height:1.35}
-.xr .tm{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
-.xr small{display:block;font-size:24px;color:#8891A0}
-.sec{margin-top:18px}
-/* 설명 카드 */
-.ex{display:grid;grid-template-columns:100px minmax(0,1fr);gap:20px;padding:13px 0;border-top:2px solid #DDE1E8}
-.ex:first-of-type{border-top:0;padding-top:4px}
-.ex img{width:100px;height:100px;object-fit:cover;border-radius:14px;background:#DDE1E8}
-.ex .nm{font-size:31px;font-weight:700;line-height:1.25;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
-.ex .wh{font-size:24px;line-height:1.4;color:#14161C;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.ex .id{font-size:23px;line-height:1.35;color:#6B3FA0;margin-top:4px;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
-.ins{margin-top:10px;padding:18px 24px;background:#FFFFFF;border:2px solid #DDE1E8;border-radius:16px;font-size:25px;line-height:1.48;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
+.hero{height:360px}
+.cardframe{gap:20px}
+.split{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:16px;align-items:stretch}
+.sumbox{background:var(--surface);border:var(--bw) solid var(--line);padding:20px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.sumbox p{margin:0;font:var(--t-body-lg-w) var(--t-body-lg) var(--font-body);color:var(--ink);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.sumbox p.idea{color:var(--primary-light);-webkit-line-clamp:2;font:var(--t-body-md-w) var(--t-body-md) var(--font-body)}
+.sumbox .when{font:var(--t-data-md-w) var(--t-data-md) var(--font-mono);color:var(--ink-2);margin-top:auto}
+.dbox{background:var(--surface);border:var(--bw) solid var(--line);padding:16px 20px;display:flex;flex-direction:column;gap:6px}
+.list{background:var(--surface);border:var(--bw) solid var(--line);padding:4px 20px}
+.ln{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:14px;align-items:center;padding:8px 0;border-top:var(--bw) solid var(--line)}
+.ln:first-child{border-top:0}
+.ln .t{font:600 var(--t-body-lg) var(--font-body);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink)}
+.ln .s{font:var(--t-data-md-w) var(--t-data-md) var(--font-mono);color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+.ln .v{font:700 var(--t-data-md) var(--font-mono);color:var(--ink-2);white-space:nowrap}
+.ln img{width:64px;height:64px;object-fit:cover;border:var(--bw) solid var(--line);background:var(--surface-2);display:block}
+.ln img.yt{width:88px;height:50px}
+.memes{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.meme{background:var(--surface);border:var(--bw) solid var(--line);min-width:0;display:flex;flex-direction:column}
+.meme .im{width:100%;aspect-ratio:1;object-fit:cover;background:var(--surface-2);display:block;border-bottom:var(--bw) solid var(--line)}
+.meme .im.ph{display:flex;align-items:center;justify-content:center;font:700 40px var(--font-display);color:var(--ph-ink);background:hsl(var(--h,260) var(--ph-s) var(--ph-l))}
+.meme .t{padding:8px 10px 2px;font:600 var(--t-body-md) var(--font-body);line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:var(--ink)}
+.meme .s{padding:0 10px 8px;font:var(--t-label-caps-w) var(--t-label-caps) var(--font-mono);letter-spacing:var(--t-label-caps-ls);text-transform:uppercase;color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sec{display:flex;flex-direction:column;gap:8px}
 """
 
 
-def _card(body, rep, i, n, title, eyebrow):
-    foot = f"{TITLE} · {date_ko(rep['date'])} · {rep['round']}회차"
-    return f"""<!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><title>{esc(title)}</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
-<style>{CARD_CSS}{MEDIA_CARD_CSS}</style></head>
-<body class="media"><div class="card">
-<div class="top"><span class="eyebrow">{esc(eyebrow)}</span><span class="page">{i} / {n}</span></div>
-<h1>{esc(title)}</h1><p class="date">{esc(date_ko(rep["date"]))}</p>
-<div class="body">{body}</div>
-<div class="foot"><span>{esc(foot)}</span><span>indie-trending</span></div>
-</div></body></html>"""
+def _card(rep, body, i, n, link):
+    return render.card_page("media", TAG, "Media Report", f"{date_ko(rep['date'])} · {rep['round']}회차", rep["round"], body, i, n, link,
+                            fallback_see=f"{TITLE} · {date_ko(rep['date'])}", extra_css=MEDIA_CARD_CSS, title=f"{TITLE} {rep['date']}")
 
 
-def _pill_cls(p):
-    return {"TikTok": "tk", "Instagram": "ig"}.get(p, PLATFORM_CLS.get(p, ""))
+def _title_block(kick, sub, title_html):
+    return f'<div class="cardtitle"><div class="kick"><span class="lchip pos">{esc(kick)}</span><span class="seclabel">{esc(sub)}</span></div><h1 class="hl">{title_html}</h1></div>'
 
 
-def _cover_body(rep):
+def _cover_card(rep):
     p = rep.get("pick")
+    w = ui.tokens()["카드"]["폭"] - 2 * ui.tokens()["간격"]["카드_여백"]
+    pc = list(rep["platform_counts"])
+    parts = pc[:2] + ([("기타", sum(n for _, n in pc[2:]))] if len(pc) > 2 else [])
+    donut = charts.donut(parts, width=int((w - 16) * (1 / 2.3)) - 40, height=170, scale="card", center_label="KYM 건", title="플랫폼 집계")
+    y = (rep.get("youtube") or {}).get("KR") or {}
+    yt = "".join(f'<div class="ln"><img class="yt" src="{H.escape(v.get("thumb", ""), quote=True)}" alt=""><div><div class="t">{esc(v["title"])}</div><div class="s">{esc(v["channel"])}' + (" · 쇼츠" if v.get("shorts") else "") + f'</div></div><span class="v">{esc(_views(v["views"]))}</span></div>'
+                 for v in (y.get("items") or [])[:3]) if y.get("status") == "ok" else '<div class="ln"><div class="s">YOUTUBE_API_KEY 없음 · 건너뜀</div></div>'
     if p:
-        streak = f" · {p['streak']}일 연속" if p.get("streak", 1) > 1 else ""
-        pills = "".join(f'<span class="badge {_pill_cls(a)}">{esc(a)}</span>' for a in (p.get("platforms") or [])[:3])
-        pills += "".join(f'<span class="badge">{esc(f)}</span>' for f in _flags(p)[:2])
-        hero = f'<div class="hero"><img src="{H.escape(p["image"], quote=True)}" alt=""></div>' if p.get("image") else ""
-        desc = f'<p class="sum ko">{esc(p["ko_what"])}</p>' if p.get("ko_what") else f'<p class="sum">{esc(_sum(p.get("summary"), 150))}</p>'
-        head = (f'<p class="lbl">오늘의 틱톡·인스타 트렌드{esc(streak)}</p>{hero}<h2 class="ttl">{esc(p["title"])}</h2>{desc}'
-                + (f'<div class="pills">{pills}</div>' if pills else ""))
+        streak = f"{p['streak']}일 연속" if p.get("streak", 1) > 1 else "오늘"
+        chips = [f'<span class="lchip">{esc(a)}</span>' for a in (p.get("platforms") or [])[:2]] + [f'<span class="lchip ghost">{esc(f)}</span>' for f in _flags(p)[:1]]
+        hero = render.image_hero_html(p.get("image"), f'<span class="ov tl">{"".join(chips)}</span>', name=p["title"])
+        summary = esc(p["ko_what"]) if p.get("ko_what") else esc(_sum(p.get("summary"), 220))
+        idea = f'<p class="idea">→ 활용: {esc(p["ko_idea"])}</p>' if p.get("ko_idea") else ""
+        head = _title_block("TODAY'S TREND", f"KYM · {streak} · {p.get('reason', '')}", headline.to_html(headline.media_pick(p)))
+        mid = (f'<div class="split"><div class="sumbox"><p>{summary}</p>{idea}<div class="when">KYM {esc(_kinds_ko(p))} · {esc(_kst(_when(p)))} KST</div></div>'
+               f'<div class="dbox"><p class="seclabel">플랫폼 집계 · KYM {len(rep["kym_all"])}건 · 신규 {rep["kym_new"]}</p>{donut}</div></div>')
     else:
-        head = '<p class="lbl">오늘의 틱톡·인스타 트렌드</p><p class="empty">최근 48시간 KYM 항목이 없습니다.</p>'
-    pc = dict(rep["platform_counts"])
-    tiles = [("틱톡·인스타 항목", f"{len(rep['shortform'])}", f"KYM {len(rep['kym_all'])}건 중"), ("TikTok", f"{pc.get('TikTok', 0)}", "건"),
-             ("Instagram", f"{pc.get('Instagram', 0)}", "건")]
-    tiles_html = "".join(f'<dl class="tile"><dt>{esc(l)}</dt><dd>{esc(v)}<small>{esc(s)}</small></dd></dl>' for l, v, s in tiles)
-    others = [x for x in rep["shortform"] if not p or x["url"] != p["url"]][: (2 if p and p.get("ko_what") else 3)]
-    rows = "".join(f'<div class="ln"><span class="r">{i}</span><span class="t">{esc(x["title"])}</span><span class="v">{esc(" · ".join(x["platforms"][:2]))}</span></div>' for i, x in enumerate(others, 1)) or '<p class="empty" style="font-size:26px;margin:8px 0">다른 항목 없음</p>'
-    return head + f'<div class="tiles sm">{tiles_html}</div><div class="sec"><p class="lbl">다른 틱톡·인스타 트렌드</p>{rows}</div>'
+        head = _title_block("TODAY'S TREND", "KYM 항목 없음", "최근 48시간 틱톡·인스타 트렌드가 없습니다")
+        hero = ""
+        mid = f'<div class="dbox"><p class="seclabel">플랫폼 집계 · KYM {len(rep["kym_all"])}건</p>{donut}</div>'
+    body = head + hero + mid + f'<div class="sec"><p class="seclabel">YouTube KR 인기 급상승 Top 3</p><div class="list">{yt}</div></div>'
+    return body
 
 
-def _second_body(rep):
-    memes = rep["new_memes"][:3]
-    mrows = "".join(f'<div class="mv">' + (f'<img src="{H.escape(x["image"], quote=True)}" alt="">' if x.get("image") else '<span></span>')
-                    + f'<div><div class="nm">{esc(x["title"])}</div><div class="cap">{esc(" · ".join(_flags(x)[:2] + (x.get("platforms") or [])[:2]))}</div></div><div class="kpi">{esc(_kst(_when(x))[:5])}</div></div>' for x in memes) \
-        or '<p class="empty" style="font-size:28px;margin:10px 0">최근 48시간 새 엔트리 없음</p>'
-    rd = [r for r in rep["reddit"] if r["status"] == "ok" and r["items"]][:3]
-    rrows = "".join(f'<div class="xr"><div class="tm">{esc(r["items"][0]["title"])}</div><small>r/{esc(r["sub"])}</small></div>' for r in rd) or '<p class="empty" style="font-size:28px;margin:10px 0">Reddit 수집 실패</p>'
-    cross = rep["cross"][:2]
-    xs = "".join(f'<div class="xr"><div class="tm"><b>{esc(c["game"])}</b> ← {esc(c["term"])}</div><small>{"Steam" if c["platform"] == "steam" else "itch.io"} · {esc(c["source"])}</small></div>' for c in cross) or '<div class="xr"><small>오늘은 겹치는 게임이 없습니다.</small></div>'
-    more = f'<div class="xr"><small>외 {len(rep["cross"]) - 2}건 · 상세 보고서 참고</small></div>' if len(rep["cross"]) > 2 else ""
-    return (f'<p class="lbl">새로 등록된 밈 · KYM {len(rep["new_memes"])}건</p>{mrows}'
-            f'<div class="sec"><p class="lbl">커뮤니티 베스트</p>{rrows}</div><div class="sec"><p class="lbl">게임 ↔ 밈 교차</p>{xs}{more}</div>')
+def _second_card(rep):
+    memes = rep["new_memes"][:5]
+    label = "새로 등록된 밈 · KYM 확정·제출"
+    if not memes:
+        memes = rep["shortform"][:5]
+        label = "새 엔트리 없음 · 대신 틱톡·인스타 트렌드"
+    tiles = "".join((f'<div class="meme">' + (f'<img class="im" src="{H.escape(x["image"], quote=True)}" alt="">' if x.get("image") else f'<div class="im ph" style="--h:{render.hue(x["title"])}">{esc(x["title"][:1].upper())}</div>')
+                     + f'<div class="t">{esc(x["title"])}</div><div class="s">{esc(" · ".join((_flags(x)[:1]) + (x.get("platforms") or [])[:1]) or _kinds_ko(x))}</div></div>') for x in memes) \
+        or '<p class="empty">없음</p>'
+    im = rep["imgflip"]
+    movers = im["movers"][:5] if im.get("compared") else []
+    rows = "".join(f'<div class="ln"><span class="rank{" top" if x["rank"] <= 3 else ""}">{x["rank"]:02d}</span><div><div class="t">{esc(x["name"])}</div><div class="s">{x["prev_rank"]}→{x["rank"]}위 · 캡션 {(x.get("captions") or 0):,}</div></div>'
+                   f'<span class="delta {"up" if (x["delta"] or 0) > 0 else "down"}">{"▲ +" if (x["delta"] or 0) > 0 else "▼ "}{x["delta"]}</span></div>' for x in movers)
+    if not rows:
+        rows = "".join(f'<div class="ln"><span class="rank{" top" if x["rank"] <= 3 else ""}">{x["rank"]:02d}</span><div><div class="t">{esc(x["name"])}</div><div class="s">캡션 {(x.get("captions") or 0):,}' + (" · 신규" if x.get("new") else " · 변동 없음") + '</div></div><span class="delta">—</span></div>' for x in im["items"][:5])
+    cross = rep["cross"][:3]
+    xs = "".join(f'<div class="ln"><div><div class="t">{esc(c["game"])} ← {esc(c["term"])}</div><div class="s">{"Steam" if c["platform"] == "steam" else "itch.io"} · {esc(c["source"])}</div></div><span class="lchip ghost">{"STEAM" if c["platform"] == "steam" else "ITCH"}</span></div>' for c in cross) \
+        or '<div class="ln"><div class="s">오늘은 검색·위키·Reddit·유튜브·KYM 제목과 겹치는 게임이 없습니다.</div></div>'
+    head = _title_block("NEW MEMES", f"새 밈 {len(rep['new_memes'])} · 템플릿 변동 {len(im.get('movers') or [])} · 게임 교차 {len(rep['cross'])}", "새 밈 · 템플릿 순위 · 게임 교차")
+    return (head + f'<div class="sec"><p class="seclabel">{esc(label)}</p><div class="memes">{tiles}</div></div>'
+            f'<div class="sec"><p class="seclabel">밈 템플릿 순위 변동 Top 5 · Imgflip{"" if im.get("compared") else " · 비교 대상 없음(회차 1)"}</p><div class="list">{rows}</div></div>'
+            f'<div class="sec"><p class="seclabel">게임 ↔ 밈 교차</p><div class="list">{xs}</div></div>')
 
 
-def _explain_body(rep):
-    """오늘의 밈 설명 3개(한국어) + 인사이트. Claude 결과가 있을 때만 씁니다."""
-    items = [x for x in list(rep["shortform"]) + list(rep["new_memes"]) if x.get("ko_what")]
-    seen, picked = set(), []
-    for x in items:
-        if x["url"] not in seen:
-            seen.add(x["url"])
-            picked.append(x)
-        if len(picked) >= 3:
-            break
-    rows = "".join(f'<div class="ex">' + (f'<img src="{H.escape(x["image"], quote=True)}" alt="">' if x.get("image") else "<span></span>")
-                   + f'<div><div class="nm">{esc(x["title"])}</div><div class="wh">{esc(x["ko_what"])}</div>' + (f'<div class="id">→ 활용: {esc(x["ko_idea"])}</div>' if x.get("ko_idea") else "") + "</div></div>" for x in picked) \
-        or '<p class="empty" style="font-size:28px;margin:10px 0">설명 없음</p>'
-    ins = f'<div class="sec"><p class="lbl">오늘의 인사이트</p><div class="ins">{esc(rep["insight"])}</div></div>' if rep.get("insight") else ""
-    return f'<p class="lbl">오늘의 밈 설명 · Claude</p>{rows}{ins}'
-
-
-def to_cards(rep):
-    eyebrow = f"미디어·밈 리포트 · {rep['round']}회차"
-    second = ("밈 설명 · 인사이트", _explain_body(rep)) if has_llm(rep) else ("새 밈 · 커뮤니티 · 게임 교차", _second_body(rep))
-    pages = [(TITLE, _cover_body(rep)), second]
-    return [(f"{rep['date']}-{i}.png", _card(body, rep, i, len(pages), title, eyebrow)) for i, (title, body) in enumerate(pages, 1)]
+def to_cards(rep, link=None):
+    pages = [_cover_card(rep), _second_card(rep)]
+    return [(f"{rep['date']}-{i}.png", _card(rep, body, i, len(pages), link)) for i, body in enumerate(pages, 1)]
 
 
 # ====================================================================

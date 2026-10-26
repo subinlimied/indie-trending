@@ -109,6 +109,8 @@ def cmd_cards(args):
         print("경고: Chrome 을 찾지 못해 카드를 건너뜁니다 (CHROME_BIN 환경변수로 지정할 수 있습니다).")
         return
     rep = json.loads(src.read_text())
+    cfg, _ = load_cfg()
+    link = report_url(cfg, args.date)
     out_dir = REPORTS / "cards"
     out_dir.mkdir(parents=True, exist_ok=True)
     for old in out_dir.glob(f"{args.date}-*.png"):
@@ -117,7 +119,7 @@ def cmd_cards(args):
     with tempfile.TemporaryDirectory(prefix="media-cards-") as tmp:
         html_dir = Path(args.html_dir) if args.html_dir else Path(tmp) / "html"
         html_dir.mkdir(parents=True, exist_ok=True)
-        for fname, html in render_media.to_cards(rep):
+        for fname, html in render_media.to_cards(rep, link):
             html_path = html_dir / f"media-{Path(fname).stem}.html"
             html_path.write_text(html)
             out_png = out_dir / fname

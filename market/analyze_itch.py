@@ -359,7 +359,8 @@ def analyze(cfg, date, data_dir, reports_dir):
     collect_line = f"수집 목록 {n_lists_ok}/{len(snaps[-1][1]['lists'])} 정상 · 모집단 {len(recs)} · 본문 {len(body)} · 신작 {n_new} · 페이지 실패 {len(bad)}"
     state.save()
     pick_list = next((ln for ln in PRIMARY if pick and ln in pick["ranks"]), "new-and-popular") if pick else None
-    series_blk = series_mod.report_block(data_dir, "itch", date, "new-and-popular", pick_id=pick["id"] if pick else None, pick_list=pick_list)
+    series_blk = series_mod.report_block(data_dir, "itch", date, "new-and-popular", pick_id=pick["id"] if pick else None, pick_list=pick_list,
+                                         only_ids={r["id"] for r in inc})
     return {"platform": "itch", "platform_ko": "itch.io", "date": date, "round": rn, "prev_date": prev_date,
             "status": status, "pick": pick_info, "headline": headline[:3], "notes": notes[:3],
             "sections": sections, "collect_line": collect_line, "series": series_blk,
