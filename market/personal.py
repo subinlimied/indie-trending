@@ -65,8 +65,9 @@ def norm_steam(r, app):
         "public_excl": r["excl"], "verdict": r["verdict"], "streak": r["streak"],
         "in_body": r["included"] and any(ln in r["ranks"] for ln in analyze_steam.PRIMARY),
         "line": analyze_steam.line(r), "line_norank": analyze_steam.line(r, with_rank=False),
-        "badges": analyze_steam.badges(r), "thumb": None, "thumb_bg": None,
+        "badges": analyze_steam.badges(r), "thumb": r.get("thumb") or (app.get("meta") or {}).get("header_image"), "thumb_bg": None,
         "sub": " · ".join(x for x in (r["dev"], ", ".join(r["tags"][:3])) if x),
+        "reviews_any": r.get("reviews_any") if r.get("reviews_any") is not None else app.get("review_count"),
     }
 
 
@@ -90,6 +91,7 @@ def norm_itch(r, game):
         "badges": analyze_itch.badges(r), "thumb": r.get("thumb"), "thumb_bg": r.get("thumb_bg"),
         "sub": " · ".join(x for x in (r["author"], r["genre"], ", ".join(r["tags"][:3])) if x),
         "price_text": analyze_itch.price_text(r),
+        "reviews_any": r["rating"],
     }
 
 
@@ -261,7 +263,7 @@ def analyze_platform(platform, rep, games, prof):
             for g in mine if g["age"] is not None and 0 <= g["age"] <= 90]
     top_names = {t["name"]: i for i, t in enumerate(top, 1)}
     scatter = [{"name": g["name"], "platform": platform, "price_usd": g["price_usd"], "playtime_h": g["playtime_h"],
-                "top": top_names.get(g["name"], 0)} for g in mine]
+                "reviews": g.get("reviews_any"), "top": top_names.get(g["name"], 0)} for g in mine]
     return {"platform": platform, "platform_ko": rep["platform_ko"], "round": rep["round"], "has_prev": has_prev,
             "top": top, "pushed": pushed, "why": why, "same_as_public": same_as_public, "scatter": scatter,
             "public": {"pick": pub_pick, "headline": pub_heads, "top3": pub_top3},

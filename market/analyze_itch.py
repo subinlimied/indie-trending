@@ -70,6 +70,17 @@ def build_records(cfg, date, snaps):
     return recs, prev_date, (d7, n7)
 
 
+def included_ids(cfg, snap, date=None):
+    """그날 스냅샷 기준 포함 게임 id 집합 (제외 태그가 없는 게임)."""
+    excl_tags = {t.lower() for t in cfg.get("exclude_tags", [])}
+    out = set()
+    for gid, g in snap.get("games", {}).items():
+        tags = (g.get("page") or {}).get("tags") or []
+        if not any(t.lower() in excl_tags for t in tags):
+            out.add(str(gid))
+    return out
+
+
 def _is_zero_price(price):
     """목록 셀의 가격 텍스트가 없거나 '$0', '$0.00' 이면 무료."""
     if not price:
@@ -360,7 +371,7 @@ def analyze(cfg, date, data_dir, reports_dir):
     state.save()
     pick_list = next((ln for ln in PRIMARY if pick and ln in pick["ranks"]), "new-and-popular") if pick else None
     series_blk = series_mod.report_block(data_dir, "itch", date, "new-and-popular", pick_id=pick["id"] if pick else None, pick_list=pick_list,
-                                         only_ids={r["id"] for r in inc})
+                                         only_ids=lambda snap, d: included_ids(cfg, snap, d))
     return {"platform": "itch", "platform_ko": "itch.io", "date": date, "round": rn, "prev_date": prev_date,
             "status": status, "pick": pick_info, "headline": headline[:3], "notes": notes[:3],
             "sections": sections, "collect_line": collect_line, "series": series_blk,

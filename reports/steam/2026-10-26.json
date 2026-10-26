@@ -19,11 +19,11 @@
   ],
   [
    "모집단",
-   "535개 · 본문 112개"
+   "535개 · 본문 104개"
   ],
   [
    "신작",
-   "78/112"
+   "75/104"
   ],
   [
    "수집",
@@ -55,6 +55,7 @@
    "Adventure",
    "Early Access"
   ],
+  "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3271280/0b105208662f52e5f6282d0f3beb2bec5a90c3da/header.jpg?t=1790708707",
   "desc": "Gather and grow cards in Shroom & Gloom, a moody first-person, roguelike double-deckbuilder bursting with fungal foes and mountains of mega-combos!"
  },
  "headline": [
@@ -62,7 +63,7 @@
   "[Leafy Corner](https://store.steampowered.com/app/3558600/) Top Sellers 115→72위 ▲43 · 동접 294(+50.8%) · $9.99 −20% · 할인 동반"
  ],
  "notes": [
-  "본문 제외 134개 (출시 117 · 정가 30)"
+  "본문 제외 142개 (출시 117 · 리뷰 48 · 정가 30)"
  ],
  "sections": [
   {
@@ -82,6 +83,7 @@
         "데모"
        ],
        "sub": "Team Lazerbeam · Adventure, Early Access",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3271280/0b105208662f52e5f6282d0f3beb2bec5a90c3da/header.jpg?t=1790708707",
        "desc": "Gather and grow cards in Shroom & Gloom, a moody first-person, roguelike double-deckbuilder bursting with fungal foes and mountains of mega-combos!"
       },
       {
@@ -95,6 +97,7 @@
         "할인 20%"
        ],
        "sub": "Fireline Games · Casual, Simulation",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558600/57deed9f6c4c6a94fba79c492dda70bf2311c435/header.jpg?t=1790252315",
        "desc": "Run a cute little plant shop in this cozy and relaxing game. Grow, sell, and care for a variety of real-life plants, help customers find their dream plants, complete orders, and customize your cozy shop just the way you like!"
       },
       {
@@ -107,6 +110,7 @@
         "할인 50%"
        ],
        "sub": "HypeTrain Digital · Open World Survival Craft, Co-op, Survival",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/c37f0d9c54c79a8267602beecba728872753f847/header.jpg?t=1791822408",
        "desc": "Become a crew member of an Interdimensional Express Train! Discover a new world full of mysterious creatures, enemies and places. Upgrade and customize your train, gather new materials and build better weapons. Play solo or online сo-op with up to 4 people."
       }
      ]
@@ -148,19 +152,19 @@
      ],
      "rows": [
       [
+       "Casual",
+       "14개 (47%)",
+       "42%",
+       "1.1×",
+       "[Leafy Corner](https://store.steampowered.com/app/3558600/) · [Nientum - Op.ZERO](https://store.steampowered.com/app/2725250/) · [The Artisan of Glimmith](https://store.steampowered.com/app/4160210/)",
+       "6회차"
+      ],
+      [
        "Simulation",
        "13개 (43%)",
        "31%",
        "1.4×",
        "[Leafy Corner](https://store.steampowered.com/app/3558600/) · [Sandustry](https://store.steampowered.com/app/2764460/) · [CloverPit](https://store.steampowered.com/app/3314790/)",
-       "6회차"
-      ],
-      [
-       "Casual",
-       "12개 (40%)",
-       "41%",
-       "1.0×",
-       "[Leafy Corner](https://store.steampowered.com/app/3558600/) · [Nientum - Op.ZERO](https://store.steampowered.com/app/2725250/) · [The Artisan of Glimmith](https://store.steampowered.com/app/4160210/)",
        "6회차"
       ],
       [
@@ -181,18 +185,10 @@
       ],
       [
        "Early Access",
-       "5개 (17%)",
+       "4개 (13%)",
        "11%",
-       "1.5×",
-       "[Shroom and Gloom](https://store.steampowered.com/app/3271280/) · [Sandustry](https://store.steampowered.com/app/2764460/) · [Slay the Spire 2](https://store.steampowered.com/app/2868840/)",
-       "6회차"
-      ],
-      [
-       "Strategy",
-       "5개 (17%)",
-       "15%",
-       "1.1×",
-       "[Sandustry](https://store.steampowered.com/app/2764460/) · [The Artisan of Glimmith](https://store.steampowered.com/app/4160210/) · [Slay the Spire 2](https://store.steampowered.com/app/2868840/)",
+       "1.2×",
+       "[Shroom and Gloom](https://store.steampowered.com/app/3271280/) · [Sandustry](https://store.steampowered.com/app/2764460/) · [Jump Space](https://store.steampowered.com/app/1757300/)",
        "6회차"
       ],
       [
@@ -204,43 +200,51 @@
        "3회차"
       ],
       [
+       "Strategy",
+       "4개 (13%)",
+       "16%",
+       "0.9×",
+       "[Sandustry](https://store.steampowered.com/app/2764460/) · [The Artisan of Glimmith](https://store.steampowered.com/app/4160210/) · [Legion Breaker](https://store.steampowered.com/app/4425980/)",
+       "6회차"
+      ],
+      [
+       "Multiplayer",
+       "3개 (10%)",
+       "3%",
+       "3.3×",
+       "[Voidtrain](https://store.steampowered.com/app/1159690/) · [Sephiria](https://store.steampowered.com/app/2436940/) · [Liar's Bar](https://store.steampowered.com/app/3097560/)",
+       "6회차"
+      ],
+      [
        "Open World Survival Craft",
        "2개 (7%)",
        "1%",
-       "5.3×",
+       "8.7×",
        "[Voidtrain](https://store.steampowered.com/app/1159690/) · [Core Keeper](https://store.steampowered.com/app/1621690/)",
+       "1회차"
+      ],
+      [
+       "Co-op",
+       "2개 (7%)",
+       "1%",
+       "5.2×",
+       "[Voidtrain](https://store.steampowered.com/app/1159690/) · [Liar's Bar](https://store.steampowered.com/app/3097560/)",
        "1회차"
       ],
       [
        "Survival",
        "2개 (7%)",
        "1%",
-       "5.3×",
+       "8.7×",
        "[Voidtrain](https://store.steampowered.com/app/1159690/) · [Core Keeper](https://store.steampowered.com/app/1621690/)",
        "1회차"
-      ],
-      [
-       "Multiplayer",
-       "2개 (7%)",
-       "4%",
-       "1.8×",
-       "[Voidtrain](https://store.steampowered.com/app/1159690/) · [Sephiria](https://store.steampowered.com/app/2436940/)",
-       "6회차"
       ],
       [
        "Pixel Graphics",
        "2개 (7%)",
        "1%",
-       "6.7×",
+       "6.6×",
        "[Core Keeper](https://store.steampowered.com/app/1621690/) · [Sephiria](https://store.steampowered.com/app/2436940/)",
-       "1회차"
-      ],
-      [
-       "Co-op",
-       "1개 (3%)",
-       "1%",
-       "2.2×",
-       "[Voidtrain](https://store.steampowered.com/app/1159690/)",
        "1회차"
       ]
      ]
@@ -251,7 +255,7 @@
    "no": "04",
    "title": "할인 · 이벤트와 상승의 관계",
    "basis": "광고비 지표가 없는 Steam에서는 할인이 상승의 외부 요인입니다. 할인 없이 오른 게임을 오가닉으로 봅니다.",
-   "text": "본문 포함 112개 중 할인 중 41개(37%). 상승 53개 중 할인 없이 오른 것 32개, 할인 동반 21개. Popular Upcoming 130개 중 데모 제공 54개.",
+   "text": "본문 포함 104개 중 할인 중 40개(38%). 상승 48개 중 할인 없이 오른 것 27개, 할인 동반 21개. Popular Upcoming 130개 중 데모 제공 54개.",
    "blocks": [
     {
      "title": "오가닉 (할인 없음)",
@@ -265,6 +269,7 @@
         "데모"
        ],
        "sub": "Team Lazerbeam · Adventure, Early Access",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3271280/0b105208662f52e5f6282d0f3beb2bec5a90c3da/header.jpg?t=1790708707",
        "desc": "Gather and grow cards in Shroom & Gloom, a moody first-person, roguelike double-deckbuilder bursting with fungal foes and mountains of mega-combos!"
       },
       {
@@ -275,18 +280,8 @@
         "신작"
        ],
        "sub": "Beartwigs · Action, Adventure, RPG",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/408e4431f9116f0d588e66375491a7ae3d852d59/header.jpg?t=1790242632",
        "desc": "Rome has fallen! Rebuild civilization in this action-adventure survival game for 1-8 players. Fight hordes of the walking dead, build settlements, restore the Roman gods... or kick back and farm with friends."
-      },
-      {
-       "name": "Slay the Spire 2",
-       "url": "https://store.steampowered.com/app/2868840/",
-       "line": "New & Trending 95→68위 · 동접 44,837(+2.4%) · $24.99",
-       "badges": [
-        "신작",
-        "셀프 퍼블리싱"
-       ],
-       "sub": "Mega Crit · Strategy, Early Access",
-       "desc": "The iconic roguelike deckbuilder returns. Craft a unique deck, encounter bizarre creatures, and discover relics of immense power in Slay the Spire 2!"
       },
       {
        "name": "CloverPit",
@@ -296,6 +291,7 @@
         "데모"
        ],
        "sub": "Panik Arcade · Action, Adventure, Simulation",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1787580462",
        "desc": "A rogue-lite slot machine nightmare. Gamble for your life in a never-ending debt simulator!"
       },
       {
@@ -306,7 +302,20 @@
         "신작"
        ],
        "sub": "D5 Copperhead · Casual, Simulation, Strategy",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669570/da84f32f1e93388acac5b683e52e9ea143f10f38/header.jpg?t=1789021559",
        "desc": "Start small, team up with friends, and automate production with conveyor belts, pipes, and magical devices. Stock your shop with potions, jewelry, and relics, complete commissions, and build an alchemy empire! Alchemy Factory 1.0 is out now with the Wagon Logistics System and revamped shopkeeping."
+      },
+      {
+       "name": "DinoBones: Tidy Up the Museum",
+       "url": "https://store.steampowered.com/app/5064340/",
+       "line": "Top Sellers 121→102위 · 동접 298(+4.6%) · $5.99",
+       "badges": [
+        "신작",
+        "셀프 퍼블리싱"
+       ],
+       "sub": "Indie Souls Studio · Casual, Simulation",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064340/0dd27279063d7b37f3e143571c3848bea4502e9b/header.jpg?t=1792101390",
+       "desc": "DinoBones: Tidy Up the Museum! is a cozy skeleton restoration sim. Identify, collect, and piece together around 2,000 scattered dinosaur bones. Feel chaos turn into order, and with every skeleton you rebuild, the museum reveals another secret."
       }
      ]
     },
@@ -324,6 +333,7 @@
         "할인 20%"
        ],
        "sub": "Fireline Games · Casual, Simulation",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558600/57deed9f6c4c6a94fba79c492dda70bf2311c435/header.jpg?t=1790252315",
        "desc": "Run a cute little plant shop in this cozy and relaxing game. Grow, sell, and care for a variety of real-life plants, help customers find their dream plants, complete orders, and customize your cozy shop just the way you like!"
       },
       {
@@ -336,6 +346,7 @@
         "할인 50%"
        ],
        "sub": "HypeTrain Digital · Open World Survival Craft, Co-op, Survival",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/c37f0d9c54c79a8267602beecba728872753f847/header.jpg?t=1791822408",
        "desc": "Become a crew member of an Interdimensional Express Train! Discover a new world full of mysterious creatures, enemies and places. Upgrade and customize your train, gather new materials and build better weapons. Play solo or online сo-op with up to 4 people."
       },
       {
@@ -348,6 +359,7 @@
         "할인 20%"
        ],
        "sub": "QueseraGames · Action, Adventure, Casual",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2725250/29049beddb4ece7370fc561f5fa8fedd9e133c6b/header.jpg?t=1791950185",
        "desc": "A 2D action-adventure where the story unfolds by tuning the stage with music. A play by Aleph and Liora, who have lost their memories. A beautiful yet eerie stage, and the secret of the forgotten theater await. Your choices will determine the play's ending — and their fates."
       },
       {
@@ -360,6 +372,7 @@
         "할인 35%"
        ],
        "sub": "Lantto Games · Simulation, Strategy, Early Access",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/985a3a20945ec9c8e3e898e16cdaffe99d00e884/header.jpg?t=1792743912",
        "desc": "Explore and mine fully destructible worlds. Automate increasingly complex production chains. Delve deep to uncover an ancient civilization’s powerful secrets and learn to love the sand in this factory game where every pixel is a valuable resource."
       },
       {
@@ -373,6 +386,7 @@
         "할인 25%"
        ],
        "sub": "Lunarch Studios · Casual, Strategy",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160210/9ee76e41d658980856feaf5b4b9380866c428db5/header.jpg?t=1790779707",
        "desc": "The Artisan of Glimmith is a cozy, relaxing puzzle game about coloring stained glass and restoring the artworks of a kingdom above the clouds. Explore a world of handcrafted puzzles designed with intent, where simple rules lead to delightful surprises."
       }
      ]
@@ -389,6 +403,7 @@
         "데모"
        ],
        "sub": "Hardlane Studio · Adventure, RPG, Strategy",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2551970/header.jpg?t=1792515580",
        "desc": "A challenging post-apocalyptic roguelite turn-based RPG about the psychological stresses of adventuring with complete idiots. Lead a crew of flawed heroes against the consequences of their own terrible decisions. Can you keep your heroes together when everyone thinks they're in charge?"
       },
       {
@@ -401,6 +416,7 @@
         "데모"
        ],
        "sub": "白砚_Vesper · Casual, Strategy",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005180/d9b6edeafec4db93b9cdd7dc6f9b31a3eaa0a32c/header.jpg?t=1790231105",
        "desc": "Checkmate is a turn-based Xiangqi roguelite where a lone red general carries a cannon into a 9×10 battlefield. Move to reload, fire risky snap shots, aim for precision, and use enemy pieces as firing screens. Each upgrade also strengthens the opposing army."
       },
       {
@@ -413,6 +429,7 @@
         "데모"
        ],
        "sub": "F11 Game Studio · Casual, Strategy",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4881270/0a9b8232208f133f23966019c13bef3f82ab71ed/header.jpg?t=1792938151",
        "desc": "A single-player mahjong roguelike with an ink-wash art style. Make runs and sets from your tiles to score points — complete a winning hand and your score multiplies. Buy Flower cards, talismans and treasures to get stronger.. Never played mahjong? A step-by-step tutorial gets you started."
       },
       {
@@ -425,6 +442,7 @@
         "데모"
        ],
        "sub": "Stronggaming Studios · Early Access",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2430710/5149e97828b1564048a00f94feed8ec8f6879e0b/header.jpg?t=1792681979",
        "desc": "Take on the role of Colin Nox, a security operator monitoring surveillance cameras for anomalies. What starts as a routine job quickly turns sinister as the anomalies grow more aggressive, invading the houses you watch, breaking into your home, and crawling into your mind."
       },
       {
@@ -437,6 +455,7 @@
         "데모"
        ],
        "sub": "Crushed Olives Studios · Adventure, Casual, Strategy",
+       "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446140/ab58c51ac71f3cd2b063a87ae6267259af446f7b/header.jpg?t=1791574638",
        "desc": "Stage the haunt. Sell the house. You’re the world’s most desperate real-estate agents — hide the ghosts, mop the ectoplasm, and keep buyers calm in this chaotic 1–4 player co-op physics party game before the haunting meter tips over."
       }
      ]
@@ -448,7 +467,7 @@
    "title": "특이사항 · 이상현상",
    "basis": "",
    "list": [
-    "본문 제외 134개 (출시 117 · 정가 30)"
+    "본문 제외 142개 (출시 117 · 리뷰 48 · 정가 30)"
    ]
   },
   {
@@ -487,7 +506,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Open World, Survival, Base-Building",
-       "잔류 · 정가 $39.99"
+       "잔류 · 정가 $39.99, 리뷰 51,613"
       ],
       [
        "2",
@@ -532,7 +551,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Colony Sim, Base-Building, Survival",
-       "잔류 · 정가 $34.99, 출시 8년"
+       "잔류 · 정가 $34.99, 출시 8년, 리뷰 120,198"
       ],
       [
        "5 (6→)",
@@ -562,7 +581,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Survival, Crafting, Multiplayer",
-       "하락 · 정가 $39.99, 출시 8년"
+       "하락 · 정가 $39.99, 출시 8년, 리뷰 533,888"
       ],
       [
        "7",
@@ -592,7 +611,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Third-Person Shooter, Action Roguelike, Multiplayer",
-       "잔류 · 출시 6년"
+       "잔류 · 출시 6년, 리뷰 165,090"
       ],
       [
        "9",
@@ -607,7 +626,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Farming Sim, Pixel Graphics, Multiplayer",
-       "상승 · 출시 10년"
+       "상승 · 출시 10년, 리뷰 396,322"
       ],
       [
        "10",
@@ -622,12 +641,12 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Survival, Zombies, Open World",
-       "잔류 · 출시 12년"
+       "잔류 · 출시 12년, 리뷰 161,298"
       ],
       [
        "11 (12→)",
        "us 12 · cn 15 · kr 7 · jp 8 · de 18 · br 14 · gb 23",
-       "[Palworld](https://store.steampowered.com/app/1623730/)",
+       "[Palworld](https://store.steampowered.com/app/1623730/) ⊘",
        "Pocketpair",
        "2026-07-09",
        "$29.99",
@@ -637,12 +656,12 @@
        "50,000,000 .. 100,000,000",
        "—",
        "Open World, Survival, Creature Collector",
-       "상승"
+       "상승 · 리뷰 184,716"
       ],
       [
        "12 (11→)",
        "us 9 · cn 30 · kr 10 · jp 12 · de 17 · br 19 · gb 13",
-       "[Valheim](https://store.steampowered.com/app/892970/)",
+       "[Valheim](https://store.steampowered.com/app/892970/) ⊘",
        "Iron Gate AB",
        "2026-09-09",
        "$29.99",
@@ -652,7 +671,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Open World Survival Craft, Survival, Online Co-Op",
-       "잔류"
+       "잔류 · 리뷰 267,077"
       ],
       [
        "13",
@@ -667,7 +686,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Horror, Online Co-Op, Multiplayer",
-       "잔류 · 출시 6년"
+       "잔류 · 출시 6년, 리뷰 360,546"
       ],
       [
        "14 (25→)",
@@ -697,7 +716,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Automation, Base-Building, Resource Management",
-       "하락 · 정가 $35.00, 출시 6년"
+       "하락 · 정가 $35.00, 출시 6년, 리뷰 118,593"
       ],
       [
        "16 (15→)",
@@ -727,7 +746,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Survival, Multiplayer, Open World Survival Craft",
-       "상승 · 출시 4년"
+       "상승 · 출시 4년, 리뷰 130,598"
       ],
       [
        "18 (20→)",
@@ -742,7 +761,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Driving, Transportation, Simulation",
-       "상승 · 출시 14년"
+       "상승 · 출시 14년, 리뷰 147,058"
       ],
       [
        "19 (16→)",
@@ -772,7 +791,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Survival, Open World Survival Craft, Multiplayer",
-       "상승 · 할인 동반 · 출시 10년"
+       "상승 · 할인 동반 · 출시 10년, 리뷰 82,401"
       ],
       [
        "21 (23→)",
@@ -817,7 +836,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Open World Survival Craft, Sandbox, Survival",
-       "하락 · 출시 15년"
+       "하락 · 출시 15년, 리뷰 604,853"
       ],
       [
        "24 (18→)",
@@ -867,7 +886,7 @@
       [
        "27 (26→)",
        "us 20 · cn 42 · kr 38 · jp — · de 26 · br 31 · gb 20",
-       "[Dispatch](https://store.steampowered.com/app/2592160/)",
+       "[Dispatch](https://store.steampowered.com/app/2592160/) ⊘",
        "AdHoc Studio",
        "2025-10-22",
        "$29.99 −20%",
@@ -877,7 +896,7 @@
        "0 .. 20,000",
        "—",
        "Action, Adventure, Casual",
-       "잔류"
+       "잔류 · 리뷰 109,440"
       ],
       [
        "28 (43→)",
@@ -922,7 +941,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Open World Survival Craft, Survival, Multiplayer",
-       "상승 · 할인 동반 · 출시 9년"
+       "상승 · 할인 동반 · 출시 9년, 리뷰 256,777"
       ],
       [
        "31 (28→)",
@@ -937,7 +956,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Action Roguelike, Bullet Hell, Pixel Graphics",
-       "하락 · 출시 4년"
+       "하락 · 출시 4년, 리뷰 128,408"
       ],
       [
        "32 (29→)",
@@ -952,7 +971,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Action Roguelike, Rogue-like, Indie",
-       "하락 · 출시 11년"
+       "하락 · 출시 11년, 리뷰 166,565"
       ],
       [
        "33 (38→)",
@@ -967,12 +986,12 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Turn-Based Combat, Story Rich, Fantasy",
-       "상승 · 할인 동반 · 정가 $49.99"
+       "상승 · 할인 동반 · 정가 $49.99, 리뷰 103,666"
       ],
       [
        "34",
        "us 11 · cn — · kr 62 · jp — · de 11 · br 32 · gb 10",
-       "[Schedule I](https://store.steampowered.com/app/3164500/)",
+       "[Schedule I](https://store.steampowered.com/app/3164500/) ⊘",
        "TVGS",
        "2025-03-24",
        "$19.99",
@@ -982,7 +1001,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Simulation, Co-op, Crime",
-       "상승"
+       "상승 · 리뷰 204,071"
       ],
       [
        "35 (46→)",
@@ -1042,7 +1061,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Base-Building, Automation, Open World",
-       "하락 · 정가 $39.99"
+       "하락 · 정가 $39.99, 리뷰 138,489"
       ],
       [
        "39 (36→)",
@@ -1072,7 +1091,7 @@
        "500,000 .. 1,000,000",
        "—",
        "Dinosaurs, Survival, Open World",
-       "상승 · 출시 10년"
+       "상승 · 출시 10년, 리뷰 63,009"
       ],
       [
        "41 (40→)",
@@ -1137,7 +1156,7 @@
       [
        "45 (42→)",
        "us 58 · cn 49 · kr 42 · jp — · de 62 · br 62 · gb 52",
-       "[Hades II](https://store.steampowered.com/app/1145350/)",
+       "[Hades II](https://store.steampowered.com/app/1145350/) ⊘",
        "Supergiant Games",
        "2025-09-25",
        "$29.99",
@@ -1147,7 +1166,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Action, Rogue-like, Rogue-lite",
-       "상승"
+       "상승 · 리뷰 66,164"
       ],
       [
        "46 (53→)",
@@ -1222,7 +1241,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Base-Building, Cute, Action Roguelike",
-       "상승 · 출시 4년"
+       "상승 · 출시 4년, 리뷰 61,401"
       ],
       [
        "51 (50→)",
@@ -1237,7 +1256,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Free to Play, Multiplayer, Fighting",
-       "하락 · 출시 9년"
+       "하락 · 출시 9년, 리뷰 179,855"
       ],
       [
        "52 (44→)",
@@ -1252,7 +1271,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Racing, Automobile Sim, Simulation",
-       "하락 · 출시 11년"
+       "하락 · 출시 11년, 리뷰 61,032"
       ],
       [
        "53 (64→)",
@@ -1297,7 +1316,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Sandbox, Moddable, Multiplayer",
-       "상승 · 출시 19년"
+       "상승 · 출시 19년, 리뷰 542,200"
       ],
       [
        "56 (66→)",
@@ -1327,7 +1346,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Metroidvania, Souls-like, Platformer",
-       "잔류 · 출시 9년"
+       "잔류 · 출시 9년, 리뷰 185,690"
       ],
       [
        "58 (81→)",
@@ -1357,7 +1376,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Open World, Open World Survival Craft, Space",
-       "상승 · 정가 $59.99, 출시 10년"
+       "상승 · 정가 $59.99, 출시 10년, 리뷰 187,144"
       ],
       [
        "60 (52→)",
@@ -1422,7 +1441,7 @@
       [
        "64 (78→)",
        "us 56 · cn 72 · kr 81 · jp — · de 69 · br 70 · gb 53",
-       "[Balatro](https://store.steampowered.com/app/2379780/)",
+       "[Balatro](https://store.steampowered.com/app/2379780/) ⊘",
        "LocalThunk",
        "2024-02-20",
        "$14.99",
@@ -1432,7 +1451,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Card Game, Roguelike Deckbuilder, Rogue-like",
-       "상승"
+       "상승 · 리뷰 105,302"
       ],
       [
        "65 (74→)",
@@ -1482,7 +1501,7 @@
       [
        "68 (95→)",
        "us — · cn 5 · kr — · jp 7 · de — · br — · gb —",
-       "[Slay the Spire 2](https://store.steampowered.com/app/2868840/)",
+       "[Slay the Spire 2](https://store.steampowered.com/app/2868840/) ⊘",
        "Mega Crit",
        "2026-03-05",
        "$24.99",
@@ -1492,7 +1511,7 @@
        "0 .. 20,000",
        "—",
        "Strategy, Early Access",
-       "상승"
+       "상승 · 리뷰 71,487"
       ],
       [
        "69 (60→)",
@@ -1507,7 +1526,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Great Soundtrack, Story Rich, Choices Matter",
-       "상승 · 할인 동반 · 출시 11년"
+       "상승 · 할인 동반 · 출시 11년, 리뷰 155,344"
       ],
       [
        "70 (55→)",
@@ -1537,7 +1556,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Pixel Graphics, Casual, Management",
-       "상승 · 출시 3년"
+       "상승 · 출시 3년, 리뷰 51,501"
       ],
       [
        "72",
@@ -1567,7 +1586,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Roguelike Deckbuilder, Card Game, Card Battler",
-       "상승 · 할인 동반 · 출시 7년"
+       "상승 · 할인 동반 · 출시 7년, 리뷰 77,338"
       ],
       [
        "74 (73→)",
@@ -1587,7 +1606,7 @@
       [
        "75 (67→)",
        "us 70 · cn 46 · kr — · jp — · de — · br 43 · gb 72",
-       "[Hollow Knight: Silksong](https://store.steampowered.com/app/1030300/)",
+       "[Hollow Knight: Silksong](https://store.steampowered.com/app/1030300/) ⊘",
        "Team Cherry",
        "2025-09-04",
        "$19.99",
@@ -1597,7 +1616,7 @@
        "0 .. 20,000",
        "—",
        "Action, Adventure",
-       "하락"
+       "하락 · 리뷰 146,950"
       ],
       [
        "76 (61→)",
@@ -1627,7 +1646,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "VR, Rhythm, Music",
-       "상승 · 출시 7년"
+       "상승 · 출시 7년, 리뷰 53,108"
       ],
       [
        "78 (63→)",
@@ -1642,7 +1661,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Difficult, Cartoon, Co-op",
-       "하락 · 출시 9년"
+       "하락 · 출시 9년, 리뷰 66,546"
       ],
       [
        "79 (71→)",
@@ -1657,7 +1676,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Difficult, Music, Level Editor",
-       "하락 · 출시 11년"
+       "하락 · 출시 11년, 리뷰 308,394"
       ],
       [
        "80 (69→)",
@@ -1747,7 +1766,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Action RPG, Loot, Hack and Slash",
-       "상승 · 정가 $34.99"
+       "상승 · 정가 $34.99, 리뷰 59,858"
       ],
       [
        "86",
@@ -1807,7 +1826,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Turn-Based Combat, Dark Fantasy, Dungeon Crawler",
-       "상승 · 출시 10년"
+       "상승 · 출시 10년, 리뷰 57,363"
       ],
       [
        "90 (92→)",
@@ -1867,7 +1886,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Horror, Free to Play, Singleplayer",
-       "상승 · 출시 5년"
+       "상승 · 출시 5년, 리뷰 62,805"
       ],
       [
        "94 (76→)",
@@ -1882,7 +1901,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Open World Survival Craft, Survival, Open World",
-       "하락 · 출시 8년"
+       "하락 · 출시 8년, 리뷰 178,275"
       ],
       [
        "95 (91→)",
@@ -2022,7 +2041,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Open World, Survival, Base-Building",
-       "잔류 · 정가 $39.99"
+       "잔류 · 정가 $39.99, 리뷰 51,613"
       ],
       [
        "3 (2→)",
@@ -2037,7 +2056,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Colony Sim, Base-Building, Survival",
-       "잔류 · 정가 $34.99, 출시 8년"
+       "잔류 · 정가 $34.99, 출시 8년, 리뷰 120,198"
       ],
       [
        "4 (3→)",
@@ -2097,7 +2116,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Survival, Crafting, Multiplayer",
-       "하락 · 정가 $39.99, 출시 8년"
+       "하락 · 정가 $39.99, 출시 8년, 리뷰 533,888"
       ],
       [
        "8",
@@ -2117,7 +2136,7 @@
       [
        "9",
        "us 11 · cn 7 · kr 14 · jp 2 · de 20 · br 53 · gb 19",
-       "[Slay the Spire 2](https://store.steampowered.com/app/2868840/)",
+       "[Slay the Spire 2](https://store.steampowered.com/app/2868840/) ⊘",
        "Mega Crit",
        "2026-03-05",
        "$24.99",
@@ -2127,7 +2146,7 @@
        "0 .. 20,000",
        "—",
        "Strategy, Early Access",
-       "상승"
+       "상승 · 리뷰 71,487"
       ],
       [
        "10 (11→)",
@@ -2142,7 +2161,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Farming Sim, Pixel Graphics, Multiplayer",
-       "상승 · 출시 10년"
+       "상승 · 출시 10년, 리뷰 396,322"
       ],
       [
        "11 (20→)",
@@ -2172,7 +2191,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Horror, Online Co-Op, Multiplayer",
-       "잔류 · 출시 6년"
+       "잔류 · 출시 6년, 리뷰 360,546"
       ],
       [
        "13",
@@ -2187,12 +2206,12 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Survival, Open World Survival Craft, Multiplayer",
-       "상승 · 할인 동반 · 출시 10년"
+       "상승 · 할인 동반 · 출시 10년, 리뷰 82,401"
       ],
       [
        "14 (17→)",
        "us 21 · cn 37 · kr 8 · jp 18 · de 30 · br 22 · gb 40",
-       "[Palworld](https://store.steampowered.com/app/1623730/)",
+       "[Palworld](https://store.steampowered.com/app/1623730/) ⊘",
        "Pocketpair",
        "2026-07-09",
        "$29.99",
@@ -2202,7 +2221,7 @@
        "50,000,000 .. 100,000,000",
        "—",
        "Open World, Survival, Creature Collector",
-       "상승"
+       "상승 · 리뷰 184,716"
       ],
       [
        "15 (12→)",
@@ -2217,7 +2236,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Third-Person Shooter, Action Roguelike, Multiplayer",
-       "잔류 · 출시 6년"
+       "잔류 · 출시 6년, 리뷰 165,090"
       ],
       [
        "16 (15→)",
@@ -2232,7 +2251,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Survival, Zombies, Open World",
-       "잔류 · 출시 12년"
+       "잔류 · 출시 12년, 리뷰 161,298"
       ],
       [
        "17 (14→)",
@@ -2247,12 +2266,12 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Automation, Base-Building, Resource Management",
-       "하락 · 정가 $35.00, 출시 6년"
+       "하락 · 정가 $35.00, 출시 6년, 리뷰 118,593"
       ],
       [
        "18",
        "us 15 · cn 54 · kr 15 · jp 26 · de 28 · br 47 · gb 23",
-       "[Valheim](https://store.steampowered.com/app/892970/)",
+       "[Valheim](https://store.steampowered.com/app/892970/) ⊘",
        "Iron Gate AB",
        "2026-09-09",
        "$29.99",
@@ -2262,7 +2281,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Open World Survival Craft, Survival, Online Co-Op",
-       "잔류"
+       "잔류 · 리뷰 267,077"
       ],
       [
        "19",
@@ -2307,7 +2326,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Survival, Multiplayer, Open World Survival Craft",
-       "상승 · 출시 4년"
+       "상승 · 출시 4년, 리뷰 130,598"
       ],
       [
        "22 (23→)",
@@ -2337,7 +2356,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Driving, Transportation, Simulation",
-       "상승 · 출시 14년"
+       "상승 · 출시 14년, 리뷰 147,058"
       ],
       [
        "24",
@@ -2372,7 +2391,7 @@
       [
        "26",
        "us 27 · cn 45 · kr 51 · jp 113 · de 24 · br 35 · gb 17",
-       "[Dispatch](https://store.steampowered.com/app/2592160/)",
+       "[Dispatch](https://store.steampowered.com/app/2592160/) ⊘",
        "AdHoc Studio",
        "2025-10-22",
        "$29.99 −20%",
@@ -2382,7 +2401,7 @@
        "0 .. 20,000",
        "—",
        "Action, Adventure, Casual",
-       "잔류"
+       "잔류 · 리뷰 109,440"
       ],
       [
        "27 (25→)",
@@ -2397,7 +2416,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Open World Survival Craft, Sandbox, Survival",
-       "하락 · 출시 15년"
+       "하락 · 출시 15년, 리뷰 604,853"
       ],
       [
        "28 (29→)",
@@ -2472,7 +2491,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Open World Survival Craft, Survival, Multiplayer",
-       "상승 · 할인 동반 · 출시 9년"
+       "상승 · 할인 동반 · 출시 9년, 리뷰 256,777"
       ],
       [
        "33 (27→)",
@@ -2487,7 +2506,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Action Roguelike, Bullet Hell, Pixel Graphics",
-       "하락 · 출시 4년"
+       "하락 · 출시 4년, 리뷰 128,408"
       ],
       [
        "34 (35→)",
@@ -2607,7 +2626,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Roguelike Deckbuilder, Card Game, Card Battler",
-       "상승 · 할인 동반 · 출시 7년"
+       "상승 · 할인 동반 · 출시 7년, 리뷰 77,338"
       ],
       [
        "42 (41→)",
@@ -2622,7 +2641,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Action Roguelike, Rogue-like, Indie",
-       "하락 · 출시 11년"
+       "하락 · 출시 11년, 리뷰 166,565"
       ],
       [
        "43 (57→)",
@@ -2642,7 +2661,7 @@
       [
        "44 (45→)",
        "us 13 · cn — · kr 97 · jp 138 · de 18 · br 43 · gb 10",
-       "[Schedule I](https://store.steampowered.com/app/3164500/)",
+       "[Schedule I](https://store.steampowered.com/app/3164500/) ⊘",
        "TVGS",
        "2025-03-24",
        "$19.99",
@@ -2652,7 +2671,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Simulation, Co-op, Crime",
-       "상승"
+       "상승 · 리뷰 204,071"
       ],
       [
        "45 (39→)",
@@ -2697,7 +2716,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Turn-Based Combat, Story Rich, Fantasy",
-       "상승 · 할인 동반 · 정가 $49.99"
+       "상승 · 할인 동반 · 정가 $49.99, 리뷰 103,666"
       ],
       [
        "48 (37→)",
@@ -2712,7 +2731,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Base-Building, Automation, Open World",
-       "하락 · 정가 $39.99"
+       "하락 · 정가 $39.99, 리뷰 138,489"
       ],
       [
        "49",
@@ -2727,7 +2746,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Metroidvania, Souls-like, Platformer",
-       "잔류 · 출시 9년"
+       "잔류 · 출시 9년, 리뷰 185,690"
       ],
       [
        "50 (55→)",
@@ -2742,7 +2761,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Great Soundtrack, Story Rich, Choices Matter",
-       "상승 · 할인 동반 · 출시 11년"
+       "상승 · 할인 동반 · 출시 11년, 리뷰 155,344"
       ],
       [
        "51 (48→)",
@@ -2772,7 +2791,7 @@
        "500,000 .. 1,000,000",
        "—",
        "Dinosaurs, Survival, Open World",
-       "상승 · 출시 10년"
+       "상승 · 출시 10년, 리뷰 63,009"
       ],
       [
        "53 (54→)",
@@ -2822,7 +2841,7 @@
       [
        "56 (59→)",
        "us 93 · cn 99 · kr 65 · jp 148 · de 90 · br 87 · gb 80",
-       "[Hades II](https://store.steampowered.com/app/1145350/)",
+       "[Hades II](https://store.steampowered.com/app/1145350/) ⊘",
        "Supergiant Games",
        "2025-09-25",
        "$29.99",
@@ -2832,7 +2851,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Action, Rogue-like, Rogue-lite",
-       "상승"
+       "상승 · 리뷰 66,164"
       ],
       [
        "57 (47→)",
@@ -2867,7 +2886,7 @@
       [
        "59 (71→)",
        "us 63 · cn 122 · kr 112 · jp 129 · de 89 · br 86 · gb 68",
-       "[Balatro](https://store.steampowered.com/app/2379780/)",
+       "[Balatro](https://store.steampowered.com/app/2379780/) ⊘",
        "LocalThunk",
        "2024-02-20",
        "$14.99",
@@ -2877,7 +2896,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Card Game, Roguelike Deckbuilder, Rogue-like",
-       "상승"
+       "상승 · 리뷰 105,302"
       ],
       [
        "60 (58→)",
@@ -2897,7 +2916,7 @@
       [
        "61 (60→)",
        "us 84 · cn 51 · kr 137 · jp — · de 109 · br 42 · gb 70",
-       "[Hollow Knight: Silksong](https://store.steampowered.com/app/1030300/)",
+       "[Hollow Knight: Silksong](https://store.steampowered.com/app/1030300/) ⊘",
        "Team Cherry",
        "2025-09-04",
        "$19.99",
@@ -2907,7 +2926,7 @@
        "0 .. 20,000",
        "—",
        "Action, Adventure",
-       "하락"
+       "하락 · 리뷰 146,950"
       ],
       [
        "62 (90→)",
@@ -2922,7 +2941,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Pixel Graphics, Casual, Management",
-       "상승 · 출시 3년"
+       "상승 · 출시 3년, 리뷰 51,501"
       ],
       [
        "63 (61→)",
@@ -2997,7 +3016,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Racing, Automobile Sim, Simulation",
-       "하락 · 출시 11년"
+       "하락 · 출시 11년, 리뷰 61,032"
       ],
       [
        "68 (62→)",
@@ -3027,7 +3046,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Free to Play, Multiplayer, Fighting",
-       "하락 · 출시 9년"
+       "하락 · 출시 9년, 리뷰 179,855"
       ],
       [
        "70 (65→)",
@@ -3042,7 +3061,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Base-Building, Cute, Action Roguelike",
-       "상승 · 출시 4년"
+       "상승 · 출시 4년, 리뷰 61,401"
       ],
       [
        "71 (63→)",
@@ -3057,7 +3076,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Sandbox, Moddable, Multiplayer",
-       "상승 · 출시 19년"
+       "상승 · 출시 19년, 리뷰 542,200"
       ],
       [
        "72 (115→)",
@@ -3087,7 +3106,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Horror, Free to Play, Singleplayer",
-       "상승 · 출시 5년"
+       "상승 · 출시 5년, 리뷰 62,805"
       ],
       [
        "74 (69→)",
@@ -3102,7 +3121,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Difficult, Music, Level Editor",
-       "하락 · 출시 11년"
+       "하락 · 출시 11년, 리뷰 308,394"
       ],
       [
        "75 (86→)",
@@ -3132,7 +3151,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Open World, Open World Survival Craft, Space",
-       "상승 · 정가 $59.99, 출시 10년"
+       "상승 · 정가 $59.99, 출시 10년, 리뷰 187,144"
       ],
       [
        "77 (76→)",
@@ -3177,7 +3196,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Difficult, Cartoon, Co-op",
-       "하락 · 출시 9년"
+       "하락 · 출시 9년, 리뷰 66,546"
       ],
       [
        "80 (88→)",
@@ -3312,7 +3331,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Action RPG, Loot, Hack and Slash",
-       "상승 · 정가 $34.99"
+       "상승 · 정가 $34.99, 리뷰 59,858"
       ],
       [
        "89 (87→)",
@@ -3387,7 +3406,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "VR, Rhythm, Music",
-       "상승 · 출시 7년"
+       "상승 · 출시 7년, 리뷰 53,108"
       ],
       [
        "94 (97→)",
@@ -3567,7 +3586,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Cute, Exploration, Adventure",
-       "상승 · 할인 동반 · 출시 9년"
+       "상승 · 할인 동반 · 출시 9년, 리뷰 65,981"
       ],
       [
        "106 (93→)",
@@ -3672,7 +3691,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Open World Survival Craft, Survival, Open World",
-       "하락 · 출시 8년"
+       "하락 · 출시 8년, 리뷰 178,275"
       ],
       [
        "113 (135→)",
@@ -3912,7 +3931,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Destruction, Physics, Sandbox",
-       "상승 · 출시 4년"
+       "상승 · 출시 4년, 리뷰 76,876"
       ],
       [
        "129",
@@ -4392,7 +4411,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Turn-Based Combat, Dark Fantasy, Dungeon Crawler",
-       "상승 · 출시 10년"
+       "상승 · 출시 10년, 리뷰 57,363"
       ],
       [
        "161 (188→)",
@@ -4602,7 +4621,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Sandbox, Simulation, Funny",
-       "신규 진입 · 출시 5년"
+       "신규 진입 · 출시 5년, 리뷰 85,136"
       ],
       [
        "175 (173→)",
@@ -4857,7 +4876,7 @@
        "1,000,000 .. 2,000,000",
        "—",
        "Exploration, Space, Mystery",
-       "상승 · 출시 6년"
+       "상승 · 출시 6년, 리뷰 53,591"
       ],
       [
        "192 (193→)",
@@ -4932,7 +4951,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Shooter, Realistic, World War II",
-       "신규 진입 · 정가 $49.99, 출시 5년"
+       "신규 진입 · 정가 $49.99, 출시 5년, 리뷰 62,979"
       ],
       [
        "197 (168→)",
@@ -6547,7 +6566,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Open World, Survival, Base-Building",
-       "잔류 · 정가 $39.99"
+       "잔류 · 정가 $39.99, 리뷰 51,613"
       ],
       [
        "2",
@@ -6592,7 +6611,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Survival, Crafting, Multiplayer",
-       "하락 · 정가 $39.99, 출시 8년"
+       "하락 · 정가 $39.99, 출시 8년, 리뷰 533,888"
       ],
       [
        "5",
@@ -6607,7 +6626,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Third-Person Shooter, Action Roguelike, Multiplayer",
-       "잔류 · 출시 6년"
+       "잔류 · 출시 6년, 리뷰 165,090"
       ],
       [
        "6",
@@ -6637,7 +6656,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Colony Sim, Base-Building, Survival",
-       "잔류 · 정가 $34.99, 출시 8년"
+       "잔류 · 정가 $34.99, 출시 8년, 리뷰 120,198"
       ],
       [
        "8",
@@ -6652,12 +6671,12 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Survival, Zombies, Open World",
-       "잔류 · 출시 12년"
+       "잔류 · 출시 12년, 리뷰 161,298"
       ],
       [
        "9",
        "—",
-       "[Valheim](https://store.steampowered.com/app/892970/)",
+       "[Valheim](https://store.steampowered.com/app/892970/) ⊘",
        "Iron Gate AB",
        "2026-09-09",
        "$29.99",
@@ -6667,7 +6686,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Open World Survival Craft, Survival, Online Co-Op",
-       "잔류"
+       "잔류 · 리뷰 267,077"
       ],
       [
        "10 (11→)",
@@ -6687,7 +6706,7 @@
       [
        "11 (10→)",
        "—",
-       "[Slay the Spire 2](https://store.steampowered.com/app/2868840/)",
+       "[Slay the Spire 2](https://store.steampowered.com/app/2868840/) ⊘",
        "Mega Crit",
        "2026-03-05",
        "$24.99",
@@ -6697,12 +6716,12 @@
        "0 .. 20,000",
        "—",
        "Strategy, Early Access",
-       "상승"
+       "상승 · 리뷰 71,487"
       ],
       [
        "12 (14→)",
        "—",
-       "[Schedule I](https://store.steampowered.com/app/3164500/)",
+       "[Schedule I](https://store.steampowered.com/app/3164500/) ⊘",
        "TVGS",
        "2025-03-24",
        "$19.99",
@@ -6712,12 +6731,12 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Simulation, Co-op, Crime",
-       "상승"
+       "상승 · 리뷰 204,071"
       ],
       [
        "13 (15→)",
        "—",
-       "[Palworld](https://store.steampowered.com/app/1623730/)",
+       "[Palworld](https://store.steampowered.com/app/1623730/) ⊘",
        "Pocketpair",
        "2026-07-09",
        "$29.99",
@@ -6727,7 +6746,7 @@
        "50,000,000 .. 100,000,000",
        "—",
        "Open World, Survival, Creature Collector",
-       "상승"
+       "상승 · 리뷰 184,716"
       ],
       [
        "14 (25→)",
@@ -6757,7 +6776,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Horror, Online Co-Op, Multiplayer",
-       "잔류 · 출시 6년"
+       "잔류 · 출시 6년, 리뷰 360,546"
       ],
       [
        "16 (13→)",
@@ -6787,7 +6806,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Farming Sim, Pixel Graphics, Multiplayer",
-       "상승 · 출시 10년"
+       "상승 · 출시 10년, 리뷰 396,322"
       ],
       [
        "18",
@@ -6802,7 +6821,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Automation, Base-Building, Resource Management",
-       "하락 · 정가 $35.00, 출시 6년"
+       "하락 · 정가 $35.00, 출시 6년, 리뷰 118,593"
       ],
       [
        "19",
@@ -6817,7 +6836,7 @@
        "500,000 .. 1,000,000",
        "—",
        "Dinosaurs, Survival, Open World",
-       "상승 · 출시 10년"
+       "상승 · 출시 10년, 리뷰 63,009"
       ],
       [
        "20 (16→)",
@@ -6852,7 +6871,7 @@
       [
        "22 (21→)",
        "—",
-       "[Dispatch](https://store.steampowered.com/app/2592160/)",
+       "[Dispatch](https://store.steampowered.com/app/2592160/) ⊘",
        "AdHoc Studio",
        "2025-10-22",
        "$29.99 −20%",
@@ -6862,7 +6881,7 @@
        "0 .. 20,000",
        "—",
        "Action, Adventure, Casual",
-       "잔류"
+       "잔류 · 리뷰 109,440"
       ],
       [
        "23 (26→)",
@@ -6877,7 +6896,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Open World, Open World Survival Craft, Space",
-       "상승 · 정가 $59.99, 출시 10년"
+       "상승 · 정가 $59.99, 출시 10년, 리뷰 187,144"
       ],
       [
        "24 (23→)",
@@ -6892,7 +6911,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Base-Building, Automation, Open World",
-       "하락 · 정가 $39.99"
+       "하락 · 정가 $39.99, 리뷰 138,489"
       ],
       [
        "25 (22→)",
@@ -6967,7 +6986,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Action Roguelike, Rogue-like, Indie",
-       "하락 · 출시 11년"
+       "하락 · 출시 11년, 리뷰 166,565"
       ],
       [
        "30 (31→)",
@@ -7012,7 +7031,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Turn-Based Combat, Story Rich, Fantasy",
-       "상승 · 할인 동반 · 정가 $49.99"
+       "상승 · 할인 동반 · 정가 $49.99, 리뷰 103,666"
       ],
       [
        "33 (29→)",
@@ -7057,7 +7076,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Open World Survival Craft, Sandbox, Survival",
-       "하락 · 출시 15년"
+       "하락 · 출시 15년, 리뷰 604,853"
       ],
       [
        "36 (39→)",
@@ -7087,7 +7106,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Survival, Open World Survival Craft, Multiplayer",
-       "상승 · 할인 동반 · 출시 10년"
+       "상승 · 할인 동반 · 출시 10년, 리뷰 82,401"
       ],
       [
        "38 (35→)",
@@ -7132,7 +7151,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Free to Play, Multiplayer, Fighting",
-       "하락 · 출시 9년"
+       "하락 · 출시 9년, 리뷰 179,855"
       ],
       [
        "41 (40→)",
@@ -7147,7 +7166,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Survival, Multiplayer, Open World Survival Craft",
-       "상승 · 출시 4년"
+       "상승 · 출시 4년, 리뷰 130,598"
       ],
       [
        "42 (36→)",
@@ -7237,7 +7256,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Base-Building, Cute, Action Roguelike",
-       "상승 · 출시 4년"
+       "상승 · 출시 4년, 리뷰 61,401"
       ],
       [
        "48 (45→)",
@@ -7252,7 +7271,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Sandbox, Moddable, Multiplayer",
-       "상승 · 출시 19년"
+       "상승 · 출시 19년, 리뷰 542,200"
       ],
       [
        "49 (47→)",
@@ -7327,7 +7346,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Action Roguelike, Bullet Hell, Pixel Graphics",
-       "하락 · 출시 4년"
+       "하락 · 출시 4년, 리뷰 128,408"
       ],
       [
        "54",
@@ -7342,7 +7361,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Racing, Automobile Sim, Simulation",
-       "하락 · 출시 11년"
+       "하락 · 출시 11년, 리뷰 61,032"
       ],
       [
        "55",
@@ -7392,7 +7411,7 @@
       [
        "58 (61→)",
        "—",
-       "[Balatro](https://store.steampowered.com/app/2379780/)",
+       "[Balatro](https://store.steampowered.com/app/2379780/) ⊘",
        "LocalThunk",
        "2024-02-20",
        "$14.99",
@@ -7402,7 +7421,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Card Game, Roguelike Deckbuilder, Rogue-like",
-       "상승"
+       "상승 · 리뷰 105,302"
       ],
       [
        "59 (65→)",
@@ -7417,12 +7436,12 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Open World Survival Craft, Survival, Multiplayer",
-       "상승 · 할인 동반 · 출시 9년"
+       "상승 · 할인 동반 · 출시 9년, 리뷰 256,777"
       ],
       [
        "60 (57→)",
        "—",
-       "[Hades II](https://store.steampowered.com/app/1145350/)",
+       "[Hades II](https://store.steampowered.com/app/1145350/) ⊘",
        "Supergiant Games",
        "2025-09-25",
        "$29.99",
@@ -7432,7 +7451,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Action, Rogue-like, Rogue-lite",
-       "상승"
+       "상승 · 리뷰 66,164"
       ],
       [
        "61 (63→)",
@@ -7447,7 +7466,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "VR, Rhythm, Music",
-       "상승 · 출시 7년"
+       "상승 · 출시 7년, 리뷰 53,108"
       ],
       [
        "62 (64→)",
@@ -7477,7 +7496,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Destruction, Physics, Sandbox",
-       "상승 · 출시 4년"
+       "상승 · 출시 4년, 리뷰 76,876"
       ],
       [
        "64 (60→)",
@@ -7492,7 +7511,7 @@
        "1,000,000 .. 2,000,000",
        "—",
        "Exploration, Space, Mystery",
-       "상승 · 출시 6년"
+       "상승 · 출시 6년, 리뷰 53,591"
       ],
       [
        "65 (67→)",
@@ -7522,7 +7541,7 @@
        "10,000,000 .. 20,000,000",
        "—",
        "Driving, Transportation, Simulation",
-       "상승 · 출시 14년"
+       "상승 · 출시 14년, 리뷰 147,058"
       ],
       [
        "67 (66→)",
@@ -7567,7 +7586,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Pixel Graphics, Casual, Management",
-       "상승 · 출시 3년"
+       "상승 · 출시 3년, 리뷰 51,501"
       ],
       [
        "70 (62→)",
@@ -7597,7 +7616,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Difficult, Music, Level Editor",
-       "하락 · 출시 11년"
+       "하락 · 출시 11년, 리뷰 308,394"
       ],
       [
        "72 (68→)",
@@ -7642,7 +7661,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Metroidvania, Souls-like, Platformer",
-       "잔류 · 출시 9년"
+       "잔류 · 출시 9년, 리뷰 185,690"
       ],
       [
        "75 (69→)",
@@ -7672,12 +7691,12 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Great Soundtrack, Story Rich, Choices Matter",
-       "상승 · 할인 동반 · 출시 11년"
+       "상승 · 할인 동반 · 출시 11년, 리뷰 155,344"
       ],
       [
        "77 (76→)",
        "—",
-       "[Hollow Knight: Silksong](https://store.steampowered.com/app/1030300/)",
+       "[Hollow Knight: Silksong](https://store.steampowered.com/app/1030300/) ⊘",
        "Team Cherry",
        "2025-09-04",
        "$19.99",
@@ -7687,7 +7706,7 @@
        "0 .. 20,000",
        "—",
        "Action, Adventure",
-       "하락"
+       "하락 · 리뷰 146,950"
       ],
       [
        "78 (82→)",
@@ -7732,7 +7751,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Open World Survival Craft, Survival, Open World",
-       "하락 · 출시 8년"
+       "하락 · 출시 8년, 리뷰 178,275"
       ],
       [
        "81 (84→)",
@@ -7777,7 +7796,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Difficult, Cartoon, Co-op",
-       "하락 · 출시 9년"
+       "하락 · 출시 9년, 리뷰 66,546"
       ],
       [
        "84 (86→)",
@@ -7822,7 +7841,7 @@
        "20,000,000 .. 50,000,000",
        "—",
        "Action RPG, Loot, Hack and Slash",
-       "상승 · 정가 $34.99"
+       "상승 · 정가 $34.99, 리뷰 59,858"
       ],
       [
        "87 (91→)",
@@ -7957,7 +7976,7 @@
        "2,000,000 .. 5,000,000",
        "—",
        "Turn-Based Combat, Dark Fantasy, Dungeon Crawler",
-       "상승 · 출시 10년"
+       "상승 · 출시 10년, 리뷰 57,363"
       ],
       [
        "96 (100→)",
@@ -8017,7 +8036,7 @@
        "5,000,000 .. 10,000,000",
        "—",
        "Open World Survival Craft, Survival, Horror",
-       "— · 출시 8년"
+       "— · 출시 8년, 리뷰 189,933"
       ],
       [
        "100",
@@ -9668,7 +9687,7 @@
    ]
   }
  ],
- "collect_line": "수집 목록 4/4 정상 · 모집단 535 · 본문 포함 112 · 신작 78 · 제외 134",
+ "collect_line": "수집 목록 4/4 정상 · 모집단 535 · 본문 포함 104 · 신작 75 · 제외 142",
  "series": {
   "n_days": 6,
   "dates": [
@@ -9718,15 +9737,15 @@
      1
     ],
     "How to Fish": [
-     5,
-     4,
+     null,
+     null,
      3,
      3,
      1,
      2
     ],
     "Dressmaker": [
-     2,
+     1,
      1,
      2,
      2,
@@ -9734,59 +9753,59 @@
      3
     ],
     "over the hill": [
+     2,
      3,
-     5,
-     5,
+     4,
      5,
      4,
      4
     ],
     "BOMBANANA!": [
-     4,
      3,
+     2,
      1,
      4,
      5,
      5
     ],
-    "Slay the Spire 2": [
+    "Brick by Brick: Tidy Up the Small Town!": [
+     5,
      7,
-     6,
+     12,
      7,
-     6,
-     6,
+     8,
      6
     ],
-    "Brick by Brick: Tidy Up the Small Town!": [
-     8,
-     10,
-     15,
-     10,
-     11,
+    "MECCHA CHAMELEON": [
+     null,
+     null,
+     9,
+     9,
+     7,
      7
     ],
-    "Palworld": [
-     1,
-     2,
+    "Invokyr": [
      4,
-     7,
-     8,
+     4,
+     6,
+     6,
+     6,
      8
     ],
-    "Valheim": [
+    "Escape the Backrooms": [
+     null,
+     null,
+     13,
      10,
-     11,
      10,
-     9,
-     9,
      9
     ],
-    "MECCHA CHAMELEON": [
-     13,
-     13,
-     12,
-     12,
+    "Machine Party": [
+     11,
      10,
+     16,
+     11,
+     11,
      10
     ]
    },
@@ -9796,24 +9815,24 @@
     "Dressmaker": "4019220",
     "over the hill": "2929250",
     "BOMBANANA!": "4656000",
-    "Slay the Spire 2": "2868840",
     "Brick by Brick: Tidy Up the Small Town!": "5228920",
-    "Palworld": "1623730",
-    "Valheim": "892970",
-    "MECCHA CHAMELEON": "4704690"
+    "MECCHA CHAMELEON": "4704690",
+    "Invokyr": "3883570",
+    "Escape the Backrooms": "1943950",
+    "Machine Party": "4108000"
    }
   },
   "biggest_up": [
    "REKA",
-   105,
-   46,
+   97,
+   38,
    59
   ],
   "biggest_down": [
-   "Core Keeper",
-   15,
-   34,
-   -19
+   "The Witch's Bakery",
+   27,
+   45,
+   -18
   ],
   "pick": {
    "list": "topsellers",
@@ -9842,6 +9861,1583 @@
     389,
     395
    ]
+  }
+ },
+ "thumbs": {
+  "https://store.steampowered.com/app/5335510/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg?t=1792738801"
+  },
+  "https://store.steampowered.com/app/1203620/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/98ca939f51b39bdd41e0e9198a9ccf8421148770/header_alt_assets_2.jpg?t=1792078032"
+  },
+  "https://store.steampowered.com/app/294100/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1782756789"
+  },
+  "https://store.steampowered.com/app/4001890/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1792508550"
+  },
+  "https://store.steampowered.com/app/4019220/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg?t=1792401675"
+  },
+  "https://store.steampowered.com/app/2929250/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg?t=1792666389"
+  },
+  "https://store.steampowered.com/app/252490/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981"
+  },
+  "https://store.steampowered.com/app/4656000/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1792506779"
+  },
+  "https://store.steampowered.com/app/2868840/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/b0958d387dc366211e0f353443710cfcf9fdb020/header.jpg?t=1787169309"
+  },
+  "https://store.steampowered.com/app/413150/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168"
+  },
+  "https://store.steampowered.com/app/5228920/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5228920/8c57f18ab6a1940b328584fe5556f4c87839e1a0/header.jpg?t=1792140551"
+  },
+  "https://store.steampowered.com/app/739630/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/6283e4bf96c6e8160492ae12016f0c9a308a75d9/header_alt_assets_13.jpg?t=1791632508"
+  },
+  "https://store.steampowered.com/app/322330/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/050ea9c51a4e96f707309d33b7cdd38e0a6cbfff/header_alt_assets_51.jpg?t=1792687779"
+  },
+  "https://store.steampowered.com/app/1623730/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367"
+  },
+  "https://store.steampowered.com/app/632360/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/77f4cff7fea7de8a4566d1fb76ace16967604da7/header_alt_assets_7.jpg?t=1791475448"
+  },
+  "https://store.steampowered.com/app/108600/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1787740093"
+  },
+  "https://store.steampowered.com/app/427520/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ab9a2df0a77caebde20dc45adc021de8cdcf7cc5/header.jpg?t=1787348817"
+  },
+  "https://store.steampowered.com/app/892970/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1791544831"
+  },
+  "https://store.steampowered.com/app/4704690/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/163e2a742e5fb8e1f5d1e3a890da98f04ab809d4/header.jpg?t=1789464996"
+  },
+  "https://store.steampowered.com/app/3883570/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg?t=1792307731"
+  },
+  "https://store.steampowered.com/app/648800/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011"
+  },
+  "https://store.steampowered.com/app/1943950/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/f3dac53a5d3e68a4bb67786872b4693260049b26/header.jpg?t=1792608971"
+  },
+  "https://store.steampowered.com/app/227300/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/d3c44cfff95e8223687121b05c80e594d35c4c53/header_alt_assets_9.jpg?t=1792055307"
+  },
+  "https://store.steampowered.com/app/4108000/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/00ae7d0e0fd0ad72635bddb1dd80ee68cc94eed5/header.jpg?t=1790860377"
+  },
+  "https://store.steampowered.com/app/3645890/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3645890/ccf41cdf893f47a5a692f05e2344df5e2fdeb3d9/header_alt_assets_0.jpg?t=1792492815"
+  },
+  "https://store.steampowered.com/app/2592160/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/header.jpg?t=1792683942"
+  },
+  "https://store.steampowered.com/app/105600/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1792530636"
+  },
+  "https://store.steampowered.com/app/1066890/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1066890/4ec180b6bc16ce430f12bfbc88f420c93cb48313/header.jpg?t=1781533387"
+  },
+  "https://store.steampowered.com/app/3949040/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg?t=1789134289"
+  },
+  "https://store.steampowered.com/app/3247750/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/67b1dc819a93d4e855b213b518f25a9700f46434/header.jpg?t=1792618981"
+  },
+  "https://store.steampowered.com/app/4421010/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4421010/fc7d507e465320493fbf224b54d769c043601390/header.jpg?t=1790580659"
+  },
+  "https://store.steampowered.com/app/346110/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1765677889"
+  },
+  "https://store.steampowered.com/app/1794680/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/2ca07b690dde645771125ed9d9206c4c5fde4dd4/header.jpg?t=1787911678"
+  },
+  "https://store.steampowered.com/app/728880/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/9305414f49b2f7aee7f7198dc507d6b66383fdd6/header.jpg?t=1789548883"
+  },
+  "https://store.steampowered.com/app/1217060/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1217060/dd6c1906d262c38c183ccd711f192db187b5103f/header.jpg?t=1792125722"
+  },
+  "https://store.steampowered.com/app/1566200/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1566200/908bbbd1796956e06fc817156054dc9e36773f12/header_alt_assets_1.jpg?t=1792728773"
+  },
+  "https://store.steampowered.com/app/499170/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/deda420d9e42288f4734a068c707f4c156203969/header.jpg?t=1792144507"
+  },
+  "https://store.steampowered.com/app/5258340/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5258340/11ce91f7fb2c45add1b4607a0ba1c26b1c0fcd31/header.jpg?t=1792736726"
+  },
+  "https://store.steampowered.com/app/219740/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219740/88641e235d75934ea9f7ed4e947edfd9da682732/header.jpg?t=1790876891"
+  },
+  "https://store.steampowered.com/app/588650/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg?t=1779086887"
+  },
+  "https://store.steampowered.com/app/646570/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg?t=1774015376"
+  },
+  "https://store.steampowered.com/app/250900/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365"
+  },
+  "https://store.steampowered.com/app/3812600/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/e99dc0e496e4e39fc6f80053ddfd4d5e38fc0125/header.jpg?t=1790169325"
+  },
+  "https://store.steampowered.com/app/3164500/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/header.jpg?t=1785744977"
+  },
+  "https://store.steampowered.com/app/1562430/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/header.jpg?t=1780479732"
+  },
+  "https://store.steampowered.com/app/880940/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/880940/header.jpg?t=1725311353"
+  },
+  "https://store.steampowered.com/app/1903340/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/be3305b02d4db0dffa3458537118423bf2792d7e/header.jpg?t=1782830877"
+  },
+  "https://store.steampowered.com/app/526870/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg?t=1791192059"
+  },
+  "https://store.steampowered.com/app/367520/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684"
+  },
+  "https://store.steampowered.com/app/391540/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg?t=1757349115"
+  },
+  "https://store.steampowered.com/app/2670630/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670630/267eef055b0e5d45cb1c874f816a31dded4bb88e/header.jpg?t=1787758631"
+  },
+  "https://store.steampowered.com/app/376210/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/376210/header.jpg?t=1653237914"
+  },
+  "https://store.steampowered.com/app/4304900/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/f70f4692753e297cd45617fed789c15ce5b1c4c6/header.jpg?t=1792598351"
+  },
+  "https://store.steampowered.com/app/1476970/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1476970/header.jpg?t=1783034427"
+  },
+  "https://store.steampowered.com/app/3678970/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678970/b817bb52f45ee036ec1319010324e86fce8e602c/header_alt_assets_1.jpg?t=1792715315"
+  },
+  "https://store.steampowered.com/app/1145350/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/91ac334a2c137d08968ccc0bc474a02579602100/header.jpg?t=1779901265"
+  },
+  "https://store.steampowered.com/app/292000/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/e05df0c7c70fcf4f56944d0a0c24ff2534b6ab60/header_alt_assets_5.jpg?t=1792676244"
+  },
+  "https://store.steampowered.com/app/1206560/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1206560/header.jpg?t=1727687171"
+  },
+  "https://store.steampowered.com/app/2379780/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/7a85430784e4d613cdb0547414d8cf16ffa45747/header.jpg?t=1790693638"
+  },
+  "https://store.steampowered.com/app/3070070/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/b4f36532c943011a9f1600c2585ca7065ef5b1bb/header.jpg?t=1792032867"
+  },
+  "https://store.steampowered.com/app/1030300/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/7983574d464e6559ac7e24275727f73a8bcca1f3/header.jpg?t=1776125736"
+  },
+  "https://store.steampowered.com/app/1868140/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/81bdb3bce15d27ca1b4554a642d91096e89be229/header.jpg?t=1791478061"
+  },
+  "https://store.steampowered.com/app/2835570/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2835570/header.jpg?t=1783085442"
+  },
+  "https://store.steampowered.com/app/4197610/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197610/2162be8e12b6bcbf696e508a4b6297c378c33bda/header.jpg?t=1777553917"
+  },
+  "https://store.steampowered.com/app/1260320/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1260320/14b53fc1e5d888e5690221350d83eb133b7af683/header_alt_assets_10.jpg?t=1789480764"
+  },
+  "https://store.steampowered.com/app/286160/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/286160/header.jpg?t=1772387518"
+  },
+  "https://store.steampowered.com/app/244210/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg?t=1782208838"
+  },
+  "https://store.steampowered.com/app/1621690/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/header.jpg?t=1791454740"
+  },
+  "https://store.steampowered.com/app/291550/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291550/f6dd1b0a6a2b6e161604b36788276b18d36909cf/header.jpg?t=1789564454"
+  },
+  "https://store.steampowered.com/app/1313140/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/19f32bb477a6e9d058e05193b4e282149bd70644/header.jpg?t=1786554901"
+  },
+  "https://store.steampowered.com/app/4000/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1776868682"
+  },
+  "https://store.steampowered.com/app/3558600/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558600/57deed9f6c4c6a94fba79c492dda70bf2311c435/header.jpg?t=1790252315"
+  },
+  "https://store.steampowered.com/app/1721470/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1721470/00ca34a0c863a8d86c6582904249216d6aa263bd/header.jpg?t=1791907814"
+  },
+  "https://store.steampowered.com/app/322170/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/header.jpg?t=1775300400"
+  },
+  "https://store.steampowered.com/app/2436940/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2436940/cb7dc6f4ed2f0012eb557365966be9b69815f7ae/header.jpg?t=1790681009"
+  },
+  "https://store.steampowered.com/app/275850/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023"
+  },
+  "https://store.steampowered.com/app/2869860/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2869860/1692e630c198bd5a8d6ea33366e374b11a46a28b/header.jpg?t=1766067469"
+  },
+  "https://store.steampowered.com/app/1118520/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/277ab7a2ad1bbce0f4837bb37a3c86d109bd5258/header.jpg?t=1791836776"
+  },
+  "https://store.steampowered.com/app/268910/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg?t=1709068852"
+  },
+  "https://store.steampowered.com/app/2950790/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/e6c9e990560078611472e5dab98e79a405ed33f4/header.jpg?t=1792402828"
+  },
+  "https://store.steampowered.com/app/4968640/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/f271f45d7475a5270df309f6b7634d0a56a8055d/header.jpg?t=1792334006"
+  },
+  "https://store.steampowered.com/app/3097560/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3097560/054cf90dfb2e0de8bf595fcd2cfd1b6853bf2556/header.jpg?t=1783933354"
+  },
+  "https://store.steampowered.com/app/5195600/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195600/46a7e932499272c331584e439bb050d4735f347d/header.jpg?t=1792803036"
+  },
+  "https://store.steampowered.com/app/2622000/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622000/bf2f2f5bd97e0f3be91209888d067a4858235db7/header.jpg?t=1792037033"
+  },
+  "https://store.steampowered.com/app/3115160/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115160/c99bc374ca10d0335fe5e8f37942aea35419e4d4/header.jpg?t=1792399444"
+  },
+  "https://store.steampowered.com/app/4705510/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4705510/acd7fedba57cc1d506f18886ae6c937f754da6c1/header.jpg?t=1791030748"
+  },
+  "https://store.steampowered.com/app/316790/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/316790/header.jpg?t=1731602112"
+  },
+  "https://store.steampowered.com/app/899770/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/899770/3640a35d7cb9775cde6d9bfe23f1b1d8bab6fe17/header_alt_assets_2.jpg?t=1792426633"
+  },
+  "https://store.steampowered.com/app/2162800/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2162800/680ac087db67c922e0340548103235a7529ec5df/header.jpg?t=1788787557"
+  },
+  "https://store.steampowered.com/app/982290/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/982290/a0ae27992426fe5d26e62e4f1689ff55b9866b21/header.jpg?t=1779640596"
+  },
+  "https://store.steampowered.com/app/1084600/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1084600/header.jpg?t=1792297629"
+  },
+  "https://store.steampowered.com/app/620980/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620980/3067664ee110fed550f5c3a1b74340cabd7d53f0/header.jpg?t=1792068532"
+  },
+  "https://store.steampowered.com/app/1859910/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1859910/header.jpg?t=1780993657"
+  },
+  "https://store.steampowered.com/app/1049590/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1049590/72918ebacd0d4f8537969dc8b976ceb98f681cab/header.jpg?t=1789544685"
+  },
+  "https://store.steampowered.com/app/690830/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/a4dcfb5b8a252b9763dd2e5d06dd0e59e0a995c6/header.jpg?t=1792682101"
+  },
+  "https://store.steampowered.com/app/1594320/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594320/9a604b771ff99f83f21020ac2c0a2a54a7d18627/header.jpg?t=1784572847"
+  },
+  "https://store.steampowered.com/app/824270/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/824270/header.jpg?t=1786726218"
+  },
+  "https://store.steampowered.com/app/3948120/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/dc726b9c35076bb0bfbf63a664bbf61638cbc2ab/header_alt_assets_0.jpg?t=1790587008"
+  },
+  "https://store.steampowered.com/app/3483740/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3483740/b3861b297ccb9284cd066c91f57b8b97b8e9fa91/header.jpg?t=1785377115"
+  },
+  "https://store.steampowered.com/app/477160/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/477160/9258286b309480a3ce438c07cb51fadf3ea2f1d1/header_alt_assets_27.jpg?t=1792416519"
+  },
+  "https://store.steampowered.com/app/5064340/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064340/0dd27279063d7b37f3e143571c3848bea4502e9b/header.jpg?t=1792101390"
+  },
+  "https://store.steampowered.com/app/3375110/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375110/5eeea4916eb09d7e1c58550beb2319fda88c07a0/header_alt_assets_0.jpg?t=1792596347"
+  },
+  "https://store.steampowered.com/app/457140/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg?t=1790785089"
+  },
+  "https://store.steampowered.com/app/433340/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433340/header.jpg?t=1758651509"
+  },
+  "https://store.steampowered.com/app/312520/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312520/dc5bd100e86dbdb088e7ff17cdb601e7eb2e00bc/header.jpg?t=1792010382"
+  },
+  "https://store.steampowered.com/app/2407270/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2407270/header.jpg?t=1790139241"
+  },
+  "https://store.steampowered.com/app/2827200/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827200/8a2a6edc97fbf23ea6941974bdf4ed9a6ab34eb4/header.jpg?t=1789724731"
+  },
+  "https://store.steampowered.com/app/2967950/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2967950/87f5e892a4f47f210aa7adfb1f0f2fd5b362d477/header.jpg?t=1791986240"
+  },
+  "https://store.steampowered.com/app/1133870/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1133870/f52f7882547c0ef3ec490d7e0c66cfc3eff36b53/header.jpg?t=1792431851"
+  },
+  "https://store.steampowered.com/app/3669570/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669570/da84f32f1e93388acac5b683e52e9ea143f10f38/header.jpg?t=1789021559"
+  },
+  "https://store.steampowered.com/app/242760/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053"
+  },
+  "https://store.steampowered.com/app/2696050/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2696050/header.jpg?t=1792123210"
+  },
+  "https://store.steampowered.com/app/4425980/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4425980/572123b7cb5884906dc50d3c1747cab4b1bb9751/header.jpg?t=1792142826"
+  },
+  "https://store.steampowered.com/app/3271280/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3271280/0b105208662f52e5f6282d0f3beb2bec5a90c3da/header.jpg?t=1790708707"
+  },
+  "https://store.steampowered.com/app/2198150/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2198150/b3a0326cc6d63ca88973fdee61d09052433abf94/header_alt_assets_0.jpg?t=1790175461"
+  },
+  "https://store.steampowered.com/app/3167020/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3167020/header.jpg?t=1788419722"
+  },
+  "https://store.steampowered.com/app/2643390/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2643390/966ab60972481545b3556e2b71dbe99307ba7ef7/header.jpg?t=1792426515"
+  },
+  "https://store.steampowered.com/app/625960/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/625960/25aa7037cf8dd1df245fa189b69b03eaed5fd135/header.jpg?t=1790180600"
+  },
+  "https://store.steampowered.com/app/1735700/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1735700/4ec07b7ab8091feb176f7ad58b833c52524ffe11/header.jpg?t=1790652224"
+  },
+  "https://store.steampowered.com/app/1222700/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/header.jpg?t=1777323433"
+  },
+  "https://store.steampowered.com/app/1016920/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1016920/header.jpg?t=1789381506"
+  },
+  "https://store.steampowered.com/app/5245810/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5245810/f7f624422d8033d03706758d5f03fe197b48257c/header.jpg?t=1791135247"
+  },
+  "https://store.steampowered.com/app/4207990/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4207990/a284d877e60240ee3b521fc6beacb086fdf9a1f3/header_alt_assets_0.jpg?t=1792670139"
+  },
+  "https://store.steampowered.com/app/5013160/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5013160/0b9d8ae5607debc9304edf94f4a6dd5c8afefdba/header.jpg?t=1792775360"
+  },
+  "https://store.steampowered.com/app/1665190/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1665190/header.jpg?t=1766067405"
+  },
+  "https://store.steampowered.com/app/3552140/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3552140/5be699540829c76a0d5f7ac5db4bbaf23fa76013/header.jpg?t=1782387805"
+  },
+  "https://store.steampowered.com/app/1167630/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167630/38bac946654a2cc775607518fb5c8e4e0a0f9a87/header.jpg?t=1791807602"
+  },
+  "https://store.steampowered.com/app/1435790/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1435790/413708a2da512607f70bb22b29270359586c6e5f/header.jpg?t=1791969592"
+  },
+  "https://store.steampowered.com/app/2725250/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2725250/29049beddb4ece7370fc561f5fa8fedd9e133c6b/header.jpg?t=1791950185"
+  },
+  "https://store.steampowered.com/app/1139980/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139980/dc18aef6ace21b8921369fb4b7f408df80dbe63e/header_alt_assets_1.jpg?t=1792684445"
+  },
+  "https://store.steampowered.com/app/2764460/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/985a3a20945ec9c8e3e898e16cdaffe99d00e884/header.jpg?t=1792743912"
+  },
+  "https://store.steampowered.com/app/977950/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/977950/header.jpg?t=1791568731"
+  },
+  "https://store.steampowered.com/app/4659620/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4659620/e1fc78d7ff003b772b8637de6440c541c25fa0b9/header.jpg?t=1790661667"
+  },
+  "https://store.steampowered.com/app/4113940/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/1ddf28e27d7c8dcc7474171358ef64cc90eabc71/header.jpg?t=1792401439"
+  },
+  "https://store.steampowered.com/app/242640/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242640/header.jpg?t=1778174590"
+  },
+  "https://store.steampowered.com/app/2878450/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2878450/e4dac2f1fb0e602a8af30a1a33eb4800cc09b92e/header.jpg?t=1781904942"
+  },
+  "https://store.steampowered.com/app/2712460/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2712460/3caea5a1a1546493b33b447723cd33a71daf5633/header.jpg?t=1784189613"
+  },
+  "https://store.steampowered.com/app/5044770/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044770/4ff95c9098db8140c41380056e29b55ab7c5f851/header.jpg?t=1791412588"
+  },
+  "https://store.steampowered.com/app/1159690/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/c37f0d9c54c79a8267602beecba728872753f847/header.jpg?t=1791822408"
+  },
+  "https://store.steampowered.com/app/4559140/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4559140/d0dc52625c604bf57727545666bd29e766e7a4d9/header.jpg?t=1782989516"
+  },
+  "https://store.steampowered.com/app/743450/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743450/header.jpg?t=1786381243"
+  },
+  "https://store.steampowered.com/app/2475490/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475490/header.jpg?t=1786624390"
+  },
+  "https://store.steampowered.com/app/860510/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/860510/header.jpg?t=1730127763"
+  },
+  "https://store.steampowered.com/app/3101040/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3101040/header.jpg?t=1789891545"
+  },
+  "https://store.steampowered.com/app/1253220/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1253220/e01bce2a398fd27fe8e2a68a9e85976df8fa131b/header.jpg?t=1792812052"
+  },
+  "https://store.steampowered.com/app/1527950/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1527950/header.jpg?t=1788942263"
+  },
+  "https://store.steampowered.com/app/568220/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/568220/header.jpg?t=1636694188"
+  },
+  "https://store.steampowered.com/app/4199960/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4199960/4bac43ddff058a8f96a9686596ce05a6ca922f41/header.jpg?t=1792701225"
+  },
+  "https://store.steampowered.com/app/2071280/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2071280/a685fb6373db43ecc4d6309d1ca41dd89694f430/header_alt_assets_11.jpg?t=1792157123"
+  },
+  "https://store.steampowered.com/app/3208930/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3208930/9ae3ec85ebba9906952a2f9a32c6041ed3b1f0e9/header.jpg?t=1790734469"
+  },
+  "https://store.steampowered.com/app/2763740/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2763740/header.jpg?t=1778316938"
+  },
+  "https://store.steampowered.com/app/1682970/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1682970/5dba5d394403ee88e60257afd8b2f1e14b34c729/header_alt_assets_0.jpg?t=1792601940"
+  },
+  "https://store.steampowered.com/app/1805320/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/408e4431f9116f0d588e66375491a7ae3d852d59/header.jpg?t=1790242632"
+  },
+  "https://store.steampowered.com/app/4160210/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4160210/9ee76e41d658980856feaf5b4b9380866c428db5/header.jpg?t=1790779707"
+  },
+  "https://store.steampowered.com/app/1713730/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1713730/1cef7bac0a7ccc38387fee0de3570195f728a699/header.jpg?t=1792652437"
+  },
+  "https://store.steampowered.com/app/3299050/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/1ca62da11a7fd1742b3741fcc0d492a47989432c/header.jpg?t=1791980785"
+  },
+  "https://store.steampowered.com/app/1757300/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1757300/d997ec2fb9ac63827f1f697988dd32f43ea9296a/header.jpg?t=1789645435"
+  },
+  "https://store.steampowered.com/app/3946950/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3946950/15ece08bab35f4935d997dc44870d73aed3974bf/header.jpg?t=1788017433"
+  },
+  "https://store.steampowered.com/app/262060/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187"
+  },
+  "https://store.steampowered.com/app/3314790/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1787580462"
+  },
+  "https://store.steampowered.com/app/1911610/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1911610/850231e582a57a22abc5bf597bf6455d280c588c/header.jpg?t=1792488994"
+  },
+  "https://store.steampowered.com/app/3590/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590/header.jpg?t=1777394124"
+  },
+  "https://store.steampowered.com/app/2195120/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195120/f6246e7ab8ceb5ec049b6d379ad42c4d0b28d11b/header_alt_assets_5.jpg?t=1789448180"
+  },
+  "https://store.steampowered.com/app/3971950/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/d60e71e91ee1e1b3edbdeed13e52e3423727be7a/header.jpg?t=1792657035"
+  },
+  "https://store.steampowered.com/app/4800590/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800590/12972366c9e8812cbd1ba7a3e367d7dfc100314a/header.jpg?t=1787575741"
+  },
+  "https://store.steampowered.com/app/3699590/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/49dd898fc6800fb34e599e23b7a015447f8209d5/header.jpg?t=1790314621"
+  },
+  "https://store.steampowered.com/app/3180070/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3180070/fadebc14211b17b5a6603926612ead9294cad9ce/header.jpg?t=1792236930"
+  },
+  "https://store.steampowered.com/app/1158160/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158160/header.jpg?t=1781768008"
+  },
+  "https://store.steampowered.com/app/2201320/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2201320/ab3232570bb8f41f23d39545e6c34f54b0bd4fdf/header.jpg?t=1786456292"
+  },
+  "https://store.steampowered.com/app/629730/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/629730/header.jpg?t=1765901841"
+  },
+  "https://store.steampowered.com/app/4045750/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045750/1ea81d6e40df7f9a4c47804c1f95a934d9843866/header.jpg?t=1789504434"
+  },
+  "https://store.steampowered.com/app/508440/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/508440/header.jpg?t=1730715415"
+  },
+  "https://store.steampowered.com/app/4285690/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4285690/83c3f74745f699f49074f3e37b3795ded1ecc841/header.jpg?t=1790047051"
+  },
+  "https://store.steampowered.com/app/3510740/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3510740/784171963ba639d5da6686da63460bb3ed32268c/header.jpg?t=1790726640"
+  },
+  "https://store.steampowered.com/app/1946560/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1946560/d0fe834d091324ed0e5c9c073728087d1e7745f1/header.jpg?t=1786836443"
+  },
+  "https://store.steampowered.com/app/1478970/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478970/bbfb63b96c107202fd5338eef75c3a1a9a7d067e/header.jpg?t=1792341087"
+  },
+  "https://store.steampowered.com/app/1509960/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1509960/header.jpg?t=1740033204"
+  },
+  "https://store.steampowered.com/app/1140270/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1140270/header.jpg?t=1762876941"
+  },
+  "https://store.steampowered.com/app/2737070/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2737070/8894c5f80045262c8a9f7c2879b495cbaa7745cb/header.jpg?t=1792502809"
+  },
+  "https://store.steampowered.com/app/1274570/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1274570/bb90f9fa36e4c35a5f28cdc38cf75b3eb5c39032/header.jpg?t=1765533474"
+  },
+  "https://store.steampowered.com/app/1256670/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1256670/header.jpg?t=1670980516"
+  },
+  "https://store.steampowered.com/app/4121170/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4121170/803663dce78da494e9d061cf6652ade566b96331/header.jpg?t=1781141362"
+  },
+  "https://store.steampowered.com/app/3819640/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3819640/188e0b6ab9b1909d6da6c54e81856ff0d1401717/header.jpg?t=1792796518"
+  },
+  "https://store.steampowered.com/app/5127370/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5127370/2337f8b06c1e990fef49d00c3e20cdfb0a8430ae/header.jpg?t=1792194392"
+  },
+  "https://store.steampowered.com/app/4364930/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4364930/122dcb70cf78714f4806d286acb107934ce37ff2/header.jpg?t=1791642993"
+  },
+  "https://store.steampowered.com/app/4148240/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148240/a994e29533755a5222da77b7302a486eda38d105/header.jpg?t=1782996373"
+  },
+  "https://store.steampowered.com/app/753640/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341"
+  },
+  "https://store.steampowered.com/app/3981100/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/843d859123e902ca5c15ff53200c4bcb780c3304/header.jpg?t=1784878103"
+  },
+  "https://store.steampowered.com/app/4259190/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259190/9f7d11479e98db4e5798ed936ca69f1ebb5cebe4/header.jpg?t=1791831920"
+  },
+  "https://store.steampowered.com/app/1071870/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1071870/e4534c085670f0ec4a2c4fab343e1342c81ca035/header.jpg?t=1790759691"
+  },
+  "https://store.steampowered.com/app/2069070/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2069070/e75bf90c996a060791ced9f9a6abd9f0581bd6b1/header.jpg?t=1792243239"
+  },
+  "https://store.steampowered.com/app/686810/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686810/7655099ca004b09198b83713ad0d8215b98f7d5f/header_alt_assets_6.jpg?t=1790181050"
+  },
+  "https://store.steampowered.com/app/4817620/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4817620/c42131d24be331249117880f8c8280448c07a8d7/header.jpg?t=1792731606"
+  },
+  "https://store.steampowered.com/app/3917700/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3917700/55e95c6c3ad95fbe93d519e3df67245e5f6a0b6c/header.jpg?t=1791626439"
+  },
+  "https://store.steampowered.com/app/1392860/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1392860/0fd9c7cef7e84dbb6f6d3d3cfde32e247e1305a6/header_alt_assets_1.jpg?t=1790849221"
+  },
+  "https://store.steampowered.com/app/5362060/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362060/85933afd74ec8c156c09d5dc183cdaf570a72af6/header.jpg?t=1791999587"
+  },
+  "https://store.steampowered.com/app/5305770/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305770/4d78d9f9c8be82438d5b87fcf324970b921a5f76/header.jpg?t=1792609613"
+  },
+  "https://store.steampowered.com/app/5087180/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5087180/18547ff45b91de616b6f23a46443338fa1de4aa0/header.jpg?t=1792384050"
+  },
+  "https://store.steampowered.com/app/5373170/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5373170/f6d8e2f27e6f60040ff91accce06ff1cce0f611c/header.jpg?t=1791864229"
+  },
+  "https://store.steampowered.com/app/5131740/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5131740/97d0f20d2ff1859eb3d6b78388799c43147267b5/header.jpg?t=1791622944"
+  },
+  "https://store.steampowered.com/app/5383370/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5383370/38969fa278db5f6fcbe80464c3e905d980269138/header.jpg?t=1792032919"
+  },
+  "https://store.steampowered.com/app/2551970/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2551970/header.jpg?t=1792515580"
+  },
+  "https://store.steampowered.com/app/4236650/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236650/55c41e7000387a840e905717b7d037632880d854/header.jpg?t=1791537637"
+  },
+  "https://store.steampowered.com/app/5408150/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5408150/1ecb13dd3c440f6ba94e8d1a86ef47d018ef65d7/header.jpg?t=1792409778"
+  },
+  "https://store.steampowered.com/app/5005180/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5005180/d9b6edeafec4db93b9cdd7dc6f9b31a3eaa0a32c/header.jpg?t=1790231105"
+  },
+  "https://store.steampowered.com/app/5381250/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381250/b4c250a245cabea6ec4357b08349e9bc71bdaf54/header.jpg?t=1792594666"
+  },
+  "https://store.steampowered.com/app/4987640/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4987640/e95dde623cff5f39b3b740ad7be27e030307a986/header.jpg?t=1792888869"
+  },
+  "https://store.steampowered.com/app/5248430/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5248430/b86d9b9b62d1e76bc461998d23054f1e6f9f0430/header.jpg?t=1792550106"
+  },
+  "https://store.steampowered.com/app/4881270/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4881270/0a9b8232208f133f23966019c13bef3f82ab71ed/header.jpg?t=1792938151"
+  },
+  "https://store.steampowered.com/app/5199280/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5199280/c16b1223136e048c3377d7728a9587819324a6a6/header.jpg?t=1791807742"
+  },
+  "https://store.steampowered.com/app/5355280/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5355280/551e0e02f0d978d1b6d8fcf18583b0f89a248615/header.jpg?t=1792919667"
+  },
+  "https://store.steampowered.com/app/5325200/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5325200/a228b28fd7674666baad196344f08a071a5d2ef7/header.jpg?t=1791638324"
+  },
+  "https://store.steampowered.com/app/2430710/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2430710/5149e97828b1564048a00f94feed8ec8f6879e0b/header.jpg?t=1792681979"
+  },
+  "https://store.steampowered.com/app/4780790/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4780790/ce192f5859bec503d07fedb4b31e95913635dc08/header.jpg?t=1792618574"
+  },
+  "https://store.steampowered.com/app/1446140/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446140/ab58c51ac71f3cd2b063a87ae6267259af446f7b/header.jpg?t=1791574638"
+  },
+  "https://store.steampowered.com/app/4719390/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4719390/57cb9b029984e075845a6df383fdf1fdbda2bd6a/header.jpg?t=1792611704"
+  },
+  "https://store.steampowered.com/app/5278300/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5278300/ed6ac7b597b747e405fc55cb2c7f4babed724eec/header.jpg?t=1792106331"
+  },
+  "https://store.steampowered.com/app/5285750/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5285750/2dce297020bb5e304660c9341da80d58e73aa07f/header.jpg?t=1791145186"
+  },
+  "https://store.steampowered.com/app/4774030/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4774030/1dbac1febc0a764acb39b39aa08d7c1f5a63ba60/header.jpg?t=1792782925"
+  },
+  "https://store.steampowered.com/app/5224210/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5224210/096f2c29eac453b2bac48826bf4f18a1bceb201f/header.jpg?t=1792591748"
+  },
+  "https://store.steampowered.com/app/3866090/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3866090/d378166d3e2a16bc700995c489c240ceb9549ba5/header.jpg?t=1792445088"
+  },
+  "https://store.steampowered.com/app/5396090/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5396090/d98a29cd2ef8fb454b7b25a2f861130ec6c1a1ba/header.jpg?t=1792864649"
+  },
+  "https://store.steampowered.com/app/5000550/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000550/0f79a4ddfa404701a8eabd9973f4037f3a9aee6c/header.jpg?t=1792964186"
+  },
+  "https://store.steampowered.com/app/5408070/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5408070/365467459dbd787f3f576a0d06ec519101e65016/header.jpg?t=1791981794"
+  },
+  "https://store.steampowered.com/app/5347360/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5347360/8a9ffe897a7b048e95c8ad34b101df3283ba936f/header.jpg?t=1791476562"
+  },
+  "https://store.steampowered.com/app/4439360/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4439360/63fe49a716018ba4c6e4b3b832c038179ce4be69/header.jpg?t=1792686441"
+  },
+  "https://store.steampowered.com/app/5389860/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389860/49384d4e39702bce3f5d0e6f041891833b36695c/header.jpg?t=1791805916"
+  },
+  "https://store.steampowered.com/app/5034850/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5034850/b9fad2b99d4524f18d36be9f8419da25d67473b9/header.jpg?t=1792582378"
+  },
+  "https://store.steampowered.com/app/5171280/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171280/8ccc831364a3c0a418201be73f6416ad7fbd62e1/header.jpg?t=1789496191"
+  },
+  "https://store.steampowered.com/app/5391620/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5391620/b913cc10b7654b4f8320cfaf2c938b2780558e36/header.jpg?t=1792193347"
+  },
+  "https://store.steampowered.com/app/5299880/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5299880/28d72c9ee2cdcd88f36d66a9bcc5231e1e4f2af7/header.jpg?t=1792956067"
+  },
+  "https://store.steampowered.com/app/5429970/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5429970/f5b516846b3c66dc11e68a0b9d610bb35c904bd6/header.jpg?t=1792663011"
+  },
+  "https://store.steampowered.com/app/4829810/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4829810/0705f6a0333eea87138189d9925a0a549694b53e/header.jpg?t=1792031248"
+  },
+  "https://store.steampowered.com/app/3721020/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3721020/903e5e5402c51b3d386a0289aca2a024118690ae/header.jpg?t=1792666382"
+  },
+  "https://store.steampowered.com/app/1407560/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407560/f538cb2b25094829ce6cd1b0b87328a62d2819f3/header.jpg?t=1792692535"
+  },
+  "https://store.steampowered.com/app/3590040/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590040/45c9d3a185079d9b33301de31f4c1e19c9690203/header.jpg?t=1792867746"
+  },
+  "https://store.steampowered.com/app/2434930/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2434930/4a43c4caf14cb7029770a482b7bc50525ad685a4/header.jpg?t=1792672053"
+  },
+  "https://store.steampowered.com/app/3712150/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712150/4f175607e231b38c0273828316666dc7b69123b7/header.jpg?t=1792758632"
+  },
+  "https://store.steampowered.com/app/3460540/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460540/85336a2b659dfef0ea72c32450c2730b2b9225dd/header.jpg?t=1792924310"
+  },
+  "https://store.steampowered.com/app/3194080/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3194080/79c17b920e3fa8cea547e422f1b6069ca6c29d65/header.jpg?t=1792963451"
+  },
+  "https://store.steampowered.com/app/4992920/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4992920/cd6aeb5f78be3f84a46c28e86d5b1de566dee6ae/header.jpg?t=1792742136"
+  },
+  "https://store.steampowered.com/app/4174240/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4174240/a7a5e3e3a203219af570816cd78379a0f4941cbf/header.jpg?t=1792966484"
+  },
+  "https://store.steampowered.com/app/5367960/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5367960/383d8afe6a14435bf43ff58fd00bc1937d6be74a/header.jpg?t=1792570484"
+  },
+  "https://store.steampowered.com/app/5171850/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5171850/6d5068e6f6f2d463e2d8d2169d7389b4abadf822/header.jpg?t=1792548384"
+  },
+  "https://store.steampowered.com/app/3370490/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370490/f4b2e1a2a10e5ed882829f32adcdd065b3b24180/header.jpg?t=1792790978"
+  },
+  "https://store.steampowered.com/app/4969270/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4969270/9e0bd0e872f87c65d77e1ba673a151db6afea18c/header.jpg?t=1792571003"
+  },
+  "https://store.steampowered.com/app/4755440/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4755440/256d7220cb2616282b8e4c86ce1be6de03ad8320/header.jpg?t=1792587870"
+  },
+  "https://store.steampowered.com/app/4742590/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4742590/b90e353556938e51ce6684919e5681b6b5f8984a/header.jpg?t=1791390237"
+  },
+  "https://store.steampowered.com/app/5336190/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336190/1ef6f35e078cb50ce7e47ce532405d0372337fdf/header.jpg?t=1792421963"
+  },
+  "https://store.steampowered.com/app/5062910/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062910/13649e0102367e24a68efa120a57d881f3ec1504/header.jpg?t=1791884098"
+  },
+  "https://store.steampowered.com/app/5105330/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5105330/4be233ef9ccbb250a29608229e8429003c564967/header.jpg?t=1792662849"
+  },
+  "https://store.steampowered.com/app/4704520/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704520/481c251d90942aa2a768de63a65dee1a508a91a7/header.jpg?t=1792168066"
+  },
+  "https://store.steampowered.com/app/5336080/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5336080/cf2603371e8844d46f39bac818a4752a888c4270/header.jpg?t=1792172907"
+  },
+  "https://store.steampowered.com/app/5111110/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5111110/c0e0573e88efb0dd32338339559b7dd7e684c0c0/header.jpg?t=1792880269"
+  },
+  "https://store.steampowered.com/app/5130650/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130650/a975c5449b15b48e4c8fabac4d0d829e4544483b/header.jpg?t=1789567969"
+  },
+  "https://store.steampowered.com/app/4634660/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634660/039864eac08427d049f9377ef23116b564e28c8c/header.jpg?t=1792729710"
+  },
+  "https://store.steampowered.com/app/4711310/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4711310/4e45f01bd6883224bc5753b6fb4b49e660d4d506/header.jpg?t=1790968193"
+  },
+  "https://store.steampowered.com/app/4677860/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4677860/402b59c5b6a97e6bbf44c48d4456faaa7979845e/header.jpg?t=1792406596"
+  },
+  "https://store.steampowered.com/app/5127570/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5127570/c588b5a3a0a9b50d55e20e31082096e1f523dc99/header.jpg?t=1792575847"
+  },
+  "https://store.steampowered.com/app/5015190/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5015190/1d066f14c398413e8b15ce7c2546aead6f88c49e/header.jpg?t=1792761629"
+  },
+  "https://store.steampowered.com/app/2401350/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2401350/618d9b455772860b6890210c841e3bc621db6478/header.jpg?t=1792574955"
+  },
+  "https://store.steampowered.com/app/3310570/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3310570/099222477ad986b53ecf83539e66947b9536deed/header.jpg?t=1792492027"
+  },
+  "https://store.steampowered.com/app/3760770/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3760770/f773d11996ef2bd826e1cb77079c585b7ac3b9a0/header.jpg?t=1792611908"
+  },
+  "https://store.steampowered.com/app/5048870/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048870/33174ae89a52d6cd75ea662edc94500edfb3215d/header.jpg?t=1789985136"
+  },
+  "https://store.steampowered.com/app/4895300/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4895300/33a2362f7b9b7e64875816a86abc7b3b933c4c46/header.jpg?t=1792409368"
+  },
+  "https://store.steampowered.com/app/5355200/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5355200/58bba9e4c422d61c77ee9c7559750bdd388db283/header.jpg?t=1792067276"
+  },
+  "https://store.steampowered.com/app/4326130/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4326130/1c1e6ba872dd1f87fba104bfb486c6526f9898c1/header.jpg?t=1791743300"
+  },
+  "https://store.steampowered.com/app/4485570/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4485570/2d29ad1bfce8e915ef45c42dffeb0d34126d2e47/header.jpg?t=1792969714"
+  },
+  "https://store.steampowered.com/app/2765990/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2765990/049f81e4cdb52da263244feb08b1fe7642857154/header.jpg?t=1792515368"
+  },
+  "https://store.steampowered.com/app/5391120/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5391120/b1f4174b1cdb0e859095fa9156ce5a3c38489f3e/header.jpg?t=1792089216"
+  },
+  "https://store.steampowered.com/app/5352720/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5352720/c32da40c24de551d8f029740d528d436ad0603f9/header.jpg?t=1792534291"
+  },
+  "https://store.steampowered.com/app/5394900/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5394900/a038c7c1d4c027fe82359e56c671ab52d3a30856/header.jpg?t=1792786526"
+  },
+  "https://store.steampowered.com/app/4840960/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4840960/d3da633124d67db8afac834c4c6be860e71b4c85/header.jpg?t=1788483233"
+  },
+  "https://store.steampowered.com/app/4968160/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968160/8864d2a3bd79587013f9c460e80d21f8d38ef866/header.jpg?t=1792510689"
+  },
+  "https://store.steampowered.com/app/5176280/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5176280/a405ee035bad7826f2c5d4a24f7b019ae82486e0/header.jpg?t=1792921004"
+  },
+  "https://store.steampowered.com/app/5108270/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5108270/ad55a6ed1de3771cf3126161f8b1efea50fb211d/header.jpg?t=1792596350"
+  },
+  "https://store.steampowered.com/app/5080430/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5080430/b12b0b5add858eba5e4913933ba82010934816d9/header.jpg?t=1792776918"
+  },
+  "https://store.steampowered.com/app/4949930/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4949930/3f8f8526188bc9c755ee4438bf120e1e3a5fbc68/header.jpg?t=1792944075"
+  },
+  "https://store.steampowered.com/app/4821630/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4821630/42f884e9b7c096ad5761d692712360912b10b9a6/header.jpg?t=1792913972"
+  },
+  "https://store.steampowered.com/app/4927070/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4927070/8dac08cc3309b35f00cfcdb1d3bfdef04fc9884a/header.jpg?t=1791493433"
+  },
+  "https://store.steampowered.com/app/5155450/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155450/07659699901f53c0a80d4e0222d1f461b85e20d6/header.jpg?t=1792763543"
+  },
+  "https://store.steampowered.com/app/5012790/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5012790/bd35ee2c85246dfabcb4b5ef5d32d68a562f62bf/header.jpg?t=1790984767"
+  },
+  "https://store.steampowered.com/app/3628640/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3628640/2753df7a54a1977b5a64b113c4a2f6b359fc7fa9/header.jpg?t=1792599308"
+  },
+  "https://store.steampowered.com/app/5230820/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230820/86023e8ac80c8eed9f6e9f006d65ec019397467c/header.jpg?t=1792625408"
+  },
+  "https://store.steampowered.com/app/4630260/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630260/ece5454a70edba6322ad190acccd60949ad7ffee/header.jpg?t=1792663078"
+  },
+  "https://store.steampowered.com/app/3758440/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3758440/b4ef57e452b2248b9814f7ea5185b2cf85036aeb/header.jpg?t=1792943821"
+  },
+  "https://store.steampowered.com/app/5085310/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085310/a70f2c1b9621bc07e9f5a08f46886d4b900f1070/header.jpg?t=1792453948"
+  },
+  "https://store.steampowered.com/app/5377010/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5377010/9018be0700110ab57eb959cc5b9c28898b8f2139/header.jpg?t=1792189885"
+  },
+  "https://store.steampowered.com/app/4088450/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088450/c9e87d3ec580c6b284bb4bd128d4618746206722/header.jpg?t=1791471734"
+  },
+  "https://store.steampowered.com/app/4656810/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656810/cca41b35426d8dfd36aa870dd43f4032327b68f8/header.jpg?t=1792557502"
+  },
+  "https://store.steampowered.com/app/2553750/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2553750/69d19bb6b45873d5955b2724fc59a524126c11a8/header.jpg?t=1792726998"
+  },
+  "https://store.steampowered.com/app/5173940/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5173940/a1eec5e3787ddc7de07ad93ba73c035a65233096/header.jpg?t=1792155854"
+  },
+  "https://store.steampowered.com/app/5398150/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398150/de758e0c08d639c73024306fe76c9b3f6976a34b/header.jpg?t=1792932608"
+  },
+  "https://store.steampowered.com/app/4728390/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4728390/1c48aa16a22f2ec5740c4255b184dc785e0cc650/header.jpg?t=1792239433"
+  },
+  "https://store.steampowered.com/app/4024120/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4024120/8e962b65bf63844cebc0a548dd3ed2a4821aa2b6/header.jpg?t=1792644948"
+  },
+  "https://store.steampowered.com/app/4075620/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/94f8d81bbadbc37f1f0ae0a5df30bda1ff4af186/header.jpg?t=1787743588"
+  },
+  "https://store.steampowered.com/app/371970/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371970/0f8975e4b2af32eb0d68c309f1eff56d470e73dc/header.jpg?t=1785259607"
+  },
+  "https://store.steampowered.com/app/2421750/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2421750/485415c36bcefe36cbed8d8cef7d1b1eb2169c83/header.jpg?t=1789059640"
+  },
+  "https://store.steampowered.com/app/264710/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112"
+  },
+  "https://store.steampowered.com/app/1332010/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330"
+  },
+  "https://store.steampowered.com/app/313120/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/313120/header.jpg?t=1785441084"
+  },
+  "https://store.steampowered.com/app/881100/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881100/header.jpg?t=1675987871"
+  },
+  "https://store.steampowered.com/app/1243830/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1243830/header.jpg?t=1788969190"
+  },
+  "https://store.steampowered.com/app/4621970/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4621970/0be0aba878742d32412f1513737df1a7940bc0f0/header.jpg?t=1792469890"
+  },
+  "https://store.steampowered.com/app/1270580/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270580/header.jpg?t=1790285397"
+  },
+  "https://store.steampowered.com/app/285900/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285900/header.jpg?t=1780410654"
+  },
+  "https://store.steampowered.com/app/1931770/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1931770/header.jpg?t=1774006124"
+  },
+  "https://store.steampowered.com/app/2008980/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2008980/header.jpg?t=1789415098"
+  },
+  "https://store.steampowered.com/app/2163330/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2163330/d14101ee67beb9c952fd8e38ec015777356430a0/header.jpg?t=1792445075"
+  },
+  "https://store.steampowered.com/app/1805110/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/9512e707770080499c95c50976ff1b6f712a95ba/header.jpg?t=1791886112"
+  },
+  "https://store.steampowered.com/app/3582250/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582250/4c806f6e13bab2fcc6c6b1367af92670567d5d0a/header.jpg?t=1792356892"
+  },
+  "https://store.steampowered.com/app/1040200/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1040200/a305a7831bee10a091625950d6cd3cdb97f72a22/header.jpg?t=1790922726"
+  },
+  "https://store.steampowered.com/app/504230/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525"
+  },
+  "https://store.steampowered.com/app/1876590/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1876590/6713ffc246362e5fb5f370c9f579c218cf0abc3b/header_alt_assets_0.jpg?t=1792501401"
+  },
+  "https://store.steampowered.com/app/3265700/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3265700/5590e42cab09dacabee973dd2c3e27ef12ed4950/header.jpg?t=1776925935"
+  },
+  "https://store.steampowered.com/app/282140/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282140/header.jpg?t=1786607913"
+  },
+  "https://store.steampowered.com/app/641990/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641990/header.jpg?t=1791478007"
+  },
+  "https://store.steampowered.com/app/436780/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/436780/55f4b5f3e37fca3624a966699eaf196692eb715b/header_alt_assets_1.jpg?t=1791434713"
+  },
+  "https://store.steampowered.com/app/4771580/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771580/d8904885f648a26cc0c235669239f8befc5e15e8/header.jpg?t=1792204505"
+  },
+  "https://store.steampowered.com/app/4627110/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4627110/b47a56668edcbd1e66a212907aa627d10259de97/header.jpg?t=1792413364"
+  },
+  "https://store.steampowered.com/app/581320/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581320/header_alt_assets_3.jpg?t=1791994390"
+  },
+  "https://store.steampowered.com/app/2295060/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295060/8880f2690c52f88a55d292651250a14fecb9918a/header.jpg?t=1792742378"
+  },
+  "https://store.steampowered.com/app/2005010/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2005010/64c6d62c6350071313c65078cf21fbc362c92331/header_alt_assets_3.jpg?t=1791993717"
+  },
+  "https://store.steampowered.com/app/1286220/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286220/header.jpg?t=1791531676"
+  },
+  "https://store.steampowered.com/app/206440/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206440/header.jpg?t=1792212569"
+  },
+  "https://store.steampowered.com/app/2634950/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2634950/aae5577300b99489952bca138e8350317071d957/header.jpg?t=1790326750"
+  },
+  "https://store.steampowered.com/app/1782460/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782460/ad535db40678e4c07263cd6378194d2f3924a36b/header_alt_assets_0.jpg?t=1792677583"
+  },
+  "https://store.steampowered.com/app/979110/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979110/73529f7afc14ec281cad99fe0284cbed06c552f0/header.jpg?t=1779957549"
+  },
+  "https://store.steampowered.com/app/774361/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774361/header.jpg?t=1780479368"
+  },
+  "https://store.steampowered.com/app/293760/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/293760/02f9dd0ca23ad63eb9db71527abafd3a3833e19a/header.jpg?t=1766012305"
+  },
+  "https://store.steampowered.com/app/410340/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/410340/header.jpg?t=1786613087"
+  },
+  "https://store.steampowered.com/app/303310/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/303310/header.jpg?t=1790274178"
+  },
+  "https://store.steampowered.com/app/1215940/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1215940/463f75c014bc0ee1c6daf2ccda036edb28a0bb36/header.jpg?t=1791579249"
+  },
+  "https://store.steampowered.com/app/2273430/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2273430/header.jpg?t=1786597631"
+  },
+  "https://store.steampowered.com/app/220200/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/header.jpg?t=1738037585"
+  },
+  "https://store.steampowered.com/app/2008920/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2008920/a5346a6109802bb1711c391156814023073518be/header.jpg?t=1759241374"
+  },
+  "https://store.steampowered.com/app/2445690/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445690/f6619cdbb283b34d8fc5bdd12472127a2efd0866/header.jpg?t=1791450661"
+  },
+  "https://store.steampowered.com/app/1948280/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1948280/header.jpg?t=1769357052"
+  },
+  "https://store.steampowered.com/app/809230/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/809230/header.jpg?t=1791969552"
+  },
+  "https://store.steampowered.com/app/3614130/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3614130/27973256e94119676987b07b0fa4ae2816539f68/header.jpg?t=1792083950"
+  },
+  "https://store.steampowered.com/app/632470/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/816ea59d6d8ac525f79a07c3a7afa94eddb3437c/header.jpg?t=1780913406"
+  },
+  "https://store.steampowered.com/app/5020310/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5020310/5120fdb5c1622bf7317187323aac962b3034fb93/header.jpg?t=1790943462"
+  },
+  "https://store.steampowered.com/app/1013320/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1013320/e7c2c166bbdff64803d2b7662a861379b28354a7/header.jpg?t=1792151182"
+  },
+  "https://store.steampowered.com/app/311690/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311690/471d245bd8a37011c16852694342e5ad2d8a4667/header.jpg?t=1779733990"
+  },
+  "https://store.steampowered.com/app/3065940/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/3ee3f9540ec1100225c9e3ab2f4028c133b0f226/header.jpg?t=1792069746"
+  },
+  "https://store.steampowered.com/app/5365780/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5365780/045cd4bfac8e2940f3f6bad77eafd6cb0501fc62/header.jpg?t=1792707005"
+  },
+  "https://store.steampowered.com/app/5373530/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5373530/a4d64845fe164e3ccae5b23c7bc8d7a17ed21977/header.jpg?t=1792567455"
+  },
+  "https://store.steampowered.com/app/5305740/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5305740/1f964b5d71f1530d0f8b85e145dd1b1d1987c36c/header.jpg?t=1792563383"
+  },
+  "https://store.steampowered.com/app/5404530/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404530/a84c3562741ec01f255b889177bab9c3041db7ee/header.jpg?t=1792690281"
+  },
+  "https://store.steampowered.com/app/4409620/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4409620/166384d5f326f7e40694117bee11e96b354e3230/header.jpg?t=1792576275"
+  },
+  "https://store.steampowered.com/app/5081300/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5081300/671e78705892fa6cfff3b73130066802d01cb6fa/header.jpg?t=1792555946"
+  },
+  "https://store.steampowered.com/app/4338180/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4338180/6e803c75fadd3dfed032291e1b3ab3c6e88afb52/header.jpg?t=1792738219"
+  },
+  "https://store.steampowered.com/app/5297320/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5297320/d8883bbe22d5e4b04626dfa013804f72122047e1/header.jpg?t=1792587671"
+  },
+  "https://store.steampowered.com/app/5354400/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5354400/d4b4e871f7fdbbff081ed931bc812604bae206e6/header.jpg?t=1792681272"
+  },
+  "https://store.steampowered.com/app/4731510/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731510/42a3a96d1c5a7eebc927538ff3f9cdf60d437907/header.jpg?t=1791800422"
+  },
+  "https://store.steampowered.com/app/5227910/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5227910/f054c5d99bae50c631d3e15fdfa6b8d01c96833d/header.jpg?t=1792548894"
+  },
+  "https://store.steampowered.com/app/3996640/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3996640/cb8cd79b0f568e30d4d42adcc18d85e6a724076d/header.jpg?t=1792594319"
+  },
+  "https://store.steampowered.com/app/4859550/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4859550/690847db0473b6f57e64c8153ca15a2faf85939a/header.jpg?t=1792567409"
+  },
+  "https://store.steampowered.com/app/5381850/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5381850/68f8ddb9f80d110dabf91cc3661117992f0ea3f2/header.jpg?t=1792652543"
+  },
+  "https://store.steampowered.com/app/4087210/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4087210/786e06b3d16871eba730d58e376c4f1864ef1908/header.jpg?t=1792944035"
+  },
+  "https://store.steampowered.com/app/5101820/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5101820/e9e9f35f9e7c34670d9e4f3883ccd6d5da4cbd76/header.jpg?t=1792595100"
+  },
+  "https://store.steampowered.com/app/5329480/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5329480/f37f54c38b0f16d99d114aa2d1e5404e08b17b62/header.jpg?t=1792624991"
+  },
+  "https://store.steampowered.com/app/3907910/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3907910/7098f4bd933041239863d631b64d971f4efde566/header.jpg?t=1792594556"
+  },
+  "https://store.steampowered.com/app/4509200/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4509200/da134b47eb2f899f07ce9cc689613802b1c5aa3b/header.jpg?t=1792597763"
+  },
+  "https://store.steampowered.com/app/5132990/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5132990/54ca111c34b6ae55d3428de215b35ac5ba3d5f07/header.jpg?t=1792602191"
+  },
+  "https://store.steampowered.com/app/5364370/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5364370/a758a290b42769bddb19abae023604527249a25a/header.jpg?t=1792597625"
+  },
+  "https://store.steampowered.com/app/5278050/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5278050/01bb777372e81630090407e319dffab266a61236/header.jpg?t=1792733509"
+  },
+  "https://store.steampowered.com/app/4642780/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4642780/a8016a2e27b7129f4ac42442c8e3d2e02d0b50ea/header.jpg?t=1792622748"
+  },
+  "https://store.steampowered.com/app/5279620/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5279620/dad2740197c7c8ea38fa329bed0316c27fdfb8a0/header.jpg?t=1792601829"
+  },
+  "https://store.steampowered.com/app/5364850/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5364850/64421465c6952303cf176c531de2be84d98330ad/header.jpg?t=1792625809"
+  },
+  "https://store.steampowered.com/app/5341070/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5341070/3ac6e7dfb8775d231d40291418d2036a280c23a8/header.jpg?t=1792597951"
+  },
+  "https://store.steampowered.com/app/1564060/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1564060/87552c12062559bbc008c27b8fdabd0ef102f9a5/header.jpg?t=1792679972"
+  },
+  "https://store.steampowered.com/app/5341000/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5341000/1c3f1b08985d4cc17d30db665ed04cf12d2a39b8/header.jpg?t=1792608529"
+  },
+  "https://store.steampowered.com/app/5346530/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5346530/3ca544c3b0c67086a030b1f081cd45ade42535ee/header.jpg?t=1792655281"
+  },
+  "https://store.steampowered.com/app/4303660/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4303660/1ec61acac5aa749c8d7ebd2fc75b6efa3c9e7b86/header.jpg?t=1792615544"
+  },
+  "https://store.steampowered.com/app/4247410/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4247410/403fbac62445f9e2028f0ff4c46e3d13100699b3/header.jpg?t=1788961040"
+  },
+  "https://store.steampowered.com/app/2488560/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488560/7d4532ca058c6e3f11c18357010299afbb8c858b/header.jpg?t=1792696351"
+  },
+  "https://store.steampowered.com/app/5144200/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5144200/e78f7a3b6c6353ae89bd93d8f8f114d7aa7b0be6/header.jpg?t=1792691177"
+  },
+  "https://store.steampowered.com/app/5409020/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5409020/bf4f11534b1e4f5fff6b8261f9dde8bdbf17dc42/header.jpg?t=1792923539"
+  },
+  "https://store.steampowered.com/app/5208860/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5208860/f4c9d3ef912ce19da37b48605f2d743b6a28b49f/header.jpg?t=1792628016"
+  },
+  "https://store.steampowered.com/app/5283650/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5283650/329b5633f376e4af067ee07968f208fa79c3f3a6/header.jpg?t=1792760253"
+  },
+  "https://store.steampowered.com/app/5292500/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292500/eb23335b6dccdf4f93d2e6832f6ba1655f25c15a/header.jpg?t=1792716487"
+  },
+  "https://store.steampowered.com/app/5104990/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5104990/713033ce1790ef08a0d127b1cc9e84a33b1bac54/header.jpg?t=1792640734"
+  },
+  "https://store.steampowered.com/app/5377200/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5377200/d8ebe255c762b643c146b33b20c87403e33d30ff/header.jpg?t=1792652420"
+  },
+  "https://store.steampowered.com/app/5362280/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362280/904a30be8ab26067e69170b8ee6e022e23d1f715/header.jpg?t=1792596673"
+  },
+  "https://store.steampowered.com/app/3844890/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844890/8981ac48f388ebeb95f78d3ea7aaa746af01b7dd/header.jpg?t=1792664230"
+  },
+  "https://store.steampowered.com/app/5352190/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5352190/fbdc5d2a3c3fe1091fa2d9f34888ed5de5dd1ea3/header.jpg?t=1792659641"
+  },
+  "https://store.steampowered.com/app/5291460/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5291460/9d0060fa2f40c4a265b37e4a18b3de332d6fc2cf/header.jpg?t=1792688378"
+  },
+  "https://store.steampowered.com/app/3596870/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3596870/dc827bb9679c784294f4c2bbc48769d90ecfd04f/header.jpg?t=1792656716"
+  },
+  "https://store.steampowered.com/app/5306880/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5306880/cbfc0f092d601eec228059eb446872ef96ca6b6d/header.jpg?t=1792920293"
+  },
+  "https://store.steampowered.com/app/5352440/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5352440/b2833d24b4424d21f1fad246479bae4bbfd3dda2/header.jpg?t=1792663350"
+  },
+  "https://store.steampowered.com/app/2451700/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451700/24233d71dbbca027d94c84ec5ed86c4b6f4da227/header.jpg?t=1792660078"
+  },
+  "https://store.steampowered.com/app/5328990/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5328990/af5f51ef1d53f336ca092b9598f75924774fcef6/header.jpg?t=1792663357"
+  },
+  "https://store.steampowered.com/app/5367850/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5367850/eaf3901b2b50ea921a0d6d5d6b18133b01891565/header.jpg?t=1792915953"
+  },
+  "https://store.steampowered.com/app/4413070/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4413070/eafe4055368253f0b2cf0923cdbeaf6dd4e3c378/header.jpg?t=1792742055"
+  },
+  "https://store.steampowered.com/app/3690870/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3690870/6c69ae74112d18c2e10a90f26a3fb88efe09b73b/header.jpg?t=1792674107"
+  },
+  "https://store.steampowered.com/app/5365190/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5365190/42bb79b1252d8e3a0bac14b847022593c8298404/header.jpg?t=1792450520"
+  },
+  "https://store.steampowered.com/app/4560000/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560000/9b9f47c68c3e3f236b44663c5169a55e11d22ca5/header.jpg?t=1792661388"
+  },
+  "https://store.steampowered.com/app/5301680/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5301680/6645493943340001121b0a3c50f453d3928d1cf3/header.jpg?t=1792651100"
+  },
+  "https://store.steampowered.com/app/5100710/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5100710/0cf211a2da572ca0f778b3ffdffe2252307292a2/header.jpg?t=1792678182"
+  },
+  "https://store.steampowered.com/app/5215390/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5215390/695fd6585cb2d460febf23a414a6ee9e3ff563a3/header.jpg?t=1792700120"
+  },
+  "https://store.steampowered.com/app/4977840/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4977840/204654d5c003ebbc786c37299daef0483ef05bc4/header.jpg?t=1792676681"
+  },
+  "https://store.steampowered.com/app/3911820/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3911820/dc1fc04f1b3eae37dc7b146be50b71a0584923be/header.jpg?t=1792683362"
+  },
+  "https://store.steampowered.com/app/5339480/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5339480/99b944470cc7c68a340a4416af74d4bb34e343fc/header.jpg?t=1792682604"
+  },
+  "https://store.steampowered.com/app/5386200/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5386200/0d9b58b839371c9557d969c2ffe53da0482cf0aa/header.jpg?t=1791869892"
+  },
+  "https://store.steampowered.com/app/5287260/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5287260/f792016cf408ffb21db13a0c2550151628af4ae9/header.jpg?t=1792631334"
+  },
+  "https://store.steampowered.com/app/5273460/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5273460/8aab1e6b2a0f9651f6e3b63608eb42b5e87f1cd5/header.jpg?t=1792684966"
+  },
+  "https://store.steampowered.com/app/4756450/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4756450/5335395542a90d678a24e2c3c6eab509a0565619/header.jpg?t=1792684827"
+  },
+  "https://store.steampowered.com/app/2428110/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2428110/142f5745f08ac57d0ddac41a2759f1cb0e2d4d8e/header.jpg?t=1792778885"
+  },
+  "https://store.steampowered.com/app/5134280/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5134280/3b0f700c77c279743937061db247389c0da3ee47/header.jpg?t=1792667429"
+  },
+  "https://store.steampowered.com/app/5140670/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5140670/80715674282ce8f78a3c157261fec5287cfdc26f/header.jpg?t=1792688445"
+  },
+  "https://store.steampowered.com/app/4629050/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4629050/1260c5cbc8b50c58c25c11215b12909d836bc259/header.jpg?t=1792690666"
+  },
+  "https://store.steampowered.com/app/5382570/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5382570/666c65befaf3f47fe27d37bca31ec6cdb34a1e4b/header.jpg?t=1792713784"
+  },
+  "https://store.steampowered.com/app/5176820/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5176820/94adab4a4b28d9b3a64dbe75bc6df91ac7eef1a1/header.jpg?t=1792468074"
+  },
+  "https://store.steampowered.com/app/5313320/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5313320/2a8302d50df9898a7a96066988112a7e03f1f97f/header.jpg?t=1792744141"
+  },
+  "https://store.steampowered.com/app/5269280/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5269280/3420c40f41d6d5dbc7df275d927a664079e24f34/header.jpg?t=1792678286"
+  },
+  "https://store.steampowered.com/app/5101180/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5101180/6a668de56c4f38bc2ffbf817d4254937950cfc5f/header_alt_assets_0.jpg?t=1792688603"
+  },
+  "https://store.steampowered.com/app/3827330/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3827330/549c2e5862c858d3c5e154162a6054f223388e45/header.jpg?t=1792688195"
+  },
+  "https://store.steampowered.com/app/5327800/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5327800/0b35b12a24e4047ba8e2e81601c4fbbe5abf10e5/header.jpg?t=1792690018"
+  },
+  "https://store.steampowered.com/app/5347940/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5347940/a511f90ca738efd39400b90be191403a5ab796d9/header.jpg?t=1792683654"
+  },
+  "https://store.steampowered.com/app/2420580/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420580/f376a4c40cc801aa5f83a6a120afce4624a5f17f/header.jpg?t=1792689104"
+  },
+  "https://store.steampowered.com/app/5358030/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5358030/4391375f4d14c46e75de48000347490246c29913/header.jpg?t=1792882977"
+  },
+  "https://store.steampowered.com/app/3280980/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280980/91b302301500c60e77a4297f021cb7faf294bc05/header.jpg?t=1792688424"
+  },
+  "https://store.steampowered.com/app/5231450/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231450/ffd7652adca956e1da27ce196c3d3b2e39fb6c4f/header.jpg?t=1792659882"
+  },
+  "https://store.steampowered.com/app/5260110/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5260110/40b725fbf030f2509e2da2b39cb5433645b21a39/header.jpg?t=1792627577"
+  },
+  "https://store.steampowered.com/app/5383020/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5383020/3aaf3b49661f03515d0bab87a1e1c5e56c3404da/header.jpg?t=1792591170"
+  },
+  "https://store.steampowered.com/app/5383030/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5383030/eaace9dd58646b2c53b072204ab97e9fdff9a594/header.jpg?t=1792565197"
+  },
+  "https://store.steampowered.com/app/5364150/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5364150/76f0a89e829c50feb0aed7e768470fe381206d1f/header.jpg?t=1792674281"
+  },
+  "https://store.steampowered.com/app/4541170/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4541170/210725fc10840b525271960e04feafaf3016b6f9/header.jpg?t=1792747319"
+  },
+  "https://store.steampowered.com/app/5222980/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5222980/fa5724184a958a5b789cc0fc367e961603f65e4c/header.jpg?t=1789223499"
+  },
+  "https://store.steampowered.com/app/5303370/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5303370/2889f4323b082b07ee1d30308218ac2edbf84933/header.jpg?t=1792733441"
+  },
+  "https://store.steampowered.com/app/5377090/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5377090/8ed9a9748d2a941a6177695843b4254da307b67e/header.jpg?t=1792700721"
+  },
+  "https://store.steampowered.com/app/5403390/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5403390/887af810f7835ee189889c6d7c61831c903f2316/header.jpg?t=1792738872"
+  },
+  "https://store.steampowered.com/app/5132600/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5132600/16c2c6a0cff3a5700e5736a74bbbdaa5fbb2d0a1/header.jpg?t=1792778424"
+  },
+  "https://store.steampowered.com/app/5406050/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5406050/5345df463076f9cbf3d2b5fa31e7dfd04ad9f64b/header.jpg?t=1792893061"
+  },
+  "https://store.steampowered.com/app/4006760/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4006760/148ca38f8e5db44f0624ac4683ecfe54600e54af/header.jpg?t=1792737030"
+  },
+  "https://store.steampowered.com/app/4314340/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4314340/15ab72b1be0e4313d2f804446ce0ec5936da22a9/header.jpg?t=1792766497"
+  },
+  "https://store.steampowered.com/app/5207010/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5207010/8d7d744bb2669b4ca93f17edc35499ae2d401e0f/header.jpg?t=1792742185"
+  },
+  "https://store.steampowered.com/app/5295940/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5295940/5064c717f1ed3705d2814fdc9ee7f7feaa6d845e/header.jpg?t=1792746024"
+  },
+  "https://store.steampowered.com/app/5236110/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5236110/96d6e31b41ef998c61595ad2b74b8437619be595/header.jpg?t=1790930658"
+  },
+  "https://store.steampowered.com/app/5389350/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389350/2c6ba3de66a50d18739847ba3f341ec7453c0edf/header.jpg?t=1791972262"
+  },
+  "https://store.steampowered.com/app/1569580/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/879ac248a3b548a6bbc32771b950756378e7e922/header.jpg?t=1783605097"
+  },
+  "https://store.steampowered.com/app/868360/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868360/header.jpg?t=1782218252"
+  },
+  "https://store.steampowered.com/app/1272160/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272160/header.jpg?t=1784827333"
+  },
+  "https://store.steampowered.com/app/4119420/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4119420/43179ff7ff2c9e3aa5cb25d3b868b1c4500193a9/header.jpg?t=1792072081"
+  },
+  "https://store.steampowered.com/app/200210/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200210/33ad01fe9223a7a117ff7de46d4b0443354c4f67/header.jpg?t=1790595069"
+  },
+  "https://store.steampowered.com/app/2914150/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2914150/b58ce7618c376997fa067ab78906652f1d62d995/header.jpg?t=1791513577"
+  },
+  "https://store.steampowered.com/app/1568590/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1568590/header.jpg?t=1778102536"
+  },
+  "https://store.steampowered.com/app/2390230/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2390230/header.jpg?t=1792596501"
+  },
+  "https://store.steampowered.com/app/858820/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858820/header.jpg?t=1781819055"
+  },
+  "https://store.steampowered.com/app/4560660/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/2f57705341159c9893b7626b1b9c55fa0562d4ed/header.jpg?t=1792515727"
+  },
+  "https://store.steampowered.com/app/3103780/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3103780/header.jpg?t=1790743652"
+  },
+  "https://store.steampowered.com/app/2289750/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2289750/595b7df498d33497078f1172311868cdee43ec5f/header.jpg?t=1792743906"
+  },
+  "https://store.steampowered.com/app/1385380/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1385380/header.jpg?t=1790078458"
+  },
+  "https://store.steampowered.com/app/4956380/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4956380/3c1b15a0f5f5cacf02015a3a8d2c459983bd6661/header.jpg?t=1792688662"
+  },
+  "https://store.steampowered.com/app/5380730/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380730/4efe2e5e32f1a1a0e61f1801bd40c2ffd8cc16fd/header.jpg?t=1792801446"
+  },
+  "https://store.steampowered.com/app/5169220/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169220/6f00c812052cec41867670beb755eb582a418fa8/header.jpg?t=1792957335"
+  },
+  "https://store.steampowered.com/app/5292740/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5292740/9a4d7b2cbc2dbe055a98b3f0e040e99829684a2d/header.jpg?t=1792644747"
+  },
+  "https://store.steampowered.com/app/5380860/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5380860/665d5a432b695807c9d49cc009b8400e56dfbcde/header.jpg?t=1792924774"
+  },
+  "https://store.steampowered.com/app/5398190/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5398190/df3c13c95ac7798f71447e8b79e917644f46105f/header.jpg?t=1792772483"
+  },
+  "https://store.steampowered.com/app/4348500/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348500/c75e50114626da460fa956a057863368adb5504d/header.jpg?t=1792760473"
+  },
+  "https://store.steampowered.com/app/2939510/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2939510/f4b3dfa9c36cc12d8bc63ac38f5c83a0725bb694/header_alt_assets_2.jpg?t=1792782111"
+  },
+  "https://store.steampowered.com/app/5377190/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5377190/0b4732cbc19a1a77b2ae3f4ab7a83033b836a616/header.jpg?t=1792728060"
+  },
+  "https://store.steampowered.com/app/4348240/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348240/9167e639f0ba919e9b8478c57fa0d9acfb060ca9/header.jpg?t=1792761394"
+  },
+  "https://store.steampowered.com/app/3954920/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3954920/fb291b07d92ff17785ca1af2080a96322595a6cf/header.jpg?t=1792731333"
+  },
+  "https://store.steampowered.com/app/5251070/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5251070/a1dbff7b92f39399b77f23f4f7e5677aa11ba253/header.jpg?t=1792766908"
+  },
+  "https://store.steampowered.com/app/4073100/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4073100/6bdd179b3cd098774f505ec19720e0de21b1737a/header.jpg?t=1792745847"
+  },
+  "https://store.steampowered.com/app/5371210/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371210/288bc6ebbe9305a7ebc288f9ac9b0dc681859899/header.jpg?t=1792813680"
+  },
+  "https://store.steampowered.com/app/5353860/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5353860/3a6989ecd09621d276e01451d4d647605118d7eb/header.jpg?t=1792768522"
+  },
+  "https://store.steampowered.com/app/4800650/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4800650/c4369dc93d36a4f55f68d7d4647ba9273cf6d6fe/header.jpg?t=1792781711"
+  },
+  "https://store.steampowered.com/app/5254400/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5254400/d80cedc0d9542585e99a03fae61b2cfb1a7f8334/header.jpg?t=1792765672"
+  },
+  "https://store.steampowered.com/app/3390460/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3390460/0b77765ffa7398b640f23cd5ff38505273672083/header.jpg?t=1792774180"
+  },
+  "https://store.steampowered.com/app/4100790/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4100790/493c75641df4f14427966283a4eccfc2460b80d7/header.jpg?t=1792784572"
+  },
+  "https://store.steampowered.com/app/5199510/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5199510/6c6b29ba5314454ed9962168db309466377aef7d/header.jpg?t=1792834920"
+  },
+  "https://store.steampowered.com/app/5317740/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5317740/d9b86f6626ab6144c99c8e57016b96f2b0131e35/header.jpg?t=1792818338"
+  },
+  "https://store.steampowered.com/app/5300960/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5300960/2ad1f67841420bfeb70d942c8b219589897fa442/header.jpg?t=1792791615"
+  },
+  "https://store.steampowered.com/app/5196790/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5196790/8ac81ff736f8ee60ab883a8ac26c86f897911aa9/header.jpg?t=1792778478"
+  },
+  "https://store.steampowered.com/app/5322590/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5322590/74c9ff17dd49f70534ca0217a6fc1e62e5b08765/header.jpg?t=1792788411"
+  },
+  "https://store.steampowered.com/app/5188640/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5188640/33e13c82edbf12396ca290e9a9adb73ebbf619ba/header.jpg?t=1791899746"
+  },
+  "https://store.steampowered.com/app/5169900/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5169900/73bb226ca7db08b8119efe18f150e0951534f6b3/header.jpg?t=1792775018"
+  },
+  "https://store.steampowered.com/app/5284710/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5284710/de8a8b4c7b75c8630bba226fbe9791deb483272a/header.jpg?t=1792786872"
+  },
+  "https://store.steampowered.com/app/5364900/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5364900/eda1661f628815464d97b3f97744cac294d43f02/header.jpg?t=1792791437"
+  },
+  "https://store.steampowered.com/app/5319430/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5319430/72971a1e558de2595b5ab2715dccdadc890a95b1/header.jpg?t=1792774711"
+  },
+  "https://store.steampowered.com/app/5342920/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5342920/5ff23ecd0c17e568c410e44f3e2fc1524a35fdb5/header.jpg?t=1792883432"
+  },
+  "https://store.steampowered.com/app/5196710/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5196710/2ad4a5c7667bb1c028c26c840688dc7f93c9327e/header.jpg?t=1790683568"
+  },
+  "https://store.steampowered.com/app/2445430/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445430/73af49db25b3df83735635072d2d08a6bee23297/header.jpg?t=1792810815"
+  },
+  "https://store.steampowered.com/app/5272490/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5272490/0793ca637dce271e2166ba89d86c931783cb91ff/header.jpg?t=1792819858"
+  },
+  "https://store.steampowered.com/app/5385830/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5385830/920ed26d1fef714a3dbad95210df9e36bdfa4ff3/header.jpg?t=1792853547"
+  },
+  "https://store.steampowered.com/app/4924290/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924290/2a0db0d043d9bc8febc2b0974520791cef78ee0a/header.jpg?t=1792876542"
+  },
+  "https://store.steampowered.com/app/4924750/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924750/66b63fc2e6a90af49d8fb0dc3ae0671112ef3c49/header.jpg?t=1792962404"
+  },
+  "https://store.steampowered.com/app/5358580/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5358580/7579384b6ab4f0c146214cb6f4b732d7213eff6e/header.jpg?t=1792940727"
+  },
+  "https://store.steampowered.com/app/4764890/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764890/c72c18f08e07487656a8297124218a736b906a67/header.jpg?t=1792915136"
+  },
+  "https://store.steampowered.com/app/5393420/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5393420/a66d6a5fa0404cb0a6fa1559e7f97c1e8bb2af6e/header.jpg?t=1792956103"
+  },
+  "https://store.steampowered.com/app/4984610/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4984610/09576a8b8ccc0f3ea52ef3aaf8b38e499d55aa90/header.jpg?t=1792862140"
+  },
+  "https://store.steampowered.com/app/4715430/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715430/cf6bf3d2afc9969d205da930f214bc2d63ee7b8b/header.jpg?t=1792637897"
+  },
+  "https://store.steampowered.com/app/1913120/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1913120/9c62adaca165c8bc1a78990419e2cb35dd940b6b/header.jpg?t=1791307030"
+  },
+  "https://store.steampowered.com/app/1353300/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1353300/header.jpg?t=1792608697"
+  },
+  "https://store.steampowered.com/app/2445260/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2445260/81910762639b5117e737d2800f89502660ccf4c4/header_alt_assets_2.jpg?t=1792706932"
+  },
+  "https://store.steampowered.com/app/3198850/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3198850/b3aeeda43b27534a23d438597b503db64b792933/header.jpg?t=1792029073"
+  },
+  "https://store.steampowered.com/app/1677740/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677740/header.jpg?t=1784624338"
+  },
+  "https://store.steampowered.com/app/5027520/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5027520/b379f48c766d670878342739cafbdabc59118cad/header.jpg?t=1790518898"
+  },
+  "https://store.steampowered.com/app/1062520/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062520/04b22b3889c6d2c903745595c3acd29842473399/header.jpg?t=1767607973"
+  },
+  "https://store.steampowered.com/app/3617620/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3617620/545edb29a098f31e694fe16a6c9e09e856b30059/header_alt_assets_0.jpg?t=1792684010"
+  },
+  "https://store.steampowered.com/app/314650/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/314650/header.jpg?t=1773943102"
+  },
+  "https://store.steampowered.com/app/5328810/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5328810/77792efe9b190ca6ea5b94a001089e24828cdbc6/header.jpg?t=1792756952"
+  },
+  "https://store.steampowered.com/app/4866750/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4866750/33d4258ce9579177662920f02d7409ffbfe40c48/header.jpg?t=1792778407"
+  },
+  "https://store.steampowered.com/app/5230130/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230130/b5c14a222e82e5eab7132e1a6dda5e0755196304/header.jpg?t=1792773137"
+  },
+  "https://store.steampowered.com/app/5265120/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265120/c2d97631e3d3d243bcf84b3c5b9ce8d423225e92/header.jpg?t=1792965690"
+  },
+  "https://store.steampowered.com/app/5107320/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5107320/a2ece44f37f3b336b571ec4e4a7233ee3d805f20/header.jpg?t=1791445181"
+  },
+  "https://store.steampowered.com/app/5404950/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404950/3b3d07bc6c3a9ffb0e3566021821733c1a55f0ee/header.jpg?t=1792825279"
+  },
+  "https://store.steampowered.com/app/5332800/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5332800/fa287eab1553b56c8c51ba9c590ccc94830e9903/header.jpg?t=1792833242"
+  },
+  "https://store.steampowered.com/app/5311670/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5311670/dff92a1387fff553b1a0087f9644bf980d5458be/header.jpg?t=1792804547"
+  },
+  "https://store.steampowered.com/app/3983810/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3983810/8c3b601b67c3cd20f1c63bf9a042ed16622fbc29/header.jpg?t=1760584948"
+  },
+  "https://store.steampowered.com/app/774171/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774171/header.jpg?t=1791528485"
+  },
+  "https://store.steampowered.com/app/1592190/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1592190/header.jpg?t=1672959398"
+  },
+  "https://store.steampowered.com/app/2949320/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2949320/274bc23d79c61dd41445a1c9e7438a9529b08395/header_alt_assets_0.jpg?t=1792489489"
+  },
+  "https://store.steampowered.com/app/1061090/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1061090/header.jpg?t=1708097084"
+  },
+  "https://store.steampowered.com/app/588030/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588030/header.jpg?t=1785174023"
+  },
+  "https://store.steampowered.com/app/1211020/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211020/86c3e16dfbfec027053c733d929a61ecfd15278a/header.jpg?t=1761037189"
+  },
+  "https://store.steampowered.com/app/4709550/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4709550/ff067adc322fe8522b8775b0a55f8f5a8dd01fcb/header.jpg?t=1792861209"
+  },
+  "https://store.steampowered.com/app/4192370/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4192370/6fdccc8b72a1b44ce4e7005e90cae3aad2b69d99/header.jpg?t=1792856159"
+  },
+  "https://store.steampowered.com/app/434170/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/434170/header.jpg?t=1728584278"
+  },
+  "https://store.steampowered.com/app/3405340/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405340/d06cb39a82a703e42541085fc61b42d80904b3f8/header.jpg?t=1760445338"
+  },
+  "https://store.steampowered.com/app/5366400/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5366400/7025f3cce15a39288e535820fd1f19453fe1f066/header.jpg?t=1792826461"
+  },
+  "https://store.steampowered.com/app/4599130/": {
+   "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599130/2bd5120b1ce8f16782f5d397a76434dd1cb9ee86/header.jpg?t=1792941508"
   }
  },
  "basis_line": "Steam 검색 · Indie 태그 · 글로벌 합성(7개 지역 평균 순위: US·CN·KR·JP·DE·BR·GB) · 가격 USD · 목록 4개(Top Sellers 200 · New & Trending · Popular Upcoming 100 · New Releases 100) · 본문 포함 = 정가 $30 이하 · 3년 이내 · 리뷰 50,000 미만 · 신작 = 1년 이내"

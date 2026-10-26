@@ -45,9 +45,12 @@ def _ccu(platform, snap, gid):
 
 
 def _rank_map(platform, snap, only_ids=None):
-    """{목록: {id: rank}}. only_ids 를 주면 그 게임만 남기고 목록 순서대로 1부터 다시 매깁니다(본문 포함 게임 기준 순위)."""
+    """{목록: {id: rank}}. only_ids 를 주면 그 게임만 남기고 목록 순서대로 1부터 다시 매깁니다(본문 포함 게임 기준 순위).
+    only_ids 는 id 집합 또는 callable(snap, date) → 집합(그날 스냅샷의 리뷰 수·출시일로 판정)."""
     out = {}
     key = ID_KEY[platform]
+    if callable(only_ids):
+        only_ids = {str(x) for x in only_ids(snap, snap.get("date"))}
     for ln, rows in (snap.get("lists") or {}).items():
         if only_ids is None:
             out[ln] = {str(r[key]): r["rank"] for r in rows}
@@ -136,7 +139,8 @@ def report_block(data_dir, platform, date, list_name, pick_id=None, pick_list=No
       "pick": {"list": "topsellers", "list_ko": ..., "ranks": [..], "reviews": [..], "ccu": [..]}  또는 None
     }"""
     win = window(data_dir, platform, date, days)
-    only_ids = {str(x) for x in only_ids} if only_ids is not None else None
+    if only_ids is not None and not callable(only_ids):
+        only_ids = {str(x) for x in only_ids}
     bump = top_bump(win, platform, list_name, n, only_ids, list_ko)
     up, down = movers(win, platform, list_name, limit_rank=50, only_ids=only_ids)
     pick = None

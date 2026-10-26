@@ -15,13 +15,52 @@ def app_url(appid):
     return f"https://store.steampowered.com/app/{appid}/"
 
 
+def app_fields(a, today):
+    """스냅샷 앱 → (meta, spy, 출시일, 나이, 정가 센트, 리뷰 수). 리뷰 수는 appreviews 합계가 없으면 검색 결과의 review_count."""
+    meta = a.get("meta") or {}
+    spy = a.get("spy") or {}
+    rel = meta.get("release_date")
+    age = (today - to_date(rel)).days if rel else None
+    price_initial = meta.get("price_initial")
+    if price_initial is None:
+        price_initial = spy.get("initialprice")
+    if meta.get("is_free") or (price_initial is None and a.get("price_final") == 0):
+        price_initial = 0
+    reviews = a.get("reviews_total")
+    reviews_any = reviews if reviews is not None else a.get("review_count")
+    return meta, spy, rel, age, price_initial, reviews, reviews_any
+
+
+def excl_reasons(cfg, a, today):
+    """본문 제외 이유 목록 (rules.md §4: 정가 $30 · 대형 퍼블리셔 · 출시 3년 · 리뷰 5만). 비어 있으면 본문 포함."""
+    meta, spy, rel, age, price_initial, reviews, reviews_any = app_fields(a, today)
+    big = {p.lower() for p in cfg.get("big_publishers", [])}
+    dev = (meta.get("developers") or [spy.get("developer")] or [None])[0]
+    pub = (meta.get("publishers") or [spy.get("publisher")] or [None])[0]
+    excl = []
+    if price_initial is not None and price_initial > cfg["max_price_usd"] * 100:
+        excl.append(f"정가 {fmt_usd(price_initial)}")
+    if pub and dev and pub != dev and pub.lower() in big:
+        excl.append(f"대형 퍼블리셔 {pub}")
+    if age is not None and age > cfg["max_age_years"] * 365:
+        excl.append(f"출시 {age // 365}년")
+    if reviews_any is not None and reviews_any >= cfg["max_reviews"]:
+        excl.append(f"리뷰 {fmt_int(reviews_any)}")
+    return excl
+
+
+def included_ids(cfg, snap, date):
+    """그날 스냅샷 기준 본문 포함 appid 집합 (범프 차트의 날짜별 재순위에 씀)."""
+    today = to_date(date)
+    return {str(appid) for appid, a in snap.get("apps", {}).items() if not excl_reasons(cfg, a, today)}
+
+
 def build_records(cfg, date, snaps):
     today_snap = snaps[-1][1]
     prev_date, prev_snap = (snaps[-2] if len(snaps) >= 2 else (None, None))
     d7, s7, n7 = window_snap(snaps, date, 7)
     d30, s30, n30 = window_snap(snaps, date, 30)
     today = to_date(date)
-    big = {p.lower() for p in cfg.get("big_publishers", [])}
 
     def ranks_of(snap):
         r = {}
@@ -35,33 +74,16 @@ def build_records(cfg, date, snaps):
     ranks_today, ranks_prev = ranks_of(today_snap), ranks_of(prev_snap)
     recs = {}
     for appid, a in today_snap["apps"].items():
-        meta = a.get("meta") or {}
-        spy = a.get("spy") or {}
-        rel = meta.get("release_date")
-        age = (today - to_date(rel)).days if rel else None
+        meta, spy, rel, age, price_initial, reviews, reviews_any = app_fields(a, today)
         coming = bool(meta.get("coming_soon")) or (appid in ranks_today and "comingsoon" in ranks_today[appid] and not rel)
         dev = (meta.get("developers") or [spy.get("developer")] or [None])[0]
         pub = (meta.get("publishers") or [spy.get("publisher")] or [None])[0]
-        price_initial = meta.get("price_initial")
-        if price_initial is None:
-            price_initial = spy.get("initialprice")
-        if meta.get("is_free") or (price_initial is None and a.get("price_final") == 0):
-            price_initial = 0
-        reviews = a.get("reviews_total")
         prev_app = (prev_snap or {}).get("apps", {}).get(appid, {}) if prev_snap else {}
         r7 = (s7 or {}).get("apps", {}).get(appid, {}).get("reviews_total") if s7 else None
         r30 = (s30 or {}).get("apps", {}).get(appid, {}).get("reviews_total") if s30 else None
         series = [reviews] + [s["apps"].get(appid, {}).get("reviews_total") for _, s in reversed(snaps[:-1])]
 
-        excl = []
-        if price_initial is not None and price_initial > cfg["max_price_usd"] * 100:
-            excl.append(f"정가 {fmt_usd(price_initial)}")
-        if pub and dev and pub != dev and pub.lower() in big:
-            excl.append(f"대형 퍼블리셔 {pub}")
-        if age is not None and age > cfg["max_age_years"] * 365:
-            excl.append(f"출시 {age // 365}년")
-        if reviews is not None and reviews >= cfg["max_reviews"]:
-            excl.append(f"리뷰 {fmt_int(reviews)}")
+        excl = excl_reasons(cfg, a, today)
         mult = cfg["review_multiplier"]["under_1y"] if (age is None or age <= 365) else cfg["review_multiplier"]["under_3y"]
         est_sales = reviews * mult if reviews is not None else None
         est_rev = est_sales * price_initial / 100 if (est_sales is not None and price_initial) else None
@@ -75,9 +97,10 @@ def build_records(cfg, date, snaps):
             "price_initial": price_initial, "price_final": a.get("price_final"), "discount": discount,
             "has_demo": bool(meta.get("has_demo")), "genres": meta.get("genres") or [],
             "desc": _desc(meta.get("short_description")),
+            "thumb": meta.get("header_image") or None,  # 해시 경로 header(신작은 appid 경로가 404)
             # SteamSpy 태그는 신작에 비어 있는 일이 많아 appdetails 장르로 대신합니다.
             "tags": list((spy.get("tags") or {}).keys())[:5] or [g for g in (meta.get("genres") or []) if g != "Indie"][:3],
-            "reviews": reviews, "pct_pos": a.get("review_pct"),
+            "reviews": reviews, "reviews_any": reviews_any, "pct_pos": a.get("review_pct"),
             "reviews_d1": delta(reviews, prev_app.get("reviews_total")),
             "reviews_d7": delta(reviews, r7), "n7": n7,
             "reviews_d30": delta(reviews, r30), "n30": n30,
@@ -174,6 +197,8 @@ def _desc(s):
 def item(r, extra=None):
     d = {"name": r["name"], "url": r["url"], "line": extra or line(r), "badges": badges(r),
          "sub": " · ".join(x for x in (r["dev"], ", ".join(r["tags"][:3])) if x)}
+    if r.get("thumb"):
+        d["thumb"] = r["thumb"]
     if r.get("desc"):
         d["desc"] = r["desc"]
     return d
@@ -355,7 +380,7 @@ def analyze(cfg, date, data_dir, reports_dir):
         pick_info = {"name": pick["name"], "url": pick["url"], "streak": n_sel, "since": since,
                      "links": [("Steam", pick["url"]), ("SteamDB", f"https://steamdb.info/app/{pick['appid']}/")],
                      "sub": " · ".join(x for x in (pick["dev"], ", ".join(pick["tags"][:3]), pick["release_date"]) if x),
-                     "line": line(pick), "badges": badges(pick), "tags": pick["tags"][:5]}
+                     "line": line(pick), "badges": badges(pick), "tags": pick["tags"][:5], "thumb": pick.get("thumb")}
         if pick.get("desc"):
             pick_info["desc"] = pick["desc"]
     else:
@@ -387,10 +412,12 @@ def analyze(cfg, date, data_dir, reports_dir):
     pick_list = next((ln for ln in ("popularnew", "topsellers", "comingsoon") if pick and ln in pick["ranks"]), "topsellers") if pick else None
     # 범프 차트·가장 크게 오른/내린 게임은 본문 포함(소형 인디) 게임만으로 다시 매긴 Top Sellers 순위를 씁니다.
     series_blk = series_mod.report_block(data_dir, "steam", date, "topsellers", pick_id=pick["appid"] if pick else None, pick_list=pick_list,
-                                         only_ids={r["appid"] for r in inc}, list_ko="인디 Top Sellers")
+                                         only_ids=lambda snap, d: included_ids(cfg, snap, d), list_ko="인디 Top Sellers")
     region_line = (f"글로벌 합성({len(regions)}개 지역 평균 순위: {'·'.join(r.upper() for r in regions)}) · 가격 USD"
                    if len(regions) > 1 else "미국 스토어")
     return {"platform": "steam", "platform_ko": "Steam 인디", "date": date, "round": rn, "prev_date": prev_date,
             "status": status, "pick": pick_info, "headline": headline[:3], "notes": notes[:3],
             "sections": sections, "collect_line": collect_line, "series": series_blk,
+            # url → 썸네일(appdetails header_image, 해시 경로). 렌더러가 03 예시·큰 폭 변화에서 씁니다.
+            "thumbs": {r["url"]: {"src": r["thumb"]} for r in recs.values() if r.get("thumb")},
             "basis_line": f"Steam 검색 · Indie 태그 · {region_line} · 목록 4개(Top Sellers 200 · New & Trending · Popular Upcoming 100 · New Releases 100) · 본문 포함 = 정가 ${cfg['max_price_usd']} 이하 · 3년 이내 · 리뷰 {fmt_int(cfg['max_reviews'])} 미만 · 신작 = 1년 이내"}

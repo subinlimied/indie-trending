@@ -77,6 +77,10 @@ def build(date, want_weekly):
            "watchlist": personal.watchlist(prof, games_by), "memo": personal.memo(plats), "weekly": None}
     if want_weekly:
         res["weekly"] = personal.weekly(date, past_results(date) + [res])
+    for p, pl in plats.items():
+        for t in pl["top"]:
+            if not t.get("thumb"):
+                print(f"[{p}] 썸네일 없음: {t['name']} — 스냅샷 meta.header_image 없음 (appdetails 미응답), 자리표시 사용")
     res["discord"] = render_personal.build_payload(res)
     return res
 

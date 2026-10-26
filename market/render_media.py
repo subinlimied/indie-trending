@@ -54,8 +54,15 @@ STATUS_KO = {"confirmed": "확정", "submission": "제출", "deadpool": "데드�
 
 
 def _sum(s, n=SUMMARY_LEN):
+    """n 글자로 자른 뒤 마지막 문장 경계(. ! ?)에서 끊습니다. 경계가 너무 앞이면(절반 미만) 글자 수에서 끊고 '…'."""
     s = (s or "").strip()
-    return s if len(s) <= n else s[: n - 1].rstrip() + "…"
+    if len(s) <= n:
+        return s
+    cut = s[:n]
+    best = max(cut.rfind(". "), cut.rfind("! "), cut.rfind("? "), cut.rfind(".\n"))
+    if best >= n * 0.5:
+        return cut[: best + 1]
+    return cut.rstrip(" ,;:") + "…"
 
 
 def _fmt_traffic(x):
@@ -219,7 +226,7 @@ def _pick_html(p, rep):
     if not p:
         return '<div class="card side"><p class="seclabel">오늘의 트렌드</p><p class="empty">최근 48시간 KYM 항목이 없습니다.</p></div>'
     streak = f"{p['streak']}일 연속" if p.get("streak", 1) > 1 else "오늘"
-    body = _ko_html(p) or f'<p class="pk-sum">{esc(_sum(p.get("summary"), 200))}</p>'
+    body = _ko_html(p) or f'<p class="pk-sum">{esc(_sum(p.get("about") or p.get("summary"), 260))}</p>'
     chips = [f'<span class="lchip">{esc(a)}</span>' for a in (p.get("platforms") or [])[:3]] + [f'<span class="lchip ghost">{esc(f)}</span>' for f in _flags(p)[:2]]
     hero = render.image_hero_html(p.get("image"), f'<span class="ov tl">{"".join(chips)}</span>' if chips else "", name=p["title"], url=p["url"])
     donut = charts.donut([(a, n) for a, n in rep["platform_counts"][:3]] + ([("기타", sum(n for _, n in rep["platform_counts"][3:]))] if len(rep["platform_counts"]) > 3 else []),
@@ -429,7 +436,8 @@ def _cover_card(rep):
         streak = f"{p['streak']}일 연속" if p.get("streak", 1) > 1 else "오늘"
         chips = [f'<span class="lchip">{esc(a)}</span>' for a in (p.get("platforms") or [])[:2]] + [f'<span class="lchip ghost">{esc(f)}</span>' for f in _flags(p)[:1]]
         hero = render.image_hero_html(p.get("image"), f'<span class="ov tl">{"".join(chips)}</span>', name=p["title"])
-        summary = esc(p["ko_what"]) if p.get("ko_what") else esc(_sum(p.get("summary"), 220))
+        # RSS summary 는 원문에서 잘린 조각이라 About(전문) → summary 순으로 쓰고 문장 경계에서 끊습니다.
+        summary = esc(p["ko_what"]) if p.get("ko_what") else esc(_sum(p.get("about") or p.get("summary"), 230))
         idea = f'<p class="idea">→ 활용: {esc(p["ko_idea"])}</p>' if p.get("ko_idea") else ""
         head = _title_block("TODAY'S TREND", f"KYM · {streak} · {p.get('reason', '')}", headline.to_html(headline.media_pick(p)))
         mid = (f'<div class="split"><div class="sumbox"><p>{summary}</p>{idea}<div class="when">KYM {esc(_kinds_ko(p))} · {esc(_kst(_when(p)))} KST</div></div>'

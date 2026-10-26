@@ -175,7 +175,7 @@ def _row(i, platform, t, rep):
 
 
 def _scatter(res, width, height):
-    prof = res.get("profile") or {}
+    """가격 × 리뷰 수(로그; itch 는 평점 수). Top 3 초록, 1위 흰 테두리, 리뷰 수 미상은 아래 점선 줄."""
     pts = []
     for p in ("steam", "itch"):
         pl = res["platforms"].get(p) or {}
@@ -183,12 +183,10 @@ def _scatter(res, width, height):
             if g.get("price_usd") is None:
                 continue
             kind = "pick" if g.get("top") == 1 else "hi" if g.get("top") else ""
-            pts.append((g["name"], g["price_usd"], g.get("playtime_h"), 1, kind))
-    quad = None
-    if prof.get("max_price_usd") and prof.get("max_playtime_hours"):
-        quad = {"x": prof["max_price_usd"], "y": prof["max_playtime_hours"], "label": ""}
-    return charts.scatter(pts, width=width, height=height, scale="card", x_kind="usd", y_kind="hours", x_label="정가 (USD)", y_label="평균 플레이 시간",
-                          none_label="시간 미상", title="가격 × 플레이 시간", size_range=(6, 6), label_chars=18, quadrant=None), len(pts)
+            rv = g.get("reviews")
+            pts.append((g["name"], g["price_usd"], (max(rv, 1) if rv is not None else None), 1, kind))
+    return charts.scatter(pts, width=width, height=height, scale="card", y_log=True, x_kind="usd", y_kind="num", x_label="정가 (USD)", y_label="리뷰 수 (itch 평점 수) · 로그",
+                          none_label="리뷰 미상", title="가격 × 리뷰 수", size_range=(6, 6), label_chars=18), len(pts)
 
 
 def to_card(res, link=None):
@@ -208,7 +206,7 @@ def to_card(res, link=None):
     body = (f'<div class="cardtitle"><div class="kick"><span class="lchip pos">MY RANGE</span><span class="seclabel">profile.json 기준 내 범위 · {esc(counts)}</span></div>'
             f'<h1 class="hl">{hl}</h1></div>'
             f'<div class="rows">{rows}</div>'
-            f'<div class="chartp" style="flex:0 0 auto"><div class="ph"><p class="seclabel strong">가격 × 플레이 시간 · 내 범위 {n_pts}개</p><p class="seclabel">초록 = 내 범위 Top 3 · 흰 테두리 = 1위 · 아래 점선 = 플레이 시간 미상</p></div>'
+            f'<div class="chartp" style="flex:0 0 auto"><div class="ph"><p class="seclabel strong">가격 × 리뷰 수 · 내 범위 {n_pts}개</p><p class="seclabel">초록 = 내 범위 Top 3 · 흰 테두리 = 1위 · 아래 점선 = 리뷰 수 미상</p></div>'
             f'<div class="body">{svg}</div></div>{memo}')
     return render.card_page("personal", TAG, "My Range", f"{date_ko(res['date'])}", None, body, 1, 1, link,
                             fallback_see=f"내 범위 리포트 · {date_ko(res['date'])} · 비공개", extra_css=CARD_CSS, title="내 범위 리포트")
