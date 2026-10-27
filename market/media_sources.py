@@ -416,11 +416,14 @@ def _video_info(v, shorts_max=60):
             "description": desc if len(desc) <= DESC_LEN else desc[:DESC_LEN]}
 
 
-def youtube_search(q, key, published_after, region="US", lang="en", max_results=10):
-    """search.list 1회(100유닛): 최근 영상을 조회수순으로. 반환 [videoId]. 응답 오류면 RuntimeError."""
-    data = http.get_json(YOUTUBE_SEARCH, {"part": "snippet", "q": q, "type": "video", "order": "viewCount", "publishedAfter": published_after,
-                                          "regionCode": region, "relevanceLanguage": lang, "maxResults": max_results, "safeSearch": "moderate", "key": key},
-                         headers=HEADERS, retries=1)
+def youtube_search(q, key, published_after, region="US", lang="en", max_results=10, order="relevance", duration="any"):
+    """search.list 1회(100유닛): 최근 영상을 order(기본 관련도순. 조회수순은 해시태그 스팸 쇼츠가 점령함)로. duration = any/short(<4분)/medium(4~20분)/long.
+    반환 [videoId]. 응답 오류면 RuntimeError."""
+    params = {"part": "snippet", "q": q, "type": "video", "order": order, "publishedAfter": published_after,
+              "regionCode": region, "relevanceLanguage": lang, "maxResults": max_results, "safeSearch": "moderate", "key": key}
+    if duration and duration != "any":
+        params["videoDuration"] = duration
+    data = http.get_json(YOUTUBE_SEARCH, params, headers=HEADERS, retries=1)
     time.sleep(SLEEP)
     if not data or "items" not in data:
         raise RuntimeError(f"응답 오류: {json.dumps(data, ensure_ascii=False)[:160] if data else '없음'}")
@@ -453,10 +456,17 @@ def collect_reels(cfg_reels, key, log=print, now=None):
     {status ok/skip/fail, params, published_after, queries[{q, region, lang, ids[], n, error}], videos{id: {...}}, calls{search, videos, units}, error}
     검색어 하나가 실패해도 나머지는 계속 가고, 검색이 전부 실패했을 때만 status fail 입니다."""
     now = now or datetime.now(timezone.utc)
-    queries = [q for q in (cfg_reels.get("queries") or []) if isinstance(q, str) and q.strip()][: int(cfg_reels.get("max_searches", 8))]
-    days, max_results = int(cfg_reels.get("days", 7)), int(cfg_reels.get("max_results", 10))
+    specs = []
+    for q in cfg_reels.get("queries") or []:          # 문자열 또는 {"q", "duration"}
+        if isinstance(q, dict) and (q.get("q") or "").strip():
+            specs.append({"q": q["q"].strip(), "duration": q.get("duration") or "any"})
+        elif isinstance(q, str) and q.strip():
+            specs.append({"q": q.strip(), "duration": "any"})
+    specs = specs[: int(cfg_reels.get("max_searches", 8))]
+    queries = [x["q"] for x in specs]
+    days, max_results, order = int(cfg_reels.get("days", 14)), int(cfg_reels.get("max_results", 10)), cfg_reels.get("order") or "relevance"
     since = (now - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
-    block = {"status": "skip", "collected_at": _iso(now), "params": {"days": days, "max_results": max_results, "queries": queries},
+    block = {"status": "skip", "collected_at": _iso(now), "params": {"days": days, "max_results": max_results, "order": order, "queries": queries},
              "published_after": since, "queries": [], "videos": {}, "calls": {"search": 0, "videos": 0, "units": 0}, "error": ""}
     if not key:
         block["error"] = "YOUTUBE_API_KEY 없음"
@@ -466,32 +476,33 @@ def collect_reels(cfg_reels, key, log=print, now=None):
         block["error"] = "검색어 없음 (config media.reels.queries)"
         log("[media] 릴스·틱톡 정리: 건너뜀 — 검색어 없음")
         return block
-    ids, order = set(), []
-    for q in queries:
+    ids, found = set(), []
+    for spec in specs:
+        q = spec["q"]
         ko = not q.isascii()
-        row = {"q": q, "region": "KR" if ko else "US", "lang": "ko" if ko else "en", "ids": [], "n": 0, "error": ""}
+        row = {"q": q, "region": "KR" if ko else "US", "lang": "ko" if ko else "en", "duration": spec["duration"], "ids": [], "n": 0, "error": ""}
         block["calls"]["search"] += 1
         block["calls"]["units"] += 100
         try:
-            row["ids"] = youtube_search(q, key, since, region=row["region"], lang=row["lang"], max_results=max_results)
+            row["ids"] = youtube_search(q, key, since, region=row["region"], lang=row["lang"], max_results=max_results, order=order, duration=spec["duration"])
             row["n"] = len(row["ids"])
             for i in row["ids"]:
                 if i not in ids:
                     ids.add(i)
-                    order.append(i)
+                    found.append(i)
         except Exception as ex:  # noqa: BLE001  검색어 하나가 막혀도(403 할당량 초과 포함) 나머지는 계속
             row["error"] = _redact_key(f"{type(ex).__name__}: {ex}", key)[:160]
             log(f"[media] 릴스·틱톡 정리 '{q}': 실패 — {row['error']}")
         block["queries"].append(row)
-    if not order:
+    if not found:
         block["status"] = "fail"
         block["error"] = "검색 결과 없음" if not any(r["error"] for r in block["queries"]) else "; ".join(r["error"] for r in block["queries"] if r["error"])[:200]
         log(f"[media] 릴스·틱톡 정리: 실패 — {block['error']}")
         return block
     try:
-        block["calls"]["videos"] = (len(order) + 49) // 50
+        block["calls"]["videos"] = (len(found) + 49) // 50
         block["calls"]["units"] += block["calls"]["videos"]
-        block["videos"] = youtube_videos(order, key)
+        block["videos"] = youtube_videos(found, key)
         block["status"] = "ok"
     except Exception as ex:  # noqa: BLE001
         block["status"] = "fail"

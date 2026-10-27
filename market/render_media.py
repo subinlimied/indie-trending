@@ -229,7 +229,7 @@ def _rl_term_line(rl, n=8, md=False):
     out = []
     for x in rl.get("items") or []:
         label = _mdsafe(x["term"]) if md else x["term"]
-        out.append(f"{label}({x['n']}편)" + (" NEW" if x.get("new") else ""))
+        out.append(f"{label}({x['n']}채널)" + (" NEW" if x.get("new") else ""))
         if len(out) >= n:
             break
     return " · ".join(out)
@@ -246,7 +246,7 @@ def _md_reels(rep):
     if rl.get("status") != "ok":
         L.append(f"- {rl.get('note') or ('실패 · ' + rl.get('error', '') if rl.get('status') == 'fail' else '건너뜀')}")
         return L + [""]
-    L.append(f"검색어 {rl['n_queries_ok']}/{len(rl['queries'])}개 · 최근 {rl['days']}일 · 영상 {rl['n_videos']}개 · 항목 {rl['n_items']} · 호출 search {rl['calls']['search']}·videos {rl['calls']['videos']} ({rl['calls']['units']}유닛)"
+    L.append(f"검색어 {rl['n_queries_ok']}/{len(rl['queries'])}개 · 최근 {rl['days']}일 · 검색 결과 {rl.get('n_found', 0)}편 중 정리 영상 {rl['n_videos']}개 · 항목 {rl['n_items']} · 호출 search {rl['calls']['search']}·videos {rl['calls']['videos']} ({rl['calls']['units']}유닛)"
              + (" · 전날 대비" if rl.get("compared") else " · 비교 대상 없음"))
     L.append("트렌드 항목 Top 8: " + (_rl_term_line(rl, 8) or "없음"))
     L += [f"{v['rank']}. {v['title']} · {v['channel']} · {_views(v['views'])} · {_rl_dur(v)}" + (" · NEW" if v.get("new") else "") + f" {v['url']}" for v in rl["videos"][:5]]
@@ -385,7 +385,7 @@ def _side_html(rep):
         quick.append('<li class="nothumb"><div><div class="h1">유튜브 KR 인기 Top 3</div><div class="h2">' + "".join(f"<span>{v['rank']}. {esc(v['title'][:40])}</span>" for v in y["items"][:3]) + "</div></div></li>")
     rl = rep.get("reels") or {}
     if rl.get("status") == "ok" and rl.get("items"):
-        quick.append('<li class="nothumb"><div><div class="h1">릴스·틱톡 트렌드 Top 3</div><div class="h2">' + "".join(f"<span>{esc(x['term'][:40])} · {x['n']}편</span>" for x in rl["items"][:3]) + "</div></div></li>")
+        quick.append('<li class="nothumb"><div><div class="h1">릴스·틱톡 트렌드 Top 3</div><div class="h2">' + "".join(f"<span>{esc(x['term'][:40])} · {x['n']}채널</span>" for x in rl["items"][:3]) + "</div></div></li>")
     others = [x for x in rep["shortform"] if not rep.get("pick") or x["url"] != rep["pick"]["url"]][:3]
     quick.append('<li class="nothumb"><div><div class="h1">다른 틱톡·인스타 트렌드</div><div class="h2">' + ("".join(f"<span>{esc(x['title'][:50])}</span>" for x in others) or "<span>없음</span>") + "</div></div></li>")
     return f'<aside class="panel side"><p class="seclabel">AT A GLANCE</p><ul class="hl">{"".join(quick)}</ul></aside>'
@@ -461,10 +461,10 @@ def _reels_html(rep):
                 + (f'<p class="th-note">{esc(rl["note"])}</p>' if rl.get("note") else ""))
     if rl.get("status") != "ok":
         return f'<p class="empty">수집 실패 · {esc(rl.get("error", ""))}</p>'
-    cmp_txt = "배율 = 전날 대비 등장 영상 수" if rl.get("compared") else "비교 대상 없음(첫 회차)"
+    cmp_txt = "배율 = 전날 대비 등장 채널 수" if rl.get("compared") else "비교 대상 없음(첫 회차)"
     chart = charts.bar_lift(_rl_rows(rl, 8), width=936, height=max(240, 46 * min(8, len(rl["items"]))), scale="web", max_rows=8, label_chars=16,
-                            title="트렌드 항목별 등장 영상 수")
-    chips = "".join(f'<span class="lchip{" new" if x.get("new") else ""}">{esc(x["term"])}<small>{x["n"]}편</small>' + (" <i>NEW</i>" if x.get("new") else f' <i>{RL_KIND_KO.get(x["kind"], "")}</i>') + "</span>"
+                            title="트렌드 항목별 등장 채널 수")
+    chips = "".join(f'<span class="lchip{" new" if x.get("new") else ""}">{esc(x["term"])}<small>{x["n"]}채널</small>' + (" <i>NEW</i>" if x.get("new") else f' <i>{RL_KIND_KO.get(x["kind"], "")}</i>') + "</span>"
                     for x in rl["items"][:8])
     tiles = "".join(f'<div class="rl"><img class="yt" src="{H.escape(v.get("thumb", ""), quote=True)}" alt="" loading="lazy"><div class="t">{_a(v["title"], v["url"])}</div>'
                     f'<div class="s"><b>{esc(_views(v["views"]))}</b> · {esc(v["channel"])} · {esc(_rl_dur(v))}' + (' · <span class="up">NEW</span>' if v.get("new") else "") + "</div></div>"
@@ -472,19 +472,22 @@ def _reels_html(rep):
     vt = "".join(f'<tr><td class="num">{v["rank"]}</td><td class="wrap">{_a(v["title"], v["url"])}' + (' <span class="badge acc">NEW</span>' if v.get("new") else "") + (' <span class="badge">쇼츠</span>' if v.get("shorts") else "")
                  + f'</td><td class="wrap">{esc(v["channel"])}</td><td class="num">{v["views"]:,}</td><td class="num">{esc(_rl_dur(v))}</td><td class="num">{esc(_kst(v["published"]))}</td><td class="wrap">{esc(" / ".join(v.get("queries") or []))}</td></tr>'
                  for v in rl["videos"])
-    it = "".join(f'<tr><td class="wrap">{esc(x["term"])}' + (' <span class="badge acc">NEW</span>' if x.get("new") else "") + f'</td><td>{esc(RL_KIND_KO.get(x["kind"], x["kind"]))}</td><td class="num">{x["n"]}</td>'
+    it = "".join(f'<tr><td class="wrap">{esc(x["term"])}' + (' <span class="badge acc">NEW</span>' if x.get("new") else "") + f'</td><td>{esc(RL_KIND_KO.get(x["kind"], x["kind"]))}</td><td class="num">{x["n"]} / {x.get("n_videos", x["n"])}</td>'
                  f'<td class="num">{x["prev"] if x.get("prev") is not None else "—"}</td><td class="num">{esc(_views(x["views"]))}</td></tr>' for x in rl["items"])
     fails = [q for q in rl["queries"] if q.get("error")]
     failed = (f'<p class="stext" style="margin-top:var(--sp-md)">실패 검색어 {len(fails)}개: ' + ", ".join(f"{esc(q['q'])}({esc(q['error'][:50])})" for q in fails[:8]) + "</p>") if fails else ""
-    head = (f'<p class="stext">검색어 {rl["n_queries_ok"]}/{len(rl["queries"])}개 × 최근 {rl["days"]}일 조회수순 · 정리 영상 {rl["n_videos"]}개 · 항목 {rl["n_items"]}개 · '
+    drop = ", ".join(f"{esc(k)} {n}" for k, n in sorted((rl.get("dropped") or {}).items(), key=lambda kv: -kv[1]))
+    head = (f'<p class="stext">검색어 {rl["n_queries_ok"]}/{len(rl["queries"])}개 × 최근 {rl["days"]}일 {"관련도순" if rl.get("order", "relevance") == "relevance" else "조회수순"} · 검색 결과 {rl.get("n_found", 0)}편 중 정리 영상 {rl.get("n_roundup", 0)}편'
+            + (f'(채널당 상한 적용 → {rl["n_videos"]}편)' if rl.get("n_roundup", 0) != rl["n_videos"] else "") + f' · 항목 {rl["n_items"]}개 · '
             f'YouTube API search {rl["calls"]["search"]}회 + videos {rl["calls"]["videos"]}회 = {rl["calls"]["units"]}유닛(하루 10,000) · {cmp_txt}. '
-            f'항목은 영상 설명의 번호·글머리·타임스탬프 줄, 해시태그, challenge/sound/챌린지/필터 같은 말이 붙은 구절이고, 등장 영상 수는 그 항목이 나온 정리 영상의 수입니다(홍보 문구·일반어만 있는 줄은 뺌).</p>')
-    return (head + f'<div class="th-grid"><div class="card block"><h4>트렌드 항목 Top 8 · 등장 영상 수 · 초록 = 전날의 1.5배 이상</h4><div class="th-chart">{chart}</div></div>'
+            f'정리 영상 = 제목에 trend·sound·challenge·챌린지·음원·모음 같은 말이 있고 해시태그 도배·리믹스가 아닌 것' + (f'(제외: {drop})' if drop else "") + '. '
+            f'항목은 영상 설명의 번호·글머리·타임스탬프 줄, 해시태그, challenge/sound/챌린지/필터 같은 말이 붙은 구절이고, 등장 채널 수는 그 항목이 나온 서로 다른 채널의 수입니다(홍보 문구·일반어만 있는 줄은 뺌).</p>')
+    return (head + f'<div class="th-grid"><div class="card block"><h4>트렌드 항목 Top 8 · 등장 채널 수 · 초록 = 전날의 1.5배 이상</h4><div class="th-chart">{chart}</div></div>'
             f'<div class="card block"><h4>항목 · NEW = 어제 정리 영상에 없던 것</h4>' + (f'<div class="terms">{chips}</div>' if chips else '<p class="empty">아직 없음</p>') + "</div></div>"
             f'<div class="card block" style="margin-top:var(--gutter)"><h4>정리 영상 Top 5 · 조회수순</h4><div class="rl-grid">{tiles}</div></div>{failed}'
             f'<details class="dt"><summary>정리 영상 {len(rl["videos"])}개 · 항목 {len(rl["items"])}개 전체</summary><div class="tbl">'
             f'<table><thead><tr><th class="num">#</th><th>영상</th><th>채널</th><th class="num">조회</th><th class="num">길이</th><th class="num">공개 (KST)</th><th>검색어</th></tr></thead><tbody>{vt}</tbody></table>'
-            f'<table style="margin-top:var(--sp-md)"><thead><tr><th>항목</th><th>종류</th><th class="num">영상 수</th><th class="num">어제</th><th class="num">조회 합</th></tr></thead><tbody>{it}</tbody></table></div></details>')
+            f'<table style="margin-top:var(--sp-md)"><thead><tr><th>항목</th><th>종류</th><th class="num">채널 / 영상</th><th class="num">어제</th><th class="num">조회 합</th></tr></thead><tbody>{it}</tbody></table></div></details>')
 
 
 def _reddit_html(rep):
@@ -648,7 +651,7 @@ def _cover_card(rep):
     rl = rep.get("reels") or {}
     reels = ""
     if rl.get("status") == "ok" and rl.get("items"):
-        chips = "".join(f'<span class="lchip{"" if x.get("new") else " ghost"}">{esc(x["term"][:28])} · {x["n"]}편</span>' for x in rl["items"][:3])
+        chips = "".join(f'<span class="lchip{"" if x.get("new") else " ghost"}">{esc(x["term"][:28])} · {x["n"]}채널</span>' for x in rl["items"][:3])
         reels = f'<div class="sec"><p class="seclabel">릴스·틱톡 트렌드 Top 3 · 유튜브 정리 영상 {rl["n_videos"]}개</p><div class="terms" style="display:flex;flex-wrap:wrap;gap:8px">{chips}</div></div>'
     body = head + hero + mid + reels + f'<div class="sec"><p class="seclabel">YouTube KR 인기 급상승 Top 3</p><div class="list">{yt}</div></div>'
     return body

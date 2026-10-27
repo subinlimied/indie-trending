@@ -279,21 +279,28 @@ REELS_TS_INLINE_RX = re.compile(r"(?:^|\s)\d{1,2}:\d{2}(?::\d{2})?(?:\s|$)")
 REELS_KEY_EN = ("sound", "sounds", "audio", "song", "songs", "music", "challenge", "dance", "dances", "filter", "filters", "transition", "transitions",
                 "effect", "effects", "template", "templates", "trend", "trends", "edit", "edits", "meme", "memes", "remix", "lipsync")
 REELS_KEY_KO = ("챌린지", "댄스", "필터", "트랜지션", "음원", "사운드", "템플릿", "효과", "밈", "편집", "트렌드", "노래", "포즈", "안무")
-REELS_PHRASE_EN_RX = re.compile(r"((?:[A-Za-z0-9'’]+\s+){1,3}(?:" + "|".join(REELS_KEY_EN) + r"))(?![A-Za-z0-9])", re.I)
-REELS_PHRASE_KO_RX = re.compile(r"([가-힣A-Za-z0-9'’]+(?:\s[가-힣A-Za-z0-9'’]+){0,2}\s?(?:" + "|".join(REELS_KEY_KO) + r"))(?![가-힣])")
+REELS_PHRASE_EN_RX = re.compile(r"((?:[A-Za-z0-9'’]+\s+){1,2}(?:" + "|".join(REELS_KEY_EN) + r"))(?![A-Za-z0-9])", re.I)   # 앞 단어 2개까지(문장 조각 방지)
+REELS_PHRASE_KO_RX = re.compile(r"([가-힣A-Za-z0-9'’]+(?:\s[가-힣A-Za-z0-9'’]+)?\s?(?:" + "|".join(REELS_KEY_KO) + r"))(?![가-힣])")   # 앞 단어 1개까지(문장 조각 방지)
 REELS_GENERIC = set("""this that the a an of for and or to in on with at by from your my our you we is are be new best top latest hot biggest current popular
 viral trending trend trends week weekly weeks month monthly today tonight daily now all every more most other another same next last first ft feat
+hottest funniest funny which what these those here there right some have has had discover get got make making want need use using check out watch see find learn try
+their its about into than can will who how where when why also just only even very really still
 tiktok tik tok instagram insta ig reels reel shorts short youtube video videos ep episode part vol compilation list roundup recap wrap tutorial
 fyp foryou foryoupage explore explorepage instagood reelsinstagram reelsvideo reelitfeelit viralvideo viralreels tiktokviral youtubeshorts
 2024 2025 2026 2027 october november december january february march april may june july august september oct nov dec jan feb mar apr jun jul aug sep sept
 이번주 이번 주 금주 주간 매주 오늘 요즘 최신 인기 유행 핫한 뜨는 뜬 모음 정리 총정리 추천 소개 베스트 탑 신상 지금 틱톡 릴스 인스타 인스타그램 쇼츠 유튜브 영상 편 주차
 챌린지 댄스 필터 트랜지션 음원 사운드 템플릿 효과 밈 편집 트렌드 노래 포즈 안무""".split()) | set(REELS_KEY_EN)
-REELS_PROMO = ("구독", "subscribe", "link in bio", "linkinbio", "follow me", "follow us", "팔로우", "좋아요", "like and", "like &", "comment below", "댓글",
+REELS_PROMO = ("구독", "subscribe", "link in bio", "linkinbio", "follow", "팔로우", "좋아요", "like and", "like &", "comment", "댓글", "share this", "공유해",
                "discount", "coupon", "promo", "use code", "% off", "sponsor", "협찬", "광고", "제휴", "business", "contact", "문의", "email", "e-mail", "이메일", "gmail", "http", "www.", ".com",
                "intro", "outro", "인트로", "아웃트로", "오프닝", "마무리", "thanks for watching", "시청해", "patreon", "merch", "shop", "download", "다운로드",
                "join", "membership", "멤버십", "channel", "채널", "playlist", "재생목록", "credit", "copyright", "저작권", "disclaimer", "timestamps", "타임라인",
                "@", "instagram.com", "tiktok.com", "youtube.com", "youtu.be", "bit.ly", "linktr")
 REELS_EMOJI_RX = re.compile(r"[\U0001F000-\U0001FAFF☀-➿️‍]+")
+REELS_PAREN_RX = re.compile(r"\([^()]*\)|\[[^\[\]]*\]|【[^】]*】")
+# "정리 영상" 판정: 제목에 트렌드·사운드·챌린지 계열 말이 있어야 하고, 리믹스·매시업·DJ 는 음악 모음이라 제외, 제목 해시태그 4개 이상은 스팸으로 제외
+REELS_TITLE_RX = re.compile(r"trend|trending|sound|audio|challenge|viral|밈|meme|트렌드|챌린지|음원|사운드|유행|모음|정리|필터|filter|transition|트랜지션", re.I)
+REELS_TITLE_EXCL_RX = re.compile(r"\bremix|mashup|\bdj\b|nonstop|\bbass\b|party music|리믹스|매시업|디제이", re.I)
+REELS_TITLE_MAX_TAGS = 3
 REELS_WORD_RX = re.compile(r"[a-z0-9'’]+|[가-힣]+")
 REELS_TERM_LEN = 48
 REELS_KIND_RANK = {"list": 0, "phrase": 1, "hashtag": 2}
@@ -303,6 +310,7 @@ def _reels_clean(text):
     """줄 하나 → 표시용 항목 문자열. 괄호·따옴표·이모지·해시태그 기호·꼬리 문장부호를 떼고 공백을 정리합니다(단어 속 아포스트로피는 둡니다)."""
     t = URL_RX.sub(" ", text or "")
     t = REELS_EMOJI_RX.sub(" ", t)
+    t = REELS_PAREN_RX.sub(" ", t)             # "(Peak, 334K Reels)" 같은 괄호 설명은 통째로
     t = re.sub(r"[\"“”«»\[\]()【】「」『』]", " ", t)
     t = t.replace("#", " ")
     t = re.sub(r"\s+", " ", t).strip(" -–—:|·.,;!?~>'‘’")
@@ -348,6 +356,20 @@ def _trim_generic_head(t):
     while len(parts) > 1 and (parts[0].lower().replace("'", "") in REELS_GENERIC or parts[0].isdigit()):
         parts.pop(0)
     return " ".join(parts)
+
+
+def reels_roundup(video):
+    """이 영상이 '트렌드 정리 영상'인가 → (True/False, 이유). 제목 키워드 · 해시태그 스팸 · 리믹스/매시업 제외 · 길이 0(라이브·미공개) 제외."""
+    title = video.get("title") or ""
+    if title.count("#") > REELS_TITLE_MAX_TAGS:
+        return False, "제목 해시태그 스팸"
+    if REELS_TITLE_EXCL_RX.search(title):
+        return False, "리믹스·매시업"
+    if not REELS_TITLE_RX.search(HASHTAG_RX.sub(" ", title)):
+        return False, "제목에 트렌드·사운드·챌린지 없음"
+    if not video.get("duration"):
+        return False, "길이 없음"
+    return True, ""
 
 
 def reels_items(video):
@@ -412,10 +434,11 @@ def _reels_merge(agg):
     return list(alive.values())
 
 
-def _reels_rank(block, top_items):
-    """블록 → (항목 목록[{key, term, kind, n, views, videos}], 영상 수). n = 그 항목이 나온 영상 수(같은 영상 안의 반복은 1, 비슷한 항목은 합침).
-    순서: 등장 영상 수 → (1편짜리는 영상을 조회수순으로 돌아가며 하나씩) → 종류(목록 줄 > 구절 > 해시태그) → 조회수."""
-    videos = (block or {}).get("videos") or {}
+def _reels_rank(block, top_items, videos=None):
+    """블록(또는 videos dict) → (항목 목록[{key, term, kind, n, channels, views, videos}], 영상 수).
+    n = 그 항목이 나온 **서로 다른 채널 수**(한 채널의 반복 문구·해시태그 도배가 상위에 오지 않게), 비슷한 항목은 합침.
+    순서: 채널 수 → (1채널짜리는 영상을 조회수순으로 돌아가며 하나씩) → 종류(목록 줄 > 구절 > 해시태그) → 조회수."""
+    videos = videos if videos is not None else ((block or {}).get("videos") or {})
     agg = {}
     order = sorted(videos, key=lambda i: -(videos[i].get("views") or 0))
     for vid in order:
@@ -429,7 +452,8 @@ def _reels_rank(block, top_items):
     rows = []
     for a in _reels_merge(agg):
         vids = sorted(a["_vids"], key=lambda i: pos.get(i, 9999))
-        rows.append({"key": a["key"], "term": a["term"], "kind": a["kind"], "n": len(vids),
+        chans = {videos[i].get("channel_id") or videos[i].get("channel") or i for i in vids}
+        rows.append({"key": a["key"], "term": a["term"], "kind": a["kind"], "n": len(chans), "n_videos": len(vids),
                      "views": sum(int(videos[i].get("views") or 0) for i in vids), "videos": vids[:3]})
     rows.sort(key=lambda a: (-a["n"], REELS_KIND_RANK.get(a["kind"], 9), -a["views"], a["term"].lower()))
     multi = [a for a in rows if a["n"] >= 2]
@@ -446,16 +470,38 @@ def _reels_rank(block, top_items):
     return (multi + mixed)[:top_items], len(videos)
 
 
+def _reels_pick(block, per_channel):
+    """정리 영상만 남기고(reels_roundup) 조회수순. 반환 ({id: video}, 제외 사유 집계, 채널당 per_channel 편으로 자른 순서 목록)."""
+    allv = (block or {}).get("videos") or {}
+    kept, dropped = {}, {}
+    for i, v in allv.items():
+        ok, why = reels_roundup(v)
+        if ok:
+            kept[i] = v
+        else:
+            dropped[why] = dropped.get(why, 0) + 1
+    order = sorted(kept.values(), key=lambda v: (-(v.get("views") or 0), v.get("published") or ""))
+    seen, ranked = {}, []
+    for v in order:
+        ch = v.get("channel_id") or v.get("channel") or ""
+        seen[ch] = seen.get(ch, 0) + 1
+        if seen[ch] <= per_channel:
+            ranked.append(v)
+    return kept, dropped, ranked
+
+
 def analyze_reels(today, prev, cfg_reels):
     """스냅샷 "reels" 블록 → 리포트 "reels": status · note · videos(조회수순 Top, NEW) · items(트렌드 항목, 등장 영상 수순, NEW) · 호출·유닛 요약."""
     block = today.get("reels") or {}
-    top_videos, top_items = int(cfg_reels.get("top_videos", 10)), int(cfg_reels.get("top_items", 30))
+    top_videos, top_items, per_channel = int(cfg_reels.get("top_videos", 10)), int(cfg_reels.get("top_items", 30)), int(cfg_reels.get("per_channel", 2))
     calls = block.get("calls") or {}
     out = {"status": block.get("status", "skip"), "error": block.get("error", ""), "note": "", "videos": [], "items": [], "n_videos": 0, "n_items": 0,
-           "queries": [{"q": r.get("q", ""), "region": r.get("region", ""), "n": r.get("n", 0), "error": r.get("error", "")} for r in block.get("queries") or []],
+           "n_found": len(block.get("videos") or {}), "n_roundup": 0, "dropped": {},
+           "queries": [{"q": r.get("q", ""), "region": r.get("region", ""), "duration": r.get("duration", "any"), "n": r.get("n", 0), "error": r.get("error", "")} for r in block.get("queries") or []],
            "n_queries_ok": sum(1 for r in block.get("queries") or [] if not r.get("error")),
            "calls": {"search": calls.get("search", 0), "videos": calls.get("videos", 0), "units": calls.get("units", 0)},
-           "days": (block.get("params") or {}).get("days", cfg_reels.get("days", 7)), "published_after": block.get("published_after", ""), "compared": False}
+           "days": (block.get("params") or {}).get("days", cfg_reels.get("days", 14)), "order": (block.get("params") or {}).get("order", ""),
+           "published_after": block.get("published_after", ""), "compared": False}
     if out["status"] == "skip":
         if not block:
             out["note"] = "릴스·틱톡 정리: 이 스냅샷에는 없음 (collect --only reels 로 추가)"
@@ -475,14 +521,17 @@ def analyze_reels(today, prev, cfg_reels):
     for r in block.get("queries") or []:
         for i in r.get("ids") or []:
             hit.setdefault(i, []).append(r.get("q", ""))
-    vids = sorted((block.get("videos") or {}).values(), key=lambda v: (-(v.get("views") or 0), v.get("published") or ""))
-    out["n_videos"] = len(vids)
+    kept, dropped, ranked = _reels_pick(block, per_channel)
+    out["n_videos"] = len(ranked)
+    out["n_roundup"] = len(kept)
+    out["dropped"] = dropped
     out["videos"] = [{"rank": i, "id": v.get("id"), "title": v.get("title", ""), "channel": v.get("channel", ""), "views": v.get("views", 0), "likes": v.get("likes"),
                       "duration": v.get("duration"), "shorts": bool(v.get("shorts")), "published": v.get("published", ""), "url": v.get("url", ""), "thumb": v.get("thumb", ""),
-                      "queries": hit.get(v.get("id"), [])[:3], "new": prev_ok and v.get("id") not in prev_videos}
-                     for i, v in enumerate(vids[:top_videos], 1)]
-    items, _ = _reels_rank(block, top_items)
-    prev_items = {a["key"]: a["n"] for a in _reels_rank(prev_block, 10_000)[0]} if prev_ok else {}
+                      "query": (hit.get(v.get("id")) or [""])[0], "queries": hit.get(v.get("id"), [])[:3], "new": prev_ok and v.get("id") not in prev_videos}
+                     for i, v in enumerate(ranked[:top_videos], 1)]
+    items, _ = _reels_rank(block, top_items, videos={v["id"]: v for v in ranked})
+    prev_kept = _reels_pick(prev_block, per_channel)[2] if prev_ok else []
+    prev_items = {a["key"]: a["n"] for a in _reels_rank(prev_block, 10_000, videos={v["id"]: v for v in prev_kept})[0]} if prev_ok else {}
     for a in items:
         pn = prev_items.get(a["key"]) if prev_ok else None
         a["prev"] = pn
@@ -760,7 +809,7 @@ def llm_request(rep):
             lines.append("Threads 에서 새로 뜨는 말: " + " / ".join(x["term"] for x in th["rising"][:8]))
     rl = rep.get("reels") or {}
     if rl.get("status") == "ok" and rl.get("items"):
-        lines.append("릴스·틱톡 트렌드 정리(유튜브 정리 영상에서 뽑은 항목): " + " / ".join(f"{x['term']}({x['n']}편)" for x in rl["items"][:8]))
+        lines.append("릴스·틱톡 트렌드 정리(유튜브 정리 영상에서 뽑은 항목): " + " / ".join(f"{x['term']}({x['n']}채널)" for x in rl["items"][:8]))
         if rl.get("videos"):
             lines.append("정리 영상 제목: " + " / ".join(v["title"][:60] for v in rl["videos"][:3]))
     im = rep.get("imgflip") or {}
