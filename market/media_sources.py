@@ -3,7 +3,8 @@
 소스: Know Your Meme(뉴스피드 RSS · 확정 엔트리 RSS · 제출 엔트리 RSS · 검색 "tiktok/instagram/reels" 최신순 + 엔트리 페이지)
       · Reddit top(t=day) RSS · YouTube 인기 급상승(API 키가 있을 때만, 60초 이하는 "쇼츠" 표시)
       · Google 트렌드 일간 RSS(KR·US) · 위키백과 일간 조회수 상위(en·ko) · Imgflip 인기 밈 템플릿 100개
-      · Threads 키워드 검색(THREADS_ACCESS_TOKEN 이 있을 때만, market/threads_source.py → 스냅샷 최상위 "threads" 키).
+      · Threads 키워드 검색(THREADS_ACCESS_TOKEN 이 있을 때만, market/threads_source.py → 스냅샷 최상위 "threads" 키)
+      · 릴스·틱톡 트렌드 정리 영상(YouTube search.list, 키가 있을 때만, config media.reels.queries → 스냅샷 최상위 "reels" 키).
 소스 하나가 실패해도 나머지는 계속 가고, 스냅샷의 sources[키] 에 status("ok"/"fail"/"skip") 와 error 를 남깁니다.
 모든 요청에 연락처가 든 User-Agent 를 붙이고 요청 사이 0.5초 쉽니다. 정치·경제 제외 필터는 분석 단계(media_analyze)에서 겁니다.
 """
@@ -34,6 +35,7 @@ WIKI_TOP = "https://wikimedia.org/api/rest_v1/metrics/pageviews/top/{project}.wi
 REDDIT_RSS = "https://www.reddit.com/r/{sub}/top/.rss?t=day"
 IMGFLIP = "https://api.imgflip.com/get_memes"
 YOUTUBE = "https://www.googleapis.com/youtube/v3/videos"
+YOUTUBE_SEARCH = "https://www.googleapis.com/youtube/v3/search"
 
 # 제목·요약에서 뽑는 플랫폼 단서. (표시 이름, 정규식)
 PLATFORMS = [
@@ -395,6 +397,112 @@ def collect_youtube(region, key, shorts_max=60):
     return items
 
 
+# ---------- 6-1. 릴스·틱톡 트렌드 정리 영상 (search.list → videos.list, 키가 있을 때만) ----------
+
+DESC_LEN = 4000          # 설명 전체를 저장하되 너무 긴 것은 자릅니다(트렌드 목록은 보통 앞부분에 있음)
+
+
+def _video_info(v, shorts_max=60):
+    sn, cd, st = v.get("snippet") or {}, v.get("contentDetails") or {}, v.get("statistics") or {}
+    sec = duration_sec(cd.get("duration"))
+    vid = v.get("id")
+    desc = sn.get("description") or ""
+    return {"id": vid, "title": sn.get("title", ""), "channel": sn.get("channelTitle", ""), "channel_id": sn.get("channelId", ""),
+            "views": int(st.get("viewCount") or 0), "likes": int(st.get("likeCount") or 0) if st.get("likeCount") else None,
+            "duration": sec, "shorts": sec is not None and sec <= shorts_max, "published": sn.get("publishedAt", ""),
+            "url": f"https://www.youtube.com/shorts/{vid}" if sec is not None and sec <= shorts_max else f"https://www.youtube.com/watch?v={vid}",
+            "thumb": ((sn.get("thumbnails") or {}).get("medium") or {}).get("url", ""),
+            "tags": list(sn.get("tags") or [])[:30], "lang": sn.get("defaultAudioLanguage") or sn.get("defaultLanguage") or "",
+            "description": desc if len(desc) <= DESC_LEN else desc[:DESC_LEN]}
+
+
+def youtube_search(q, key, published_after, region="US", lang="en", max_results=10):
+    """search.list 1회(100유닛): 최근 영상을 조회수순으로. 반환 [videoId]. 응답 오류면 RuntimeError."""
+    data = http.get_json(YOUTUBE_SEARCH, {"part": "snippet", "q": q, "type": "video", "order": "viewCount", "publishedAfter": published_after,
+                                          "regionCode": region, "relevanceLanguage": lang, "maxResults": max_results, "safeSearch": "moderate", "key": key},
+                         headers=HEADERS, retries=1)
+    time.sleep(SLEEP)
+    if not data or "items" not in data:
+        raise RuntimeError(f"응답 오류: {json.dumps(data, ensure_ascii=False)[:160] if data else '없음'}")
+    return [((it.get("id") or {}).get("videoId") or "") for it in data["items"] if (it.get("id") or {}).get("videoId")]
+
+
+def youtube_videos(ids, key):
+    """videos.list(snippet·contentDetails·statistics) — 50개씩 1유닛. 반환 {id: 영상 정보}."""
+    out = {}
+    for i in range(0, len(ids), 50):
+        chunk = ids[i:i + 50]
+        data = http.get_json(YOUTUBE, {"part": "snippet,contentDetails,statistics", "id": ",".join(chunk), "maxResults": 50, "key": key}, headers=HEADERS, retries=1)
+        time.sleep(SLEEP)
+        if not data or "items" not in data:
+            raise RuntimeError(f"videos.list 응답 오류: {json.dumps(data, ensure_ascii=False)[:160] if data else '없음'}")
+        for v in data["items"]:
+            info = _video_info(v)
+            if info["id"]:
+                out[info["id"]] = info
+    return out
+
+
+def _redact_key(msg, key):
+    """오류 문구에 요청 URL(key= 포함)이 들어올 수 있어 키 값을 가립니다."""
+    return msg.replace(key, "***") if key else msg
+
+
+def collect_reels(cfg_reels, key, log=print, now=None):
+    """config media.reels → 스냅샷 최상위 "reels" 블록.
+    {status ok/skip/fail, params, published_after, queries[{q, region, lang, ids[], n, error}], videos{id: {...}}, calls{search, videos, units}, error}
+    검색어 하나가 실패해도 나머지는 계속 가고, 검색이 전부 실패했을 때만 status fail 입니다."""
+    now = now or datetime.now(timezone.utc)
+    queries = [q for q in (cfg_reels.get("queries") or []) if isinstance(q, str) and q.strip()][: int(cfg_reels.get("max_searches", 8))]
+    days, max_results = int(cfg_reels.get("days", 7)), int(cfg_reels.get("max_results", 10))
+    since = (now - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    block = {"status": "skip", "collected_at": _iso(now), "params": {"days": days, "max_results": max_results, "queries": queries},
+             "published_after": since, "queries": [], "videos": {}, "calls": {"search": 0, "videos": 0, "units": 0}, "error": ""}
+    if not key:
+        block["error"] = "YOUTUBE_API_KEY 없음"
+        log("[media] 릴스·틱톡 정리: 건너뜀 — YOUTUBE_API_KEY 없음")
+        return block
+    if not queries:
+        block["error"] = "검색어 없음 (config media.reels.queries)"
+        log("[media] 릴스·틱톡 정리: 건너뜀 — 검색어 없음")
+        return block
+    ids, order = set(), []
+    for q in queries:
+        ko = not q.isascii()
+        row = {"q": q, "region": "KR" if ko else "US", "lang": "ko" if ko else "en", "ids": [], "n": 0, "error": ""}
+        block["calls"]["search"] += 1
+        block["calls"]["units"] += 100
+        try:
+            row["ids"] = youtube_search(q, key, since, region=row["region"], lang=row["lang"], max_results=max_results)
+            row["n"] = len(row["ids"])
+            for i in row["ids"]:
+                if i not in ids:
+                    ids.add(i)
+                    order.append(i)
+        except Exception as ex:  # noqa: BLE001  검색어 하나가 막혀도(403 할당량 초과 포함) 나머지는 계속
+            row["error"] = _redact_key(f"{type(ex).__name__}: {ex}", key)[:160]
+            log(f"[media] 릴스·틱톡 정리 '{q}': 실패 — {row['error']}")
+        block["queries"].append(row)
+    if not order:
+        block["status"] = "fail"
+        block["error"] = "검색 결과 없음" if not any(r["error"] for r in block["queries"]) else "; ".join(r["error"] for r in block["queries"] if r["error"])[:200]
+        log(f"[media] 릴스·틱톡 정리: 실패 — {block['error']}")
+        return block
+    try:
+        block["calls"]["videos"] = (len(order) + 49) // 50
+        block["calls"]["units"] += block["calls"]["videos"]
+        block["videos"] = youtube_videos(order, key)
+        block["status"] = "ok"
+    except Exception as ex:  # noqa: BLE001
+        block["status"] = "fail"
+        block["error"] = _redact_key(f"{type(ex).__name__}: {ex}", key)[:200]
+        log(f"[media] 릴스·틱톡 정리: videos.list 실패 — {block['error']}")
+        return block
+    n_ok = sum(1 for r in block["queries"] if not r["error"])
+    log(f"[media] 릴스·틱톡 정리: 검색 {n_ok}/{len(queries)}개 · 영상 {len(block['videos'])}개 · {block['calls']['units']}유닛")
+    return block
+
+
 # ---------- 7. Imgflip ----------
 
 def collect_imgflip():
@@ -432,7 +540,7 @@ def _skip(snap, key, label, why, log):
     log(f"[media] {label}: 건너뜀 — {why}")
 
 
-GROUPS = ("kym", "trends", "wiki", "reddit", "youtube", "imgflip", "threads")
+GROUPS = ("kym", "trends", "wiki", "reddit", "youtube", "reels", "imgflip", "threads")
 
 
 def collect(cfg, date, log=print, only=None, base=None):
@@ -443,8 +551,9 @@ def collect(cfg, date, log=print, only=None, base=None):
             "params": {"kym_hours": hours, "kym_confirmed_hours": cfg.get("kym_confirmed_hours", 168), "kym_queries": cfg.get("kym_queries", []), "wiki_top": cfg.get("wiki_top", 20),
                        "reddit_subs": cfg.get("reddit_subs", [])},
             "sources": dict((base or {}).get("sources") or {})}
-    if base and base.get("threads"):       # --only 로 일부만 다시 받을 때 Threads 블록도 유지
-        snap["threads"] = base["threads"]
+    for top in ("threads", "reels"):       # --only 로 일부만 다시 받을 때 최상위 블록(Threads · 릴스)도 유지
+        if base and base.get(top):
+            snap[top] = base[top]
 
     def want(group):
         return not only or group in only
@@ -467,6 +576,16 @@ def collect(cfg, date, log=print, only=None, base=None):
                 _run(snap, f"youtube_{region.lower()}", f"YouTube 인기 {region}", lambda r=region: collect_youtube(r, key), log)
             else:
                 _skip(snap, f"youtube_{region.lower()}", f"YouTube 인기 {region}", "YOUTUBE_API_KEY 없음", log)
+    if want("reels"):   # 키가 없으면 skip 블록만 남습니다. 상태표에는 sources["reels"] 한 줄로 요약
+        key = (os.environ.get("YOUTUBE_API_KEY") or "").strip()
+        try:
+            snap["reels"] = collect_reels(cfg.get("reels") or {}, key, log)
+        except Exception as ex:  # noqa: BLE001
+            snap["reels"] = {"status": "fail", "error": _redact_key(f"{type(ex).__name__}: {ex}", key)[:200], "queries": [], "videos": {}, "calls": {"search": 0, "videos": 0, "units": 0}}
+            log(f"[media] 릴스·틱톡 정리: 실패 — {snap['reels']['error']}")
+        rl = snap["reels"]
+        snap["sources"]["reels"] = {"label": "릴스·틱톡 정리 영상", "status": rl.get("status", "skip"), "error": rl.get("error", ""),
+                                    "count": len(rl.get("videos") or {}), "items": []}
     if want("trends"):
         for geo in ("KR", "US"):
             _run(snap, f"trends_{geo.lower()}", f"Google 트렌드 {geo}", lambda g=geo: collect_trends(g), log)
@@ -488,6 +607,6 @@ def collect(cfg, date, log=print, only=None, base=None):
         for sub in cfg.get("reddit_subs", []):
             _run(snap, f"reddit_{sub.lower()}", f"Reddit r/{sub}", lambda s=sub: collect_reddit(s), log)
     for k in list(snap["sources"]):        # 더 이상 받지 않는 소스(예: 예전 X 트렌드)는 기존 스냅샷에서도 지웁니다
-        if not k.startswith(("kym_", "trends_", "wiki_", "reddit_", "youtube_", "imgflip", "threads")):
+        if not k.startswith(("kym_", "trends_", "wiki_", "reddit_", "youtube_", "imgflip", "threads", "reels")):
             del snap["sources"][k]
     return snap

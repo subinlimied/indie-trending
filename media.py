@@ -2,7 +2,7 @@
 """미디어·밈 트렌드 일간 리포트 진입점 (수집 → 분석·렌더 → 카드 → Discord).
 
 사용:
-  python3 media.py collect --date 2026-10-22 [--force] [--only wiki,reddit,threads]   # data/media/<date>.json (소스별 상태 포함). THREADS_ACCESS_TOKEN 이 있으면 Threads 키워드도
+  python3 media.py collect --date 2026-10-22 [--force] [--only wiki,reddit,threads]   # data/media/<date>.json (소스별 상태 포함). THREADS_ACCESS_TOKEN 이 있으면 Threads 키워드도, YOUTUBE_API_KEY 가 있으면 릴스·틱톡 정리 영상도
   python3 media.py report  --date 2026-10-22             # reports/media/<date>.json .md .html (+ state.json). ANTHROPIC_API_KEY 가 있으면 한국어 밈 설명·인사이트 추가
   python3 media.py cards   --date 2026-10-22             # reports/media/cards/<date>-N.png (Chrome 없으면 건너뜀)
   python3 media.py send    --date 2026-10-22 [--dry-run] # Discord 임베드 + 카드 PNG 전송
@@ -183,7 +183,7 @@ def main():
         sp.set_defaults(fn=fn)
         if name == "collect":
             sp.add_argument("--force", action="store_true", help="같은 날짜 스냅샷이 있어도 다시 수집")
-            sp.add_argument("--only", help="일부 소스만 다시 받아 기존 스냅샷에 합침 (쉼표 구분: kym,trends,wiki,reddit,youtube,imgflip,threads)")
+            sp.add_argument("--only", help="일부 소스만 다시 받아 기존 스냅샷에 합침 (쉼표 구분: kym,trends,wiki,reddit,youtube,reels,imgflip,threads)")
         if name == "cards":
             sp.add_argument("--html-dir", help="카드 HTML 을 임시 폴더 대신 여기에 남깁니다(디자인 확인용)")
         if name == "send":

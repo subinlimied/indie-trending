@@ -236,6 +236,24 @@
       "hours": 24,
       "refresh_days": 14,
       "sleep": 0.4
+    },
+    "reels": {
+      "_설명": "릴스·틱톡 트렌드 정리 영상. YOUTUBE_API_KEY 가 있을 때만 수집. 검색어마다 search.list 1회(100유닛, 최근 days 일·조회수순·max_results 개) + videos.list 1~2회(1유닛). 검색어 8개 = 하루 약 802유닛. 한글 검색어는 KR/ko, 영어는 US/en 으로 조회합니다.",
+      "queries": [
+        "이번주 릴스 트렌드",
+        "릴스 챌린지 모음",
+        "틱톡 트렌드 이번주",
+        "릴스 인기 음원",
+        "trending reels this week",
+        "tiktok trends this week",
+        "trending sounds instagram reels",
+        "viral tiktok dances this week"
+      ],
+      "days": 7,
+      "max_results": 10,
+      "max_searches": 8,
+      "top_videos": 10,
+      "top_items": 30
     }
   }
 }

@@ -113,14 +113,15 @@ DISCORD_WEBHOOK_URL_MEDIA=... python3 media.py send --date 2026-10-23   # 전송
 | # | 섹션 | 소스 | 비고 |
 |---|---|---|---|
 | 01 | 틱톡·인스타 트렌드 | KYM 뉴스피드·확정·제출 RSS + KYM 검색 "tiktok / instagram / reels" 최신순(엔트리 페이지에서 발행·수정 시각) | 최근 48시간 · 제목·요약에 TikTok/Instagram 단서가 있는 항목만. **오늘의 트렌드 한 건**은 여기서 TikTok → Instagram 순으로 최신 것 |
-| 02 | 새로 등록된 밈 | KYM 확정(`memes.rss`)·제출(`memes/submissions.rss`) 엔트리 | 제출은 48시간, 확정은 드물어 7일(`kym_confirmed_hours`) 이내. 확정/제출 배지 |
-| 03 | Threads 키워드 관찰 | Threads API `GET /v1.0/keyword_search` — `config.json` `media.threads.keywords` 30개 × TOP·RECENT 각 1회 | secret `THREADS_ACCESS_TOKEN` 사용(아래 "Threads 토큰 만드는 법"). 키워드별 24시간 게시 수와 전날 대비, 새로 뜨는 해시태그·단어, 대표 글 1~3개. 토큰 없는 환경에서는 "토큰 없음" 메모만 |
-| 04 | 커뮤니티 베스트 | Reddit top(t=day) r/TikTokCringe · memes · popculturechat · shorts · gaming · IndieGaming | 403·429·빈 피드면 그 서브레딧만 실패. r/InstagramReels 는 열리지만 하루치 글이 없어 뺌 |
-| 05 | 유튜브 인기 급상승 | YouTube Data API v3 `videos.list(chart=mostPopular)` KR·US 각 50개 중 Top 10 | secret `YOUTUBE_API_KEY` 사용(아래). 60초 이하 영상에는 "쇼츠" 표시. 키 없는 환경에서는 건너뜀 |
-| 06 | 검색 급상승 · 세상의 관심사 | Google 트렌드 일간 RSS KR·US, 위키백과 조회수 상위 en·ko | 제외 필터 적용, HTML 에서는 접힘, 임베드에는 상위 3개만 한 줄 |
-| 07 | 밈 템플릿 순위 변동 | Imgflip 인기 템플릿 100개 | 전날 대비 ▲▼ · 신규 진입 · 이탈 |
-| 08 | 게임 ↔ 밈 교차 | 위 제목들(+ Threads 대표 글) × `data/steam/` · `data/itch/` 게임 이름 | 소문자 · 3글자 이상 · 부분 일치는 단어 경계, 이름이 2단어 이상이거나 8자 이상일 때만 |
-| 09 | 수집 상태 | 소스별 정상/실패/건너뜀 · 개수 · 제외 건수 · Claude 토큰 · Threads 토큰 만료 메모 | |
+| 02 | 릴스·틱톡 트렌드 정리 | YouTube Data API v3 `search.list` — `config.json` `media.reels.queries` 8개("이번주 릴스 트렌드", "tiktok trends this week" 등, 한글은 KR·영어는 US) × 최근 7일 조회수순 10개 → `videos.list` 로 조회수·길이·설명 전체 | secret `YOUTUBE_API_KEY` 사용(아래 "유튜브"). 정리 영상의 제목·설명에서 번호·글머리·타임스탬프 줄, 해시태그, challenge/sound/챌린지/필터가 붙은 구절을 **트렌드 항목**으로 뽑아 등장 영상 수로 순위(비슷한 항목은 합침, 홍보 문구·일반어 제외), 어제 없던 항목·영상은 NEW. 정리 영상 Top 10 썸네일 격자. 키 없는 환경에서는 "YouTube 키 없음" 메모만 |
+| 03 | 새로 등록된 밈 | KYM 확정(`memes.rss`)·제출(`memes/submissions.rss`) 엔트리 | 제출은 48시간, 확정은 드물어 7일(`kym_confirmed_hours`) 이내. 확정/제출 배지 |
+| 04 | Threads 키워드 관찰 | Threads API `GET /v1.0/keyword_search` — `config.json` `media.threads.keywords` 30개 × TOP·RECENT 각 1회 | secret `THREADS_ACCESS_TOKEN` 사용(아래 "Threads 토큰 만드는 법"). 키워드별 24시간 게시 수와 전날 대비, 새로 뜨는 해시태그·단어, 대표 글 1~3개. 토큰 없는 환경에서는 "토큰 없음" 메모만 |
+| 05 | 커뮤니티 베스트 | Reddit top(t=day) r/TikTokCringe · memes · popculturechat · shorts · gaming · IndieGaming | 403·429·빈 피드면 그 서브레딧만 실패. r/InstagramReels 는 열리지만 하루치 글이 없어 뺌 |
+| 06 | 유튜브 인기 급상승 | YouTube Data API v3 `videos.list(chart=mostPopular)` KR·US 각 50개 중 Top 10 | secret `YOUTUBE_API_KEY` 사용(아래). 60초 이하 영상에는 "쇼츠" 표시. 키 없는 환경에서는 건너뜀 |
+| 07 | 검색 급상승 · 세상의 관심사 | Google 트렌드 일간 RSS KR·US, 위키백과 조회수 상위 en·ko | 제외 필터 적용, HTML 에서는 접힘, 임베드에는 상위 3개만 한 줄 |
+| 08 | 밈 템플릿 순위 변동 | Imgflip 인기 템플릿 100개 | 전날 대비 ▲▼ · 신규 진입 · 이탈 |
+| 09 | 게임 ↔ 밈 교차 | 위 제목들(+ Threads 대표 글 · 릴스 정리 영상 제목) × `data/steam/` · `data/itch/` 게임 이름 | 소문자 · 3글자 이상 · 부분 일치는 단어 경계, 이름이 2단어 이상이거나 8자 이상일 때만 |
+| 10 | 수집 상태 | 소스별 정상/실패/건너뜀 · 개수 · 제외 건수 · Claude 토큰 · Threads 토큰 만료 메모 · 릴스 정리 호출 수 | |
 
 X 트렌드(trends24.in)는 GitHub Actions 의 IP 대역이 차단되어 뺐습니다.
 
@@ -132,23 +133,23 @@ X 트렌드(trends24.in)는 GitHub Actions 의 IP 대역이 차단되어 뺐습�
 **밈 한국어 설명 루틴 (Claude Code 클라우드 예약 작업)** — 매일 08:40 KST 에 `reports/media/<date>.json` 을 읽어 개인 채널로 밈 설명을 보내는 예약 작업의 지시문은 [routine/meme_ko.md](routine/meme_ko.md) 에 있습니다. 예약 작업 프롬프트에는 웹훅 주소와 이 파일 주소만 있고, 실제 할 일(읽을 JSON 키 · 글자 수 · 임베드 형식)은 이 파일을 읽어 따릅니다. 구성을 바꾸려면 이 파일만 고쳐 커밋하면 됩니다. 리포트 JSON 의 `shortform`·`new_memes` 항목은 `about`(영어 원문)과 `image`(엔트리 og:image)를 있을 때만 담습니다.
 같은 방식의 두 번째 루틴 [routine/game_ideas.md](routine/game_ideas.md) 는 게임 리포트(`reports/steam`·`itch`·`personal`)를 읽어 "활용 아이디어 + 제작 인사이트"를 보냅니다. 그 근거가 되는 게임 설명은 Steam·itch 리포트의 `pick` 과 급상승 항목에 `desc`(영어 원문 300자: Steam 스토어 짧은 설명, itch 는 목록 한 줄 소개 또는 페이지 og:description)로 들어갑니다. Steam 설명은 메타 캐시에 함께 저장되며, 캐시에 없는 앱은 `python3 collect.py --date <date> --refresh-meta` 로 한 번에 채울 수 있습니다(1.6초 간격).
 
-**유튜브** — GitHub secret `YOUTUBE_API_KEY` 로 YouTube Data API v3 `videos.list(chart=mostPopular)` 를 KR·US 각 1회(하루 2회, 호출당 1유닛) 불러 인기 급상승 Top 10 을 싣고 60초 이하 영상에 "쇼츠"를 표시합니다. 키가 없는 환경(로컬)에서는 04 섹션이 "건너뜀"으로 나오고 임베드에서는 빠집니다. 키 만들기: Google Cloud 콘솔 → 새 프로젝트 → API 및 서비스 → 라이브러리 → **YouTube Data API v3** 사용 설정 → 사용자 인증 정보 → **API 키 만들기** → GitHub 저장소 Secrets 에 `YOUTUBE_API_KEY` 로 등록. 결제 등록은 필요 없고 일 10,000 유닛까지 무료입니다. 로컬에서는 `YOUTUBE_API_KEY=... python3 media.py collect --only youtube` 로 그 소스만 다시 받을 수 있습니다.
+**유튜브** — GitHub secret `YOUTUBE_API_KEY` 하나로 두 섹션을 만듭니다. (1) 06 인기 급상승: `videos.list(chart=mostPopular)` 를 KR·US 각 1회(하루 2회, 호출당 1유닛) 불러 Top 10 을 싣고 60초 이하 영상에 "쇼츠"를 표시합니다. (2) 02 릴스·틱톡 트렌드 정리: Instagram·Threads 공식 API 는 앱 심사가 필요해, 대신 크리에이터들이 올리는 "이번 주 릴스·틱톡 트렌드 정리" 영상을 `search.list`(`type=video`, `order=viewCount`, `publishedAfter` 최근 7일, 한글 검색어는 `regionCode=KR`·`relevanceLanguage=ko`, 영어는 US·en, `maxResults=10`)로 `config.json` `media.reels.queries` 검색어마다 1회 찾고, 모은 영상 id 를 `videos.list(snippet,contentDetails,statistics)` 50개씩 1~2회로 보강합니다(조회수·길이·채널·설명 전체). 분석(`media_analyze.analyze_reels`)은 설명의 번호·글머리·타임스탬프 줄과 해시태그, challenge/sound/dance/챌린지/필터/트랜지션 같은 말이 붙은 구절을 항목으로 뽑아 "그 항목이 나온 정리 영상 수"로 순위를 매기고(단어 집합이 포함 관계면 합침: "Apple dance" ⊆ "Apple by Charli XCX dance"), 구독·link in bio·연락처 같은 홍보 문구와 "이번주 트렌드"처럼 일반어만 있는 줄은 뺍니다. **할당량**: 하루 10,000유닛 중 검색 8회 × 100 = 800유닛 + `videos.list` 1~2유닛 + 인기 급상승 2유닛 ≈ 804유닛. 검색어 수는 `media.reels.max_searches`(8)로 상한을 둡니다. 키가 없는 환경(로컬)에서는 02·06 섹션이 "건너뜀"으로 나오고 임베드에서는 빠집니다(02 는 마지막 임베드에 "YouTube 키 없음" 메모 한 줄). 키 만들기: Google Cloud 콘솔 → 새 프로젝트 → API 및 서비스 → 라이브러리 → **YouTube Data API v3** 사용 설정 → 사용자 인증 정보 → **API 키 만들기** → GitHub 저장소 Secrets 에 `YOUTUBE_API_KEY` 로 등록. 결제 등록은 필요 없고 일 10,000 유닛까지 무료입니다. 로컬에서는 `YOUTUBE_API_KEY=... python3 media.py collect --only youtube,reels` 로 그 소스만 다시 받을 수 있습니다.
 
-- 카드 PNG 2장(Threads 토큰이 있으면 3장): 표지(오늘의 트렌드 KYM 이미지 + 플랫폼 칩 + 한 줄 요약(Claude 설명이 있으면 그것) + 플랫폼 집계 도넛 + 유튜브 KR 인기 Top 3) · 2장(새 밈 5개 격자 — 없으면 틱톡·인스타 트렌드로 대신 — + 밈 템플릿 순위 변동 Top 5 + 게임 교차) · 3장(Threads 키워드 게시량 막대 Top 8 + 새로 뜨는 말 + 대표 글).
-- Discord 임베드: 표지(+오늘의 인사이트) · 새 밈 · Threads 키워드(토큰 있을 때만) · 커뮤니티 · 유튜브 인기 KR/US · 검색·위키·밈 템플릿·게임 교차(상세 링크 `reports/media/<date>.html`, footer 수집 상태. Threads 토큰이 없거나 만료가 가까우면 여기에 메모 한 줄).
+- 카드 PNG 2장(Threads 토큰이 있으면 3장): 표지(오늘의 트렌드 KYM 이미지 + 플랫폼 칩 + 한 줄 요약(Claude 설명이 있으면 그것) + 플랫폼 집계 도넛 + 릴스·틱톡 트렌드 항목 Top 3 한 줄(키 있을 때) + 유튜브 KR 인기 Top 3) · 2장(새 밈 5개 격자 — 없으면 틱톡·인스타 트렌드로 대신 — + 밈 템플릿 순위 변동 Top 5 + 게임 교차) · 3장(Threads 키워드 게시량 막대 Top 8 + 새로 뜨는 말 + 대표 글).
+- Discord 임베드: 표지(+오늘의 인사이트) · 릴스·틱톡 트렌드 정리(키 있을 때만: 항목 Top 8 + 정리 영상 Top 5) · 새 밈 · Threads 키워드(토큰 있을 때만) · 커뮤니티 · 유튜브 인기 KR/US · 검색·위키·밈 템플릿·게임 교차(상세 링크 `reports/media/<date>.html`, footer 수집 상태. Threads 토큰이 없거나 만료가 가까우면 여기에 메모 한 줄).
 - Reddit 익명 RSS 는 IP 당 약 1분에 1회만 허용해 서브레딧 사이를 62초 간격으로 보냅니다(6개 ≈ 6분). 위키 조회수는 09:30 KST 에 전날 집계가 아직 없어 2~3일 전까지 거슬러 받습니다.
-- `config.json` 의 `media` 키: `reddit_subs` · `kym_queries` · `kym_hours` · `kym_confirmed_hours` · `wiki_top` · `trends_top` · `imgflip_top` · `exclude_keywords` · `threads`(`keywords` 목록, `limit` 호출당 글 수 최대 100, `pages`, `max_calls` 하루 호출 상한, `hours` 게시량 창, `refresh_days` 토큰 갱신 시작 시점).
+- `config.json` 의 `media` 키: `reddit_subs` · `kym_queries` · `kym_hours` · `kym_confirmed_hours` · `wiki_top` · `trends_top` · `imgflip_top` · `exclude_keywords` · `threads`(`keywords` 목록, `limit` 호출당 글 수 최대 100, `pages`, `max_calls` 하루 호출 상한, `hours` 게시량 창, `refresh_days` 토큰 갱신 시작 시점) · `reels`(`queries` 검색어 목록, `days` 검색 기간, `max_results` 검색어당 영상 수, `max_searches` 하루 검색 상한, `top_videos`, `top_items`).
 - [.github/workflows/media.yml](.github/workflows/media.yml) 이 매일 09:30 KST(00:30 UTC, 게임 리포트 뒤)에 수집 → 리포트 → 카드 → 커밋·push → 전송을 합니다. 전송 단계에는 `DISCORD_WEBHOOK_URL_MEDIA` 와 `DISCORD_WEBHOOK_URL_PERSONAL` 만 넘깁니다(전용 채널을 쓰려면 `DISCORD_WEBHOOK_URL_MEDIA` secret 을 등록).
 
-## Threads 토큰 만드는 법 (미디어 리포트 03 · Threads 키워드 관찰)
+## Threads 토큰 만드는 법 (미디어 리포트 04 · Threads 키워드 관찰)
 
-미디어 리포트의 03 섹션은 Meta **Threads API** 의 키워드 검색으로 `config.json` → `media.threads.keywords` 의 키워드(한국어·영어 30개, 정치·경제·스포츠 없음)마다 TOP·RECENT 를 하루 한 번씩 조회합니다. 수집은 [market/threads_source.py](market/threads_source.py), 분석은 `media_analyze.analyze_threads`, 렌더는 `render_media._threads_html` / `_threads_card` 입니다. 아래는 2026-10-27 에 Meta 공식 문서([Keyword Search](https://developers.facebook.com/documentation/threads/keyword-search), [Get Started](https://developers.facebook.com/documentation/threads/get-started), [Get Access Tokens](https://developers.facebook.com/documentation/threads/get-started/get-access-tokens-and-permissions), [Long-Lived Tokens](https://developers.facebook.com/documentation/threads/get-started/long-lived-tokens), [Debug Token](https://developers.facebook.com/documentation/threads/troubleshooting/debug-access-token), [Create an app](https://developers.facebook.com/documentation/threads/get-started/create-an-app))에서 확인한 내용입니다.
+미디어 리포트의 04 섹션은 Meta **Threads API** 의 키워드 검색으로 `config.json` → `media.threads.keywords` 의 키워드(한국어·영어 30개, 정치·경제·스포츠 없음)마다 TOP·RECENT 를 하루 한 번씩 조회합니다. 수집은 [market/threads_source.py](market/threads_source.py), 분석은 `media_analyze.analyze_threads`, 렌더는 `render_media._threads_html` / `_threads_card` 입니다. 아래는 2026-10-27 에 Meta 공식 문서([Keyword Search](https://developers.facebook.com/documentation/threads/keyword-search), [Get Started](https://developers.facebook.com/documentation/threads/get-started), [Get Access Tokens](https://developers.facebook.com/documentation/threads/get-started/get-access-tokens-and-permissions), [Long-Lived Tokens](https://developers.facebook.com/documentation/threads/get-started/long-lived-tokens), [Debug Token](https://developers.facebook.com/documentation/threads/troubleshooting/debug-access-token), [Create an app](https://developers.facebook.com/documentation/threads/get-started/create-an-app))에서 확인한 내용입니다.
 
 **문서에서 확인한 사실**
 
 - 엔드포인트: `GET https://graph.threads.net/v1.0/keyword_search` (`graph.threads.com` 도 같음). 파라미터 `q`(필수) · `search_type` = `TOP`(기본) 또는 `RECENT` · `search_mode` = `KEYWORD`(기본) 또는 `TAG`(토픽 태그) · `media_type` = TEXT/IMAGE/VIDEO · `since`/`until`(Unix 초, 2023-07-05 이후만) · `limit` 기본 25, 최대 100 · `author_username` · `fields`(미디어 필드 목록, `owner` 는 안 나옴). 응답은 `{"data": [...]}` 이고 키워드 검색 문서에는 페이지네이션 설명이 없습니다(코드는 `paging.cursors.after` 가 오면 `pages` 만큼만 이어 받습니다).
 - 한도: **사용자당 24시간(롤링) 2,200회.** 앱 구분 없이 한 사용자의 모든 앱이 합산되고, 같은 키워드를 다시 보내도 세며, 결과가 0건인 요청은 세지 않습니다. 민감·공격적 키워드는 빈 배열이 옵니다. 이 프로젝트는 키워드 30개 × 2 유형 × 페이지 1 = 하루 60회 안팎이고 `media.threads.max_calls`(기본 200)로 상한을 둡니다.
-- 권한: `threads_basic`(모든 호출) + `threads_keyword_search`(키워드 검색). **앱이 `threads_keyword_search` 를 승인(App Review)받기 전에는 검색 결과가 "인증한 사용자 본인의 글"로 제한되고, 승인 뒤에 공개 글이 검색됩니다**(키워드 검색 문서 원문). Threads 테스터(앱 역할)는 언제든 권한을 줄 수 있지만, 공개 글 검색을 쓰려면 이 권한의 App Review 와 앱 게시가 필요하다는 뜻이므로, 토큰을 만든 뒤 03 섹션의 글이 본인 글뿐이면 심사를 신청해야 합니다. 테스트 중에는 Graph API Explorer 로 토큰 발급과 권한 부여를 할 수 있다고 안내합니다.
+- 권한: `threads_basic`(모든 호출) + `threads_keyword_search`(키워드 검색). **앱이 `threads_keyword_search` 를 승인(App Review)받기 전에는 검색 결과가 "인증한 사용자 본인의 글"로 제한되고, 승인 뒤에 공개 글이 검색됩니다**(키워드 검색 문서 원문). Threads 테스터(앱 역할)는 언제든 권한을 줄 수 있지만, 공개 글 검색을 쓰려면 이 권한의 App Review 와 앱 게시가 필요하다는 뜻이므로, 토큰을 만든 뒤 04 섹션의 글이 본인 글뿐이면 심사를 신청해야 합니다. 테스트 중에는 Graph API Explorer 로 토큰 발급과 권한 부여를 할 수 있다고 안내합니다.
 - 토큰 수명: 단기 토큰 **1시간** → `GET https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=<앱 시크릿>&access_token=<단기 토큰>` 으로 교환하면 장기 토큰 **60일**. 장기 토큰은 **발급 24시간 이후부터 만료 전까지** `GET https://graph.threads.net/refresh_access_token?grant_type=th_refresh_token&access_token=<장기 토큰>` 으로 갱신할 수 있고(`threads_basic` 필요) 갱신하면 다시 60일. 60일 안에 갱신하지 않으면 만료되어 다시 발급해야 합니다. 응답은 `{"access_token", "token_type": "bearer", "expires_in": 초}`. 만료된 단기 토큰은 교환할 수 없습니다.
 - 권한 부여 자체는 90일짜리라, 장기 토큰을 갱신하면 공개 프로필 사용자의 권한도 90일 연장됩니다(Get Started 문서).
 - 만료 확인: `GET https://graph.threads.net/v1.0/debug_token?input_token=<토큰>&access_token=<토큰>` → `data.expires_at`(Unix 초) · `is_valid` · `scopes`. 코드가 매 실행마다 이걸로 남은 일수를 확인합니다(Threads 테스터의 사용자 토큰 또는 `TH|앱ID|앱시크릿` 형식의 앱 토큰으로 조회 가능).
@@ -171,7 +172,7 @@ X 트렌드(trends24.in)는 GitHub Actions 의 IP 대역이 차단되어 뺐습�
    curl "https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=<Threads app secret>&access_token=<단기 토큰>"
    ```
    응답의 `access_token` 이 60일짜리 장기 토큰입니다. 앱 시크릿은 이 명령에만 쓰고 저장소에는 넣지 않습니다.
-7. GitHub 저장소 **Settings → Secrets and variables → Actions → New repository secret** → Name `THREADS_ACCESS_TOKEN`, Secret 에 장기 토큰. 다음 미디어 워크플로부터 03 섹션과 카드 3장이 나옵니다. 로컬 확인은
+7. GitHub 저장소 **Settings → Secrets and variables → Actions → New repository secret** → Name `THREADS_ACCESS_TOKEN`, Secret 에 장기 토큰. 다음 미디어 워크플로부터 04 섹션과 카드 3장이 나옵니다. 로컬 확인은
    ```bash
    THREADS_ACCESS_TOKEN=... python3 media.py collect --only threads --force --date 2026-10-27
    ```
@@ -226,7 +227,7 @@ Actions 탭에서 **Run workflow** 로 수동 실행할 수도 있습니다(날�
 ```
 collect.py / report.py / cards.py / notify.py   진입점
 weekly.py                          주간 리포트 진입점 (market/weekly.py 분석, market/render_weekly.py HTML·보드 카드)
-media.py                           미디어·밈 리포트 진입점 (market/media_sources.py 수집, threads_source.py Threads 키워드·토큰 갱신, media_analyze.py 분석, render_media.py 임베드·HTML·카드)
+media.py                           미디어·밈 리포트 진입점 (market/media_sources.py 수집 + 릴스·틱톡 정리 영상 검색, threads_source.py Threads 키워드·토큰 갱신, media_analyze.py 분석, render_media.py 임베드·HTML·카드)
 personal.py                        개인 리포트 진입점 (profile.json → market/personal.py 분석, market/render_personal.py 임베드·카드)
 market/steam.py, itch.py            수집기
 market/analyze_steam.py, analyze_itch.py   판정·섹션 구성
