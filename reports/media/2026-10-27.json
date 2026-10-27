@@ -24,7 +24,7 @@
   ],
   [
    "제외 필터",
-   "11건"
+   "13건"
   ],
   [
    "게임 교차",
@@ -36,15 +36,15 @@
   ],
   [
    "릴스·틱톡 정리",
-   "영상 44개 · 항목 30"
+   "영상 29개 · 항목 30"
   ],
   [
    "수집",
-   "2026-10-27 09:27:25 UTC"
+   "2026-10-27 10:14:06 UTC"
   ]
  ],
- "collect_line": "소스 18/18 정상 · 건너뜀 1 · KYM 9건(틱톡·인스타 5) · 새 밈 4 · Reddit 6/6 · 검색 6/7 · 위키 18/18 · 제외 필터 11건 · Threads: 토큰 없음 · 릴스 정리 영상 44개 · 항목 30",
- "basis_line": "KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 48시간) · Reddit top(t=day) 8개 × 6개 서브레딧 · YouTube 인기 급상승 KR·US Top 10(60초 이하는 쇼츠 표시, 키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · 릴스·틱톡 트렌드 정리 = YouTube 검색 8개 검색어 × 최근 7일 조회수순 10개(키 있을 때, 제목·설명의 목록 줄·해시태그·챌린지/사운드 구절을 항목으로) · Imgflip 인기 템플릿 100개 중 상위 30 · Threads 키워드 검색 TOP·RECENT 각 100건(토큰 있을 때, 24시간 게시 수는 RECENT 기준이라 100건에서 포화) · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · 게임 교차 = Steam·itch 스냅샷 게임 이름과 대조",
+ "collect_line": "소스 18/18 정상 · 건너뜀 1 · KYM 9건(틱톡·인스타 5) · 새 밈 4 · Reddit 6/6 · 검색 6/6 · 위키 18/17 · 제외 필터 13건 · Threads: 토큰 없음 · 릴스 정리 영상 29개 · 항목 30",
+ "basis_line": "KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 48시간) · Reddit top(t=day) 8개 × 6개 서브레딧 · YouTube 인기 급상승 KR·US Top 10(60초 이하는 쇼츠 표시, 키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · 릴스·틱톡 트렌드 정리 = YouTube 검색 8개 검색어 × 최근 14일 조회수순 10개(키 있을 때, 제목·설명의 목록 줄·해시태그·챌린지/사운드 구절을 항목으로) · Imgflip 인기 템플릿 100개 중 상위 30 · Threads 키워드 검색 TOP·RECENT 각 100건(토큰 있을 때, 24시간 게시 수는 RECENT 기준이라 100건에서 포화) · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · 게임 교차 = Steam·itch 스냅샷 게임 이름과 대조",
  "pick": {
   "kind": "newsfeed",
   "title": "What Is The 'Meximutt' Or 'O Algo' Meme? How A 'Soyjak' Character Born From Imageboard Culture Went Viral On TikTok Explained",
@@ -472,18 +472,18 @@
     },
     {
      "rank": 5,
+     "title": "👻👻Halloween",
+     "url": "https://www.reddit.com/r/memes/comments/1xgm435/halloween/"
+    },
+    {
+     "rank": 6,
      "title": "Funny Meme, I Guess",
      "url": "https://www.reddit.com/r/memes/comments/1xg73sx/funny_meme_i_guess/"
     },
     {
-     "rank": 6,
+     "rank": 7,
      "title": "After watching Toy Story 3 recently, I couldn't resist this meme...",
      "url": "https://www.reddit.com/r/memes/comments/1xgbbj8/after_watching_toy_story_3_recently_i_couldnt/"
-    },
-    {
-     "rank": 7,
-     "title": "👻👻Halloween",
-     "url": "https://www.reddit.com/r/memes/comments/1xgm435/halloween/"
     },
     {
      "rank": 8,
@@ -568,11 +568,6 @@
      "rank": 5,
      "title": "# #interestingfacts #amazing fact,#YouTube short#viral shots #facts",
      "url": "https://www.reddit.com/r/shorts/comments/1xfu9xq/interestingfacts_amazing_factyoutube_shortviral/"
-    },
-    {
-     "rank": 6,
-     "title": "Weird Mob Media - The real lie inspiration in Jack Thompson character in The Club",
-     "url": "https://www.reddit.com/r/shorts/comments/1xfsnxj/weird_mob_media_the_real_lie_inspiration_in_jack/"
     }
    ]
   },
@@ -613,13 +608,13 @@
     },
     {
      "rank": 7,
-     "title": "Examples of video game franchises where they took on feedback to improve subsequent games?",
-     "url": "https://www.reddit.com/r/gaming/comments/1xfstx2/examples_of_video_game_franchises_where_they_took/"
+     "title": "With ME5 scrapped - Austin Wintory posted his early drafts of music for the game",
+     "url": "https://www.reddit.com/r/gaming/comments/1xg8ke8/with_me5_scrapped_austin_wintory_posted_his_early/"
     },
     {
      "rank": 8,
-     "title": "With ME5 scrapped - Austin Wintory posted his early drafts of music for the game",
-     "url": "https://www.reddit.com/r/gaming/comments/1xg8ke8/with_me5_scrapped_austin_wintory_posted_his_early/"
+     "title": "Steam Scream V Fest 2026",
+     "url": "https://www.reddit.com/r/gaming/comments/1xg2oiw/steam_scream_v_fest_2026/"
     }
    ]
   },
@@ -665,8 +660,8 @@
     },
     {
      "rank": 8,
-     "title": "After 9 years I QUIT my job and went FULL INDIE. I have now released my games demo. It's out there and people are playing it. IT FEELS UNREAL! Wish me luck!",
-     "url": "https://www.reddit.com/r/IndieGaming/comments/1xfsrhg/after_9_years_i_quit_my_job_and_went_full_indie_i/"
+     "title": "I'm making Spectrakin, a monster-taming RPG with town recruitment/upgrades, set in a forgotten land where civilisation mysteriously collapsed",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xgb8dk/im_making_spectrakin_a_monstertaming_rpg_with/"
     }
    ]
   }
@@ -681,8 +676,8 @@
      "id": "V2V9-9VhYJo",
      "title": "ILLIT (아일릿) '체포하겠어 (You’re Under Arrest)’ Official MV",
      "channel": "HYBE LABELS",
-     "views": 6713470,
-     "likes": 342192,
+     "views": 7008380,
+     "likes": 345087,
      "duration": 190,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=V2V9-9VhYJo",
@@ -694,8 +689,8 @@
      "id": "o6tHnRtkxBY",
      "title": "데블스 플랜: 데드 어게인 | 공식 예고편 | 넷플릭스",
      "channel": "Netflix Korea 넷플릭스 코리아",
-     "views": 282620,
-     "likes": 1921,
+     "views": 297825,
+     "likes": 2057,
      "duration": 135,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=o6tHnRtkxBY",
@@ -707,7 +702,7 @@
      "id": "ai8lSoaFobg",
      "title": "스위스 스테이지 Day 4 | 2026 월드 챔피언십",
      "channel": "LCK",
-     "views": 1799888,
+     "views": 1803069,
      "likes": null,
      "duration": 23296,
      "shorts": false,
@@ -720,8 +715,8 @@
      "id": "qsqvJpOgrWw",
      "title": "You’re Under Arrest",
      "channel": "ILLIT - Topic",
-     "views": 591072,
-     "likes": 34409,
+     "views": 612387,
+     "likes": 34857,
      "duration": 182,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=qsqvJpOgrWw",
@@ -733,8 +728,8 @@
      "id": "OiTUOgShd7M",
      "title": "아니 이게 진짜 스티브라고..? ≪어벤져스: 둠스데이≫ 스페셜 예고편 & TV 스팟 떡밥 총정리",
      "channel": "무비띵크_Movie Think",
-     "views": 950079,
-     "likes": 4275,
+     "views": 953688,
+     "likes": 4289,
      "duration": 578,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=OiTUOgShd7M",
@@ -746,8 +741,8 @@
      "id": "Ws3auTOpw2A",
      "title": "봉훈 주인님 말 잘 듣는 우리 상호 잘한다 잘해~",
      "channel": "이상호",
-     "views": 527754,
-     "likes": 2353,
+     "views": 539090,
+     "likes": 2393,
      "duration": 1407,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=Ws3auTOpw2A",
@@ -759,8 +754,8 @@
      "id": "13SIThoH_54",
      "title": "사랑하지 않아서 그랬어",
      "channel": "Shin Ye Young - Topic",
-     "views": 394650,
-     "likes": 1321,
+     "views": 403584,
+     "likes": 1346,
      "duration": 234,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=13SIThoH_54",
@@ -772,8 +767,8 @@
      "id": "UfNu7pcR0e8",
      "title": "Avengers: Doomsday | In Theaters December 18",
      "channel": "Marvel Entertainment",
-     "views": 14496152,
-     "likes": 264076,
+     "views": 14548144,
+     "likes": 264493,
      "duration": 31,
      "shorts": true,
      "url": "https://www.youtube.com/shorts/UfNu7pcR0e8",
@@ -785,8 +780,8 @@
      "id": "mH0MwhEQc7Q",
      "title": "T1 '이 선수'만 불안합니다 l T1 vs CFO 롤드컵 리뷰",
      "channel": "정글선생 진 영준",
-     "views": 263681,
-     "likes": 1929,
+     "views": 270892,
+     "likes": 1965,
      "duration": 856,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=mH0MwhEQc7Q",
@@ -798,8 +793,8 @@
      "id": "F2WbQwiP5vs",
      "title": "Insomnia",
      "channel": "RIIZE - Topic",
-     "views": 305781,
-     "likes": 8203,
+     "views": 312736,
+     "likes": 8296,
      "duration": 195,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=F2WbQwiP5vs",
@@ -819,8 +814,8 @@
      "id": "M4qX5wzx-wY",
      "title": "Harry Styles - Coming Up Roses (Official Video)",
      "channel": "HarryStylesVEVO",
-     "views": 2054817,
-     "likes": 153495,
+     "views": 2100425,
+     "likes": 154913,
      "duration": 257,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=M4qX5wzx-wY",
@@ -832,8 +827,8 @@
      "id": "LYRmPlm6oV0",
      "title": "Avengers: Doomsday Teaser -  In Theaters December 18",
      "channel": "Rotten Tomatoes Trailers",
-     "views": 660401,
-     "likes": 3981,
+     "views": 677399,
+     "likes": 4040,
      "duration": 40,
      "shorts": true,
      "url": "https://www.youtube.com/shorts/LYRmPlm6oV0",
@@ -845,8 +840,8 @@
      "id": "TASjR0qY2KM",
      "title": "Absolutely Nothing Good",
      "channel": "CaseOh",
-     "views": 482222,
-     "likes": 11911,
+     "views": 499264,
+     "likes": 12254,
      "duration": 4309,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=TASjR0qY2KM",
@@ -858,8 +853,8 @@
      "id": "V2V9-9VhYJo",
      "title": "ILLIT (아일릿) '체포하겠어 (You’re Under Arrest)’ Official MV",
      "channel": "HYBE LABELS",
-     "views": 6713470,
-     "likes": 342192,
+     "views": 7008380,
+     "likes": 345087,
      "duration": 190,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=V2V9-9VhYJo",
@@ -871,8 +866,8 @@
      "id": "UfNu7pcR0e8",
      "title": "Avengers: Doomsday | In Theaters December 18",
      "channel": "Marvel Entertainment",
-     "views": 14496152,
-     "likes": 264076,
+     "views": 14548144,
+     "likes": 264493,
      "duration": 31,
      "shorts": true,
      "url": "https://www.youtube.com/shorts/UfNu7pcR0e8",
@@ -884,8 +879,8 @@
      "id": "ECJoJ7ez7-4",
      "title": "TLAW vs. AL | WORLDS 2026 | Swiss Stage Day 4",
      "channel": "LoL Esports",
-     "views": 2334870,
-     "likes": 12001,
+     "views": 2339694,
+     "likes": 12020,
      "duration": 25576,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=ECJoJ7ez7-4",
@@ -897,8 +892,8 @@
      "id": "d02bibFGMp0",
      "title": "Kesha - Backstabber (Official Video)",
      "channel": "keshaVEVO",
-     "views": 709164,
-     "likes": 58387,
+     "views": 728984,
+     "likes": 59528,
      "duration": 209,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=d02bibFGMp0",
@@ -910,8 +905,8 @@
      "id": "rQnvm5c2r3o",
      "title": "X-MEN 2028",
      "channel": "Emergency Awesome",
-     "views": 178753,
-     "likes": 3342,
+     "views": 183935,
+     "likes": 3422,
      "duration": 1034,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=rQnvm5c2r3o",
@@ -923,8 +918,8 @@
      "id": "u0iATr7A5KM",
      "title": "Your SUS Clips...",
      "channel": "Jynxzi",
-     "views": 817176,
-     "likes": 13445,
+     "views": 834891,
+     "likes": 13674,
      "duration": 2018,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=u0iATr7A5KM",
@@ -936,8 +931,8 @@
      "id": "M2Tb2kjzzxo",
      "title": "Pop",
      "channel": "ILLIT - Topic",
-     "views": 1155675,
-     "likes": 96721,
+     "views": 1173105,
+     "likes": 97480,
      "duration": 144,
      "shorts": false,
      "url": "https://www.youtube.com/watch?v=M2Tb2kjzzxo",
@@ -946,24 +941,68 @@
     }
    ],
    "total": 50,
-   "shorts": 3
+   "shorts": 4
   }
  },
  "trends": {
   "KR": [
    {
     "rank": 1,
-    "title": "응급실",
-    "traffic": 100,
-    "traffic_raw": "100+",
-    "news_title": "보은군의회 '3인 3색' 5분 자유발언…지역 현안 대응 주문",
-    "news_url": "https://www.news1.kr/local/sejong-chungbuk/6332227",
-    "url": "https://www.news1.kr/local/sejong-chungbuk/6332227",
-    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSI88DyDRGrneBecKE6GMf8lmVWf2axx4lik3dP-mS0bSwIsh4nP_aR_isicag",
+    "title": "연차",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "\"5인미만 사업장 부당해고 구제 제외는 위헌\" 헌법소원",
+    "news_url": "https://www.yna.co.kr/view/AKR20261027064900004",
+    "url": "https://www.yna.co.kr/view/AKR20261027064900004",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS6aJTGsASchBNM-V4uVuTy3rUXUZtjVPFIxGJHUB4oQ1th_0EA0hK5I5QxweY",
     "days": 1
    },
    {
     "rank": 2,
+    "title": "의성군",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "의성군, `2026 의성 지오하이킹` 성황리에 마무리",
+    "news_url": "https://www.imaeil.com/page/view/2026102713300940585",
+    "url": "https://www.imaeil.com/page/view/2026102713300940585",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYTpr3GN3W6G7GpIa9f8XvbzTVBVJ2NCquT08mxgq5XLD2cP-VFo4dERIKVA0",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "타짜",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Everything K-POP and More! - 위버스 매거진",
+    "news_url": "https://magazine.weverse.io/article/view/1995?lang=ko",
+    "url": "https://magazine.weverse.io/article/view/1995?lang=ko",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSOAqOg2x43R_p7R6cVTdSnClhohpqUGaawakupWTqGfprI9pdmkxY-fpMjRPY",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "중위소득",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "경실련 \"불투명한 중위소득 산정에 복지 사각…현실 반영해야\"",
+    "news_url": "https://www.yna.co.kr/view/AKR20261027124000004",
+    "url": "https://www.yna.co.kr/view/AKR20261027124000004",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_j4vVy-OA3yamVWJPzhMkuxLdogYIRoYZDcJj4j1rVpbMC8fcYnLVTKwVyIE",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "원태인",
+    "traffic": 100,
+    "traffic_raw": "100+",
+    "news_title": "삼성 임시 마무리 원태인 \"오승환 선배께 조언 구하려 했다\"",
+    "news_url": "https://www.yna.co.kr/view/AKR20261027156500007",
+    "url": "https://www.yna.co.kr/view/AKR20261027156500007",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuLPMmq0-fIh9lqHbs9OhJSgSEBQaTNFl_XRrdtTftDpTUF9ylbZ2lTAEHb8o",
+    "days": 1
+   },
+   {
+    "rank": 6,
     "title": "정년",
     "traffic": 2000,
     "traffic_raw": "2000+",
@@ -972,128 +1011,73 @@
     "url": "https://www.khan.co.kr/article/202610271508021",
     "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQPu1Lv2XA_X-_TF77JHXoEVWUHqcfHIPbVjweR_DzR_SduYlOfEw7cgphuWqI",
     "days": 1
-   },
-   {
-    "rank": 3,
-    "title": "전주사랑상품권",
-    "traffic": 200,
-    "traffic_raw": "200+",
-    "news_title": "전주사랑상품권 충전, 내달부터 새벽→오후 3시로 변경",
-    "news_url": "https://www.yna.co.kr/view/AKR20261027047600055",
-    "url": "https://www.yna.co.kr/view/AKR20261027047600055",
-    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQpiPzrRItlDfTK194gcClObhk6rYMKTxaj7-Z7cNSth4wETJXzFC8hA1aRNpw",
-    "days": 1
-   },
-   {
-    "rank": 4,
-    "title": "정종철",
-    "traffic": 5000,
-    "traffic_raw": "5000+",
-    "news_title": "\"강남 작은 집이라도 가자\"…정종철, 일산 70평 아파트 던진 사연",
-    "news_url": "https://www.hankyung.com/article/202610277941H",
-    "url": "https://www.hankyung.com/article/202610277941H",
-    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGFLgc4VbGMkGN5KZqiCuuQ6LhFrQq8MNfKOM6vHgtvR4UcoHC-sFX3mIw7B8",
-    "days": 1
-   },
-   {
-    "rank": 5,
-    "title": "몸매",
-    "traffic": 200,
-    "traffic_raw": "200+",
-    "news_title": "티아라 효민, 과감 숏팬츠 숨은 노력 있었다…군살 없는 몸매",
-    "news_url": "https://sports.donga.com/ent/article/all/20261026/134907296/1",
-    "url": "https://sports.donga.com/ent/article/all/20261026/134907296/1",
-    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBrUsEXOaVGpbuyUtfk0Pb_NOQu4uKi8OpSy9u9gBhBLw0G56vQJvpZDvtYTw",
-    "days": 1
-   },
-   {
-    "rank": 6,
-    "title": "박승수",
-    "traffic": 500,
-    "traffic_raw": "500+",
-    "news_title": "\"정신 못 차렸냐?\" '환상적인 골 넣었는데 욕설·조롱 폭발' 박승수, 뉴캐슬 팬들 앞에서 존재감 증명...한국 팬들은 여전히 '전역모 논란' 비판 - 머니투데이",
-    "news_url": "https://www.mt.co.kr/sports/2026/10/27/202610271354779792O",
-    "url": "https://www.mt.co.kr/sports/2026/10/27/202610271354779792O",
-    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSRNw0F1vHg1ocrqq2Txyl769k8PqpWkh4158LLqGTt9gym9jFHCj24RZTOkTs",
-    "days": 1
    }
   ],
   "US": [
    {
     "rank": 1,
-    "title": "power ball",
-    "traffic": 500,
-    "traffic_raw": "500+",
-    "news_title": "Winning Powerball numbers for the $665 million jackpot on Saturday, Oct. 24, 2026: See all the prizes hit in Ohio",
-    "news_url": "https://www.wkyc.com/article/news/lottery/winning-powerball-numbers-665-million-jackpot-saturday-oct-24-2026-see-all-prizes-ohio-lottery-results/95-0e0887fa-8cd8-4a7a-b524-0418def0b975",
-    "url": "https://www.wkyc.com/article/news/lottery/winning-powerball-numbers-665-million-jackpot-saturday-oct-24-2026-see-all-prizes-ohio-lottery-results/95-0e0887fa-8cd8-4a7a-b524-0418def0b975",
-    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGLdUDv5gexZeDImgkfZ5cVrr2RtRIVkcgtgig82UUe3AvHEYFpEum03kzwfI",
+    "title": "did anyone win the powerball last night",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "Winning Powerball numbers for the $687 million jackpot on Monday, Oct. 26, 2026: See all the prizes hit in Ohio",
+    "news_url": "https://www.wkyc.com/article/news/lottery/powerball-ohio-lottery-drawing-687-million-monday-october-26-winners/95-8dc79d83-df25-410b-80bf-bee111e70533",
+    "url": "https://www.wkyc.com/article/news/lottery/powerball-ohio-lottery-drawing-687-million-monday-october-26-winners/95-8dc79d83-df25-410b-80bf-bee111e70533",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXQF-BY4XE7bj5x7nuCJgzWIQduoQMaHfUOv2WheYjijZDHNZGVIJ61t0OOA4",
     "days": 1
    },
    {
     "rank": 2,
-    "title": "abc high potential season 3",
-    "traffic": 100,
-    "traffic_raw": "100+",
-    "news_title": "Why Is ‘High Potential’ Not On? All About the Show’s Scheduling Switch-Up",
-    "news_url": "https://people.com/why-is-high-potential-not-on-fall-2026-12174918",
-    "url": "https://people.com/why-is-high-potential-not-on-fall-2026-12174918",
-    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqyO8fHQug02R3wPap_68q-6h1NdrhYl6K2NvEJr9I7fs2gcmWnhLYZA_w2Ns",
+    "title": "samuel sey",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "Conservative blogger arrested by ICE at Columbus airport, DHS confirms",
+    "news_url": "https://www.dispatch.com/story/news/crime/2026/10/26/conservative-christian-blogger-samuel-sey-arrested-ice-columbus-ohio-airport-dhs-says-overstayed/92447677007/",
+    "url": "https://www.dispatch.com/story/news/crime/2026/10/26/conservative-christian-blogger-samuel-sey-arrested-ice-columbus-ohio-airport-dhs-says-overstayed/92447677007/",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTuP4W500CBhtduSYk7IGkb1C7in8Jeio4YpiIpR2FMJauxzZqWkJGdtRHJFSQ",
     "days": 1
    },
    {
     "rank": 3,
-    "title": "jasmine paolini",
+    "title": "brooke hogan",
     "traffic": 100,
     "traffic_raw": "100+",
-    "news_title": "How to watch the women’s Toray Pan Pacific Open Tennis: Streaming options for the Round of 32",
-    "news_url": "https://www.nytimes.com/athletic/7723817/2026/10/25/womens-toray-pan-pacific-open-tennis-stream-how-to-watch-october-27/",
-    "url": "https://www.nytimes.com/athletic/7723817/2026/10/25/womens-toray-pan-pacific-open-tennis-stream-how-to-watch-october-27/",
-    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR2xOmTxgmr-XSgarWE8As0EJ2mA-v5dt9FUZOYEYMuc-IffxXuF0H91-cDaCU",
+    "news_title": "Brooke Hogan blasts ‘fake, greedy people’ after Hulk’s Florida home sale: ‘Enjoy your dirty money’",
+    "news_url": "https://www.foxnews.com/entertainment/brooke-hogan-blasts-fake-greedy-people-hulk-florida-home-sale-enjoy-dirty-money",
+    "url": "https://www.foxnews.com/entertainment/brooke-hogan-blasts-fake-greedy-people-hulk-florida-home-sale-enjoy-dirty-money",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYJhRuuBpeIBNRRIOn3AHiyxn9E8v7kfZd3X3IwGNNwkq1lptEwsvfOUuUEeE",
     "days": 1
    },
    {
     "rank": 4,
-    "title": "call of duty skill based matchmaking",
-    "traffic": 100,
-    "traffic_raw": "100+",
-    "news_title": "'I Don't Know if There's Perfecting It' — Call of Duty: Modern Warfare 4 Multiplayer Chief Weighs in on Matchmaking",
-    "news_url": "https://www.ign.com/articles/i-dont-know-if-theres-perfecting-it-call-of-duty-modern-warfare-4-multiplayer-chief-weighs-in-on-matchmaking",
-    "url": "https://www.ign.com/articles/i-dont-know-if-theres-perfecting-it-call-of-duty-modern-warfare-4-multiplayer-chief-weighs-in-on-matchmaking",
-    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSsCMs7xnEhm-W1ICC5TERGhVzWoUsb4Hq9eNYCkTANB09QLnfGLdmgymxyurA",
+    "title": "vaibhav sooryavanshi",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "Kishan 'recovering well', but ruled out of Wellington T20I",
+    "news_url": "https://www.cricbuzz.com/cricket-news/140652/nz-vs-ind-ishan-kishan-recovering-well-but-ruled-out-of-3rd-t20i-in-wellington-cricbuzzcom",
+    "url": "https://www.cricbuzz.com/cricket-news/140652/nz-vs-ind-ishan-kishan-recovering-well-but-ruled-out-of-3rd-t20i-in-wellington-cricbuzzcom",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT_d1uRclwuu_AzwU5cag6R5SQfrjgTG7QDSiEM_wdTtS452nnIInQgVAs27W4",
     "days": 1
    },
    {
     "rank": 5,
-    "title": "espncricinfo",
-    "traffic": 100,
-    "traffic_raw": "100+",
-    "news_title": "IPL 2027 auction to be held on December 16",
-    "news_url": "https://www.cricinfo.com/story/ipl-2027-auction-to-be-held-on-december-16-1560085",
-    "url": "https://www.cricinfo.com/story/ipl-2027-auction-to-be-held-on-december-16-1560085",
-    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS42fzv4-RyrVWiW6PhNXU4vG9W8CRs-iYyO4JB9FryRtt7jVEiHfum3MXBHeM",
+    "title": "meghan, duchess of sussex",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "Meghan, Duchess of Sussex, to co-host Junior MasterChef Australia: ‘It was an easy yes’",
+    "news_url": "https://www.theguardian.com/uk-news/2026/oct/27/meghan-duchess-of-sussex-junior-masterchef-australia-it-ntwnfb",
+    "url": "https://www.theguardian.com/uk-news/2026/oct/27/meghan-duchess-of-sussex-junior-masterchef-australia-it-ntwnfb",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQZ2nWBzSMz89-x2SRIL_dMOZvDuKaNl6evRxrgcWw7WiHQgitH7QhYwt8V0",
     "days": 1
    },
    {
     "rank": 6,
-    "title": "apple iphone duo",
-    "traffic": 500,
-    "traffic_raw": "500+",
-    "news_title": "iPhone Duo: Apple says it will replace handsets with screen problems",
-    "news_url": "https://www.bbc.com/news/articles/c893zwlev2xpo",
-    "url": "https://www.bbc.com/news/articles/c893zwlev2xpo",
-    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQiM5rQWuMT1h6OXAKtcPJewQga1i0GZ3bATbs3sW2Fcmaf9viKyjq41GQ-OuI",
-    "days": 1
-   },
-   {
-    "rank": 7,
-    "title": "cricinfo",
-    "traffic": 200,
-    "traffic_raw": "200+",
-    "news_title": "Pakistan players in doubt for Nepal Premier League",
-    "news_url": "https://www.cricinfo.com/story/pakistan-players-in-doubt-for-nepal-premier-league-1559988",
-    "url": "https://www.cricinfo.com/story/pakistan-players-in-doubt-for-nepal-premier-league-1559988",
-    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQnacHQB47a3DTGnR2lKY_YVtqOnFShCnIW84kT-kO5Hs8MOeN4ElO9kwQImTY",
+    "title": "icc",
+    "traffic": 100,
+    "traffic_raw": "100+",
+    "news_title": "Pakistan unveil Women’s Emerging Nations Trophy squad",
+    "news_url": "https://www.icc-cricket.com/news/pakistan-unveil-women-s-emerging-nations-trophy-squad",
+    "url": "https://www.icc-cricket.com/news/pakistan-unveil-women-s-emerging-nations-trophy-squad",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT7ogPBJ3tjJlB2tYCt-MMskPgHb1SDbxfQ_RDW4pf6wUjw6JLrWCxJyBJyhCs",
     "days": 1
    }
   ]
@@ -1267,169 +1251,160 @@
   "en_same": false,
   "ko": [
    {
-    "title": "문화방송",
-    "views": 14098,
+    "title": "5·18 광주 민주화 운동",
+    "views": 14440,
     "rank": 1,
     "src_rank": 2,
-    "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1",
-    "days": 5,
-    "prev_rank": 1
-   },
-   {
-    "title": "5·18 광주 민주화 운동",
-    "views": 9242,
-    "rank": 3,
-    "src_rank": 4,
     "url": "https://ko.wikipedia.org/wiki/5%C2%B718_%EA%B4%91%EC%A3%BC_%EB%AF%BC%EC%A3%BC%ED%99%94_%EC%9A%B4%EB%8F%99",
     "days": 2,
     "prev_rank": 6
    },
    {
-    "title": "푸사를라 벵카타 신두",
-    "views": 6663,
-    "rank": 5,
-    "src_rank": 7,
-    "url": "https://ko.wikipedia.org/wiki/%ED%91%B8%EC%82%AC%EB%A5%BC%EB%9D%BC_%EB%B2%B5%EC%B9%B4%ED%83%80_%EC%8B%A0%EB%91%90",
-    "days": 2,
-    "prev_rank": 12
-   },
-   {
-    "title": "이진희 (배우)",
-    "views": 4871,
-    "rank": 6,
-    "src_rank": 8,
-    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84%ED%9D%AC_%28%EB%B0%B0%EC%9A%B0%29",
-    "days": 3,
-    "prev_rank": 4
+    "title": "문화방송",
+    "views": 12914,
+    "rank": 2,
+    "src_rank": 3,
+    "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1",
+    "days": 5,
+    "prev_rank": 1
    },
    {
     "title": "박진영 (1994년)",
-    "views": 3698,
-    "rank": 7,
-    "src_rank": 9,
+    "views": 3517,
+    "rank": 5,
+    "src_rank": 7,
     "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%84%EC%98%81_%281994%EB%85%84%29",
     "days": 2,
     "prev_rank": 14
    },
    {
-    "title": "양부남",
-    "views": 3385,
-    "rank": 8,
+    "title": "푸사를라 벵카타 신두",
+    "views": 2232,
+    "rank": 6,
+    "src_rank": 8,
+    "url": "https://ko.wikipedia.org/wiki/%ED%91%B8%EC%82%AC%EB%A5%BC%EB%9D%BC_%EB%B2%B5%EC%B9%B4%ED%83%80_%EC%8B%A0%EB%91%90",
+    "days": 2,
+    "prev_rank": 12
+   },
+   {
+    "title": "이택근",
+    "views": 2116,
+    "rank": 7,
     "src_rank": 10,
-    "url": "https://ko.wikipedia.org/wiki/%EC%96%91%EB%B6%80%EB%82%A8",
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%83%9D%EA%B7%BC",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "루이스 이나시우 룰라 다 시우바",
+    "views": 1660,
+    "rank": 8,
+    "src_rank": 11,
+    "url": "https://ko.wikipedia.org/wiki/%EB%A3%A8%EC%9D%B4%EC%8A%A4_%EC%9D%B4%EB%82%98%EC%8B%9C%EC%9A%B0_%EB%A3%B0%EB%9D%BC_%EB%8B%A4_%EC%8B%9C%EC%9A%B0%EB%B0%94",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "욕망의 덫",
+    "views": 1572,
+    "rank": 9,
+    "src_rank": 12,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9A%95%EB%A7%9D%EC%9D%98_%EB%8D%AB",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "이진희 (배우)",
+    "views": 1567,
+    "rank": 10,
+    "src_rank": 13,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84%ED%9D%AC_%28%EB%B0%B0%EC%9A%B0%29",
+    "days": 3,
+    "prev_rank": 4
+   },
+   {
+    "title": "비비 (대한민국의 가수)",
+    "views": 1490,
+    "rank": 11,
+    "src_rank": 14,
+    "url": "https://ko.wikipedia.org/wiki/%EB%B9%84%EB%B9%84_%28%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98_%EA%B0%80%EC%88%98%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "이세돌",
+    "views": 1306,
+    "rank": 12,
+    "src_rank": 15,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%84%B8%EB%8F%8C",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "9·11 테러",
+    "views": 1290,
+    "rank": 13,
+    "src_rank": 16,
+    "url": "https://ko.wikipedia.org/wiki/9%C2%B711_%ED%85%8C%EB%9F%AC",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "박정희",
+    "views": 1205,
+    "rank": 14,
+    "src_rank": 17,
+    "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A0%95%ED%9D%AC",
     "days": 1,
     "prev_rank": null
    },
    {
     "title": "김지원 (배우)",
-    "views": 2889,
-    "rank": 9,
-    "src_rank": 11,
+    "views": 1185,
+    "rank": 15,
+    "src_rank": 18,
     "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%A7%80%EC%9B%90_%28%EB%B0%B0%EC%9A%B0%29",
     "days": 3,
     "prev_rank": 5
    },
    {
-    "title": "100일의 거짓말",
-    "views": 2465,
-    "rank": 10,
-    "src_rank": 12,
-    "url": "https://ko.wikipedia.org/wiki/100%EC%9D%BC%EC%9D%98_%EA%B1%B0%EC%A7%93%EB%A7%90",
-    "days": 2,
-    "prev_rank": 19
-   },
-   {
-    "title": "황연주",
-    "views": 2243,
-    "rank": 11,
-    "src_rank": 13,
-    "url": "https://ko.wikipedia.org/wiki/%ED%99%A9%EC%97%B0%EC%A3%BC",
-    "days": 1,
-    "prev_rank": null
-   },
-   {
-    "title": "윤미라",
-    "views": 2162,
-    "rank": 12,
-    "src_rank": 14,
-    "url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%AF%B8%EB%9D%BC",
-    "days": 1,
-    "prev_rank": null
-   },
-   {
-    "title": "전두환",
-    "views": 1914,
-    "rank": 13,
-    "src_rank": 15,
-    "url": "https://ko.wikipedia.org/wiki/%EC%A0%84%EB%91%90%ED%99%98",
-    "days": 2,
-    "prev_rank": 15
-   },
-   {
-    "title": "닥터X: 하얀 마피아의 시대",
-    "views": 1781,
-    "rank": 14,
-    "src_rank": 16,
-    "url": "https://ko.wikipedia.org/wiki/%EB%8B%A5%ED%84%B0X%3A_%ED%95%98%EC%96%80_%EB%A7%88%ED%94%BC%EC%95%84%EC%9D%98_%EC%8B%9C%EB%8C%80",
-    "days": 3,
-    "prev_rank": 9
-   },
-   {
-    "title": "박경리",
-    "views": 1685,
-    "rank": 15,
-    "src_rank": 17,
-    "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EA%B2%BD%EB%A6%AC",
-    "days": 1,
-    "prev_rank": null
-   },
-   {
-    "title": "안세호",
-    "views": 1661,
+    "title": "대한민국",
+    "views": 1182,
     "rank": 16,
-    "src_rank": 18,
-    "url": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%84%B8%ED%98%B8",
-    "days": 2,
-    "prev_rank": 13
-   },
-   {
-    "title": "KCM",
-    "views": 1622,
-    "rank": 17,
     "src_rank": 19,
-    "url": "https://ko.wikipedia.org/wiki/KCM",
+    "url": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
     "days": 1,
     "prev_rank": null
    },
    {
-    "title": "제암리 학살 사건",
-    "views": 1497,
-    "rank": 18,
+    "title": "성교 체위",
+    "views": 1165,
+    "rank": 17,
     "src_rank": 20,
-    "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%95%94%EB%A6%AC_%ED%95%99%EC%82%B4_%EC%82%AC%EA%B1%B4",
-    "days": 1,
-    "prev_rank": null
-   },
-   {
-    "title": "인스타그램",
-    "views": 1450,
-    "rank": 19,
-    "src_rank": 22,
-    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8",
+    "url": "https://ko.wikipedia.org/wiki/%EC%84%B1%EA%B5%90_%EC%B2%B4%EC%9C%84",
     "days": 1,
     "prev_rank": null
    },
    {
     "title": "이정림 (연출가)",
-    "views": 1382,
-    "rank": 20,
-    "src_rank": 23,
+    "views": 1143,
+    "rank": 18,
+    "src_rank": 21,
     "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A0%95%EB%A6%BC_%28%EC%97%B0%EC%B6%9C%EA%B0%80%29",
     "days": 2,
     "prev_rank": 20
+   },
+   {
+    "title": "100일의 거짓말",
+    "views": 1130,
+    "rank": 19,
+    "src_rank": 22,
+    "url": "https://ko.wikipedia.org/wiki/100%EC%9D%BC%EC%9D%98_%EA%B1%B0%EC%A7%93%EB%A7%90",
+    "days": 2,
+    "prev_rank": 19
    }
   ],
-  "ko_day": "2026-10-25",
+  "ko_day": "2026-10-26",
   "ko_same": false
  },
  "imgflip": {
@@ -1440,7 +1415,7 @@
     "name": "Drake Hotline Bling",
     "url": "https://i.imgflip.com/30b1gx.jpg",
     "box_count": 2,
-    "captions": 1577750,
+    "captions": 1578000,
     "prev_rank": 1,
     "delta": 0,
     "new": false
@@ -1451,7 +1426,7 @@
     "name": "Two Buttons",
     "url": "https://i.imgflip.com/1g8my4.jpg",
     "box_count": 3,
-    "captions": 1226500,
+    "captions": 1226750,
     "prev_rank": 2,
     "delta": 0,
     "new": false
@@ -1484,7 +1459,7 @@
     "name": "UNO Draw 25 Cards",
     "url": "https://i.imgflip.com/3lmzyx.jpg",
     "box_count": 2,
-    "captions": 668000,
+    "captions": 668250,
     "prev_rank": 5,
     "delta": 0,
     "new": false
@@ -1495,7 +1470,7 @@
     "name": "Always Has Been",
     "url": "https://i.imgflip.com/46e43q.png",
     "box_count": 2,
-    "captions": 251500,
+    "captions": 251750,
     "prev_rank": 6,
     "delta": 0,
     "new": false
@@ -1572,7 +1547,7 @@
     "name": "Waiting Skeleton",
     "url": "https://i.imgflip.com/2fm6x.jpg",
     "box_count": 2,
-    "captions": 499000,
+    "captions": 499250,
     "prev_rank": 13,
     "delta": 0,
     "new": false
@@ -1605,7 +1580,7 @@
     "name": "Trade Offer",
     "url": "https://i.imgflip.com/54hjww.jpg",
     "box_count": 3,
-    "captions": 133250,
+    "captions": 133500,
     "prev_rank": 16,
     "delta": 0,
     "new": false
@@ -1623,24 +1598,24 @@
    },
    {
     "rank": 18,
-    "id": "224015000",
-    "name": "Bernie Sanders Once Again Asking",
-    "url": "https://i.imgflip.com/3pdf2w.png",
-    "box_count": 2,
-    "captions": 70250,
-    "prev_rank": 20,
-    "delta": 2,
-    "new": false
-   },
-   {
-    "rank": 19,
     "id": "188390779",
     "name": "Woman Yelling At Cat",
     "url": "https://i.imgflip.com/345v97.jpg",
     "box_count": 2,
     "captions": 411500,
     "prev_rank": 18,
-    "delta": -1,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 19,
+    "id": "224015000",
+    "name": "Bernie Sanders Once Again Asking",
+    "url": "https://i.imgflip.com/3pdf2w.png",
+    "box_count": 2,
+    "captions": 70250,
+    "prev_rank": 20,
+    "delta": 1,
     "new": false
    },
    {
@@ -1671,7 +1646,7 @@
     "name": "Batman Slapping Robin",
     "url": "https://i.imgflip.com/9ehk.jpg",
     "box_count": 2,
-    "captions": 672250,
+    "captions": 672500,
     "prev_rank": 22,
     "delta": 0,
     "new": false
@@ -1769,25 +1744,14 @@
   "exited": [],
   "movers": [
    {
-    "rank": 18,
+    "rank": 19,
     "id": "224015000",
     "name": "Bernie Sanders Once Again Asking",
     "url": "https://i.imgflip.com/3pdf2w.png",
     "box_count": 2,
     "captions": 70250,
     "prev_rank": 20,
-    "delta": 2,
-    "new": false
-   },
-   {
-    "rank": 19,
-    "id": "188390779",
-    "name": "Woman Yelling At Cat",
-    "url": "https://i.imgflip.com/345v97.jpg",
-    "box_count": 2,
-    "captions": 411500,
-    "prev_rank": 18,
-    "delta": -1,
+    "delta": 1,
     "new": false
    },
    {
@@ -1880,9 +1844,9 @@
  ],
  "filtered": {
   "trends_kr": 4,
-  "trends_us": 3,
+  "trends_us": 4,
   "wiki_en": 2,
-  "wiki_ko": 2
+  "wiki_ko": 3
  },
  "sources": [
   {
@@ -1937,7 +1901,7 @@
    "key": "reels",
    "label": "릴스·틱톡 정리 영상",
    "status": "ok",
-   "count": 44,
+   "count": 75,
    "error": "",
    "filtered": 0
   },
@@ -1955,7 +1919,7 @@
    "status": "ok",
    "count": 10,
    "error": "",
-   "filtered": 3
+   "filtered": 4
   },
   {
    "key": "wiki_en",
@@ -1971,7 +1935,7 @@
    "status": "ok",
    "count": 20,
    "error": "",
-   "filtered": 2
+   "filtered": 3
   },
   {
    "key": "imgflip",
@@ -2017,7 +1981,7 @@
    "key": "reddit_shorts",
    "label": "Reddit r/shorts",
    "status": "ok",
-   "count": 6,
+   "count": 5,
    "error": "",
    "filtered": 0
   },
@@ -2063,675 +2027,730 @@
   "videos": [
    {
     "rank": 1,
-    "id": "QjCi0GnphIM",
-    "title": "Ab Hua Na Hisab Barabar ! #tmkoc #comedy #trending #reels #shorts #politics #news",
-    "channel": "Taarak Mehta Ka Ooltah Chashmah",
-    "views": 5927052,
-    "likes": 109894,
-    "duration": 32,
+    "id": "nXAyea_oSOA",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #trending #shorts #explore",
+    "channel": "musicMastiZone",
+    "views": 840018,
+    "likes": null,
+    "duration": 40,
     "shorts": true,
-    "published": "2026-10-21T21:30:34Z",
-    "url": "https://www.youtube.com/shorts/QjCi0GnphIM",
-    "thumb": "https://i.ytimg.com/vi/QjCi0GnphIM/mqdefault.jpg",
+    "published": "2026-10-19T07:40:27Z",
+    "url": "https://www.youtube.com/shorts/nXAyea_oSOA",
+    "thumb": "https://i.ytimg.com/vi/nXAyea_oSOA/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
     "queries": [
-     "trending reels this week"
+     "trending sounds instagram reels this week"
     ],
     "new": false
    },
    {
     "rank": 2,
-    "id": "0wIVy9Lmc78",
-    "title": "Sirf 1 Minute Mein 1 Lakh Ka Nuksaan! #tmkoc #comedy #trending #reels #shorts",
-    "channel": "Taarak Mehta Ka Ooltah Chashmah",
-    "views": 3334513,
-    "likes": 81711,
-    "duration": 49,
+    "id": "9DOuL8CsdMg",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #trending #shorts #explore",
+    "channel": "musicMastiZone",
+    "views": 743430,
+    "likes": null,
+    "duration": 37,
     "shorts": true,
-    "published": "2026-10-25T14:30:39Z",
-    "url": "https://www.youtube.com/shorts/0wIVy9Lmc78",
-    "thumb": "https://i.ytimg.com/vi/0wIVy9Lmc78/mqdefault.jpg",
+    "published": "2026-10-16T07:38:22Z",
+    "url": "https://www.youtube.com/shorts/9DOuL8CsdMg",
+    "thumb": "https://i.ytimg.com/vi/9DOuL8CsdMg/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
     "queries": [
-     "trending reels this week"
+     "trending sounds instagram reels this week"
     ],
     "new": false
    },
    {
     "rank": 3,
-    "id": "aeny8FrBCQw",
-    "title": "Indian family snacks 😂 #trend #reels #trending #funny #viral #video #relatable #shorts #comedy",
-    "channel": "BMV Shorts ",
-    "views": 2779599,
+    "id": "JZDUEjp-hyE",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #trending​​​​ Shorts #explore #song",
+    "channel": "Prakash_Gupta",
+    "views": 656789,
     "likes": null,
-    "duration": 31,
+    "duration": 41,
     "shorts": true,
-    "published": "2026-10-21T13:30:32Z",
-    "url": "https://www.youtube.com/shorts/aeny8FrBCQw",
-    "thumb": "https://i.ytimg.com/vi/aeny8FrBCQw/mqdefault.jpg",
+    "published": "2026-10-14T12:04:40Z",
+    "url": "https://www.youtube.com/shorts/JZDUEjp-hyE",
+    "thumb": "https://i.ytimg.com/vi/JZDUEjp-hyE/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
     "queries": [
-     "trending reels this week"
+     "trending sounds instagram reels this week"
     ],
     "new": false
    },
    {
     "rank": 4,
-    "id": "--ZgTGon3Bs",
-    "title": "tiktok Viral Trend #1 | #tiktok #trending #edit #trend #dance #viralvideo #shorts",
-    "channel": "asonvlog_1",
-    "views": 2089059,
-    "likes": 18003,
-    "duration": 10,
-    "shorts": true,
-    "published": "2026-10-20T21:35:55Z",
-    "url": "https://www.youtube.com/shorts/--ZgTGon3Bs",
-    "thumb": "https://i.ytimg.com/vi/--ZgTGon3Bs/mqdefault.jpg",
+    "id": "DREAzK8VNYc",
+    "title": "Most Disturbing 2026 TikTok Trends Explained",
+    "channel": "Paint Files",
+    "views": 497647,
+    "likes": 4827,
+    "duration": 483,
+    "shorts": false,
+    "published": "2026-10-16T09:43:27Z",
+    "url": "https://www.youtube.com/watch?v=DREAzK8VNYc",
+    "thumb": "https://i.ytimg.com/vi/DREAzK8VNYc/mqdefault.jpg",
+    "query": "tiktok trends this week explained",
     "queries": [
-     "viral tiktok dances this week"
+     "tiktok trends this week explained"
     ],
     "new": false
    },
    {
     "rank": 5,
-    "id": "Bh_8dxJyyO4",
-    "title": "disgusting. #targetaudience #disgusting #blowup #viral #tiktokviral #blippi #trending #reels",
-    "channel": "whoisjaraa",
-    "views": 1646638,
-    "likes": 20138,
-    "duration": 11,
-    "shorts": true,
-    "published": "2026-10-24T18:38:41Z",
-    "url": "https://www.youtube.com/shorts/Bh_8dxJyyO4",
-    "thumb": "https://i.ytimg.com/vi/Bh_8dxJyyO4/mqdefault.jpg",
+    "id": "QmApXxglpjU",
+    "title": "All Instagram Trending Songs 2026 | Taare x Pal Pal x Aarzu x Bairaan x Zulfein 🎶",
+    "channel": "𐙚 𝒇𝒐𝒓𝒕𝒖𝒏𝒆𝒔𝒌 𐙚",
+    "views": 435151,
+    "likes": 3662,
+    "duration": 1852,
+    "shorts": false,
+    "published": "2026-10-18T09:30:28Z",
+    "url": "https://www.youtube.com/watch?v=QmApXxglpjU",
+    "thumb": "https://i.ytimg.com/vi/QmApXxglpjU/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
     "queries": [
-     "trending reels this week"
+     "trending sounds instagram reels this week"
     ],
     "new": false
    },
    {
     "rank": 6,
-    "id": "_UYs2k_9TkE",
-    "title": "JASMIN AND JAMES VIRAL TIKTOK DANCE TREND - #dance #trend #viral #couple #funny #shorts",
-    "channel": "Jasmin and James Dance",
-    "views": 1473910,
-    "likes": 9988,
-    "duration": 19,
-    "shorts": true,
-    "published": "2026-10-23T11:40:29Z",
-    "url": "https://www.youtube.com/shorts/_UYs2k_9TkE",
-    "thumb": "https://i.ytimg.com/vi/_UYs2k_9TkE/mqdefault.jpg",
+    "id": "1MY8p6Bn-iE",
+    "title": "I Tried VIRAL TIKTOK TRENDS in ROBLOX...",
+    "channel": "Lana's Life",
+    "views": 272376,
+    "likes": 3601,
+    "duration": 859,
+    "shorts": false,
+    "published": "2026-10-23T15:00:34Z",
+    "url": "https://www.youtube.com/watch?v=1MY8p6Bn-iE",
+    "thumb": "https://i.ytimg.com/vi/1MY8p6Bn-iE/mqdefault.jpg",
+    "query": "viral tiktok trends compilation",
     "queries": [
-     "viral tiktok dances this week"
+     "viral tiktok trends compilation"
     ],
     "new": false
    },
    {
     "rank": 7,
-    "id": "mVAzwyhiOd0",
-    "title": "Home🫠🤍#trend #love #kerala #trendingreels #innova #car #toyota #fyp",
-    "channel": "Abhi's Tech Vlog",
-    "views": 1286678,
-    "likes": 10065,
-    "duration": 19,
-    "shorts": true,
-    "published": "2026-10-22T09:46:27Z",
-    "url": "https://www.youtube.com/shorts/mVAzwyhiOd0",
-    "thumb": "https://i.ytimg.com/vi/mVAzwyhiOd0/mqdefault.jpg",
+    "id": "-38oZ_KiMxY",
+    "title": "[최신가요 실시간 인기차트] 2026년 10월 21일 3주차, 멜론차트 X, 노래모음 KPOP 플레이리스트 멜론 종합차트",
+    "channel": "차트둥이",
+    "views": 235350,
+    "likes": 376,
+    "duration": 29192,
+    "shorts": false,
+    "published": "2026-10-20T23:36:10Z",
+    "url": "https://www.youtube.com/watch?v=-38oZ_KiMxY",
+    "thumb": "https://i.ytimg.com/vi/-38oZ_KiMxY/mqdefault.jpg",
+    "query": "릴스 음원 추천",
     "queries": [
-     "trending reels this week"
+     "릴스 음원 추천"
     ],
     "new": false
    },
    {
     "rank": 8,
-    "id": "Ls_OwXZu5G8",
-    "title": "JASMIN AND JAMES VIRAL TIKTOK DANCE TREND - #dance #trend #viral #couple #funny #shorts",
-    "channel": "Jasmin and James Dance",
-    "views": 1138575,
-    "likes": 6389,
-    "duration": 20,
-    "shorts": true,
-    "published": "2026-10-22T17:00:16Z",
-    "url": "https://www.youtube.com/shorts/Ls_OwXZu5G8",
-    "thumb": "https://i.ytimg.com/vi/Ls_OwXZu5G8/mqdefault.jpg",
+    "id": "7pitWFMHb6o",
+    "title": "All Instagram Trending Songs 2026 | LucyxMusic | Barsat X Aarzu X Kabhi kabhi",
+    "channel": "LucyXMusic",
+    "views": 202787,
+    "likes": 1123,
+    "duration": 1194,
+    "shorts": false,
+    "published": "2026-10-17T18:00:14Z",
+    "url": "https://www.youtube.com/watch?v=7pitWFMHb6o",
+    "thumb": "https://i.ytimg.com/vi/7pitWFMHb6o/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
     "queries": [
-     "viral tiktok dances this week"
+     "trending sounds instagram reels this week"
     ],
     "new": false
    },
    {
     "rank": 9,
-    "id": "zwkLaqDZIEY",
-    "title": "JASMIN AND JAMES VIRAL TIKTOK DANCE TREND - #dance #trend #viral #couple #funny #shorts",
-    "channel": "Jasmin and James Dance",
-    "views": 867455,
-    "likes": 6207,
-    "duration": 16,
+    "id": "oRZe5Lpg7bY",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #trending Shorts",
+    "channel": "SongXplane ",
+    "views": 201407,
+    "likes": null,
+    "duration": 34,
     "shorts": true,
-    "published": "2026-10-23T11:00:20Z",
-    "url": "https://www.youtube.com/shorts/zwkLaqDZIEY",
-    "thumb": "https://i.ytimg.com/vi/zwkLaqDZIEY/mqdefault.jpg",
+    "published": "2026-10-20T09:45:12Z",
+    "url": "https://www.youtube.com/shorts/oRZe5Lpg7bY",
+    "thumb": "https://i.ytimg.com/vi/oRZe5Lpg7bY/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
     "queries": [
-     "viral tiktok dances this week"
+     "trending sounds instagram reels this week"
     ],
     "new": false
    },
    {
     "rank": 10,
-    "id": "ukeMZBjedqo",
-    "title": "Every Wife Needs A Samajhdar Pati Like This! #tmkoc #comedy #trending #reels #shorts",
-    "channel": "Taarak Mehta Ka Ooltah Chashmah",
-    "views": 832287,
-    "likes": 20735,
-    "duration": 30,
-    "shorts": true,
-    "published": "2026-10-27T03:30:18Z",
-    "url": "https://www.youtube.com/shorts/ukeMZBjedqo",
-    "thumb": "https://i.ytimg.com/vi/ukeMZBjedqo/mqdefault.jpg",
+    "id": "4MLFzcY_3a4",
+    "title": "SI TE SABES EL TIKTOK 🧡✨ 2026 (Los Trends Más Virales)",
+    "channel": "KAREN MASHUP",
+    "views": 73160,
+    "likes": 351,
+    "duration": 471,
+    "shorts": false,
+    "published": "2026-10-20T20:00:39Z",
+    "url": "https://www.youtube.com/watch?v=4MLFzcY_3a4",
+    "thumb": "https://i.ytimg.com/vi/4MLFzcY_3a4/mqdefault.jpg",
+    "query": "tiktok trends this week explained",
     "queries": [
-     "trending reels this week"
+     "tiktok trends this week explained"
     ],
     "new": false
    }
   ],
   "items": [
    {
-    "key": "funnysounds",
-    "term": "#FunnySounds",
-    "kind": "hashtag",
-    "n": 7,
-    "views": 7051894,
-    "videos": [
-     "aeny8FrBCQw",
-     "_UYs2k_9TkE",
-     "Ls_OwXZu5G8"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "bhojpuri viral dj remix",
-    "term": "bhojpuri viral dj remix",
-    "kind": "phrase",
-    "n": 6,
-    "views": 325906,
-    "videos": [
-     "hi7-raXenMM",
-     "3Y3vxAc-wBk",
-     "G53i5VlNzMI"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "comedyshorts",
-    "term": "#comedyshorts",
-    "kind": "hashtag",
-    "n": 5,
-    "views": 13655802,
-    "videos": [
-     "QjCi0GnphIM",
-     "0wIVy9Lmc78",
-     "aeny8FrBCQw"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "kpop",
-    "term": "#kpop",
-    "kind": "hashtag",
-    "n": 5,
-    "views": 207224,
-    "videos": [
-     "lTLkj2nJ_ms",
-     "uPqx_xiKMSA",
-     "0gQ_-5HxQlc"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "vinod shishupal background music",
-    "term": "Vinod Shishupal Background Music",
-    "kind": "phrase",
-    "n": 4,
-    "views": 10093858,
-    "videos": [
-     "QjCi0GnphIM",
-     "0wIVy9Lmc78",
-     "ukeMZBjedqo"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "magik tiktok mashup dance",
-    "term": "magik Tiktok mashup Dance",
-    "kind": "phrase",
-    "n": 4,
-    "views": 1311824,
-    "videos": [
-     "yOwTFDlITCw",
-     "_k83HXqbOaw",
-     "5bHk2Ytwc7Q"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "philippines party music",
-    "term": "Philippines Party Music",
-    "kind": "phrase",
-    "n": 4,
-    "views": 1311539,
-    "videos": [
-     "yOwTFDlITCw",
-     "_k83HXqbOaw",
-     "5bHk2Ytwc7Q"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "babu new bhojpuri song",
-    "term": "babu New Bhojpuri Song",
-    "kind": "phrase",
-    "n": 4,
-    "views": 88272,
-    "videos": [
-     "3Y3vxAc-wBk",
-     "G53i5VlNzMI",
-     "D6wCly-73Bs"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "bhojpuri dance song",
-    "term": "Bhojpuri Dance Song",
-    "kind": "phrase",
-    "n": 4,
-    "views": 88272,
-    "videos": [
-     "3Y3vxAc-wBk",
-     "G53i5VlNzMI",
-     "D6wCly-73Bs"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "bhojpuri remix song",
-    "term": "Bhojpuri Remix Song",
-    "kind": "phrase",
-    "n": 4,
-    "views": 88272,
-    "videos": [
-     "3Y3vxAc-wBk",
-     "G53i5VlNzMI",
-     "D6wCly-73Bs"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "bhojpuri trending song",
-    "term": "Bhojpuri Trending Song",
-    "kind": "phrase",
-    "n": 4,
-    "views": 88272,
-    "videos": [
-     "3Y3vxAc-wBk",
-     "G53i5VlNzMI",
-     "D6wCly-73Bs"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "bhojpuri viral song",
-    "term": "Bhojpuri Viral Song",
-    "kind": "phrase",
-    "n": 4,
-    "views": 88272,
-    "videos": [
-     "3Y3vxAc-wBk",
-     "G53i5VlNzMI",
-     "D6wCly-73Bs"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "find trending songs",
-    "term": "find trending songs",
-    "kind": "phrase",
-    "n": 4,
-    "views": 88272,
-    "videos": [
-     "3Y3vxAc-wBk",
-     "G53i5VlNzMI",
-     "D6wCly-73Bs"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "muwala bhojpuri dj song",
-    "term": "Muwala Bhojpuri DJ Song",
-    "kind": "phrase",
-    "n": 4,
-    "views": 88272,
-    "videos": [
-     "3Y3vxAc-wBk",
-     "G53i5VlNzMI",
-     "D6wCly-73Bs"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "stop instagram trending song",
-    "term": "stop instagram trending song",
-    "kind": "phrase",
-    "n": 4,
-    "views": 88272,
-    "videos": [
-     "3Y3vxAc-wBk",
-     "G53i5VlNzMI",
-     "D6wCly-73Bs"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "ghop dj malaai music",
-    "term": "ghop dj malaai music",
-    "kind": "phrase",
-    "n": 4,
-    "views": 81456,
-    "videos": [
-     "3Y3vxAc-wBk",
-     "D6wCly-73Bs",
-     "yMjJW1AjTTU"
-    ],
-    "prev": null,
-    "new": false,
-    "lift": null
-   },
-   {
-    "key": "viral k pop shorts",
-    "term": "Viral K-pop Shorts",
+    "key": "aarzu asim azhar",
+    "term": "Aarzu — Asim Azhar",
     "kind": "list",
-    "n": 3,
-    "views": 204420,
+    "n": 4,
+    "n_videos": 5,
+    "views": 2876795,
     "videos": [
-     "lTLkj2nJ_ms",
-     "uPqx_xiKMSA",
-     "0gQ_-5HxQlc"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "ready for the challenge",
-    "term": "ready for the challenge",
-    "kind": "phrase",
-    "n": 3,
-    "views": 10093852,
+    "key": "barsaat bairan",
+    "term": "Barsaat — Bairan",
+    "kind": "list",
+    "n": 4,
+    "n_videos": 4,
+    "views": 2036777,
     "videos": [
-     "QjCi0GnphIM",
-     "0wIVy9Lmc78",
-     "ukeMZBjedqo"
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE",
+     "QmApXxglpjU"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "james viral tiktok dance",
-    "term": "JAMES VIRAL TIKTOK DANCE",
+    "key": "hindi top songs",
+    "term": "hindi top songs",
     "kind": "phrase",
-    "n": 3,
-    "views": 3479940,
+    "n": 4,
+    "n_videos": 5,
+    "views": 2876795,
     "videos": [
-     "_UYs2k_9TkE",
-     "Ls_OwXZu5G8",
-     "zwkLaqDZIEY"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "craze 2026 tiktok dance",
-    "term": "craze 2026 Tiktok dance",
+    "key": "bollywood love songs",
+    "term": "bollywood love songs",
     "kind": "phrase",
-    "n": 3,
-    "views": 1311533,
+    "n": 4,
+    "n_videos": 5,
+    "views": 2644431,
     "videos": [
-     "yOwTFDlITCw",
-     "_k83HXqbOaw",
-     "5bHk2Ytwc7Q"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "craze best dance",
-    "term": "craze Best Dance",
+    "key": "bollywood romantic songs",
+    "term": "bollywood romantic songs",
     "kind": "phrase",
-    "n": 3,
-    "views": 1311533,
+    "n": 4,
+    "n_videos": 5,
+    "views": 2644431,
     "videos": [
-     "yOwTFDlITCw",
-     "_k83HXqbOaw",
-     "5bHk2Ytwc7Q"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "craze tiktok trends",
-    "term": "craze Tiktok trends",
+    "key": "super hit songs",
+    "term": "super hit songs",
     "kind": "phrase",
-    "n": 3,
-    "views": 1311533,
+    "n": 4,
+    "n_videos": 5,
+    "views": 2644431,
     "videos": [
-     "yOwTFDlITCw",
-     "_k83HXqbOaw",
-     "5bHk2Ytwc7Q"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "kuya magik remix",
-    "term": "Kuya magik remix",
+    "key": "ajit singh song",
+    "term": "ajit singh song",
     "kind": "phrase",
     "n": 3,
-    "views": 1311533,
+    "n_videos": 4,
+    "views": 2441644,
     "videos": [
-     "yOwTFDlITCw",
-     "_k83HXqbOaw",
-     "5bHk2Ytwc7Q"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "mashup 2026 tiktok dance",
-    "term": "mashup 2026 Tiktok dance",
+    "key": "amir ameer song",
+    "term": "amir ameer song",
     "kind": "phrase",
     "n": 3,
-    "views": 1311533,
+    "n_videos": 4,
+    "views": 2441644,
     "videos": [
-     "yOwTFDlITCw",
-     "_k83HXqbOaw",
-     "5bHk2Ytwc7Q"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "mashup philippines hottest dance",
-    "term": "Mashup Philippines' hottest dance",
+    "key": "arijit singh song",
+    "term": "arijit singh song",
     "kind": "phrase",
     "n": 3,
-    "views": 1311533,
+    "n_videos": 4,
+    "views": 2441644,
     "videos": [
-     "yOwTFDlITCw",
-     "_k83HXqbOaw",
-     "5bHk2Ytwc7Q"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "indian meme sounds",
-    "term": "Indian meme sounds",
+    "key": "arijit singh songs",
+    "term": "arijit singh songs",
     "kind": "phrase",
     "n": 3,
-    "views": 296758,
+    "n_videos": 4,
+    "views": 2441644,
     "videos": [
-     "45D6-m0i5l4",
-     "4aOH3tB1DKQ",
-     "g-Z6AwGumHs"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "bass bhojpuri dj remix",
-    "term": "bass bhojpuri dj remix",
+    "key": "bhojpuri new song",
+    "term": "bhojpuri new song",
     "kind": "phrase",
     "n": 3,
-    "views": 81450,
+    "n_videos": 4,
+    "views": 2441644,
     "videos": [
-     "3Y3vxAc-wBk",
-     "D6wCly-73Bs",
-     "yMjJW1AjTTU"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "doctor babu dj remix",
-    "term": "doctor babu dj remix",
+    "key": "bollywood bollywood song",
+    "term": "bollywood bollywood song",
     "kind": "phrase",
     "n": 3,
-    "views": 81450,
+    "n_videos": 4,
+    "views": 2441644,
     "videos": [
-     "3Y3vxAc-wBk",
-     "D6wCly-73Bs",
-     "yMjJW1AjTTU"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "doctor babu dj song",
-    "term": "doctor babu dj song",
+    "key": "chapri song",
+    "term": "chapri song",
     "kind": "phrase",
     "n": 3,
-    "views": 81450,
+    "n_videos": 4,
+    "views": 2441644,
     "videos": [
-     "3Y3vxAc-wBk",
-     "D6wCly-73Bs",
-     "yMjJW1AjTTU"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    },
    {
-    "key": "ghop da bhojpuri song",
-    "term": "ghop da bhojpuri song",
+    "key": "desi trending songs",
+    "term": "desi trending songs",
     "kind": "phrase",
     "n": 3,
-    "views": 81450,
+    "n_videos": 4,
+    "views": 2441644,
     "videos": [
-     "3Y3vxAc-wBk",
-     "D6wCly-73Bs",
-     "yMjJW1AjTTU"
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "dhavni basunsali songs",
+    "term": "dhavni basunsali songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "english top songs",
+    "term": "english top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "five trending songs",
+    "term": "five trending songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "hindi new song",
+    "term": "hindi new song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "india sisa song",
+    "term": "india sisa song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "india viral music",
+    "term": "india viral music",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "indian love song",
+    "term": "indian love song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "indian viral songs",
+    "term": "indian viral songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "ishq lyrical song",
+    "term": "ishq lyrical song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "jaye sajna song",
+    "term": "jaye sajna song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "kamli song",
+    "term": "kamli song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "kashmiri love song",
+    "term": "kashmiri love song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "mother song",
+    "term": "mother song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "punjabi new song",
+    "term": "punjabi new song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "punjabi top songs",
+    "term": "punjabi top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
+    ],
+    "prev": null,
+    "new": false,
+    "lift": null
+   },
+   {
+    "key": "queries new song",
+    "term": "Queries new song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2441644,
+    "videos": [
+     "nXAyea_oSOA",
+     "9DOuL8CsdMg",
+     "JZDUEjp-hyE"
     ],
     "prev": null,
     "new": false,
     "lift": null
    }
   ],
-  "n_videos": 44,
+  "n_videos": 29,
   "n_items": 30,
+  "n_found": 75,
+  "n_roundup": 30,
+  "dropped": {
+   "제목에 트렌드·사운드·챌린지 없음": 19,
+   "제목 해시태그 스팸": 21,
+   "리믹스·매시업": 5
+  },
   "queries": [
    {
-    "q": "이번주 릴스 트렌드",
+    "q": "릴스 트렌드",
     "region": "KR",
-    "n": 0,
-    "error": ""
-   },
-   {
-    "q": "릴스 챌린지 모음",
-    "region": "KR",
-    "n": 4,
-    "error": ""
-   },
-   {
-    "q": "틱톡 트렌드 이번주",
-    "region": "KR",
-    "n": 0,
-    "error": ""
-   },
-   {
-    "q": "릴스 인기 음원",
-    "region": "KR",
-    "n": 0,
-    "error": ""
-   },
-   {
-    "q": "trending reels this week",
-    "region": "US",
+    "duration": "any",
     "n": 10,
     "error": ""
    },
    {
-    "q": "tiktok trends this week",
-    "region": "US",
+    "q": "틱톡 챌린지 모음",
+    "region": "KR",
+    "duration": "any",
     "n": 10,
     "error": ""
    },
    {
-    "q": "trending sounds instagram reels",
-    "region": "US",
+    "q": "요즘 유행 릴스 챌린지",
+    "region": "KR",
+    "duration": "any",
     "n": 10,
     "error": ""
    },
    {
-    "q": "viral tiktok dances this week",
+    "q": "릴스 음원 추천",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "reels trends this week",
     "region": "US",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "trending sounds instagram reels this week",
+    "region": "US",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "tiktok trends this week explained",
+    "region": "US",
+    "duration": "medium",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "viral tiktok trends compilation",
+    "region": "US",
+    "duration": "medium",
     "n": 10,
     "error": ""
    }
@@ -2739,11 +2758,12 @@
   "n_queries_ok": 8,
   "calls": {
    "search": 8,
-   "videos": 1,
-   "units": 801
+   "videos": 2,
+   "units": 802
   },
-  "days": 7,
-  "published_after": "2026-10-20T09:27:37Z",
+  "days": 14,
+  "order": "relevance",
+  "published_after": "2026-10-13T10:14:27Z",
   "compared": false
  }
 }
