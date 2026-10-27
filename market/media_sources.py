@@ -2,7 +2,8 @@
 
 소스: Know Your Meme(뉴스피드 RSS · 확정 엔트리 RSS · 제출 엔트리 RSS · 검색 "tiktok/instagram/reels" 최신순 + 엔트리 페이지)
       · Reddit top(t=day) RSS · YouTube 인기 급상승(API 키가 있을 때만, 60초 이하는 "쇼츠" 표시)
-      · Google 트렌드 일간 RSS(KR·US) · 위키백과 일간 조회수 상위(en·ko) · Imgflip 인기 밈 템플릿 100개.
+      · Google 트렌드 일간 RSS(KR·US) · 위키백과 일간 조회수 상위(en·ko) · Imgflip 인기 밈 템플릿 100개
+      · Threads 키워드 검색(THREADS_ACCESS_TOKEN 이 있을 때만, market/threads_source.py → 스냅샷 최상위 "threads" 키).
 소스 하나가 실패해도 나머지는 계속 가고, 스냅샷의 sources[키] 에 status("ok"/"fail"/"skip") 와 error 를 남깁니다.
 모든 요청에 연락처가 든 User-Agent 를 붙이고 요청 사이 0.5초 쉽니다. 정치·경제 제외 필터는 분석 단계(media_analyze)에서 겁니다.
 """
@@ -18,7 +19,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from urllib.parse import quote
 
-from . import http
+from . import http, threads_source
 
 UA = "indie-trending/1.0 (https://github.com/subinlimied/indie-trending)"
 HEADERS = {"User-Agent": UA, "Accept": "*/*"}
@@ -431,7 +432,7 @@ def _skip(snap, key, label, why, log):
     log(f"[media] {label}: 건너뜀 — {why}")
 
 
-GROUPS = ("kym", "trends", "wiki", "reddit", "youtube", "imgflip")
+GROUPS = ("kym", "trends", "wiki", "reddit", "youtube", "imgflip", "threads")
 
 
 def collect(cfg, date, log=print, only=None, base=None):
@@ -442,6 +443,8 @@ def collect(cfg, date, log=print, only=None, base=None):
             "params": {"kym_hours": hours, "kym_confirmed_hours": cfg.get("kym_confirmed_hours", 168), "kym_queries": cfg.get("kym_queries", []), "wiki_top": cfg.get("wiki_top", 20),
                        "reddit_subs": cfg.get("reddit_subs", [])},
             "sources": dict((base or {}).get("sources") or {})}
+    if base and base.get("threads"):       # --only 로 일부만 다시 받을 때 Threads 블록도 유지
+        snap["threads"] = base["threads"]
 
     def want(group):
         return not only or group in only
@@ -472,10 +475,19 @@ def collect(cfg, date, log=print, only=None, base=None):
             _run(snap, f"wiki_{proj}", f"위키백과 {proj}", lambda p=proj: collect_wiki(p, date, cfg.get("wiki_top", 20)), log)
     if want("imgflip"):
         _run(snap, "imgflip", "Imgflip 템플릿", collect_imgflip, log)
+    if want("threads"):   # 토큰이 없으면 skip 블록만 남습니다. 상태표에는 sources["threads"] 한 줄로 요약
+        try:
+            snap["threads"] = threads_source.collect(cfg.get("threads") or {}, log)
+        except Exception as ex:  # noqa: BLE001
+            snap["threads"] = {"status": "fail", "error": threads_source._redact(f"{type(ex).__name__}: {ex}")[:200], "results": {}, "posts": {}, "failed": [], "token": {"present": False}}
+            log(f"[media] Threads 키워드: 실패 — {snap['threads']['error']}")
+        th = snap["threads"]
+        snap["sources"]["threads"] = {"label": "Threads 키워드", "status": th.get("status", "skip"), "error": th.get("error", ""),
+                                      "count": len(th.get("posts") or {}), "items": []}
     if want("reddit"):   # 분당 1회라 가장 오래 걸리므로 맨 뒤
         for sub in cfg.get("reddit_subs", []):
             _run(snap, f"reddit_{sub.lower()}", f"Reddit r/{sub}", lambda s=sub: collect_reddit(s), log)
     for k in list(snap["sources"]):        # 더 이상 받지 않는 소스(예: 예전 X 트렌드)는 기존 스냅샷에서도 지웁니다
-        if not k.startswith(("kym_", "trends_", "wiki_", "reddit_", "youtube_", "imgflip")):
+        if not k.startswith(("kym_", "trends_", "wiki_", "reddit_", "youtube_", "imgflip", "threads")):
             del snap["sources"][k]
     return snap

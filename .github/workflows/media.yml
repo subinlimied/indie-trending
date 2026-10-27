@@ -47,6 +47,8 @@ jobs:
       - name: 수집
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}   # 없으면 유튜브 쇼츠 섹션만 건너뜁니다
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}   # 없으면 Threads 키워드 섹션만 건너뜁니다 (README "Threads 토큰 만드는 법")
+          REPO_SECRETS_PAT: ${{ secrets.REPO_SECRETS_PAT }}   # 선택: Secrets 쓰기 권한 PAT. 있으면 갱신한 Threads 토큰을 gh secret set 으로 저장
         run: python3 media.py collect --date "${{ steps.d.outputs.date }}" ${{ github.event.inputs.force == 'true' && '--force' || '' }}
 
       - name: 리포트 생성

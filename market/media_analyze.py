@@ -1,8 +1,9 @@
 """미디어·밈 스냅샷 → 리포트 dict (숏폼 중심).
 
 우선순위: ① 틱톡·인스타 트렌드(KYM 네 소스에서 플랫폼 태그 TikTok/Instagram 항목) ② 새로 등록된 밈(KYM 확정·제출)
-③ 커뮤니티 베스트(Reddit) ④ 유튜브 인기 급상승 Top 10(키 있을 때, 60초 이하는 "쇼츠" 표시) ⑤ 검색 급상승·위키(제외 필터 적용, 접힘)
-⑥ 밈 템플릿 변동 ⑦ 게임 교차. "오늘의 트렌드 한 건"은 ①에서 고릅니다.
+③ Threads 키워드 관찰(토큰 있을 때: 키워드별 24시간 게시 수·전날 대비, 새로 뜨는 말, 대표 글) ④ 커뮤니티 베스트(Reddit)
+⑤ 유튜브 인기 급상승 Top 10(키 있을 때, 60초 이하는 "쇼츠" 표시) ⑥ 검색 급상승·위키(제외 필터 적용, 접힘)
+⑦ 밈 템플릿 변동 ⑧ 게임 교차. "오늘의 트렌드 한 건"은 ①에서 고릅니다.
 
 정치·경제·스포츠·사건사고 제외 필터(config media.exclude_keywords)는 Google 트렌드(제목+관련 뉴스 제목)·위키 제목에 겁니다.
 밈 설명(한국어)·인사이트는 ANTHROPIC_API_KEY 가 있을 때 llm_request() 로 요청 본문을 만들고 attach_llm() 으로 리포트에 붙입니다(market/llm.py).
@@ -140,6 +141,137 @@ def kym_union(snap):
     return sorted(out.values(), key=_when, reverse=True)
 
 
+# ---------- Threads 키워드 관찰 ----------
+
+THREADS_SAMPLE_LEN = 120
+HASHTAG_RX = re.compile(r"#([A-Za-z0-9_가-힣]+)")
+TOKEN_RX = re.compile(r"[A-Za-z][A-Za-z0-9'’]{2,}|[가-힣]{2,}|[0-9]+[A-Za-z가-힣]+")
+URL_RX = re.compile(r"https?://\S+|www\.\S+")
+KO_PARTICLES = ("에서는", "으로는", "에게", "에서", "으로", "까지", "부터", "처럼", "이랑", "하고", "한테", "에는", "이나", "밖에",
+                "은", "는", "이", "가", "을", "를", "의", "에", "로", "와", "과", "도", "만", "들", "요", "임", "임다")
+STOP_EN = set("""the a an and or but if then so of to in on at for from by with without about into over under up down out off as is are was were be been
+being am do does did done have has had having will would can could should may might must shall this that these those it its they them their there here
+what which who whom whose when where why how all any both each few more most other some such no nor not only own same than too very just also
+you your yours we our ours i me my mine he him his she her hers one ones get got like via per vs new now today day days time year years week weeks
+really still even ever never always again back much many lot lots thing things way ways make makes made making go going goes went come comes came
+see seen say says said know think thought want wants need needs use used using look looks looking take takes took give gives let lets keep keeps
+http https com www re ve ll don doesn didn isn aren wasn weren won can't cant dont im ive youre thats whats its""".split())
+STOP_KO = set("""그리고 그래서 하지만 그런데 그래도 그러나 또는 또한 그냥 정말 진짜 너무 아주 매우 조금 많이 지금 오늘 내일 어제 이제 아직 계속 이거 저거 그거 이건 저건 그건
+이게 저게 그게 여기 저기 거기 우리 저희 당신 여러분 사람 사람들 때문 정도 경우 이번 다음 이런 저런 그런 어떤 무슨 모든 각각 하나 둘 있는 없는 있다 없다 합니다 입니다
+했다 한다 하는 하고 해서 해요 했어요 있어요 없어요 같아요 같은 라고 라는 이라고 이라는 그리 아니 아니라 근데 이렇게 저렇게 그렇게 그럼 그러면 바로 혹시 제가 저는
+저도 나는 나도 내가 너무나 완전 ㅋㅋ ㅋㅋㅋ ㅎㅎ ㅠㅠ ㅜㅜ 하는데 있는데 없는데 좋아요 좋은 좋다 같다 보다 보고 보면 보는 통해 위해 대해 대한 관련 가능 사용 방법 소개 공유 확인
+무료 추천 링크 영상 사진 댓글 팔로우 좋아요 구독 알림 이벤트 모집 참여 문의 안녕하세요 감사합니다 드립니다""".split())
+
+
+def _strip_particle(w):
+    for suf in KO_PARTICLES:
+        if len(w) - len(suf) >= 2 and w.endswith(suf):
+            return w[: -len(suf)]
+    return w
+
+
+def threads_terms(text, keywords_lc):
+    """글 하나 → 등장 용어 집합(해시태그는 # 붙여 구분, 단어는 소문자·조사 제거). 관찰 키워드 자체와 불용어는 뺍니다."""
+    out = set()
+    text = URL_RX.sub(" ", text or "")
+    for h in HASHTAG_RX.findall(text):
+        t = h.lower()
+        if t not in STOP_EN and t not in STOP_KO and t not in keywords_lc and not t.isdigit():
+            out.add("#" + t)
+    body = HASHTAG_RX.sub(" ", text)
+    for w in TOKEN_RX.findall(body):
+        t = w.lower().strip("'’")
+        if not t.isascii():
+            t = _strip_particle(t)
+        if len(t) < (3 if t.isascii() else 2) or t in STOP_EN or t in STOP_KO or t in keywords_lc or t.isdigit():
+            continue
+        out.add(t)
+    return out
+
+
+def _threads_counts(block, hours):
+    """키워드별 RECENT 중 수집 시각 기준 hours 안 게시 수 + 전체 글 용어 집계. block 이 정상이 아니면 (None, {})."""
+    if not block or block.get("status") != "ok":
+        return None, {}, 0
+    posts = block.get("posts") or {}
+    try:
+        cutoff = (datetime.strptime(block.get("collected_at", ""), "%Y-%m-%dT%H:%M:%SZ") - timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    except ValueError:
+        cutoff = ""
+    counts = {}
+    for kw, r in (block.get("results") or {}).items():
+        if r.get("error") and not (r.get("top") or r.get("recent")):
+            counts[kw] = None
+            continue
+        counts[kw] = sum(1 for i in r.get("recent") or [] if (posts.get(i) or {}).get("timestamp", "") >= cutoff)
+    kws_lc = {k.lower() for k in block.get("keywords") or []}
+    kws_lc |= {w for k in list(kws_lc) for w in TOKEN_RX.findall(k)}      # "game jam" 의 game · jam 도 관찰 키워드로 취급해 뺍니다
+    terms = {}
+    for p in posts.values():
+        for t in threads_terms(p.get("text"), kws_lc):
+            terms[t] = terms.get(t, 0) + 1
+    return counts, terms, len(posts)
+
+
+def analyze_threads(today, prev, cfg_threads):
+    """스냅샷 "threads" 블록 → 리포트 "threads": status · note · token · keywords(게시량·전날 대비·대표 글) · rising(새로 뜨는 말) · 요약."""
+    block = today.get("threads") or {}
+    tok = {k: v for k, v in (block.get("token") or {}).items() if k != "scopes"}
+    out = {"status": block.get("status", "skip"), "error": block.get("error", ""), "token": tok, "note": tok.get("note", ""),
+           "keywords": [], "rising": [], "total_posts": 0, "n_ok": 0, "failed": [], "calls": block.get("calls", 0),
+           "hours": (block.get("params") or {}).get("hours", 24), "limit": (block.get("params") or {}).get("limit", 100), "compared": False}
+    if out["status"] == "skip":
+        out["note"] = out["note"] or "Threads: 토큰 없음"
+        return out
+    if out["status"] != "ok":
+        return out
+    hours = out["hours"]
+    counts, terms, n_posts = _threads_counts(block, hours)
+    prev_block = (prev or {}).get("threads") if prev else None
+    prev_counts, prev_terms, _ = _threads_counts(prev_block, hours)
+    out["compared"] = prev_counts is not None
+    posts = block.get("posts") or {}
+    rows = []
+    for kw in block.get("keywords") or []:
+        r = (block.get("results") or {}).get(kw) or {}
+        n = counts.get(kw)
+        if n is None:
+            out["failed"].append({"keyword": kw, "error": r.get("error", "")})
+            continue
+        pn = (prev_counts or {}).get(kw) if prev_counts else None
+        delta = (n - pn) if pn is not None else None
+        lift = round(n / pn, 2) if pn else (None if pn is None else (None if n == 0 else 9.99))
+        sample = []
+        seen = set()
+        for i in list(r.get("top") or []) + list(r.get("recent") or []):
+            p = posts.get(i)
+            if not p or i in seen or p.get("is_reply") or not p.get("text"):
+                continue
+            seen.add(i)
+            text = p["text"] if len(p["text"]) <= THREADS_SAMPLE_LEN else p["text"][: THREADS_SAMPLE_LEN - 1].rstrip() + "…"
+            sample.append({"id": i, "text": text, "username": p.get("username", ""), "url": p.get("permalink", ""),
+                           "timestamp": p.get("timestamp", ""), "media_type": p.get("media_type", ""), "from": "top" if i in (r.get("top") or []) else "recent"})
+            if len(sample) >= 3:
+                break
+        rows.append({"keyword": kw, "recent": n, "prev": pn, "delta": delta, "lift": lift, "saturated": n >= out["limit"],
+                     "top_n": len(r.get("top") or []), "recent_n": len(r.get("recent") or []), "sample": sample})
+    rows.sort(key=lambda x: (-x["recent"], -(x["delta"] or 0), x["keyword"]))
+    out["keywords"] = rows
+    out["n_ok"] = len(rows)
+    out["total_posts"] = n_posts
+    out["recent_total"] = sum(x["recent"] for x in rows)
+    rising = []
+    for t, n in terms.items():
+        if n < 3:
+            continue
+        pn = (prev_terms or {}).get(t, 0) if prev_counts is not None else None
+        rising.append({"term": t, "n": n, "prev": pn, "delta": (n - pn) if pn is not None else None})
+    rising.sort(key=lambda x: (-(x["delta"] if x["delta"] is not None else x["n"]), -x["n"], x["term"]))
+    out["rising"] = rising[:15]
+    out["top_terms"] = sorted(((t, n) for t, n in terms.items() if n >= 2), key=lambda x: (-x[1], x[0]))[:15]
+    return out
+
+
 # ---------- 분석 ----------
 
 def analyze(cfg, date, data_dir: Path, reports_dir: Path):
@@ -194,6 +326,9 @@ def analyze(cfg, date, data_dir: Path, reports_dir: Path):
     for sub in (today.get("params") or {}).get("reddit_subs") or []:
         s = _src(today, f"reddit_{sub.lower()}")
         reddit.append({"sub": sub, "status": s.get("status"), "error": s.get("error", ""), "items": (s.get("items") or [])[:8]})
+
+    # ③-1 Threads 키워드 관찰 (토큰 있을 때만; 없으면 status "skip" + 메모)
+    threads = analyze_threads(today, prev, cfg.get("threads") or {})
 
     # ④ 유튜브 인기 급상승 Top 10 (60초 이하는 shorts=True)
     youtube = {}
@@ -275,6 +410,9 @@ def analyze(cfg, date, data_dir: Path, reports_dir: Path):
     for region in ("KR", "US"):
         for v in youtube[region]["items"]:
             _cross(v["title"], f"유튜브 {region}", v.get("url", ""))
+    for row in threads["keywords"]:
+        for sp in row["sample"]:
+            _cross(sp["text"], f"Threads · {row['keyword']}", sp.get("url", ""))
 
     # 수집 상태
     status_rows = []
@@ -292,21 +430,29 @@ def analyze(cfg, date, data_dir: Path, reports_dir: Path):
                     + f" · 제외 필터 {n_filtered}건")
     if failed:
         collect_line += " · 실패: " + ", ".join(failed)
+    if threads["status"] == "ok":
+        collect_line += f" · Threads {threads['n_ok']}개 키워드 · 글 {threads['total_posts']}건"
+    if threads.get("note"):
+        collect_line += f" · {threads['note']}"
     state.save()
     status = [["회차", f"{rnd}회차"], ["비교 대상", f"{prev_date} · 1일치" if prev_date else "없음"],
               ["틱톡·인스타", f"{len(shortform)}건 / KYM {len(kym_all)}"], ["새 밈", f"{len(new_memes)}건"],
               ["제외 필터", f"{n_filtered}건"], ["게임 교차", f"{len(cross)}건"],
+              ["Threads", (f"{threads['n_ok']}개 키워드 · 24시간 {threads.get('recent_total', 0)}건" if threads["status"] == "ok"
+                           else ("토큰 없음" if threads["status"] == "skip" else "실패"))],
               ["수집", (today.get("collected_at") or "").replace("T", " ").replace("Z", " UTC")]]
     return {
         "kind": "media", "platform": "media", "platform_ko": "미디어·밈", "date": date, "round": rnd, "prev_date": prev_date,
         "status": status, "collect_line": collect_line,
         "basis_line": (f"KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 {hours}시간) · Reddit top(t=day) 8개 × {len(reddit)}개 서브레딧 · "
                        f"YouTube 인기 급상승 KR·US Top 10(60초 이하는 쇼츠 표시, 키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · "
-                       f"Imgflip 인기 템플릿 100개 중 상위 {imgflip_top} · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · "
+                       f"Imgflip 인기 템플릿 100개 중 상위 {imgflip_top} · Threads 키워드 검색 TOP·RECENT 각 {threads['limit']}건(토큰 있을 때, 24시간 게시 수는 RECENT 기준이라 {threads['limit']}건에서 포화) · "
+                       f"제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · "
                        f"게임 교차 = Steam·itch 스냅샷 게임 이름과 대조"),
         "pick": pick, "platform_counts": platform_counts, "shortform": shortform, "kym_all": kym_all,
         "kym_new": sum(1 for x in kym_all if x["new"]), "new_memes": new_memes, "reddit": reddit, "youtube": youtube,
         "trends": trends, "wiki": wiki, "imgflip": imgflip, "cross": cross, "filtered": filtered, "sources": status_rows,
+        "threads": threads,
     }
 
 
@@ -374,6 +520,11 @@ def llm_request(rep):
         t = (rep.get("trends") or {}).get(geo) or []
         if t:
             lines.append(f"검색 급상승 {geo}: " + " / ".join(x["title"] for x in t[:5]))
+    th = rep.get("threads") or {}
+    if th.get("status") == "ok" and th.get("keywords"):
+        lines.append("Threads 키워드 24시간 게시량: " + " / ".join(f"{x['keyword']} {x['recent']}건" + (f"({x['delta']:+d})" if x.get("delta") is not None else "") for x in th["keywords"][:6]))
+        if th.get("rising"):
+            lines.append("Threads 에서 새로 뜨는 말: " + " / ".join(x["term"] for x in th["rising"][:8]))
     im = rep.get("imgflip") or {}
     if im.get("compared"):
         lines.append("밈 템플릿 변동: " + (" / ".join(f"{x['name']} {x['prev_rank']}→{x['rank']}위" for x in im.get("movers", [])[:5]) or "상위 30 변동 없음"))

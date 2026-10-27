@@ -195,6 +195,47 @@
         "quarterback",
         "draft"
       ]
+    },
+    "threads": {
+      "_설명": "Threads 키워드 관찰. THREADS_ACCESS_TOKEN 이 있을 때만 수집. 키워드마다 TOP·RECENT 1회씩(limit 100) → 키워드 수 × 2 × pages 회 호출, 하루 한도 2,200회. 정치·경제·스포츠 키워드는 넣지 않습니다.",
+      "keywords": [
+        "인디게임",
+        "게임개발",
+        "1인개발",
+        "유니티",
+        "고도엔진",
+        "스팀 신작",
+        "픽셀아트",
+        "로그라이크",
+        "게임잼",
+        "방치형 게임",
+        "밈",
+        "릴스",
+        "챌린지",
+        "숏폼",
+        "indie game",
+        "gamedev",
+        "solo dev",
+        "pixel art",
+        "roguelike",
+        "steam next fest",
+        "itch.io",
+        "game jam",
+        "cozy game",
+        "horror game",
+        "wishlist",
+        "devlog",
+        "unity3d",
+        "godot",
+        "screenshotsaturday",
+        "gameart"
+      ],
+      "limit": 100,
+      "pages": 1,
+      "max_calls": 200,
+      "hours": 24,
+      "refresh_days": 14,
+      "sleep": 0.4
     }
   }
 }

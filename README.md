@@ -114,12 +114,13 @@ DISCORD_WEBHOOK_URL_MEDIA=... python3 media.py send --date 2026-10-23   # 전송
 |---|---|---|---|
 | 01 | 틱톡·인스타 트렌드 | KYM 뉴스피드·확정·제출 RSS + KYM 검색 "tiktok / instagram / reels" 최신순(엔트리 페이지에서 발행·수정 시각) | 최근 48시간 · 제목·요약에 TikTok/Instagram 단서가 있는 항목만. **오늘의 트렌드 한 건**은 여기서 TikTok → Instagram 순으로 최신 것 |
 | 02 | 새로 등록된 밈 | KYM 확정(`memes.rss`)·제출(`memes/submissions.rss`) 엔트리 | 제출은 48시간, 확정은 드물어 7일(`kym_confirmed_hours`) 이내. 확정/제출 배지 |
-| 03 | 커뮤니티 베스트 | Reddit top(t=day) r/TikTokCringe · memes · popculturechat · shorts · gaming · IndieGaming | 403·429·빈 피드면 그 서브레딧만 실패. r/InstagramReels 는 열리지만 하루치 글이 없어 뺌 |
-| 04 | 유튜브 인기 급상승 | YouTube Data API v3 `videos.list(chart=mostPopular)` KR·US 각 50개 중 Top 10 | secret `YOUTUBE_API_KEY` 사용(아래). 60초 이하 영상에는 "쇼츠" 표시. 키 없는 환경에서는 건너뜀 |
-| 05 | 검색 급상승 · 세상의 관심사 | Google 트렌드 일간 RSS KR·US, 위키백과 조회수 상위 en·ko | 제외 필터 적용, HTML 에서는 접힘, 임베드에는 상위 3개만 한 줄 |
-| 06 | 밈 템플릿 순위 변동 | Imgflip 인기 템플릿 100개 | 전날 대비 ▲▼ · 신규 진입 · 이탈 |
-| 07 | 게임 ↔ 밈 교차 | 위 제목들 × `data/steam/` · `data/itch/` 게임 이름 | 소문자 · 3글자 이상 · 부분 일치는 단어 경계, 이름이 2단어 이상이거나 8자 이상일 때만 |
-| 08 | 수집 상태 | 소스별 정상/실패/건너뜀 · 개수 · 제외 건수 · Claude 토큰 | |
+| 03 | Threads 키워드 관찰 | Threads API `GET /v1.0/keyword_search` — `config.json` `media.threads.keywords` 30개 × TOP·RECENT 각 1회 | secret `THREADS_ACCESS_TOKEN` 사용(아래 "Threads 토큰 만드는 법"). 키워드별 24시간 게시 수와 전날 대비, 새로 뜨는 해시태그·단어, 대표 글 1~3개. 토큰 없는 환경에서는 "토큰 없음" 메모만 |
+| 04 | 커뮤니티 베스트 | Reddit top(t=day) r/TikTokCringe · memes · popculturechat · shorts · gaming · IndieGaming | 403·429·빈 피드면 그 서브레딧만 실패. r/InstagramReels 는 열리지만 하루치 글이 없어 뺌 |
+| 05 | 유튜브 인기 급상승 | YouTube Data API v3 `videos.list(chart=mostPopular)` KR·US 각 50개 중 Top 10 | secret `YOUTUBE_API_KEY` 사용(아래). 60초 이하 영상에는 "쇼츠" 표시. 키 없는 환경에서는 건너뜀 |
+| 06 | 검색 급상승 · 세상의 관심사 | Google 트렌드 일간 RSS KR·US, 위키백과 조회수 상위 en·ko | 제외 필터 적용, HTML 에서는 접힘, 임베드에는 상위 3개만 한 줄 |
+| 07 | 밈 템플릿 순위 변동 | Imgflip 인기 템플릿 100개 | 전날 대비 ▲▼ · 신규 진입 · 이탈 |
+| 08 | 게임 ↔ 밈 교차 | 위 제목들(+ Threads 대표 글) × `data/steam/` · `data/itch/` 게임 이름 | 소문자 · 3글자 이상 · 부분 일치는 단어 경계, 이름이 2단어 이상이거나 8자 이상일 때만 |
+| 09 | 수집 상태 | 소스별 정상/실패/건너뜀 · 개수 · 제외 건수 · Claude 토큰 · Threads 토큰 만료 메모 | |
 
 X 트렌드(trends24.in)는 GitHub Actions 의 IP 대역이 차단되어 뺐습니다.
 
@@ -133,11 +134,66 @@ X 트렌드(trends24.in)는 GitHub Actions 의 IP 대역이 차단되어 뺐습�
 
 **유튜브** — GitHub secret `YOUTUBE_API_KEY` 로 YouTube Data API v3 `videos.list(chart=mostPopular)` 를 KR·US 각 1회(하루 2회, 호출당 1유닛) 불러 인기 급상승 Top 10 을 싣고 60초 이하 영상에 "쇼츠"를 표시합니다. 키가 없는 환경(로컬)에서는 04 섹션이 "건너뜀"으로 나오고 임베드에서는 빠집니다. 키 만들기: Google Cloud 콘솔 → 새 프로젝트 → API 및 서비스 → 라이브러리 → **YouTube Data API v3** 사용 설정 → 사용자 인증 정보 → **API 키 만들기** → GitHub 저장소 Secrets 에 `YOUTUBE_API_KEY` 로 등록. 결제 등록은 필요 없고 일 10,000 유닛까지 무료입니다. 로컬에서는 `YOUTUBE_API_KEY=... python3 media.py collect --only youtube` 로 그 소스만 다시 받을 수 있습니다.
 
-- 카드 PNG 2장: 표지(오늘의 트렌드 KYM 이미지 + 플랫폼 칩 + 한 줄 요약(Claude 설명이 있으면 그것) + 플랫폼 집계 도넛 + 유튜브 KR 인기 Top 3) · 2장(새 밈 5개 격자 — 없으면 틱톡·인스타 트렌드로 대신 — + 밈 템플릿 순위 변동 Top 5 + 게임 교차).
-- Discord 임베드: 표지(+오늘의 인사이트) · 새 밈 · 커뮤니티 · 유튜브 인기 KR/US · 검색·위키·밈 템플릿·게임 교차(상세 링크 `reports/media/<date>.html`, footer 수집 상태).
+- 카드 PNG 2장(Threads 토큰이 있으면 3장): 표지(오늘의 트렌드 KYM 이미지 + 플랫폼 칩 + 한 줄 요약(Claude 설명이 있으면 그것) + 플랫폼 집계 도넛 + 유튜브 KR 인기 Top 3) · 2장(새 밈 5개 격자 — 없으면 틱톡·인스타 트렌드로 대신 — + 밈 템플릿 순위 변동 Top 5 + 게임 교차) · 3장(Threads 키워드 게시량 막대 Top 8 + 새로 뜨는 말 + 대표 글).
+- Discord 임베드: 표지(+오늘의 인사이트) · 새 밈 · Threads 키워드(토큰 있을 때만) · 커뮤니티 · 유튜브 인기 KR/US · 검색·위키·밈 템플릿·게임 교차(상세 링크 `reports/media/<date>.html`, footer 수집 상태. Threads 토큰이 없거나 만료가 가까우면 여기에 메모 한 줄).
 - Reddit 익명 RSS 는 IP 당 약 1분에 1회만 허용해 서브레딧 사이를 62초 간격으로 보냅니다(6개 ≈ 6분). 위키 조회수는 09:30 KST 에 전날 집계가 아직 없어 2~3일 전까지 거슬러 받습니다.
-- `config.json` 의 `media` 키: `reddit_subs` · `kym_queries` · `kym_hours` · `kym_confirmed_hours` · `wiki_top` · `trends_top` · `imgflip_top` · `exclude_keywords`.
+- `config.json` 의 `media` 키: `reddit_subs` · `kym_queries` · `kym_hours` · `kym_confirmed_hours` · `wiki_top` · `trends_top` · `imgflip_top` · `exclude_keywords` · `threads`(`keywords` 목록, `limit` 호출당 글 수 최대 100, `pages`, `max_calls` 하루 호출 상한, `hours` 게시량 창, `refresh_days` 토큰 갱신 시작 시점).
 - [.github/workflows/media.yml](.github/workflows/media.yml) 이 매일 09:30 KST(00:30 UTC, 게임 리포트 뒤)에 수집 → 리포트 → 카드 → 커밋·push → 전송을 합니다. 전송 단계에는 `DISCORD_WEBHOOK_URL_MEDIA` 와 `DISCORD_WEBHOOK_URL_PERSONAL` 만 넘깁니다(전용 채널을 쓰려면 `DISCORD_WEBHOOK_URL_MEDIA` secret 을 등록).
+
+## Threads 토큰 만드는 법 (미디어 리포트 03 · Threads 키워드 관찰)
+
+미디어 리포트의 03 섹션은 Meta **Threads API** 의 키워드 검색으로 `config.json` → `media.threads.keywords` 의 키워드(한국어·영어 30개, 정치·경제·스포츠 없음)마다 TOP·RECENT 를 하루 한 번씩 조회합니다. 수집은 [market/threads_source.py](market/threads_source.py), 분석은 `media_analyze.analyze_threads`, 렌더는 `render_media._threads_html` / `_threads_card` 입니다. 아래는 2026-10-27 에 Meta 공식 문서([Keyword Search](https://developers.facebook.com/documentation/threads/keyword-search), [Get Started](https://developers.facebook.com/documentation/threads/get-started), [Get Access Tokens](https://developers.facebook.com/documentation/threads/get-started/get-access-tokens-and-permissions), [Long-Lived Tokens](https://developers.facebook.com/documentation/threads/get-started/long-lived-tokens), [Debug Token](https://developers.facebook.com/documentation/threads/troubleshooting/debug-access-token), [Create an app](https://developers.facebook.com/documentation/threads/get-started/create-an-app))에서 확인한 내용입니다.
+
+**문서에서 확인한 사실**
+
+- 엔드포인트: `GET https://graph.threads.net/v1.0/keyword_search` (`graph.threads.com` 도 같음). 파라미터 `q`(필수) · `search_type` = `TOP`(기본) 또는 `RECENT` · `search_mode` = `KEYWORD`(기본) 또는 `TAG`(토픽 태그) · `media_type` = TEXT/IMAGE/VIDEO · `since`/`until`(Unix 초, 2023-07-05 이후만) · `limit` 기본 25, 최대 100 · `author_username` · `fields`(미디어 필드 목록, `owner` 는 안 나옴). 응답은 `{"data": [...]}` 이고 키워드 검색 문서에는 페이지네이션 설명이 없습니다(코드는 `paging.cursors.after` 가 오면 `pages` 만큼만 이어 받습니다).
+- 한도: **사용자당 24시간(롤링) 2,200회.** 앱 구분 없이 한 사용자의 모든 앱이 합산되고, 같은 키워드를 다시 보내도 세며, 결과가 0건인 요청은 세지 않습니다. 민감·공격적 키워드는 빈 배열이 옵니다. 이 프로젝트는 키워드 30개 × 2 유형 × 페이지 1 = 하루 60회 안팎이고 `media.threads.max_calls`(기본 200)로 상한을 둡니다.
+- 권한: `threads_basic`(모든 호출) + `threads_keyword_search`(키워드 검색). **앱이 `threads_keyword_search` 를 승인(App Review)받기 전에는 검색 결과가 "인증한 사용자 본인의 글"로 제한되고, 승인 뒤에 공개 글이 검색됩니다**(키워드 검색 문서 원문). Threads 테스터(앱 역할)는 언제든 권한을 줄 수 있지만, 공개 글 검색을 쓰려면 이 권한의 App Review 와 앱 게시가 필요하다는 뜻이므로, 토큰을 만든 뒤 03 섹션의 글이 본인 글뿐이면 심사를 신청해야 합니다. 테스트 중에는 Graph API Explorer 로 토큰 발급과 권한 부여를 할 수 있다고 안내합니다.
+- 토큰 수명: 단기 토큰 **1시간** → `GET https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=<앱 시크릿>&access_token=<단기 토큰>` 으로 교환하면 장기 토큰 **60일**. 장기 토큰은 **발급 24시간 이후부터 만료 전까지** `GET https://graph.threads.net/refresh_access_token?grant_type=th_refresh_token&access_token=<장기 토큰>` 으로 갱신할 수 있고(`threads_basic` 필요) 갱신하면 다시 60일. 60일 안에 갱신하지 않으면 만료되어 다시 발급해야 합니다. 응답은 `{"access_token", "token_type": "bearer", "expires_in": 초}`. 만료된 단기 토큰은 교환할 수 없습니다.
+- 권한 부여 자체는 90일짜리라, 장기 토큰을 갱신하면 공개 프로필 사용자의 권한도 90일 연장됩니다(Get Started 문서).
+- 만료 확인: `GET https://graph.threads.net/v1.0/debug_token?input_token=<토큰>&access_token=<토큰>` → `data.expires_at`(Unix 초) · `is_valid` · `scopes`. 코드가 매 실행마다 이걸로 남은 일수를 확인합니다(Threads 테스터의 사용자 토큰 또는 `TH|앱ID|앱시크릿` 형식의 앱 토큰으로 조회 가능).
+
+**토큰 만들기 (한 번만)**
+
+1. [developers.facebook.com/apps](https://developers.facebook.com/apps) → **앱 만들기** → 사용 사례에서 **Access the Threads API** 를 고르고 앱을 만듭니다. 처음이면 Meta 개발자 계정 등록(페이스북 계정 필요)을 먼저 합니다.
+2. 앱 대시보드 왼쪽 **Use cases(사용 사례)** → "Access the Threads API" → **Customize** → 권한 목록에서 `threads_keyword_search` 의 **Add** 를 누릅니다(`threads_basic` 은 기본 포함).
+3. 같은 화면의 **Settings** 에서 **Threads app ID** 와 **Threads app secret** 을 확인합니다(Meta 앱 ID 가 아니라 이 값을 씁니다). **Client OAuth Settings → Valid OAuth Redirect URIs**, **Deauthorize callback URL**, **Data Deletion Requests URL** 에 주소를 넣고 Save 합니다. 본인만 쓰는 앱이면 셋 다 이 저장소의 GitHub Pages 주소(`https://subinlimied.github.io/indie-trending/`)처럼 실제로 열리는 주소면 됩니다.
+4. **Add or Remove Threads Test Users** → **App roles → Roles → Add People → Threads Tester** 로 본인 Threads 계정을 초대하고, Threads 앱(또는 threads.com) **설정 → 계정 → 웹사이트 권한(Website permissions)** 에서 초대를 수락합니다. 테스터여야 심사 전에도 권한을 줄 수 있습니다.
+5. 단기 토큰 발급. 두 가지 중 하나:
+   - 브라우저에서 `https://threads.com/oauth/authorize?client_id=<Threads app ID>&redirect_uri=<3번의 Redirect URI>&scope=threads_basic,threads_keyword_search&response_type=code` 를 열어 허용 → 되돌아온 주소의 `code=` 값(끝의 `#_` 는 뺌, 1시간 안에 1회만 사용) → 터미널에서
+     ```bash
+     curl -X POST https://graph.threads.net/oauth/access_token -F client_id=<Threads app ID> -F client_secret=<Threads app secret> -F grant_type=authorization_code -F redirect_uri=<Redirect URI> -F code=<code>
+     ```
+     응답의 `access_token` 이 단기 토큰(1시간)입니다.
+   - 또는 Meta 의 Graph API Explorer 에서 이 앱을 고르고 Threads 권한으로 토큰을 생성합니다(키워드 검색 문서가 테스트용으로 안내하는 방법).
+6. 장기 토큰 교환(1시간 안에):
+   ```bash
+   curl "https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=<Threads app secret>&access_token=<단기 토큰>"
+   ```
+   응답의 `access_token` 이 60일짜리 장기 토큰입니다. 앱 시크릿은 이 명령에만 쓰고 저장소에는 넣지 않습니다.
+7. GitHub 저장소 **Settings → Secrets and variables → Actions → New repository secret** → Name `THREADS_ACCESS_TOKEN`, Secret 에 장기 토큰. 다음 미디어 워크플로부터 03 섹션과 카드 3장이 나옵니다. 로컬 확인은
+   ```bash
+   THREADS_ACCESS_TOKEN=... python3 media.py collect --only threads --force --date 2026-10-27
+   ```
+   뒤에 `report` · `send --dry-run`. 토큰 값은 로그·스냅샷·리포트 어디에도 찍히지 않습니다.
+
+**60일 갱신** — 워크플로가 매일 `debug_token` 으로 만료일을 보고, 남은 날이 `media.threads.refresh_days`(기본 14일) 이하이고 토큰이 24시간 이상 지났으면 `refresh_access_token` 으로 새 토큰을 받습니다. 기본 `GITHUB_TOKEN` 으로는 Secrets 를 쓸 수 없어서:
+- 선택 secret **`REPO_SECRETS_PAT`** 가 있으면 `gh secret set THREADS_ACCESS_TOKEN` 으로 자동 저장합니다. 만드는 법: GitHub **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token** → Repository access 에 이 저장소만 → Permissions → Repository permissions → **Secrets: Read and write** → 생성한 값을 저장소 Secrets 에 `REPO_SECRETS_PAT` 로 등록. PAT 에도 만료일이 있으니 1년 정도로 잡고 만료되면 같은 방법으로 바꿉니다.
+- 없으면 리포트 끝과 수집 상태에 "Threads 토큰이 N일 뒤 만료됩니다. README 절차대로 다시 넣어 주세요" 메모가 매일 나옵니다. 그때 5~7번을 다시 하면 됩니다(갱신 API 로 받은 새 토큰은 저장하지 못하면 버려집니다).
+
+## Instagram 해시태그 리포트 (2단계) 준비 절차
+
+Instagram 은 Threads 와 달리 **앱 심사를 통과해야만** 남의 공개 글을 해시태그로 볼 수 있어, 코드는 아직 만들지 않았고 절차만 적어 둡니다(2026-10-27 에 [Hashtag Search](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/hashtag-search), [IG Hashtag Search](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-hashtag-search), [recent_media](https://developers.facebook.com/docs/instagram-platform/instagram-graph-api/reference/ig-hashtag/recent-media), [App Review](https://developers.facebook.com/docs/resp-plat-initiatives/individual-processes/app-review) 문서에서 확인).
+
+**쓸 수 있는 것** — `GET /ig_hashtag_search?user_id=<IG 사용자 ID>&q=<해시태그>` 로 해시태그 ID(전 세계 공통) → `GET /{hashtag-id}/top_media` · `GET /{hashtag-id}/recent_media` (필드 `id, caption, comments_count, like_count, media_type, media_url, permalink, timestamp, children`; `username` 은 요청 불가). `recent_media` 는 최근 24시간 안에 올라온 공개 글만, 페이지당 최대 50개, 광고·스토리 제외. **한 계정당 7일에 서로 다른 해시태그 30개까지**(top/recent 조회도 횟수에 들어가고, 같은 해시태그 반복은 추가로 세지 않음). 이모지 해시태그 불가, 민감한 해시태그는 오류.
+
+**준비 순서**
+
+1. **Instagram 계정을 비즈니스 또는 크리에이터(프로페셔널) 계정으로 전환** — Instagram 앱 설정 → 계정 유형 및 도구 → 프로페셔널 계정으로 전환.
+2. **페이스북 페이지 연결** — 페이지가 없으면 하나 만들고, Instagram 설정 → 비즈니스 도구 → 페이스북 페이지 연결. 해시태그 API 토큰은 "연결된 페이스북 페이지에서 작업이 허용된 페이스북 사용자"의 사용자 토큰이어야 합니다.
+3. **Meta 앱에 Instagram 사용 사례 추가** — 위 Threads 앱이나 새 앱에서 사용 사례 "Instagram API with Facebook Login" 계열을 추가하고 Facebook 로그인 제품을 설정합니다. 권한: `instagram_basic` + (페이지 역할을 비즈니스 관리자로 받았다면) `pages_read_engagement` 또는 `business_management` 또는 `ads_management`. 기능: **Instagram Public Content Access**.
+4. **App Review 제출** — 해시태그 검색 문서 원문: "App Review 를 거쳐 Instagram Public Content Access 기능과 instagram_basic 권한의 승인을 요청해야 합니다." 앱 역할이 없는 사용자 데이터(= 남의 공개 글)를 쓰므로 심사가 필수이고, Meta 가 앱을 직접 테스트할 수 없으면 제출 전체가 거절됩니다. 제출 화면에서 권한·기능마다 요구하는 것: 사용 목적 설명(예: "개인 리서치용으로 인디게임·숏폼 관련 해시태그의 공개 게시물 수와 대표 글을 매일 1회 집계해 본인 Discord 채널로 보냅니다. 사용자 식별 정보는 저장하지 않습니다"), 그 기능을 실제로 쓰는 **화면 녹화**(로그인 → 해시태그 입력 → 결과 표시까지. 이 프로젝트는 UI 가 없으므로 로컬에서 스크립트를 실행해 결과 HTML 이 뜨는 과정을 녹화), 개인정보처리방침 URL, 앱 아이콘(512~1024px), 데이터 삭제 안내 URL. 비즈니스 인증(Business Verification)은 앱에 따라 추가로 요구될 수 있습니다.
+5. **심사 통과 뒤** — 저장소 Secrets 에 `INSTAGRAM_ACCESS_TOKEN`(연결된 페이지 작업 권한이 있는 페이스북 사용자의 장기 토큰, 60일) 과 `INSTAGRAM_USER_ID`(해시태그 검색의 `user_id` 로 쓰는 Instagram 프로페셔널 계정 ID) 를 등록하면 됩니다. 코드는 그때 `market/instagram_source.py` 로 Threads 수집기와 같은 모양(토큰 없으면 건너뜀, 7일 30개 한도를 `config.json` `media.instagram.hashtags` 로 제한, 24시간 게시 수·대표 글)으로 붙입니다. 그 전에는 리포트에 Instagram 섹션이 없습니다.
 
 ## GitHub Actions 자동 실행
 
@@ -162,13 +218,15 @@ Actions 탭에서 **Run workflow** 로 수동 실행할 수도 있습니다(날�
 - [ ] Settings → Actions → General → Workflow permissions 를 "Read and write permissions" 로
 - [ ] Actions 탭에서 `daily indie trending` 을 **Run workflow** 로 한 번 수동 실행해 Discord에 도착하는지 확인
 - [ ] 운영하면서 `config.json` 의 `big_publishers` 에 대형 퍼블리셔 이름을 채우기 (본문 제외 조건)
+- [ ] (미디어 리포트) Threads 장기 토큰을 만들어 Secrets `THREADS_ACCESS_TOKEN` 에 등록, 자동 갱신 저장을 원하면 `REPO_SECRETS_PAT` 도 ("Threads 토큰 만드는 법" 절)
+- [ ] (2단계) Instagram 프로페셔널 계정 전환 → 페이스북 페이지 연결 → Instagram Public Content Access 앱 심사 ("Instagram 해시태그 리포트" 절)
 
 ## 폴더
 
 ```
 collect.py / report.py / cards.py / notify.py   진입점
 weekly.py                          주간 리포트 진입점 (market/weekly.py 분석, market/render_weekly.py HTML·보드 카드)
-media.py                           미디어·밈 리포트 진입점 (market/media_sources.py 수집, media_analyze.py 분석, render_media.py 임베드·HTML·카드)
+media.py                           미디어·밈 리포트 진입점 (market/media_sources.py 수집, threads_source.py Threads 키워드·토큰 갱신, media_analyze.py 분석, render_media.py 임베드·HTML·카드)
 personal.py                        개인 리포트 진입점 (profile.json → market/personal.py 분석, market/render_personal.py 임베드·카드)
 market/steam.py, itch.py            수집기
 market/analyze_steam.py, analyze_itch.py   판정·섹션 구성

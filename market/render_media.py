@@ -1,9 +1,10 @@
-"""미디어·밈 리포트 dict → markdown(dry-run 본문) · HTML(01~08) · 카드 HTML 2장 · Discord 임베드.
+"""미디어·밈 리포트 dict → markdown(dry-run 본문) · HTML(01~09) · 카드 HTML 2~3장(Threads 가 있으면 3장) · Discord 임베드.
 
 HTML 과 카드는 design/tokens.json + market/ui.py + market/charts.py 위에 있습니다(render.daily_css("media") + 미디어 규칙 몇 줄).
 KYM·Reddit 제목과 About 원문은 영어 그대로 두고, 한국어 설명(ko_what · ko_idea)과 인사이트는 Claude 가 만든 경우에만 붙습니다.
 """
 import html as H
+import re
 from datetime import datetime, timezone, timedelta
 
 from . import charts, headline, render, ui
@@ -13,9 +14,10 @@ from .media_analyze import KIND_KO
 KST = timezone(timedelta(hours=9))
 TITLE = "미디어·밈 트렌드"
 TAG = "Indie Trending · Media"
-SECTIONS = [("01", "틱톡·인스타 트렌드", "KYM"), ("02", "새로 등록된 밈", "KYM 확정 · 제출"), ("03", "커뮤니티 베스트", "Reddit"),
-            ("04", "유튜브 인기 급상승", "KR / US Top 10 · 60초 이하는 쇼츠"), ("05", "검색 급상승 · 세상의 관심사", "Google 트렌드 · 위키 (접힘)"),
-            ("06", "밈 템플릿 순위 변동", "Imgflip"), ("07", "게임 ↔ 밈 교차", "Steam · itch"), ("08", "수집 상태", "")]
+SECTIONS = [("01", "틱톡·인스타 트렌드", "KYM"), ("02", "새로 등록된 밈", "KYM 확정 · 제출"), ("03", "Threads 키워드 관찰", "키워드별 24시간 게시 수 · 새로 뜨는 말 · 대표 글"),
+            ("04", "커뮤니티 베스트", "Reddit"), ("05", "유튜브 인기 급상승", "KR / US Top 10 · 60초 이하는 쇼츠"),
+            ("06", "검색 급상승 · 세상의 관심사", "Google 트렌드 · 위키 (접힘)"), ("07", "밈 템플릿 순위 변동", "Imgflip"),
+            ("08", "게임 ↔ 밈 교차", "Steam · itch"), ("09", "수집 상태", "")]
 SUMMARY_LEN = 120
 COLOR = 0x6B3FA0
 
@@ -47,6 +49,18 @@ details.ab p{margin:4px 0 0;line-height:1.55}
 .insight{padding:var(--sp-lg);font:var(--t-body-lg-w) var(--t-body-lg) var(--font-body)}
 .pc{display:flex;gap:var(--sp-md);align-items:center;flex-wrap:wrap}
 ul.hl .h1{font:600 var(--t-body-md) var(--font-body)}
+.th-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:var(--gutter);align-items:start}
+@media(max-width:767px){.th-grid{grid-template-columns:1fr}}
+.th-chart{overflow-x:auto}
+.th-chart svg{width:100%;height:auto;min-width:480px}
+.terms{display:flex;flex-wrap:wrap;gap:6px}
+.terms .lchip small{color:var(--ink-3);margin-left:4px;font-weight:500}
+.post{padding:10px 0;border-top:var(--bw) solid var(--line)}
+.post:first-child{border-top:0}
+.post .u{font:var(--t-data-md-w) var(--t-data-md) var(--font-mono);color:var(--ink-2)}
+.post .x{margin:2px 0 0;font:var(--t-body-md-w) var(--t-body-md) var(--font-body);color:var(--ink)}
+.post .x a{color:inherit}
+.th-note{font:var(--t-body-sm-w) var(--t-body-sm) var(--font-body);color:var(--warn);margin:var(--sp-sm) 0 0}
 """
 
 PLATFORM_CLS = {"TikTok": "acc", "Instagram": "new", "YouTube": "excl", "Twitter/X": "", "Reddit": "disc", "Twitch": "acc"}
@@ -121,6 +135,75 @@ def has_llm(rep):
     return bool(rep.get("insight")) or any(x.get("ko_what") for x in rep.get("kym_all") or [])
 
 
+# ---------- Threads 키워드 관찰 ----------
+
+ENV_RX = re.compile(r"\b([A-Z][A-Z0-9]*(?:_[A-Z0-9]+)+)\b")
+
+
+def _note_md(note):
+    """메모의 환경 변수 이름(REPO_SECRETS_PAT 등)은 밑줄이 기울임으로 바뀌지 않게 코드 글꼴로."""
+    return ENV_RX.sub(r"`\1`", note or "")
+
+
+def _th_delta(x):
+    """전날 대비 표시: ▲3 · ▼2 · — · (비교 없음이면 빈 문자열)."""
+    if x.get("delta") is None:
+        return ""
+    return _arrow(x["delta"])
+
+
+def _th_count(x):
+    return f"{x['recent']}+" if x.get("saturated") else str(x["recent"])
+
+
+def _th_rows(th, n=10):
+    """charts.bar_lift 용 [(키워드, 24시간 게시 수, 배율|None)]."""
+    return [(x["keyword"], x["recent"], x.get("lift")) for x in th["keywords"][:n]]
+
+
+def _th_term_line(th, n=8, md=False):
+    out = []
+    for t in th.get("rising") or []:
+        label = _mdsafe(t["term"]) if md else t["term"]
+        out.append(f"{label}({t['prev']}→{t['n']})" if t.get("prev") is not None else f"{label}({t['n']})")
+        if len(out) >= n:
+            break
+    return " · ".join(out)
+
+
+def _th_samples(th, n=3):
+    """키워드 순서대로 대표 글을 하나씩 돌아가며 n 개 (TOP 우선은 분석 단계에서 정렬됨)."""
+    out, seen = [], set()
+    for depth in range(3):
+        for row in th["keywords"]:
+            if len(out) >= n:
+                return out
+            sp = row["sample"][depth] if len(row["sample"]) > depth else None
+            if sp and sp["id"] not in seen:
+                seen.add(sp["id"])
+                out.append({**sp, "keyword": row["keyword"]})
+    return out
+
+
+def _md_threads(rep):
+    th = rep.get("threads") or {}
+    L = ["## 03 Threads 키워드 관찰"]
+    if th.get("status") != "ok":
+        L.append(f"- {th.get('note') or ('실패 · ' + th.get('error', '') if th.get('status') == 'fail' else '건너뜀')}")
+        return L + [""]
+    L.append(f"24시간 게시 수 (키워드 {th['n_ok']}개 · 글 {th['total_posts']}건 · 호출 {th.get('calls', 0)}회" + (" · 전날 대비" if th.get("compared") else " · 비교 대상 없음") + ")")
+    L += [f"- {x['keyword']}: {_th_count(x)}" + (f" {_th_delta(x)}" if _th_delta(x) else "") for x in th["keywords"][:15]]
+    if th.get("rising"):
+        L.append("새로 뜨는 말: " + _th_term_line(th, 10))
+    for sp in _th_samples(th, 3):
+        L.append(f"- [{sp['keyword']}] @{sp['username']}: {sp['text']} {sp['url']}")
+    if th.get("failed"):
+        L.append("실패 키워드: " + ", ".join(f"{f['keyword']}({f['error'][:40]})" for f in th["failed"][:5]))
+    if th.get("note"):
+        L.append(f"메모: {th['note']}")
+    return L + [""]
+
+
 # ====================================================================
 # markdown (dry-run 본문)
 # ====================================================================
@@ -157,14 +240,15 @@ def to_md(rep):
     for x in rep["new_memes"][:12]:
         L += _md_item(x)
     L += [""] if rep["new_memes"] else ["- 없음", ""]
-    L.append("## 03 커뮤니티 베스트 (Reddit)")
+    L += _md_threads(rep)
+    L.append("## 04 커뮤니티 베스트 (Reddit)")
     for r in rep["reddit"]:
         if r["status"] != "ok":
             L.append(f"- r/{r['sub']}: 실패 ({r.get('error', '')})")
             continue
         L.append(f"**r/{r['sub']}**")
         L += [f"- [{x['title']}]({x['url']})" for x in r["items"][:5]]
-    L += ["", "## 04 유튜브 인기 급상승 Top 10"]
+    L += ["", "## 05 유튜브 인기 급상승 Top 10"]
     for region in ("KR", "US"):
         y = rep["youtube"][region]
         if y["status"] != "ok":
@@ -172,14 +256,14 @@ def to_md(rep):
             continue
         L.append(f"**{region}** (인기 {y['total']}개 중 쇼츠 {y['shorts']})")
         L += [f"{v['rank']}. {v['title']} · {v['channel']} · {_views(v['views'])}" + (" · 쇼츠" if v.get("shorts") else "") for v in y["items"][:10]]
-    L += ["", "## 05 검색 급상승 · 세상의 관심사 (제외 필터 적용)"]
+    L += ["", "## 06 검색 급상승 · 세상의 관심사 (제외 필터 적용)"]
     for geo in ("KR", "US"):
         L.append(f"**검색 {geo}** (제외 {rep['filtered'].get('trends_' + geo.lower(), 0)}건)")
         L += [f"{x['rank']}. {x['title']} · {_fmt_traffic(x)}" + (f" · {x['days']}일 연속" if x.get("days", 1) > 1 else "") + (f" · {x['news_title']}" if x.get("news_title") else "") for x in rep["trends"][geo]] or ["- 없음"]
     for proj in ("en", "ko"):
         L.append(f"**위키 {proj}** ({rep['wiki'].get(proj + '_day', '')} 집계, 제외 {rep['filtered'].get('wiki_' + proj, 0)}건)")
         L += [f"{x['rank']}. {x['title']} · {x['views']:,}" + (f" · {x['days']}일 연속" if x.get("days", 1) > 1 else "") for x in rep["wiki"][proj][:10]]
-    L += ["", "## 06 밈 템플릿 순위 변동 (Imgflip)"]
+    L += ["", "## 07 밈 템플릿 순위 변동 (Imgflip)"]
     im = rep["imgflip"]
     if im["compared"]:
         L += [f"- {x['name']} {x['prev_rank']}→{x['rank']}위 {_arrow(x['delta'])}" for x in im["movers"][:10]] or ["- 상위 30 변동 없음"]
@@ -187,9 +271,9 @@ def to_md(rep):
         L.append("이탈: " + (", ".join(f"{x['name']}(어제 {x['prev_rank']}위)" for x in im["exited"]) or "없음"))
     else:
         L.append("비교 대상 없음 (회차 1). 오늘 상위: " + ", ".join(x["name"] for x in im["items"][:10]))
-    L += ["", "## 07 게임 ↔ 밈 교차"]
+    L += ["", "## 08 게임 ↔ 밈 교차"]
     L += [f"- {_cross_line(c)}" for c in rep["cross"]] or ["- 없음"]
-    L += ["", "## 08 수집 상태"]
+    L += ["", "## 09 수집 상태"]
     L += [f"- {s['label']}: {dict(ok='정상', fail='실패', skip='건너뜀').get(s['status'], s['status'])} · {s['count']}개" + (f" · 제외 {s['filtered']}" if s.get("filtered") else "") + (f" · {s['error']}" if s.get("error") else "") for s in rep["sources"]]
     u = rep.get("llm_usage")
     if u:
@@ -288,6 +372,32 @@ def _blocks(parts):
     return f'<div class="blocks">{"".join(f"<div class=\"card block\"><h4>{esc(lbl)}</h4>{body}</div>" for lbl, body in parts)}</div>'
 
 
+def _threads_html(rep):
+    th = rep.get("threads") or {}
+    if th.get("status") == "skip":
+        return ('<p class="empty">THREADS_ACCESS_TOKEN 이 없어 건너뜀. README 의 "Threads 토큰 만드는 법" 절을 따라 장기 토큰을 Secrets 에 넣으면 이 자리에 키워드별 게시량이 나옵니다.</p>'
+                + (f'<p class="th-note">{esc(th["note"])}</p>' if th.get("note") and th["note"] != "Threads: 토큰 없음" else ""))
+    if th.get("status") != "ok":
+        return f'<p class="empty">수집 실패 · {esc(th.get("error", ""))}</p>' + (f'<p class="th-note">{esc(th["note"])}</p>' if th.get("note") else "")
+    cmp_txt = "전날 대비 배율" if th.get("compared") else "비교 대상 없음(첫 회차)"
+    chart = charts.bar_lift(_th_rows(th, 10), width=936, height=max(260, 46 * min(10, len(th["keywords"]))), scale="web", max_rows=10, label_chars=14,
+                            title="Threads 키워드별 24시간 게시 수")
+    terms = "".join(f'<span class="lchip{" pos" if (t.get("delta") or 0) >= 3 else ""}">{esc(t["term"])}<small>{(str(t["prev"]) + "→") if t.get("prev") is not None else ""}{t["n"]}</small></span>' for t in th.get("rising") or [])
+    samples = "".join(f'<div class="post"><div class="u">{esc(sp["keyword"])} · @{esc(sp["username"])} · {esc(_kst(sp["timestamp"]))} KST' + (" · TOP" if sp.get("from") == "top" else "") + f'</div><p class="x">{_a(sp["text"], sp["url"])}</p></div>'
+                      for sp in _th_samples(th, 6)) or '<p class="empty">본문이 있는 글이 없습니다.</p>'
+    table = "".join(f'<tr><td class="wrap">{esc(x["keyword"])}</td><td class="num">{esc(_th_count(x))}</td><td class="num">{x["prev"] if x.get("prev") is not None else "—"}</td>'
+                    f'<td class="num {"up" if (x.get("delta") or 0) > 0 else "down" if (x.get("delta") or 0) < 0 else ""}">{esc(_th_delta(x) or "—")}</td><td class="num">{x["top_n"]}/{x["recent_n"]}</td>'
+                    f'<td class="wrap">{_a(x["sample"][0]["text"], x["sample"][0]["url"]) if x["sample"] else "—"}</td></tr>' for x in th["keywords"])
+    failed = (f'<p class="stext">실패 키워드 {len(th["failed"])}개: ' + ", ".join(f"{esc(f['keyword'])}({esc(f['error'][:50])})" for f in th["failed"][:8]) + "</p>") if th.get("failed") else ""
+    note = f'<p class="th-note">{esc(th["note"])}</p>' if th.get("note") else ""
+    head = (f'<p class="stext">키워드 {th["n_ok"]}개 · 글 {th["total_posts"]}건 · 호출 {th.get("calls", 0)}회(하루 한도 2,200) · {cmp_txt}. '
+            f'24시간 게시 수는 RECENT 검색 {th["limit"]}건 기준이라 {th["limit"]}+ 는 포화입니다. 남의 글에는 좋아요 수가 없어 게시량과 말의 변화만 봅니다.</p>')
+    return (head + note + f'<div class="th-grid"><div class="card block"><h4>24시간 게시 수 Top 10 · 초록 = 전날의 1.5배 이상</h4><div class="th-chart">{chart}</div></div>'
+            f'<div class="card block"><h4>새로 뜨는 말 · 글 3건 이상, 전날 대비 증가순</h4>' + (f'<div class="terms">{terms}</div>' if terms else '<p class="empty">아직 없음</p>') + "</div></div>"
+            f'<div class="card block" style="margin-top:var(--gutter)"><h4>대표 글 (TOP 우선 · 답글 제외 · 120자)</h4>{samples}</div>{failed}'
+            f'<details class="dt"><summary>키워드 {len(th["keywords"])}개 전체</summary><div class="tbl"><table><thead><tr><th>키워드</th><th class="num">24h</th><th class="num">어제</th><th class="num">변동</th><th class="num">TOP/RECENT</th><th>대표 글</th></tr></thead><tbody>{table}</tbody></table></div></details>')
+
+
 def _reddit_html(rep):
     parts = []
     for r in rep["reddit"]:
@@ -359,8 +469,8 @@ def _status_html(rep):
 def to_html(rep):
     bodies = {"01": _kym_rows(rep["shortform"], "최근 48시간에 TikTok·Instagram 태그가 붙은 KYM 항목이 없습니다."),
               "02": _kym_rows(rep["new_memes"], "최근 48시간에 등록된 엔트리가 없습니다."),
-              "03": _reddit_html(rep), "04": _youtube_html(rep), "05": _search_wiki_html(rep),
-              "06": _imgflip_html(rep), "07": _cross_html(rep), "08": _status_html(rep)}
+              "03": _threads_html(rep), "04": _reddit_html(rep), "05": _youtube_html(rep), "06": _search_wiki_html(rep),
+              "07": _imgflip_html(rep), "08": _cross_html(rep), "09": _status_html(rep)}
     secs = "".join(f'<section id="s{no}"><h2><span class="no">{no}</span>{esc(t)}' + (f' <small style="color:var(--ink-2);font-weight:500">{esc(sub)}</small>' if sub else "") + f"</h2>{bodies[no]}</section>" for no, t, sub in SECTIONS)
     toc = "".join(f'<a href="#s{no}"><b>{no}</b>{esc(t)}</a>' for no, t, _ in SECTIONS)
     status = "".join(f"<div><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>" for k, v in rep["status"] if v not in (None, "", "—"))
@@ -474,8 +584,27 @@ def _second_card(rep):
             f'<div class="sec"><p class="seclabel">게임 ↔ 밈 교차</p><div class="list">{xs}</div></div>')
 
 
+def _threads_card(rep):
+    th = rep["threads"]
+    w = ui.tokens()["카드"]["폭"] - 2 * ui.tokens()["간격"]["카드_여백"]
+    chart = charts.bar_lift(_th_rows(th, 8), width=w, height=470, scale="card", max_rows=8, label_chars=12, title="Threads 키워드별 24시간 게시 수")
+    terms = "".join(f'<span class="lchip{" pos" if (t.get("delta") or 0) >= 3 else " ghost"}">{esc(t["term"])}</span>' for t in (th.get("rising") or [])[:10]) or '<span class="lchip ghost">아직 없음</span>'
+    samples = "".join(f'<div class="ln"><div><div class="t">{esc(sp["text"])}</div><div class="s">{esc(sp["keyword"])} · @{esc(sp["username"])}</div></div><span class="v">{"TOP" if sp.get("from") == "top" else "NEW"}</span></div>'
+                      for sp in _th_samples(th, 5)) or '<div class="ln"><div class="s">본문이 있는 글이 없습니다.</div></div>'
+    top = th["keywords"][0] if th["keywords"] else None
+    sub = f"키워드 {th['n_ok']}개 · 글 {th['total_posts']}건" + (" · 전날 대비" if th.get("compared") else " · 첫 회차")
+    title = (f'<span class="hi">{esc(top["keyword"])}</span> 24시간 {esc(_th_count(top))}건'
+             + (f' <span style="color:var(--{"rise" if top["delta"] > 0 else "fall"})">{esc(_th_delta(top))}</span>' if top.get("delta") else "")) if top else "오늘 수집한 글이 없습니다"
+    head = _title_block("THREADS", sub, title)
+    return (head + f'<div class="sec"><p class="seclabel">24시간 게시 수 Top 8 · 초록 = 전날의 1.5배 이상</p><div class="dbox">{chart}</div></div>'
+            f'<div class="sec"><p class="seclabel">새로 뜨는 말</p><div class="terms" style="display:flex;flex-wrap:wrap;gap:8px">{terms}</div></div>'
+            f'<div class="sec"><p class="seclabel">대표 글</p><div class="list">{samples}</div></div>')
+
+
 def to_cards(rep, link=None):
     pages = [_cover_card(rep), _second_card(rep)]
+    if (rep.get("threads") or {}).get("status") == "ok" and rep["threads"].get("keywords"):
+        pages.append(_threads_card(rep))
     return [(f"{rep['date']}-{i}.png", _card(rep, body, i, len(pages), link)) for i, body in enumerate(pages, 1)]
 
 
@@ -536,7 +665,21 @@ def build_embeds(rep, link, clip, limits):
     body = "\n".join(item_md(x, with_flags=True) for x in memes) or "• 최근 48시간 새 엔트리 없음"
     embeds.append({"title": f"새로 등록된 밈 · KYM {len(rep['new_memes'])}건", "color": COLOR, "description": clip(body, LD)})
 
-    # 3. 커뮤니티 베스트
+    # 3. Threads 키워드 관찰 (토큰 있을 때만 임베드, 없으면 마지막 임베드에 메모 한 줄)
+    th = rep.get("threads") or {}
+    if th.get("status") == "ok" and th.get("keywords"):
+        tl = ["**24시간 게시 수** " + " · ".join(f"{_mdsafe(x['keyword'])} {_th_count(x)}" + (f" {_th_delta(x)}" if _th_delta(x) else "") for x in th["keywords"][:8])]
+        if th.get("rising"):
+            tl.append("**새로 뜨는 말** " + _th_term_line(th, 8, md=True))
+        sp = _th_samples(th, 3)
+        if sp:
+            tl.append("**대표 글**\n" + "\n".join(f"• [{_mdsafe(x['keyword'])}] @{_mdsafe(x['username'])}: [{_mdsafe(x['text'][:90])}]({x['url']})" for x in sp))
+        if th.get("note"):
+            tl.append(f"-# {_note_md(th['note'])}")
+        embeds.append({"title": clip(f"Threads 키워드 관찰 · {th['n_ok']}개 키워드 · 글 {th['total_posts']}건" + (" · 전날 대비" if th.get("compared") else ""), LT),
+                       "color": 0x101010, "description": clip("\n".join(tl), LD)})
+
+    # 4. 커뮤니티 베스트
     rd = [f"• r/{r['sub']} {link_md(r['items'][0])}" for r in rep["reddit"] if r["status"] == "ok" and r["items"]]
     fails = [f"r/{r['sub']}" for r in rep["reddit"] if r["status"] != "ok"]
     desc = "\n".join(rd) or "Reddit 수집 실패"
@@ -544,7 +687,7 @@ def build_embeds(rep, link, clip, limits):
         desc += f"\n(실패: {', '.join(fails)})"
     embeds.append({"title": "커뮤니티 베스트 · Reddit", "color": COLOR, "description": clip(desc, LD)})
 
-    # 4. 유튜브 인기 급상승 (키 있을 때만)
+    # 5. 유튜브 인기 급상승 (키 있을 때만)
     yt_fields = []
     for region in ("KR", "US"):
         y = rep["youtube"][region]
@@ -554,7 +697,7 @@ def build_embeds(rep, link, clip, limits):
     if yt_fields:
         embeds.append({"title": "유튜브 인기 급상승", "color": 0xB4261D, "fields": yt_fields})
 
-    # 5. 검색·위키 한 줄 + 밈 템플릿 + 게임 교차 + 상세 링크
+    # 6. 검색·위키 한 줄 + 밈 템플릿 + 게임 교차 + 상세 링크
     f = rep["filtered"]
     tail = []
     for geo in ("KR", "US"):
@@ -571,6 +714,8 @@ def build_embeds(rep, link, clip, limits):
         tail.append(f"**게임 교차 {len(rep['cross'])}건** " + " · ".join(f"{_mdsafe(c['term'][:40])} → [{_mdsafe(c['game'])}]({c['game_url']})" for c in rep["cross"][:3]))
     else:
         tail.append("**게임 교차** 없음")
+    if th.get("status") != "ok" and th.get("note"):
+        tail.append(f"-# {_note_md(th['note'])}")
     if link:
         tail.append(f"\n**[📄 상세 보고서 열기]({link})**")
     embeds.append({"title": "검색 · 위키 · 밈 템플릿 · 게임 교차", "color": 0x33409E, "description": clip("\n".join(tail), LD),
