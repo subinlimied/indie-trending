@@ -2,8 +2,8 @@ name: daily indie trending
 
 on:
   schedule:
-    # 매일 21:47 UTC = 다음 날 06:47 KST. 정각을 피한 이른 시각으로 잡아 GitHub 예약 지연(수 시간)이 있어도 아침 안에 도착하게 합니다.
-    - cron: "47 21 * * *"
+    # 매일 20:17 UTC = 다음 날 05:17 KST. GitHub 예약이 최대 3시간쯤 밀리는 것이 관측되어(10-27 09:50 KST 실행) 그만큼 앞당겨 두었습니다. 끝나면 미디어 리포트가 이어서 돕니다.
+    - cron: "17 20 * * *"
   workflow_dispatch:
     inputs:
       date:
