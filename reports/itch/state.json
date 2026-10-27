@@ -1,27 +1,27 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 4,
-  "date": "2026-10-26",
+  "n": 5,
+  "date": "2026-10-27",
   "since": "2026-10-23"
  },
  "tags:Idle": {
   "name": "Idle",
-  "n": 1,
-  "date": "2026-10-26",
+  "n": 2,
+  "date": "2026-10-27",
   "since": "2026-10-26"
  },
  "tags:Incremental": {
   "name": "Incremental",
-  "n": 1,
-  "date": "2026-10-26",
+  "n": 2,
+  "date": "2026-10-27",
   "since": "2026-10-26"
  },
  "tags:No generative AI was used": {
   "name": "No generative AI was used",
-  "n": 2,
-  "date": "2026-10-23",
-  "since": "2026-10-22"
+  "n": 1,
+  "date": "2026-10-27",
+  "since": "2026-10-27"
  },
  "tags:Clicker": {
   "name": "Clicker",
@@ -49,8 +49,8 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 7,
-  "date": "2026-10-26",
+  "n": 8,
+  "date": "2026-10-27",
   "since": "2026-10-20"
  },
  "genre:Action": {
@@ -61,14 +61,14 @@
  },
  "genre:Adventure": {
   "name": "Adventure",
-  "n": 5,
-  "date": "2026-10-26",
+  "n": 6,
+  "date": "2026-10-27",
   "since": "2026-10-22"
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 7,
-  "date": "2026-10-26",
+  "n": 8,
+  "date": "2026-10-27",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
@@ -79,32 +79,32 @@
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 1,
-  "date": "2026-10-26",
+  "n": 2,
+  "date": "2026-10-27",
   "since": "2026-10-26"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 2,
-  "date": "2026-10-26",
+  "n": 3,
+  "date": "2026-10-27",
   "since": "2026-10-25"
  },
  "made_with:Unreal Engine": {
   "name": "Unreal Engine",
-  "n": 1,
-  "date": "2026-10-26",
+  "n": 2,
+  "date": "2026-10-27",
   "since": "2026-10-26"
  },
  "pick": {
-  "name": "Tiny Bastion",
+  "name": "Golem Quest",
   "n": 1,
-  "date": "2026-10-26",
-  "since": "2026-10-26"
+  "date": "2026-10-27",
+  "since": "2026-10-27"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 3,
-  "date": "2026-10-26",
+  "n": 4,
+  "date": "2026-10-27",
   "since": "2026-10-24"
  },
  "tags:Card Game": {
@@ -121,9 +121,9 @@
  },
  "genre:Platformer": {
   "name": "Platformer",
-  "n": 2,
-  "date": "2026-10-25",
-  "since": "2026-10-24"
+  "n": 1,
+  "date": "2026-10-27",
+  "since": "2026-10-27"
  },
  "genre:Card Game": {
   "name": "Card Game",
@@ -133,27 +133,27 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 6,
-  "date": "2026-10-26",
+  "n": 7,
+  "date": "2026-10-27",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 5,
-  "date": "2026-10-26",
+  "n": 6,
+  "date": "2026-10-27",
   "since": "2026-10-22"
  },
  "tags:3D": {
   "name": "3D",
-  "n": 1,
-  "date": "2026-10-26",
+  "n": 2,
+  "date": "2026-10-27",
   "since": "2026-10-26"
  },
  "tags:First-Person": {
   "name": "First-Person",
   "n": 1,
-  "date": "2026-10-22",
-  "since": "2026-10-22"
+  "date": "2026-10-27",
+  "since": "2026-10-27"
  },
  "tags:Cute": {
   "name": "Cute",
@@ -193,9 +193,9 @@
  },
  "genre:Role Playing": {
   "name": "Role Playing",
-  "n": 2,
-  "date": "2026-10-24",
-  "since": "2026-10-23"
+  "n": 1,
+  "date": "2026-10-27",
+  "since": "2026-10-27"
  },
  "made_with:PICO-8": {
   "name": "PICO-8",
