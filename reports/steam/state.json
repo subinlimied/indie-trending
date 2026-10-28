@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 7,
-  "date": "2026-10-27",
+  "n": 8,
+  "date": "2026-10-28",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 7,
-  "date": "2026-10-27",
+  "n": 8,
+  "date": "2026-10-28",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 7,
-  "date": "2026-10-27",
+  "n": 8,
+  "date": "2026-10-28",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 7,
-  "date": "2026-10-27",
+  "n": 8,
+  "date": "2026-10-28",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 7,
-  "date": "2026-10-27",
+  "n": 8,
+  "date": "2026-10-28",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 7,
-  "date": "2026-10-27",
+  "n": 8,
+  "date": "2026-10-28",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -44,8 +44,8 @@
  "tag:Pixel Graphics": {
   "name": "Pixel Graphics",
   "n": 1,
-  "date": "2026-10-26",
-  "since": "2026-10-26"
+  "date": "2026-10-28",
+  "since": "2026-10-28"
  },
  "tag:Free to Play": {
   "name": "Free to Play",
@@ -55,9 +55,9 @@
  },
  "tag:Management": {
   "name": "Management",
-  "n": 2,
-  "date": "2026-10-24",
-  "since": "2026-10-23"
+  "n": 1,
+  "date": "2026-10-28",
+  "since": "2026-10-28"
  },
  "tag:Action Roguelike": {
   "name": "Action Roguelike",
@@ -67,20 +67,20 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 6,
-  "date": "2026-10-26",
-  "since": "2026-10-21"
+  "n": 1,
+  "date": "2026-10-28",
+  "since": "2026-10-28"
  },
  "pick": {
-  "name": "Fears to Fathom® - Scratch Creek",
+  "name": "Life Is a Dungeon: Lean into It.",
   "n": 1,
-  "date": "2026-10-27",
-  "since": "2026-10-27"
+  "date": "2026-10-28",
+  "since": "2026-10-28"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 4,
-  "date": "2026-10-27",
+  "n": 5,
+  "date": "2026-10-28",
   "since": "2026-10-24"
  },
  "tag:Building": {
@@ -160,5 +160,17 @@
   "n": 1,
   "date": "2026-10-27",
   "since": "2026-10-27"
+ },
+ "tag:Female Protagonist": {
+  "name": "Female Protagonist",
+  "n": 1,
+  "date": "2026-10-28",
+  "since": "2026-10-28"
+ },
+ "tag:Survival Horror": {
+  "name": "Survival Horror",
+  "n": 1,
+  "date": "2026-10-28",
+  "since": "2026-10-28"
  }
 }
