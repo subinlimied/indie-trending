@@ -1,51 +1,51 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 10,
-  "date": "2026-10-30",
+  "n": 11,
+  "date": "2026-10-31",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 10,
-  "date": "2026-10-30",
+  "n": 11,
+  "date": "2026-10-31",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 10,
-  "date": "2026-10-30",
+  "n": 11,
+  "date": "2026-10-31",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 10,
-  "date": "2026-10-30",
+  "n": 11,
+  "date": "2026-10-31",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 10,
-  "date": "2026-10-30",
+  "n": 11,
+  "date": "2026-10-31",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 10,
-  "date": "2026-10-30",
+  "n": 11,
+  "date": "2026-10-31",
   "since": "2026-10-21"
  },
  "tag:Racing": {
   "name": "Racing",
-  "n": 2,
-  "date": "2026-10-30",
+  "n": 3,
+  "date": "2026-10-31",
   "since": "2026-10-29"
  },
  "tag:Pixel Graphics": {
   "name": "Pixel Graphics",
   "n": 1,
-  "date": "2026-10-28",
-  "since": "2026-10-28"
+  "date": "2026-10-31",
+  "since": "2026-10-31"
  },
  "tag:Free to Play": {
   "name": "Free to Play",
@@ -67,20 +67,20 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 1,
-  "date": "2026-10-30",
+  "n": 2,
+  "date": "2026-10-31",
   "since": "2026-10-30"
  },
  "pick": {
-  "name": "Big Dig",
+  "name": "Finals Week ✍🏻",
   "n": 1,
-  "date": "2026-10-30",
-  "since": "2026-10-30"
+  "date": "2026-10-31",
+  "since": "2026-10-31"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 7,
-  "date": "2026-10-30",
+  "n": 8,
+  "date": "2026-10-31",
   "since": "2026-10-24"
  },
  "tag:Building": {
@@ -190,5 +190,17 @@
   "n": 1,
   "date": "2026-10-29",
   "since": "2026-10-29"
+ },
+ "tag:Story Rich": {
+  "name": "Story Rich",
+  "n": 1,
+  "date": "2026-10-31",
+  "since": "2026-10-31"
+ },
+ "tag:Psychological Horror": {
+  "name": "Psychological Horror",
+  "n": 1,
+  "date": "2026-10-31",
+  "since": "2026-10-31"
  }
 }
