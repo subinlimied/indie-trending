@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 11,
-  "date": "2026-10-31",
+  "n": 12,
+  "date": "2026-11-01",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 11,
-  "date": "2026-10-31",
+  "n": 12,
+  "date": "2026-11-01",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 11,
-  "date": "2026-10-31",
+  "n": 12,
+  "date": "2026-11-01",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 11,
-  "date": "2026-10-31",
+  "n": 12,
+  "date": "2026-11-01",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 11,
-  "date": "2026-10-31",
+  "n": 12,
+  "date": "2026-11-01",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 11,
-  "date": "2026-10-31",
+  "n": 12,
+  "date": "2026-11-01",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -43,8 +43,8 @@
  },
  "tag:Pixel Graphics": {
   "name": "Pixel Graphics",
-  "n": 1,
-  "date": "2026-10-31",
+  "n": 2,
+  "date": "2026-11-01",
   "since": "2026-10-31"
  },
  "tag:Free to Play": {
@@ -56,8 +56,8 @@
  "tag:Management": {
   "name": "Management",
   "n": 1,
-  "date": "2026-10-28",
-  "since": "2026-10-28"
+  "date": "2026-11-01",
+  "since": "2026-11-01"
  },
  "tag:Action Roguelike": {
   "name": "Action Roguelike",
@@ -67,20 +67,20 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 2,
-  "date": "2026-10-31",
+  "n": 3,
+  "date": "2026-11-01",
   "since": "2026-10-30"
  },
  "pick": {
-  "name": "Finals Week ✍🏻",
+  "name": "IRON NEST: Heavy Turret Simulator",
   "n": 1,
-  "date": "2026-10-31",
-  "since": "2026-10-31"
+  "date": "2026-11-01",
+  "since": "2026-11-01"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 8,
-  "date": "2026-10-31",
+  "n": 9,
+  "date": "2026-11-01",
   "since": "2026-10-24"
  },
  "tag:Building": {
@@ -115,9 +115,9 @@
  },
  "tag:Free To Play": {
   "name": "Free To Play",
-  "n": 2,
-  "date": "2026-10-30",
-  "since": "2026-10-29"
+  "n": 1,
+  "date": "2026-11-01",
+  "since": "2026-11-01"
  },
  "tag:Singleplayer": {
   "name": "Singleplayer",
@@ -202,5 +202,11 @@
   "n": 1,
   "date": "2026-10-31",
   "since": "2026-10-31"
+ },
+ "tag:Horror": {
+  "name": "Horror",
+  "n": 1,
+  "date": "2026-11-01",
+  "since": "2026-11-01"
  }
 }

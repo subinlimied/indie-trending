@@ -1,0 +1,2953 @@
+{
+ "date": "2026-11-01",
+ "profile": {
+  "dimensions": [
+   "2D",
+   "3D"
+  ],
+  "engines": [
+   "Unity"
+  ],
+  "exclude_tags": [
+   "Dating Sim",
+   "Otome",
+   "Romance",
+   "Visual Novel"
+  ],
+  "prefer_tags": [],
+  "max_price_usd": 20,
+  "max_playtime_hours": 15,
+  "exclude_multiplayer": true,
+  "watchlist": {
+   "steam": [],
+   "itch": []
+  },
+  "min_reviews_for_signal": 20
+ },
+ "platforms": {
+  "steam": {
+   "platform": "steam",
+   "platform_ko": "Steam 인디",
+   "round": 12,
+   "has_prev": true,
+   "top": [
+    {
+     "platform": "steam",
+     "id": "2950790",
+     "name": "IRON NEST: Heavy Turret Simulator",
+     "url": "https://store.steampowered.com/app/2950790/",
+     "line": "Top Sellers 135→55위 ▲80 · 리뷰 8,280(+19) · 7일 +60 · 동접 607(+106.5%) · $19.99 −25%",
+     "badges": [
+      "신작",
+      "셀프 퍼블리싱",
+      "데모",
+      "할인 25%"
+     ],
+     "sub": "Nick Nieuwoudt · Action, Simulation",
+     "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/e6c9e990560078611472e5dab98e79a405ed33f4/header.jpg?t=1792402828",
+     "thumb_bg": null,
+     "score": 92.2,
+     "same": "공용 선정과 동일",
+     "facts": [
+      "3D",
+      "Action · Simulation",
+      "$19.99",
+      "플레이 시간 미상",
+      "데모 있음",
+      "셀프 퍼블리싱",
+      "신작"
+     ],
+     "tags": [],
+     "reviews": 8280,
+     "d1": 19,
+     "age": 87,
+     "new": true
+    },
+    {
+     "platform": "steam",
+     "id": "5133900",
+     "name": "Can 'Em All",
+     "url": "https://store.steampowered.com/app/5133900/",
+     "line": "Top Sellers 77→61위 ▲16 · 리뷰 329(+317) · 동접 4,698(+71.1%) · $6.99 −10%",
+     "badges": [
+      "신작",
+      "셀프 퍼블리싱",
+      "데모",
+      "할인 10%"
+     ],
+     "sub": "LuisDev · Action, Simulation, Strategy",
+     "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133900/19aa14ebe3720e02f7f8c720abbf9749cf36967f/header.jpg?t=1793384095",
+     "thumb_bg": null,
+     "score": 82.0,
+     "same": "공용 큰 폭 변화와 동일",
+     "facts": [
+      "3D",
+      "Action · Simulation · Strategy",
+      "$6.99",
+      "플레이 시간 미상",
+      "데모 있음",
+      "셀프 퍼블리싱",
+      "신작"
+     ],
+     "tags": [],
+     "reviews": 329,
+     "d1": 317,
+     "age": 2,
+     "new": true
+    },
+    {
+     "platform": "steam",
+     "id": "4304900",
+     "name": "Big Dig",
+     "url": "https://store.steampowered.com/app/4304900/",
+     "line": "Top Sellers 139→128위 ▲11 · 리뷰 755(+31) · 7일 +294 · 동접 204(+1.5%) · $7.99 −25%",
+     "badges": [
+      "신작",
+      "셀프 퍼블리싱",
+      "할인 25%"
+     ],
+     "sub": "Dan Schumacher · Casual, Strategy",
+     "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/f70f4692753e297cd45617fed789c15ce5b1c4c6/header.jpg?t=1792598351",
+     "thumb_bg": null,
+     "score": 63.5,
+     "same": null,
+     "facts": [
+      "Strategy",
+      "$7.99",
+      "플레이 시간 미상",
+      "셀프 퍼블리싱",
+      "신작"
+     ],
+     "tags": [],
+     "reviews": 755,
+     "d1": 31,
+     "age": 13,
+     "new": true
+    }
+   ],
+   "pushed": [
+    {
+     "name": "GRAIN ROT",
+     "url": "https://store.steampowered.com/app/4450620/",
+     "reasons": [
+      "Multiplayer"
+     ],
+     "role": "큰 폭 변화"
+    }
+   ],
+   "why": "",
+   "same_as_public": false,
+   "scatter": [
+    {
+     "name": "Dressmaker",
+     "platform": "steam",
+     "price_usd": 14.99,
+     "playtime_h": null,
+     "reviews": 13955,
+     "top": 0
+    },
+    {
+     "name": "ReStory: Chill Electronics Repairs",
+     "platform": "steam",
+     "price_usd": 19.99,
+     "playtime_h": null,
+     "reviews": 6011,
+     "top": 0
+    },
+    {
+     "name": "REKA",
+     "platform": "steam",
+     "price_usd": 19.99,
+     "playtime_h": null,
+     "reviews": 2626,
+     "top": 0
+    },
+    {
+     "name": "Rip It! Card Collector",
+     "platform": "steam",
+     "price_usd": 6.99,
+     "playtime_h": null,
+     "reviews": 372,
+     "top": 0
+    },
+    {
+     "name": "TCG Card Shop Simulator",
+     "platform": "steam",
+     "price_usd": 19.99,
+     "playtime_h": null,
+     "reviews": 39499,
+     "top": 0
+    },
+    {
+     "name": "Leaf it Alone",
+     "platform": "steam",
+     "price_usd": 5.99,
+     "playtime_h": null,
+     "reviews": 6686,
+     "top": 0
+    },
+    {
+     "name": "Bills Must Be Paid",
+     "platform": "steam",
+     "price_usd": 6.99,
+     "playtime_h": null,
+     "reviews": 6403,
+     "top": 0
+    },
+    {
+     "name": "IRON NEST: Heavy Turret Simulator",
+     "platform": "steam",
+     "price_usd": 19.99,
+     "playtime_h": null,
+     "reviews": 8280,
+     "top": 1
+    },
+    {
+     "name": "One Million Coins",
+     "platform": "steam",
+     "price_usd": 2.49,
+     "playtime_h": null,
+     "reviews": 1039,
+     "top": 0
+    },
+    {
+     "name": "Can 'Em All",
+     "platform": "steam",
+     "price_usd": 6.99,
+     "playtime_h": null,
+     "reviews": 329,
+     "top": 2
+    },
+    {
+     "name": "A Place for Every Potion",
+     "platform": "steam",
+     "price_usd": 5.99,
+     "playtime_h": null,
+     "reviews": 126,
+     "top": 0
+    },
+    {
+     "name": "Rift of the NecroDancer",
+     "platform": "steam",
+     "price_usd": 19.99,
+     "playtime_h": null,
+     "reviews": 3196,
+     "top": 0
+    },
+    {
+     "name": "Mouthwashing",
+     "platform": "steam",
+     "price_usd": 12.99,
+     "playtime_h": null,
+     "reviews": 29864,
+     "top": 0
+    },
+    {
+     "name": "TBH: Task Bar Hero",
+     "platform": "steam",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 8761,
+     "top": 0
+    },
+    {
+     "name": "ShredDead",
+     "platform": "steam",
+     "price_usd": 5.99,
+     "playtime_h": null,
+     "reviews": 362,
+     "top": 0
+    },
+    {
+     "name": "Kingdom Inc.",
+     "platform": "steam",
+     "price_usd": 7.99,
+     "playtime_h": null,
+     "reviews": 57,
+     "top": 0
+    },
+    {
+     "name": "HackHub - Ultimate Hacker Simulator",
+     "platform": "steam",
+     "price_usd": 16.99,
+     "playtime_h": null,
+     "reviews": 1008,
+     "top": 0
+    },
+    {
+     "name": "COP BASTARD",
+     "platform": "steam",
+     "price_usd": 12.99,
+     "playtime_h": null,
+     "reviews": 137,
+     "top": 0
+    },
+    {
+     "name": "Happy Wheels",
+     "platform": "steam",
+     "price_usd": 4.99,
+     "playtime_h": null,
+     "reviews": 3503,
+     "top": 0
+    },
+    {
+     "name": "Airport Contraband",
+     "platform": "steam",
+     "price_usd": 19.99,
+     "playtime_h": null,
+     "reviews": 64,
+     "top": 0
+    },
+    {
+     "name": "Librarian: Tidy Up the Arcane Library!",
+     "platform": "steam",
+     "price_usd": 5.99,
+     "playtime_h": null,
+     "reviews": 16758,
+     "top": 0
+    },
+    {
+     "name": "Megastore: Tidy Up Together",
+     "platform": "steam",
+     "price_usd": 5.99,
+     "playtime_h": null,
+     "reviews": 608,
+     "top": 0
+    },
+    {
+     "name": "Big Dig",
+     "platform": "steam",
+     "price_usd": 7.99,
+     "playtime_h": null,
+     "reviews": 755,
+     "top": 3
+    },
+    {
+     "name": "Fantasy World Manager",
+     "platform": "steam",
+     "price_usd": 14.99,
+     "playtime_h": null,
+     "reviews": 80,
+     "top": 0
+    },
+    {
+     "name": "REPLACED",
+     "platform": "steam",
+     "price_usd": 19.99,
+     "playtime_h": null,
+     "reviews": 3736,
+     "top": 0
+    },
+    {
+     "name": "ForgeTax",
+     "platform": "steam",
+     "price_usd": 2.99,
+     "playtime_h": null,
+     "reviews": 1510,
+     "top": 0
+    },
+    {
+     "name": "CloverPit",
+     "platform": "steam",
+     "price_usd": 9.99,
+     "playtime_h": null,
+     "reviews": 25181,
+     "top": 0
+    },
+    {
+     "name": "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil",
+     "platform": "steam",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 1739,
+     "top": 0
+    },
+    {
+     "name": "Escape From Duckov",
+     "platform": "steam",
+     "price_usd": 17.99,
+     "playtime_h": null,
+     "reviews": 10749,
+     "top": 0
+    },
+    {
+     "name": "DUNGEON SLASHER",
+     "platform": "steam",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 412,
+     "top": 0
+    },
+    {
+     "name": "No, I'm not a Human",
+     "platform": "steam",
+     "price_usd": 14.99,
+     "playtime_h": null,
+     "reviews": 27918,
+     "top": 0
+    },
+    {
+     "name": "The Death Game Report",
+     "platform": "steam",
+     "price_usd": 3.99,
+     "playtime_h": null,
+     "reviews": 2330,
+     "top": 0
+    },
+    {
+     "name": "I’m a Wizard, But I Dig",
+     "platform": "steam",
+     "price_usd": 6.99,
+     "playtime_h": null,
+     "reviews": 70,
+     "top": 0
+    },
+    {
+     "name": "DRAPLINE",
+     "platform": "steam",
+     "price_usd": 12.99,
+     "playtime_h": null,
+     "reviews": 2635,
+     "top": 0
+    },
+    {
+     "name": "Look Outside",
+     "platform": "steam",
+     "price_usd": 9.99,
+     "playtime_h": null,
+     "reviews": 2642,
+     "top": 0
+    },
+    {
+     "name": "Lost Castle 2",
+     "platform": "steam",
+     "price_usd": 17.99,
+     "playtime_h": null,
+     "reviews": 8290,
+     "top": 0
+    },
+    {
+     "name": "The Roottrees are Dead",
+     "platform": "steam",
+     "price_usd": 19.99,
+     "playtime_h": null,
+     "reviews": 2522,
+     "top": 0
+    },
+    {
+     "name": "GloveUp!",
+     "platform": "steam",
+     "price_usd": 19.99,
+     "playtime_h": null,
+     "reviews": 26,
+     "top": 0
+    },
+    {
+     "name": "Tiny Eden",
+     "platform": "steam",
+     "price_usd": 14.99,
+     "playtime_h": null,
+     "reviews": 956,
+     "top": 0
+    },
+    {
+     "name": "Fortune Mill",
+     "platform": "steam",
+     "price_usd": 7.99,
+     "playtime_h": null,
+     "reviews": 2322,
+     "top": 0
+    },
+    {
+     "name": "QuestAway",
+     "platform": "steam",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 708,
+     "top": 0
+    },
+    {
+     "name": "Supermarket Chaos",
+     "platform": "steam",
+     "price_usd": 4.99,
+     "playtime_h": null,
+     "reviews": 3700,
+     "top": 0
+    },
+    {
+     "name": "Teamfight Manager 2",
+     "platform": "steam",
+     "price_usd": 19.99,
+     "playtime_h": null,
+     "reviews": 2378,
+     "top": 0
+    },
+    {
+     "name": "Retro Rewind - Video Store Simulator",
+     "platform": "steam",
+     "price_usd": 19.9,
+     "playtime_h": null,
+     "reviews": 8171,
+     "top": 0
+    },
+    {
+     "name": "Kimodameshi Online",
+     "platform": "steam",
+     "price_usd": 9.99,
+     "playtime_h": null,
+     "reviews": 11,
+     "top": 0
+    }
+   ],
+   "public": {
+    "pick": "IRON NEST: Heavy Turret Simulator",
+    "headline": [
+     "IRON NEST: Heavy Turret Simulator",
+     "GRAIN ROT",
+     "Can 'Em All"
+    ],
+    "top3": [
+     "IRON NEST: Heavy Turret Simulator",
+     "GRAIN ROT",
+     "CloverPit"
+    ]
+   },
+   "counts": {
+    "body": 91,
+    "mine": 45,
+    "cands": 23
+   },
+   "fail_line": "Multiplayer 31 · 정가 14 · 태그 5",
+   "pool": [
+    {
+     "platform": "steam",
+     "id": "4019220",
+     "name": "Dressmaker",
+     "url": "https://store.steampowered.com/app/4019220/",
+     "reviews": 13955,
+     "d1": 144,
+     "age": 41,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "3812600",
+     "name": "ReStory: Chill Electronics Repairs",
+     "url": "https://store.steampowered.com/app/3812600/",
+     "reviews": 6011,
+     "d1": 28,
+     "age": 87,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "5088440",
+     "name": "Rip It! Card Collector",
+     "url": "https://store.steampowered.com/app/5088440/",
+     "reviews": 372,
+     "d1": 206,
+     "age": 2,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "3070070",
+     "name": "TCG Card Shop Simulator",
+     "url": "https://store.steampowered.com/app/3070070/",
+     "reviews": 39499,
+     "d1": 0,
+     "age": 48,
+     "tags": [
+      "Simulation",
+      "Management",
+      "Economy",
+      "Collectathon"
+     ]
+    },
+    {
+     "platform": "steam",
+     "id": "2950790",
+     "name": "IRON NEST: Heavy Turret Simulator",
+     "url": "https://store.steampowered.com/app/2950790/",
+     "reviews": 8280,
+     "d1": 19,
+     "age": 87,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "5258340",
+     "name": "One Million Coins",
+     "url": "https://store.steampowered.com/app/5258340/",
+     "reviews": 1039,
+     "d1": 44,
+     "age": 19,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "5133900",
+     "name": "Can 'Em All",
+     "url": "https://store.steampowered.com/app/5133900/",
+     "reviews": 329,
+     "d1": 317,
+     "age": 2,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "5189500",
+     "name": "A Place for Every Potion",
+     "url": "https://store.steampowered.com/app/5189500/",
+     "reviews": 126,
+     "d1": 34,
+     "age": 4,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "4704520",
+     "name": "ShredDead",
+     "url": "https://store.steampowered.com/app/4704520/",
+     "reviews": 362,
+     "d1": 32,
+     "age": 6,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "4538080",
+     "name": "Kingdom Inc.",
+     "url": "https://store.steampowered.com/app/4538080/",
+     "reviews": 57,
+     "d1": 30,
+     "age": 3,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "1742440",
+     "name": "COP BASTARD",
+     "url": "https://store.steampowered.com/app/1742440/",
+     "reviews": 137,
+     "d1": 52,
+     "age": 3,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "4705510",
+     "name": "Happy Wheels",
+     "url": "https://store.steampowered.com/app/4705510/",
+     "reviews": 3503,
+     "d1": 22,
+     "age": 41,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "1167820",
+     "name": "Airport Contraband",
+     "url": "https://store.steampowered.com/app/1167820/",
+     "reviews": 64,
+     "d1": 11,
+     "age": 4,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "5027520",
+     "name": "Megastore: Tidy Up Together",
+     "url": "https://store.steampowered.com/app/5027520/",
+     "reviews": 608,
+     "d1": 0,
+     "age": 60,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "4304900",
+     "name": "Big Dig",
+     "url": "https://store.steampowered.com/app/4304900/",
+     "reviews": 755,
+     "d1": 31,
+     "age": 13,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "3447280",
+     "name": "Fantasy World Manager",
+     "url": "https://store.steampowered.com/app/3447280/",
+     "reviews": 80,
+     "d1": 5,
+     "age": 4,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "5245810",
+     "name": "ForgeTax",
+     "url": "https://store.steampowered.com/app/5245810/",
+     "reviews": 1510,
+     "d1": 41,
+     "age": 33,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "4659620",
+     "name": "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil",
+     "url": "https://store.steampowered.com/app/4659620/",
+     "reviews": 1739,
+     "d1": 2,
+     "age": 53,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "5044770",
+     "name": "The Death Game Report",
+     "url": "https://store.steampowered.com/app/5044770/",
+     "reviews": 2330,
+     "d1": 16,
+     "age": 61,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "3471290",
+     "name": "I’m a Wizard, But I Dig",
+     "url": "https://store.steampowered.com/app/3471290/",
+     "reviews": 70,
+     "d1": 47,
+     "age": 2,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "3103780",
+     "name": "DRAPLINE",
+     "url": "https://store.steampowered.com/app/3103780/",
+     "reviews": 2635,
+     "d1": 0,
+     "age": 39,
+     "tags": [
+      "Pixel Graphics"
+     ]
+    },
+    {
+     "platform": "steam",
+     "id": "4714010",
+     "name": "GloveUp!",
+     "url": "https://store.steampowered.com/app/4714010/",
+     "reviews": 26,
+     "d1": 15,
+     "age": 3,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "3375110",
+     "name": "Tiny Eden",
+     "url": "https://store.steampowered.com/app/3375110/",
+     "reviews": 956,
+     "d1": 7,
+     "age": 55,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "5195600",
+     "name": "QuestAway",
+     "url": "https://store.steampowered.com/app/5195600/",
+     "reviews": 708,
+     "d1": 7,
+     "age": 9,
+     "tags": []
+    },
+    {
+     "platform": "steam",
+     "id": "5321510",
+     "name": "Kimodameshi Online",
+     "url": "https://store.steampowered.com/app/5321510/",
+     "reviews": 11,
+     "d1": null,
+     "age": 6,
+     "tags": []
+    }
+   ],
+   "thumbs": {
+    "https://store.steampowered.com/app/2950790/": {
+     "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/e6c9e990560078611472e5dab98e79a405ed33f4/header.jpg?t=1792402828",
+     "bg": null
+    },
+    "https://store.steampowered.com/app/5133900/": {
+     "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133900/19aa14ebe3720e02f7f8c720abbf9749cf36967f/header.jpg?t=1793384095",
+     "bg": null
+    },
+    "https://store.steampowered.com/app/4304900/": {
+     "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/f70f4692753e297cd45617fed789c15ce5b1c4c6/header.jpg?t=1792598351",
+     "bg": null
+    }
+   }
+  },
+  "itch": {
+   "platform": "itch",
+   "platform_ko": "itch.io",
+   "round": 13,
+   "has_prev": true,
+   "top": [
+    {
+     "platform": "itch",
+     "id": "5207503",
+     "name": "Hamburger Hill",
+     "url": "https://weswaregames.itch.io/hamburger-hill",
+     "line": "Popular 25→24위 ▲1 · 평점 39개(+7) · 7일 +38 · 4.9★ · 댓글 73(+13) · NYOP",
+     "badges": [
+      "In development",
+      "신작"
+     ],
+     "sub": "Wesware · Shooter · 3D, FPS, military",
+     "thumb": "https://img.itch.zone/aW1nLzMxMjIwMTY3LnBuZw==/315x250%23c/ecVFXV.png",
+     "thumb_bg": "#10160e",
+     "score": 57.0,
+     "same": "공용 선정과 동일",
+     "facts": [
+      "3D",
+      "FPS · military",
+      "NYOP",
+      "세션 길이 미상",
+      "In development",
+      "신작"
+     ],
+     "tags": [
+      "FPS",
+      "military",
+      "Procedural Generation",
+      "Tactical",
+      "Violent"
+     ],
+     "reviews": 39,
+     "d1": 7,
+     "age": 10,
+     "new": true
+    },
+    {
+     "platform": "itch",
+     "id": "4958607",
+     "name": "OBSESSED With Fashion",
+     "url": "https://gabbydarienzo.itch.io/obsession",
+     "line": "New & Popular 62→17위 ▲45 · 평점 31개(+28) · 4.7★ · 댓글 17(+16) · 무료",
+     "badges": [
+      "신작",
+      "Unity",
+      "웹"
+     ],
+     "sub": "gabby darienzo · 2D, Dress Up, fashion",
+     "thumb": "https://img.itch.zone/aW1nLzMxNDQ3MDAxLmpwZw==/315x250%23c/wYd8qi.jpg",
+     "thumb_bg": "#49092b",
+     "score": 54.0,
+     "same": "공용 큰 폭 변화와 동일",
+     "facts": [
+      "2D",
+      "Dress Up · fashion",
+      "무료",
+      "세션 A few minutes",
+      "Unity",
+      "신작"
+     ],
+     "tags": [
+      "Dress Up",
+      "fashion",
+      "Halloween",
+      "Horror",
+      "horror-movie"
+     ],
+     "reviews": 31,
+     "d1": 28,
+     "age": 2,
+     "new": true
+    },
+    {
+     "platform": "itch",
+     "id": "4554569",
+     "name": "Game About Botting in an MMORPG",
+     "url": "https://yaxworks.itch.io/game-about-botting-in-an-mmorpg",
+     "line": "Popular 58→15위 ▲43 · 평점 123개(0) · 4.3★ · 댓글 77 · NYOP",
+     "badges": [
+      "In development",
+      "Unity",
+      "공개일 미상",
+      "Steam 있음"
+     ],
+     "sub": "YaxWorks · Simulation · 2D, Clicker, Fantasy",
+     "thumb": "https://img.itch.zone/aW1nLzMwMjUyMzI3LnBuZw==/315x250%23c/t%2BVbzi.png",
+     "thumb_bg": "#000000",
+     "score": 48.0,
+     "same": null,
+     "facts": [
+      "2D",
+      "Clicker · Fantasy",
+      "NYOP",
+      "세션 A few minutes",
+      "Unity",
+      "In development"
+     ],
+     "tags": [
+      "Clicker",
+      "Fantasy",
+      "Idle",
+      "Incremental",
+      "Pixel Art"
+     ],
+     "reviews": 123,
+     "d1": 0,
+     "age": null,
+     "new": false
+    }
+   ],
+   "pushed": [
+    {
+     "name": "Deferral",
+     "url": "https://serhiy-andreiev.itch.io/deferral",
+     "reasons": [
+      "엔진 Godot"
+     ],
+     "role": "큰 폭 변화"
+    }
+   ],
+   "why": "",
+   "same_as_public": false,
+   "scatter": [
+    {
+     "name": "Terraformental",
+     "platform": "itch",
+     "price_usd": 5.99,
+     "playtime_h": 0.5,
+     "reviews": 723,
+     "top": 0
+    },
+    {
+     "name": "\"Voices Of The Void\" Alpha",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.02,
+     "reviews": 5986,
+     "top": 0
+    },
+    {
+     "name": "Loveland",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 74,
+     "top": 0
+    },
+    {
+     "name": "Game About Botting in an MMORPG",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.1,
+     "reviews": 123,
+     "top": 3
+    },
+    {
+     "name": "Neo Forge: MTG Commander vs AI",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 1.0,
+     "reviews": 25,
+     "top": 0
+    },
+    {
+     "name": "Super Chillers: The Chat Room",
+     "platform": "itch",
+     "price_usd": 6.99,
+     "playtime_h": null,
+     "reviews": 47,
+     "top": 0
+    },
+    {
+     "name": "RogueSlide",
+     "platform": "itch",
+     "price_usd": 1.99,
+     "playtime_h": null,
+     "reviews": 31,
+     "top": 0
+    },
+    {
+     "name": "OBSESSED With Fashion",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.1,
+     "reviews": 31,
+     "top": 2
+    },
+    {
+     "name": "Kick To Hell",
+     "platform": "itch",
+     "price_usd": 0.28,
+     "playtime_h": 0.5,
+     "reviews": 6,
+     "top": 0
+    },
+    {
+     "name": "The Bag Man's Curse",
+     "platform": "itch",
+     "price_usd": 0.28,
+     "playtime_h": 1.0,
+     "reviews": 6,
+     "top": 0
+    },
+    {
+     "name": "Granny 5: Time To Wake Up",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.02,
+     "reviews": 68,
+     "top": 0
+    },
+    {
+     "name": "Rampancy",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 9,
+     "top": 0
+    },
+    {
+     "name": "Broken Horror Anthology Demo",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 13,
+     "top": 0
+    },
+    {
+     "name": "Multi Modal Transit",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.1,
+     "reviews": 79,
+     "top": 0
+    },
+    {
+     "name": "Trauma lab",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 130,
+     "top": 0
+    },
+    {
+     "name": "The Lands",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 2,
+     "top": 0
+    },
+    {
+     "name": "NOSFER-A-TOOTH",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 59,
+     "top": 0
+    },
+    {
+     "name": "غوريلا الغابة",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 1,
+     "top": 0
+    },
+    {
+     "name": "Pulcra Remastered 🜏",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 2,
+     "top": 0
+    },
+    {
+     "name": "VAN HELSING (C64)",
+     "platform": "itch",
+     "price_usd": 4.99,
+     "playtime_h": null,
+     "reviews": 5,
+     "top": 0
+    },
+    {
+     "name": "3dSen PC - The 3D NES Emulator",
+     "platform": "itch",
+     "price_usd": 14.99,
+     "playtime_h": 3.0,
+     "reviews": 6,
+     "top": 0
+    },
+    {
+     "name": "Cereal Killer",
+     "platform": "itch",
+     "price_usd": 0.28,
+     "playtime_h": 0.5,
+     "reviews": 6,
+     "top": 0
+    },
+    {
+     "name": "The Demon King and the Hero",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 6,
+     "top": 0
+    },
+    {
+     "name": "FS25 Pipe Pack Extended - AMLC V1",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "DELTARUNE: NORTHERNLIGHT",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.1,
+     "reviews": 3,
+     "top": 0
+    },
+    {
+     "name": "İrem Hoca İle Haloween Partisi!!",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "LSD: Revamped",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.1,
+     "reviews": 269,
+     "top": 0
+    },
+    {
+     "name": "Islands of the Caliph",
+     "platform": "itch",
+     "price_usd": 6.99,
+     "playtime_h": null,
+     "reviews": 9,
+     "top": 0
+    },
+    {
+     "name": "Solo Tale",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 3.0,
+     "reviews": 3,
+     "top": 0
+    },
+    {
+     "name": "Incredig",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 19,
+     "top": 0
+    },
+    {
+     "name": "Roc'n Rope",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 3,
+     "top": 0
+    },
+    {
+     "name": "THE -B GAME ANDROID PORT",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "SPLASHLAND IS CLOSED!",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 6,
+     "top": 0
+    },
+    {
+     "name": "The Legend of the Little Chicken (Le llamaban El Pollito)",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 2,
+     "top": 0
+    },
+    {
+     "name": "Last Flag Standing",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 3,
+     "top": 0
+    },
+    {
+     "name": "Kingdom Idle",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 2,
+     "top": 0
+    },
+    {
+     "name": "Túi Ba Gang",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.02,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Sleeping god android port",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Battle Of Dots : The Last Stand",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.5,
+     "reviews": 9,
+     "top": 0
+    },
+    {
+     "name": "RoboCop - Arcade Port for ZX Spectrum (Beta)",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "DominAtlas",
+     "platform": "itch",
+     "price_usd": 1.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Dead Ground",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "R-Type (Neo Geo port, fan project)",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "UNSEEN LINES",
+     "platform": "itch",
+     "price_usd": 2.49,
+     "playtime_h": 3.0,
+     "reviews": 9,
+     "top": 0
+    },
+    {
+     "name": "Castlevania: Symphony of the Night for the SNES (demo)",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 3,
+     "top": 0
+    },
+    {
+     "name": "Idle Simulator",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.1,
+     "reviews": 4,
+     "top": 0
+    },
+    {
+     "name": "Another Christmas Game",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.02,
+     "reviews": 11,
+     "top": 0
+    },
+    {
+     "name": "Tekken 3 Saturn",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Necroblobicon",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Twist & Untangle",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": ">:3 android port",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "VPet Manager (Twitch Enabled)",
+     "platform": "itch",
+     "price_usd": 5.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "MobileSuitGundam - FireRed",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "The nightmare of Pepe the hippie-punk",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Rotten Machines",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 45,
+     "top": 0
+    },
+    {
+     "name": "Pokémon Racing",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 1,
+     "top": 0
+    },
+    {
+     "name": "Terraform",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Orbital Salvage",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Ghostbusters Deluxe and Ghostbusters CD (for the Sega Mega Drive!)",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "賄賂でビンゴ！",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "十六裁判(SixteenTrials)",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Gerold the Giant",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 2,
+     "top": 0
+    },
+    {
+     "name": "FRANKENSTEIN 2",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "MemeticBox",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Aria Sandbox",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 17,
+     "top": 0
+    },
+    {
+     "name": "Incredibox - Sprunki Anti Shifted: False Armageddon [BETA]",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Frail",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Hamburger Hill",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 39,
+     "top": 1
+    },
+    {
+     "name": "Vox Brasil",
+     "platform": "itch",
+     "price_usd": 1.99,
+     "playtime_h": 3.0,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Power Drill Massacre (Early Access)",
+     "platform": "itch",
+     "price_usd": 2.95,
+     "playtime_h": 1.0,
+     "reviews": 190,
+     "top": 0
+    },
+    {
+     "name": "Night of the Nun... aka Nun Massacre",
+     "platform": "itch",
+     "price_usd": 4.95,
+     "playtime_h": null,
+     "reviews": 365,
+     "top": 0
+    },
+    {
+     "name": "Tiny Logic",
+     "platform": "itch",
+     "price_usd": 4.99,
+     "playtime_h": 0.1,
+     "reviews": 22,
+     "top": 0
+    },
+    {
+     "name": "Grim Fandango Remastered",
+     "platform": "itch",
+     "price_usd": 2.24,
+     "playtime_h": 3.0,
+     "reviews": 41,
+     "top": 0
+    },
+    {
+     "name": "Azimuth",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 1.0,
+     "reviews": 83,
+     "top": 0
+    },
+    {
+     "name": "KILLCACHE",
+     "platform": "itch",
+     "price_usd": 5.0,
+     "playtime_h": null,
+     "reviews": 9,
+     "top": 0
+    },
+    {
+     "name": "ANATOMY",
+     "platform": "itch",
+     "price_usd": 2.99,
+     "playtime_h": null,
+     "reviews": 997,
+     "top": 0
+    },
+    {
+     "name": "Roguecraft GB (Game Boy Color)",
+     "platform": "itch",
+     "price_usd": 4.99,
+     "playtime_h": 1.0,
+     "reviews": 19,
+     "top": 0
+    },
+    {
+     "name": "HYPERBALLIN' PLAYTEST",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.1,
+     "reviews": 42,
+     "top": 0
+    },
+    {
+     "name": "Batty Zabella",
+     "platform": "itch",
+     "price_usd": 1.99,
+     "playtime_h": null,
+     "reviews": 83,
+     "top": 0
+    },
+    {
+     "name": "Friday Night Funkin'",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 1.0,
+     "reviews": 12449,
+     "top": 0
+    },
+    {
+     "name": "Martin: No Filter Fighters (Unofficial Fan Game).",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.5,
+     "reviews": 57,
+     "top": 0
+    },
+    {
+     "name": "Project C.A.R.L",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 74,
+     "top": 0
+    },
+    {
+     "name": "NIGHT OF THE CONSUMERS",
+     "platform": "itch",
+     "price_usd": 5.0,
+     "playtime_h": null,
+     "reviews": 799,
+     "top": 0
+    },
+    {
+     "name": "Basilisk - 2000",
+     "platform": "itch",
+     "price_usd": 2.0,
+     "playtime_h": null,
+     "reviews": 124,
+     "top": 0
+    },
+    {
+     "name": "Roguecraft DX (Amiga)",
+     "platform": "itch",
+     "price_usd": 4.99,
+     "playtime_h": 1.0,
+     "reviews": 28,
+     "top": 0
+    },
+    {
+     "name": "Girder Gang",
+     "platform": "itch",
+     "price_usd": 6.99,
+     "playtime_h": null,
+     "reviews": 1,
+     "top": 0
+    },
+    {
+     "name": "Super Hexagon",
+     "platform": "itch",
+     "price_usd": 0.74,
+     "playtime_h": null,
+     "reviews": 386,
+     "top": 0
+    },
+    {
+     "name": "Steel Ranger 2 (C64)",
+     "platform": "itch",
+     "price_usd": 12.99,
+     "playtime_h": null,
+     "reviews": 6,
+     "top": 0
+    },
+    {
+     "name": "Fatespun",
+     "platform": "itch",
+     "price_usd": 4.99,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Dressmaker",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 915,
+     "top": 0
+    },
+    {
+     "name": "University Football",
+     "platform": "itch",
+     "price_usd": 10.0,
+     "playtime_h": null,
+     "reviews": 3,
+     "top": 0
+    },
+    {
+     "name": "☀ BRIGHTMOOR (C64) ☀",
+     "platform": "itch",
+     "price_usd": 2.8,
+     "playtime_h": null,
+     "reviews": 3,
+     "top": 0
+    },
+    {
+     "name": "HillSide Arcade",
+     "platform": "itch",
+     "price_usd": 0.79,
+     "playtime_h": null,
+     "reviews": 18,
+     "top": 0
+    },
+    {
+     "name": "Lost Souls (Commodore 64)",
+     "platform": "itch",
+     "price_usd": 1.99,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "The Librarian",
+     "platform": "itch",
+     "price_usd": 2.59,
+     "playtime_h": 0.1,
+     "reviews": 653,
+     "top": 0
+    },
+    {
+     "name": "Millie and Molly (C64)",
+     "platform": "itch",
+     "price_usd": 0.99,
+     "playtime_h": 0.5,
+     "reviews": 47,
+     "top": 0
+    },
+    {
+     "name": "Anthology of the Killer",
+     "platform": "itch",
+     "price_usd": 6.0,
+     "playtime_h": 0.5,
+     "reviews": 307,
+     "top": 0
+    },
+    {
+     "name": "Babysitter Bloodbath",
+     "platform": "itch",
+     "price_usd": 2.95,
+     "playtime_h": 3.0,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Dicey Dungeons",
+     "platform": "itch",
+     "price_usd": 3.74,
+     "playtime_h": 0.5,
+     "reviews": 708,
+     "top": 0
+    },
+    {
+     "name": "Halloween Revenge",
+     "platform": "itch",
+     "price_usd": 1.0,
+     "playtime_h": null,
+     "reviews": 18,
+     "top": 0
+    },
+    {
+     "name": "Chaos Ride",
+     "platform": "itch",
+     "price_usd": 5.0,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Idol of Fear",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 29,
+     "top": 0
+    },
+    {
+     "name": "That's not my Neighbor",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": 0.5,
+     "reviews": 1629,
+     "top": 0
+    },
+    {
+     "name": "Tiny Brutalism",
+     "platform": "itch",
+     "price_usd": 5.0,
+     "playtime_h": null,
+     "reviews": 30,
+     "top": 0
+    },
+    {
+     "name": "Belzebub - Advance",
+     "platform": "itch",
+     "price_usd": 3.9,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "MATILDA",
+     "platform": "itch",
+     "price_usd": 2.0,
+     "playtime_h": 0.5,
+     "reviews": 73,
+     "top": 0
+    },
+    {
+     "name": "Metal Miracle (Game Boy Color)",
+     "platform": "itch",
+     "price_usd": null,
+     "playtime_h": null,
+     "reviews": 5,
+     "top": 0
+    },
+    {
+     "name": "Save The Shapes Chapter 2: Diamond's Revenge",
+     "platform": "itch",
+     "price_usd": 2.49,
+     "playtime_h": null,
+     "reviews": 6,
+     "top": 0
+    },
+    {
+     "name": "VLS",
+     "platform": "itch",
+     "price_usd": 9.99,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Goodboy Galaxy (for GBA)",
+     "platform": "itch",
+     "price_usd": 20.0,
+     "playtime_h": 3.0,
+     "reviews": 94,
+     "top": 0
+    },
+    {
+     "name": "Kalayaan Road",
+     "platform": "itch",
+     "price_usd": 1.19,
+     "playtime_h": null,
+     "reviews": 9,
+     "top": 0
+    },
+    {
+     "name": "Kero Kero Cowboy",
+     "platform": "itch",
+     "price_usd": 6.99,
+     "playtime_h": 3.0,
+     "reviews": 29,
+     "top": 0
+    },
+    {
+     "name": "☾ WHITECHAPEL (C64) ☾",
+     "platform": "itch",
+     "price_usd": 3.2,
+     "playtime_h": 0.02,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "BIG FISH!",
+     "platform": "itch",
+     "price_usd": 6.99,
+     "playtime_h": null,
+     "reviews": null,
+     "top": 0
+    },
+    {
+     "name": "Block Droppin' (Game Boy)",
+     "platform": "itch",
+     "price_usd": 0.99,
+     "playtime_h": null,
+     "reviews": 48,
+     "top": 0
+    },
+    {
+     "name": "Breathless A32 - Amiga",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 1,
+     "top": 0
+    },
+    {
+     "name": "Hero GP (Game Boy Color)",
+     "platform": "itch",
+     "price_usd": 0.99,
+     "playtime_h": null,
+     "reviews": 11,
+     "top": 0
+    },
+    {
+     "name": "The Ruby Court",
+     "platform": "itch",
+     "price_usd": 0.98,
+     "playtime_h": 1.0,
+     "reviews": 35,
+     "top": 0
+    },
+    {
+     "name": "VVVVVV",
+     "platform": "itch",
+     "price_usd": 1.24,
+     "playtime_h": 0.02,
+     "reviews": 213,
+     "top": 0
+    },
+    {
+     "name": "ROAM0120.exe",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 374,
+     "top": 0
+    },
+    {
+     "name": "Kinebox",
+     "platform": "itch",
+     "price_usd": 2.0,
+     "playtime_h": 0.1,
+     "reviews": 13,
+     "top": 0
+    },
+    {
+     "name": "The Masterplan",
+     "platform": "itch",
+     "price_usd": 0.0,
+     "playtime_h": null,
+     "reviews": 70,
+     "top": 0
+    }
+   ],
+   "public": {
+    "pick": "Hamburger Hill",
+    "headline": [
+     "OBSESSED With Fashion",
+     "Deferral",
+     "Hamburger Hill"
+    ],
+    "top3": [
+     "OBSESSED With Fashion",
+     "Deferral",
+     "Game About Botting in an MMORPG"
+    ]
+   },
+   "counts": {
+    "body": 228,
+    "mine": 122,
+    "cands": 25
+   },
+   "fail_line": "태그 62 · 엔진 59 · Multiplayer 11 · 플레이 10 · 정가 4",
+   "pool": [
+    {
+     "platform": "itch",
+     "id": "4960092",
+     "name": "Neo Forge: MTG Commander vs AI",
+     "url": "https://dokkodolabs.itch.io/neo-forge",
+     "reviews": 25,
+     "d1": 1,
+     "age": 61,
+     "tags": [
+      "Card Game",
+      "commander",
+      "Deck Building",
+      "edh"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "4958607",
+     "name": "OBSESSED With Fashion",
+     "url": "https://gabbydarienzo.itch.io/obsession",
+     "reviews": 31,
+     "d1": 28,
+     "age": 2,
+     "tags": [
+      "Dress Up",
+      "fashion",
+      "Halloween",
+      "Horror"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5222107",
+     "name": "Broken Horror Anthology Demo",
+     "url": "https://shikami-games.itch.io/broken-horror-anthology",
+     "reviews": 13,
+     "d1": 2,
+     "age": 3,
+     "tags": [
+      "Horror",
+      "PSX (PlayStation)",
+      "Walking simulator",
+      "No generative AI was used"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5196561",
+     "name": "Trauma lab",
+     "url": "https://traumalab.itch.io/trauma-lab",
+     "reviews": 130,
+     "d1": 11,
+     "age": 12,
+     "tags": [
+      "anatomy",
+      "browser",
+      "Gore",
+      "medical"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5255373",
+     "name": "The Lands",
+     "url": "https://thelands.itch.io/the-lands",
+     "reviews": 2,
+     "d1": 0,
+     "age": 3,
+     "tags": [
+      "your-choice",
+      "Simulation"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5149355",
+     "name": "NOSFER-A-TOOTH",
+     "url": "https://gregs-games.itch.io/nosferatooth",
+     "reviews": 59,
+     "d1": 9,
+     "age": 6,
+     "tags": [
+      "Card Game",
+      "Auto Battler",
+      "Comedy",
+      "Deck Building"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5272448",
+     "name": "غوريلا الغابة",
+     "url": "https://sopdev.itch.io/gorilla-forest",
+     "reviews": 1,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Action"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5260493",
+     "name": "Pulcra Remastered 🜏",
+     "url": "https://vikintor.itch.io/pulcra-remastered",
+     "reviews": 2,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Arcade",
+      "Horror",
+      "No AI",
+      "Psychological Horror"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5035220",
+     "name": "VAN HELSING (C64)",
+     "url": "https://psytronik.itch.io/vanhelsing",
+     "reviews": 5,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Arcade",
+      "Commodore 64",
+      "Halloween",
+      "No generative AI was used"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5264851",
+     "name": "The Demon King and the Hero",
+     "url": "https://redwolf-fenrir.itch.io/the-demon-king-and-the-hero",
+     "reviews": 6,
+     "d1": 4,
+     "age": 2,
+     "tags": []
+    },
+    {
+     "platform": "itch",
+     "id": "5268458",
+     "name": "FS25 Pipe Pack Extended - AMLC V1",
+     "url": "https://loldevteam.itch.io/fs25-pipe-pack-extended",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Farming Simulator 25",
+      "pipe",
+      "No generative AI was used",
+      "Simulation"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5248259",
+     "name": "DELTARUNE: NORTHERNLIGHT",
+     "url": "https://lucille-karma.itch.io/deltarune-northernlight",
+     "reviews": 3,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Boss battle",
+      "Pixel Art",
+      "No generative AI was used",
+      "Action"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5273755",
+     "name": "İrem Hoca İle Haloween Partisi!!",
+     "url": "https://st265-samet.itch.io/rem-hoca-le-haloween-partisi",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Horror",
+      "No generative AI was used",
+      "Action"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5262263",
+     "name": "Incredig",
+     "url": "https://thinking-cat-games.itch.io/incredig",
+     "reviews": 19,
+     "d1": 7,
+     "age": 2,
+     "tags": [
+      "Automation",
+      "Exploration",
+      "Idle",
+      "Incremental"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5228075",
+     "name": "Roc'n Rope",
+     "url": "https://brokenbytes.itch.io/roc-n-rope",
+     "reviews": 3,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Arcade",
+      "Commodore 64",
+      "konami",
+      "Pixel Art"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5270034",
+     "name": "THE -B GAME ANDROID PORT",
+     "url": "https://thebaldporter.itch.io/the-b-game-android-port",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "No generative AI was used"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5191214",
+     "name": "SPLASHLAND IS CLOSED!",
+     "url": "https://lyones.itch.io/splashland-is-closed",
+     "reviews": 6,
+     "d1": 0,
+     "age": 3,
+     "tags": [
+      "Survival",
+      "Atmospheric",
+      "Creepy",
+      "First-Person"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5240588",
+     "name": "The Legend of the Little Chicken (Le llamaban El Pollito)",
+     "url": "https://furilloproductions.itch.io/le-llamaban-el-pollito",
+     "reviews": 2,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Arcade",
+      "Shoot 'Em Up",
+      "Western",
+      "Wild West"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5254013",
+     "name": "Last Flag Standing",
+     "url": "https://lastflagstanding.itch.io/last-flag-standing",
+     "reviews": 3,
+     "d1": 0,
+     "age": 3,
+     "tags": [
+      "countries",
+      "Dice",
+      "flags",
+      "geography"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5255212",
+     "name": "Kingdom Idle",
+     "url": "https://santtuz112.itch.io/kingdom-idle",
+     "reviews": 2,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Idle",
+      "Incremental",
+      "Low-poly",
+      "Management"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5265803",
+     "name": "Túi Ba Gang",
+     "url": "https://alan1st.itch.io/tui-ba-gang",
+     "reviews": null,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Detective",
+      "Mystery",
+      "Story Rich",
+      "vietnamese"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5270870",
+     "name": "Sleeping god android port",
+     "url": "https://thebaldporter.itch.io/sleeping-god",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "No generative AI was used"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5237561",
+     "name": "RoboCop - Arcade Port for ZX Spectrum (Beta)",
+     "url": "https://kirby2000.itch.io/robocop-zx",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "8-Bit",
+      "Arcade",
+      "Retro",
+      "robocop"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5271972",
+     "name": "DominAtlas",
+     "url": "https://dominatlas.itch.io/dominatlas",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "borderclash",
+      "countries",
+      "dicegame",
+      "geography"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5267753",
+     "name": "Dead Ground",
+     "url": "https://automatedbattlez.itch.io/dead-ground",
+     "reviews": null,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "War",
+      "No generative AI was used",
+      "Action"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5269271",
+     "name": "R-Type (Neo Geo port, fan project)",
+     "url": "https://bendk97.itch.io/r-type-neo-geo-port-fan-project",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Arcade",
+      "neogeo",
+      "Shoot 'Em Up",
+      "No generative AI was used"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5269800",
+     "name": "Castlevania: Symphony of the Night for the SNES (demo)",
+     "url": "https://kaffeeware.itch.io/sotn-snes",
+     "reviews": 3,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Action RPG",
+      "castlevania",
+      "demo",
+      "No AI"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5264094",
+     "name": "Idle Simulator",
+     "url": "https://tinydove.itch.io/idle-simulator",
+     "reviews": 4,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Abstract",
+      "Clicker",
+      "Experimental",
+      "Idle"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5271447",
+     "name": "Tekken 3 Saturn",
+     "url": "https://celsowm.itch.io/tekken-3-saturn-demo",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Fighting",
+      "Fighting",
+      "Fighting"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "3297902",
+     "name": "Necroblobicon",
+     "url": "https://krons.itch.io/necroblobicon",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Auto Battler",
+      "Dark Fantasy",
+      "Halloween",
+      "Pixel Art"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5272741",
+     "name": "Twist & Untangle",
+     "url": "https://3dcubegames.itch.io/twist-and-untangle",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Cats",
+      "Clicker",
+      "Cozy",
+      "Cute"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5263606",
+     "name": ">:3 android port",
+     "url": "https://thebaldporter.itch.io/3-android-port",
+     "reviews": null,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Baldi's Basics",
+      "No generative AI was used"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5265699",
+     "name": "MobileSuitGundam - FireRed",
+     "url": "https://jakecook2400.itch.io/mobilesuitgundam-firered",
+     "reviews": null,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Pixel Art",
+      "Retro",
+      "Sprites",
+      "Action"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5264258",
+     "name": "The nightmare of Pepe the hippie-punk",
+     "url": "https://mansoft.itch.io/the-nightmare-of-pepe-the-hippie-punk",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Arcade",
+      "mpagd",
+      "ZX Spectrum",
+      "No generative AI was used"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5209801",
+     "name": "Rotten Machines",
+     "url": "https://kenforest.itch.io/rotten-machines",
+     "reviews": 45,
+     "d1": 3,
+     "age": 10,
+     "tags": [
+      "Atmospheric",
+      "Creepy",
+      "Dark",
+      "Driving"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5264864",
+     "name": "Pokémon Racing",
+     "url": "https://skeddles.itch.io/pokemon-racing",
+     "reviews": 1,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Racing",
+      "Fangame",
+      "Monsters",
+      "Pixel Art"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5271275",
+     "name": "Terraform",
+     "url": "https://utkarshbahuguna.itch.io/terraform",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Clicker",
+      "Idle",
+      "Incremental",
+      "Pixel Art"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5241180",
+     "name": "Orbital Salvage",
+     "url": "https://idleisle.itch.io/orbital-salvage",
+     "reviews": null,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Clicker",
+      "Idle",
+      "Incremental",
+      "Space"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5260154",
+     "name": "Ghostbusters Deluxe and Ghostbusters CD (for the Sega Mega Drive!)",
+     "url": "https://doubledragonorg.itch.io/ghostbusters-deluxe-and-ghostbusters-cd-for-the-mega-drive",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "android",
+      "billytimegames",
+      "ghostbusters",
+      "Halloween"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5262417",
+     "name": "賄賂でビンゴ！",
+     "url": "https://madoguchimoto.itch.io/wairo-de-bingo",
+     "reviews": null,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Card Game",
+      "bingo",
+      "bluffing",
+      "japanese"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5270172",
+     "name": "十六裁判(SixteenTrials)",
+     "url": "https://yonyon4.itch.io/sixteentrials",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "ts",
+      "tsf"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5261182",
+     "name": "Gerold the Giant",
+     "url": "https://tweezergames.itch.io/gerold-the-giant",
+     "reviews": 2,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Cartoon",
+      "Clicker",
+      "Comedy",
+      "Funny"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5269881",
+     "name": "FRANKENSTEIN 2",
+     "url": "https://ready64.itch.io/frankenstein-2",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "commodore-128",
+      "Commodore 64",
+      "commodore-77",
+      "Horror"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5254092",
+     "name": "MemeticBox",
+     "url": "https://uyerta.itch.io/memeticbox",
+     "reviews": null,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Simulation"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5253848",
+     "name": "Aria Sandbox",
+     "url": "https://lensan.itch.io/aria-sandbox",
+     "reviews": 17,
+     "d1": 2,
+     "age": 3,
+     "tags": []
+    },
+    {
+     "platform": "itch",
+     "id": "5272607",
+     "name": "Incredibox - Sprunki Anti Shifted: False Armageddon [BETA]",
+     "url": "https://mrbob-or-just-bob.itch.io/4u384284191424314",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": []
+    },
+    {
+     "platform": "itch",
+     "id": "5234766",
+     "name": "Frail",
+     "url": "https://ainzshiba.itch.io/burningmadsfrail",
+     "reviews": null,
+     "d1": null,
+     "age": 1,
+     "tags": [
+      "Arcade",
+      "Mystery",
+      "Pixel Art",
+      "Sci-fi"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5207503",
+     "name": "Hamburger Hill",
+     "url": "https://weswaregames.itch.io/hamburger-hill",
+     "reviews": 39,
+     "d1": 7,
+     "age": 10,
+     "tags": [
+      "FPS",
+      "military",
+      "Procedural Generation",
+      "Tactical"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5211089",
+     "name": "Vox Brasil",
+     "url": "https://albuquerque-voxgames.itch.io/vox-brasil",
+     "reviews": null,
+     "d1": null,
+     "age": 9,
+     "tags": [
+      "Text based",
+      "Simulation"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5104610",
+     "name": "Tiny Logic",
+     "url": "https://whoismuzzy.itch.io/tinylogic",
+     "reviews": 22,
+     "d1": 0,
+     "age": 27,
+     "tags": [
+      "Educational",
+      "circuits",
+      "computer",
+      "Doom"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5100516",
+     "name": "Azimuth",
+     "url": "https://almost-there-games.itch.io/azimuth",
+     "reviews": 83,
+     "d1": 5,
+     "age": 22,
+     "tags": [
+      "Racing",
+      "Arcade",
+      "Exploration",
+      "Open World"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5113532",
+     "name": "KILLCACHE",
+     "url": "https://verybadscavr.itch.io/killcache",
+     "reviews": 9,
+     "d1": 0,
+     "age": 25,
+     "tags": [
+      "Boss battle",
+      "extraction",
+      "Godot",
+      "Loot"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5117943",
+     "name": "HYPERBALLIN' PLAYTEST",
+     "url": "https://redembergames.itch.io/hyperballin",
+     "reviews": 42,
+     "d1": 0,
+     "age": 20,
+     "tags": [
+      "Atmospheric",
+      "Relaxing",
+      "Speedrun",
+      "Time Attack"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5099724",
+     "name": "Martin: No Filter Fighters (Unofficial Fan Game).",
+     "url": "https://trey2k23.itch.io/martin-no-filter-fighters-unofficial-fan-game",
+     "reviews": 57,
+     "d1": 0,
+     "age": 28,
+     "tags": [
+      "Fighting",
+      "Arcade",
+      "browser",
+      "Comedy"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5059390",
+     "name": "Project C.A.R.L",
+     "url": "https://carlragdoll.itch.io/carl",
+     "reviews": 74,
+     "d1": 1,
+     "age": 24,
+     "tags": [
+      "bloody",
+      "Gore",
+      "guns",
+      "Physics"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5219117",
+     "name": "Girder Gang",
+     "url": "https://backtab-games.itch.io/girdergames",
+     "reviews": 1,
+     "d1": 0,
+     "age": 8,
+     "tags": [
+      "hard-hat-mack",
+      "Homebrew",
+      "intellivision",
+      "Platformer"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "4796042",
+     "name": "Steel Ranger 2 (C64)",
+     "url": "https://protovision.itch.io/steel-ranger-2",
+     "reviews": 6,
+     "d1": 1,
+     "age": 12,
+     "tags": [
+      "Commodore 64",
+      "Metroidvania",
+      "Multiple Endings",
+      "Pixel Art"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5223659",
+     "name": "Fatespun",
+     "url": "https://fitzworks.itch.io/fatespun",
+     "reviews": null,
+     "d1": null,
+     "age": 8,
+     "tags": [
+      "Dark Fantasy",
+      "dnd",
+      "Dungeon Crawler",
+      "Fantasy"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5189292",
+     "name": "☀ BRIGHTMOOR (C64) ☀",
+     "url": "https://j5-2026.itch.io/brightmoor",
+     "reviews": 3,
+     "d1": 0,
+     "age": 13,
+     "tags": [
+      "8-Bit",
+      "assembly",
+      "Commodore 64",
+      "Fantasy"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5264071",
+     "name": "Lost Souls (Commodore 64)",
+     "url": "https://docster.itch.io/lost-souls-commodore-64",
+     "reviews": null,
+     "d1": null,
+     "age": 2,
+     "tags": [
+      "Commodore 64",
+      "Action"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5248268",
+     "name": "Chaos Ride",
+     "url": "https://mcoi-games.itch.io/chaos-ride",
+     "reviews": null,
+     "d1": null,
+     "age": 4,
+     "tags": [
+      "Racing",
+      "Racing",
+      "Racing"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5151210",
+     "name": "Belzebub - Advance",
+     "url": "https://jonathanfrakesjunior.itch.io/belzebub-advance",
+     "reviews": null,
+     "d1": null,
+     "age": 19,
+     "tags": [
+      "Game Boy Advance",
+      "Isometric",
+      "Pixel Art",
+      "Role Playing"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5242503",
+     "name": "☾ WHITECHAPEL (C64) ☾",
+     "url": "https://j5-2026.itch.io/whitechapel",
+     "reviews": null,
+     "d1": null,
+     "age": 3,
+     "tags": [
+      "8-Bit",
+      "Commodore 64",
+      "Horror",
+      "Local multiplayer"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5242529",
+     "name": "BIG FISH!",
+     "url": "https://neon-namen.itch.io/big-fish",
+     "reviews": null,
+     "d1": null,
+     "age": 5,
+     "tags": [
+      "Survival",
+      "8-Bit",
+      "Arcade",
+      "fish"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5259712",
+     "name": "Breathless A32 - Amiga",
+     "url": "https://eismanberlin.itch.io/breathless-a32",
+     "reviews": 1,
+     "d1": 0,
+     "age": 3,
+     "tags": [
+      "Amiga",
+      "First-Person",
+      "Retro",
+      "Sci-fi"
+     ]
+    },
+    {
+     "platform": "itch",
+     "id": "5169771",
+     "name": "The Masterplan",
+     "url": "https://santiago-garcia.itch.io/the-masterplan",
+     "reviews": 70,
+     "d1": 5,
+     "age": 14,
+     "tags": [
+      "Atmospheric",
+      "Horror",
+      "Low-poly",
+      "Psychological Horror"
+     ]
+    }
+   ],
+   "thumbs": {
+    "https://weswaregames.itch.io/hamburger-hill": {
+     "src": "https://img.itch.zone/aW1nLzMxMjIwMTY3LnBuZw==/315x250%23c/ecVFXV.png",
+     "bg": "#10160e"
+    },
+    "https://gabbydarienzo.itch.io/obsession": {
+     "src": "https://img.itch.zone/aW1nLzMxNDQ3MDAxLmpwZw==/315x250%23c/wYd8qi.jpg",
+     "bg": "#49092b"
+    },
+    "https://yaxworks.itch.io/game-about-botting-in-an-mmorpg": {
+     "src": "https://img.itch.zone/aW1nLzMwMjUyMzI3LnBuZw==/315x250%23c/t%2BVbzi.png",
+     "bg": "#000000"
+    }
+   }
+  }
+ },
+ "same_as_public": false,
+ "watchlist": [],
+ "memo": {
+  "name": "IRON NEST: Heavy Turret Simulator",
+  "url": "https://store.steampowered.com/app/2950790/",
+  "platform": "steam",
+  "text": "3D · Action · Simulation · $19.99 · 플레이 시간 미상 · 데모 있음 · 셀프 퍼블리싱 · 신작"
+ },
+ "weekly": null,
+ "discord": {
+  "content": "**내 범위 리포트 · 11월 1일 (일)**",
+  "embeds": [
+   {
+    "title": "Steam 인디 · 내 범위 급상승 Top 3 · 12회차",
+    "color": 7032763,
+    "description": "**1. [IRON NEST: Heavy Turret Simulator](https://store.steampowered.com/app/2950790/)** · Top Sellers 135→55위 ▲80 · 리뷰 8,280(+19) · 7일 +60 · 동접 607(+106.5%) · $19.99 −25%\n신작 · 셀프 퍼블리싱 · 데모 · 공용 선정과 동일\n**2. [Can 'Em All](https://store.steampowered.com/app/5133900/)** · Top Sellers 77→61위 ▲16 · 리뷰 329(+317) · 동접 4,698(+71.1%) · $6.99 −10%\n신작 · 셀프 퍼블리싱 · 데모 · 공용 큰 폭 변화와 동일\n**3. [Big Dig](https://store.steampowered.com/app/4304900/)** · Top Sellers 139→128위 ▲11 · 리뷰 755(+31) · 7일 +294 · 동접 204(+1.5%) · $7.99 −25%\n신작 · 셀프 퍼블리싱 · 할인 25%",
+    "fields": [
+     {
+      "name": "내 범위 밖으로 밀린 공용 게임",
+      "value": "• [GRAIN ROT](https://store.steampowered.com/app/4450620/) (큰 폭 변화) — Multiplayer",
+      "inline": false
+     }
+    ],
+    "url": "https://store.steampowered.com/app/2950790/",
+    "image": {
+     "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/e6c9e990560078611472e5dab98e79a405ed33f4/header.jpg?t=1792402828"
+    },
+    "footer": {
+     "text": "본문 91개 → 내 범위 45개 · 밀린 이유: Multiplayer 31 · 정가 14 · 태그 5"
+    }
+   },
+   {
+    "title": "itch.io · 내 범위 급상승 Top 3 · 13회차",
+    "color": 7032763,
+    "description": "**1. [Hamburger Hill](https://weswaregames.itch.io/hamburger-hill)** · Popular 25→24위 ▲1 · 평점 39개(+7) · 7일 +38 · 4.9★ · 댓글 73(+13) · NYOP\nIn development · 신작 · 공용 선정과 동일\n**2. [OBSESSED With Fashion](https://gabbydarienzo.itch.io/obsession)** · New & Popular 62→17위 ▲45 · 평점 31개(+28) · 4.7★ · 댓글 17(+16) · 무료\n신작 · Unity · 웹 · 공용 큰 폭 변화와 동일\n**3. [Game About Botting in an MMORPG](https://yaxworks.itch.io/game-about-botting-in-an-mmorpg)** · Popular 58→15위 ▲43 · 평점 123개(0) · 4.3★ · 댓글 77 · NYOP\nIn development · Unity · 공개일 미상",
+    "fields": [
+     {
+      "name": "내 범위 밖으로 밀린 공용 게임",
+      "value": "• [Deferral](https://serhiy-andreiev.itch.io/deferral) (큰 폭 변화) — 엔진 Godot",
+      "inline": false
+     }
+    ],
+    "url": "https://weswaregames.itch.io/hamburger-hill",
+    "image": {
+     "url": "https://img.itch.zone/aW1nLzMxMjIwMTY3LnBuZw==/315x250%23c/ecVFXV.png"
+    },
+    "footer": {
+     "text": "본문 228개 → 내 범위 122개 · 밀린 이유: 태그 62 · 엔진 59 · Multiplayer 11 · 플레이 10 · 정가 4"
+    }
+   },
+   {
+    "title": "제작 관점 메모 · watchlist",
+    "color": 7032763,
+    "description": "**[IRON NEST: Heavy Turret Simulator](https://store.steampowered.com/app/2950790/)** (Steam)\n3D · Action · Simulation · $19.99 · 플레이 시간 미상 · 데모 있음 · 셀프 퍼블리싱 · 신작",
+    "fields": [
+     {
+      "name": "watchlist",
+      "value": "비어 있음 — profile.json 의 watchlist.steam 에 appid, watchlist.itch 에 게임 id 를 넣으면 매일 변화를 보여 줍니다.",
+      "inline": false
+     }
+    ]
+   }
+  ],
+  "allowed_mentions": {
+   "parse": []
+  }
+ }
+}
