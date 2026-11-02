@@ -1,0 +1,642 @@
+{
+ "date": "2026-11-02",
+ "dates": [
+  "2026-10-27",
+  "2026-10-28",
+  "2026-10-29",
+  "2026-10-30",
+  "2026-10-31",
+  "2026-11-01",
+  "2026-11-02"
+ ],
+ "tag_count": 40,
+ "games_total": 13990,
+ "niche_png": "2026-11-02-niche.png",
+ "window_days": 365,
+ "success_reviews": 500,
+ "mid_reviews": 100,
+ "top": [
+  {
+   "name": "Dating Sim",
+   "n": 231,
+   "p_success": 12.1,
+   "p_mid": 24.7,
+   "median": 16,
+   "niche": 40.4
+  },
+  {
+   "name": "Base Building",
+   "n": 486,
+   "p_success": 8.6,
+   "p_mid": 16.9,
+   "median": 0.0,
+   "niche": 22.2
+  },
+  {
+   "name": "Souls-like",
+   "n": 211,
+   "p_success": 8.5,
+   "p_mid": 18.0,
+   "median": 10,
+   "niche": 30.2
+  },
+  {
+   "name": "City Builder",
+   "n": 250,
+   "p_success": 8.0,
+   "p_mid": 15.2,
+   "median": 0.0,
+   "niche": 24.4
+  },
+  {
+   "name": "Auto Battler",
+   "n": 416,
+   "p_success": 7.2,
+   "p_mid": 15.1,
+   "median": 0.0,
+   "niche": 20.9
+  }
+ ],
+ "niche": [
+  {
+   "name": "Dating Sim",
+   "n": 231,
+   "p_success": 12.1,
+   "p_mid": 24.7,
+   "median": 16,
+   "niche": 40.4
+  },
+  {
+   "name": "Souls-like",
+   "n": 211,
+   "p_success": 8.5,
+   "p_mid": 18.0,
+   "median": 10,
+   "niche": 30.2
+  },
+  {
+   "name": "Metroidvania",
+   "n": 171,
+   "p_success": 5.3,
+   "p_mid": 17.0,
+   "median": 10,
+   "niche": 30.0
+  }
+ ],
+ "boards": {
+  "steam": {
+   "pngs": [
+    "2026-11-02-board-steam.png",
+    "2026-11-02-board-steam-2.png"
+   ],
+   "count": 31,
+   "games": [
+    {
+     "name": "Moon Sweepers",
+     "url": "https://store.steampowered.com/app/5335510/",
+     "metric": "4일 리뷰 +682.3%",
+     "hits": 13,
+     "days": 7,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg"
+    },
+    {
+     "name": "Giggleland",
+     "url": "https://store.steampowered.com/app/3370490/",
+     "metric": "7일 리뷰 +2531.2%",
+     "hits": 8,
+     "days": 4,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370490/f4b2e1a2a10e5ed882829f32adcdd065b3b24180/header.jpg"
+    },
+    {
+     "name": "Dressmaker",
+     "url": "https://store.steampowered.com/app/4019220/",
+     "metric": "리뷰 +1,089",
+     "hits": 7,
+     "days": 7,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg"
+    },
+    {
+     "name": "Can 'Em All",
+     "url": "https://store.steampowered.com/app/5133900/",
+     "metric": "New & Trending ▲24",
+     "hits": 6,
+     "days": 2,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5133900/19aa14ebe3720e02f7f8c720abbf9749cf36967f/header.jpg"
+    },
+    {
+     "name": "ShredDead",
+     "url": "https://store.steampowered.com/app/4704520/",
+     "metric": "리뷰 증가율 +1450.0%",
+     "hits": 6,
+     "days": 6,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704520/481c251d90942aa2a768de63a65dee1a508a91a7/header.jpg"
+    },
+    {
+     "name": "over the hill",
+     "url": "https://store.steampowered.com/app/2929250/",
+     "metric": "리뷰 +655",
+     "hits": 6,
+     "days": 6,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg"
+    },
+    {
+     "name": "GRAIN ROT",
+     "url": "https://store.steampowered.com/app/4450620/",
+     "metric": "Top Sellers ▲73",
+     "hits": 4,
+     "days": 2,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/82ad283323dfaf903c160a00a7833f56b48c2441/header_alt_assets_1.jpg"
+    },
+    {
+     "name": "IRON NEST: Heavy Turret Simulator",
+     "url": "https://store.steampowered.com/app/2950790/",
+     "metric": "New & Trending ▲33",
+     "hits": 3,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/b8652fd325ab17681cc56447390e21fd387e3ff8/header_alt_assets_1.jpg"
+    },
+    {
+     "name": "Finals Week ✍🏻",
+     "url": "https://store.steampowered.com/app/4715160/",
+     "metric": "New & Trending 78위",
+     "hits": 3,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715160/3d05c4f85866620b0b47754e30414cb4414b42dc/header.jpg"
+    },
+    {
+     "name": "Life Is a Dungeon: Lean into It.",
+     "url": "https://store.steampowered.com/app/5062910/",
+     "metric": "Top Sellers ▲84",
+     "hits": 3,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062910/13649e0102367e24a68efa120a57d881f3ec1504/header.jpg"
+    },
+    {
+     "name": "Fears to Fathom® - Scratch Creek",
+     "url": "https://store.steampowered.com/app/4121170/",
+     "metric": "New & Trending 97위",
+     "hits": 3,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4121170/803663dce78da494e9d061cf6652ade566b96331/header.jpg"
+    },
+    {
+     "name": "Master of Command",
+     "url": "https://store.steampowered.com/app/2878450/",
+     "metric": "Top Sellers ▲53",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2878450/7c19b033938ed01285156d4f5f29e512f908d97e/header_alt_assets_0.jpg"
+    },
+    {
+     "name": "Firestone – Idle Clicker Online RPG",
+     "url": "https://store.steampowered.com/app/1013320/",
+     "metric": "Top Sellers ▲40",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1013320/e5b373eafa5875f0baf153c7253e7c25bbb3007c/header.jpg"
+    },
+    {
+     "name": "Mouthwashing",
+     "url": "https://store.steampowered.com/app/2475490/",
+     "metric": "Top Sellers ▲36",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475490/header.jpg"
+    },
+    {
+     "name": "RV There Yet?",
+     "url": "https://store.steampowered.com/app/3949040/",
+     "metric": "Top Sellers ▲41",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg"
+    },
+    {
+     "name": "Species: Unknown",
+     "url": "https://store.steampowered.com/app/2747330/",
+     "metric": "Top Sellers ▲39",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2747330/1b061b1199a44c7197e4943973f1ce592053cf3a/header_alt_assets_5.jpg"
+    },
+    {
+     "name": "Touhou Danmaku Kagura Phantasia Lost",
+     "url": "https://store.steampowered.com/app/2190220/",
+     "metric": "Top Sellers ▲91",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2190220/header.jpg"
+    },
+    {
+     "name": "ReStory: Chill Electronics Repairs",
+     "url": "https://store.steampowered.com/app/3812600/",
+     "metric": "Top Sellers ▲61",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/a0e671f412783ac7fc153376fd0a7aaa52643f18/header_alt_assets_1.jpg"
+    },
+    {
+     "name": "REKA",
+     "url": "https://store.steampowered.com/app/1737870/",
+     "metric": "Top Sellers ▲85",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/74d5f195c71586c281cd52731be8837aaccc5aa2/header.jpg"
+    },
+    {
+     "name": "A Place for Every Potion",
+     "url": "https://store.steampowered.com/app/5189500/",
+     "metric": "리뷰 증가율 +1200.0%",
+     "hits": 2,
+     "days": 2,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189500/29e3941dc7a7e665a2e908d1e3619d3f94db080a/header.jpg"
+    },
+    {
+     "name": "Big Dig",
+     "url": "https://store.steampowered.com/app/4304900/",
+     "metric": "Top Sellers ▲19",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/f70f4692753e297cd45617fed789c15ce5b1c4c6/header.jpg"
+    },
+    {
+     "name": "QuestAway",
+     "url": "https://store.steampowered.com/app/5195600/",
+     "metric": "Top Sellers ▲45",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195600/46a7e932499272c331584e439bb050d4735f347d/header.jpg"
+    },
+    {
+     "name": "Retro Rewind - Video Store Simulator",
+     "url": "https://store.steampowered.com/app/3552140/",
+     "metric": "Top Sellers ▲34",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3552140/5be699540829c76a0d5f7ac5db4bbaf23fa76013/header.jpg"
+    },
+    {
+     "name": "CloverPit",
+     "url": "https://store.steampowered.com/app/3314790/",
+     "metric": "Top Sellers ▲31",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg"
+    },
+    {
+     "name": "Back to the Dawn",
+     "url": "https://store.steampowered.com/app/1735700/",
+     "metric": "Top Sellers ▲24",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1735700/4ec07b7ab8091feb176f7ad58b833c52524ffe11/header.jpg"
+    },
+    {
+     "name": "Magical Girl Witch Trials",
+     "url": "https://store.steampowered.com/app/3101040/",
+     "metric": "Top Sellers ▲28",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3101040/header.jpg"
+    },
+    {
+     "name": "Rift of the NecroDancer",
+     "url": "https://store.steampowered.com/app/2073250/",
+     "metric": "Top Sellers ▲59",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073250/b4a93c5083617e6e83f0ec4c894593f10211dd50/header_alt_assets_14.jpg"
+    },
+    {
+     "name": "Necesse",
+     "url": "https://store.steampowered.com/app/1169040/",
+     "metric": "Top Sellers ▲57",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1169040/4b2e7f5253b4595a523e5c8b27a8ea6214e14ac6/header_alt_assets_5.jpg"
+    },
+    {
+     "name": "MIMESIS",
+     "url": "https://store.steampowered.com/app/2827200/",
+     "metric": "Top Sellers ▲67",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827200/8a2a6edc97fbf23ea6941974bdf4ed9a6ab34eb4/header.jpg"
+    },
+    {
+     "name": "Moadra",
+     "url": "https://store.steampowered.com/app/1713730/",
+     "metric": "리뷰 증가율 +376.9%",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1713730/1cef7bac0a7ccc38387fee0de3570195f728a699/header.jpg"
+    },
+    {
+     "name": "Hubble Bubble",
+     "url": "https://store.steampowered.com/app/5013160/",
+     "metric": "리뷰 증가율 +277.3%",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5013160/0b9d8ae5607debc9304edf94f4a6dd5c8afefdba/header.jpg"
+    }
+   ]
+  },
+  "itch": {
+   "pngs": [
+    "2026-11-02-board-itch.png",
+    "2026-11-02-board-itch-2.png"
+   ],
+   "count": 36,
+   "games": [
+    {
+     "name": "Trauma lab",
+     "url": "https://traumalab.itch.io/trauma-lab",
+     "metric": "New & Popular ▼10",
+     "hits": 12,
+     "days": 6,
+     "image_url": "https://img.itch.zone/aW1nLzMxMTI5MDA2LnBuZw==/315x250%23c/tCwu6l.png"
+    },
+    {
+     "name": "Golem Quest",
+     "url": "https://barribob.itch.io/golem-quest",
+     "metric": "New & Popular 16위",
+     "hits": 10,
+     "days": 4,
+     "image_url": "https://img.itch.zone/aW1nLzMxMTM4ODYzLnBuZw==/315x250%23c/TLcDUX.png"
+    },
+    {
+     "name": "Hamburger Hill",
+     "url": "https://weswaregames.itch.io/hamburger-hill",
+     "metric": "Top Sellers 4위",
+     "hits": 6,
+     "days": 2,
+     "image_url": "https://img.itch.zone/aW1nLzMxMjIwMTY3LnBuZw==/315x250%23c/ecVFXV.png"
+    },
+    {
+     "name": "To Eat a God",
+     "url": "https://soffis-mbm.itch.io/to-eat-a-god",
+     "metric": "평점 +85",
+     "hits": 6,
+     "days": 6,
+     "image_url": "https://img.itch.zone/aW1nLzMxMzQ4OTk0LnBuZw==/315x250%23c/ufWF19.png"
+    },
+    {
+     "name": "Helping Your Boyfriend",
+     "url": "https://zieelane.itch.io/helping-your-boyfriend",
+     "metric": "평점 +177",
+     "hits": 6,
+     "days": 6,
+     "image_url": "https://img.itch.zone/aW1nLzMwMTM1Mzc4LmdpZg==/315x250%23c/J3j0JQ.gif"
+    },
+    {
+     "name": "Rotten Machines",
+     "url": "https://kenforest.itch.io/rotten-machines",
+     "metric": "평점 수 +740.0%",
+     "hits": 4,
+     "days": 2,
+     "image_url": "https://img.itch.zone/aW1nLzMxMjIxNDE4LnBuZw==/315x250%23c/flqBIF.png"
+    },
+    {
+     "name": "Printcremental",
+     "url": "https://halogamesofficial.itch.io/printcremental",
+     "metric": "New & Popular ▲51",
+     "hits": 3,
+     "days": 2,
+     "image_url": "https://img.itch.zone/aW1nLzMxMjIyNzk0LnBuZw==/315x250%23c/SG6FXN.png"
+    },
+    {
+     "name": "Twist & Untangle",
+     "url": "https://3dcubegames.itch.io/twist-and-untangle",
+     "metric": "New & Popular ▲36",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMxNjMzNjg1LnBuZw==/315x250%23c/33J21I.png"
+    },
+    {
+     "name": "Lost Souls (Commodore 64)",
+     "url": "https://docster.itch.io/lost-souls-commodore-64",
+     "metric": "Top Sellers ▲32",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMxNTc0NjQ2LnBuZw==/315x250%23c/%2FmcpXI.png"
+    },
+    {
+     "name": "OBSESSED With Fashion",
+     "url": "https://gabbydarienzo.itch.io/obsession",
+     "metric": "New & Popular ▲45",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMxNDQ3MDAxLmpwZw==/315x250%23c/wYd8qi.jpg"
+    },
+    {
+     "name": "Deferral",
+     "url": "https://serhiy-andreiev.itch.io/deferral",
+     "metric": "Top Sellers ▲44",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMwNzk2NDg4LnBuZw==/315x250%23c/WFAC5s.png"
+    },
+    {
+     "name": "GodsEater",
+     "url": "https://twindark.itch.io/godseater",
+     "metric": "Top Sellers ▲24",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMxMjA3OTg1LmpwZw==/315x250%23c/tuKb07.jpg"
+    },
+    {
+     "name": "The Librarian",
+     "url": "https://octavinavarro.itch.io/the-librarian",
+     "metric": "Top Sellers ▲22",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1hZ2UvMjI4Mzk3LzExNTM4ODQucG5n/315x250%23c/CRJWvJ.png"
+    },
+    {
+     "name": "BIG FISH!",
+     "url": "https://neon-namen.itch.io/big-fish",
+     "metric": "Top Sellers ▲30",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMxNDMxMDY2LnBuZw==/315x250%23c/Z1YCZS.png"
+    },
+    {
+     "name": "Idol of Fear",
+     "url": "https://suspain.itch.io/idol-of-fear",
+     "metric": "Top Sellers ▲29",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzIzNDUxNTc0LmpwZw==/315x250%23c/1AD75v.jpg"
+    },
+    {
+     "name": "AEROFORGE",
+     "url": "https://aevelie.itch.io/aeroforge",
+     "metric": "New & Popular ▲44",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMxNDQzNjYzLnBuZw==/315x250%23c/%2FbCCxu.png"
+    },
+    {
+     "name": "Roguecraft DX (Amiga)",
+     "url": "https://thalamusdigital.itch.io/roguecraft-dx-amiga",
+     "metric": "Top Sellers ▲34",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzI1MjM1OTk3LnBuZw==/315x250%23c/Q07wFh.png"
+    },
+    {
+     "name": "My Sweet! Housemate",
+     "url": "https://sourmiiiilk.itch.io/my-sweet-housemate",
+     "metric": "Top Sellers ▲49",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzE5MzU0MjE3LnBuZw==/315x250%23c/9kuHwt.png"
+    },
+    {
+     "name": "Batty Zabella",
+     "url": "https://icecoldblood.itch.io/batty-zabella",
+     "metric": "Top Sellers ▲38",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzEwMzI0OTAyLmpwZw==/315x250%23c/GOUNny.jpg"
+    },
+    {
+     "name": "HYPERBALLIN' PLAYTEST",
+     "url": "https://redembergames.itch.io/hyperballin",
+     "metric": "평점 수 +14.7%",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMwNjQwODcyLnBuZw==/315x250%23c/CqXvj3.png"
+    },
+    {
+     "name": "The Freak Circus",
+     "url": "https://garula.itch.io/the-freak-circus",
+     "metric": "평점 +90",
+     "hits": 2,
+     "days": 2,
+     "image_url": "https://img.itch.zone/aW1nLzIxNjQxODI1LnBuZw==/315x250%23c/LC5bpl.png"
+    },
+    {
+     "name": "Breadwinner",
+     "url": "https://mithikagames.itch.io/breadwinner",
+     "metric": "평점 +86",
+     "hits": 2,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMwNjY5MTY2LnBuZw==/315x250%23c/thgCWM.png"
+    },
+    {
+     "name": "Can't Buy Me Love! (Beatles VN)",
+     "url": "https://brummelliana.itch.io/cbml",
+     "metric": "Top Sellers ▲24",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzE3MTkwNzk4LnBuZw==/315x250%23c/aamRVx.png"
+    },
+    {
+     "name": "Game About Botting in an MMORPG",
+     "url": "https://yaxworks.itch.io/game-about-botting-in-an-mmorpg",
+     "metric": "Popular ▲43",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMwMjUyMzI3LnBuZw==/315x250%23c/t%2BVbzi.png"
+    },
+    {
+     "name": "Bewitching Sinners",
+     "url": "https://missxero.itch.io/bewitching-sinners-visual-novel",
+     "metric": "Top Sellers ▲20",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzEwOTM0MzcyLmpwZw==/315x250%23c/HEkD8Y.jpg"
+    },
+    {
+     "name": "Merit Farming Machine",
+     "url": "https://thanhhungg.itch.io/merit-farming-machine",
+     "metric": "New & Popular ▲27",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMxNDgwNDc4LnBuZw==/315x250%23c/eJhad%2B.png"
+    },
+    {
+     "name": "ClownTastic Romance",
+     "url": "https://icedlemons.itch.io/clowntastic-romance",
+     "metric": "New & Popular ▲32",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMxNDUxMDMwLnBuZw==/315x250%23c/CN%2B1Jd.png"
+    },
+    {
+     "name": "Von Neumann",
+     "url": "https://veltes.itch.io/von-neumann",
+     "metric": "평점 증가율 +176.2%",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMxMTg1NTYyLnBuZw==/315x250%23c/ighYoD.png"
+    },
+    {
+     "name": "This Role: You are Hamster",
+     "url": "https://seenthai.itch.io/this-role-you-are-hamster",
+     "metric": "평점 증가율 +86.7%",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMwNjUwNTkzLmpwZw==/315x250%23c/re94kn.jpg"
+    },
+    {
+     "name": "Death Crown — itch.io edition",
+     "url": "https://co5monaut.itch.io/death-crown",
+     "metric": "Top Sellers ▲32",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzI0MzUwMDMuZ2lm/315x250%23c/BesWyX.gif"
+    },
+    {
+     "name": "Abattlacus",
+     "url": "https://funbanan.itch.io/abattlacus",
+     "metric": "평점 증가율 +233.3%",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzMxMTE1MjMzLnBuZw==/315x250%23c/yf4ym5.png"
+    },
+    {
+     "name": "JACKKNIFE",
+     "url": "https://llonelly.itch.io/jackknife",
+     "metric": "평점 증가율 +3.4%",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzIzNTY3MTI4LnBuZw==/315x250%23c/yUIh1J.png"
+    },
+    {
+     "name": "Sinner Maker (demo)",
+     "url": "https://sm-pantokrator.itch.io/sinner-maker",
+     "metric": "평점 증가율 +1.4%",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzI1NTI3NTE2LnBuZw==/315x250%23c/wOAKnw.png"
+    },
+    {
+     "name": "A Date with Death",
+     "url": "https://twoandahalfstudios.itch.io/a-date-with-death",
+     "metric": "평점 +34",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzEzMjI3MDAyLnBuZw==/315x250%23c/kVaU3H.png"
+    },
+    {
+     "name": "Big Bad Dogs",
+     "url": "https://spar0w.itch.io/bigbaddogs",
+     "metric": "평점 +29",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1nLzIyMTY5MDQxLmdpZg==/315x250%23c/rXINAJ.gif"
+    },
+    {
+     "name": "Doki Doki Literature Club!",
+     "url": "https://teamsalvato.itch.io/ddlc",
+     "metric": "평점 +15",
+     "hits": 1,
+     "days": 1,
+     "image_url": "https://img.itch.zone/aW1hZ2UvMTA2NTk5LzU4NjAxMi5naWY=/315x250%23c/ZFe38m.gif"
+    }
+   ]
+  }
+ }
+}
