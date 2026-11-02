@@ -1,45 +1,45 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 12,
-  "date": "2026-11-01",
+  "n": 13,
+  "date": "2026-11-02",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 12,
-  "date": "2026-11-01",
+  "n": 13,
+  "date": "2026-11-02",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 12,
-  "date": "2026-11-01",
+  "n": 13,
+  "date": "2026-11-02",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 12,
-  "date": "2026-11-01",
+  "n": 13,
+  "date": "2026-11-02",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 12,
-  "date": "2026-11-01",
+  "n": 13,
+  "date": "2026-11-02",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 12,
-  "date": "2026-11-01",
+  "n": 13,
+  "date": "2026-11-02",
   "since": "2026-10-21"
  },
  "tag:Racing": {
   "name": "Racing",
-  "n": 3,
-  "date": "2026-10-31",
-  "since": "2026-10-29"
+  "n": 1,
+  "date": "2026-11-02",
+  "since": "2026-11-02"
  },
  "tag:Pixel Graphics": {
   "name": "Pixel Graphics",
@@ -50,8 +50,8 @@
  "tag:Free to Play": {
   "name": "Free to Play",
   "n": 1,
-  "date": "2026-10-27",
-  "since": "2026-10-27"
+  "date": "2026-11-02",
+  "since": "2026-11-02"
  },
  "tag:Management": {
   "name": "Management",
@@ -72,15 +72,15 @@
   "since": "2026-10-30"
  },
  "pick": {
-  "name": "IRON NEST: Heavy Turret Simulator",
+  "name": "Can 'Em All",
   "n": 1,
-  "date": "2026-11-01",
-  "since": "2026-11-01"
+  "date": "2026-11-02",
+  "since": "2026-11-02"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 9,
-  "date": "2026-11-01",
+  "n": 10,
+  "date": "2026-11-02",
   "since": "2026-10-24"
  },
  "tag:Building": {
@@ -128,8 +128,8 @@
  "tag:Sandbox": {
   "name": "Sandbox",
   "n": 1,
-  "date": "2026-10-25",
-  "since": "2026-10-25"
+  "date": "2026-11-02",
+  "since": "2026-11-02"
  },
  "tag:Character Customization": {
   "name": "Character Customization",
@@ -208,5 +208,17 @@
   "n": 1,
   "date": "2026-11-01",
   "since": "2026-11-01"
+ },
+ "tag:Idler": {
+  "name": "Idler",
+  "n": 1,
+  "date": "2026-11-02",
+  "since": "2026-11-02"
+ },
+ "tag:Clicker": {
+  "name": "Clicker",
+  "n": 1,
+  "date": "2026-11-02",
+  "since": "2026-11-02"
  }
 }
