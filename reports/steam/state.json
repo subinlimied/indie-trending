@@ -1,63 +1,63 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 13,
-  "date": "2026-11-02",
+  "n": 14,
+  "date": "2026-11-03",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 13,
-  "date": "2026-11-02",
+  "n": 14,
+  "date": "2026-11-03",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 13,
-  "date": "2026-11-02",
+  "n": 14,
+  "date": "2026-11-03",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 13,
-  "date": "2026-11-02",
+  "n": 14,
+  "date": "2026-11-03",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 13,
-  "date": "2026-11-02",
+  "n": 14,
+  "date": "2026-11-03",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 13,
-  "date": "2026-11-02",
+  "n": 14,
+  "date": "2026-11-03",
   "since": "2026-10-21"
  },
  "tag:Racing": {
   "name": "Racing",
-  "n": 1,
-  "date": "2026-11-02",
+  "n": 2,
+  "date": "2026-11-03",
   "since": "2026-11-02"
  },
  "tag:Pixel Graphics": {
   "name": "Pixel Graphics",
-  "n": 2,
-  "date": "2026-11-01",
-  "since": "2026-10-31"
+  "n": 1,
+  "date": "2026-11-03",
+  "since": "2026-11-03"
  },
  "tag:Free to Play": {
   "name": "Free to Play",
-  "n": 1,
-  "date": "2026-11-02",
+  "n": 2,
+  "date": "2026-11-03",
   "since": "2026-11-02"
  },
  "tag:Management": {
   "name": "Management",
   "n": 1,
-  "date": "2026-11-01",
-  "since": "2026-11-01"
+  "date": "2026-11-03",
+  "since": "2026-11-03"
  },
  "tag:Action Roguelike": {
   "name": "Action Roguelike",
@@ -67,15 +67,15 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 3,
-  "date": "2026-11-01",
-  "since": "2026-10-30"
+  "n": 1,
+  "date": "2026-11-03",
+  "since": "2026-11-03"
  },
  "pick": {
-  "name": "Can 'Em All",
+  "name": "Rip It! Card Collector",
   "n": 1,
-  "date": "2026-11-02",
-  "since": "2026-11-02"
+  "date": "2026-11-03",
+  "since": "2026-11-03"
  },
  "tag:RPG": {
   "name": "RPG",
@@ -211,8 +211,8 @@
  },
  "tag:Idler": {
   "name": "Idler",
-  "n": 1,
-  "date": "2026-11-02",
+  "n": 2,
+  "date": "2026-11-03",
   "since": "2026-11-02"
  },
  "tag:Clicker": {
