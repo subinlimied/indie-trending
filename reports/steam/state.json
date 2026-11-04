@@ -1,44 +1,44 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 14,
-  "date": "2026-11-03",
+  "n": 15,
+  "date": "2026-11-04",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 14,
-  "date": "2026-11-03",
+  "n": 15,
+  "date": "2026-11-04",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 14,
-  "date": "2026-11-03",
+  "n": 15,
+  "date": "2026-11-04",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 14,
-  "date": "2026-11-03",
+  "n": 15,
+  "date": "2026-11-04",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 14,
-  "date": "2026-11-03",
+  "n": 15,
+  "date": "2026-11-04",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 14,
-  "date": "2026-11-03",
+  "n": 15,
+  "date": "2026-11-04",
   "since": "2026-10-21"
  },
  "tag:Racing": {
   "name": "Racing",
-  "n": 2,
-  "date": "2026-11-03",
+  "n": 3,
+  "date": "2026-11-04",
   "since": "2026-11-02"
  },
  "tag:Pixel Graphics": {
@@ -72,16 +72,16 @@
   "since": "2026-11-03"
  },
  "pick": {
-  "name": "Rip It! Card Collector",
+  "name": "Servant of the Lake",
   "n": 1,
-  "date": "2026-11-03",
-  "since": "2026-11-03"
+  "date": "2026-11-04",
+  "since": "2026-11-04"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 10,
-  "date": "2026-11-02",
-  "since": "2026-10-24"
+  "n": 1,
+  "date": "2026-11-04",
+  "since": "2026-11-04"
  },
  "tag:Building": {
   "name": "Building",
@@ -116,8 +116,8 @@
  "tag:Free To Play": {
   "name": "Free To Play",
   "n": 1,
-  "date": "2026-11-01",
-  "since": "2026-11-01"
+  "date": "2026-11-04",
+  "since": "2026-11-04"
  },
  "tag:Singleplayer": {
   "name": "Singleplayer",
@@ -220,5 +220,23 @@
   "n": 1,
   "date": "2026-11-02",
   "since": "2026-11-02"
+ },
+ "tag:Sports": {
+  "name": "Sports",
+  "n": 1,
+  "date": "2026-11-04",
+  "since": "2026-11-04"
+ },
+ "tag:Crime": {
+  "name": "Crime",
+  "n": 1,
+  "date": "2026-11-04",
+  "since": "2026-11-04"
+ },
+ "tag:Gore": {
+  "name": "Gore",
+  "n": 1,
+  "date": "2026-11-04",
+  "since": "2026-11-04"
  }
 }
