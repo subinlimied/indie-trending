@@ -1,8 +1,8 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 13,
-  "date": "2026-11-04",
+  "n": 14,
+  "date": "2026-11-05",
   "since": "2026-10-23"
  },
  "tags:Idle": {
@@ -31,8 +31,8 @@
  },
  "tags:Atmospheric": {
   "name": "Atmospheric",
-  "n": 8,
-  "date": "2026-11-04",
+  "n": 9,
+  "date": "2026-11-05",
   "since": "2026-10-28"
  },
  "tags:Cozy": {
@@ -49,26 +49,26 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 16,
-  "date": "2026-11-04",
+  "n": 17,
+  "date": "2026-11-05",
   "since": "2026-10-20"
  },
  "genre:Action": {
   "name": "Action",
-  "n": 2,
-  "date": "2026-11-03",
-  "since": "2026-11-02"
+  "n": 1,
+  "date": "2026-11-05",
+  "since": "2026-11-05"
  },
  "genre:Adventure": {
   "name": "Adventure",
-  "n": 6,
-  "date": "2026-11-04",
+  "n": 7,
+  "date": "2026-11-05",
   "since": "2026-10-30"
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 16,
-  "date": "2026-11-04",
+  "n": 17,
+  "date": "2026-11-05",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
@@ -79,14 +79,14 @@
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 10,
-  "date": "2026-11-04",
+  "n": 11,
+  "date": "2026-11-05",
   "since": "2026-10-26"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 11,
-  "date": "2026-11-04",
+  "n": 12,
+  "date": "2026-11-05",
   "since": "2026-10-25"
  },
  "made_with:Unreal Engine": {
@@ -97,14 +97,14 @@
  },
  "pick": {
   "name": "Hamburger Hill",
-  "n": 1,
-  "date": "2026-11-04",
+  "n": 2,
+  "date": "2026-11-05",
   "since": "2026-11-04"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 12,
-  "date": "2026-11-04",
+  "n": 13,
+  "date": "2026-11-05",
   "since": "2026-10-24"
  },
  "tags:Card Game": {
@@ -133,14 +133,14 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 15,
-  "date": "2026-11-04",
+  "n": 16,
+  "date": "2026-11-05",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 14,
-  "date": "2026-11-04",
+  "n": 15,
+  "date": "2026-11-05",
   "since": "2026-10-22"
  },
  "tags:3D": {
@@ -157,8 +157,8 @@
  },
  "tags:Cute": {
   "name": "Cute",
-  "n": 3,
-  "date": "2026-11-04",
+  "n": 4,
+  "date": "2026-11-05",
   "since": "2026-11-02"
  },
  "made_with:Construct": {
@@ -193,8 +193,8 @@
  },
  "genre:Role Playing": {
   "name": "Role Playing",
-  "n": 1,
-  "date": "2026-11-04",
+  "n": 2,
+  "date": "2026-11-05",
   "since": "2026-11-04"
  },
  "made_with:PICO-8": {
@@ -205,8 +205,8 @@
  },
  "made_with:RPG Maker": {
   "name": "RPG Maker",
-  "n": 1,
-  "date": "2026-11-04",
+  "n": 2,
+  "date": "2026-11-05",
   "since": "2026-11-04"
  },
  "tags:Dark": {
@@ -223,9 +223,9 @@
  },
  "tags:Amare": {
   "name": "Amare",
-  "n": 2,
-  "date": "2026-10-31",
-  "since": "2026-10-30"
+  "n": 1,
+  "date": "2026-11-05",
+  "since": "2026-11-05"
  },
  "tags:Fantasy": {
   "name": "Fantasy",
@@ -268,5 +268,23 @@
   "n": 2,
   "date": "2026-11-04",
   "since": "2026-11-03"
+ },
+ "tags:No AI": {
+  "name": "No AI",
+  "n": 1,
+  "date": "2026-11-05",
+  "since": "2026-11-05"
+ },
+ "tags:LGBT": {
+  "name": "LGBT",
+  "n": 1,
+  "date": "2026-11-05",
+  "since": "2026-11-05"
+ },
+ "made_with:Twine": {
+  "name": "Twine",
+  "n": 1,
+  "date": "2026-11-05",
+  "since": "2026-11-05"
  }
 }
