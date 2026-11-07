@@ -1,0 +1,2862 @@
+{
+ "kind": "media",
+ "platform": "media",
+ "platform_ko": "미디어·밈",
+ "date": "2026-11-07",
+ "round": 17,
+ "prev_date": "2026-11-06",
+ "status": [
+  [
+   "회차",
+   "17회차"
+  ],
+  [
+   "비교 대상",
+   "2026-11-06 · 1일치"
+  ],
+  [
+   "틱톡·인스타",
+   "5건 / KYM 11"
+  ],
+  [
+   "새 밈",
+   "7건"
+  ],
+  [
+   "제외 필터",
+   "16건"
+  ],
+  [
+   "게임 교차",
+   "0건"
+  ],
+  [
+   "Threads",
+   "토큰 없음"
+  ],
+  [
+   "릴스·틱톡 정리",
+   "영상 36개 · 항목 30"
+  ],
+  [
+   "수집",
+   "2026-11-07 01:08:56 UTC"
+  ]
+ ],
+ "collect_line": "소스 18/18 정상 · 건너뜀 1 · KYM 11건(틱톡·인스타 5) · 새 밈 7 · Reddit 6/6 · 검색 6/6 · 위키 17/15 · 제외 필터 16건 · Threads: 토큰 없음 · 릴스 정리 영상 36개 · 항목 30",
+ "basis_line": "KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 48시간) · Reddit top(t=day) 8개 × 6개 서브레딧 · YouTube 인기 급상승 KR·US Top 10(60초 이하는 쇼츠 표시, 키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · 릴스·틱톡 트렌드 정리 = YouTube 검색 8개 검색어 × 최근 14일 조회수순 10개(키 있을 때, 제목·설명의 목록 줄·해시태그·챌린지/사운드 구절을 항목으로) · Imgflip 인기 템플릿 100개 중 상위 30 · Threads 키워드 검색 TOP·RECENT 각 100건(토큰 있을 때, 24시간 게시 수는 RECENT 기준이라 100건에서 포화) · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · 게임 교차 = Steam·itch 스냅샷 게임 이름과 대조",
+ "pick": {
+  "kind": "newsfeed",
+  "title": "People Are Making Hearts With Their Biceps In Latest Viral Thirst Trap Trend",
+  "url": "https://knowyourmeme.com/memes/bicep-heart-trend",
+  "published": "2026-11-06T15:57:03Z",
+  "summary": "The Bicep Heart Trend is a TikTok and Reels thirst trap trend where participants flex their bicep in front of the camera, extend their fingers towards their forearm, then place their free hand, in a \"C\" shape, into the gap between the flexed arm's fingertips and forearm, making the shape of a heart…",
+  "platforms": [
+   "TikTok",
+   "Instagram"
+  ],
+  "status": "submission",
+  "image": "https://i.kym-cdn.com/entries/icons/original/000/057/721/bicepheartcover4.jpg",
+  "about": "The Bicep Heart Trend is a TikTok and Instagram Reels thirst trap trend where participants flex their bicep in front of the camera, extend their fingers towards their forearm, then place their free hand, in a \"C\" shape, into the gap between the flexed arm's fingertips and forearm, making the shape of a heart. The fitness trend first appeared online in late October 2026 and was popularized in early November as it spread to other platforms like Facebook, where additional users posted variants of it.",
+  "modified": "2026-11-06T21:03:32Z",
+  "kinds": [
+   "newsfeed",
+   "submissions"
+  ],
+  "new": true,
+  "streak": 1,
+  "since": "2026-11-07",
+  "reason": "KYM 최신 TikTok 항목"
+ },
+ "platform_counts": [
+  [
+   "TikTok",
+   4
+  ],
+  [
+   "Instagram",
+   2
+  ],
+  [
+   "YouTube",
+   1
+  ]
+ ],
+ "shortform": [
+  {
+   "kind": "newsfeed",
+   "title": "People Are Making Hearts With Their Biceps In Latest Viral Thirst Trap Trend",
+   "url": "https://knowyourmeme.com/memes/bicep-heart-trend",
+   "published": "2026-11-06T15:57:03Z",
+   "summary": "The Bicep Heart Trend is a TikTok and Reels thirst trap trend where participants flex their bicep in front of the camera, extend their fingers towards their forearm, then place their free hand, in a \"C\" shape, into the gap between the flexed arm's fingertips and forearm, making the shape of a heart…",
+   "platforms": [
+    "TikTok",
+    "Instagram"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/721/bicepheartcover4.jpg",
+   "about": "The Bicep Heart Trend is a TikTok and Instagram Reels thirst trap trend where participants flex their bicep in front of the camera, extend their fingers towards their forearm, then place their free hand, in a \"C\" shape, into the gap between the flexed arm's fingertips and forearm, making the shape of a heart. The fitness trend first appeared online in late October 2026 and was popularized in early November as it spread to other platforms like Facebook, where additional users posted variants of it.",
+   "modified": "2026-11-06T21:03:32Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "2Slimey Side-Profile",
+   "url": "https://knowyourmeme.com/memes/2slimey-side-profile",
+   "published": "2026-11-05T15:45:05Z",
+   "summary": "2Slimey Side-Profile refers to a side-profile photograph of rage rapper 2Slimey holding a microphone, taken by photographer Yahdel Aran, which shows him in silhouette. The photograph was uploaded to Aran's Instagram page, aranphotography__, on November 1st, 2026. The image became the subject of moc…",
+   "platforms": [
+    "Instagram"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/716/2slimeysidecover.jpg",
+   "about": "2Slimey Side-Profile refers to a side-profile photograph of rage rapper 2Slimey holding a microphone, taken by photographer Yahdel Aran, which shows him in silhouette. The photograph was uploaded to Aran's Instagram page, aranphotography__, on November 1st, 2026. The image became the subject of mockery and memes over the following days in late 2026, with many believing the side-profile picture looked ugly and funny. Some popular memes include reactions to the photo, redraws and stylized video edits.",
+   "modified": "2026-11-06T19:51:27Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Frutiger Aero Yams",
+   "url": "https://knowyourmeme.com/memes/frutiger-aero-yams",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/706/faytyrcover.jpg",
+   "published": "2026-11-03T18:00:42Z",
+   "modified": "2026-11-06T09:53:02Z",
+   "summary": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's buttocks designed in the Frutiger Aero aesthetic and, more literally",
+   "status": "submission",
+   "about": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's buttocks designed in the Frutiger Aero aesthetic and, more literally, yam vegetables in a Frutiger Aero aesthetic. The term started spreading through surreal and ironic memes, primarily on Instagram, in mid-October 2026. It became increasingly popularized in late October and early November 2026, inspiring similar meaningless slang terms like \" code rot yams.\" As a meme, the term is largely used to make fun of the love that people have for the Frutiger Aero aesthetic, particularly those who do not really kno…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Anakin Skywalker Gen Z Male Rage Memes",
+   "url": "https://knowyourmeme.com/memes/anakin-skywalker-gen-z-male-rage-memes",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/695/Political_Prequel_Memes_banner.jpg",
+   "published": "2026-10-30T19:16:24Z",
+   "modified": "2026-11-07T01:07:24Z",
+   "summary": "Anakin Skywalker Gen Z Male Rage Memes, also known as Anakin Skywalker Young Men Disillusionment Edits, Anakin Poasting or Generation Z Political Commentar",
+   "status": "confirmed",
+   "about": "Anakin Skywalker Gen Z Male Rage Memes, also known as Anakin Skywalker Young Men Disillusionment Edits, Anakin Poasting or Generation Z Political Commentary Prequel Memes Twitter / X Trend, refers to a series of Prequel Memes, including GIF captions, video edits and image macros, featuring the character Anakin Skywalker from the Star Wars prequel trilogy that portray him as a representation of anger, alienation and disillusionment among young men in Western society. The memes typically use scenes of Anakin becoming frustrated with the Jedi Order and Obi-Wan Kenobi (often used to represent Bab…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Scientists Reveal the Hi",
+   "url": "https://knowyourmeme.com/memes/scientists-reveal-the-hi",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/623/srth.jpg",
+   "published": "2026-10-15T15:22:27Z",
+   "modified": "2026-11-07T00:34:32Z",
+   "summary": "Scientists Reveal the Hi or Scientists Reveal the Secret, also known as Scientists Reveal the X, is an exploitable meme format based on an image macro of a",
+   "status": "confirmed",
+   "about": "Scientists Reveal the Hi or Scientists Reveal the Secret, also known as Scientists Reveal the X, is an exploitable meme format based on an image macro of a dog on a couch standing over the caption, \"Scientists reveal the secret.\" The original meme was posted in July 2025 and was edited that day to replace the dog with an orange cat. Later, the caption was altered to change \"secret\" to \"hi.\" The meme spread over the following year and became the subject of further memes and recaption edits on sites like Instagram and TikTok in October 2026. The memes typically involve editing the photo in a va…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  }
+ ],
+ "kym_all": [
+  {
+   "kind": "newsfeed",
+   "title": "2024 Political Comic About Voting As A Dad Makes A Big Meme Comeback For Midterm Elections",
+   "url": "https://knowyourmeme.com/memes/who-are-you-voting-for-daddy",
+   "published": "2026-11-06T19:59:40Z",
+   "summary": "Who Are You Voting For, Daddy? is an exploitable meme format based on a political comic in which a daughter asks her dad who he's voting for, and he responds, \"You,\" suggesting he's voting for the party that best supports her rights. The comic was illustrated and written by artist Adam Zyglis for T…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/722/wyvf.jpg",
+   "about": "Who Are You Voting For, Daddy? is an exploitable meme format based on a political comic or cartoon in which a daughter asks her dad who he's voting for, and he responds, \"You,\" suggesting he's voting for the party that best supports her rights. It was illustrated and written by artist Adam Zyglis for The Buffalo News during the 2024 U.S. elections. The comic went viral as the subject of edits in late October and early November 2026 surrounding the 2026 U.S. midterm elections. As a meme, the captions in the comic are often edited to make the interaction between the father and daughter absurd o…",
+   "modified": "2026-11-06T20:52:02Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "People Are Making Hearts With Their Biceps In Latest Viral Thirst Trap Trend",
+   "url": "https://knowyourmeme.com/memes/bicep-heart-trend",
+   "published": "2026-11-06T15:57:03Z",
+   "summary": "The Bicep Heart Trend is a TikTok and Reels thirst trap trend where participants flex their bicep in front of the camera, extend their fingers towards their forearm, then place their free hand, in a \"C\" shape, into the gap between the flexed arm's fingertips and forearm, making the shape of a heart…",
+   "platforms": [
+    "TikTok",
+    "Instagram"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/721/bicepheartcover4.jpg",
+   "about": "The Bicep Heart Trend is a TikTok and Instagram Reels thirst trap trend where participants flex their bicep in front of the camera, extend their fingers towards their forearm, then place their free hand, in a \"C\" shape, into the gap between the flexed arm's fingertips and forearm, making the shape of a heart. The fitness trend first appeared online in late October 2026 and was popularized in early November as it spread to other platforms like Facebook, where additional users posted variants of it.",
+   "modified": "2026-11-06T21:03:32Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "Who Is 'Malfoid'?",
+   "url": "https://knowyourmeme.com/videos/441060-malfoid-female-draco-malfoy",
+   "published": "2026-11-06T15:42:16Z",
+   "summary": "",
+   "platforms": [],
+   "status": "",
+   "image": "https://i.kym-cdn.com/news_feeds/icons/mobile/000/096/336/bb2.jpg",
+   "kinds": [
+    "newsfeed"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "RURU the Kangaroo",
+   "url": "https://knowyourmeme.com/memes/ruru-the-kangaroo--2",
+   "published": "2026-11-06T07:21:45Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/720/download.png",
+   "modified": "2026-11-06T07:21:45Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "\"More Like a Quesadilla\" Guy",
+   "url": "https://knowyourmeme.com/memes/more-like-a-quesadilla-guy",
+   "published": "2026-11-05T19:14:10Z",
+   "summary": "The \"More Like a Quesadilla\" Guy is a series of memes based on a scene of YouTuber Chad Wild Clay, seen in the background of the Spy Ninjas music video for \"Come Back Daniel\" on his own YouTube channel, reacting with a shocked face after Regina sings, \"Think you're tough like a gorilla? Pshh, more…",
+   "platforms": [
+    "YouTube"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/719/quesadillaguy.jpg",
+   "about": "The \"More Like a Quesadilla\" Guy is a series of memes based on a scene of YouTuber Chad Wild Clay, seen in the background of the Spy Ninjas music video for \"Come Back Daniel\" on his own YouTube channel, reacting with a shocked face after Regina sings, \"Think you're tough like a gorilla? Pshh, more like a quesadilla.\" The reaction became the subject of memes, primarily on TikTok, in early November 2026. Some of the most popular memes include Accuracy Reenactments where users try to make the same face as the \"More Like a Quesadilla\" guy, and lip dubs.",
+   "modified": "2026-11-06T19:59:01Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "A Schizophrenic Racist Is Talking, Listen and Learn",
+   "url": "https://knowyourmeme.com/memes/a-schizophrenic-racist-is-talking-listen-and-learn",
+   "published": "2026-11-05T17:36:38Z",
+   "summary": "A Schizophrenic Racist Is Talking, Listen and Learn is an exploitable reaction image and catchphrase meme that shows two pictures telling readers to be quiet and not to talk under the caption, \"A schizophrenic racist is talking, listen and learn.\" The meme began circulating online in 2023 and becam…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/718/schziotalkingcover.jpg",
+   "about": "A Schizophrenic Racist Is Talking, Listen and Learn is an exploitable reaction image and catchphrase meme that shows two pictures telling readers to be quiet and not to talk under the caption, \"A schizophrenic racist is talking, listen and learn.\" The meme began circulating online in 2023 and became increasingly popularized over the following years as the subject of edits and recaptions, in which the caption is often altered to joke about needing to pay attention to someone who potentially should not be trusted or listened to. Many variants use the same phrasal template of \" X Is Talking List…",
+   "modified": "2026-11-06T20:10:41Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "2Slimey Side-Profile",
+   "url": "https://knowyourmeme.com/memes/2slimey-side-profile",
+   "published": "2026-11-05T15:45:05Z",
+   "summary": "2Slimey Side-Profile refers to a side-profile photograph of rage rapper 2Slimey holding a microphone, taken by photographer Yahdel Aran, which shows him in silhouette. The photograph was uploaded to Aran's Instagram page, aranphotography__, on November 1st, 2026. The image became the subject of moc…",
+   "platforms": [
+    "Instagram"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/716/2slimeysidecover.jpg",
+   "about": "2Slimey Side-Profile refers to a side-profile photograph of rage rapper 2Slimey holding a microphone, taken by photographer Yahdel Aran, which shows him in silhouette. The photograph was uploaded to Aran's Instagram page, aranphotography__, on November 1st, 2026. The image became the subject of mockery and memes over the following days in late 2026, with many believing the side-profile picture looked ugly and funny. Some popular memes include reactions to the photo, redraws and stylized video edits.",
+   "modified": "2026-11-06T19:51:27Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "didi camel",
+   "url": "https://knowyourmeme.com/memes/didi-camel",
+   "published": "2026-11-05T03:05:22Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/714/HWU2kBVXIAAtkwI.jpg",
+   "about": "Didi Camel, also known as Skull Camel, refers to a custom emoji of a gray, one-humped camel with a skull in place of its head, and the image macros built around it. The name is a misspelling of Didy, itself an ironic misspelling of \"Diddy,\" though the meme has largely drifted away from that reference and is used mainly for absurd, post-ironic humor. Edits typically paste the emoji, or a screenshot of it used as a Discord message reaction with a count of four, onto existing meme formats and image macros, with captions rewritten to reference \"didi camel,\" \"4 didi camels\" or \"skull camel.\" The e…",
+   "modified": "2026-11-05T03:05:22Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Frutiger Aero Yams",
+   "url": "https://knowyourmeme.com/memes/frutiger-aero-yams",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/706/faytyrcover.jpg",
+   "published": "2026-11-03T18:00:42Z",
+   "modified": "2026-11-06T09:53:02Z",
+   "summary": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's buttocks designed in the Frutiger Aero aesthetic and, more literally",
+   "status": "submission",
+   "about": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's buttocks designed in the Frutiger Aero aesthetic and, more literally, yam vegetables in a Frutiger Aero aesthetic. The term started spreading through surreal and ironic memes, primarily on Instagram, in mid-October 2026. It became increasingly popularized in late October and early November 2026, inspiring similar meaningless slang terms like \" code rot yams.\" As a meme, the term is largely used to make fun of the love that people have for the Frutiger Aero aesthetic, particularly those who do not really kno…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Anakin Skywalker Gen Z Male Rage Memes",
+   "url": "https://knowyourmeme.com/memes/anakin-skywalker-gen-z-male-rage-memes",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/695/Political_Prequel_Memes_banner.jpg",
+   "published": "2026-10-30T19:16:24Z",
+   "modified": "2026-11-07T01:07:24Z",
+   "summary": "Anakin Skywalker Gen Z Male Rage Memes, also known as Anakin Skywalker Young Men Disillusionment Edits, Anakin Poasting or Generation Z Political Commentar",
+   "status": "confirmed",
+   "about": "Anakin Skywalker Gen Z Male Rage Memes, also known as Anakin Skywalker Young Men Disillusionment Edits, Anakin Poasting or Generation Z Political Commentary Prequel Memes Twitter / X Trend, refers to a series of Prequel Memes, including GIF captions, video edits and image macros, featuring the character Anakin Skywalker from the Star Wars prequel trilogy that portray him as a representation of anger, alienation and disillusionment among young men in Western society. The memes typically use scenes of Anakin becoming frustrated with the Jedi Order and Obi-Wan Kenobi (often used to represent Bab…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Scientists Reveal the Hi",
+   "url": "https://knowyourmeme.com/memes/scientists-reveal-the-hi",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/623/srth.jpg",
+   "published": "2026-10-15T15:22:27Z",
+   "modified": "2026-11-07T00:34:32Z",
+   "summary": "Scientists Reveal the Hi or Scientists Reveal the Secret, also known as Scientists Reveal the X, is an exploitable meme format based on an image macro of a",
+   "status": "confirmed",
+   "about": "Scientists Reveal the Hi or Scientists Reveal the Secret, also known as Scientists Reveal the X, is an exploitable meme format based on an image macro of a dog on a couch standing over the caption, \"Scientists reveal the secret.\" The original meme was posted in July 2025 and was edited that day to replace the dog with an orange cat. Later, the caption was altered to change \"secret\" to \"hi.\" The meme spread over the following year and became the subject of further memes and recaption edits on sites like Instagram and TikTok in October 2026. The memes typically involve editing the photo in a va…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  }
+ ],
+ "kym_new": 6,
+ "new_memes": [
+  {
+   "kind": "newsfeed",
+   "title": "2024 Political Comic About Voting As A Dad Makes A Big Meme Comeback For Midterm Elections",
+   "url": "https://knowyourmeme.com/memes/who-are-you-voting-for-daddy",
+   "published": "2026-11-06T19:59:40Z",
+   "summary": "Who Are You Voting For, Daddy? is an exploitable meme format based on a political comic in which a daughter asks her dad who he's voting for, and he responds, \"You,\" suggesting he's voting for the party that best supports her rights. The comic was illustrated and written by artist Adam Zyglis for T…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/722/wyvf.jpg",
+   "about": "Who Are You Voting For, Daddy? is an exploitable meme format based on a political comic or cartoon in which a daughter asks her dad who he's voting for, and he responds, \"You,\" suggesting he's voting for the party that best supports her rights. It was illustrated and written by artist Adam Zyglis for The Buffalo News during the 2024 U.S. elections. The comic went viral as the subject of edits in late October and early November 2026 surrounding the 2026 U.S. midterm elections. As a meme, the captions in the comic are often edited to make the interaction between the father and daughter absurd o…",
+   "modified": "2026-11-06T20:52:02Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "People Are Making Hearts With Their Biceps In Latest Viral Thirst Trap Trend",
+   "url": "https://knowyourmeme.com/memes/bicep-heart-trend",
+   "published": "2026-11-06T15:57:03Z",
+   "summary": "The Bicep Heart Trend is a TikTok and Reels thirst trap trend where participants flex their bicep in front of the camera, extend their fingers towards their forearm, then place their free hand, in a \"C\" shape, into the gap between the flexed arm's fingertips and forearm, making the shape of a heart…",
+   "platforms": [
+    "TikTok",
+    "Instagram"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/721/bicepheartcover4.jpg",
+   "about": "The Bicep Heart Trend is a TikTok and Instagram Reels thirst trap trend where participants flex their bicep in front of the camera, extend their fingers towards their forearm, then place their free hand, in a \"C\" shape, into the gap between the flexed arm's fingertips and forearm, making the shape of a heart. The fitness trend first appeared online in late October 2026 and was popularized in early November as it spread to other platforms like Facebook, where additional users posted variants of it.",
+   "modified": "2026-11-06T21:03:32Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "RURU the Kangaroo",
+   "url": "https://knowyourmeme.com/memes/ruru-the-kangaroo--2",
+   "published": "2026-11-06T07:21:45Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/720/download.png",
+   "modified": "2026-11-06T07:21:45Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "\"More Like a Quesadilla\" Guy",
+   "url": "https://knowyourmeme.com/memes/more-like-a-quesadilla-guy",
+   "published": "2026-11-05T19:14:10Z",
+   "summary": "The \"More Like a Quesadilla\" Guy is a series of memes based on a scene of YouTuber Chad Wild Clay, seen in the background of the Spy Ninjas music video for \"Come Back Daniel\" on his own YouTube channel, reacting with a shocked face after Regina sings, \"Think you're tough like a gorilla? Pshh, more…",
+   "platforms": [
+    "YouTube"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/719/quesadillaguy.jpg",
+   "about": "The \"More Like a Quesadilla\" Guy is a series of memes based on a scene of YouTuber Chad Wild Clay, seen in the background of the Spy Ninjas music video for \"Come Back Daniel\" on his own YouTube channel, reacting with a shocked face after Regina sings, \"Think you're tough like a gorilla? Pshh, more like a quesadilla.\" The reaction became the subject of memes, primarily on TikTok, in early November 2026. Some of the most popular memes include Accuracy Reenactments where users try to make the same face as the \"More Like a Quesadilla\" guy, and lip dubs.",
+   "modified": "2026-11-06T19:59:01Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "A Schizophrenic Racist Is Talking, Listen and Learn",
+   "url": "https://knowyourmeme.com/memes/a-schizophrenic-racist-is-talking-listen-and-learn",
+   "published": "2026-11-05T17:36:38Z",
+   "summary": "A Schizophrenic Racist Is Talking, Listen and Learn is an exploitable reaction image and catchphrase meme that shows two pictures telling readers to be quiet and not to talk under the caption, \"A schizophrenic racist is talking, listen and learn.\" The meme began circulating online in 2023 and becam…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/718/schziotalkingcover.jpg",
+   "about": "A Schizophrenic Racist Is Talking, Listen and Learn is an exploitable reaction image and catchphrase meme that shows two pictures telling readers to be quiet and not to talk under the caption, \"A schizophrenic racist is talking, listen and learn.\" The meme began circulating online in 2023 and became increasingly popularized over the following years as the subject of edits and recaptions, in which the caption is often altered to joke about needing to pay attention to someone who potentially should not be trusted or listened to. Many variants use the same phrasal template of \" X Is Talking List…",
+   "modified": "2026-11-06T20:10:41Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "2Slimey Side-Profile",
+   "url": "https://knowyourmeme.com/memes/2slimey-side-profile",
+   "published": "2026-11-05T15:45:05Z",
+   "summary": "2Slimey Side-Profile refers to a side-profile photograph of rage rapper 2Slimey holding a microphone, taken by photographer Yahdel Aran, which shows him in silhouette. The photograph was uploaded to Aran's Instagram page, aranphotography__, on November 1st, 2026. The image became the subject of moc…",
+   "platforms": [
+    "Instagram"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/716/2slimeysidecover.jpg",
+   "about": "2Slimey Side-Profile refers to a side-profile photograph of rage rapper 2Slimey holding a microphone, taken by photographer Yahdel Aran, which shows him in silhouette. The photograph was uploaded to Aran's Instagram page, aranphotography__, on November 1st, 2026. The image became the subject of mockery and memes over the following days in late 2026, with many believing the side-profile picture looked ugly and funny. Some popular memes include reactions to the photo, redraws and stylized video edits.",
+   "modified": "2026-11-06T19:51:27Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "didi camel",
+   "url": "https://knowyourmeme.com/memes/didi-camel",
+   "published": "2026-11-05T03:05:22Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/714/HWU2kBVXIAAtkwI.jpg",
+   "about": "Didi Camel, also known as Skull Camel, refers to a custom emoji of a gray, one-humped camel with a skull in place of its head, and the image macros built around it. The name is a misspelling of Didy, itself an ironic misspelling of \"Diddy,\" though the meme has largely drifted away from that reference and is used mainly for absurd, post-ironic humor. Edits typically paste the emoji, or a screenshot of it used as a Discord message reaction with a count of four, onto existing meme formats and image macros, with captions rewritten to reference \"didi camel,\" \"4 didi camels\" or \"skull camel.\" The e…",
+   "modified": "2026-11-05T03:05:22Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  }
+ ],
+ "reddit": [
+  {
+   "sub": "TikTokCringe",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "Raven Simone is soo weird",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xpbvsx/raven_simone_is_soo_weird/"
+    },
+    {
+     "rank": 2,
+     "title": "Cop waiting in excitement like its a game",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xp8uuj/cop_waiting_in_excitement_like_its_a_game/"
+    },
+    {
+     "rank": 3,
+     "title": "Releasing an animal back into the wild",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xp06o5/releasing_an_animal_back_into_the_wild/"
+    },
+    {
+     "rank": 4,
+     "title": "Hmmm",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xp5118/hmmm/"
+    },
+    {
+     "rank": 5,
+     "title": "Pastor Marvin Winans accosting one of his members for not giving a $2,000 donation to the church 👀😬",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xp0t6w/pastor_marvin_winans_accosting_one_of_his_members/"
+    },
+    {
+     "rank": 6,
+     "title": "Wife doesn't think he can jump the fence",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xpi48c/wife_doesnt_think_he_can_jump_the_fence/"
+    },
+    {
+     "rank": 7,
+     "title": "Walmart did me dirty",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xpfdm4/walmart_did_me_dirty/"
+    },
+    {
+     "rank": 8,
+     "title": "Cop takes down shoplifter after \"high speed\" bicycle pursuit in Southampton, UK",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xp5uow/cop_takes_down_shoplifter_after_high_speed/"
+    }
+   ]
+  },
+  {
+   "sub": "memes",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "Yea so that’s over",
+     "url": "https://www.reddit.com/r/memes/comments/1xpccj4/yea_so_thats_over/"
+    },
+    {
+     "rank": 2,
+     "title": "Yes Miss...",
+     "url": "https://www.reddit.com/r/memes/comments/1xp8v1m/yes_miss/"
+    },
+    {
+     "rank": 3,
+     "title": "hate this but it's true",
+     "url": "https://www.reddit.com/r/memes/comments/1xp462c/hate_this_but_its_true/"
+    },
+    {
+     "rank": 4,
+     "title": "Freezes NYC",
+     "url": "https://www.reddit.com/r/memes/comments/1xpkdl7/freezes_nyc/"
+    },
+    {
+     "rank": 5,
+     "title": "Both are in same team",
+     "url": "https://www.reddit.com/r/memes/comments/1xpjerq/both_are_in_same_team/"
+    },
+    {
+     "rank": 6,
+     "title": "Insert *laughing sound*",
+     "url": "https://www.reddit.com/r/memes/comments/1xp3q4c/insert_laughing_sound/"
+    },
+    {
+     "rank": 7,
+     "title": "The daily \"I don't care about GTA 6\" announcement",
+     "url": "https://www.reddit.com/r/memes/comments/1xp0lfl/the_daily_i_dont_care_about_gta_6_announcement/"
+    },
+    {
+     "rank": 8,
+     "title": "[$2.5 trillion wiped out]",
+     "url": "https://www.reddit.com/r/memes/comments/1xpjm91/25_trillion_wiped_out/"
+    }
+   ]
+  },
+  {
+   "sub": "popculturechat",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "Throwback to Louis Theroux interviewing Katherine Ryan in 2022, where Katherine tells all about Russell Brand without naming him",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xpd8yq/throwback_to_louis_theroux_interviewing_katherine/"
+    },
+    {
+     "rank": 2,
+     "title": "Thomas Markle arrested by FBI",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xpfbt3/thomas_markle_arrested_by_fbi/"
+    },
+    {
+     "rank": 3,
+     "title": "Tribute mural unveiled in honor of the late Sir Patrick Stewart in his birthplace of Mirfield, West Yorkshire.",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xpkjc6/tribute_mural_unveiled_in_honor_of_the_late_sir/"
+    },
+    {
+     "rank": 4,
+     "title": "Doja Cat responds to fans bringing up her presence in the 'racial chat rooms': \"I didn't hate black people or the fact that I am black. I hated myself as a woman because that's what my fuckin brothers and father taught me. So fuck you and fuck what you heard. How fucking dare you.\"",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xp2vg9/doja_cat_responds_to_fans_bringing_up_her/"
+    },
+    {
+     "rank": 5,
+     "title": "Celine Dion rocks out to Metallica at their concert",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xpegiv/celine_dion_rocks_out_to_metallica_at_their/"
+    },
+    {
+     "rank": 6,
+     "title": "Happy 38th Birthday, Emma Stone!",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xp7gh9/happy_38th_birthday_emma_stone/"
+    },
+    {
+     "rank": 7,
+     "title": "Simu Liu meets former basketball player Yao Ming",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xpjpaw/simu_liu_meets_former_basketball_player_yao_ming/"
+    },
+    {
+     "rank": 8,
+     "title": "Scarlett Johansson on the TODAY SHOW - November 5th, 2026",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xpd9gp/scarlett_johansson_on_the_today_show_november_5th/"
+    }
+   ]
+  },
+  {
+   "sub": "shorts",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "Weird Mob Media - long Weekend- underrated Aussie movie",
+     "url": "https://www.reddit.com/r/shorts/comments/1xprzfn/weird_mob_media_long_weekend_underrated_aussie/"
+    },
+    {
+     "rank": 2,
+     "title": "When the Night Club Drop Hits Just Right ⚡ #EDM",
+     "url": "https://www.reddit.com/r/shorts/comments/1xpoad7/when_the_night_club_drop_hits_just_right_edm/"
+    },
+    {
+     "rank": 3,
+     "title": "INVASIVE SIGNAL | Leaked Victorian Police File Log #67009",
+     "url": "https://www.reddit.com/r/shorts/comments/1xp6kgq/invasive_signal_leaked_victorian_police_file_log/"
+    },
+    {
+     "rank": 4,
+     "title": "Dylan Dreyer👀🚨Popcorn Time!!🚨 Nov. 5, 2026#weather #shorts #viral #vi...",
+     "url": "https://www.reddit.com/r/shorts/comments/1xp688g/dylan_dreyerpopcorn_time_nov_5_2026weather_shorts/"
+    },
+    {
+     "rank": 5,
+     "title": "Le bon sens...",
+     "url": "https://www.reddit.com/r/shorts/comments/1xp5v0h/le_bon_sens/"
+    }
+   ]
+  },
+  {
+   "sub": "gaming",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "AMD CEO enrages gamers by saying it's now a 'data center first' company — and predicts PC sales will plummet by a 'double-digit percentage' in 2027",
+     "url": "https://www.reddit.com/r/gaming/comments/1xpk1zk/amd_ceo_enrages_gamers_by_saying_its_now_a_data/"
+    },
+    {
+     "rank": 2,
+     "title": "Pokémon cards could lose 80% of their value, and celebrities like Logan Paul getting involved is \"a net negative,\" says financial expert Douglas Boneparth",
+     "url": "https://www.reddit.com/r/gaming/comments/1xpkjyb/pokémon_cards_could_lose_80_of_their_value_and/"
+    },
+    {
+     "rank": 3,
+     "title": "The OOT remake totally falls apart in hilarious/unnerving fashion if you sequence break into Adult Link sections as Child Link",
+     "url": "https://www.reddit.com/r/gaming/comments/1xpptrd/the_oot_remake_totally_falls_apart_in/"
+    },
+    {
+     "rank": 4,
+     "title": "Road Rash is back on the menu folks!",
+     "url": "https://www.reddit.com/r/gaming/comments/1xp09iv/road_rash_is_back_on_the_menu_folks/"
+    },
+    {
+     "rank": 5,
+     "title": "Reuters- Unity Software has had talks with private equity firm sliver lake and PIF (saudi arabia) on a buyout",
+     "url": "https://www.reddit.com/r/gaming/comments/1xozxte/reuters_unity_software_has_had_talks_with_private/"
+    },
+    {
+     "rank": 6,
+     "title": "Finished the original Ocarina of time just in time!",
+     "url": "https://www.reddit.com/r/gaming/comments/1xp4uws/finished_the_original_ocarina_of_time_just_in_time/"
+    },
+    {
+     "rank": 7,
+     "title": "Adventure awaits",
+     "url": "https://www.reddit.com/r/gaming/comments/1xp8wr7/adventure_awaits/"
+    },
+    {
+     "rank": 8,
+     "title": "XBox Nano - maybe the last unique Microsoft controller (review in comments)",
+     "url": "https://www.reddit.com/r/gaming/comments/1xpjqiz/xbox_nano_maybe_the_last_unique_microsoft/"
+    }
+   ]
+  },
+  {
+   "sub": "IndieGaming",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "What do you think of my game trailer? Tried to time it to the music beat",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xpholi/what_do_you_think_of_my_game_trailer_tried_to/"
+    },
+    {
+     "rank": 2,
+     "title": "Meet Eunhwa, a fox girl who loves food and fighting! 🦊",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xp2w20/meet_eunhwa_a_fox_girl_who_loves_food_and_fighting/"
+    },
+    {
+     "rank": 3,
+     "title": "Hardcore Riders NEW GAMEPLAY",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xpgm3l/hardcore_riders_new_gameplay/"
+    },
+    {
+     "rank": 4,
+     "title": "We added a “big ears” enemy mutator so you can honk monsters to death.",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xpjavd/we_added_a_big_ears_enemy_mutator_so_you_can_honk/"
+    },
+    {
+     "rank": 5,
+     "title": "Moomin: Midsummer Madness, an ordinary family moment, surrounded by the extraordinary",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xp3dji/moomin_midsummer_madness_an_ordinary_family/"
+    },
+    {
+     "rank": 6,
+     "title": "I just released a horror game about loneliness and inevitability!",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xph8l1/i_just_released_a_horror_game_about_loneliness/"
+    },
+    {
+     "rank": 7,
+     "title": "My game It’s About Pirates is out now on Steam!",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xpi8m6/my_game_its_about_pirates_is_out_now_on_steam/"
+    },
+    {
+     "rank": 8,
+     "title": "Hand-painted dungeon crawler - Ambrosius",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xpb4cx/handpainted_dungeon_crawler_ambrosius/"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "KR": {
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "id": "rodFpxo7wkE",
+     "title": "With",
+     "channel": "RESCENE - Topic",
+     "views": 3126445,
+     "likes": 45890,
+     "duration": 191,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rodFpxo7wkE",
+     "thumb": "https://i.ytimg.com/vi/rodFpxo7wkE/mqdefault.jpg",
+     "published": "2026-11-03T09:05:03Z"
+    },
+    {
+     "rank": 2,
+     "id": "KR4FSCGPtLM",
+     "title": "푸른길 | 공식 예고편 | 넷플릭스",
+     "channel": "Netflix Korea 넷플릭스 코리아",
+     "views": 620320,
+     "likes": 2530,
+     "duration": 122,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=KR4FSCGPtLM",
+     "thumb": "https://i.ytimg.com/vi/KR4FSCGPtLM/mqdefault.jpg",
+     "published": "2026-11-05T00:00:21Z"
+    },
+    {
+     "rank": 3,
+     "id": "vePKTpsyWOU",
+     "title": "DK vs BLG | 녹아웃 스테이지 8강 Day3 | 2026 월드 챔피언십",
+     "channel": "LCK",
+     "views": 1874888,
+     "likes": null,
+     "duration": 13236,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=vePKTpsyWOU",
+     "thumb": "https://i.ytimg.com/vi/vePKTpsyWOU/mqdefault.jpg",
+     "published": "2026-11-06T01:00:50Z"
+    },
+    {
+     "rank": 4,
+     "id": "vA5S5FsVz-c",
+     "title": "Question Mark",
+     "channel": "HANRORO - Topic",
+     "views": 149650,
+     "likes": 2186,
+     "duration": 219,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=vA5S5FsVz-c",
+     "thumb": "https://i.ytimg.com/vi/vA5S5FsVz-c/mqdefault.jpg",
+     "published": "2026-11-05T09:00:31Z"
+    },
+    {
+     "rank": 5,
+     "id": "gSWocBKJCE0",
+     "title": "임영웅 영화 예고편 공개! 팬들 댓글에 감동 폭발…세 번째 영화 흥행 신기록 세울까?",
+     "channel": "젊은할배 59TV",
+     "views": 16593,
+     "likes": 2992,
+     "duration": 839,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=gSWocBKJCE0",
+     "thumb": "https://i.ytimg.com/vi/gSWocBKJCE0/mqdefault.jpg",
+     "published": "2026-11-06T09:00:34Z"
+    },
+    {
+     "rank": 6,
+     "id": "dhllnIOapu8",
+     "title": "전재산 파산에서 27성까지! 역대급 평균회귀 ㄷㄷ [팡이요,  메이플스토리]",
+     "channel": "팡이요",
+     "views": 325316,
+     "likes": 974,
+     "duration": 689,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=dhllnIOapu8",
+     "thumb": "https://i.ytimg.com/vi/dhllnIOapu8/mqdefault.jpg",
+     "published": "2026-11-06T09:58:44Z"
+    },
+    {
+     "rank": 7,
+     "id": "nd3hpJ4oMpU",
+     "title": "back number - 히로인 [ヒロイン] 🎵\"저 가수 입니다🎤\" by 강남",
+     "channel": "동네친구 강나미 [Kangnami]",
+     "views": 1154700,
+     "likes": 16204,
+     "duration": 271,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=nd3hpJ4oMpU",
+     "thumb": "https://i.ytimg.com/vi/nd3hpJ4oMpU/mqdefault.jpg",
+     "published": "2026-11-05T10:00:16Z"
+    },
+    {
+     "rank": 8,
+     "id": "kpDI-4G8fgM",
+     "title": "Trailer - 침식2(侵蝕, Corrosion)[BL DRAMA]",
+     "channel": "RIMOmov",
+     "views": 11451,
+     "likes": 1019,
+     "duration": 93,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=kpDI-4G8fgM",
+     "thumb": "https://i.ytimg.com/vi/kpDI-4G8fgM/mqdefault.jpg",
+     "published": "2026-11-06T15:33:25Z"
+    },
+    {
+     "rank": 9,
+     "id": "fh3bXueP7_4",
+     "title": "261106 전설 무한의 계단",
+     "channel": "전설",
+     "views": 2299675,
+     "likes": 5016,
+     "duration": 21584,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=fh3bXueP7_4",
+     "thumb": "https://i.ytimg.com/vi/fh3bXueP7_4/mqdefault.jpg",
+     "published": "2026-11-06T18:38:40Z"
+    },
+    {
+     "rank": 10,
+     "id": "dxyBIvdPIBY",
+     "title": "Us Back Then",
+     "channel": "Park Jongmin - Topic",
+     "views": 268526,
+     "likes": 1126,
+     "duration": 198,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=dxyBIvdPIBY",
+     "thumb": "https://i.ytimg.com/vi/dxyBIvdPIBY/mqdefault.jpg",
+     "published": "2026-11-03T09:05:18Z"
+    }
+   ],
+   "total": 50,
+   "shorts": 0
+  },
+  "US": {
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "id": "sXsY9gj5zXk",
+     "title": "Top Uh It",
+     "channel": "Lil Baby - Topic",
+     "views": 318811,
+     "likes": 13215,
+     "duration": 147,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=sXsY9gj5zXk",
+     "thumb": "https://i.ytimg.com/vi/sXsY9gj5zXk/mqdefault.jpg",
+     "published": "2026-11-06T05:03:57Z"
+    },
+    {
+     "rank": 2,
+     "id": "fJH-wfSXnWg",
+     "title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH | Official Trailer #2 | Netflix",
+     "channel": "Netflix",
+     "views": 1926559,
+     "likes": 13317,
+     "duration": 163,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=fJH-wfSXnWg",
+     "thumb": "https://i.ytimg.com/vi/fJH-wfSXnWg/mqdefault.jpg",
+     "published": "2026-11-06T13:00:03Z"
+    },
+    {
+     "rank": 3,
+     "id": "cQjNtfbezFY",
+     "title": "Final Life: Episode 2 - CUSHION BRIDGE!",
+     "channel": "Grian",
+     "views": 381692,
+     "likes": 32288,
+     "duration": 2751,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=cQjNtfbezFY",
+     "thumb": "https://i.ytimg.com/vi/cQjNtfbezFY/mqdefault.jpg",
+     "published": "2026-11-06T19:37:40Z"
+    },
+    {
+     "rank": 4,
+     "id": "uXymCnWk9LI",
+     "title": "Olivia Rodrigo - take me home (4 christmas)",
+     "channel": "OliviaRodrigoVEVO",
+     "views": 2566414,
+     "likes": 158052,
+     "duration": 188,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=uXymCnWk9LI",
+     "thumb": "https://i.ytimg.com/vi/uXymCnWk9LI/mqdefault.jpg",
+     "published": "2026-11-06T01:00:08Z"
+    },
+    {
+     "rank": 5,
+     "id": "Pu0pH5BuCPM",
+     "title": "GODZILLA MINUS ZERO | Official Trailer 3 - NOW PLAYING",
+     "channel": "GODZILLA OFFICIAL by TOHO",
+     "views": 2813451,
+     "likes": 47087,
+     "duration": 61,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Pu0pH5BuCPM",
+     "thumb": "https://i.ytimg.com/vi/Pu0pH5BuCPM/mqdefault.jpg",
+     "published": "2026-11-05T17:00:30Z"
+    },
+    {
+     "rank": 6,
+     "id": "glV2Pjyh5Y4",
+     "title": "🔴LIVE | ROB RUN | HABIBI X COCONUT | #BUNGULATE",
+     "channel": "TheBurntPeanut",
+     "views": 1421641,
+     "likes": 14139,
+     "duration": 43464,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=glV2Pjyh5Y4",
+     "thumb": "https://i.ytimg.com/vi/glV2Pjyh5Y4/mqdefault.jpg",
+     "published": "2026-11-06T08:36:27Z"
+    },
+    {
+     "rank": 7,
+     "id": "WAdnYzdROQc",
+     "title": "Tom MacDonald - \"Talk To God\"",
+     "channel": "Tom MacDonald",
+     "views": 294579,
+     "likes": 36971,
+     "duration": 168,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=WAdnYzdROQc",
+     "thumb": "https://i.ytimg.com/vi/WAdnYzdROQc/mqdefault.jpg",
+     "published": "2026-11-06T16:59:24Z"
+    },
+    {
+     "rank": 8,
+     "id": "J30QF4ZQ0SM",
+     "title": "AVENGERS DOOMSDAY: Latveria Revealed in New Promos!",
+     "channel": "New Rockstars",
+     "views": 465476,
+     "likes": 8240,
+     "duration": 893,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=J30QF4ZQ0SM",
+     "thumb": "https://i.ytimg.com/vi/J30QF4ZQ0SM/mqdefault.jpg",
+     "published": "2026-11-06T00:15:53Z"
+    },
+    {
+     "rank": 9,
+     "id": "Jr8DUNzQf90",
+     "title": "Here In Your Dreams ☁✨ (ft. Liam Pearce) | Dandy's World Official Song",
+     "channel": "BlushCrunch Studio",
+     "views": 278377,
+     "likes": 35289,
+     "duration": 171,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Jr8DUNzQf90",
+     "thumb": "https://i.ytimg.com/vi/Jr8DUNzQf90/mqdefault.jpg",
+     "published": "2026-11-06T19:27:51Z"
+    },
+    {
+     "rank": 10,
+     "id": "8eCstqv4zSo",
+     "title": "Ya Hit",
+     "channel": "Future - Topic",
+     "views": 388730,
+     "likes": 23959,
+     "duration": 214,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=8eCstqv4zSo",
+     "thumb": "https://i.ytimg.com/vi/8eCstqv4zSo/mqdefault.jpg",
+     "published": "2026-11-06T07:30:18Z"
+    }
+   ],
+   "total": 50,
+   "shorts": 0
+  }
+ },
+ "trends": {
+  "KR": [
+   {
+    "rank": 1,
+    "title": "국민연금",
+    "traffic": 5000,
+    "traffic_raw": "5000+",
+    "news_title": "국민연금 한 달 49만원 받는 80세, 나이 들어 가장 큰 후회는…",
+    "news_url": "https://www.chosun.com/economy/startup_story/2026/11/07/MFMQSRXGTJCIFD6JADMYWW4E64/",
+    "url": "https://www.chosun.com/economy/startup_story/2026/11/07/MFMQSRXGTJCIFD6JADMYWW4E64/",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhamccil_E-F7VoV7bldF52b6AqIKTyWs692TV2jvyrxSVsd07nw_6pb4riHU",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "요즘 남자 라이프 - 신랑수업",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "송해나, '이승철 주선' 소개팅에 \"술 별로 안 좋아했으면\"→이국주 \"네가?\" ('신랑수업2')",
+    "news_url": "https://www.chosun.com/entertainments/broadcast/2026/11/07/GYZDCYTFGQ4DMY3BME4TCMRYMY/",
+    "url": "https://www.chosun.com/entertainments/broadcast/2026/11/07/GYZDCYTFGQ4DMY3BME4TCMRYMY/",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLJycXLCtd9-9aGAkzukdOeJ8mAZkQBsayLNxGLbDADI_g2NDAVEMlXolTu54",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "공무원",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "\"왜 쳐다봐\" 호신용 스프레이 분사, 공무원 각막염…집유",
+    "news_url": "https://www.newsis.com/view/NISX20261107_0003858784",
+    "url": "https://www.newsis.com/view/NISX20261107_0003858784",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0Ie3Ad29ZCLPhP9DFcZMSP9yUrPx06VC6_e0FabAXWd1DQwWM-bO5aoGeIrg",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "아들",
+    "traffic": 10000,
+    "traffic_raw": "10000+",
+    "news_title": "‘김구라, 며느리 보겠네’…子 그리 “여친과 결혼 준비 중”",
+    "news_url": "https://sports.khan.co.kr/article/202611060907003",
+    "url": "https://sports.khan.co.kr/article/202611060907003",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT5Rno2fdYtJjvNH5kJZVfa8QjMBNjDLFNd5jKAey1luic2NMIKk-eRai5XZzc",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "테슬라 사이버트럭",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "테슬라, 사이버트럭 생산 중단키로…머스크 \"한 시대의 끝\"",
+    "news_url": "https://www.yna.co.kr/view/AKR20261107003800075",
+    "url": "https://www.yna.co.kr/view/AKR20261107003800075",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxirskAJuURUVh0LA026MvGJeebaUnuV-3iAzv9BZaZM1UyUE3qIFlDffnRRo",
+    "days": 1
+   },
+   {
+    "rank": 6,
+    "title": "의약품",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "식약처, 의약품 허가·심사 수수료 현실화 추진",
+    "news_url": "https://www.ibric.org/bric/trend/results-of-research.do?mode=view&articleNo=10063463&article.offset=0&articleLimit=15",
+    "url": "https://www.ibric.org/bric/trend/results-of-research.do?mode=view&articleNo=10063463&article.offset=0&articleLimit=15",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT-DXpvEXAzpQFvFtQIssHvamEO2zmCfmDGTmn3E5GtoT95piaGj2BSRmuB5Fg",
+    "days": 1
+   }
+  ],
+  "US": [
+   {
+    "rank": 1,
+    "title": "hawks",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "Wizards at Hawks Discussion",
+    "news_url": "https://www.bulletsforever.com/washington-wizards-gamethreads/73890/wizards-at-hawks-discussion",
+    "url": "https://www.bulletsforever.com/washington-wizards-gamethreads/73890/wizards-at-hawks-discussion",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSE40QdYNkyWhj30bIfFXCp1s5vgUnsD5gPW-AvuelIyjMtSl7yTe7fuHDqKJo",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "hugh jackman",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "‘Logan’ Star Dafne Keen Says ‘I Was Offered Cocaine’ as an 11-Year-Old in Hollywood and Hugh Jackman ‘Made Sure No One Abused My Hours’ on Set",
+    "news_url": "https://variety.com/2026/film/news/logan-dafne-keen-cocaine-11-years-old-hollywood-1236939718/",
+    "url": "https://variety.com/2026/film/news/logan-dafne-keen-cocaine-11-years-old-hollywood-1236939718/",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcShsMxMN0WBZyui9k5stUN6bzCnvwpHvepc-cerym1R-xO2lzHKHJ8aITyTUiM",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "ice detains wisconsin state trooper",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "Wisconsin state trooper detained by ICE",
+    "news_url": "https://abcnews.com/US/wisconsin-state-trooper-detained-ice/story?id=137922819",
+    "url": "https://abcnews.com/US/wisconsin-state-trooper-detained-ice/story?id=137922819",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRsTppF7S4rzD3DjKCJGUH5MtOl7lyhidXyvOUV1OUXK_ybf5bXJzricX0HUfM",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "deandre ayton",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "Deandre Ayton News: Starting Friday",
+    "news_url": "https://www.rotowire.com/basketball/headlines/deandre-ayton-news-starting-friday-537875",
+    "url": "https://www.rotowire.com/basketball/headlines/deandre-ayton-news-starting-friday-537875",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTY0qxmcgtDfD0w8F5wqfmYgklhm06yi1ZoGIOYyFXCE-Ho0zbF_QzPu8QCGvQ",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "the day after tomorrow",
+    "traffic": 5000,
+    "traffic_raw": "5000+",
+    "news_title": "8 Best Movies To Watch If You Love The Day After Tomorrow",
+    "news_url": "https://www.cbr.com/best-movies-for-day-after-tomorrow-fans-list/",
+    "url": "https://www.cbr.com/best-movies-for-day-after-tomorrow-fans-list/",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfganwaImLHAqbxYvh4cqI8gPibaYA-doVmlKGchUVH0hiqSwtgVsV_0uY1GQ",
+    "days": 1
+   },
+   {
+    "rank": 6,
+    "title": "bo bassett",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Worlds Fallout + NCAA Week 1 & Cowboy Chaos | FloWrestling Radio Live (Ep. 1,276)",
+    "news_url": "https://www.flowrestling.org/video/16346701-replay-flowrestling-radio-live-nov-2nd-nov-2-9-am",
+    "url": "https://www.flowrestling.org/video/16346701-replay-flowrestling-radio-live-nov-2nd-nov-2-9-am",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTY50q-0QSJLFjSrY-945L0yjwyia7ton1M_3uf6rG6kwDuD8UlI1a0txD2ETk",
+    "days": 1
+   }
+  ]
+ },
+ "wiki": {
+  "en": [
+   {
+    "title": "Abdul El-Sayed",
+    "views": 808705,
+    "rank": 1,
+    "src_rank": 2,
+    "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
+    "days": 5,
+    "prev_rank": 1
+   },
+   {
+    "title": "Ramayana: Part 1",
+    "views": 609307,
+    "rank": 2,
+    "src_rank": 4,
+    "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Russell Brand",
+    "views": 571124,
+    "rank": 3,
+    "src_rank": 5,
+    "url": "https://en.wikipedia.org/wiki/Russell_Brand",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "James Talarico",
+    "views": 359575,
+    "rank": 4,
+    "src_rank": 7,
+    "url": "https://en.wikipedia.org/wiki/James_Talarico",
+    "days": 3,
+    "prev_rank": 2
+   },
+   {
+    "title": "2026 United States elections",
+    "views": 356470,
+    "rank": 5,
+    "src_rank": 8,
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+    "days": 4,
+    "prev_rank": 4
+   },
+   {
+    "title": "Jon Ossoff",
+    "views": 325378,
+    "rank": 6,
+    "src_rank": 9,
+    "url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+    "days": 2,
+    "prev_rank": 5
+   },
+   {
+    "title": "Gina Hinojosa",
+    "views": 284450,
+    "rank": 7,
+    "src_rank": 10,
+    "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa",
+    "days": 2,
+    "prev_rank": 3
+   },
+   {
+    "title": ".xyz",
+    "views": 255809,
+    "rank": 8,
+    "src_rank": 11,
+    "url": "https://en.wikipedia.org/wiki/.xyz",
+    "days": 3,
+    "prev_rank": 14
+   },
+   {
+    "title": "Nithya Raman",
+    "views": 197142,
+    "rank": 9,
+    "src_rank": 12,
+    "url": "https://en.wikipedia.org/wiki/Nithya_Raman",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": ".xxx",
+    "views": 159311,
+    "rank": 11,
+    "src_rank": 14,
+    "url": "https://en.wikipedia.org/wiki/.xxx",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Deaths in 2026",
+    "views": 138500,
+    "rank": 12,
+    "src_rank": 15,
+    "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "2026 United States House of Representatives elections",
+    "views": 137339,
+    "rank": 13,
+    "src_rank": 16,
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+    "days": 2,
+    "prev_rank": 15
+   },
+   {
+    "title": "Guy Fawkes Night",
+    "views": 136878,
+    "rank": 14,
+    "src_rank": 17,
+    "url": "https://en.wikipedia.org/wiki/Guy_Fawkes_Night",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Guy Fawkes",
+    "views": 133874,
+    "rank": 16,
+    "src_rank": 19,
+    "url": "https://en.wikipedia.org/wiki/Guy_Fawkes",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Scott Colom",
+    "views": 132877,
+    "rank": 17,
+    "src_rank": 20,
+    "url": "https://en.wikipedia.org/wiki/Scott_Colom",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Keisha Lance Bottoms",
+    "views": 119279,
+    "rank": 18,
+    "src_rank": 21,
+    "url": "https://en.wikipedia.org/wiki/Keisha_Lance_Bottoms",
+    "days": 2,
+    "prev_rank": 8
+   },
+   {
+    "title": "Joran van der Sloot",
+    "views": 116017,
+    "rank": 19,
+    "src_rank": 22,
+    "url": "https://en.wikipedia.org/wiki/Joran_van_der_Sloot",
+    "days": 1,
+    "prev_rank": null
+   }
+  ],
+  "en_day": "2026-11-05",
+  "en_same": false,
+  "ko": [
+   {
+    "title": "문화방송",
+    "views": 14453,
+    "rank": 1,
+    "src_rank": 2,
+    "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1",
+    "days": 14,
+    "prev_rank": 1
+   },
+   {
+    "title": "김태연 (배우)",
+    "views": 2419,
+    "rank": 5,
+    "src_rank": 7,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%83%9C%EC%97%B0_%28%EB%B0%B0%EC%9A%B0%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "차예련",
+    "views": 2184,
+    "rank": 7,
+    "src_rank": 9,
+    "url": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EC%98%88%EB%A0%A8",
+    "days": 6,
+    "prev_rank": 10
+   },
+   {
+    "title": "9·11 테러",
+    "views": 1815,
+    "rank": 9,
+    "src_rank": 11,
+    "url": "https://ko.wikipedia.org/wiki/9%C2%B711_%ED%85%8C%EB%9F%AC",
+    "days": 5,
+    "prev_rank": 12
+   },
+   {
+    "title": "재혼 황후",
+    "views": 1690,
+    "rank": 10,
+    "src_rank": 13,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9E%AC%ED%98%BC_%ED%99%A9%ED%9B%84",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "박진영 (1994년)",
+    "views": 1658,
+    "rank": 11,
+    "src_rank": 14,
+    "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%84%EC%98%81_%281994%EB%85%84%29",
+    "days": 11,
+    "prev_rank": 14
+   },
+   {
+    "title": "김세레나",
+    "views": 1567,
+    "rank": 12,
+    "src_rank": 15,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%84%B8%EB%A0%88%EB%82%98",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "대한민국",
+    "views": 1522,
+    "rank": 13,
+    "src_rank": 16,
+    "url": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "손정은 (아나운서)",
+    "views": 1512,
+    "rank": 14,
+    "src_rank": 17,
+    "url": "https://ko.wikipedia.org/wiki/%EC%86%90%EC%A0%95%EC%9D%80_%28%EC%95%84%EB%82%98%EC%9A%B4%EC%84%9C%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "욕망의 덫",
+    "views": 1454,
+    "rank": 15,
+    "src_rank": 18,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9A%95%EB%A7%9D%EC%9D%98_%EB%8D%AB",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "미국 상원",
+    "views": 1371,
+    "rank": 16,
+    "src_rank": 19,
+    "url": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B5%AD_%EC%83%81%EC%9B%90",
+    "days": 3,
+    "prev_rank": 5
+   },
+   {
+    "title": "라이어 (2026년 드라마)",
+    "views": 1334,
+    "rank": 17,
+    "src_rank": 20,
+    "url": "https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%EC%96%B4_%282026%EB%85%84_%EB%93%9C%EB%9D%BC%EB%A7%88%29",
+    "days": 3,
+    "prev_rank": 17
+   },
+   {
+    "title": "한다감",
+    "views": 1319,
+    "rank": 18,
+    "src_rank": 21,
+    "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%8B%A4%EA%B0%90",
+    "days": 2,
+    "prev_rank": 18
+   },
+   {
+    "title": "도널드 트럼프",
+    "views": 1302,
+    "rank": 19,
+    "src_rank": 22,
+    "url": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%84%90%EB%93%9C_%ED%8A%B8%EB%9F%BC%ED%94%84",
+    "days": 2,
+    "prev_rank": 8
+   },
+   {
+    "title": "정인숙 (모델)",
+    "views": 1160,
+    "rank": 20,
+    "src_rank": 23,
+    "url": "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%9D%B8%EC%88%99_%28%EB%AA%A8%EB%8D%B8%29",
+    "days": 1,
+    "prev_rank": null
+   }
+  ],
+  "ko_day": "2026-11-05",
+  "ko_same": false
+ },
+ "imgflip": {
+  "items": [
+   {
+    "rank": 1,
+    "id": "181913649",
+    "name": "Drake Hotline Bling",
+    "url": "https://i.imgflip.com/30b1gx.jpg",
+    "box_count": 2,
+    "captions": 1585250,
+    "prev_rank": 1,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 2,
+    "id": "87743020",
+    "name": "Two Buttons",
+    "url": "https://i.imgflip.com/1g8my4.jpg",
+    "box_count": 3,
+    "captions": 1232000,
+    "prev_rank": 2,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 3,
+    "id": "112126428",
+    "name": "Distracted Boyfriend",
+    "url": "https://i.imgflip.com/1ur9b0.jpg",
+    "box_count": 3,
+    "captions": 1205250,
+    "prev_rank": 3,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 4,
+    "id": "222403160",
+    "name": "Bernie I Am Once Again Asking For Your Support",
+    "url": "https://i.imgflip.com/3oevdk.jpg",
+    "box_count": 2,
+    "captions": 359500,
+    "prev_rank": 4,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 5,
+    "id": "217743513",
+    "name": "UNO Draw 25 Cards",
+    "url": "https://i.imgflip.com/3lmzyx.jpg",
+    "box_count": 2,
+    "captions": 671250,
+    "prev_rank": 5,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 6,
+    "id": "252600902",
+    "name": "Always Has Been",
+    "url": "https://i.imgflip.com/46e43q.png",
+    "box_count": 2,
+    "captions": 254500,
+    "prev_rank": 6,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 7,
+    "id": "124822590",
+    "name": "Left Exit 12 Off Ramp",
+    "url": "https://i.imgflip.com/22bdq6.jpg",
+    "box_count": 3,
+    "captions": 749250,
+    "prev_rank": 7,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 8,
+    "id": "322841258",
+    "name": "Anakin Padme 4 Panel",
+    "url": "https://i.imgflip.com/5c7lwq.png",
+    "box_count": 3,
+    "captions": 158000,
+    "prev_rank": 8,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 9,
+    "id": "131940431",
+    "name": "Gru's Plan",
+    "url": "https://i.imgflip.com/26jxvz.jpg",
+    "box_count": 4,
+    "captions": 391000,
+    "prev_rank": 10,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 10,
+    "id": "135256802",
+    "name": "Epic Handshake",
+    "url": "https://i.imgflip.com/28j0te.jpg",
+    "box_count": 3,
+    "captions": 273500,
+    "prev_rank": 9,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 11,
+    "id": "97984",
+    "name": "Disaster Girl",
+    "url": "https://i.imgflip.com/23ls.jpg",
+    "box_count": 2,
+    "captions": 447250,
+    "prev_rank": 11,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 12,
+    "id": "4087833",
+    "name": "Waiting Skeleton",
+    "url": "https://i.imgflip.com/2fm6x.jpg",
+    "box_count": 2,
+    "captions": 501000,
+    "prev_rank": 12,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 13,
+    "id": "131087935",
+    "name": "Running Away Balloon",
+    "url": "https://i.imgflip.com/261o3j.jpg",
+    "box_count": 5,
+    "captions": 607750,
+    "prev_rank": 13,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 14,
+    "id": "91538330",
+    "name": "X, X Everywhere",
+    "url": "https://i.imgflip.com/1ihzfe.jpg",
+    "box_count": 2,
+    "captions": 415250,
+    "prev_rank": 14,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 15,
+    "id": "80707627",
+    "name": "Sad Pablo Escobar",
+    "url": "https://i.imgflip.com/1c1uej.jpg",
+    "box_count": 3,
+    "captions": 262250,
+    "prev_rank": 15,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 16,
+    "id": "224015000",
+    "name": "Bernie Sanders Once Again Asking",
+    "url": "https://i.imgflip.com/3pdf2w.png",
+    "box_count": 2,
+    "captions": 72000,
+    "prev_rank": 17,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 17,
+    "id": "161865971",
+    "name": "Marked Safe From",
+    "url": "https://i.imgflip.com/2odckz.jpg",
+    "box_count": 2,
+    "captions": 235750,
+    "prev_rank": 16,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 18,
+    "id": "309868304",
+    "name": "Trade Offer",
+    "url": "https://i.imgflip.com/54hjww.jpg",
+    "box_count": 3,
+    "captions": 134500,
+    "prev_rank": 19,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 19,
+    "id": "129242436",
+    "name": "Change My Mind",
+    "url": "https://i.imgflip.com/24y43o.jpg",
+    "box_count": 2,
+    "captions": 682750,
+    "prev_rank": 20,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 20,
+    "id": "188390779",
+    "name": "Woman Yelling At Cat",
+    "url": "https://i.imgflip.com/345v97.jpg",
+    "box_count": 2,
+    "captions": 413500,
+    "prev_rank": 18,
+    "delta": -2,
+    "new": false
+   },
+   {
+    "rank": 21,
+    "id": "124055727",
+    "name": "Y'all Got Any More Of That",
+    "url": "https://i.imgflip.com/21uy0f.jpg",
+    "box_count": 2,
+    "captions": 236500,
+    "prev_rank": 21,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 22,
+    "id": "438680",
+    "name": "Batman Slapping Robin",
+    "url": "https://i.imgflip.com/9ehk.jpg",
+    "box_count": 2,
+    "captions": 673750,
+    "prev_rank": 22,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 23,
+    "id": "101470",
+    "name": "Ancient Aliens",
+    "url": "https://i.imgflip.com/26am.jpg",
+    "box_count": 2,
+    "captions": 389000,
+    "prev_rank": 24,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 24,
+    "id": "102156234",
+    "name": "Mocking Spongebob",
+    "url": "https://i.imgflip.com/1otk96.jpg",
+    "box_count": 2,
+    "captions": 459500,
+    "prev_rank": 23,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 25,
+    "id": "100777631",
+    "name": "Is This A Pigeon",
+    "url": "https://i.imgflip.com/1o00in.jpg",
+    "box_count": 3,
+    "captions": 245250,
+    "prev_rank": 25,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 26,
+    "id": "61579",
+    "name": "One Does Not Simply",
+    "url": "https://i.imgflip.com/1bij.jpg",
+    "box_count": 2,
+    "captions": 496250,
+    "prev_rank": 26,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 27,
+    "id": "427308417",
+    "name": "0 days without (Lenny, Simpsons)",
+    "url": "https://i.imgflip.com/72epa9.png",
+    "box_count": 2,
+    "captions": 51000,
+    "prev_rank": 27,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 28,
+    "id": "67452763",
+    "name": "Squidward window",
+    "url": "https://i.imgflip.com/145qvv.jpg",
+    "box_count": 2,
+    "captions": 72750,
+    "prev_rank": 29,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 29,
+    "id": "79132341",
+    "name": "Bike Fall",
+    "url": "https://i.imgflip.com/1b42wl.jpg",
+    "box_count": 3,
+    "captions": 149500,
+    "prev_rank": 28,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 30,
+    "id": "505705955",
+    "name": "Absolute Cinema",
+    "url": "https://i.imgflip.com/8d317n.png",
+    "box_count": 2,
+    "captions": 34250,
+    "prev_rank": 31,
+    "delta": 1,
+    "new": false
+   }
+  ],
+  "entered": [],
+  "exited": [],
+  "movers": [
+   {
+    "rank": 20,
+    "id": "188390779",
+    "name": "Woman Yelling At Cat",
+    "url": "https://i.imgflip.com/345v97.jpg",
+    "box_count": 2,
+    "captions": 413500,
+    "prev_rank": 18,
+    "delta": -2,
+    "new": false
+   },
+   {
+    "rank": 9,
+    "id": "131940431",
+    "name": "Gru's Plan",
+    "url": "https://i.imgflip.com/26jxvz.jpg",
+    "box_count": 4,
+    "captions": 391000,
+    "prev_rank": 10,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 10,
+    "id": "135256802",
+    "name": "Epic Handshake",
+    "url": "https://i.imgflip.com/28j0te.jpg",
+    "box_count": 3,
+    "captions": 273500,
+    "prev_rank": 9,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 16,
+    "id": "224015000",
+    "name": "Bernie Sanders Once Again Asking",
+    "url": "https://i.imgflip.com/3pdf2w.png",
+    "box_count": 2,
+    "captions": 72000,
+    "prev_rank": 17,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 17,
+    "id": "161865971",
+    "name": "Marked Safe From",
+    "url": "https://i.imgflip.com/2odckz.jpg",
+    "box_count": 2,
+    "captions": 235750,
+    "prev_rank": 16,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 18,
+    "id": "309868304",
+    "name": "Trade Offer",
+    "url": "https://i.imgflip.com/54hjww.jpg",
+    "box_count": 3,
+    "captions": 134500,
+    "prev_rank": 19,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 19,
+    "id": "129242436",
+    "name": "Change My Mind",
+    "url": "https://i.imgflip.com/24y43o.jpg",
+    "box_count": 2,
+    "captions": 682750,
+    "prev_rank": 20,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 23,
+    "id": "101470",
+    "name": "Ancient Aliens",
+    "url": "https://i.imgflip.com/26am.jpg",
+    "box_count": 2,
+    "captions": 389000,
+    "prev_rank": 24,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 24,
+    "id": "102156234",
+    "name": "Mocking Spongebob",
+    "url": "https://i.imgflip.com/1otk96.jpg",
+    "box_count": 2,
+    "captions": 459500,
+    "prev_rank": 23,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 28,
+    "id": "67452763",
+    "name": "Squidward window",
+    "url": "https://i.imgflip.com/145qvv.jpg",
+    "box_count": 2,
+    "captions": 72750,
+    "prev_rank": 29,
+    "delta": 1,
+    "new": false
+   }
+  ],
+  "total": 100,
+  "compared": true
+ },
+ "cross": [],
+ "filtered": {
+  "trends_kr": 4,
+  "trends_us": 4,
+  "wiki_en": 3,
+  "wiki_ko": 5
+ },
+ "sources": [
+  {
+   "key": "kym_feed",
+   "label": "KYM 뉴스피드",
+   "status": "ok",
+   "count": 3,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_confirmed",
+   "label": "KYM 확정 엔트리",
+   "status": "ok",
+   "count": 0,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_submissions",
+   "label": "KYM 제출 엔트리",
+   "status": "ok",
+   "count": 7,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_search",
+   "label": "KYM 검색 (tiktok·instagram·reels)",
+   "status": "ok",
+   "count": 3,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "youtube_kr",
+   "label": "YouTube 인기 KR",
+   "status": "ok",
+   "count": 50,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "youtube_us",
+   "label": "YouTube 인기 US",
+   "status": "ok",
+   "count": 50,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reels",
+   "label": "릴스·틱톡 정리 영상",
+   "status": "ok",
+   "count": 74,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "trends_kr",
+   "label": "Google 트렌드 KR",
+   "status": "ok",
+   "count": 10,
+   "error": "",
+   "filtered": 4
+  },
+  {
+   "key": "trends_us",
+   "label": "Google 트렌드 US",
+   "status": "ok",
+   "count": 10,
+   "error": "",
+   "filtered": 4
+  },
+  {
+   "key": "wiki_en",
+   "label": "위키백과 en",
+   "status": "ok",
+   "count": 20,
+   "error": "",
+   "filtered": 3
+  },
+  {
+   "key": "wiki_ko",
+   "label": "위키백과 ko",
+   "status": "ok",
+   "count": 20,
+   "error": "",
+   "filtered": 5
+  },
+  {
+   "key": "imgflip",
+   "label": "Imgflip 템플릿",
+   "status": "ok",
+   "count": 100,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "threads",
+   "label": "Threads 키워드",
+   "status": "skip",
+   "count": 0,
+   "error": "THREADS_ACCESS_TOKEN 없음",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_tiktokcringe",
+   "label": "Reddit r/TikTokCringe",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_memes",
+   "label": "Reddit r/memes",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_popculturechat",
+   "label": "Reddit r/popculturechat",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_shorts",
+   "label": "Reddit r/shorts",
+   "status": "ok",
+   "count": 5,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_gaming",
+   "label": "Reddit r/gaming",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_indiegaming",
+   "label": "Reddit r/IndieGaming",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  }
+ ],
+ "threads": {
+  "status": "skip",
+  "error": "THREADS_ACCESS_TOKEN 없음",
+  "token": {
+   "present": false,
+   "note": "Threads: 토큰 없음"
+  },
+  "note": "Threads: 토큰 없음",
+  "keywords": [],
+  "rising": [],
+  "total_posts": 0,
+  "n_ok": 0,
+  "failed": [],
+  "calls": 0,
+  "hours": 24,
+  "limit": 100,
+  "compared": false
+ },
+ "reels": {
+  "status": "ok",
+  "error": "",
+  "note": "",
+  "videos": [
+   {
+    "rank": 1,
+    "id": "1PyO97H4Ql8",
+    "title": "요즘 유행한다는 고숭이 카피 챌린지",
+    "channel": "빵먹다살찐떡",
+    "views": 1072917,
+    "likes": 23027,
+    "duration": 28,
+    "shorts": true,
+    "published": "2026-10-27T09:44:13Z",
+    "url": "https://www.youtube.com/shorts/1PyO97H4Ql8",
+    "thumb": "https://i.ytimg.com/vi/1PyO97H4Ql8/mqdefault.jpg",
+    "query": "요즘 유행 릴스 챌린지",
+    "queries": [
+     "요즘 유행 릴스 챌린지"
+    ],
+    "new": false
+   },
+   {
+    "rank": 2,
+    "id": "niaEF8k1Hpo",
+    "title": "요즘 난리 난 댄스 챌린지의 비밀 공개?! 이게 뭐야ㅋㅋ 😂",
+    "channel": "민서율 seoyool",
+    "views": 732103,
+    "likes": 6541,
+    "duration": 10,
+    "shorts": true,
+    "published": "2026-10-25T11:44:43Z",
+    "url": "https://www.youtube.com/shorts/niaEF8k1Hpo",
+    "thumb": "https://i.ytimg.com/vi/niaEF8k1Hpo/mqdefault.jpg",
+    "query": "틱톡 챌린지 모음",
+    "queries": [
+     "틱톡 챌린지 모음"
+    ],
+    "new": false
+   },
+   {
+    "rank": 3,
+    "id": "Fa5J106VvBg",
+    "title": "All Instagram Trending Songs 2026 | Viral Song Playlist",
+    "channel": "Akash Nayak",
+    "views": 608482,
+    "likes": 4324,
+    "duration": 1725,
+    "shorts": false,
+    "published": "2026-10-24T07:27:03Z",
+    "url": "https://www.youtube.com/watch?v=Fa5J106VvBg",
+    "thumb": "https://i.ytimg.com/vi/Fa5J106VvBg/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 4,
+    "id": "7yBgdwOcAFc",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶| YouTube & Instagram Trending Hits #trending​​​​​ Shorts #explore #song",
+    "channel": "Prakash_Gupta",
+    "views": 536190,
+    "likes": null,
+    "duration": 39,
+    "shorts": true,
+    "published": "2026-10-31T11:20:33Z",
+    "url": "https://www.youtube.com/shorts/7yBgdwOcAFc",
+    "thumb": "https://i.ytimg.com/vi/7yBgdwOcAFc/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 5,
+    "id": "x4PZIGU2Pm4",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #trending #shorts #explore",
+    "channel": "musicMastiZone",
+    "views": 442312,
+    "likes": null,
+    "duration": 39,
+    "shorts": true,
+    "published": "2026-10-24T07:39:31Z",
+    "url": "https://www.youtube.com/shorts/x4PZIGU2Pm4",
+    "thumb": "https://i.ytimg.com/vi/x4PZIGU2Pm4/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 6,
+    "id": "Jzy_qZ6Izb8",
+    "title": "요즘 유행하는 역재생 챌린지",
+    "channel": "리뷰하는 회사원",
+    "views": 332739,
+    "likes": 5830,
+    "duration": 19,
+    "shorts": true,
+    "published": "2026-10-25T05:45:27Z",
+    "url": "https://www.youtube.com/shorts/Jzy_qZ6Izb8",
+    "thumb": "https://i.ytimg.com/vi/Jzy_qZ6Izb8/mqdefault.jpg",
+    "query": "요즘 유행 릴스 챌린지",
+    "queries": [
+     "요즘 유행 릴스 챌린지"
+    ],
+    "new": false
+   },
+   {
+    "rank": 7,
+    "id": "JwPer9pQrYQ",
+    "title": "틱톡에서 난리 난 댄스 챌린지! 이거 너무 웃겨 😂",
+    "channel": "민서율 seoyool",
+    "views": 134732,
+    "likes": 2406,
+    "duration": 12,
+    "shorts": true,
+    "published": "2026-10-30T10:51:11Z",
+    "url": "https://www.youtube.com/shorts/JwPer9pQrYQ",
+    "thumb": "https://i.ytimg.com/vi/JwPer9pQrYQ/mqdefault.jpg",
+    "query": "틱톡 챌린지 모음",
+    "queries": [
+     "틱톡 챌린지 모음"
+    ],
+    "new": false
+   },
+   {
+    "rank": 8,
+    "id": "PQZ59BEW_N8",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #trending Shorts #explore #song",
+    "channel": "musicMastiZone",
+    "views": 113559,
+    "likes": null,
+    "duration": 36,
+    "shorts": true,
+    "published": "2026-11-01T07:35:41Z",
+    "url": "https://www.youtube.com/shorts/PQZ59BEW_N8",
+    "thumb": "https://i.ytimg.com/vi/PQZ59BEW_N8/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 9,
+    "id": "z9dI3C_dHZg",
+    "title": "요즘 핫한 댄스 챌린지의 비밀 공개 😂 A20LITE - NEON",
+    "channel": "플러티 [FLIRTY]",
+    "views": 96367,
+    "likes": 631,
+    "duration": 11,
+    "shorts": true,
+    "published": "2026-11-01T11:37:30Z",
+    "url": "https://www.youtube.com/shorts/z9dI3C_dHZg",
+    "thumb": "https://i.ytimg.com/vi/z9dI3C_dHZg/mqdefault.jpg",
+    "query": "요즘 유행 릴스 챌린지",
+    "queries": [
+     "요즘 유행 릴스 챌린지"
+    ],
+    "new": true
+   },
+   {
+    "rank": 10,
+    "id": "3F3Bk97SZe8",
+    "title": "India's Most VIRAL Songs Of 2026 | Trending on Instagram Reels..",
+    "channel": "Sunny P",
+    "views": 69465,
+    "likes": 616,
+    "duration": 440,
+    "shorts": false,
+    "published": "2026-10-30T18:37:45Z",
+    "url": "https://www.youtube.com/watch?v=3F3Bk97SZe8",
+    "thumb": "https://i.ytimg.com/vi/3F3Bk97SZe8/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": true
+   }
+  ],
+  "items": [
+   {
+    "key": "aarzu asim azhar",
+    "term": "Aarzu – Asim Azhar",
+    "kind": "list",
+    "n": 4,
+    "n_videos": 4,
+    "views": 1267027,
+    "videos": [
+     "Fa5J106VvBg",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "bollywood romantic songs",
+    "term": "bollywood romantic songs",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 1709339,
+    "videos": [
+     "Fa5J106VvBg",
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "bollywoodsongs",
+    "term": "#bollywoodsongs",
+    "kind": "hashtag",
+    "n": 4,
+    "n_videos": 5,
+    "views": 1709339,
+    "videos": [
+     "Fa5J106VvBg",
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "ytshorts",
+    "term": "#ytshorts",
+    "kind": "hashtag",
+    "n": 4,
+    "n_videos": 5,
+    "views": 1112265,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 5,
+    "new": false,
+    "lift": 0.8
+   },
+   {
+    "key": "barsaat bairan",
+    "term": "Barsaat - Bairan",
+    "kind": "list",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1258231,
+    "videos": [
+     "Fa5J106VvBg",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 0.75
+   },
+   {
+    "key": "ajit singh song",
+    "term": "ajit singh song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "arijit singh song",
+    "term": "arijit singh song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "arijit singh songs",
+    "term": "arijit singh songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "bhojpuri new song",
+    "term": "bhojpuri new song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "bollywood bollywood song",
+    "term": "bollywood bollywood song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "bollywood love songs",
+    "term": "bollywood love songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "chapri song",
+    "term": "chapri song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "desi trending songs",
+    "term": "desi trending songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "dhavni basunsali songs",
+    "term": "dhavni basunsali songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "english top songs",
+    "term": "english top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "five trending songs",
+    "term": "five trending songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "hindi new song",
+    "term": "hindi new song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "hindi top songs",
+    "term": "hindi top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "india sisa song",
+    "term": "india sisa song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "india viral music",
+    "term": "india viral music",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "indian love song",
+    "term": "indian love song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "indian viral songs",
+    "term": "indian viral songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "ishq lyrical song",
+    "term": "ishq lyrical song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "jaye sajna song",
+    "term": "jaye sajna song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "kamli song",
+    "term": "kamli song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "kashmiri love song",
+    "term": "kashmiri love song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "mother song",
+    "term": "mother song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "punjabi new song",
+    "term": "punjabi new song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "punjabi top songs",
+    "term": "punjabi top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "queries new song",
+    "term": "Queries new song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1100857,
+    "videos": [
+     "7yBgdwOcAFc",
+     "x4PZIGU2Pm4",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   }
+  ],
+  "n_videos": 36,
+  "n_items": 30,
+  "n_found": 74,
+  "n_roundup": 36,
+  "dropped": {
+   "제목 해시태그 스팸": 14,
+   "제목에 트렌드·사운드·챌린지 없음": 17,
+   "리믹스·매시업": 7
+  },
+  "queries": [
+   {
+    "q": "릴스 트렌드",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "틱톡 챌린지 모음",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "요즘 유행 릴스 챌린지",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "릴스 음원 추천",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "reels trends this week",
+    "region": "US",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "trending sounds instagram reels this week",
+    "region": "US",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "tiktok trends this week explained",
+    "region": "US",
+    "duration": "medium",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "viral tiktok trends compilation",
+    "region": "US",
+    "duration": "medium",
+    "n": 10,
+    "error": ""
+   }
+  ],
+  "n_queries_ok": 8,
+  "calls": {
+   "search": 8,
+   "videos": 2,
+   "units": 802
+  },
+  "days": 14,
+  "order": "relevance",
+  "published_after": "2026-10-24T01:09:14Z",
+  "compared": true
+ }
+}
