@@ -1,44 +1,44 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 16,
-  "date": "2026-11-05",
+  "n": 17,
+  "date": "2026-11-08",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 16,
-  "date": "2026-11-05",
+  "n": 17,
+  "date": "2026-11-08",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 16,
-  "date": "2026-11-05",
+  "n": 17,
+  "date": "2026-11-08",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 16,
-  "date": "2026-11-05",
+  "n": 17,
+  "date": "2026-11-08",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 16,
-  "date": "2026-11-05",
+  "n": 17,
+  "date": "2026-11-08",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 16,
-  "date": "2026-11-05",
+  "n": 17,
+  "date": "2026-11-08",
   "since": "2026-10-21"
  },
  "tag:Racing": {
   "name": "Racing",
-  "n": 4,
-  "date": "2026-11-05",
+  "n": 5,
+  "date": "2026-11-08",
   "since": "2026-11-02"
  },
  "tag:Pixel Graphics": {
@@ -67,21 +67,21 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 1,
-  "date": "2026-11-05",
+  "n": 2,
+  "date": "2026-11-08",
   "since": "2026-11-05"
  },
  "pick": {
-  "name": "Silica",
+  "name": "Retro Rewind - Video Store Simulator",
   "n": 1,
-  "date": "2026-11-05",
-  "since": "2026-11-05"
+  "date": "2026-11-08",
+  "since": "2026-11-08"
  },
  "tag:RPG": {
   "name": "RPG",
   "n": 1,
-  "date": "2026-11-04",
-  "since": "2026-11-04"
+  "date": "2026-11-08",
+  "since": "2026-11-08"
  },
  "tag:Building": {
   "name": "Building",
@@ -97,14 +97,14 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 1,
-  "date": "2026-11-05",
+  "n": 2,
+  "date": "2026-11-08",
   "since": "2026-11-05"
  },
  "tag:Online Co-Op": {
   "name": "Online Co-Op",
-  "n": 1,
-  "date": "2026-11-05",
+  "n": 2,
+  "date": "2026-11-08",
   "since": "2026-11-05"
  },
  "tag:PvP": {
@@ -238,5 +238,11 @@
   "n": 1,
   "date": "2026-11-04",
   "since": "2026-11-04"
+ },
+ "tag:Zombies": {
+  "name": "Zombies",
+  "n": 1,
+  "date": "2026-11-08",
+  "since": "2026-11-08"
  }
 }
