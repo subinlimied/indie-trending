@@ -1,0 +1,2683 @@
+{
+ "kind": "media",
+ "platform": "media",
+ "platform_ko": "미디어·밈",
+ "date": "2026-11-09",
+ "round": 19,
+ "prev_date": "2026-11-08",
+ "status": [
+  [
+   "회차",
+   "19회차"
+  ],
+  [
+   "비교 대상",
+   "2026-11-08 · 1일치"
+  ],
+  [
+   "틱톡·인스타",
+   "4건 / KYM 5"
+  ],
+  [
+   "새 밈",
+   "2건"
+  ],
+  [
+   "제외 필터",
+   "12건"
+  ],
+  [
+   "게임 교차",
+   "0건"
+  ],
+  [
+   "Threads",
+   "토큰 없음"
+  ],
+  [
+   "릴스·틱톡 정리",
+   "영상 34개 · 항목 30"
+  ],
+  [
+   "수집",
+   "2026-11-09 00:41:43 UTC"
+  ]
+ ],
+ "collect_line": "소스 18/18 정상 · 건너뜀 1 · KYM 5건(틱톡·인스타 4) · 새 밈 2 · Reddit 6/6 · 검색 8/5 · 위키 19/16 · 제외 필터 12건 · Threads: 토큰 없음 · 릴스 정리 영상 34개 · 항목 30",
+ "basis_line": "KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 48시간) · Reddit top(t=day) 8개 × 6개 서브레딧 · YouTube 인기 급상승 KR·US Top 10(60초 이하는 쇼츠 표시, 키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · 릴스·틱톡 트렌드 정리 = YouTube 검색 8개 검색어 × 최근 14일 조회수순 10개(키 있을 때, 제목·설명의 목록 줄·해시태그·챌린지/사운드 구절을 항목으로) · Imgflip 인기 템플릿 100개 중 상위 30 · Threads 키워드 검색 TOP·RECENT 각 100건(토큰 있을 때, 24시간 게시 수는 RECENT 기준이라 100건에서 포화) · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · 게임 교차 = Steam·itch 스냅샷 게임 이름과 대조",
+ "pick": {
+  "kind": "search",
+  "query": "tiktok",
+  "title": "Woke 3",
+  "url": "https://knowyourmeme.com/memes/woke-3",
+  "image": "https://i.kym-cdn.com/entries/icons/original/000/057/709/woke3cover.jpg",
+  "published": "2026-11-04T15:57:22Z",
+  "modified": "2026-11-09T00:15:33Z",
+  "summary": "Woke 3 or Woke 3.0 is a slang term and satirical concept that was popularized leading up to and following the 2026 U.S. midterm elections, which saw the De",
+  "status": "submission",
+  "about": "Woke 3 or Woke 3.0 is a slang term and satirical concept that was popularized leading up to and following the 2026 U.S. midterm elections, which saw the Democratic Party win control of the House and Senate, as well as numerous governorships. The term jokes that, with the Democratic win, a new woke era resembling a more extreme and authoritarian version of \"Woke 1\" or \"Woke 2\" will be ushered in. As concepts, Woke 1 is said to focus on culture war, identity politics and social justice, whereas Woke 2 was characterized as being more politically minded, covering things like economic populism, wo…",
+  "platforms": [
+   "TikTok"
+  ],
+  "updated_only": true,
+  "kinds": [
+   "search"
+  ],
+  "new": true,
+  "streak": 1,
+  "since": "2026-11-09",
+  "reason": "KYM 최신 TikTok 항목"
+ },
+ "platform_counts": [
+  [
+   "TikTok",
+   3
+  ],
+  [
+   "Instagram",
+   1
+  ]
+ ],
+ "shortform": [
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Woke 3",
+   "url": "https://knowyourmeme.com/memes/woke-3",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/709/woke3cover.jpg",
+   "published": "2026-11-04T15:57:22Z",
+   "modified": "2026-11-09T00:15:33Z",
+   "summary": "Woke 3 or Woke 3.0 is a slang term and satirical concept that was popularized leading up to and following the 2026 U.S. midterm elections, which saw the De",
+   "status": "submission",
+   "about": "Woke 3 or Woke 3.0 is a slang term and satirical concept that was popularized leading up to and following the 2026 U.S. midterm elections, which saw the Democratic Party win control of the House and Senate, as well as numerous governorships. The term jokes that, with the Democratic win, a new woke era resembling a more extreme and authoritarian version of \"Woke 1\" or \"Woke 2\" will be ushered in. As concepts, Woke 1 is said to focus on culture war, identity politics and social justice, whereas Woke 2 was characterized as being more politically minded, covering things like economic populism, wo…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  },
+  {
+   "kind": "confirmed",
+   "title": "Frutiger Aero Yams",
+   "url": "https://knowyourmeme.com/memes/frutiger-aero-yams",
+   "published": "2026-11-03T18:00:42Z",
+   "summary": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's buttocks designed in the Frutiger Aero aesthetic and, more literally, yam vegetables in a Frutiger Aero aesthetic. The term started spreading through surreal and ironic memes, primarily on Instagram, in mid-Octob…",
+   "platforms": [
+    "Instagram"
+   ],
+   "status": "confirmed",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/706/faytyrcover.jpg",
+   "about": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's buttocks designed in the Frutiger Aero aesthetic and, more literally, yam vegetables in a Frutiger Aero aesthetic. The term started spreading through surreal and ironic memes, primarily on Instagram, in mid-October 2026. It became increasingly popularized in late October and early November 2026, inspiring similar meaningless slang terms like \" code rot yams.\" As a meme, the term is largely used to make fun of the love that people have for the Frutiger Aero aesthetic, particularly those who do not really kno…",
+   "modified": "2026-11-08T17:26:52Z",
+   "kinds": [
+    "confirmed"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Anakin Skywalker Gen Z Male Rage Memes",
+   "url": "https://knowyourmeme.com/memes/anakin-skywalker-gen-z-male-rage-memes",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/695/Political_Prequel_Memes_banner.jpg",
+   "published": "2026-10-30T19:16:24Z",
+   "modified": "2026-11-08T22:51:33Z",
+   "summary": "Anakin Skywalker Gen Z Male Rage Memes, also known as Anakin Skywalker Young Men Disillusionment Edits, Anakin Poasting or Generation Z Political Commentar",
+   "status": "confirmed",
+   "about": "Anakin Skywalker Gen Z Male Rage Memes, also known as Anakin Skywalker Young Men Disillusionment Edits, Anakin Poasting or Generation Z Political Commentary Prequel Memes Twitter / X Trend, refers to a series of Prequel Memes, including GIF captions, video edits and image macros, featuring the character Anakin Skywalker from the Star Wars prequel trilogy that portray him as a representation of anger, alienation and disillusionment among young men in Western society. The memes typically use scenes of Anakin becoming frustrated with the Jedi Order and Obi-Wan Kenobi (often used to represent Bab…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Malfoid / Female Draco Malfoy",
+   "url": "https://knowyourmeme.com/memes/malfoid-female-draco-malfoy",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/554/malfoidcover.jpg",
+   "published": "2026-09-30T15:05:54Z",
+   "modified": "2026-11-09T00:34:16Z",
+   "summary": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character",
+   "status": "confirmed",
+   "about": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character Draco Malfoy from the Harry Potter series, popularized through a September 2026 fan art trend. The fan art trend was popularized on X / Twitter in September and October 2026 and typically involves drawing depictions of Draco Malfoy as a woman or teenage girl. The term \"Malfoid\" is a combination of \"Malfoy\" and \" foid,\" a derogatory incel term for women derived from \" femoid,\" a term meant to call women unintelligent.",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  }
+ ],
+ "kym_all": [
+  {
+   "kind": "submissions",
+   "title": "Fat Shane",
+   "url": "https://knowyourmeme.com/memes/fat-shane",
+   "published": "2026-11-07T15:28:21Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/728/0e9fafa7-da4b-4edc-8843-d1391dacccd0.png",
+   "about": "Fat Shane refers to a series of TikTok fan edits in which Shane Walsh, the The Walking Dead character played by Jon Bernthal, is distorted with CapCut bloat, stretch and big-head filters so that he appears obese or balloon-headed. The edits are typically set to Shane's season two death-scene dialogue with Rick Grimes (\"What happened Rick? I thought you weren't the good guy anymore,\" \"I'm a better father than you Rick\") and are labeled \"fat Shane\" or \"gordo\" in captions and on-screen text. The trend grew out of the earlier Bad The Walking Dead Edits shitposting trend and spread across TikTok i…",
+   "modified": "2026-11-08T01:14:25Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Woke 3",
+   "url": "https://knowyourmeme.com/memes/woke-3",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/709/woke3cover.jpg",
+   "published": "2026-11-04T15:57:22Z",
+   "modified": "2026-11-09T00:15:33Z",
+   "summary": "Woke 3 or Woke 3.0 is a slang term and satirical concept that was popularized leading up to and following the 2026 U.S. midterm elections, which saw the De",
+   "status": "submission",
+   "about": "Woke 3 or Woke 3.0 is a slang term and satirical concept that was popularized leading up to and following the 2026 U.S. midterm elections, which saw the Democratic Party win control of the House and Senate, as well as numerous governorships. The term jokes that, with the Democratic win, a new woke era resembling a more extreme and authoritarian version of \"Woke 1\" or \"Woke 2\" will be ushered in. As concepts, Woke 1 is said to focus on culture war, identity politics and social justice, whereas Woke 2 was characterized as being more politically minded, covering things like economic populism, wo…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  },
+  {
+   "kind": "confirmed",
+   "title": "Frutiger Aero Yams",
+   "url": "https://knowyourmeme.com/memes/frutiger-aero-yams",
+   "published": "2026-11-03T18:00:42Z",
+   "summary": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's buttocks designed in the Frutiger Aero aesthetic and, more literally, yam vegetables in a Frutiger Aero aesthetic. The term started spreading through surreal and ironic memes, primarily on Instagram, in mid-Octob…",
+   "platforms": [
+    "Instagram"
+   ],
+   "status": "confirmed",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/706/faytyrcover.jpg",
+   "about": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's buttocks designed in the Frutiger Aero aesthetic and, more literally, yam vegetables in a Frutiger Aero aesthetic. The term started spreading through surreal and ironic memes, primarily on Instagram, in mid-October 2026. It became increasingly popularized in late October and early November 2026, inspiring similar meaningless slang terms like \" code rot yams.\" As a meme, the term is largely used to make fun of the love that people have for the Frutiger Aero aesthetic, particularly those who do not really kno…",
+   "modified": "2026-11-08T17:26:52Z",
+   "kinds": [
+    "confirmed"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Anakin Skywalker Gen Z Male Rage Memes",
+   "url": "https://knowyourmeme.com/memes/anakin-skywalker-gen-z-male-rage-memes",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/695/Political_Prequel_Memes_banner.jpg",
+   "published": "2026-10-30T19:16:24Z",
+   "modified": "2026-11-08T22:51:33Z",
+   "summary": "Anakin Skywalker Gen Z Male Rage Memes, also known as Anakin Skywalker Young Men Disillusionment Edits, Anakin Poasting or Generation Z Political Commentar",
+   "status": "confirmed",
+   "about": "Anakin Skywalker Gen Z Male Rage Memes, also known as Anakin Skywalker Young Men Disillusionment Edits, Anakin Poasting or Generation Z Political Commentary Prequel Memes Twitter / X Trend, refers to a series of Prequel Memes, including GIF captions, video edits and image macros, featuring the character Anakin Skywalker from the Star Wars prequel trilogy that portray him as a representation of anger, alienation and disillusionment among young men in Western society. The memes typically use scenes of Anakin becoming frustrated with the Jedi Order and Obi-Wan Kenobi (often used to represent Bab…",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "Malfoid / Female Draco Malfoy",
+   "url": "https://knowyourmeme.com/memes/malfoid-female-draco-malfoy",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/554/malfoidcover.jpg",
+   "published": "2026-09-30T15:05:54Z",
+   "modified": "2026-11-09T00:34:16Z",
+   "summary": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character",
+   "status": "confirmed",
+   "about": "Malfoid or Malfoid Female Draco Malfoy Art Trend, also known as Fem Malfoy or Draconia Malfoid, is a nickname for a gender-swapped version of the character Draco Malfoy from the Harry Potter series, popularized through a September 2026 fan art trend. The fan art trend was popularized on X / Twitter in September and October 2026 and typically involves drawing depictions of Draco Malfoy as a woman or teenage girl. The term \"Malfoid\" is a combination of \"Malfoy\" and \" foid,\" a derogatory incel term for women derived from \" femoid,\" a term meant to call women unintelligent.",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  }
+ ],
+ "kym_new": 2,
+ "new_memes": [
+  {
+   "kind": "submissions",
+   "title": "Fat Shane",
+   "url": "https://knowyourmeme.com/memes/fat-shane",
+   "published": "2026-11-07T15:28:21Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/728/0e9fafa7-da4b-4edc-8843-d1391dacccd0.png",
+   "about": "Fat Shane refers to a series of TikTok fan edits in which Shane Walsh, the The Walking Dead character played by Jon Bernthal, is distorted with CapCut bloat, stretch and big-head filters so that he appears obese or balloon-headed. The edits are typically set to Shane's season two death-scene dialogue with Rick Grimes (\"What happened Rick? I thought you weren't the good guy anymore,\" \"I'm a better father than you Rick\") and are labeled \"fat Shane\" or \"gordo\" in captions and on-screen text. The trend grew out of the earlier Bad The Walking Dead Edits shitposting trend and spread across TikTok i…",
+   "modified": "2026-11-08T01:14:25Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "confirmed",
+   "title": "Frutiger Aero Yams",
+   "url": "https://knowyourmeme.com/memes/frutiger-aero-yams",
+   "published": "2026-11-03T18:00:42Z",
+   "summary": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's buttocks designed in the Frutiger Aero aesthetic and, more literally, yam vegetables in a Frutiger Aero aesthetic. The term started spreading through surreal and ironic memes, primarily on Instagram, in mid-Octob…",
+   "platforms": [
+    "Instagram"
+   ],
+   "status": "confirmed",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/706/faytyrcover.jpg",
+   "about": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's buttocks designed in the Frutiger Aero aesthetic and, more literally, yam vegetables in a Frutiger Aero aesthetic. The term started spreading through surreal and ironic memes, primarily on Instagram, in mid-October 2026. It became increasingly popularized in late October and early November 2026, inspiring similar meaningless slang terms like \" code rot yams.\" As a meme, the term is largely used to make fun of the love that people have for the Frutiger Aero aesthetic, particularly those who do not really kno…",
+   "modified": "2026-11-08T17:26:52Z",
+   "kinds": [
+    "confirmed"
+   ],
+   "new": false
+  }
+ ],
+ "reddit": [
+  {
+   "sub": "TikTokCringe",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "Someone better show love to that ass or I will lose it",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xr3quz/someone_better_show_love_to_that_ass_or_i_will/"
+    },
+    {
+     "rank": 2,
+     "title": "Man says he’s 30 years old with a 20-year-old son: “I had him when I was 10. I’m from Michigan bro, it’s normal.”",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xqvsye/man_says_hes_30_years_old_with_a_20yearold_son_i/"
+    },
+    {
+     "rank": 3,
+     "title": "😭😭😭I am crying\"you won the battle but not the war\"",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xqsxmx/i_am_cryingyou_won_the_battle_but_not_the_war/"
+    },
+    {
+     "rank": 4,
+     "title": "Petting Zoos are Dangerous!",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xr7egu/petting_zoos_are_dangerous/"
+    },
+    {
+     "rank": 5,
+     "title": "Who the HELLL are you?!",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xqw4fm/who_the_helll_are_you/"
+    },
+    {
+     "rank": 6,
+     "title": "I think Patrick might have just done enough to secure himself a spot on the team? 🤔",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xqw8bu/i_think_patrick_might_have_just_done_enough_to/"
+    },
+    {
+     "rank": 7,
+     "title": "Thank goodness for seatbelts",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xr4plj/thank_goodness_for_seatbelts/"
+    },
+    {
+     "rank": 8,
+     "title": "Where does this angelic voice hail from?",
+     "url": "https://www.reddit.com/r/TikTokCringe/comments/1xr3ek2/where_does_this_angelic_voice_hail_from/"
+    }
+   ]
+  },
+  {
+   "sub": "memes",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "they yearn for the caves",
+     "url": "https://www.reddit.com/r/memes/comments/1xqn806/they_yearn_for_the_caves/"
+    },
+    {
+     "rank": 2,
+     "title": "in the bus or metro*",
+     "url": "https://www.reddit.com/r/memes/comments/1xqurs5/in_the_bus_or_metro/"
+    },
+    {
+     "rank": 3,
+     "title": "if it works... let it be.",
+     "url": "https://www.reddit.com/r/memes/comments/1xr2rxj/if_it_works_let_it_be/"
+    },
+    {
+     "rank": 4,
+     "title": "Nvidia CEO Jensen Huang admits to infidelity in memo to employees",
+     "url": "https://www.reddit.com/r/memes/comments/1xrb9km/nvidia_ceo_jensen_huang_admits_to_infidelity_in/"
+    },
+    {
+     "rank": 5,
+     "title": "Real shit.",
+     "url": "https://www.reddit.com/r/memes/comments/1xqyqfi/real_shit/"
+    },
+    {
+     "rank": 6,
+     "title": "When I’m ready to leave, I have to wait for my family to get up, but they never do.",
+     "url": "https://www.reddit.com/r/memes/comments/1xqy9py/when_im_ready_to_leave_i_have_to_wait_for_my/"
+    },
+    {
+     "rank": 7,
+     "title": "can we have Internet 2 please",
+     "url": "https://www.reddit.com/r/memes/comments/1xqplc5/can_we_have_internet_2_please/"
+    },
+    {
+     "rank": 8,
+     "title": "Can we just not pleaseeee",
+     "url": "https://www.reddit.com/r/memes/comments/1xr0zqe/can_we_just_not_pleaseeee/"
+    }
+   ]
+  },
+  {
+   "sub": "popculturechat",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "People got together today in Chicago to attempt to push the bean 7 inches to the left",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xr8ai9/people_got_together_today_in_chicago_to_attempt/"
+    },
+    {
+     "rank": 2,
+     "title": "Elle Fanning can’t believe ‘Uptown Girls’ has a Rotten Tomatoes score of 12%",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xr31ij/elle_fanning_cant_believe_uptown_girls_has_a/"
+    },
+    {
+     "rank": 3,
+     "title": "Senator-elect James Talarico's appearance in the Saturday Night Live cold open",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xqs51h/senatorelect_james_talaricos_appearance_in_the/"
+    },
+    {
+     "rank": 4,
+     "title": "Mark Ruffalo: “Justice is very, very different than “getting even”. Justice means the law applies to all. This idea that somehow applying the law to a privileged group of elites as “getting even” has brought us this rampant lawlessness.",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xqxqtv/mark_ruffalo_justice_is_very_very_different_than/"
+    },
+    {
+     "rank": 5,
+     "title": "Anya Taylor-Joy stunning at the 2026 LACMA Art+Film Gala",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xqncge/anya_taylorjoy_stunning_at_the_2026_lacma_artfilm/"
+    },
+    {
+     "rank": 6,
+     "title": "NVIDIA is now investigating their CEO Jensen Huang after it was discovered he has been having an affair with a Chinese spy",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xr9n1c/nvidia_is_now_investigating_their_ceo_jensen/"
+    },
+    {
+     "rank": 7,
+     "title": "The Strokes performing ‘Going Shopping’ on SNL with special appearance by Walton Goggins | November 8, 2026",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xqy7to/the_strokes_performing_going_shopping_on_snl_with/"
+    },
+    {
+     "rank": 8,
+     "title": "A Nathan Fielder and Elizabeth Holmes lookalike contest was held at Washington Square Park in NYC (November 7, 2026)",
+     "url": "https://www.reddit.com/r/popculturechat/comments/1xr3gf7/a_nathan_fielder_and_elizabeth_holmes_lookalike/"
+    }
+   ]
+  },
+  {
+   "sub": "shorts",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "RetnuH - house flipper shorts",
+     "url": "https://www.reddit.com/r/shorts/comments/1xrcb6p/retnuh_house_flipper_shorts/"
+    },
+    {
+     "rank": 2,
+     "title": "Mr",
+     "url": "https://www.reddit.com/r/shorts/comments/1xrb38k/mr/"
+    },
+    {
+     "rank": 3,
+     "title": "Am_1000J",
+     "url": "https://www.reddit.com/r/shorts/comments/1xrb317/am_1000j/"
+    },
+    {
+     "rank": 4,
+     "title": "𝖆 𝖗 𝖙 𝖊 𝖋 𝖆 𝖙 𝖔",
+     "url": "https://www.reddit.com/r/shorts/comments/1xras1g/𝖆_𝖗_𝖙_𝖊_𝖋_𝖆_𝖙_𝖔/"
+    },
+    {
+     "rank": 5,
+     "title": "Lme Max",
+     "url": "https://www.reddit.com/r/shorts/comments/1xr8ez5/lme_max/"
+    },
+    {
+     "rank": 6,
+     "title": "The Mystery Craters in the Gobi Desert #shorts",
+     "url": "https://www.reddit.com/r/shorts/comments/1xr68k0/the_mystery_craters_in_the_gobi_desert_shorts/"
+    },
+    {
+     "rank": 7,
+     "title": "SVM - Creations",
+     "url": "https://www.reddit.com/r/shorts/comments/1xr12ik/svm_creations/"
+    },
+    {
+     "rank": 8,
+     "title": "last",
+     "url": "https://www.reddit.com/r/shorts/comments/1xr0eop/last/"
+    }
+   ]
+  },
+  {
+   "sub": "gaming",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "World of Warcraft Forever World First Level 60 Character Hits Cap Three Days After Launch",
+     "url": "https://www.reddit.com/r/gaming/comments/1xqq8on/world_of_warcraft_forever_world_first_level_60/"
+    },
+    {
+     "rank": 2,
+     "title": "For anyone on the fence, play Queen’s Domain. Best game I’ve played in years.",
+     "url": "https://www.reddit.com/r/gaming/comments/1xqvudj/for_anyone_on_the_fence_play_queens_domain_best/"
+    },
+    {
+     "rank": 3,
+     "title": "We meet again",
+     "url": "https://www.reddit.com/r/gaming/comments/1xqzw87/we_meet_again/"
+    },
+    {
+     "rank": 4,
+     "title": "Just days after a sharp decline on the stock market, nVidia's board of directors orders an internal investigation as CEO Jensen Huang admits having an affair with an alleged Chinese spy.",
+     "url": "https://www.reddit.com/r/gaming/comments/1xrbvts/just_days_after_a_sharp_decline_on_the_stock/"
+    },
+    {
+     "rank": 5,
+     "title": "[OoT] That moment when you realize all the water in Hyrule has passed through here",
+     "url": "https://www.reddit.com/r/gaming/comments/1xqw06w/oot_that_moment_when_you_realize_all_the_water_in/"
+    },
+    {
+     "rank": 6,
+     "title": "Games that blatantly show-off the developers country of origin.",
+     "url": "https://www.reddit.com/r/gaming/comments/1xr8xct/games_that_blatantly_showoff_the_developers/"
+    },
+    {
+     "rank": 7,
+     "title": "World of Warcraft: Forever brought back a record number of lapsed players, and has the biggest concurrent player launch in the MMO's history",
+     "url": "https://www.reddit.com/r/gaming/comments/1xrcff5/world_of_warcraft_forever_brought_back_a_record/"
+    },
+    {
+     "rank": 8,
+     "title": "Why do big game IP holders just amass and sit on so many franchises and do nothing with them?",
+     "url": "https://www.reddit.com/r/gaming/comments/1xr6z6f/why_do_big_game_ip_holders_just_amass_and_sit_on/"
+    }
+   ]
+  },
+  {
+   "sub": "IndieGaming",
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "title": "\"The crowd\" teaser (Humans Are Tunnels)",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xqm6bi/the_crowd_teaser_humans_are_tunnels/"
+    },
+    {
+     "rank": 2,
+     "title": "Gladiadorks | Rome wanted heroes. It got you and your friends",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xr1z2q/gladiadorks_rome_wanted_heroes_it_got_you_and/"
+    },
+    {
+     "rank": 3,
+     "title": "We're making a horror game set in a village in rural India. Here's a first look at Jalgaon",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xqxvhp/were_making_a_horror_game_set_in_a_village_in/"
+    },
+    {
+     "rank": 4,
+     "title": "We're making a horror game set inside an old computer. What do you think?",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xra2sr/were_making_a_horror_game_set_inside_an_old/"
+    },
+    {
+     "rank": 5,
+     "title": "We are making a PS1-style roguelite FPS, here is our Trailer",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xr5riq/we_are_making_a_ps1style_roguelite_fps_here_is/"
+    },
+    {
+     "rank": 6,
+     "title": "I wanted a sports game to play with my wife. A year later, my dodgeball playtest is waiting for Steam approval",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xqvz7x/i_wanted_a_sports_game_to_play_with_my_wife_a/"
+    },
+    {
+     "rank": 7,
+     "title": "I'm making NHL Hitz, but in sneakers. 👟🏒 Street Hockey '27 will be coming to PC and consoles early next year!",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xr9otf/im_making_nhl_hitz_but_in_sneakers_street_hockey/"
+    },
+    {
+     "rank": 8,
+     "title": "I’m looking for underrated indie games",
+     "url": "https://www.reddit.com/r/IndieGaming/comments/1xr8x6o/im_looking_for_underrated_indie_games/"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "KR": {
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "id": "rodFpxo7wkE",
+     "title": "With",
+     "channel": "RESCENE - Topic",
+     "views": 4359163,
+     "likes": 52946,
+     "duration": 191,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rodFpxo7wkE",
+     "thumb": "https://i.ytimg.com/vi/rodFpxo7wkE/mqdefault.jpg",
+     "published": "2026-11-03T09:05:03Z"
+    },
+    {
+     "rank": 2,
+     "id": "9-dgMb2EPKo",
+     "title": "GEN vs IG | 녹아웃 스테이지 4강 Day5 | 2026 월드 챔피언십",
+     "channel": "LCK",
+     "views": 2253516,
+     "likes": null,
+     "duration": 13285,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=9-dgMb2EPKo",
+     "thumb": "https://i.ytimg.com/vi/9-dgMb2EPKo/mqdefault.jpg",
+     "published": "2026-11-08T01:18:17Z"
+    },
+    {
+     "rank": 3,
+     "id": "nd3hpJ4oMpU",
+     "title": "back number - 히로인 [ヒロイン] 🎵\"저 가수 입니다🎤\" by 강남",
+     "channel": "동네친구 강나미 [Kangnami]",
+     "views": 2024234,
+     "likes": 24294,
+     "duration": 271,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=nd3hpJ4oMpU",
+     "thumb": "https://i.ytimg.com/vi/nd3hpJ4oMpU/mqdefault.jpg",
+     "published": "2026-11-05T10:00:16Z"
+    },
+    {
+     "rank": 4,
+     "id": "P0AhjCX4onA",
+     "title": "드디어 만난 베컴과 케인",
+     "channel": "이상호",
+     "views": 429856,
+     "likes": 1800,
+     "duration": 1298,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=P0AhjCX4onA",
+     "thumb": "https://i.ytimg.com/vi/P0AhjCX4onA/mqdefault.jpg",
+     "published": "2026-11-08T11:28:08Z"
+    },
+    {
+     "rank": 5,
+     "id": "vA5S5FsVz-c",
+     "title": "Question Mark",
+     "channel": "HANRORO - Topic",
+     "views": 258348,
+     "likes": 3045,
+     "duration": 219,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=vA5S5FsVz-c",
+     "thumb": "https://i.ytimg.com/vi/vA5S5FsVz-c/mqdefault.jpg",
+     "published": "2026-11-05T09:00:31Z"
+    },
+    {
+     "rank": 6,
+     "id": "_tFYEhMN_a0",
+     "title": "소개팅 나가서 1위 했습니다",
+     "channel": "김재원의 즐거운 세상",
+     "views": 628364,
+     "likes": 10045,
+     "duration": 1046,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=_tFYEhMN_a0",
+     "thumb": "https://i.ytimg.com/vi/_tFYEhMN_a0/mqdefault.jpg",
+     "published": "2026-11-08T04:01:45Z"
+    },
+    {
+     "rank": 7,
+     "id": "8oiyutRI3nI",
+     "title": "プレイバック feat. 初音ミク, 雨衣 / “Playback” ft. Miku, Ui",
+     "channel": "うちのボカロは様子がおかしい",
+     "views": 1385637,
+     "likes": 59303,
+     "duration": 150,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=8oiyutRI3nI",
+     "thumb": "https://i.ytimg.com/vi/8oiyutRI3nI/mqdefault.jpg",
+     "published": "2026-11-06T10:00:38Z"
+    },
+    {
+     "rank": 8,
+     "id": "jx28RyWwi7k",
+     "title": "🤣혜안져스 대환장 성대모사 게임🤣 20분 동안 웃겨드립니닼ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+     "channel": "혜안",
+     "views": 837536,
+     "likes": 18138,
+     "duration": 1454,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=jx28RyWwi7k",
+     "thumb": "https://i.ytimg.com/vi/jx28RyWwi7k/mqdefault.jpg",
+     "published": "2026-11-07T10:14:04Z"
+    },
+    {
+     "rank": 9,
+     "id": "OlprURqnZw8",
+     "title": "[MV] ABM - '好きな隙間' (My Lovely Nook) feat. 音街ウナ",
+     "channel": "AnythingBecomeMoe",
+     "views": 1146078,
+     "likes": 57130,
+     "duration": 172,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=OlprURqnZw8",
+     "thumb": "https://i.ytimg.com/vi/OlprURqnZw8/mqdefault.jpg",
+     "published": "2026-11-06T09:00:07Z"
+    },
+    {
+     "rank": 10,
+     "id": "Eo_7emRrCkI",
+     "title": "💖200만 대형유튜버들을 설레게한 커플 소개팅 리뷰 [결말포함ㅋㅋㅋ]",
+     "channel": "김블루",
+     "views": 704748,
+     "likes": 5420,
+     "duration": 2434,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Eo_7emRrCkI",
+     "thumb": "https://i.ytimg.com/vi/Eo_7emRrCkI/mqdefault.jpg",
+     "published": "2026-11-08T03:00:02Z"
+    }
+   ],
+   "total": 50,
+   "shorts": 0
+  },
+  "US": {
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "id": "a8Eo7m-tpb0",
+     "title": "2 Hour Top Christmas Songs of All Time 🎄 Best Christmas Music Playlist 2027 🎅 Merry Christmas Songs",
+     "channel": "Winter Glow Christmas",
+     "views": 85794,
+     "likes": 295,
+     "duration": 7895,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=a8Eo7m-tpb0",
+     "thumb": "https://i.ytimg.com/vi/a8Eo7m-tpb0/mqdefault.jpg",
+     "published": "2026-11-07T01:28:57Z"
+    },
+    {
+     "rank": 2,
+     "id": "ylYSnvZEH0Y",
+     "title": "Salish's 12 Games of Christmas | Official Trailer | Netflix",
+     "channel": "Netflix",
+     "views": 815959,
+     "likes": 14921,
+     "duration": 80,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=ylYSnvZEH0Y",
+     "thumb": "https://i.ytimg.com/vi/ylYSnvZEH0Y/mqdefault.jpg",
+     "published": "2026-11-07T15:30:10Z"
+    },
+    {
+     "rank": 3,
+     "id": "byyrywdt9_0",
+     "title": "We are not qualified for this...",
+     "channel": "SMii7Y",
+     "views": 2675902,
+     "likes": 71598,
+     "duration": 2525,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=byyrywdt9_0",
+     "thumb": "https://i.ytimg.com/vi/byyrywdt9_0/mqdefault.jpg",
+     "published": "2026-11-07T20:13:23Z"
+    },
+    {
+     "rank": 4,
+     "id": "Ezx_4yQftGA",
+     "title": "Otendewa (feat. Jammin)",
+     "channel": "Flunky - Topic",
+     "views": 25085,
+     "likes": 1541,
+     "duration": 145,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Ezx_4yQftGA",
+     "thumb": "https://i.ytimg.com/vi/Ezx_4yQftGA/mqdefault.jpg",
+     "published": "2026-11-06T10:05:02Z"
+    },
+    {
+     "rank": 5,
+     "id": "rMcFUTECbMQ",
+     "title": "Aeon ★ Aha Character Trailer: \"Let the Die Fly\" | Honkai: Star Rail",
+     "channel": "Honkai: Star Rail",
+     "views": 710586,
+     "likes": 48188,
+     "duration": 190,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rMcFUTECbMQ",
+     "thumb": "https://i.ytimg.com/vi/rMcFUTECbMQ/mqdefault.jpg",
+     "published": "2026-11-08T04:00:11Z"
+    },
+    {
+     "rank": 6,
+     "id": "n3GlNNBwMcg",
+     "title": "🎮PLAYING EVERY GTA UNTIL I BEAT IT: Grand Theft Auto 4🎮",
+     "channel": "Kai Cenat Live",
+     "views": 2990450,
+     "likes": 23111,
+     "duration": 42901,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=n3GlNNBwMcg",
+     "thumb": "https://i.ytimg.com/vi/n3GlNNBwMcg/mqdefault.jpg",
+     "published": "2026-11-08T20:30:21Z"
+    },
+    {
+     "rank": 7,
+     "id": "Nj16VkEACBA",
+     "title": "Kevin Gates - Coffee Grounds",
+     "channel": "kevingatesTV",
+     "views": 74608,
+     "likes": 4919,
+     "duration": 195,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Nj16VkEACBA",
+     "thumb": "https://i.ytimg.com/vi/Nj16VkEACBA/mqdefault.jpg",
+     "published": "2026-11-08T13:39:08Z"
+    },
+    {
+     "rank": 8,
+     "id": "fc5Ohn0Q-OM",
+     "title": "Avengers Doomsday Weird Marketing | VisionQuest Final Trailer | X-Men Cast Update | NR Podcast",
+     "channel": "New Rockstars",
+     "views": 79359,
+     "likes": 1600,
+     "duration": 2772,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=fc5Ohn0Q-OM",
+     "thumb": "https://i.ytimg.com/vi/fc5Ohn0Q-OM/mqdefault.jpg",
+     "published": "2026-11-08T16:00:10Z"
+    },
+    {
+     "rank": 9,
+     "id": "3Ae0gNYzaSQ",
+     "title": "The Legend of Zelda: Ocarina of Time",
+     "channel": "videogamedunkey",
+     "views": 475763,
+     "likes": 17826,
+     "duration": 994,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=3Ae0gNYzaSQ",
+     "thumb": "https://i.ytimg.com/vi/3Ae0gNYzaSQ/mqdefault.jpg",
+     "published": "2026-11-08T20:30:27Z"
+    },
+    {
+     "rank": 10,
+     "id": "Yl6F10Bm44Q",
+     "title": "The Strokes - Lonely in the Future (Official Video)",
+     "channel": "The Strokes",
+     "views": 451385,
+     "likes": 34532,
+     "duration": 261,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Yl6F10Bm44Q",
+     "thumb": "https://i.ytimg.com/vi/Yl6F10Bm44Q/mqdefault.jpg",
+     "published": "2026-11-08T06:00:04Z"
+    }
+   ],
+   "total": 50,
+   "shorts": 0
+  }
+ },
+ "trends": {
+  "KR": [
+   {
+    "rank": 1,
+    "title": "르브론 제임스",
+    "traffic": 100,
+    "traffic_raw": "100+",
+    "news_title": "‘클리블랜드 악몽 씻었다’ 르브론, 22점 폭발···필라델피아 ‘주전 3총사 78점 합작’ 불스 꺾고 반등",
+    "news_url": "https://sports.khan.co.kr/article/202611090850003",
+    "url": "https://sports.khan.co.kr/article/202611090850003",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpT5w1lCpkdAzTFaShe0DzJKhxFq_mSFiBsKvjk72cTnmVD7EgBmM045k5sho",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "개발제한구역",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "",
+    "news_url": "",
+    "url": "https://trends.google.com/trends/explore?geo=KR&q=%EA%B0%9C%EB%B0%9C%EC%A0%9C%ED%95%9C%EA%B5%AC%EC%97%AD",
+    "picture": "",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "마린 올솝",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "지휘자 마린 알솝 \"임윤찬은 우리 세기의 위대한 피아니스트 될 것\"",
+    "news_url": "https://www.chosun.com/culture-life/culture_general/2026/11/09/3KYP7RTFZBFRRBFPBVQIYBSZYE/",
+    "url": "https://www.chosun.com/culture-life/culture_general/2026/11/09/3KYP7RTFZBFRRBFPBVQIYBSZYE/",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQi1pASdjptFoWgmI8mOnJI2iUumCh1HEyJnQhSQSHgezINTDfse0LQ2ix66Qg",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "노동법",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "",
+    "news_url": "",
+    "url": "https://trends.google.com/trends/explore?geo=KR&q=%EB%85%B8%EB%8F%99%EB%B2%95",
+    "picture": "",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "기영식",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "‘나솔사계’ 14기 광수 독주에 7기 영식·영호 질투 폭발",
+    "news_url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=435261",
+    "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=435261",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQaQgIlBwozkUiXfyYOCnTwOJl4z5xxZY70xr6UqClyAlvKM4Pslvx6Kz395Ng",
+    "days": 1
+   },
+   {
+    "rank": 6,
+    "title": "수능날",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "“수능날, 오답노트 대신 챙겨라”…불수능 만점자의 비밀무기",
+    "news_url": "https://www.koreadaily.com/article/20261106130050591",
+    "url": "https://www.koreadaily.com/article/20261106130050591",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcReyRlSO49px-KU_tA7iSKEBkWsky9kfv-Wvn7u6tlWC6cAjMexcM9KnDz_bmE",
+    "days": 1
+   },
+   {
+    "rank": 7,
+    "title": "할증",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "택시 ‘요일별 할증제’ 추진… 불금·주말엔 더 비싸지나",
+    "news_url": "https://www.chosun.com/national/transport-environment/2026/11/09/S4OFKKJL6JCMVC6T75PFLXXBQQ/",
+    "url": "https://www.chosun.com/national/transport-environment/2026/11/09/S4OFKKJL6JCMVC6T75PFLXXBQQ/",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRblxBILu7LvUABPPa39rfycKwwbb8D3gC9SdfPmAfSL-fsx9tdnRCZu-hvFNM",
+    "days": 1
+   },
+   {
+    "rank": 8,
+    "title": "t1",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "[롤드컵] '페이커 노데스 캐리'…T1, BLG에 2세트 반격 성공 1-1 원점",
+    "news_url": "https://www.osen.co.kr/article/G1112907057",
+    "url": "https://www.osen.co.kr/article/G1112907057",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC6JwIeIgtx8iBi1pTAhoNtBFUVWwkZM0ExsPhmiWEKtZYopvl7jzhj1rHTA",
+    "days": 1
+   }
+  ],
+  "US": [
+   {
+    "rank": 1,
+    "title": "tommy devito",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Weekly Patriots notes: What New England could do at the trade deadline, intel",
+    "news_url": "https://www.espn.com/nfl/story/_/id/50401769/new-england-patriots-notebook-week-9-trade-deadline-plans",
+    "url": "https://www.espn.com/nfl/story/_/id/50401769/new-england-patriots-notebook-week-9-trade-deadline-plans",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSFAoUeOG2KdWDg4C2LyUE5BPd28TgpreFhSgg0W6AKYOlF2A9X2tPCcbOcc6E",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "corey kiner",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Patriots Hint at Bigger Role for Underrated RB Amid TreVeyon Henderson Absence",
+    "news_url": "https://sports.yahoo.com/articles/patriots-hint-bigger-role-underrated-173304922.html",
+    "url": "https://sports.yahoo.com/articles/patriots-hint-bigger-role-underrated-173304922.html",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSpnRMRhOBQycPqF2HPtBx_xxGr0_uv0Z1HZxFyGdh-7JOQIZSN81RBwEyUhWk",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "kyle monangai",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Who's in, who's out for Bears-Bucs: Will Kyle Monangai play?",
+    "news_url": "https://bearswire.usatoday.com/story/sports/nfl/bears/2026/11/08/bears-vs-bucs-inactives-injuries-kyle-monangai/92663649007/",
+    "url": "https://bearswire.usatoday.com/story/sports/nfl/bears/2026/11/08/bears-vs-bucs-inactives-injuries-kyle-monangai/92663649007/",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSuH-lbWvJ9xWB9GjW6DU_nsqrL--thrOpExf5SOyj6MTlW0Wnw2viAotSmUF8",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "cma awards 2026",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "2026 CMA Awards Performers: Kacey Musgraves, Ella Langley, Tim McGraw",
+    "news_url": "https://www.billboard.com/music/awards/cma-awards-performers-2026-kacey-musgraves-tim-mcgraw-dolly-1236374456/",
+    "url": "https://www.billboard.com/music/awards/cma-awards-performers-2026-kacey-musgraves-tim-mcgraw-dolly-1236374456/",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzClMC0RuJEz6kDxO4WoUnbQcC-Nu-5O_bZUCq-bne3GiRcNOH3WaH92tQSh8",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "trey mcbride",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "Broncos 'outrageously' checked in on Trey McBride's trade status",
+    "news_url": "https://broncoswire.usatoday.com/story/sports/nfl/broncos/2026/11/07/nfl-trade-rumors-broncos-interested-trey-mcbride/92667353007/",
+    "url": "https://broncoswire.usatoday.com/story/sports/nfl/broncos/2026/11/07/nfl-trade-rumors-broncos-interested-trey-mcbride/92667353007/",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQeLje9HgtRdqrAKYkPUuMuI5F9kHPBTQ0bEGfAcToHwNa6unBiiFJxkE-HT3k",
+    "days": 1
+   }
+  ]
+ },
+ "wiki": {
+  "en": [
+   {
+    "title": "Ramayana: Part 1",
+    "views": 785245,
+    "rank": 1,
+    "src_rank": 2,
+    "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Russell Brand",
+    "views": 507816,
+    "rank": 2,
+    "src_rank": 5,
+    "url": "https://en.wikipedia.org/wiki/Russell_Brand",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Abdul El-Sayed",
+    "views": 437069,
+    "rank": 3,
+    "src_rank": 6,
+    "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
+    "days": 6,
+    "prev_rank": null
+   },
+   {
+    "title": "Stephen Miller",
+    "views": 220230,
+    "rank": 4,
+    "src_rank": 7,
+    "url": "https://en.wikipedia.org/wiki/Stephen_Miller",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "2026 United States elections",
+    "views": 219097,
+    "rank": 5,
+    "src_rank": 8,
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+    "days": 5,
+    "prev_rank": null
+   },
+   {
+    "title": "Jon Ossoff",
+    "views": 211594,
+    "rank": 6,
+    "src_rank": 9,
+    "url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+    "days": 3,
+    "prev_rank": null
+   },
+   {
+    "title": ".xyz",
+    "views": 209858,
+    "rank": 7,
+    "src_rank": 10,
+    "url": "https://en.wikipedia.org/wiki/.xyz",
+    "days": 4,
+    "prev_rank": null
+   },
+   {
+    "title": ".xxx",
+    "views": 199678,
+    "rank": 8,
+    "src_rank": 11,
+    "url": "https://en.wikipedia.org/wiki/.xxx",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Nithya Raman",
+    "views": 184633,
+    "rank": 9,
+    "src_rank": 12,
+    "url": "https://en.wikipedia.org/wiki/Nithya_Raman",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "James Talarico",
+    "views": 171286,
+    "rank": 10,
+    "src_rank": 13,
+    "url": "https://en.wikipedia.org/wiki/James_Talarico",
+    "days": 4,
+    "prev_rank": null
+   },
+   {
+    "title": "Scene (2026 film)",
+    "views": 159862,
+    "rank": 11,
+    "src_rank": 14,
+    "url": "https://en.wikipedia.org/wiki/Scene_%282026_film%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Joe Fagnano",
+    "views": 149695,
+    "rank": 12,
+    "src_rank": 15,
+    "url": "https://en.wikipedia.org/wiki/Joe_Fagnano",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Gina Hinojosa",
+    "views": 138504,
+    "rank": 13,
+    "src_rank": 16,
+    "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa",
+    "days": 3,
+    "prev_rank": null
+   },
+   {
+    "title": "Deaths in 2026",
+    "views": 136047,
+    "rank": 14,
+    "src_rank": 17,
+    "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Godzilla Minus Zero",
+    "views": 122560,
+    "rank": 15,
+    "src_rank": 18,
+    "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Joran van der Sloot",
+    "views": 114800,
+    "rank": 16,
+    "src_rank": 19,
+    "url": "https://en.wikipedia.org/wiki/Joran_van_der_Sloot",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "2026 United States House of Representatives elections",
+    "views": 97301,
+    "rank": 18,
+    "src_rank": 21,
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+    "days": 3,
+    "prev_rank": null
+   },
+   {
+    "title": "Ansel Adams",
+    "views": 95161,
+    "rank": 19,
+    "src_rank": 22,
+    "url": "https://en.wikipedia.org/wiki/Ansel_Adams",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Susie Wiles",
+    "views": 94701,
+    "rank": 20,
+    "src_rank": 23,
+    "url": "https://en.wikipedia.org/wiki/Susie_Wiles",
+    "days": 1,
+    "prev_rank": null
+   }
+  ],
+  "en_day": "2026-11-06",
+  "en_same": true,
+  "ko": [
+   {
+    "title": "문화방송",
+    "views": 12069,
+    "rank": 1,
+    "src_rank": 2,
+    "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1",
+    "days": 15,
+    "prev_rank": null
+   },
+   {
+    "title": "서킷브레이커 (주식 시장)",
+    "views": 4899,
+    "rank": 3,
+    "src_rank": 5,
+    "url": "https://ko.wikipedia.org/wiki/%EC%84%9C%ED%82%B7%EB%B8%8C%EB%A0%88%EC%9D%B4%EC%BB%A4_%28%EC%A3%BC%EC%8B%9D_%EC%8B%9C%EC%9E%A5%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "조진웅",
+    "views": 2970,
+    "rank": 5,
+    "src_rank": 7,
+    "url": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%84%EC%9B%85",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "이태성",
+    "views": 2367,
+    "rank": 6,
+    "src_rank": 8,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%83%9C%EC%84%B1",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "라이어 (2026년 드라마)",
+    "views": 1841,
+    "rank": 7,
+    "src_rank": 10,
+    "url": "https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%EC%96%B4_%282026%EB%85%84_%EB%93%9C%EB%9D%BC%EB%A7%88%29",
+    "days": 4,
+    "prev_rank": null
+   },
+   {
+    "title": "정우연 (배우)",
+    "views": 1789,
+    "rank": 8,
+    "src_rank": 11,
+    "url": "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%9A%B0%EC%97%B0_%28%EB%B0%B0%EC%9A%B0%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "차예련",
+    "views": 1727,
+    "rank": 9,
+    "src_rank": 12,
+    "url": "https://ko.wikipedia.org/wiki/%EC%B0%A8%EC%98%88%EB%A0%A8",
+    "days": 7,
+    "prev_rank": null
+   },
+   {
+    "title": "이진희 (배우)",
+    "views": 1650,
+    "rank": 10,
+    "src_rank": 13,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84%ED%9D%AC_%28%EB%B0%B0%EC%9A%B0%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "동티모르",
+    "views": 1397,
+    "rank": 13,
+    "src_rank": 16,
+    "url": "https://ko.wikipedia.org/wiki/%EB%8F%99%ED%8B%B0%EB%AA%A8%EB%A5%B4",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "9·11 테러",
+    "views": 1385,
+    "rank": 14,
+    "src_rank": 17,
+    "url": "https://ko.wikipedia.org/wiki/9%C2%B711_%ED%85%8C%EB%9F%AC",
+    "days": 6,
+    "prev_rank": null
+   },
+   {
+    "title": "이용철 (법조인)",
+    "views": 1275,
+    "rank": 15,
+    "src_rank": 18,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%9A%A9%EC%B2%A0_%28%EB%B2%95%EC%A1%B0%EC%9D%B8%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "도널드 트럼프",
+    "views": 1263,
+    "rank": 16,
+    "src_rank": 19,
+    "url": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%84%90%EB%93%9C_%ED%8A%B8%EB%9F%BC%ED%94%84",
+    "days": 3,
+    "prev_rank": null
+   },
+   {
+    "title": "제임스 탈라리코",
+    "views": 1235,
+    "rank": 17,
+    "src_rank": 20,
+    "url": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%9E%84%EC%8A%A4_%ED%83%88%EB%9D%BC%EB%A6%AC%EC%BD%94",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "아폴로 11호",
+    "views": 1199,
+    "rank": 18,
+    "src_rank": 21,
+    "url": "https://ko.wikipedia.org/wiki/%EC%95%84%ED%8F%B4%EB%A1%9C_11%ED%98%B8",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "욕망의 덫",
+    "views": 1198,
+    "rank": 19,
+    "src_rank": 22,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9A%95%EB%A7%9D%EC%9D%98_%EB%8D%AB",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "대한민국",
+    "views": 1186,
+    "rank": 20,
+    "src_rank": 23,
+    "url": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+    "days": 2,
+    "prev_rank": null
+   }
+  ],
+  "ko_day": "2026-11-06",
+  "ko_same": true
+ },
+ "imgflip": {
+  "items": [
+   {
+    "rank": 1,
+    "id": "181913649",
+    "name": "Drake Hotline Bling",
+    "url": "https://i.imgflip.com/30b1gx.jpg",
+    "box_count": 2,
+    "captions": 1584250,
+    "prev_rank": 1,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 2,
+    "id": "87743020",
+    "name": "Two Buttons",
+    "url": "https://i.imgflip.com/1g8my4.jpg",
+    "box_count": 3,
+    "captions": 1231000,
+    "prev_rank": 2,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 3,
+    "id": "112126428",
+    "name": "Distracted Boyfriend",
+    "url": "https://i.imgflip.com/1ur9b0.jpg",
+    "box_count": 3,
+    "captions": 1205000,
+    "prev_rank": 3,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 4,
+    "id": "222403160",
+    "name": "Bernie I Am Once Again Asking For Your Support",
+    "url": "https://i.imgflip.com/3oevdk.jpg",
+    "box_count": 2,
+    "captions": 359000,
+    "prev_rank": 4,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 5,
+    "id": "217743513",
+    "name": "UNO Draw 25 Cards",
+    "url": "https://i.imgflip.com/3lmzyx.jpg",
+    "box_count": 2,
+    "captions": 670750,
+    "prev_rank": 5,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 6,
+    "id": "252600902",
+    "name": "Always Has Been",
+    "url": "https://i.imgflip.com/46e43q.png",
+    "box_count": 2,
+    "captions": 254500,
+    "prev_rank": 6,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 7,
+    "id": "124822590",
+    "name": "Left Exit 12 Off Ramp",
+    "url": "https://i.imgflip.com/22bdq6.jpg",
+    "box_count": 3,
+    "captions": 749000,
+    "prev_rank": 7,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 8,
+    "id": "322841258",
+    "name": "Anakin Padme 4 Panel",
+    "url": "https://i.imgflip.com/5c7lwq.png",
+    "box_count": 3,
+    "captions": 157750,
+    "prev_rank": 8,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 9,
+    "id": "135256802",
+    "name": "Epic Handshake",
+    "url": "https://i.imgflip.com/28j0te.jpg",
+    "box_count": 3,
+    "captions": 273500,
+    "prev_rank": 10,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 10,
+    "id": "131940431",
+    "name": "Gru's Plan",
+    "url": "https://i.imgflip.com/26jxvz.jpg",
+    "box_count": 4,
+    "captions": 390750,
+    "prev_rank": 9,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 11,
+    "id": "97984",
+    "name": "Disaster Girl",
+    "url": "https://i.imgflip.com/23ls.jpg",
+    "box_count": 2,
+    "captions": 447000,
+    "prev_rank": 11,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 12,
+    "id": "4087833",
+    "name": "Waiting Skeleton",
+    "url": "https://i.imgflip.com/2fm6x.jpg",
+    "box_count": 2,
+    "captions": 500750,
+    "prev_rank": 12,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 13,
+    "id": "131087935",
+    "name": "Running Away Balloon",
+    "url": "https://i.imgflip.com/261o3j.jpg",
+    "box_count": 5,
+    "captions": 607500,
+    "prev_rank": 13,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 14,
+    "id": "91538330",
+    "name": "X, X Everywhere",
+    "url": "https://i.imgflip.com/1ihzfe.jpg",
+    "box_count": 2,
+    "captions": 415000,
+    "prev_rank": 14,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 15,
+    "id": "80707627",
+    "name": "Sad Pablo Escobar",
+    "url": "https://i.imgflip.com/1c1uej.jpg",
+    "box_count": 3,
+    "captions": 262000,
+    "prev_rank": 15,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 16,
+    "id": "161865971",
+    "name": "Marked Safe From",
+    "url": "https://i.imgflip.com/2odckz.jpg",
+    "box_count": 2,
+    "captions": 235750,
+    "prev_rank": 16,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 17,
+    "id": "129242436",
+    "name": "Change My Mind",
+    "url": "https://i.imgflip.com/24y43o.jpg",
+    "box_count": 2,
+    "captions": 682500,
+    "prev_rank": 18,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 18,
+    "id": "224015000",
+    "name": "Bernie Sanders Once Again Asking",
+    "url": "https://i.imgflip.com/3pdf2w.png",
+    "box_count": 2,
+    "captions": 71750,
+    "prev_rank": 17,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 19,
+    "id": "188390779",
+    "name": "Woman Yelling At Cat",
+    "url": "https://i.imgflip.com/345v97.jpg",
+    "box_count": 2,
+    "captions": 413500,
+    "prev_rank": 20,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 20,
+    "id": "309868304",
+    "name": "Trade Offer",
+    "url": "https://i.imgflip.com/54hjww.jpg",
+    "box_count": 3,
+    "captions": 134250,
+    "prev_rank": 19,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 21,
+    "id": "124055727",
+    "name": "Y'all Got Any More Of That",
+    "url": "https://i.imgflip.com/21uy0f.jpg",
+    "box_count": 2,
+    "captions": 236250,
+    "prev_rank": 21,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 22,
+    "id": "438680",
+    "name": "Batman Slapping Robin",
+    "url": "https://i.imgflip.com/9ehk.jpg",
+    "box_count": 2,
+    "captions": 673500,
+    "prev_rank": 22,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 23,
+    "id": "102156234",
+    "name": "Mocking Spongebob",
+    "url": "https://i.imgflip.com/1otk96.jpg",
+    "box_count": 2,
+    "captions": 459500,
+    "prev_rank": 23,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 24,
+    "id": "101470",
+    "name": "Ancient Aliens",
+    "url": "https://i.imgflip.com/26am.jpg",
+    "box_count": 2,
+    "captions": 388750,
+    "prev_rank": 24,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 25,
+    "id": "100777631",
+    "name": "Is This A Pigeon",
+    "url": "https://i.imgflip.com/1o00in.jpg",
+    "box_count": 3,
+    "captions": 245000,
+    "prev_rank": 25,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 26,
+    "id": "61579",
+    "name": "One Does Not Simply",
+    "url": "https://i.imgflip.com/1bij.jpg",
+    "box_count": 2,
+    "captions": 496250,
+    "prev_rank": 26,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 27,
+    "id": "67452763",
+    "name": "Squidward window",
+    "url": "https://i.imgflip.com/145qvv.jpg",
+    "box_count": 2,
+    "captions": 72750,
+    "prev_rank": 27,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 28,
+    "id": "505705955",
+    "name": "Absolute Cinema",
+    "url": "https://i.imgflip.com/8d317n.png",
+    "box_count": 2,
+    "captions": 34250,
+    "prev_rank": 29,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 29,
+    "id": "427308417",
+    "name": "0 days without (Lenny, Simpsons)",
+    "url": "https://i.imgflip.com/72epa9.png",
+    "box_count": 2,
+    "captions": 50750,
+    "prev_rank": 28,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 30,
+    "id": "79132341",
+    "name": "Bike Fall",
+    "url": "https://i.imgflip.com/1b42wl.jpg",
+    "box_count": 3,
+    "captions": 149250,
+    "prev_rank": 30,
+    "delta": 0,
+    "new": false
+   }
+  ],
+  "entered": [],
+  "exited": [],
+  "movers": [
+   {
+    "rank": 9,
+    "id": "135256802",
+    "name": "Epic Handshake",
+    "url": "https://i.imgflip.com/28j0te.jpg",
+    "box_count": 3,
+    "captions": 273500,
+    "prev_rank": 10,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 10,
+    "id": "131940431",
+    "name": "Gru's Plan",
+    "url": "https://i.imgflip.com/26jxvz.jpg",
+    "box_count": 4,
+    "captions": 390750,
+    "prev_rank": 9,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 17,
+    "id": "129242436",
+    "name": "Change My Mind",
+    "url": "https://i.imgflip.com/24y43o.jpg",
+    "box_count": 2,
+    "captions": 682500,
+    "prev_rank": 18,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 18,
+    "id": "224015000",
+    "name": "Bernie Sanders Once Again Asking",
+    "url": "https://i.imgflip.com/3pdf2w.png",
+    "box_count": 2,
+    "captions": 71750,
+    "prev_rank": 17,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 19,
+    "id": "188390779",
+    "name": "Woman Yelling At Cat",
+    "url": "https://i.imgflip.com/345v97.jpg",
+    "box_count": 2,
+    "captions": 413500,
+    "prev_rank": 20,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 20,
+    "id": "309868304",
+    "name": "Trade Offer",
+    "url": "https://i.imgflip.com/54hjww.jpg",
+    "box_count": 3,
+    "captions": 134250,
+    "prev_rank": 19,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 28,
+    "id": "505705955",
+    "name": "Absolute Cinema",
+    "url": "https://i.imgflip.com/8d317n.png",
+    "box_count": 2,
+    "captions": 34250,
+    "prev_rank": 29,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 29,
+    "id": "427308417",
+    "name": "0 days without (Lenny, Simpsons)",
+    "url": "https://i.imgflip.com/72epa9.png",
+    "box_count": 2,
+    "captions": 50750,
+    "prev_rank": 28,
+    "delta": -1,
+    "new": false
+   }
+  ],
+  "total": 100,
+  "compared": true
+ },
+ "cross": [],
+ "filtered": {
+  "trends_kr": 2,
+  "trends_us": 5,
+  "wiki_en": 1,
+  "wiki_ko": 4
+ },
+ "sources": [
+  {
+   "key": "kym_feed",
+   "label": "KYM 뉴스피드",
+   "status": "ok",
+   "count": 0,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_confirmed",
+   "label": "KYM 확정 엔트리",
+   "status": "ok",
+   "count": 1,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_submissions",
+   "label": "KYM 제출 엔트리",
+   "status": "ok",
+   "count": 1,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_search",
+   "label": "KYM 검색 (tiktok·instagram·reels)",
+   "status": "ok",
+   "count": 3,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "youtube_kr",
+   "label": "YouTube 인기 KR",
+   "status": "ok",
+   "count": 50,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "youtube_us",
+   "label": "YouTube 인기 US",
+   "status": "ok",
+   "count": 50,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reels",
+   "label": "릴스·틱톡 정리 영상",
+   "status": "ok",
+   "count": 76,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "trends_kr",
+   "label": "Google 트렌드 KR",
+   "status": "ok",
+   "count": 10,
+   "error": "",
+   "filtered": 2
+  },
+  {
+   "key": "trends_us",
+   "label": "Google 트렌드 US",
+   "status": "ok",
+   "count": 10,
+   "error": "",
+   "filtered": 5
+  },
+  {
+   "key": "wiki_en",
+   "label": "위키백과 en",
+   "status": "ok",
+   "count": 20,
+   "error": "",
+   "filtered": 1
+  },
+  {
+   "key": "wiki_ko",
+   "label": "위키백과 ko",
+   "status": "ok",
+   "count": 20,
+   "error": "",
+   "filtered": 4
+  },
+  {
+   "key": "imgflip",
+   "label": "Imgflip 템플릿",
+   "status": "ok",
+   "count": 100,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "threads",
+   "label": "Threads 키워드",
+   "status": "skip",
+   "count": 0,
+   "error": "THREADS_ACCESS_TOKEN 없음",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_tiktokcringe",
+   "label": "Reddit r/TikTokCringe",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_memes",
+   "label": "Reddit r/memes",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_popculturechat",
+   "label": "Reddit r/popculturechat",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_shorts",
+   "label": "Reddit r/shorts",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_gaming",
+   "label": "Reddit r/gaming",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_indiegaming",
+   "label": "Reddit r/IndieGaming",
+   "status": "ok",
+   "count": 8,
+   "error": "",
+   "filtered": 0
+  }
+ ],
+ "threads": {
+  "status": "skip",
+  "error": "THREADS_ACCESS_TOKEN 없음",
+  "token": {
+   "present": false,
+   "note": "Threads: 토큰 없음"
+  },
+  "note": "Threads: 토큰 없음",
+  "keywords": [],
+  "rising": [],
+  "total_posts": 0,
+  "n_ok": 0,
+  "failed": [],
+  "calls": 0,
+  "hours": 24,
+  "limit": 100,
+  "compared": false
+ },
+ "reels": {
+  "status": "ok",
+  "error": "",
+  "note": "",
+  "videos": [
+   {
+    "rank": 1,
+    "id": "ng3mLuAmWVs",
+    "title": "네온 챌린지 '원래 이런 춤이었다'",
+    "channel": "김팩트",
+    "views": 1271362,
+    "likes": 15507,
+    "duration": 31,
+    "shorts": true,
+    "published": "2026-10-28T12:18:57Z",
+    "url": "https://www.youtube.com/shorts/ng3mLuAmWVs",
+    "thumb": "https://i.ytimg.com/vi/ng3mLuAmWVs/mqdefault.jpg",
+    "query": "요즘 유행 릴스 챌린지",
+    "queries": [
+     "요즘 유행 릴스 챌린지"
+    ],
+    "new": true
+   },
+   {
+    "rank": 2,
+    "id": "1PyO97H4Ql8",
+    "title": "요즘 유행한다는 고숭이 카피 챌린지",
+    "channel": "빵먹다살찐떡",
+    "views": 1096921,
+    "likes": 23381,
+    "duration": 28,
+    "shorts": true,
+    "published": "2026-10-27T09:44:13Z",
+    "url": "https://www.youtube.com/shorts/1PyO97H4Ql8",
+    "thumb": "https://i.ytimg.com/vi/1PyO97H4Ql8/mqdefault.jpg",
+    "query": "요즘 유행 릴스 챌린지",
+    "queries": [
+     "요즘 유행 릴스 챌린지"
+    ],
+    "new": false
+   },
+   {
+    "rank": 3,
+    "id": "Jx7N3u41Atc",
+    "title": "Top 3 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #trending Shorts",
+    "channel": "Cineflix Ajit ",
+    "views": 667862,
+    "likes": null,
+    "duration": 27,
+    "shorts": true,
+    "published": "2026-10-31T12:10:19Z",
+    "url": "https://www.youtube.com/shorts/Jx7N3u41Atc",
+    "thumb": "https://i.ytimg.com/vi/Jx7N3u41Atc/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": true
+   },
+   {
+    "rank": 4,
+    "id": "7yBgdwOcAFc",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶| YouTube & Instagram Trending Hits #trending​​​​​ Shorts #explore #song",
+    "channel": "Prakash_Gupta",
+    "views": 632219,
+    "likes": null,
+    "duration": 39,
+    "shorts": true,
+    "published": "2026-10-31T11:20:33Z",
+    "url": "https://www.youtube.com/shorts/7yBgdwOcAFc",
+    "thumb": "https://i.ytimg.com/vi/7yBgdwOcAFc/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 5,
+    "id": "QF-tWR6J5F8",
+    "title": "지수가 틱톡에만 올려준 챌린지 영상",
+    "channel": "얼미새도 새라우",
+    "views": 524897,
+    "likes": 8044,
+    "duration": 14,
+    "shorts": true,
+    "published": "2026-11-02T10:00:13Z",
+    "url": "https://www.youtube.com/shorts/QF-tWR6J5F8",
+    "thumb": "https://i.ytimg.com/vi/QF-tWR6J5F8/mqdefault.jpg",
+    "query": "틱톡 챌린지 모음",
+    "queries": [
+     "틱톡 챌린지 모음"
+    ],
+    "new": true
+   },
+   {
+    "rank": 6,
+    "id": "whL9-Z1D2gk",
+    "title": "SI TE SABES EL TIKTOK 💫🎤 2026 (Los Trends Más Virales)",
+    "channel": "KAREN MASHUP",
+    "views": 261646,
+    "likes": 1561,
+    "duration": 250,
+    "shorts": false,
+    "published": "2026-11-05T16:00:04Z",
+    "url": "https://www.youtube.com/watch?v=whL9-Z1D2gk",
+    "thumb": "https://i.ytimg.com/vi/whL9-Z1D2gk/mqdefault.jpg",
+    "query": "viral tiktok trends compilation",
+    "queries": [
+     "viral tiktok trends compilation"
+    ],
+    "new": false
+   },
+   {
+    "rank": 7,
+    "id": "PQZ59BEW_N8",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #trending Shorts #explore #song",
+    "channel": "musicMastiZone",
+    "views": 161952,
+    "likes": null,
+    "duration": 36,
+    "shorts": true,
+    "published": "2026-11-01T07:35:41Z",
+    "url": "https://www.youtube.com/shorts/PQZ59BEW_N8",
+    "thumb": "https://i.ytimg.com/vi/PQZ59BEW_N8/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": true
+   },
+   {
+    "rank": 8,
+    "id": "JwPer9pQrYQ",
+    "title": "틱톡에서 난리 난 댄스 챌린지! 이거 너무 웃겨 😂",
+    "channel": "민서율 seoyool",
+    "views": 153848,
+    "likes": 2546,
+    "duration": 12,
+    "shorts": true,
+    "published": "2026-10-30T10:51:11Z",
+    "url": "https://www.youtube.com/shorts/JwPer9pQrYQ",
+    "thumb": "https://i.ytimg.com/vi/JwPer9pQrYQ/mqdefault.jpg",
+    "query": "틱톡 챌린지 모음",
+    "queries": [
+     "틱톡 챌린지 모음"
+    ],
+    "new": false
+   },
+   {
+    "rank": 9,
+    "id": "z9dI3C_dHZg",
+    "title": "요즘 핫한 댄스 챌린지의 비밀 공개 😂 A20LITE - NEON",
+    "channel": "플러티 [FLIRTY]",
+    "views": 115526,
+    "likes": 737,
+    "duration": 11,
+    "shorts": true,
+    "published": "2026-11-01T11:37:30Z",
+    "url": "https://www.youtube.com/shorts/z9dI3C_dHZg",
+    "thumb": "https://i.ytimg.com/vi/z9dI3C_dHZg/mqdefault.jpg",
+    "query": "요즘 유행 릴스 챌린지",
+    "queries": [
+     "요즘 유행 릴스 챌린지"
+    ],
+    "new": false
+   },
+   {
+    "rank": 10,
+    "id": "WXc1NFPNgm8",
+    "title": "SI TE SABES EL TIKTOK 🔥🎧 2026 (Los Trends Más Virales)",
+    "channel": "KAREN MASHUP",
+    "views": 99288,
+    "likes": 711,
+    "duration": 444,
+    "shorts": false,
+    "published": "2026-11-04T16:00:24Z",
+    "url": "https://www.youtube.com/watch?v=WXc1NFPNgm8",
+    "thumb": "https://i.ytimg.com/vi/WXc1NFPNgm8/mqdefault.jpg",
+    "query": "viral tiktok trends compilation",
+    "queries": [
+     "viral tiktok trends compilation"
+    ],
+    "new": true
+   }
+  ],
+  "items": [
+   {
+    "key": "ytshorts",
+    "term": "#ytshorts",
+    "kind": "hashtag",
+    "n": 4,
+    "n_videos": 4,
+    "views": 1473500,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.33
+   },
+   {
+    "key": "kpop",
+    "term": "#kpop",
+    "kind": "hashtag",
+    "n": 4,
+    "n_videos": 4,
+    "views": 836481,
+    "videos": [
+     "QF-tWR6J5F8",
+     "JwPer9pQrYQ",
+     "z9dI3C_dHZg"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.33
+   },
+   {
+    "key": "ajit singh song",
+    "term": "ajit singh song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "arijit singh song",
+    "term": "arijit singh song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "arijit singh songs",
+    "term": "arijit singh songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "bhojpuri new song",
+    "term": "bhojpuri new song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "bollywood bollywood song",
+    "term": "bollywood bollywood song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "bollywood love songs",
+    "term": "bollywood love songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "bollywood romantic songs",
+    "term": "bollywood romantic songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "chapri song",
+    "term": "chapri song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "desi trending songs",
+    "term": "desi trending songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "dhavni basunsali songs",
+    "term": "dhavni basunsali songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "english top songs",
+    "term": "english top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "five trending songs",
+    "term": "five trending songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "hindi new song",
+    "term": "hindi new song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "hindi top songs",
+    "term": "hindi top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "india sisa song",
+    "term": "india sisa song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "india viral music",
+    "term": "india viral music",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "indian love song",
+    "term": "indian love song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "indian viral songs",
+    "term": "indian viral songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "ishq lyrical song",
+    "term": "ishq lyrical song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "jaye sajna song",
+    "term": "jaye sajna song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "kamli song",
+    "term": "kamli song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "kashmiri love song",
+    "term": "kashmiri love song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "mother song",
+    "term": "mother song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "punjabi new song",
+    "term": "punjabi new song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "punjabi top songs",
+    "term": "punjabi top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "queries new song",
+    "term": "Queries new song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "queries top songs",
+    "term": "Queries top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "rauhan malik song",
+    "term": "rauhan malik song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1462033,
+    "videos": [
+     "Jx7N3u41Atc",
+     "7yBgdwOcAFc",
+     "PQZ59BEW_N8"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   }
+  ],
+  "n_videos": 34,
+  "n_items": 30,
+  "n_found": 76,
+  "n_roundup": 35,
+  "dropped": {
+   "제목 해시태그 스팸": 14,
+   "제목에 트렌드·사운드·챌린지 없음": 18,
+   "리믹스·매시업": 9
+  },
+  "queries": [
+   {
+    "q": "릴스 트렌드",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "틱톡 챌린지 모음",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "요즘 유행 릴스 챌린지",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "릴스 음원 추천",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "reels trends this week",
+    "region": "US",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "trending sounds instagram reels this week",
+    "region": "US",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "tiktok trends this week explained",
+    "region": "US",
+    "duration": "medium",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "viral tiktok trends compilation",
+    "region": "US",
+    "duration": "medium",
+    "n": 10,
+    "error": ""
+   }
+  ],
+  "n_queries_ok": 8,
+  "calls": {
+   "search": 8,
+   "videos": 2,
+   "units": 802
+  },
+  "days": 14,
+  "order": "relevance",
+  "published_after": "2026-10-26T00:41:58Z",
+  "compared": true
+ }
+}
