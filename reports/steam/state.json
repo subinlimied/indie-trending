@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 17,
-  "date": "2026-11-08",
+  "n": 18,
+  "date": "2026-11-09",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 17,
-  "date": "2026-11-08",
+  "n": 18,
+  "date": "2026-11-09",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 17,
-  "date": "2026-11-08",
+  "n": 18,
+  "date": "2026-11-09",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 17,
-  "date": "2026-11-08",
+  "n": 18,
+  "date": "2026-11-09",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 17,
-  "date": "2026-11-08",
+  "n": 18,
+  "date": "2026-11-09",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 17,
-  "date": "2026-11-08",
+  "n": 18,
+  "date": "2026-11-09",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -72,15 +72,15 @@
   "since": "2026-11-05"
  },
  "pick": {
-  "name": "Retro Rewind - Video Store Simulator",
+  "name": "A Place for Every Potion",
   "n": 1,
-  "date": "2026-11-08",
-  "since": "2026-11-08"
+  "date": "2026-11-09",
+  "since": "2026-11-09"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 1,
-  "date": "2026-11-08",
+  "n": 2,
+  "date": "2026-11-09",
   "since": "2026-11-08"
  },
  "tag:Building": {
@@ -115,9 +115,9 @@
  },
  "tag:Free To Play": {
   "name": "Free To Play",
-  "n": 2,
-  "date": "2026-11-05",
-  "since": "2026-11-04"
+  "n": 1,
+  "date": "2026-11-09",
+  "since": "2026-11-09"
  },
  "tag:Singleplayer": {
   "name": "Singleplayer",
@@ -244,5 +244,29 @@
   "n": 1,
   "date": "2026-11-08",
   "since": "2026-11-08"
+ },
+ "tag:Choices Matter": {
+  "name": "Choices Matter",
+  "n": 1,
+  "date": "2026-11-09",
+  "since": "2026-11-09"
+ },
+ "tag:Multiple Endings": {
+  "name": "Multiple Endings",
+  "n": 1,
+  "date": "2026-11-09",
+  "since": "2026-11-09"
+ },
+ "tag:Lore-Rich": {
+  "name": "Lore-Rich",
+  "n": 1,
+  "date": "2026-11-09",
+  "since": "2026-11-09"
+ },
+ "tag:Replay Value": {
+  "name": "Replay Value",
+  "n": 1,
+  "date": "2026-11-09",
+  "since": "2026-11-09"
  }
 }

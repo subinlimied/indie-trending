@@ -1,8 +1,8 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 15,
-  "date": "2026-11-08",
+  "n": 16,
+  "date": "2026-11-09",
   "since": "2026-10-23"
  },
  "tags:Idle": {
@@ -49,15 +49,15 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 18,
-  "date": "2026-11-08",
+  "n": 19,
+  "date": "2026-11-09",
   "since": "2026-10-20"
  },
  "genre:Action": {
   "name": "Action",
   "n": 1,
-  "date": "2026-11-05",
-  "since": "2026-11-05"
+  "date": "2026-11-09",
+  "since": "2026-11-09"
  },
  "genre:Adventure": {
   "name": "Adventure",
@@ -67,8 +67,8 @@
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 18,
-  "date": "2026-11-08",
+  "n": 19,
+  "date": "2026-11-09",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
@@ -79,14 +79,14 @@
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 12,
-  "date": "2026-11-08",
+  "n": 13,
+  "date": "2026-11-09",
   "since": "2026-10-26"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 13,
-  "date": "2026-11-08",
+  "n": 14,
+  "date": "2026-11-09",
   "since": "2026-10-25"
  },
  "made_with:Unreal Engine": {
@@ -96,15 +96,15 @@
   "since": "2026-10-26"
  },
  "pick": {
-  "name": "Muertitos",
+  "name": "Don't eat the cashier!",
   "n": 1,
-  "date": "2026-11-08",
-  "since": "2026-11-08"
+  "date": "2026-11-09",
+  "since": "2026-11-09"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 14,
-  "date": "2026-11-08",
+  "n": 15,
+  "date": "2026-11-09",
   "since": "2026-10-24"
  },
  "tags:Card Game": {
@@ -115,14 +115,14 @@
  },
  "tags:Creepy": {
   "name": "Creepy",
-  "n": 1,
-  "date": "2026-11-08",
+  "n": 2,
+  "date": "2026-11-09",
   "since": "2026-11-08"
  },
  "genre:Platformer": {
   "name": "Platformer",
-  "n": 1,
-  "date": "2026-11-08",
+  "n": 2,
+  "date": "2026-11-09",
   "since": "2026-11-08"
  },
  "genre:Card Game": {
@@ -133,14 +133,14 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 17,
-  "date": "2026-11-08",
+  "n": 18,
+  "date": "2026-11-09",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 16,
-  "date": "2026-11-08",
+  "n": 17,
+  "date": "2026-11-09",
   "since": "2026-10-22"
  },
  "tags:3D": {
@@ -157,15 +157,15 @@
  },
  "tags:Cute": {
   "name": "Cute",
-  "n": 5,
-  "date": "2026-11-08",
+  "n": 6,
+  "date": "2026-11-09",
   "since": "2026-11-02"
  },
  "made_with:Construct": {
   "name": "Construct",
-  "n": 6,
-  "date": "2026-11-03",
-  "since": "2026-10-29"
+  "n": 1,
+  "date": "2026-11-09",
+  "since": "2026-11-09"
  },
  "made_with:libGDX": {
   "name": "libGDX",
@@ -193,9 +193,9 @@
  },
  "genre:Role Playing": {
   "name": "Role Playing",
-  "n": 2,
-  "date": "2026-11-05",
-  "since": "2026-11-04"
+  "n": 1,
+  "date": "2026-11-09",
+  "since": "2026-11-09"
  },
  "made_with:PICO-8": {
   "name": "PICO-8",
@@ -205,15 +205,15 @@
  },
  "made_with:RPG Maker": {
   "name": "RPG Maker",
-  "n": 3,
-  "date": "2026-11-08",
+  "n": 4,
+  "date": "2026-11-09",
   "since": "2026-11-04"
  },
  "tags:Dark": {
   "name": "Dark",
   "n": 1,
-  "date": "2026-11-01",
-  "since": "2026-11-01"
+  "date": "2026-11-09",
+  "since": "2026-11-09"
  },
  "tags:Anime": {
   "name": "Anime",
@@ -230,8 +230,8 @@
  "tags:Fantasy": {
   "name": "Fantasy",
   "n": 1,
-  "date": "2026-10-26",
-  "since": "2026-10-26"
+  "date": "2026-11-09",
+  "since": "2026-11-09"
  },
  "tags:Otome": {
   "name": "Otome",
@@ -292,5 +292,11 @@
   "n": 1,
   "date": "2026-11-08",
   "since": "2026-11-08"
+ },
+ "tags:Multiple Endings": {
+  "name": "Multiple Endings",
+  "n": 1,
+  "date": "2026-11-09",
+  "since": "2026-11-09"
  }
 }
