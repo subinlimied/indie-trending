@@ -1,8 +1,8 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 16,
-  "date": "2026-11-09",
+  "n": 17,
+  "date": "2026-11-11",
   "since": "2026-10-23"
  },
  "tags:Idle": {
@@ -49,14 +49,14 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 19,
-  "date": "2026-11-09",
+  "n": 20,
+  "date": "2026-11-11",
   "since": "2026-10-20"
  },
  "genre:Action": {
   "name": "Action",
-  "n": 1,
-  "date": "2026-11-09",
+  "n": 2,
+  "date": "2026-11-11",
   "since": "2026-11-09"
  },
  "genre:Adventure": {
@@ -67,8 +67,8 @@
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 19,
-  "date": "2026-11-09",
+  "n": 20,
+  "date": "2026-11-11",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
@@ -79,14 +79,14 @@
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 13,
-  "date": "2026-11-09",
+  "n": 14,
+  "date": "2026-11-11",
   "since": "2026-10-26"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 14,
-  "date": "2026-11-09",
+  "n": 15,
+  "date": "2026-11-11",
   "since": "2026-10-25"
  },
  "made_with:Unreal Engine": {
@@ -96,15 +96,15 @@
   "since": "2026-10-26"
  },
  "pick": {
-  "name": "Don't eat the cashier!",
+  "name": "14 Days With You [DEMO]",
   "n": 1,
-  "date": "2026-11-09",
-  "since": "2026-11-09"
+  "date": "2026-11-11",
+  "since": "2026-11-11"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 15,
-  "date": "2026-11-09",
+  "n": 16,
+  "date": "2026-11-11",
   "since": "2026-10-24"
  },
  "tags:Card Game": {
@@ -115,14 +115,14 @@
  },
  "tags:Creepy": {
   "name": "Creepy",
-  "n": 2,
-  "date": "2026-11-09",
+  "n": 3,
+  "date": "2026-11-11",
   "since": "2026-11-08"
  },
  "genre:Platformer": {
   "name": "Platformer",
-  "n": 2,
-  "date": "2026-11-09",
+  "n": 3,
+  "date": "2026-11-11",
   "since": "2026-11-08"
  },
  "genre:Card Game": {
@@ -133,14 +133,14 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 18,
-  "date": "2026-11-09",
+  "n": 19,
+  "date": "2026-11-11",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 17,
-  "date": "2026-11-09",
+  "n": 18,
+  "date": "2026-11-11",
   "since": "2026-10-22"
  },
  "tags:3D": {
@@ -157,8 +157,8 @@
  },
  "tags:Cute": {
   "name": "Cute",
-  "n": 6,
-  "date": "2026-11-09",
+  "n": 7,
+  "date": "2026-11-11",
   "since": "2026-11-02"
  },
  "made_with:Construct": {
@@ -176,8 +176,8 @@
  "tags:Indie": {
   "name": "Indie",
   "n": 1,
-  "date": "2026-11-08",
-  "since": "2026-11-08"
+  "date": "2026-11-11",
+  "since": "2026-11-11"
  },
  "tags:Retro": {
   "name": "Retro",
@@ -205,14 +205,14 @@
  },
  "made_with:RPG Maker": {
   "name": "RPG Maker",
-  "n": 4,
-  "date": "2026-11-09",
+  "n": 5,
+  "date": "2026-11-11",
   "since": "2026-11-04"
  },
  "tags:Dark": {
   "name": "Dark",
-  "n": 1,
-  "date": "2026-11-09",
+  "n": 2,
+  "date": "2026-11-11",
   "since": "2026-11-09"
  },
  "tags:Anime": {
@@ -236,14 +236,14 @@
  "tags:Otome": {
   "name": "Otome",
   "n": 1,
-  "date": "2026-10-28",
-  "since": "2026-10-28"
+  "date": "2026-11-11",
+  "since": "2026-11-11"
  },
  "genre:Shooter": {
   "name": "Shooter",
   "n": 1,
-  "date": "2026-11-02",
-  "since": "2026-11-02"
+  "date": "2026-11-11",
+  "since": "2026-11-11"
  },
  "tags:Comedy": {
   "name": "Comedy",
@@ -284,8 +284,8 @@
  "made_with:Twine": {
   "name": "Twine",
   "n": 1,
-  "date": "2026-11-05",
-  "since": "2026-11-05"
+  "date": "2026-11-11",
+  "since": "2026-11-11"
  },
  "genre:Survival": {
   "name": "Survival",

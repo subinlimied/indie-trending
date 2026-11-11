@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 18,
-  "date": "2026-11-09",
+  "n": 19,
+  "date": "2026-11-11",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 18,
-  "date": "2026-11-09",
+  "n": 19,
+  "date": "2026-11-11",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 18,
-  "date": "2026-11-09",
+  "n": 19,
+  "date": "2026-11-11",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 18,
-  "date": "2026-11-09",
+  "n": 19,
+  "date": "2026-11-11",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 18,
-  "date": "2026-11-09",
+  "n": 19,
+  "date": "2026-11-11",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 18,
-  "date": "2026-11-09",
+  "n": 19,
+  "date": "2026-11-11",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -61,21 +61,21 @@
  },
  "tag:Action Roguelike": {
   "name": "Action Roguelike",
-  "n": 2,
-  "date": "2026-10-22",
-  "since": "2026-10-21"
+  "n": 1,
+  "date": "2026-11-11",
+  "since": "2026-11-11"
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 2,
-  "date": "2026-11-08",
-  "since": "2026-11-05"
+  "n": 1,
+  "date": "2026-11-11",
+  "since": "2026-11-11"
  },
  "pick": {
-  "name": "A Place for Every Potion",
+  "name": "Warhammer 40,000: Boltgun 2",
   "n": 1,
-  "date": "2026-11-09",
-  "since": "2026-11-09"
+  "date": "2026-11-11",
+  "since": "2026-11-11"
  },
  "tag:RPG": {
   "name": "RPG",
@@ -97,15 +97,15 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 2,
-  "date": "2026-11-08",
-  "since": "2026-11-05"
+  "n": 1,
+  "date": "2026-11-11",
+  "since": "2026-11-11"
  },
  "tag:Online Co-Op": {
   "name": "Online Co-Op",
-  "n": 2,
-  "date": "2026-11-08",
-  "since": "2026-11-05"
+  "n": 1,
+  "date": "2026-11-11",
+  "since": "2026-11-11"
  },
  "tag:PvP": {
   "name": "PvP",
@@ -268,5 +268,17 @@
   "n": 1,
   "date": "2026-11-09",
   "since": "2026-11-09"
+ },
+ "tag:Incremental": {
+  "name": "Incremental",
+  "n": 1,
+  "date": "2026-11-11",
+  "since": "2026-11-11"
+ },
+ "tag:Relaxing": {
+  "name": "Relaxing",
+  "n": 1,
+  "date": "2026-11-11",
+  "since": "2026-11-11"
  }
 }
