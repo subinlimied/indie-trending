@@ -1,8 +1,8 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 17,
-  "date": "2026-11-11",
+  "n": 18,
+  "date": "2026-11-12",
   "since": "2026-10-23"
  },
  "tags:Idle": {
@@ -31,9 +31,9 @@
  },
  "tags:Atmospheric": {
   "name": "Atmospheric",
-  "n": 9,
-  "date": "2026-11-05",
-  "since": "2026-10-28"
+  "n": 1,
+  "date": "2026-11-12",
+  "since": "2026-11-12"
  },
  "tags:Cozy": {
   "name": "Cozy",
@@ -49,44 +49,44 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 20,
-  "date": "2026-11-11",
+  "n": 21,
+  "date": "2026-11-12",
   "since": "2026-10-20"
  },
  "genre:Action": {
   "name": "Action",
-  "n": 2,
-  "date": "2026-11-11",
+  "n": 3,
+  "date": "2026-11-12",
   "since": "2026-11-09"
  },
  "genre:Adventure": {
   "name": "Adventure",
-  "n": 8,
-  "date": "2026-11-08",
-  "since": "2026-10-30"
+  "n": 1,
+  "date": "2026-11-12",
+  "since": "2026-11-12"
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 20,
-  "date": "2026-11-11",
+  "n": 21,
+  "date": "2026-11-12",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
   "name": "Strategy",
-  "n": 2,
-  "date": "2026-10-29",
-  "since": "2026-10-28"
+  "n": 1,
+  "date": "2026-11-12",
+  "since": "2026-11-12"
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 14,
-  "date": "2026-11-11",
+  "n": 15,
+  "date": "2026-11-12",
   "since": "2026-10-26"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 15,
-  "date": "2026-11-11",
+  "n": 16,
+  "date": "2026-11-12",
   "since": "2026-10-25"
  },
  "made_with:Unreal Engine": {
@@ -96,15 +96,15 @@
   "since": "2026-10-26"
  },
  "pick": {
-  "name": "14 Days With You [DEMO]",
+  "name": "My Fiancé is a Fiend [DEMO]",
   "n": 1,
-  "date": "2026-11-11",
-  "since": "2026-11-11"
+  "date": "2026-11-12",
+  "since": "2026-11-12"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 16,
-  "date": "2026-11-11",
+  "n": 17,
+  "date": "2026-11-12",
   "since": "2026-10-24"
  },
  "tags:Card Game": {
@@ -133,21 +133,21 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 19,
-  "date": "2026-11-11",
+  "n": 20,
+  "date": "2026-11-12",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 18,
-  "date": "2026-11-11",
+  "n": 19,
+  "date": "2026-11-12",
   "since": "2026-10-22"
  },
  "tags:3D": {
   "name": "3D",
-  "n": 4,
-  "date": "2026-11-04",
-  "since": "2026-11-01"
+  "n": 1,
+  "date": "2026-11-12",
+  "since": "2026-11-12"
  },
  "tags:First-Person": {
   "name": "First-Person",
@@ -182,8 +182,8 @@
  "tags:Retro": {
   "name": "Retro",
   "n": 1,
-  "date": "2026-10-29",
-  "since": "2026-10-29"
+  "date": "2026-11-12",
+  "since": "2026-11-12"
  },
  "tags:Psychological Horror": {
   "name": "Psychological Horror",
@@ -205,8 +205,8 @@
  },
  "made_with:RPG Maker": {
   "name": "RPG Maker",
-  "n": 5,
-  "date": "2026-11-11",
+  "n": 6,
+  "date": "2026-11-12",
   "since": "2026-11-04"
  },
  "tags:Dark": {
@@ -260,8 +260,8 @@
  "made_with:GameMaker": {
   "name": "GameMaker",
   "n": 1,
-  "date": "2026-11-02",
-  "since": "2026-11-02"
+  "date": "2026-11-12",
+  "since": "2026-11-12"
  },
  "genre:Puzzle": {
   "name": "Puzzle",
@@ -272,8 +272,8 @@
  "tags:No AI": {
   "name": "No AI",
   "n": 1,
-  "date": "2026-11-05",
-  "since": "2026-11-05"
+  "date": "2026-11-12",
+  "since": "2026-11-12"
  },
  "tags:LGBT": {
   "name": "LGBT",
@@ -298,5 +298,11 @@
   "n": 1,
   "date": "2026-11-09",
   "since": "2026-11-09"
+ },
+ "tags:Arcade": {
+  "name": "Arcade",
+  "n": 1,
+  "date": "2026-11-12",
+  "since": "2026-11-12"
  }
 }

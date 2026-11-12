@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 19,
-  "date": "2026-11-11",
+  "n": 20,
+  "date": "2026-11-12",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 19,
-  "date": "2026-11-11",
+  "n": 20,
+  "date": "2026-11-12",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 19,
-  "date": "2026-11-11",
+  "n": 20,
+  "date": "2026-11-12",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 19,
-  "date": "2026-11-11",
+  "n": 20,
+  "date": "2026-11-12",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 19,
-  "date": "2026-11-11",
+  "n": 20,
+  "date": "2026-11-12",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 19,
-  "date": "2026-11-11",
+  "n": 20,
+  "date": "2026-11-12",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -67,21 +67,21 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 1,
-  "date": "2026-11-11",
+  "n": 2,
+  "date": "2026-11-12",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "Warhammer 40,000: Boltgun 2",
+  "name": "Wobbly Life",
   "n": 1,
-  "date": "2026-11-11",
-  "since": "2026-11-11"
+  "date": "2026-11-12",
+  "since": "2026-11-12"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 2,
-  "date": "2026-11-09",
-  "since": "2026-11-08"
+  "n": 1,
+  "date": "2026-11-12",
+  "since": "2026-11-12"
  },
  "tag:Building": {
   "name": "Building",
@@ -97,14 +97,14 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 1,
-  "date": "2026-11-11",
+  "n": 2,
+  "date": "2026-11-12",
   "since": "2026-11-11"
  },
  "tag:Online Co-Op": {
   "name": "Online Co-Op",
-  "n": 1,
-  "date": "2026-11-11",
+  "n": 2,
+  "date": "2026-11-12",
   "since": "2026-11-11"
  },
  "tag:PvP": {
@@ -271,14 +271,14 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 1,
-  "date": "2026-11-11",
+  "n": 2,
+  "date": "2026-11-12",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
   "name": "Relaxing",
-  "n": 1,
-  "date": "2026-11-11",
+  "n": 2,
+  "date": "2026-11-12",
   "since": "2026-11-11"
  }
 }
