@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 20,
-  "date": "2026-11-12",
+  "n": 21,
+  "date": "2026-11-13",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 20,
-  "date": "2026-11-12",
+  "n": 21,
+  "date": "2026-11-13",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 20,
-  "date": "2026-11-12",
+  "n": 21,
+  "date": "2026-11-13",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 20,
-  "date": "2026-11-12",
+  "n": 21,
+  "date": "2026-11-13",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 20,
-  "date": "2026-11-12",
+  "n": 21,
+  "date": "2026-11-13",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 20,
-  "date": "2026-11-12",
+  "n": 21,
+  "date": "2026-11-13",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -67,27 +67,27 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 2,
-  "date": "2026-11-12",
+  "n": 3,
+  "date": "2026-11-13",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "Wobbly Life",
+  "name": "Aviassembly",
   "n": 1,
-  "date": "2026-11-12",
-  "since": "2026-11-12"
+  "date": "2026-11-13",
+  "since": "2026-11-13"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 1,
-  "date": "2026-11-12",
+  "n": 2,
+  "date": "2026-11-13",
   "since": "2026-11-12"
  },
  "tag:Building": {
   "name": "Building",
   "n": 1,
-  "date": "2026-10-27",
-  "since": "2026-10-27"
+  "date": "2026-11-13",
+  "since": "2026-11-13"
  },
  "tag:Bullet Hell": {
   "name": "Bullet Hell",
@@ -122,8 +122,8 @@
  "tag:Singleplayer": {
   "name": "Singleplayer",
   "n": 1,
-  "date": "2026-11-05",
-  "since": "2026-11-05"
+  "date": "2026-11-13",
+  "since": "2026-11-13"
  },
  "tag:Sandbox": {
   "name": "Sandbox",
@@ -271,8 +271,8 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 2,
-  "date": "2026-11-12",
+  "n": 3,
+  "date": "2026-11-13",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
@@ -280,5 +280,11 @@
   "n": 2,
   "date": "2026-11-12",
   "since": "2026-11-11"
+ },
+ "tag:Physics": {
+  "name": "Physics",
+  "n": 1,
+  "date": "2026-11-13",
+  "since": "2026-11-13"
  }
 }
