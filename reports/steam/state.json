@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 21,
-  "date": "2026-11-13",
+  "n": 22,
+  "date": "2026-11-14",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 21,
-  "date": "2026-11-13",
+  "n": 22,
+  "date": "2026-11-14",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 21,
-  "date": "2026-11-13",
+  "n": 22,
+  "date": "2026-11-14",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 21,
-  "date": "2026-11-13",
+  "n": 22,
+  "date": "2026-11-14",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 21,
-  "date": "2026-11-13",
+  "n": 22,
+  "date": "2026-11-14",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 21,
-  "date": "2026-11-13",
+  "n": 22,
+  "date": "2026-11-14",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -67,20 +67,20 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 3,
-  "date": "2026-11-13",
+  "n": 4,
+  "date": "2026-11-14",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "Aviassembly",
+  "name": "Ski-E-O! Ski Resort Tycoon",
   "n": 1,
-  "date": "2026-11-13",
-  "since": "2026-11-13"
+  "date": "2026-11-14",
+  "since": "2026-11-14"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 2,
-  "date": "2026-11-13",
+  "n": 3,
+  "date": "2026-11-14",
   "since": "2026-11-12"
  },
  "tag:Building": {
@@ -97,9 +97,9 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 2,
-  "date": "2026-11-12",
-  "since": "2026-11-11"
+  "n": 1,
+  "date": "2026-11-14",
+  "since": "2026-11-14"
  },
  "tag:Online Co-Op": {
   "name": "Online Co-Op",
@@ -121,8 +121,8 @@
  },
  "tag:Singleplayer": {
   "name": "Singleplayer",
-  "n": 1,
-  "date": "2026-11-13",
+  "n": 2,
+  "date": "2026-11-14",
   "since": "2026-11-13"
  },
  "tag:Sandbox": {
@@ -271,8 +271,8 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 3,
-  "date": "2026-11-13",
+  "n": 4,
+  "date": "2026-11-14",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
@@ -286,5 +286,11 @@
   "n": 1,
   "date": "2026-11-13",
   "since": "2026-11-13"
+ },
+ "tag:Cute": {
+  "name": "Cute",
+  "n": 1,
+  "date": "2026-11-14",
+  "since": "2026-11-14"
  }
 }
