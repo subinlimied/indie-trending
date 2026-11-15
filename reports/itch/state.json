@@ -1,8 +1,8 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 20,
-  "date": "2026-11-14",
+  "n": 21,
+  "date": "2026-11-15",
   "since": "2026-10-23"
  },
  "tags:Idle": {
@@ -49,26 +49,26 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 23,
-  "date": "2026-11-14",
+  "n": 24,
+  "date": "2026-11-15",
   "since": "2026-10-20"
  },
  "genre:Action": {
   "name": "Action",
-  "n": 5,
-  "date": "2026-11-14",
+  "n": 6,
+  "date": "2026-11-15",
   "since": "2026-11-09"
  },
  "genre:Adventure": {
   "name": "Adventure",
-  "n": 3,
-  "date": "2026-11-14",
+  "n": 4,
+  "date": "2026-11-15",
   "since": "2026-11-12"
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 23,
-  "date": "2026-11-14",
+  "n": 24,
+  "date": "2026-11-15",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
@@ -79,14 +79,14 @@
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 17,
-  "date": "2026-11-14",
+  "n": 18,
+  "date": "2026-11-15",
   "since": "2026-10-26"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 18,
-  "date": "2026-11-14",
+  "n": 19,
+  "date": "2026-11-15",
   "since": "2026-10-25"
  },
  "made_with:Unreal Engine": {
@@ -96,15 +96,15 @@
   "since": "2026-11-13"
  },
  "pick": {
-  "name": "Labyrinth",
+  "name": "The Freak Circus",
   "n": 1,
-  "date": "2026-11-14",
-  "since": "2026-11-14"
+  "date": "2026-11-15",
+  "since": "2026-11-15"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 19,
-  "date": "2026-11-14",
+  "n": 20,
+  "date": "2026-11-15",
   "since": "2026-10-24"
  },
  "tags:Card Game": {
@@ -115,8 +115,8 @@
  },
  "tags:Creepy": {
   "name": "Creepy",
-  "n": 1,
-  "date": "2026-11-14",
+  "n": 2,
+  "date": "2026-11-15",
   "since": "2026-11-14"
  },
  "genre:Platformer": {
@@ -133,20 +133,20 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 22,
-  "date": "2026-11-14",
+  "n": 23,
+  "date": "2026-11-15",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 21,
-  "date": "2026-11-14",
+  "n": 22,
+  "date": "2026-11-15",
   "since": "2026-10-22"
  },
  "tags:3D": {
   "name": "3D",
-  "n": 3,
-  "date": "2026-11-14",
+  "n": 4,
+  "date": "2026-11-15",
   "since": "2026-11-12"
  },
  "tags:First-Person": {
@@ -157,15 +157,15 @@
  },
  "tags:Cute": {
   "name": "Cute",
-  "n": 7,
-  "date": "2026-11-11",
-  "since": "2026-11-02"
+  "n": 1,
+  "date": "2026-11-15",
+  "since": "2026-11-15"
  },
  "made_with:Construct": {
   "name": "Construct",
   "n": 1,
-  "date": "2026-11-09",
-  "since": "2026-11-09"
+  "date": "2026-11-15",
+  "since": "2026-11-15"
  },
  "made_with:libGDX": {
   "name": "libGDX",
@@ -176,8 +176,8 @@
  "tags:Indie": {
   "name": "Indie",
   "n": 1,
-  "date": "2026-11-11",
-  "since": "2026-11-11"
+  "date": "2026-11-15",
+  "since": "2026-11-15"
  },
  "tags:Retro": {
   "name": "Retro",
@@ -211,9 +211,9 @@
  },
  "tags:Dark": {
   "name": "Dark",
-  "n": 2,
-  "date": "2026-11-11",
-  "since": "2026-11-09"
+  "n": 1,
+  "date": "2026-11-15",
+  "since": "2026-11-15"
  },
  "tags:Anime": {
   "name": "Anime",
@@ -259,15 +259,15 @@
  },
  "made_with:GameMaker": {
   "name": "GameMaker",
-  "n": 2,
-  "date": "2026-11-13",
-  "since": "2026-11-12"
+  "n": 1,
+  "date": "2026-11-15",
+  "since": "2026-11-15"
  },
  "genre:Puzzle": {
   "name": "Puzzle",
   "n": 1,
-  "date": "2026-11-13",
-  "since": "2026-11-13"
+  "date": "2026-11-15",
+  "since": "2026-11-15"
  },
  "tags:No AI": {
   "name": "No AI",

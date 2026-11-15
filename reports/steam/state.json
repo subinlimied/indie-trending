@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 22,
-  "date": "2026-11-14",
+  "n": 23,
+  "date": "2026-11-15",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 22,
-  "date": "2026-11-14",
+  "n": 23,
+  "date": "2026-11-15",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 22,
-  "date": "2026-11-14",
+  "n": 23,
+  "date": "2026-11-15",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 22,
-  "date": "2026-11-14",
+  "n": 23,
+  "date": "2026-11-15",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 22,
-  "date": "2026-11-14",
+  "n": 23,
+  "date": "2026-11-15",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 22,
-  "date": "2026-11-14",
+  "n": 23,
+  "date": "2026-11-15",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -62,25 +62,25 @@
  "tag:Action Roguelike": {
   "name": "Action Roguelike",
   "n": 1,
-  "date": "2026-11-11",
-  "since": "2026-11-11"
+  "date": "2026-11-15",
+  "since": "2026-11-15"
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 4,
-  "date": "2026-11-14",
+  "n": 5,
+  "date": "2026-11-15",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "Ski-E-O! Ski Resort Tycoon",
+  "name": "How They Built the Pyramids",
   "n": 1,
-  "date": "2026-11-14",
-  "since": "2026-11-14"
+  "date": "2026-11-15",
+  "since": "2026-11-15"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 3,
-  "date": "2026-11-14",
+  "n": 4,
+  "date": "2026-11-15",
   "since": "2026-11-12"
  },
  "tag:Building": {
@@ -121,8 +121,8 @@
  },
  "tag:Singleplayer": {
   "name": "Singleplayer",
-  "n": 2,
-  "date": "2026-11-14",
+  "n": 3,
+  "date": "2026-11-15",
   "since": "2026-11-13"
  },
  "tag:Sandbox": {
@@ -271,8 +271,8 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 4,
-  "date": "2026-11-14",
+  "n": 5,
+  "date": "2026-11-15",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
@@ -292,5 +292,11 @@
   "n": 1,
   "date": "2026-11-14",
   "since": "2026-11-14"
+ },
+ "tag:Economy": {
+  "name": "Economy",
+  "n": 1,
+  "date": "2026-11-15",
+  "since": "2026-11-15"
  }
 }
