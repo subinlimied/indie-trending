@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 24,
-  "date": "2026-11-16",
+  "n": 25,
+  "date": "2026-11-17",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 24,
-  "date": "2026-11-16",
+  "n": 25,
+  "date": "2026-11-17",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 24,
-  "date": "2026-11-16",
+  "n": 25,
+  "date": "2026-11-17",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 24,
-  "date": "2026-11-16",
+  "n": 25,
+  "date": "2026-11-17",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 24,
-  "date": "2026-11-16",
+  "n": 25,
+  "date": "2026-11-17",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 24,
-  "date": "2026-11-16",
+  "n": 25,
+  "date": "2026-11-17",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -67,20 +67,20 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 6,
-  "date": "2026-11-16",
+  "n": 7,
+  "date": "2026-11-17",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "Punch The Walls",
+  "name": "Space Engineers 2",
   "n": 1,
-  "date": "2026-11-16",
-  "since": "2026-11-16"
+  "date": "2026-11-17",
+  "since": "2026-11-17"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 5,
-  "date": "2026-11-16",
+  "n": 6,
+  "date": "2026-11-17",
   "since": "2026-11-12"
  },
  "tag:Building": {
@@ -97,15 +97,15 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 1,
-  "date": "2026-11-16",
+  "n": 2,
+  "date": "2026-11-17",
   "since": "2026-11-16"
  },
  "tag:Online Co-Op": {
   "name": "Online Co-Op",
-  "n": 2,
-  "date": "2026-11-12",
-  "since": "2026-11-11"
+  "n": 1,
+  "date": "2026-11-17",
+  "since": "2026-11-17"
  },
  "tag:PvP": {
   "name": "PvP",
@@ -271,15 +271,15 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 6,
-  "date": "2026-11-16",
+  "n": 7,
+  "date": "2026-11-17",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
   "name": "Relaxing",
-  "n": 2,
-  "date": "2026-11-12",
-  "since": "2026-11-11"
+  "n": 1,
+  "date": "2026-11-17",
+  "since": "2026-11-17"
  },
  "tag:Physics": {
   "name": "Physics",

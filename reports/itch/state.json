@@ -1,8 +1,8 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 22,
-  "date": "2026-11-16",
+  "n": 23,
+  "date": "2026-11-17",
   "since": "2026-10-23"
  },
  "tags:Idle": {
@@ -19,9 +19,9 @@
  },
  "tags:No generative AI was used": {
   "name": "No generative AI was used",
-  "n": 2,
-  "date": "2026-11-14",
-  "since": "2026-11-13"
+  "n": 1,
+  "date": "2026-11-17",
+  "since": "2026-11-17"
  },
  "tags:Clicker": {
   "name": "Clicker",
@@ -31,8 +31,8 @@
  },
  "tags:Atmospheric": {
   "name": "Atmospheric",
-  "n": 1,
-  "date": "2026-11-16",
+  "n": 2,
+  "date": "2026-11-17",
   "since": "2026-11-16"
  },
  "tags:Cozy": {
@@ -49,26 +49,26 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 25,
-  "date": "2026-11-16",
+  "n": 26,
+  "date": "2026-11-17",
   "since": "2026-10-20"
  },
  "genre:Action": {
   "name": "Action",
-  "n": 7,
-  "date": "2026-11-16",
+  "n": 8,
+  "date": "2026-11-17",
   "since": "2026-11-09"
  },
  "genre:Adventure": {
   "name": "Adventure",
-  "n": 5,
-  "date": "2026-11-16",
+  "n": 6,
+  "date": "2026-11-17",
   "since": "2026-11-12"
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 25,
-  "date": "2026-11-16",
+  "n": 26,
+  "date": "2026-11-17",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
@@ -79,32 +79,32 @@
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 19,
-  "date": "2026-11-16",
+  "n": 20,
+  "date": "2026-11-17",
   "since": "2026-10-26"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 20,
-  "date": "2026-11-16",
+  "n": 21,
+  "date": "2026-11-17",
   "since": "2026-10-25"
  },
  "made_with:Unreal Engine": {
   "name": "Unreal Engine",
-  "n": 1,
-  "date": "2026-11-16",
+  "n": 2,
+  "date": "2026-11-17",
   "since": "2026-11-16"
  },
  "pick": {
-  "name": "Don't eat the cashier!",
+  "name": "The Last Sheet",
   "n": 1,
-  "date": "2026-11-16",
-  "since": "2026-11-16"
+  "date": "2026-11-17",
+  "since": "2026-11-17"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 21,
-  "date": "2026-11-16",
+  "n": 22,
+  "date": "2026-11-17",
   "since": "2026-10-24"
  },
  "tags:Card Game": {
@@ -133,32 +133,32 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 24,
-  "date": "2026-11-16",
+  "n": 25,
+  "date": "2026-11-17",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 23,
-  "date": "2026-11-16",
+  "n": 24,
+  "date": "2026-11-17",
   "since": "2026-10-22"
  },
  "tags:3D": {
   "name": "3D",
-  "n": 5,
-  "date": "2026-11-16",
+  "n": 6,
+  "date": "2026-11-17",
   "since": "2026-11-12"
  },
  "tags:First-Person": {
   "name": "First-Person",
   "n": 1,
-  "date": "2026-10-30",
-  "since": "2026-10-30"
+  "date": "2026-11-17",
+  "since": "2026-11-17"
  },
  "tags:Cute": {
   "name": "Cute",
-  "n": 2,
-  "date": "2026-11-16",
+  "n": 3,
+  "date": "2026-11-17",
   "since": "2026-11-15"
  },
  "made_with:Construct": {
@@ -193,8 +193,8 @@
  },
  "genre:Role Playing": {
   "name": "Role Playing",
-  "n": 1,
-  "date": "2026-11-16",
+  "n": 2,
+  "date": "2026-11-17",
   "since": "2026-11-16"
  },
  "made_with:PICO-8": {
@@ -310,5 +310,11 @@
   "n": 1,
   "date": "2026-11-14",
   "since": "2026-11-14"
+ },
+ "made_with:Phaser": {
+  "name": "Phaser",
+  "n": 1,
+  "date": "2026-11-17",
+  "since": "2026-11-17"
  }
 }
