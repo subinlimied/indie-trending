@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 25,
-  "date": "2026-11-17",
+  "n": 26,
+  "date": "2026-11-18",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 25,
-  "date": "2026-11-17",
+  "n": 26,
+  "date": "2026-11-18",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 25,
-  "date": "2026-11-17",
+  "n": 26,
+  "date": "2026-11-18",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 25,
-  "date": "2026-11-17",
+  "n": 26,
+  "date": "2026-11-18",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 25,
-  "date": "2026-11-17",
+  "n": 26,
+  "date": "2026-11-18",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 25,
-  "date": "2026-11-17",
+  "n": 26,
+  "date": "2026-11-18",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -62,25 +62,25 @@
  "tag:Action Roguelike": {
   "name": "Action Roguelike",
   "n": 1,
-  "date": "2026-11-15",
-  "since": "2026-11-15"
+  "date": "2026-11-18",
+  "since": "2026-11-18"
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 7,
-  "date": "2026-11-17",
+  "n": 8,
+  "date": "2026-11-18",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "Space Engineers 2",
+  "name": "just volleyball",
   "n": 1,
-  "date": "2026-11-17",
-  "since": "2026-11-17"
+  "date": "2026-11-18",
+  "since": "2026-11-18"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 6,
-  "date": "2026-11-17",
+  "n": 7,
+  "date": "2026-11-18",
   "since": "2026-11-12"
  },
  "tag:Building": {
@@ -211,9 +211,9 @@
  },
  "tag:Idler": {
   "name": "Idler",
-  "n": 2,
-  "date": "2026-11-03",
-  "since": "2026-11-02"
+  "n": 1,
+  "date": "2026-11-18",
+  "since": "2026-11-18"
  },
  "tag:Clicker": {
   "name": "Clicker",
@@ -271,8 +271,8 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 7,
-  "date": "2026-11-17",
+  "n": 8,
+  "date": "2026-11-18",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
@@ -284,8 +284,8 @@
  "tag:Physics": {
   "name": "Physics",
   "n": 1,
-  "date": "2026-11-16",
-  "since": "2026-11-16"
+  "date": "2026-11-18",
+  "since": "2026-11-18"
  },
  "tag:Cute": {
   "name": "Cute",
