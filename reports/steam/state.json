@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 26,
-  "date": "2026-11-18",
+  "n": 27,
+  "date": "2026-11-19",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 26,
-  "date": "2026-11-18",
+  "n": 27,
+  "date": "2026-11-19",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 26,
-  "date": "2026-11-18",
+  "n": 27,
+  "date": "2026-11-19",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 26,
-  "date": "2026-11-18",
+  "n": 27,
+  "date": "2026-11-19",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 26,
-  "date": "2026-11-18",
+  "n": 27,
+  "date": "2026-11-19",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 26,
-  "date": "2026-11-18",
+  "n": 27,
+  "date": "2026-11-19",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -67,20 +67,20 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 8,
-  "date": "2026-11-18",
+  "n": 9,
+  "date": "2026-11-19",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "just volleyball",
+  "name": "Round and Round Inc.",
   "n": 1,
-  "date": "2026-11-18",
-  "since": "2026-11-18"
+  "date": "2026-11-19",
+  "since": "2026-11-19"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 7,
-  "date": "2026-11-18",
+  "n": 8,
+  "date": "2026-11-19",
   "since": "2026-11-12"
  },
  "tag:Building": {
@@ -97,9 +97,9 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 2,
-  "date": "2026-11-17",
-  "since": "2026-11-16"
+  "n": 1,
+  "date": "2026-11-19",
+  "since": "2026-11-19"
  },
  "tag:Online Co-Op": {
   "name": "Online Co-Op",
@@ -211,8 +211,8 @@
  },
  "tag:Idler": {
   "name": "Idler",
-  "n": 1,
-  "date": "2026-11-18",
+  "n": 2,
+  "date": "2026-11-19",
   "since": "2026-11-18"
  },
  "tag:Clicker": {
@@ -271,8 +271,8 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 8,
-  "date": "2026-11-18",
+  "n": 9,
+  "date": "2026-11-19",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
@@ -283,8 +283,8 @@
  },
  "tag:Physics": {
   "name": "Physics",
-  "n": 1,
-  "date": "2026-11-18",
+  "n": 2,
+  "date": "2026-11-19",
   "since": "2026-11-18"
  },
  "tag:Cute": {
