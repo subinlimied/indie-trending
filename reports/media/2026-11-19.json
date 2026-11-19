@@ -1,0 +1,2713 @@
+{
+ "kind": "media",
+ "platform": "media",
+ "platform_ko": "미디어·밈",
+ "date": "2026-11-19",
+ "round": 29,
+ "prev_date": "2026-11-18",
+ "status": [
+  [
+   "회차",
+   "29회차"
+  ],
+  [
+   "비교 대상",
+   "2026-11-18 · 1일치"
+  ],
+  [
+   "틱톡·인스타",
+   "2건 / KYM 15"
+  ],
+  [
+   "새 밈",
+   "12건"
+  ],
+  [
+   "제외 필터",
+   "10건"
+  ],
+  [
+   "게임 교차",
+   "0건"
+  ],
+  [
+   "Threads",
+   "토큰 없음"
+  ],
+  [
+   "릴스·틱톡 정리",
+   "영상 37개 · 항목 30"
+  ],
+  [
+   "수집",
+   "2026-11-19 02:36:15 UTC"
+  ]
+ ],
+ "collect_line": "소스 12/18 정상 · 건너뜀 1 · KYM 15건(틱톡·인스타 2) · 새 밈 12 · Reddit 0/6 · 검색 7/5 · 위키 20/18 · 제외 필터 10건 · 실패: Reddit r/TikTokCringe, Reddit r/memes, Reddit r/popculturechat, Reddit r/shorts, Reddit r/gaming, Reddit r/IndieGaming · Threads: 토큰 없음 · 릴스 정리 영상 37개 · 항목 30",
+ "basis_line": "KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 48시간) · Reddit top(t=day) 8개 × 6개 서브레딧 · YouTube 인기 급상승 KR·US Top 10(60초 이하는 쇼츠 표시, 키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · 릴스·틱톡 트렌드 정리 = YouTube 검색 8개 검색어 × 최근 14일 조회수순 10개(키 있을 때, 제목·설명의 목록 줄·해시태그·챌린지/사운드 구절을 항목으로) · Imgflip 인기 템플릿 100개 중 상위 30 · Threads 키워드 검색 TOP·RECENT 각 100건(토큰 있을 때, 24시간 게시 수는 RECENT 기준이라 100건에서 포화) · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · 게임 교차 = Steam·itch 스냅샷 게임 이름과 대조",
+ "pick": {
+  "kind": "search",
+  "query": "tiktok",
+  "title": "We Got X Before GTA 6",
+  "url": "https://knowyourmeme.com/memes/we-got-x-before-gta-6",
+  "image": "https://i.kym-cdn.com/entries/icons/original/000/049/451/we_got_before_GTA_6.jpg",
+  "published": "2024-04-23T08:14:52Z",
+  "modified": "2026-11-18T17:44:41Z",
+  "summary": "We Got X Before GTA 6, also known as We Got X Before GTA VI, is a phrasal template meme that was popularized in 2023, primarily through comments on platfor",
+  "status": "confirmed",
+  "about": "We Got X Before GTA 6, also known as We Got X Before GTA VI or simply the Before GTA 6 Meme, is a phrasal template meme that was popularized in 2023, primarily through comments on platforms such as Reddit and TikTok. The meme plays on the lengthy rollout of the highly anticipated video game Grand Theft Auto 6 from Rockstar Games, with the last game in the series having been released in 2013. Jokes following the template, \"No way we got X before GTA 6,\" typically point to a significant world event, technological advancement or unlikely event that occurred before the release of the game.",
+  "platforms": [
+   "TikTok"
+  ],
+  "updated_only": true,
+  "kinds": [
+   "search"
+  ],
+  "new": false,
+  "streak": 1,
+  "since": "2026-11-19",
+  "reason": "KYM 최신 TikTok 항목"
+ },
+ "platform_counts": [
+  [
+   "TikTok",
+   2
+  ],
+  [
+   "YouTube",
+   1
+  ]
+ ],
+ "shortform": [
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "We Got X Before GTA 6",
+   "url": "https://knowyourmeme.com/memes/we-got-x-before-gta-6",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/049/451/we_got_before_GTA_6.jpg",
+   "published": "2024-04-23T08:14:52Z",
+   "modified": "2026-11-18T17:44:41Z",
+   "summary": "We Got X Before GTA 6, also known as We Got X Before GTA VI, is a phrasal template meme that was popularized in 2023, primarily through comments on platfor",
+   "status": "confirmed",
+   "about": "We Got X Before GTA 6, also known as We Got X Before GTA VI or simply the Before GTA 6 Meme, is a phrasal template meme that was popularized in 2023, primarily through comments on platforms such as Reddit and TikTok. The meme plays on the lengthy rollout of the highly anticipated video game Grand Theft Auto 6 from Rockstar Games, with the last game in the series having been released in 2013. Jokes following the template, \"No way we got X before GTA 6,\" typically point to a significant world event, technological advancement or unlikely event that occurred before the release of the game.",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "This Is Fine",
+   "url": "https://knowyourmeme.com/memes/this-is-fine",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/018/012/this_is_fine.jpeg",
+   "published": "2015-05-12T19:40:16Z",
+   "modified": "2026-11-18T07:33:43Z",
+   "summary": "This Is Fine. refers to a panel from the web comic Gunshow where a dog is slowly engulfed in flames while proclaiming that everything is fine. It is used",
+   "status": "confirmed",
+   "about": "This Is Fine is a two-pane image of an anthropomorphic dog trying to assure himself that everything is fine, despite sitting in a room that is engulfed in flames. Taken from an issue of the webcomic series Gunshow illustrated by artist K.C. Green and published in early January 2013, the cartoon is typically used as a reaction image to convey a sense of self-denial or acceptance in the face of a hopeless situation.",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  }
+ ],
+ "kym_all": [
+  {
+   "kind": "newsfeed",
+   "title": "Robert Pattinson Has Been Cast As Everyone",
+   "url": "https://knowyourmeme.com/memes/robert-pattinson-casting-announcement-parodies-robert-pattinson-cast-as-x",
+   "published": "2026-11-18T22:29:01Z",
+   "summary": "Robert Pattinson Casting Announcement Parodies or Robert Pattinson Cast As X Memes, also known as Robert Pattinson Playing Every Role, refers to a series of memes and jokes referencing English actor Robert Pattinson's extensive casting and perceived dominance in the film industry in the 2020s. The…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/784/Screenshot_2026-11-18_124434.png",
+   "about": "Robert Pattinson Casting Announcement Parodies or Robert Pattinson Cast As X Memes, also known as Robert Pattinson Playing Every Role, refers to a series of memes and jokes referencing English actor Robert Pattinson's extensive casting and perceived dominance in the film industry in the 2020s. The joke is often materialized via fictional casting announcements and parodies, in which Pattinson is jokingly announced to be starring in various outlandish or otherwise unfitting roles. Some of the memes also extend beyond movie and TV show roles, such as being CEO of Nvidia. The meme largely spread…",
+   "modified": "2026-11-18T20:25:42Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "What Was General Grant Doing on The Thermostat?",
+   "url": "https://knowyourmeme.com/memes/what-was-general-grant-doing-on-the-thermostat",
+   "published": "2026-11-18T22:28:24Z",
+   "summary": "What Was General Grant Doing on The Thermostat refers to a catchphrase and series of memes taken from a scene in the 2011 Diary of a Wimpy Kid movie Rodrick Rules. The line is said by Frank Heffley (played by actor Steve Zahn), the father of Greg, Rodrick and Manny, who finds a figurine of General…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/787/Untitled_Design_(13).png",
+   "about": "What Was General Grant Doing on The Thermostat refers to a catchphrase and series of memes taken from a scene in the 2011 Diary of a Wimpy Kid movie Rodrick Rules. The line is said by Frank Heffley (played by actor Steve Zahn), the father of Greg, Rodrick and Manny, who finds a figurine of General Ulysses S. Grant on their home's thermostat and questions them about it. In mid-November 2026, the clip from the film became the source of brainrot memes and a viral trend in which people reference the scene while placing their own small toys and figures of various characters on thermostats, often c…",
+   "modified": "2026-11-18T22:26:22Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "The Owl House–World War II Discourse",
+   "url": "https://knowyourmeme.com/memes/the-owl-house-world-war-ii-discourse",
+   "published": "2026-11-18T21:26:54Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/788/Untitled_Design_(14).png",
+   "about": "The Owl House–World War II Discourse refers to a short-lived online controversy and associated meme cycle that emerged on the social media platform X / Twitter in mid-November 2026. It originated from a pair of posts by user @k4l4shn1k0v34 criticizing the prevalence of interest in children’s animated series among his peers, culminating in the statement “Right like sorry I’m into ww2 and not owl house or something.”",
+   "modified": "2026-11-18T22:47:35Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "A Video Of An Alleged Pterodactyl Inspires Memes About Dinosaurs In Mexico",
+   "url": "https://knowyourmeme.com/memes/dinosaurs-pterodactyl-in-mexico",
+   "published": "2026-11-18T21:10:33Z",
+   "summary": "Dinosaurs In Mexico, or, Pterodactyl In Mexico, also known as What MFs In Mexico Are Dealing With RN, refers to a series of memes about dinosaurs living in Mexico in the modern day, inspired by an animated or AI-generated video of a pterodactyl flying in the sky over Mexico. The pterodactyl video w…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/786/dinosaursmexicocover.jpg",
+   "about": "Dinosaurs In Mexico or Pterodactyl In Mexico, also known as What MFs In Mexico Are Dealing With RN, refers to a series of memes about dinosaurs living in Mexico in the modern day, inspired by a likely animated or AI-generated video of a pterodactyl flying in the sky over Mexico. The pterodactyl video was posted to TikTok by user @daniela230997 in mid-November 2026 and subsequently went viral. Memes about dinosaurs being in Mexico were then popularized over the following days.",
+   "modified": "2026-11-18T22:06:38Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "'Caseoh' Clip Combined With The Viral 'Baby Face Filter' For The 'Foh Yo Heah' Meme",
+   "url": "https://knowyourmeme.com/memes/foe-yo-heah-caseoh-singing-death-bed-coffee-for-your-head",
+   "published": "2026-11-18T19:52:52Z",
+   "summary": "Foe Yo Heah or Fo Yo Heh, also known as, Caseoh Singing \"Death Bed (Coffee For Your Head)\" is a series of memes based on a clip of streamer Caseoh singing \"Death Bed (Coffee For Your Head)\" by Powfu and Beabadoobee with the Baby filter applied to his face. The stream took place in May 2026. In Nove…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/785/coffeeforyourheadcover.jpg",
+   "about": "Foe Yo Heah or Fo Yo Heh, also known as Caseoh Singing \"Death Bed (Coffee For Your Head),\" is a series of memes based on a clip of streamer Caseoh singing the song \"Death Bed (Coffee For Your Head)\" by Powfu and Beabadoobee with the Baby Face filter applied to his face, making him have a high-pitched voice while looking like a Cabbage Patch Kid. The stream in which the clip took place occurred in May 2026. In November 2026, the Baby Face meme edit went viral on TikTok after it was posted by user @cam_6615, inspiring a wave of memes based on the edit.",
+   "modified": "2026-11-18T20:54:21Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "Internet Reacts To Robert Pattinson James Bond Casting",
+   "url": "https://knowyourmeme.com/memes/events/robert-pattinson-james-bond-casting",
+   "published": "2026-11-17T22:56:11Z",
+   "summary": "Robert Pattinson James Bond Casting, also known as Robert Pattinson 007 Cast Announcement, refers to the official announcement that English actor Robert Pattinson was confirmed as the seventh actor to portray the iconic figure James Bond (007) in the official film series, which took place on Novemb…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/778/007-2026-5.jpg",
+   "modified": "2026-11-18T19:19:41Z",
+   "kinds": [
+    "newsfeed"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Actor Cast As X",
+   "url": "https://knowyourmeme.com/memes/actor-cast-as-x",
+   "published": "2026-11-17T21:45:21Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/782/Untitled_Design_(12).png",
+   "about": "Actor Cast As X refers to a long-standing meme trend in which internet users create fake theatrical posters for movies in which well-known actors and actresses are humorously cast in roles that directly conflict with their appearance (oftentimes related to race, ethnicity or gender) or acting style and reputation, as well as imagining actors in nonsensical roles such as characters from various video games, anime, and other franchises.",
+   "modified": "2026-11-17T22:19:01Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Cabbage Patch Kid / Baby Face Filter",
+   "url": "https://knowyourmeme.com/memes/cabbage-patch-kid-baby-face-filter",
+   "published": "2026-11-17T21:14:46Z",
+   "summary": "The Cabbage Patch Kid Filter or Baby Face Filter, sometimes spelled BabyFace Filter, refers to a Snapchat filter named \"ggg11 Lens\" by Do!! that makes your face look like a Cabbage Patch Kids doll, giving the subject beady eyes, round cheeks, smooth skin and a flat nose. Many of them also change th…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/781/iamasurgeonbabyfilter.jpg",
+   "about": "The Cabbage Patch Kid Filter or Baby Face Filter, sometimes spelled BabyFace Filter, refers to a Snapchat filter named \"ggg11 Lens\" by Do!! that makes your face look like a Cabbage Patch Kids doll, giving the subject beady eyes, round cheeks, smooth skin and a flat nose. Many of them also change the subject's voice to be humorously high-pitched. The filter went viral on TikTok in mid-November 2026 as part of a trend, in which users aim the filter at characters in movie or TV show scenes, transforming their faces. It also went viral through memes that use the filter to make fun of people with…",
+   "modified": "2026-11-17T22:21:14Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Navibug \"My Friend Confessed\" Controversy",
+   "url": "https://knowyourmeme.com/memes/navibug-my-friend-confessed-controversy",
+   "published": "2026-11-17T20:04:57Z",
+   "summary": "The Navibug \"My Friend Confessed\" Controversy refers to discourse and drama surrounding a storytime video posted by YouTuber Navibug titled \"My Friend Confessed\" in which she tells a story about a \"tech bro\" friend who hit on her and announced that he liked her despite knowing she was aroace, meani…",
+   "platforms": [
+    "YouTube"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/780/ilikeyoucover.jpg",
+   "about": "The Navibug \"My Friend Confessed\" Controversy refers to discourse and drama surrounding a storytime video posted by YouTuber Navibug titled \"My Friend Confessed\" in which she tells a story about a \"tech bro\" friend who hit on her and announced that he liked her despite knowing she was aroace, meaning aromantic and asexual. Navibug explained why that was a problem to him, and they attempted to remain friends, but he made another pass at her, and she ultimately stopped hanging out with him. The video was uploaded in mid-November 2026 and received backlash from some viewers for a variety of reas…",
+   "modified": "2026-11-19T01:44:29Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Lupin Escape Scene / Escape the Cage",
+   "url": "https://knowyourmeme.com/memes/lupin-escape-scene-escape-the-cage",
+   "published": "2026-11-17T18:31:12Z",
+   "summary": "Lupin Escape Scene or Escape the Cage is a series of memes based on a scene from the trailer for the Netflix series Lupin: Part 4, where the character Assane Diop is detained in a glass cage wearing a straitjacket, and when the lights turn off for a moment and then back on, Diop suddenly disappears…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/779/escapecagecover.jpg",
+   "about": "Lupin Escape Scene or Escape the Cage is a series of memes based on a scene from the trailer for the Netflix series Lupin: Part 4, where the character Assane Diop is detained in a glass cage wearing a straitjacket, and when the lights turn off for a moment and then back on, Diop suddenly disappears as if he's escaped the cell. The trailer for the fourth season of the show was released in mid-September 2026. In November 2026, the scene became the subject of memes on TikTok after user @vxne.3 posted an edit based on it. As a meme, the clip is often used alongside the phrasal template, \"Escape t…",
+   "modified": "2026-11-17T19:24:38Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Robert Pattinson James Bond Casting",
+   "url": "https://knowyourmeme.com/memes/robert-pattinson-james-bond-casting",
+   "published": "2026-11-17T17:54:57Z",
+   "summary": "Robert Pattinson James Bond Casting, also known as Robert Pattinson 007 Cast Announcement, refers to the official announcement that English actor Robert Pattinson was confirmed as the seventh actor to portray the iconic figure James Bond (007) in the official film series, which took place on Novemb…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/778/007-2026-5.jpg",
+   "modified": "2026-11-18T19:19:41Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "\"Smoove Off\" AI Song / Blow Your Shit Smooth Off Theo Von Memes",
+   "url": "https://knowyourmeme.com/memes/smoove-off-ai-song-blow-your-shit-smooth-off-theo-von-memes",
+   "published": "2026-11-17T17:10:04Z",
+   "summary": "\"Smooth Off\" by 2Sturdy or \"Smoove Off\" AI Song, also known as Blow Your Shit Smooth Off Theo Von Memes, refers to a viral AI-generated song in the style of country music or blues that notably uses the slang expression \"blow your shit smooth off your shoulders,\" with another remix that went viral i…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/777/Smooth_Off_Smoove_Off_Meme_banner_image.jpg",
+   "about": "\"Smooth Off\" by 2Sturdy or \"Smoove Off\" AI Song, also known as Blow Your Shit Smooth Off Theo Von Memes, refers to a viral AI-generated song in the style of country music or blues that notably uses the slang expression \"blow your shit smooth off your shoulders,\" with another remix that went viral in late 2026 altering the song to include lyrics about mining coal while referencing the It's Over Theo Von memes. The song was originally created by artist 2Sturdy using AI in March 2025 and was then spread across X / Twitter and TikTok in early to mid-November 2026 via the coal mining remix that us…",
+   "modified": "2026-11-18T22:24:19Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Komal Ladies Driving School",
+   "url": "https://knowyourmeme.com/memes/komal-ladies-driving-school",
+   "published": "2026-11-17T15:28:29Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/775/images_(1).jfif",
+   "about": "Komal Ladies Driving School (often paired with the Marathi catchphrase \"Komal ladies driving school hai ekdam atyant sundar\") is a viral Indian social media audio trend and comedy meme format popularized in mid-2026. The trend centers around a catchy, rhythmic Marathi voiceover jingle used as background audio for relatable household comedy skits--particularly husbands making excuses to avoid teaching their wives how to drive--as well as chaotic or exaggerated \"driving fail\" clips featuring beginners riding scooters, motorcycles, and cars.",
+   "modified": "2026-11-17T15:28:29Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "We Got X Before GTA 6",
+   "url": "https://knowyourmeme.com/memes/we-got-x-before-gta-6",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/049/451/we_got_before_GTA_6.jpg",
+   "published": "2024-04-23T08:14:52Z",
+   "modified": "2026-11-18T17:44:41Z",
+   "summary": "We Got X Before GTA 6, also known as We Got X Before GTA VI, is a phrasal template meme that was popularized in 2023, primarily through comments on platfor",
+   "status": "confirmed",
+   "about": "We Got X Before GTA 6, also known as We Got X Before GTA VI or simply the Before GTA 6 Meme, is a phrasal template meme that was popularized in 2023, primarily through comments on platforms such as Reddit and TikTok. The meme plays on the lengthy rollout of the highly anticipated video game Grand Theft Auto 6 from Rockstar Games, with the last game in the series having been released in 2013. Jokes following the template, \"No way we got X before GTA 6,\" typically point to a significant world event, technological advancement or unlikely event that occurred before the release of the game.",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": false
+  },
+  {
+   "kind": "search",
+   "query": "tiktok",
+   "title": "This Is Fine",
+   "url": "https://knowyourmeme.com/memes/this-is-fine",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/018/012/this_is_fine.jpeg",
+   "published": "2015-05-12T19:40:16Z",
+   "modified": "2026-11-18T07:33:43Z",
+   "summary": "This Is Fine. refers to a panel from the web comic Gunshow where a dog is slowly engulfed in flames while proclaiming that everything is fine. It is used",
+   "status": "confirmed",
+   "about": "This Is Fine is a two-pane image of an anthropomorphic dog trying to assure himself that everything is fine, despite sitting in a room that is engulfed in flames. Taken from an issue of the webcomic series Gunshow illustrated by artist K.C. Green and published in early January 2013, the cartoon is typically used as a reaction image to convey a sense of self-denial or acceptance in the face of a hopeless situation.",
+   "platforms": [
+    "TikTok"
+   ],
+   "updated_only": true,
+   "kinds": [
+    "search"
+   ],
+   "new": true
+  }
+ ],
+ "kym_new": 6,
+ "new_memes": [
+  {
+   "kind": "newsfeed",
+   "title": "Robert Pattinson Has Been Cast As Everyone",
+   "url": "https://knowyourmeme.com/memes/robert-pattinson-casting-announcement-parodies-robert-pattinson-cast-as-x",
+   "published": "2026-11-18T22:29:01Z",
+   "summary": "Robert Pattinson Casting Announcement Parodies or Robert Pattinson Cast As X Memes, also known as Robert Pattinson Playing Every Role, refers to a series of memes and jokes referencing English actor Robert Pattinson's extensive casting and perceived dominance in the film industry in the 2020s. The…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/784/Screenshot_2026-11-18_124434.png",
+   "about": "Robert Pattinson Casting Announcement Parodies or Robert Pattinson Cast As X Memes, also known as Robert Pattinson Playing Every Role, refers to a series of memes and jokes referencing English actor Robert Pattinson's extensive casting and perceived dominance in the film industry in the 2020s. The joke is often materialized via fictional casting announcements and parodies, in which Pattinson is jokingly announced to be starring in various outlandish or otherwise unfitting roles. Some of the memes also extend beyond movie and TV show roles, such as being CEO of Nvidia. The meme largely spread…",
+   "modified": "2026-11-18T20:25:42Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "What Was General Grant Doing on The Thermostat?",
+   "url": "https://knowyourmeme.com/memes/what-was-general-grant-doing-on-the-thermostat",
+   "published": "2026-11-18T22:28:24Z",
+   "summary": "What Was General Grant Doing on The Thermostat refers to a catchphrase and series of memes taken from a scene in the 2011 Diary of a Wimpy Kid movie Rodrick Rules. The line is said by Frank Heffley (played by actor Steve Zahn), the father of Greg, Rodrick and Manny, who finds a figurine of General…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/787/Untitled_Design_(13).png",
+   "about": "What Was General Grant Doing on The Thermostat refers to a catchphrase and series of memes taken from a scene in the 2011 Diary of a Wimpy Kid movie Rodrick Rules. The line is said by Frank Heffley (played by actor Steve Zahn), the father of Greg, Rodrick and Manny, who finds a figurine of General Ulysses S. Grant on their home's thermostat and questions them about it. In mid-November 2026, the clip from the film became the source of brainrot memes and a viral trend in which people reference the scene while placing their own small toys and figures of various characters on thermostats, often c…",
+   "modified": "2026-11-18T22:26:22Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "The Owl House–World War II Discourse",
+   "url": "https://knowyourmeme.com/memes/the-owl-house-world-war-ii-discourse",
+   "published": "2026-11-18T21:26:54Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/788/Untitled_Design_(14).png",
+   "about": "The Owl House–World War II Discourse refers to a short-lived online controversy and associated meme cycle that emerged on the social media platform X / Twitter in mid-November 2026. It originated from a pair of posts by user @k4l4shn1k0v34 criticizing the prevalence of interest in children’s animated series among his peers, culminating in the statement “Right like sorry I’m into ww2 and not owl house or something.”",
+   "modified": "2026-11-18T22:47:35Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "A Video Of An Alleged Pterodactyl Inspires Memes About Dinosaurs In Mexico",
+   "url": "https://knowyourmeme.com/memes/dinosaurs-pterodactyl-in-mexico",
+   "published": "2026-11-18T21:10:33Z",
+   "summary": "Dinosaurs In Mexico, or, Pterodactyl In Mexico, also known as What MFs In Mexico Are Dealing With RN, refers to a series of memes about dinosaurs living in Mexico in the modern day, inspired by an animated or AI-generated video of a pterodactyl flying in the sky over Mexico. The pterodactyl video w…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/786/dinosaursmexicocover.jpg",
+   "about": "Dinosaurs In Mexico or Pterodactyl In Mexico, also known as What MFs In Mexico Are Dealing With RN, refers to a series of memes about dinosaurs living in Mexico in the modern day, inspired by a likely animated or AI-generated video of a pterodactyl flying in the sky over Mexico. The pterodactyl video was posted to TikTok by user @daniela230997 in mid-November 2026 and subsequently went viral. Memes about dinosaurs being in Mexico were then popularized over the following days.",
+   "modified": "2026-11-18T22:06:38Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "'Caseoh' Clip Combined With The Viral 'Baby Face Filter' For The 'Foh Yo Heah' Meme",
+   "url": "https://knowyourmeme.com/memes/foe-yo-heah-caseoh-singing-death-bed-coffee-for-your-head",
+   "published": "2026-11-18T19:52:52Z",
+   "summary": "Foe Yo Heah or Fo Yo Heh, also known as, Caseoh Singing \"Death Bed (Coffee For Your Head)\" is a series of memes based on a clip of streamer Caseoh singing \"Death Bed (Coffee For Your Head)\" by Powfu and Beabadoobee with the Baby filter applied to his face. The stream took place in May 2026. In Nove…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/785/coffeeforyourheadcover.jpg",
+   "about": "Foe Yo Heah or Fo Yo Heh, also known as Caseoh Singing \"Death Bed (Coffee For Your Head),\" is a series of memes based on a clip of streamer Caseoh singing the song \"Death Bed (Coffee For Your Head)\" by Powfu and Beabadoobee with the Baby Face filter applied to his face, making him have a high-pitched voice while looking like a Cabbage Patch Kid. The stream in which the clip took place occurred in May 2026. In November 2026, the Baby Face meme edit went viral on TikTok after it was posted by user @cam_6615, inspiring a wave of memes based on the edit.",
+   "modified": "2026-11-18T20:54:21Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "Actor Cast As X",
+   "url": "https://knowyourmeme.com/memes/actor-cast-as-x",
+   "published": "2026-11-17T21:45:21Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/782/Untitled_Design_(12).png",
+   "about": "Actor Cast As X refers to a long-standing meme trend in which internet users create fake theatrical posters for movies in which well-known actors and actresses are humorously cast in roles that directly conflict with their appearance (oftentimes related to race, ethnicity or gender) or acting style and reputation, as well as imagining actors in nonsensical roles such as characters from various video games, anime, and other franchises.",
+   "modified": "2026-11-17T22:19:01Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Cabbage Patch Kid / Baby Face Filter",
+   "url": "https://knowyourmeme.com/memes/cabbage-patch-kid-baby-face-filter",
+   "published": "2026-11-17T21:14:46Z",
+   "summary": "The Cabbage Patch Kid Filter or Baby Face Filter, sometimes spelled BabyFace Filter, refers to a Snapchat filter named \"ggg11 Lens\" by Do!! that makes your face look like a Cabbage Patch Kids doll, giving the subject beady eyes, round cheeks, smooth skin and a flat nose. Many of them also change th…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/781/iamasurgeonbabyfilter.jpg",
+   "about": "The Cabbage Patch Kid Filter or Baby Face Filter, sometimes spelled BabyFace Filter, refers to a Snapchat filter named \"ggg11 Lens\" by Do!! that makes your face look like a Cabbage Patch Kids doll, giving the subject beady eyes, round cheeks, smooth skin and a flat nose. Many of them also change the subject's voice to be humorously high-pitched. The filter went viral on TikTok in mid-November 2026 as part of a trend, in which users aim the filter at characters in movie or TV show scenes, transforming their faces. It also went viral through memes that use the filter to make fun of people with…",
+   "modified": "2026-11-17T22:21:14Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Navibug \"My Friend Confessed\" Controversy",
+   "url": "https://knowyourmeme.com/memes/navibug-my-friend-confessed-controversy",
+   "published": "2026-11-17T20:04:57Z",
+   "summary": "The Navibug \"My Friend Confessed\" Controversy refers to discourse and drama surrounding a storytime video posted by YouTuber Navibug titled \"My Friend Confessed\" in which she tells a story about a \"tech bro\" friend who hit on her and announced that he liked her despite knowing she was aroace, meani…",
+   "platforms": [
+    "YouTube"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/780/ilikeyoucover.jpg",
+   "about": "The Navibug \"My Friend Confessed\" Controversy refers to discourse and drama surrounding a storytime video posted by YouTuber Navibug titled \"My Friend Confessed\" in which she tells a story about a \"tech bro\" friend who hit on her and announced that he liked her despite knowing she was aroace, meaning aromantic and asexual. Navibug explained why that was a problem to him, and they attempted to remain friends, but he made another pass at her, and she ultimately stopped hanging out with him. The video was uploaded in mid-November 2026 and received backlash from some viewers for a variety of reas…",
+   "modified": "2026-11-19T01:44:29Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Lupin Escape Scene / Escape the Cage",
+   "url": "https://knowyourmeme.com/memes/lupin-escape-scene-escape-the-cage",
+   "published": "2026-11-17T18:31:12Z",
+   "summary": "Lupin Escape Scene or Escape the Cage is a series of memes based on a scene from the trailer for the Netflix series Lupin: Part 4, where the character Assane Diop is detained in a glass cage wearing a straitjacket, and when the lights turn off for a moment and then back on, Diop suddenly disappears…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/779/escapecagecover.jpg",
+   "about": "Lupin Escape Scene or Escape the Cage is a series of memes based on a scene from the trailer for the Netflix series Lupin: Part 4, where the character Assane Diop is detained in a glass cage wearing a straitjacket, and when the lights turn off for a moment and then back on, Diop suddenly disappears as if he's escaped the cell. The trailer for the fourth season of the show was released in mid-September 2026. In November 2026, the scene became the subject of memes on TikTok after user @vxne.3 posted an edit based on it. As a meme, the clip is often used alongside the phrasal template, \"Escape t…",
+   "modified": "2026-11-17T19:24:38Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Robert Pattinson James Bond Casting",
+   "url": "https://knowyourmeme.com/memes/robert-pattinson-james-bond-casting",
+   "published": "2026-11-17T17:54:57Z",
+   "summary": "Robert Pattinson James Bond Casting, also known as Robert Pattinson 007 Cast Announcement, refers to the official announcement that English actor Robert Pattinson was confirmed as the seventh actor to portray the iconic figure James Bond (007) in the official film series, which took place on Novemb…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/778/007-2026-5.jpg",
+   "modified": "2026-11-18T19:19:41Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "\"Smoove Off\" AI Song / Blow Your Shit Smooth Off Theo Von Memes",
+   "url": "https://knowyourmeme.com/memes/smoove-off-ai-song-blow-your-shit-smooth-off-theo-von-memes",
+   "published": "2026-11-17T17:10:04Z",
+   "summary": "\"Smooth Off\" by 2Sturdy or \"Smoove Off\" AI Song, also known as Blow Your Shit Smooth Off Theo Von Memes, refers to a viral AI-generated song in the style of country music or blues that notably uses the slang expression \"blow your shit smooth off your shoulders,\" with another remix that went viral i…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/777/Smooth_Off_Smoove_Off_Meme_banner_image.jpg",
+   "about": "\"Smooth Off\" by 2Sturdy or \"Smoove Off\" AI Song, also known as Blow Your Shit Smooth Off Theo Von Memes, refers to a viral AI-generated song in the style of country music or blues that notably uses the slang expression \"blow your shit smooth off your shoulders,\" with another remix that went viral in late 2026 altering the song to include lyrics about mining coal while referencing the It's Over Theo Von memes. The song was originally created by artist 2Sturdy using AI in March 2025 and was then spread across X / Twitter and TikTok in early to mid-November 2026 via the coal mining remix that us…",
+   "modified": "2026-11-18T22:24:19Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Komal Ladies Driving School",
+   "url": "https://knowyourmeme.com/memes/komal-ladies-driving-school",
+   "published": "2026-11-17T15:28:29Z",
+   "summary": "Read More",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/775/images_(1).jfif",
+   "about": "Komal Ladies Driving School (often paired with the Marathi catchphrase \"Komal ladies driving school hai ekdam atyant sundar\") is a viral Indian social media audio trend and comedy meme format popularized in mid-2026. The trend centers around a catchy, rhythmic Marathi voiceover jingle used as background audio for relatable household comedy skits--particularly husbands making excuses to avoid teaching their wives how to drive--as well as chaotic or exaggerated \"driving fail\" clips featuring beginners riding scooters, motorcycles, and cars.",
+   "modified": "2026-11-17T15:28:29Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  }
+ ],
+ "reddit": [
+  {
+   "sub": "TikTokCringe",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "items": []
+  },
+  {
+   "sub": "memes",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "items": []
+  },
+  {
+   "sub": "popculturechat",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "items": []
+  },
+  {
+   "sub": "shorts",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "items": []
+  },
+  {
+   "sub": "gaming",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "items": []
+  },
+  {
+   "sub": "IndieGaming",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "items": []
+  }
+ ],
+ "youtube": {
+  "KR": {
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "id": "LOLXD85SThc",
+     "title": "Do you know (2026 Version)",
+     "channel": "SOMEDAY - Topic",
+     "views": 140394,
+     "likes": 7830,
+     "duration": 245,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=LOLXD85SThc",
+     "thumb": "https://i.ytimg.com/vi/LOLXD85SThc/mqdefault.jpg",
+     "published": "2026-11-17T09:04:44Z"
+    },
+    {
+     "rank": 2,
+     "id": "WqQgO06emHU",
+     "title": "인내심이 바닥나버렸습니다... ≪어벤져스: 둠스데이≫ 메인 예고편 공개 임박 & 루머 총정리",
+     "channel": "무비띵크_Movie Think",
+     "views": 497570,
+     "likes": 3340,
+     "duration": 551,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=WqQgO06emHU",
+     "thumb": "https://i.ytimg.com/vi/WqQgO06emHU/mqdefault.jpg",
+     "published": "2026-11-17T06:08:14Z"
+    },
+    {
+     "rank": 3,
+     "id": "jyuHJ7WOqq0",
+     "title": "내가 치워",
+     "channel": "괴물쥐 유튜브",
+     "views": 464908,
+     "likes": 1478,
+     "duration": 1354,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=jyuHJ7WOqq0",
+     "thumb": "https://i.ytimg.com/vi/jyuHJ7WOqq0/mqdefault.jpg",
+     "published": "2026-11-18T14:00:35Z"
+    },
+    {
+     "rank": 4,
+     "id": "6POlUfjBIB4",
+     "title": "Sakuranbo",
+     "channel": "YENA - Topic",
+     "views": 223370,
+     "likes": 4897,
+     "duration": 234,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=6POlUfjBIB4",
+     "thumb": "https://i.ytimg.com/vi/6POlUfjBIB4/mqdefault.jpg",
+     "published": "2026-11-17T09:01:35Z"
+    },
+    {
+     "rank": 5,
+     "id": "Fg0jyss_YnU",
+     "title": "Avengers: Doomsday | The Return | In Theaters December 18",
+     "channel": "Marvel Entertainment",
+     "views": 4524989,
+     "likes": 107300,
+     "duration": 91,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Fg0jyss_YnU",
+     "thumb": "https://i.ytimg.com/vi/Fg0jyss_YnU/mqdefault.jpg",
+     "published": "2026-11-18T17:00:01Z"
+    },
+    {
+     "rank": 6,
+     "id": "y9RsawyGyCI",
+     "title": "GTA 6 리뷰",
+     "channel": "인벤",
+     "views": 275077,
+     "likes": 1257,
+     "duration": 923,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=y9RsawyGyCI",
+     "thumb": "https://i.ytimg.com/vi/y9RsawyGyCI/mqdefault.jpg",
+     "published": "2026-11-18T11:00:22Z"
+    },
+    {
+     "rank": 7,
+     "id": "peGBibgqNvc",
+     "title": "It's You",
+     "channel": "JI JIN SEOK - Topic",
+     "views": 37745,
+     "likes": 2125,
+     "duration": 220,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=peGBibgqNvc",
+     "thumb": "https://i.ytimg.com/vi/peGBibgqNvc/mqdefault.jpg",
+     "published": "2026-11-17T03:01:50Z"
+    },
+    {
+     "rank": 8,
+     "id": "cBHXKJiXFJs",
+     "title": "더 커진 판, 더 독해진 가족 [가족계획 시즌2] 티저 예고편",
+     "channel": "쿠팡플레이 Coupang Play",
+     "views": 595584,
+     "likes": 1077,
+     "duration": 53,
+     "shorts": true,
+     "url": "https://www.youtube.com/shorts/cBHXKJiXFJs",
+     "thumb": "https://i.ytimg.com/vi/cBHXKJiXFJs/mqdefault.jpg",
+     "published": "2026-11-17T23:04:18Z"
+    },
+    {
+     "rank": 9,
+     "id": "Zw99TxJDy0s",
+     "title": "GTA6 켜자마자 스토리는 안 하고 NPC부터 건드려 봤습니다..ㅋㅋ",
+     "channel": "BanaMongki",
+     "views": 350629,
+     "likes": 1506,
+     "duration": 570,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Zw99TxJDy0s",
+     "thumb": "https://i.ytimg.com/vi/Zw99TxJDy0s/mqdefault.jpg",
+     "published": "2026-11-18T14:32:31Z"
+    },
+    {
+     "rank": 10,
+     "id": "5JkTq9rOYI8",
+     "title": "Angel Bite",
+     "channel": "TOMORROW BY TOGETHER - Topic",
+     "views": 636109,
+     "likes": 26990,
+     "duration": 153,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=5JkTq9rOYI8",
+     "thumb": "https://i.ytimg.com/vi/5JkTq9rOYI8/mqdefault.jpg",
+     "published": "2026-11-16T09:00:40Z"
+    }
+   ],
+   "total": 50,
+   "shorts": 1
+  },
+  "US": {
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "id": "Ri5o5HPwxSQ",
+     "title": "Top 100 Christmas Songs of All Time 2027 🎅 Best Pop Christmas Hits & Holiday Music Playlist 🎁🎄",
+     "channel": "Merry Christmas Vibes",
+     "views": 36185,
+     "likes": 190,
+     "duration": 7030,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Ri5o5HPwxSQ",
+     "thumb": "https://i.ytimg.com/vi/Ri5o5HPwxSQ/mqdefault.jpg",
+     "published": "2026-11-18T11:43:45Z"
+    },
+    {
+     "rank": 2,
+     "id": "Fg0jyss_YnU",
+     "title": "Avengers: Doomsday | The Return | In Theaters December 18",
+     "channel": "Marvel Entertainment",
+     "views": 4524989,
+     "likes": 107300,
+     "duration": 91,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Fg0jyss_YnU",
+     "thumb": "https://i.ytimg.com/vi/Fg0jyss_YnU/mqdefault.jpg",
+     "published": "2026-11-18T17:00:01Z"
+    },
+    {
+     "rank": 3,
+     "id": "3QjXNSf6keg",
+     "title": "🔴 LIVE! - GTA 6 EARLY ACCESS! FREE ROAM GAMEPLAY LIVE! (PS5 PRO)",
+     "channel": "Typical Gamer",
+     "views": 6925586,
+     "likes": 62714,
+     "duration": 32787,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=3QjXNSf6keg",
+     "thumb": "https://i.ytimg.com/vi/3QjXNSf6keg/mqdefault.jpg",
+     "published": "2026-11-18T19:56:16Z"
+    },
+    {
+     "rank": 4,
+     "id": "hQ8HPxk4AkA",
+     "title": "KAROL G, Judeline, rusowsky - BbY WOW (Letra/Lyrics)",
+     "channel": "7clouds Spain",
+     "views": 1131132,
+     "likes": 3247,
+     "duration": 226,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=hQ8HPxk4AkA",
+     "thumb": "https://i.ytimg.com/vi/hQ8HPxk4AkA/mqdefault.jpg",
+     "published": "2026-11-16T15:00:01Z"
+    },
+    {
+     "rank": 5,
+     "id": "cJRsJQMAVYY",
+     "title": "LITTLEFOOT | Official Trailer | Land Before Time Reimagining",
+     "channel": "Joey Lever",
+     "views": 364626,
+     "likes": 12660,
+     "duration": 112,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=cJRsJQMAVYY",
+     "thumb": "https://i.ytimg.com/vi/cJRsJQMAVYY/mqdefault.jpg",
+     "published": "2026-11-18T14:57:34Z"
+    },
+    {
+     "rank": 6,
+     "id": "vVVIWEGciKk",
+     "title": "GTA 6 - Before You Buy",
+     "channel": "gameranx",
+     "views": 2997849,
+     "likes": 72106,
+     "duration": 1542,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=vVVIWEGciKk",
+     "thumb": "https://i.ytimg.com/vi/vVVIWEGciKk/mqdefault.jpg",
+     "published": "2026-11-18T15:47:51Z"
+    },
+    {
+     "rank": 7,
+     "id": "BBYdzzyWhTU",
+     "title": "Lil Baby - Aint Goin (Official Music Video)",
+     "channel": "Lil Baby Official ",
+     "views": 490116,
+     "likes": 20291,
+     "duration": 161,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=BBYdzzyWhTU",
+     "thumb": "https://i.ytimg.com/vi/BBYdzzyWhTU/mqdefault.jpg",
+     "published": "2026-11-17T18:00:06Z"
+    },
+    {
+     "rank": 8,
+     "id": "ufeJbTNq-BI",
+     "title": "Artificial - Official Trailer - In Select Theaters Christmas Day, Everywhere January 8",
+     "channel": "NEON",
+     "views": 2479444,
+     "likes": 8031,
+     "duration": 126,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=ufeJbTNq-BI",
+     "thumb": "https://i.ytimg.com/vi/ufeJbTNq-BI/mqdefault.jpg",
+     "published": "2026-11-18T17:00:10Z"
+    },
+    {
+     "rank": 9,
+     "id": "rQLEb0W7REo",
+     "title": "GTA 6 Walkthrough Gameplay Part 1 - INTRO (GRAND THEFT AUTO 6)",
+     "channel": "theRadBrad",
+     "views": 3179997,
+     "likes": 113884,
+     "duration": 4044,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rQLEb0W7REo",
+     "thumb": "https://i.ytimg.com/vi/rQLEb0W7REo/mqdefault.jpg",
+     "published": "2026-11-18T16:20:10Z"
+    },
+    {
+     "rank": 10,
+     "id": "rmm3GT6hOUA",
+     "title": "A Cozy Fall - Cozy Indoor Jazz (Official Music Video)",
+     "channel": "Cozy Indoor Jazz",
+     "views": 257888,
+     "likes": 86,
+     "duration": 217,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=rmm3GT6hOUA",
+     "thumb": "https://i.ytimg.com/vi/rmm3GT6hOUA/mqdefault.jpg",
+     "published": "2026-10-30T12:00:02Z"
+    }
+   ],
+   "total": 50,
+   "shorts": 1
+  }
+ },
+ "trends": {
+  "KR": [
+   {
+    "rank": 1,
+    "title": "전역",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "군 떠나는 간부 줄었다…육군 희망전역 작년보다 17％ 감소",
+    "news_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716929",
+    "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716929",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRAniYyQ3pBJ-Dm5VgOz3PrzjAUeFQfE6urzk21LbKDRP5oNJb0qt9qjXi7pHY",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "이혼",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "박지윤, 남사친과 잠옷 차림 동숙에 성인물까지…상간소 일부 패소 이유 - 머니투데이",
+    "news_url": "https://www.mt.co.kr/society/2026/11/19/2026111822454098948",
+    "url": "https://www.mt.co.kr/society/2026/11/19/2026111822454098948",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTe5-VreU2CyZ6Esi-TQaX2Cle1bcaTwhjG34m92b1raNPqxiN4qdzang5hz-I",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "한국교육과정평가원",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "수능출제위원장 \"고교 공교육 내용만으로 변별력 확보토록 출제\"",
+    "news_url": "https://imnews.imbc.com/news/2026/society/article/6866839_36918.html",
+    "url": "https://imnews.imbc.com/news/2026/society/article/6866839_36918.html",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRAI8fSaE1cwDTV7_VFAczzypGHInUhnm77IufQ91xqijMADuTUZS0sysiEy24",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "시즌2",
+    "traffic": 10000,
+    "traffic_raw": "10000+",
+    "news_title": "넷플릭스 '피지컬: 아시아' 시즌2 내년 공개",
+    "news_url": "https://www.yna.co.kr/view/AKR20261119043100005",
+    "url": "https://www.yna.co.kr/view/AKR20261119043100005",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS5sgIyUs07hgyrHv7JfEZ9PQN71J7KQC56txLOz5_tTAQ6TAcoYvksCbUNaFY",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "전도연",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "'53세' 전도연, 한뼘 초미니로 드러낸 각선미…美 아카데미도 반했다",
+    "news_url": "https://www.chosun.com/entertainments/celebrity/2026/11/18/MRSTIMZTMM3TGMZVMI2WMOBZGM/",
+    "url": "https://www.chosun.com/entertainments/celebrity/2026/11/18/MRSTIMZTMM3TGMZVMI2WMOBZGM/",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR7b-v5YX4gYM1inNPQ2wiNxyTXAi5SWEKZjZ65Lg2ceDSFSKhkY4w65Z2-apE",
+    "days": 1
+   },
+   {
+    "rank": 6,
+    "title": "올랜도 대 필라데피아",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "Live updates: Sixers trail Magic without Tyrese Maxey, Jaylen Brown",
+    "news_url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-magic-live-updates-lebron-james-joel-embiid-tyrese-maxey/767473/",
+    "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-magic-live-updates-lebron-james-joel-embiid-tyrese-maxey/767473/",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ4PDbrjjWpWgtuZNjrxkFuPPW_F8kCMKrq367AqvY_WT9rJ6VrorH9GqyhrMo",
+    "days": 1
+   },
+   {
+    "rank": 7,
+    "title": "nginx",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "Unauthenticated Remote Code Execution in NGINX: CVE-2026-123633 and CVE-2026-123007",
+    "news_url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+    "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_3OEA8CIOJom9F0W5dCeLBzrdjxDbMiG1BxybAOZTXJJfomEWi3BAmV1Gbd8",
+    "days": 1
+   }
+  ],
+  "US": [
+   {
+    "rank": 1,
+    "title": "vj edgecombe",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "Tyrese Maxey has urged VJ Edgecombe to ‘go do that VJ stuff.’ Edgecombe is listening.",
+    "news_url": "https://www.inquirer.com/sixers/vj-edgecombe-tyrese-maxey-philadelphia-76ers-toronto-raptors-jaylen-brown-joel-embiid-20261113.html",
+    "url": "https://www.inquirer.com/sixers/vj-edgecombe-tyrese-maxey-philadelphia-76ers-toronto-raptors-jaylen-brown-joel-embiid-20261113.html",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3qSPSTGuJ3M6Q4nvnln3lMSdK8PNWOIkqzhoXlMk5_T3pxvPW8FXazbSLs64",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "anfernee simons",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "PHI starts Simons, Edgecombe, KCP, James, Embiid",
+    "news_url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-18/phi-starts-simons-edgecombe-kcp-james-embiid",
+    "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-18/phi-starts-simons-edgecombe-kcp-james-embiid",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRCztmyRhctruMe3J5GAM-bin9DYkx9ToGPukJeYsFwdiQra5JQd2BDLHHz094",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "onyeka okongwu",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "ATL starts NAW, Daniels, Wiggins, Johnson, Okongwu",
+    "news_url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-18/atl-starts-naw-daniels-wiggins-johnson-okongwu",
+    "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-18/atl-starts-naw-daniels-wiggins-johnson-okongwu",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJrH4dR9UwQlzeJ97E3NM6Fw3X40M_W-4MzPQuNydWAQ521-DYrVhz6yoYSEM",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "usain bolt",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "Bills-Tyreek Hill Rumors Take Unexpected New Turn",
+    "news_url": "https://sports.yahoo.com/articles/bills-tyreek-hill-rumors-unexpected-014508234.html",
+    "url": "https://sports.yahoo.com/articles/bills-tyreek-hill-rumors-unexpected-014508234.html",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQLd8PKQEza_Eh2k68H3V-LKJeKmrnhR0mMpWHkZkHxsm8YM1z2ap70kbIRCDI",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "arnold schwarzenegger",
+    "traffic": 2000,
+    "traffic_raw": "2000+",
+    "news_title": "Arnold Schwarzenegger reveals he and ex-wife Maria Shriver still spend holidays together after divorce",
+    "news_url": "https://www.yahoo.com/entertainment/celebrity/articles/arnold-schwarzenegger-reveals-ex-wife-035032730.html",
+    "url": "https://www.yahoo.com/entertainment/celebrity/articles/arnold-schwarzenegger-reveals-ex-wife-035032730.html",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdT3kHoYfZER8io4AiMnhrDVcg-mykbWWHrXsy81gcxggP7W5A7hdED0ugapI",
+    "days": 1
+   }
+  ]
+ },
+ "wiki": {
+  "en": [
+   {
+    "title": "Robert Pattinson",
+    "views": 840972,
+    "rank": 1,
+    "src_rank": 2,
+    "url": "https://en.wikipedia.org/wiki/Robert_Pattinson",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Ramayana: Part 1",
+    "views": 452299,
+    "rank": 2,
+    "src_rank": 5,
+    "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
+    "days": 10,
+    "prev_rank": null
+   },
+   {
+    "title": "Suki Waterhouse",
+    "views": 297037,
+    "rank": 3,
+    "src_rank": 6,
+    "url": "https://en.wikipedia.org/wiki/Suki_Waterhouse",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "List of highest-grossing Indian films",
+    "views": 153338,
+    "rank": 4,
+    "src_rank": 7,
+    "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films",
+    "days": 7,
+    "prev_rank": null
+   },
+   {
+    "title": "Grand Theft Auto VI",
+    "views": 153037,
+    "rank": 5,
+    "src_rank": 8,
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Jensen Huang",
+    "views": 144823,
+    "rank": 6,
+    "src_rank": 9,
+    "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+    "days": 8,
+    "prev_rank": null
+   },
+   {
+    "title": ".xxx",
+    "views": 144538,
+    "rank": 7,
+    "src_rank": 10,
+    "url": "https://en.wikipedia.org/wiki/.xxx",
+    "days": 10,
+    "prev_rank": null
+   },
+   {
+    "title": "Deaths in 2026",
+    "views": 136111,
+    "rank": 8,
+    "src_rank": 11,
+    "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+    "days": 10,
+    "prev_rank": null
+   },
+   {
+    "title": "The Body (TV series)",
+    "views": 127281,
+    "rank": 9,
+    "src_rank": 12,
+    "url": "https://en.wikipedia.org/wiki/The_Body_%28TV_series%29",
+    "days": 3,
+    "prev_rank": null
+   },
+   {
+    "title": "Robert Pattinson filmography",
+    "views": 127113,
+    "rank": 10,
+    "src_rank": 13,
+    "url": "https://en.wikipedia.org/wiki/Robert_Pattinson_filmography",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "List of James Bond films",
+    "views": 120511,
+    "rank": 11,
+    "src_rank": 14,
+    "url": "https://en.wikipedia.org/wiki/List_of_James_Bond_films",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Saturn Devouring His Son",
+    "views": 108660,
+    "rank": 12,
+    "src_rank": 15,
+    "url": "https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Daniel Craig",
+    "views": 101483,
+    "rank": 13,
+    "src_rank": 16,
+    "url": "https://en.wikipedia.org/wiki/Daniel_Craig",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Ray Tintori",
+    "views": 98033,
+    "rank": 14,
+    "src_rank": 17,
+    "url": "https://en.wikipedia.org/wiki/Ray_Tintori",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Jacoby Brissett",
+    "views": 95821,
+    "rank": 15,
+    "src_rank": 18,
+    "url": "https://en.wikipedia.org/wiki/Jacoby_Brissett",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "2026–27 UEFA Nations League",
+    "views": 93874,
+    "rank": 16,
+    "src_rank": 19,
+    "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "Sean Duffy",
+    "views": 93303,
+    "rank": 17,
+    "src_rank": 20,
+    "url": "https://en.wikipedia.org/wiki/Sean_Duffy",
+    "days": 3,
+    "prev_rank": null
+   },
+   {
+    "title": "The Hunger Games: Sunrise on the Reaping",
+    "views": 92631,
+    "rank": 18,
+    "src_rank": 21,
+    "url": "https://en.wikipedia.org/wiki/The_Hunger_Games%3A_Sunrise_on_the_Reaping",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Russell Brand",
+    "views": 86201,
+    "rank": 19,
+    "src_rank": 22,
+    "url": "https://en.wikipedia.org/wiki/Russell_Brand",
+    "days": 10,
+    "prev_rank": null
+   },
+   {
+    "title": "Mariella Frostrup",
+    "views": 85178,
+    "rank": 20,
+    "src_rank": 23,
+    "url": "https://en.wikipedia.org/wiki/Mariella_Frostrup",
+    "days": 1,
+    "prev_rank": null
+   }
+  ],
+  "en_day": "2026-11-17",
+  "en_same": true,
+  "ko": [
+   {
+    "title": "문화방송",
+    "views": 17026,
+    "rank": 1,
+    "src_rank": 2,
+    "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1",
+    "days": 22,
+    "prev_rank": null
+   },
+   {
+    "title": "태종무열왕",
+    "views": 4670,
+    "rank": 4,
+    "src_rank": 6,
+    "url": "https://ko.wikipedia.org/wiki/%ED%83%9C%EC%A2%85%EB%AC%B4%EC%97%B4%EC%99%95",
+    "days": 3,
+    "prev_rank": null
+   },
+   {
+    "title": "김주혁",
+    "views": 3990,
+    "rank": 5,
+    "src_rank": 7,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%A3%BC%ED%98%81",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "연개소문",
+    "views": 3350,
+    "rank": 6,
+    "src_rank": 8,
+    "url": "https://ko.wikipedia.org/wiki/%EC%97%B0%EA%B0%9C%EC%86%8C%EB%AC%B8",
+    "days": 3,
+    "prev_rank": null
+   },
+   {
+    "title": "한성숙",
+    "views": 3006,
+    "rank": 7,
+    "src_rank": 9,
+    "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EC%84%B1%EC%88%99",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "문무왕",
+    "views": 2541,
+    "rank": 8,
+    "src_rank": 10,
+    "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%EB%AC%B4%EC%99%95",
+    "days": 5,
+    "prev_rank": null
+   },
+   {
+    "title": "최교진",
+    "views": 1954,
+    "rank": 9,
+    "src_rank": 11,
+    "url": "https://ko.wikipedia.org/wiki/%EC%B5%9C%EA%B5%90%EC%A7%84",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "문무",
+    "views": 1916,
+    "rank": 10,
+    "src_rank": 12,
+    "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%EB%AC%B4",
+    "days": 3,
+    "prev_rank": null
+   },
+   {
+    "title": "욕망의 덫",
+    "views": 1723,
+    "rank": 11,
+    "src_rank": 13,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9A%95%EB%A7%9D%EC%9D%98_%EB%8D%AB",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "이진희 (배우)",
+    "views": 1682,
+    "rank": 12,
+    "src_rank": 14,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84%ED%9D%AC_%28%EB%B0%B0%EC%9A%B0%29",
+    "days": 3,
+    "prev_rank": null
+   },
+   {
+    "title": "최민희 (1960년)",
+    "views": 1576,
+    "rank": 13,
+    "src_rank": 15,
+    "url": "https://ko.wikipedia.org/wiki/%EC%B5%9C%EB%AF%BC%ED%9D%AC_%281960%EB%85%84%29",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "영류왕",
+    "views": 1552,
+    "rank": 14,
+    "src_rank": 16,
+    "url": "https://ko.wikipedia.org/wiki/%EC%98%81%EB%A5%98%EC%99%95",
+    "days": 3,
+    "prev_rank": null
+   },
+   {
+    "title": "젠슨 황",
+    "views": 1447,
+    "rank": 15,
+    "src_rank": 17,
+    "url": "https://ko.wikipedia.org/wiki/%EC%A0%A0%EC%8A%A8_%ED%99%A9",
+    "days": 7,
+    "prev_rank": null
+   },
+   {
+    "title": "대한민국",
+    "views": 1415,
+    "rank": 16,
+    "src_rank": 18,
+    "url": "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "박진영 (1994년)",
+    "views": 1338,
+    "rank": 17,
+    "src_rank": 19,
+    "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%84%EC%98%81_%281994%EB%85%84%29",
+    "days": 7,
+    "prev_rank": null
+   },
+   {
+    "title": "진형구",
+    "views": 1154,
+    "rank": 18,
+    "src_rank": 21,
+    "url": "https://ko.wikipedia.org/wiki/%EC%A7%84%ED%98%95%EA%B5%AC",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "김태연 (배우)",
+    "views": 1078,
+    "rank": 19,
+    "src_rank": 22,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%83%9C%EC%97%B0_%28%EB%B0%B0%EC%9A%B0%29",
+    "days": 2,
+    "prev_rank": null
+   },
+   {
+    "title": "육성재",
+    "views": 1074,
+    "rank": 20,
+    "src_rank": 23,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9C%A1%EC%84%B1%EC%9E%AC",
+    "days": 1,
+    "prev_rank": null
+   }
+  ],
+  "ko_day": "2026-11-17",
+  "ko_same": true
+ },
+ "imgflip": {
+  "items": [
+   {
+    "rank": 1,
+    "id": "181913649",
+    "name": "Drake Hotline Bling",
+    "url": "https://i.imgflip.com/30b1gx.jpg",
+    "box_count": 2,
+    "captions": 1589250,
+    "prev_rank": 1,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 2,
+    "id": "87743020",
+    "name": "Two Buttons",
+    "url": "https://i.imgflip.com/1g8my4.jpg",
+    "box_count": 3,
+    "captions": 1234000,
+    "prev_rank": 2,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 3,
+    "id": "112126428",
+    "name": "Distracted Boyfriend",
+    "url": "https://i.imgflip.com/1ur9b0.jpg",
+    "box_count": 3,
+    "captions": 1207500,
+    "prev_rank": 3,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 4,
+    "id": "222403160",
+    "name": "Bernie I Am Once Again Asking For Your Support",
+    "url": "https://i.imgflip.com/3oevdk.jpg",
+    "box_count": 2,
+    "captions": 361000,
+    "prev_rank": 4,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 5,
+    "id": "217743513",
+    "name": "UNO Draw 25 Cards",
+    "url": "https://i.imgflip.com/3lmzyx.jpg",
+    "box_count": 2,
+    "captions": 672500,
+    "prev_rank": 5,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 6,
+    "id": "252600902",
+    "name": "Always Has Been",
+    "url": "https://i.imgflip.com/46e43q.png",
+    "box_count": 2,
+    "captions": 255750,
+    "prev_rank": 6,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 7,
+    "id": "124822590",
+    "name": "Left Exit 12 Off Ramp",
+    "url": "https://i.imgflip.com/22bdq6.jpg",
+    "box_count": 3,
+    "captions": 749750,
+    "prev_rank": 7,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 8,
+    "id": "322841258",
+    "name": "Anakin Padme 4 Panel",
+    "url": "https://i.imgflip.com/5c7lwq.png",
+    "box_count": 3,
+    "captions": 158750,
+    "prev_rank": 8,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 9,
+    "id": "131940431",
+    "name": "Gru's Plan",
+    "url": "https://i.imgflip.com/26jxvz.jpg",
+    "box_count": 4,
+    "captions": 392250,
+    "prev_rank": 9,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 10,
+    "id": "135256802",
+    "name": "Epic Handshake",
+    "url": "https://i.imgflip.com/28j0te.jpg",
+    "box_count": 3,
+    "captions": 274250,
+    "prev_rank": 10,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 11,
+    "id": "97984",
+    "name": "Disaster Girl",
+    "url": "https://i.imgflip.com/23ls.jpg",
+    "box_count": 2,
+    "captions": 448500,
+    "prev_rank": 11,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 12,
+    "id": "4087833",
+    "name": "Waiting Skeleton",
+    "url": "https://i.imgflip.com/2fm6x.jpg",
+    "box_count": 2,
+    "captions": 501250,
+    "prev_rank": 12,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 13,
+    "id": "131087935",
+    "name": "Running Away Balloon",
+    "url": "https://i.imgflip.com/261o3j.jpg",
+    "box_count": 5,
+    "captions": 608000,
+    "prev_rank": 13,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 14,
+    "id": "80707627",
+    "name": "Sad Pablo Escobar",
+    "url": "https://i.imgflip.com/1c1uej.jpg",
+    "box_count": 3,
+    "captions": 262500,
+    "prev_rank": 15,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 15,
+    "id": "161865971",
+    "name": "Marked Safe From",
+    "url": "https://i.imgflip.com/2odckz.jpg",
+    "box_count": 2,
+    "captions": 237500,
+    "prev_rank": 16,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 16,
+    "id": "91538330",
+    "name": "X, X Everywhere",
+    "url": "https://i.imgflip.com/1ihzfe.jpg",
+    "box_count": 2,
+    "captions": 416000,
+    "prev_rank": 14,
+    "delta": -2,
+    "new": false
+   },
+   {
+    "rank": 17,
+    "id": "224015000",
+    "name": "Bernie Sanders Once Again Asking",
+    "url": "https://i.imgflip.com/3pdf2w.png",
+    "box_count": 2,
+    "captions": 72500,
+    "prev_rank": 17,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 18,
+    "id": "309868304",
+    "name": "Trade Offer",
+    "url": "https://i.imgflip.com/54hjww.jpg",
+    "box_count": 3,
+    "captions": 135000,
+    "prev_rank": 18,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 19,
+    "id": "129242436",
+    "name": "Change My Mind",
+    "url": "https://i.imgflip.com/24y43o.jpg",
+    "box_count": 2,
+    "captions": 683000,
+    "prev_rank": 19,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 20,
+    "id": "124055727",
+    "name": "Y'all Got Any More Of That",
+    "url": "https://i.imgflip.com/21uy0f.jpg",
+    "box_count": 2,
+    "captions": 236750,
+    "prev_rank": 20,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 21,
+    "id": "188390779",
+    "name": "Woman Yelling At Cat",
+    "url": "https://i.imgflip.com/345v97.jpg",
+    "box_count": 2,
+    "captions": 414250,
+    "prev_rank": 21,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 22,
+    "id": "438680",
+    "name": "Batman Slapping Robin",
+    "url": "https://i.imgflip.com/9ehk.jpg",
+    "box_count": 2,
+    "captions": 674250,
+    "prev_rank": 22,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 23,
+    "id": "102156234",
+    "name": "Mocking Spongebob",
+    "url": "https://i.imgflip.com/1otk96.jpg",
+    "box_count": 2,
+    "captions": 459750,
+    "prev_rank": 23,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 24,
+    "id": "101470",
+    "name": "Ancient Aliens",
+    "url": "https://i.imgflip.com/26am.jpg",
+    "box_count": 2,
+    "captions": 389250,
+    "prev_rank": 24,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 25,
+    "id": "61579",
+    "name": "One Does Not Simply",
+    "url": "https://i.imgflip.com/1bij.jpg",
+    "box_count": 2,
+    "captions": 496750,
+    "prev_rank": 25,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 26,
+    "id": "67452763",
+    "name": "Squidward window",
+    "url": "https://i.imgflip.com/145qvv.jpg",
+    "box_count": 2,
+    "captions": 73500,
+    "prev_rank": 27,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 27,
+    "id": "100777631",
+    "name": "Is This A Pigeon",
+    "url": "https://i.imgflip.com/1o00in.jpg",
+    "box_count": 3,
+    "captions": 245500,
+    "prev_rank": 26,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 28,
+    "id": "427308417",
+    "name": "0 days without (Lenny, Simpsons)",
+    "url": "https://i.imgflip.com/72epa9.png",
+    "box_count": 2,
+    "captions": 51500,
+    "prev_rank": 28,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 29,
+    "id": "28251713",
+    "name": "Oprah You Get A",
+    "url": "https://i.imgflip.com/gtj5t.jpg",
+    "box_count": 2,
+    "captions": 229500,
+    "prev_rank": 29,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 30,
+    "id": "177682295",
+    "name": "You Guys are Getting Paid",
+    "url": "https://i.imgflip.com/2xscjb.png",
+    "box_count": 2,
+    "captions": 76250,
+    "prev_rank": 31,
+    "delta": 1,
+    "new": false
+   }
+  ],
+  "entered": [],
+  "exited": [],
+  "movers": [
+   {
+    "rank": 16,
+    "id": "91538330",
+    "name": "X, X Everywhere",
+    "url": "https://i.imgflip.com/1ihzfe.jpg",
+    "box_count": 2,
+    "captions": 416000,
+    "prev_rank": 14,
+    "delta": -2,
+    "new": false
+   },
+   {
+    "rank": 14,
+    "id": "80707627",
+    "name": "Sad Pablo Escobar",
+    "url": "https://i.imgflip.com/1c1uej.jpg",
+    "box_count": 3,
+    "captions": 262500,
+    "prev_rank": 15,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 15,
+    "id": "161865971",
+    "name": "Marked Safe From",
+    "url": "https://i.imgflip.com/2odckz.jpg",
+    "box_count": 2,
+    "captions": 237500,
+    "prev_rank": 16,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 26,
+    "id": "67452763",
+    "name": "Squidward window",
+    "url": "https://i.imgflip.com/145qvv.jpg",
+    "box_count": 2,
+    "captions": 73500,
+    "prev_rank": 27,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 27,
+    "id": "100777631",
+    "name": "Is This A Pigeon",
+    "url": "https://i.imgflip.com/1o00in.jpg",
+    "box_count": 3,
+    "captions": 245500,
+    "prev_rank": 26,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 30,
+    "id": "177682295",
+    "name": "You Guys are Getting Paid",
+    "url": "https://i.imgflip.com/2xscjb.png",
+    "box_count": 2,
+    "captions": 76250,
+    "prev_rank": 31,
+    "delta": 1,
+    "new": false
+   }
+  ],
+  "total": 100,
+  "compared": true
+ },
+ "cross": [],
+ "filtered": {
+  "trends_kr": 3,
+  "trends_us": 5,
+  "wiki_en": 0,
+  "wiki_ko": 2
+ },
+ "sources": [
+  {
+   "key": "kym_feed",
+   "label": "KYM 뉴스피드",
+   "status": "ok",
+   "count": 5,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_confirmed",
+   "label": "KYM 확정 엔트리",
+   "status": "ok",
+   "count": 0,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_submissions",
+   "label": "KYM 제출 엔트리",
+   "status": "ok",
+   "count": 12,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_search",
+   "label": "KYM 검색 (tiktok·instagram·reels)",
+   "status": "ok",
+   "count": 2,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "youtube_kr",
+   "label": "YouTube 인기 KR",
+   "status": "ok",
+   "count": 50,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "youtube_us",
+   "label": "YouTube 인기 US",
+   "status": "ok",
+   "count": 50,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reels",
+   "label": "릴스·틱톡 정리 영상",
+   "status": "ok",
+   "count": 74,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "trends_kr",
+   "label": "Google 트렌드 KR",
+   "status": "ok",
+   "count": 10,
+   "error": "",
+   "filtered": 3
+  },
+  {
+   "key": "trends_us",
+   "label": "Google 트렌드 US",
+   "status": "ok",
+   "count": 10,
+   "error": "",
+   "filtered": 5
+  },
+  {
+   "key": "wiki_en",
+   "label": "위키백과 en",
+   "status": "ok",
+   "count": 20,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "wiki_ko",
+   "label": "위키백과 ko",
+   "status": "ok",
+   "count": 20,
+   "error": "",
+   "filtered": 2
+  },
+  {
+   "key": "imgflip",
+   "label": "Imgflip 템플릿",
+   "status": "ok",
+   "count": 100,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "threads",
+   "label": "Threads 키워드",
+   "status": "skip",
+   "count": 0,
+   "error": "THREADS_ACCESS_TOKEN 없음",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_tiktokcringe",
+   "label": "Reddit r/TikTokCringe",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_memes",
+   "label": "Reddit r/memes",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_popculturechat",
+   "label": "Reddit r/popculturechat",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_shorts",
+   "label": "Reddit r/shorts",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_gaming",
+   "label": "Reddit r/gaming",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_indiegaming",
+   "label": "Reddit r/IndieGaming",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "filtered": 0
+  }
+ ],
+ "threads": {
+  "status": "skip",
+  "error": "THREADS_ACCESS_TOKEN 없음",
+  "token": {
+   "present": false,
+   "note": "Threads: 토큰 없음"
+  },
+  "note": "Threads: 토큰 없음",
+  "keywords": [],
+  "rising": [],
+  "total_posts": 0,
+  "n_ok": 0,
+  "failed": [],
+  "calls": 0,
+  "hours": 24,
+  "limit": 100,
+  "compared": false
+ },
+ "reels": {
+  "status": "ok",
+  "error": "",
+  "note": "",
+  "videos": [
+   {
+    "rank": 1,
+    "id": "lNbqV0smZlE",
+    "title": "요즘 난리 난 댄스 챌린지 중 지켜보던 시민이 갑자기 난입했다고?! 😂",
+    "channel": "민서율 seoyool",
+    "views": 8933330,
+    "likes": 59065,
+    "duration": 10,
+    "shorts": true,
+    "published": "2026-11-06T14:30:51Z",
+    "url": "https://www.youtube.com/shorts/lNbqV0smZlE",
+    "thumb": "https://i.ytimg.com/vi/lNbqV0smZlE/mqdefault.jpg",
+    "query": "요즘 유행 릴스 챌린지",
+    "queries": [
+     "요즘 유행 릴스 챌린지"
+    ],
+    "new": false
+   },
+   {
+    "rank": 2,
+    "id": "qj-8bxL0pXs",
+    "title": "요즘 난리 난 댄스 챌린지 중.. 예상치 못한 반전이?! 😳😂",
+    "channel": "민서율 seoyool",
+    "views": 6122738,
+    "likes": 34861,
+    "duration": 11,
+    "shorts": true,
+    "published": "2026-11-11T14:32:54Z",
+    "url": "https://www.youtube.com/shorts/qj-8bxL0pXs",
+    "thumb": "https://i.ytimg.com/vi/qj-8bxL0pXs/mqdefault.jpg",
+    "query": "틱톡 챌린지 모음",
+    "queries": [
+     "틱톡 챌린지 모음",
+     "요즘 유행 릴스 챌린지"
+    ],
+    "new": false
+   },
+   {
+    "rank": 3,
+    "id": "e38Z9wSbeBE",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #trending #shorts #explore",
+    "channel": "musicMastiZone",
+    "views": 1257064,
+    "likes": null,
+    "duration": 35,
+    "shorts": true,
+    "published": "2026-11-05T07:37:22Z",
+    "url": "https://www.youtube.com/shorts/e38Z9wSbeBE",
+    "thumb": "https://i.ytimg.com/vi/e38Z9wSbeBE/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 4,
+    "id": "tinZxrIkMWU",
+    "title": "All Instagram Trending Playlist 🎧 | Aesthetic Songs 2026 🌸 | Viral Instagram Reels Songs ✨",
+    "channel": "RYTHQ 🎧",
+    "views": 763576,
+    "likes": 3071,
+    "duration": 1367,
+    "shorts": false,
+    "published": "2026-11-08T16:48:55Z",
+    "url": "https://www.youtube.com/watch?v=tinZxrIkMWU",
+    "thumb": "https://i.ytimg.com/vi/tinZxrIkMWU/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 5,
+    "id": "wuhzzRUNBhY",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #trending #shorts #explore",
+    "channel": "musicMastiZone",
+    "views": 577336,
+    "likes": 4649,
+    "duration": 35,
+    "shorts": true,
+    "published": "2026-11-12T07:41:02Z",
+    "url": "https://www.youtube.com/shorts/wuhzzRUNBhY",
+    "thumb": "https://i.ytimg.com/vi/wuhzzRUNBhY/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 6,
+    "id": "kHgflX_Zzh4",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits@surajyug",
+    "channel": "Suraj Yugs",
+    "views": 458073,
+    "likes": null,
+    "duration": 43,
+    "shorts": true,
+    "published": "2026-11-13T02:00:17Z",
+    "url": "https://www.youtube.com/shorts/kHgflX_Zzh4",
+    "thumb": "https://i.ytimg.com/vi/kHgflX_Zzh4/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 7,
+    "id": "dZyfBhvq0aY",
+    "title": "Muslims Are LOSING IT Over Viral New Trend Started By American Women!",
+    "channel": "Meira K",
+    "views": 313793,
+    "likes": 11733,
+    "duration": 694,
+    "shorts": false,
+    "published": "2026-11-08T04:47:24Z",
+    "url": "https://www.youtube.com/watch?v=dZyfBhvq0aY",
+    "thumb": "https://i.ytimg.com/vi/dZyfBhvq0aY/mqdefault.jpg",
+    "query": "tiktok trends this week explained",
+    "queries": [
+     "tiktok trends this week explained"
+    ],
+    "new": false
+   },
+   {
+    "rank": 8,
+    "id": "HlRKQERoR7Y",
+    "title": "Best 2026 Tiktok dance challenges- who did it best💃",
+    "channel": "ZADITS",
+    "views": 295920,
+    "likes": 1312,
+    "duration": 341,
+    "shorts": false,
+    "published": "2026-11-08T14:23:10Z",
+    "url": "https://www.youtube.com/watch?v=HlRKQERoR7Y",
+    "thumb": "https://i.ytimg.com/vi/HlRKQERoR7Y/mqdefault.jpg",
+    "query": "viral tiktok trends compilation",
+    "queries": [
+     "viral tiktok trends compilation"
+    ],
+    "new": false
+   },
+   {
+    "rank": 9,
+    "id": "E-3dGHFO_8E",
+    "title": "TOP 10 TRENDING SONGS FOR INSTAGRAM &XYOUTUBE #youtubeshorts #viral #trendingshorts",
+    "channel": "AGARWAL MUSIC ",
+    "views": 219267,
+    "likes": 4750,
+    "duration": 62,
+    "shorts": false,
+    "published": "2026-11-13T04:59:55Z",
+    "url": "https://www.youtube.com/watch?v=E-3dGHFO_8E",
+    "thumb": "https://i.ytimg.com/vi/E-3dGHFO_8E/mqdefault.jpg",
+    "query": "reels trends this week",
+    "queries": [
+     "reels trends this week"
+    ],
+    "new": true
+   },
+   {
+    "rank": 10,
+    "id": "CPgUwVAhebk",
+    "title": "These are the memes HUMILIATING Trump world and they're hilarious",
+    "channel": "Really American",
+    "views": 116851,
+    "likes": 3407,
+    "duration": 788,
+    "shorts": false,
+    "published": "2026-11-18T17:39:40Z",
+    "url": "https://www.youtube.com/watch?v=CPgUwVAhebk",
+    "thumb": "https://i.ytimg.com/vi/CPgUwVAhebk/mqdefault.jpg",
+    "query": "tiktok trends this week explained",
+    "queries": [
+     "tiktok trends this week explained"
+    ],
+    "new": true
+   }
+  ],
+  "items": [
+   {
+    "key": "bollywood love songs",
+    "term": "bollywood love songs",
+    "kind": "phrase",
+    "n": 7,
+    "n_videos": 8,
+    "views": 3010879,
+    "videos": [
+     "e38Z9wSbeBE",
+     "tinZxrIkMWU",
+     "wuhzzRUNBhY"
+    ],
+    "prev": 6,
+    "new": false,
+    "lift": 1.17
+   },
+   {
+    "key": "used iconic songs",
+    "term": "used iconic songs",
+    "kind": "phrase",
+    "n": 6,
+    "n_videos": 7,
+    "views": 2741229,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4"
+    ],
+    "prev": null,
+    "new": true,
+    "lift": null
+   },
+   {
+    "key": "desi trending songs",
+    "term": "desi trending songs",
+    "kind": "phrase",
+    "n": 5,
+    "n_videos": 6,
+    "views": 2629608,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.25
+   },
+   {
+    "key": "india viral music",
+    "term": "india viral music",
+    "kind": "phrase",
+    "n": 5,
+    "n_videos": 6,
+    "views": 2629608,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.25
+   },
+   {
+    "key": "indian viral songs",
+    "term": "indian viral songs",
+    "kind": "phrase",
+    "n": 5,
+    "n_videos": 6,
+    "views": 2629608,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.25
+   },
+   {
+    "key": "reelsindia",
+    "term": "#ReelsIndia",
+    "kind": "hashtag",
+    "n": 5,
+    "n_videos": 6,
+    "views": 2629608,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.25
+   },
+   {
+    "key": "most popular bollywood songs",
+    "term": "Most Popular Bollywood Songs",
+    "kind": "list",
+    "n": 4,
+    "n_videos": 5,
+    "views": 2143263,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "E-3dGHFO_8E"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "india sisa song",
+    "term": "india sisa song",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 2410341,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "jaye sajna song",
+    "term": "jaye sajna song",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 2410341,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "kamli song",
+    "term": "kamli song",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 2410341,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "se manali song",
+    "term": "se manali song",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 2410341,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "iconic sad song",
+    "term": "Iconic Sad Song",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 2220277,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "E-3dGHFO_8E"
+    ],
+    "prev": null,
+    "new": true,
+    "lift": null
+   },
+   {
+    "key": "punjabi top songs",
+    "term": "punjabi top songs",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 2143263,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "E-3dGHFO_8E"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "english top songs",
+    "term": "english top songs",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 2134169,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "E-3dGHFO_8E"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "delhisemanali",
+    "term": "#DelhiSeManali",
+    "kind": "hashtag",
+    "n": 4,
+    "n_videos": 5,
+    "views": 2410341,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "kamlisong",
+    "term": "#KamliSong",
+    "kind": "hashtag",
+    "n": 4,
+    "n_videos": 5,
+    "views": 2410341,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "slowed reverb songs",
+    "term": "Slowed + Reverb Songs",
+    "kind": "list",
+    "n": 3,
+    "n_videos": 3,
+    "views": 807442,
+    "videos": [
+     "tinZxrIkMWU",
+     "0bBqBWYGgVA",
+     "h6yI1w4T9JE"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "punjabi trending songs",
+    "term": "Trending Punjabi Songs",
+    "kind": "list",
+    "n": 3,
+    "n_videos": 3,
+    "views": 807442,
+    "videos": [
+     "tinZxrIkMWU",
+     "0bBqBWYGgVA",
+     "h6yI1w4T9JE"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "global music rankings",
+    "term": "Global Music Rankings",
+    "kind": "list",
+    "n": 3,
+    "n_videos": 3,
+    "views": 171741,
+    "videos": [
+     "CW9t5wbjP78",
+     "0bBqBWYGgVA",
+     "t9BHe9tjq5I"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "hindi top songs",
+    "term": "hindi top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2108656,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "E-3dGHFO_8E"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "queries top songs",
+    "term": "Queries top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2108656,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "E-3dGHFO_8E"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "favourite song",
+    "term": "favourite song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 807442,
+    "videos": [
+     "tinZxrIkMWU",
+     "0bBqBWYGgVA",
+     "h6yI1w4T9JE"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "ytshorts",
+    "term": "#ytshorts",
+    "kind": "hashtag",
+    "n": 3,
+    "n_videos": 4,
+    "views": 2108656,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "E-3dGHFO_8E"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "most streamed songs",
+    "term": "Most Streamed Songs",
+    "kind": "list",
+    "n": 2,
+    "n_videos": 2,
+    "views": 146228,
+    "videos": [
+     "CW9t5wbjP78",
+     "0bBqBWYGgVA"
+    ],
+    "prev": 1,
+    "new": false,
+    "lift": 2.0
+   },
+   {
+    "key": "viral phonk music",
+    "term": "Viral Phonk Music",
+    "kind": "list",
+    "n": 2,
+    "n_videos": 2,
+    "views": 146228,
+    "videos": [
+     "CW9t5wbjP78",
+     "0bBqBWYGgVA"
+    ],
+    "prev": 1,
+    "new": false,
+    "lift": 2.0
+   },
+   {
+    "key": "ajit singh song",
+    "term": "ajit singh song",
+    "kind": "phrase",
+    "n": 2,
+    "n_videos": 3,
+    "views": 1889389,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "Ip8BsnL4O9U"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 0.67
+   },
+   {
+    "key": "arijit singh song",
+    "term": "arijit singh song",
+    "kind": "phrase",
+    "n": 2,
+    "n_videos": 3,
+    "views": 1889389,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "Ip8BsnL4O9U"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 0.67
+   },
+   {
+    "key": "arijit singh songs",
+    "term": "arijit singh songs",
+    "kind": "phrase",
+    "n": 2,
+    "n_videos": 3,
+    "views": 1889389,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "Ip8BsnL4O9U"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 0.67
+   },
+   {
+    "key": "bhojpuri new song",
+    "term": "bhojpuri new song",
+    "kind": "phrase",
+    "n": 2,
+    "n_videos": 3,
+    "views": 1889389,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "Ip8BsnL4O9U"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 0.67
+   },
+   {
+    "key": "bollywood bollywood song",
+    "term": "bollywood bollywood song",
+    "kind": "phrase",
+    "n": 2,
+    "n_videos": 3,
+    "views": 1889389,
+    "videos": [
+     "e38Z9wSbeBE",
+     "wuhzzRUNBhY",
+     "Ip8BsnL4O9U"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 0.67
+   }
+  ],
+  "n_videos": 37,
+  "n_items": 30,
+  "n_found": 74,
+  "n_roundup": 40,
+  "dropped": {
+   "제목 해시태그 스팸": 7,
+   "제목에 트렌드·사운드·챌린지 없음": 20,
+   "리믹스·매시업": 7
+  },
+  "queries": [
+   {
+    "q": "릴스 트렌드",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "틱톡 챌린지 모음",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "요즘 유행 릴스 챌린지",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "릴스 음원 추천",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "reels trends this week",
+    "region": "US",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "trending sounds instagram reels this week",
+    "region": "US",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "tiktok trends this week explained",
+    "region": "US",
+    "duration": "medium",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "viral tiktok trends compilation",
+    "region": "US",
+    "duration": "medium",
+    "n": 10,
+    "error": ""
+   }
+  ],
+  "n_queries_ok": 8,
+  "calls": {
+   "search": 8,
+   "videos": 2,
+   "units": 802
+  },
+  "days": 14,
+  "order": "relevance",
+  "published_after": "2026-11-05T02:36:37Z",
+  "compared": true
+ }
+}
