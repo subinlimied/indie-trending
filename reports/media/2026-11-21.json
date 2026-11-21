@@ -1,0 +1,2519 @@
+{
+ "kind": "media",
+ "platform": "media",
+ "platform_ko": "미디어·밈",
+ "date": "2026-11-21",
+ "round": 31,
+ "prev_date": "2026-11-20",
+ "status": [
+  [
+   "회차",
+   "31회차"
+  ],
+  [
+   "비교 대상",
+   "2026-11-20 · 1일치"
+  ],
+  [
+   "틱톡·인스타",
+   "4건 / KYM 8"
+  ],
+  [
+   "새 밈",
+   "7건"
+  ],
+  [
+   "제외 필터",
+   "13건"
+  ],
+  [
+   "게임 교차",
+   "0건"
+  ],
+  [
+   "Threads",
+   "토큰 없음"
+  ],
+  [
+   "릴스·틱톡 정리",
+   "영상 35개 · 항목 30"
+  ],
+  [
+   "수집",
+   "2026-11-21 02:16:06 UTC"
+  ]
+ ],
+ "collect_line": "소스 12/18 정상 · 건너뜀 1 · KYM 8건(틱톡·인스타 4) · 새 밈 7 · Reddit 0/6 · 검색 7/3 · 위키 20/17 · 제외 필터 13건 · 실패: Reddit r/TikTokCringe, Reddit r/memes, Reddit r/popculturechat, Reddit r/shorts, Reddit r/gaming, Reddit r/IndieGaming · Threads: 토큰 없음 · 릴스 정리 영상 35개 · 항목 30",
+ "basis_line": "KYM 뉴스피드·확정·제출 RSS + 검색 tiktok/instagram/reels (최근 48시간) · Reddit top(t=day) 8개 × 6개 서브레딧 · YouTube 인기 급상승 KR·US Top 10(60초 이하는 쇼츠 표시, 키 있을 때) · Google 트렌드 일간 KR·US · 위키백과 조회수 상위 en·ko · 릴스·틱톡 트렌드 정리 = YouTube 검색 8개 검색어 × 최근 14일 조회수순 10개(키 있을 때, 제목·설명의 목록 줄·해시태그·챌린지/사운드 구절을 항목으로) · Imgflip 인기 템플릿 100개 중 상위 30 · Threads 키워드 검색 TOP·RECENT 각 100건(토큰 있을 때, 24시간 게시 수는 RECENT 기준이라 100건에서 포화) · 제외 필터 = config media.exclude_keywords (정치·경제·스포츠·사건사고, 사람 이름은 못 거름) · 게임 교차 = Steam·itch 스냅샷 게임 이름과 대조",
+ "pick": {
+  "kind": "submissions",
+  "title": "Messy Trend",
+  "url": "https://knowyourmeme.com/memes/messy-trend",
+  "published": "2026-11-19T21:14:54Z",
+  "summary": "The Messy Trend, also known as the MessyTok Trend or Messy GC Trend, refers to a TikTok trend centered around gossip, personal drama and interpersonal conflicts, often revolving around a friend group's \"GC,\" meaning \"group chat.\" Videos associated with the trend typically feature users sharing stor…",
+  "platforms": [
+   "TikTok"
+  ],
+  "status": "submission",
+  "image": "https://i.kym-cdn.com/entries/icons/original/000/057/796/Untitled_Design_(16).png",
+  "about": "The Messy Trend, also known as the MessyTok Trend or Messy GC Trend, refers to a TikTok trend centered around gossip, personal drama and interpersonal conflicts, often revolving around a friend group's \"GC,\" meaning \"group chat.\" Videos associated with the trend typically feature users sharing storytimes, rants and updates about disputes involving friends, romantic partners, family members and acquaintances. Some posts also involve indirect criticism of influencers or other social media users. A common feature of the trend is the use of vague descriptions and deliberately obscured identities,…",
+  "modified": "2026-11-20T19:35:32Z",
+  "kinds": [
+   "submissions"
+  ],
+  "new": false,
+  "streak": 1,
+  "since": "2026-11-21",
+  "reason": "KYM 최신 TikTok 항목"
+ },
+ "platform_counts": [
+  [
+   "TikTok",
+   4
+  ]
+ ],
+ "shortform": [
+  {
+   "kind": "submissions",
+   "title": "Messy Trend",
+   "url": "https://knowyourmeme.com/memes/messy-trend",
+   "published": "2026-11-19T21:14:54Z",
+   "summary": "The Messy Trend, also known as the MessyTok Trend or Messy GC Trend, refers to a TikTok trend centered around gossip, personal drama and interpersonal conflicts, often revolving around a friend group's \"GC,\" meaning \"group chat.\" Videos associated with the trend typically feature users sharing stor…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/796/Untitled_Design_(16).png",
+   "about": "The Messy Trend, also known as the MessyTok Trend or Messy GC Trend, refers to a TikTok trend centered around gossip, personal drama and interpersonal conflicts, often revolving around a friend group's \"GC,\" meaning \"group chat.\" Videos associated with the trend typically feature users sharing storytimes, rants and updates about disputes involving friends, romantic partners, family members and acquaintances. Some posts also involve indirect criticism of influencers or other social media users. A common feature of the trend is the use of vague descriptions and deliberately obscured identities,…",
+   "modified": "2026-11-20T19:35:32Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "I'ma Have It One Day",
+   "url": "https://knowyourmeme.com/memes/ima-have-it-one-day",
+   "published": "2026-11-19T17:56:23Z",
+   "summary": "I'ma Have It One Day or I'mma Have It One Day, refers to a series of memes based on several videos of TikToker @reggieishilarious crying while singing a portion of Playboi Carti's song \"One Day,\" featuring the lyrics, \"I'ma have it one day, one day, we gon' get it one day.\" The original video is by…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/794/onedaycover.jpg",
+   "about": "I'ma Have It One Day or I'mma Have It One Day refers to a series of memes based on several videos of TikToker @reggieishilarious crying while singing a portion of Playboi Carti's song \"One Day,\" featuring the lyrics, \"I'ma have it one day, one day, we gon' get it one day.\" The original video is by TikToker @reggieishilarious. The earliest available version of the video, featuring Reggie singing the song in response to a couple's video on TikTok, was uploaded to YouTube in July 2021. The clip spread as a meme over the following years, in which it is used to express a desire for something that…",
+   "modified": "2026-11-20T18:53:45Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "My Moon My Man Trend",
+   "url": "https://knowyourmeme.com/memes/my-moon-my-man-trend",
+   "published": "2026-11-19T17:30:55Z",
+   "summary": "My Moon My Man Trend refers to a viral TikTok photo slideshow and couples trend in which users share two photos, typically of themselves and their romantic partner, with the lyrics \"my moon, my man\" stretched across both images so that the text appears to connect when swiping between them. The tren…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/793/My_Moon_My_Man_Trend_banner_image.jpg",
+   "about": "My Moon My Man Trend refers to a viral TikTok photo slideshow and couples trend in which users share two photos, typically of themselves and their romantic partner, with the lyrics \"my moon, my man\" stretched across both images so that the text appears to connect when swiping between them. The trend is set to a live cover of Canadian singer Feist's 2007 song \"My Moon My Man,\" performed by FINNEAS, the brother of singer Billie Eilish, at the 2026 Canadian Songwriters Hall of Fame. In the trend, users typically place the caption, \"My Moon My Maaaa,\" over the first photo, with the remaining lett…",
+   "modified": "2026-11-19T19:17:01Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Huss Huss Huss / In This Town Everybody Goes Out Partying Except Me",
+   "url": "https://knowyourmeme.com/memes/huss-huss-huss-in-this-town-everybody-goes-out-partying-except-me",
+   "published": "2026-11-19T16:46:46Z",
+   "summary": "Huss Huss Huss or In This Town Everybody Goes Out Partying Except Me is a lip-dub audio and series of memes based on a video by TikToker @larpniverse where a Roblox character explains that everybody goes out partying in his town except for him, interjected by clips of him dribbling a basketball and…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/792/husscover.jpg",
+   "about": "Huss Huss Huss or In This Town Everybody Goes Out Partying Except Me is a lip-dub audio and series of memes based on a video by TikToker @larpniverse where a Roblox character explains that everybody goes out partying in his town except for him, interjected by clips of him dribbling a basketball and saying, \" Huss, huss, huss,\" meant to represent the sound of heavy breathing. The video was posted in mid-November 2026 and became the subject of memes over the following days. Besides lip dubs, the video also inspired remixes and other referential memes. The video is likely a reference to the Whil…",
+   "modified": "2026-11-20T19:30:10Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  }
+ ],
+ "kym_all": [
+  {
+   "kind": "newsfeed",
+   "title": "The Things That Lucia Would Appreciate Of Jason Spark Discourse And Memes Among 'GTA 6' Players",
+   "url": "https://knowyourmeme.com/memes/lucia-will-appreciate-this",
+   "published": "2026-11-20T20:21:33Z",
+   "summary": "Lucia Will Appreciate This refers to several mission pop-up descriptions in Grand Theft Auto VI that inform the player, while playing as Jason, of things that they can do for Lucia to make their love grow, such as buying groceries or getting her a bouquet of flowers. The descriptions started spread…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/799/luciacover.jpg",
+   "about": "Lucia Will Appreciate This, also known as GTA 6 Text Notification Edits, refers to several mission pop-up descriptions in Grand Theft Auto VI that inform the player, while playing as Jason, of things that they can do for Lucia to make their love grow, such as buying groceries or getting her a bouquet of flowers. The descriptions started spreading online on November 18th, 2026, during the release of the game. They inspired discourse about the game, including some criticism that the game makes you do chores and prioritizes treating your partner well, something that is new to the Grand Theft Aut…",
+   "modified": "2026-11-21T01:14:36Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "The Phone Screen In 'GTA 6' Becomes A Green Screen Meme About Mowing Down Pedestrians And Doom Scrolling",
+   "url": "https://knowyourmeme.com/memes/holding-phone-while-driving-over-people-on-the-beach-gta-6",
+   "published": "2026-11-20T17:16:12Z",
+   "summary": "Holding Phone While Driving Over People On the Beach is an exploitable green-screen meme format based on a video taken in Grand Theft Auto VI that shows the player watching something on their cellphone while driving over beachgoers. The source video was posted to X on November 18th, 2026 and inspir…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/798/gtacover.jpg",
+   "about": "Holding Phone While Driving Over People On the Beach, also known as GTA 6 Running People Over While On Phone Meme, is an exploitable meme and green-screen edit format based on a video taken in Grand Theft Auto VI that shows the player watching something on their cellphone while driving over beachgoers in a car. The source video was posted to X / Twitter on November 18th, 2026, and inspired edits that day, in which the content shown on the phone screen is replaced with another video or image. The format continued to spread online over the following days surrounding the game's initial release.",
+   "modified": "2026-11-20T22:31:11Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "Messy Trend",
+   "url": "https://knowyourmeme.com/memes/messy-trend",
+   "published": "2026-11-19T21:14:54Z",
+   "summary": "The Messy Trend, also known as the MessyTok Trend or Messy GC Trend, refers to a TikTok trend centered around gossip, personal drama and interpersonal conflicts, often revolving around a friend group's \"GC,\" meaning \"group chat.\" Videos associated with the trend typically feature users sharing stor…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/796/Untitled_Design_(16).png",
+   "about": "The Messy Trend, also known as the MessyTok Trend or Messy GC Trend, refers to a TikTok trend centered around gossip, personal drama and interpersonal conflicts, often revolving around a friend group's \"GC,\" meaning \"group chat.\" Videos associated with the trend typically feature users sharing storytimes, rants and updates about disputes involving friends, romantic partners, family members and acquaintances. Some posts also involve indirect criticism of influencers or other social media users. A common feature of the trend is the use of vague descriptions and deliberately obscured identities,…",
+   "modified": "2026-11-20T19:35:32Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Huss (Slang)",
+   "url": "https://knowyourmeme.com/memes/huss-slang",
+   "published": "2026-11-19T20:04:50Z",
+   "summary": "Huss, not to be confused with Huzz, is an onomatopoeia and slang term used to describe the sound of fast, controlled exhalation when exerting yourself physically, such as when running or training in shadowboxing, \"huss\" being the sound of breathing out. It is also used more broadly to refer to the…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/795/husscover1_.jpg",
+   "about": "Huss, not to be confused with Huzz, is an onomatopoeia and slang term used to describe the sound of fast, controlled exhalation when exerting yourself physically, such as when running or training in shadowboxing, \"huss\" being the sound of breathing out. It is also used more broadly to refer to the act of sprinting. The term was popularized in 2026 through memes, including the June 2026 Huss Valley memes, the August 2026 Fastest Hussers meme, the October 2026 revival of the While They Are Out Partying memes and the November 2026 Huss, Huss, Huss memes. The term \"huss\" can also be used as a ver…",
+   "modified": "2026-11-20T19:30:10Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "I'ma Have It One Day",
+   "url": "https://knowyourmeme.com/memes/ima-have-it-one-day",
+   "published": "2026-11-19T17:56:23Z",
+   "summary": "I'ma Have It One Day or I'mma Have It One Day, refers to a series of memes based on several videos of TikToker @reggieishilarious crying while singing a portion of Playboi Carti's song \"One Day,\" featuring the lyrics, \"I'ma have it one day, one day, we gon' get it one day.\" The original video is by…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/794/onedaycover.jpg",
+   "about": "I'ma Have It One Day or I'mma Have It One Day refers to a series of memes based on several videos of TikToker @reggieishilarious crying while singing a portion of Playboi Carti's song \"One Day,\" featuring the lyrics, \"I'ma have it one day, one day, we gon' get it one day.\" The original video is by TikToker @reggieishilarious. The earliest available version of the video, featuring Reggie singing the song in response to a couple's video on TikTok, was uploaded to YouTube in July 2021. The clip spread as a meme over the following years, in which it is used to express a desire for something that…",
+   "modified": "2026-11-20T18:53:45Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "My Moon My Man Trend",
+   "url": "https://knowyourmeme.com/memes/my-moon-my-man-trend",
+   "published": "2026-11-19T17:30:55Z",
+   "summary": "My Moon My Man Trend refers to a viral TikTok photo slideshow and couples trend in which users share two photos, typically of themselves and their romantic partner, with the lyrics \"my moon, my man\" stretched across both images so that the text appears to connect when swiping between them. The tren…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/793/My_Moon_My_Man_Trend_banner_image.jpg",
+   "about": "My Moon My Man Trend refers to a viral TikTok photo slideshow and couples trend in which users share two photos, typically of themselves and their romantic partner, with the lyrics \"my moon, my man\" stretched across both images so that the text appears to connect when swiping between them. The trend is set to a live cover of Canadian singer Feist's 2007 song \"My Moon My Man,\" performed by FINNEAS, the brother of singer Billie Eilish, at the 2026 Canadian Songwriters Hall of Fame. In the trend, users typically place the caption, \"My Moon My Maaaa,\" over the first photo, with the remaining lett…",
+   "modified": "2026-11-19T19:17:01Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Huss Huss Huss / In This Town Everybody Goes Out Partying Except Me",
+   "url": "https://knowyourmeme.com/memes/huss-huss-huss-in-this-town-everybody-goes-out-partying-except-me",
+   "published": "2026-11-19T16:46:46Z",
+   "summary": "Huss Huss Huss or In This Town Everybody Goes Out Partying Except Me is a lip-dub audio and series of memes based on a video by TikToker @larpniverse where a Roblox character explains that everybody goes out partying in his town except for him, interjected by clips of him dribbling a basketball and…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/792/husscover.jpg",
+   "about": "Huss Huss Huss or In This Town Everybody Goes Out Partying Except Me is a lip-dub audio and series of memes based on a video by TikToker @larpniverse where a Roblox character explains that everybody goes out partying in his town except for him, interjected by clips of him dribbling a basketball and saying, \" Huss, huss, huss,\" meant to represent the sound of heavy breathing. The video was posted in mid-November 2026 and became the subject of memes over the following days. Besides lip dubs, the video also inspired remixes and other referential memes. The video is likely a reference to the Whil…",
+   "modified": "2026-11-20T19:30:10Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "newsfeed",
+   "title": "The 'Young Link Looking Over Table' And 'Guard Reading Zelda's Letter' Memes From The 2026 'Ocarina Of Time' Remake Explained",
+   "url": "https://knowyourmeme.com/videos/441286-young-link-looking-over-a-table",
+   "published": "2026-11-19T15:55:02Z",
+   "summary": "",
+   "platforms": [],
+   "status": "",
+   "image": "https://i.ytimg.com/vi/rgfctHkPU-g/hqdefault.jpg",
+   "kinds": [
+    "newsfeed"
+   ],
+   "new": true
+  }
+ ],
+ "kym_new": 3,
+ "new_memes": [
+  {
+   "kind": "newsfeed",
+   "title": "The Things That Lucia Would Appreciate Of Jason Spark Discourse And Memes Among 'GTA 6' Players",
+   "url": "https://knowyourmeme.com/memes/lucia-will-appreciate-this",
+   "published": "2026-11-20T20:21:33Z",
+   "summary": "Lucia Will Appreciate This refers to several mission pop-up descriptions in Grand Theft Auto VI that inform the player, while playing as Jason, of things that they can do for Lucia to make their love grow, such as buying groceries or getting her a bouquet of flowers. The descriptions started spread…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/799/luciacover.jpg",
+   "about": "Lucia Will Appreciate This, also known as GTA 6 Text Notification Edits, refers to several mission pop-up descriptions in Grand Theft Auto VI that inform the player, while playing as Jason, of things that they can do for Lucia to make their love grow, such as buying groceries or getting her a bouquet of flowers. The descriptions started spreading online on November 18th, 2026, during the release of the game. They inspired discourse about the game, including some criticism that the game makes you do chores and prioritizes treating your partner well, something that is new to the Grand Theft Aut…",
+   "modified": "2026-11-21T01:14:36Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "newsfeed",
+   "title": "The Phone Screen In 'GTA 6' Becomes A Green Screen Meme About Mowing Down Pedestrians And Doom Scrolling",
+   "url": "https://knowyourmeme.com/memes/holding-phone-while-driving-over-people-on-the-beach-gta-6",
+   "published": "2026-11-20T17:16:12Z",
+   "summary": "Holding Phone While Driving Over People On the Beach is an exploitable green-screen meme format based on a video taken in Grand Theft Auto VI that shows the player watching something on their cellphone while driving over beachgoers. The source video was posted to X on November 18th, 2026 and inspir…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/798/gtacover.jpg",
+   "about": "Holding Phone While Driving Over People On the Beach, also known as GTA 6 Running People Over While On Phone Meme, is an exploitable meme and green-screen edit format based on a video taken in Grand Theft Auto VI that shows the player watching something on their cellphone while driving over beachgoers in a car. The source video was posted to X / Twitter on November 18th, 2026, and inspired edits that day, in which the content shown on the phone screen is replaced with another video or image. The format continued to spread online over the following days surrounding the game's initial release.",
+   "modified": "2026-11-20T22:31:11Z",
+   "kinds": [
+    "newsfeed",
+    "submissions"
+   ],
+   "new": true
+  },
+  {
+   "kind": "submissions",
+   "title": "Messy Trend",
+   "url": "https://knowyourmeme.com/memes/messy-trend",
+   "published": "2026-11-19T21:14:54Z",
+   "summary": "The Messy Trend, also known as the MessyTok Trend or Messy GC Trend, refers to a TikTok trend centered around gossip, personal drama and interpersonal conflicts, often revolving around a friend group's \"GC,\" meaning \"group chat.\" Videos associated with the trend typically feature users sharing stor…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/796/Untitled_Design_(16).png",
+   "about": "The Messy Trend, also known as the MessyTok Trend or Messy GC Trend, refers to a TikTok trend centered around gossip, personal drama and interpersonal conflicts, often revolving around a friend group's \"GC,\" meaning \"group chat.\" Videos associated with the trend typically feature users sharing storytimes, rants and updates about disputes involving friends, romantic partners, family members and acquaintances. Some posts also involve indirect criticism of influencers or other social media users. A common feature of the trend is the use of vague descriptions and deliberately obscured identities,…",
+   "modified": "2026-11-20T19:35:32Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Huss (Slang)",
+   "url": "https://knowyourmeme.com/memes/huss-slang",
+   "published": "2026-11-19T20:04:50Z",
+   "summary": "Huss, not to be confused with Huzz, is an onomatopoeia and slang term used to describe the sound of fast, controlled exhalation when exerting yourself physically, such as when running or training in shadowboxing, \"huss\" being the sound of breathing out. It is also used more broadly to refer to the…",
+   "platforms": [],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/795/husscover1_.jpg",
+   "about": "Huss, not to be confused with Huzz, is an onomatopoeia and slang term used to describe the sound of fast, controlled exhalation when exerting yourself physically, such as when running or training in shadowboxing, \"huss\" being the sound of breathing out. It is also used more broadly to refer to the act of sprinting. The term was popularized in 2026 through memes, including the June 2026 Huss Valley memes, the August 2026 Fastest Hussers meme, the October 2026 revival of the While They Are Out Partying memes and the November 2026 Huss, Huss, Huss memes. The term \"huss\" can also be used as a ver…",
+   "modified": "2026-11-20T19:30:10Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "I'ma Have It One Day",
+   "url": "https://knowyourmeme.com/memes/ima-have-it-one-day",
+   "published": "2026-11-19T17:56:23Z",
+   "summary": "I'ma Have It One Day or I'mma Have It One Day, refers to a series of memes based on several videos of TikToker @reggieishilarious crying while singing a portion of Playboi Carti's song \"One Day,\" featuring the lyrics, \"I'ma have it one day, one day, we gon' get it one day.\" The original video is by…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/794/onedaycover.jpg",
+   "about": "I'ma Have It One Day or I'mma Have It One Day refers to a series of memes based on several videos of TikToker @reggieishilarious crying while singing a portion of Playboi Carti's song \"One Day,\" featuring the lyrics, \"I'ma have it one day, one day, we gon' get it one day.\" The original video is by TikToker @reggieishilarious. The earliest available version of the video, featuring Reggie singing the song in response to a couple's video on TikTok, was uploaded to YouTube in July 2021. The clip spread as a meme over the following years, in which it is used to express a desire for something that…",
+   "modified": "2026-11-20T18:53:45Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "My Moon My Man Trend",
+   "url": "https://knowyourmeme.com/memes/my-moon-my-man-trend",
+   "published": "2026-11-19T17:30:55Z",
+   "summary": "My Moon My Man Trend refers to a viral TikTok photo slideshow and couples trend in which users share two photos, typically of themselves and their romantic partner, with the lyrics \"my moon, my man\" stretched across both images so that the text appears to connect when swiping between them. The tren…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/793/My_Moon_My_Man_Trend_banner_image.jpg",
+   "about": "My Moon My Man Trend refers to a viral TikTok photo slideshow and couples trend in which users share two photos, typically of themselves and their romantic partner, with the lyrics \"my moon, my man\" stretched across both images so that the text appears to connect when swiping between them. The trend is set to a live cover of Canadian singer Feist's 2007 song \"My Moon My Man,\" performed by FINNEAS, the brother of singer Billie Eilish, at the 2026 Canadian Songwriters Hall of Fame. In the trend, users typically place the caption, \"My Moon My Maaaa,\" over the first photo, with the remaining lett…",
+   "modified": "2026-11-19T19:17:01Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  },
+  {
+   "kind": "submissions",
+   "title": "Huss Huss Huss / In This Town Everybody Goes Out Partying Except Me",
+   "url": "https://knowyourmeme.com/memes/huss-huss-huss-in-this-town-everybody-goes-out-partying-except-me",
+   "published": "2026-11-19T16:46:46Z",
+   "summary": "Huss Huss Huss or In This Town Everybody Goes Out Partying Except Me is a lip-dub audio and series of memes based on a video by TikToker @larpniverse where a Roblox character explains that everybody goes out partying in his town except for him, interjected by clips of him dribbling a basketball and…",
+   "platforms": [
+    "TikTok"
+   ],
+   "status": "submission",
+   "image": "https://i.kym-cdn.com/entries/icons/original/000/057/792/husscover.jpg",
+   "about": "Huss Huss Huss or In This Town Everybody Goes Out Partying Except Me is a lip-dub audio and series of memes based on a video by TikToker @larpniverse where a Roblox character explains that everybody goes out partying in his town except for him, interjected by clips of him dribbling a basketball and saying, \" Huss, huss, huss,\" meant to represent the sound of heavy breathing. The video was posted in mid-November 2026 and became the subject of memes over the following days. Besides lip dubs, the video also inspired remixes and other referential memes. The video is likely a reference to the Whil…",
+   "modified": "2026-11-20T19:30:10Z",
+   "kinds": [
+    "submissions"
+   ],
+   "new": false
+  }
+ ],
+ "reddit": [
+  {
+   "sub": "TikTokCringe",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "items": []
+  },
+  {
+   "sub": "memes",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "items": []
+  },
+  {
+   "sub": "popculturechat",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "items": []
+  },
+  {
+   "sub": "shorts",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "items": []
+  },
+  {
+   "sub": "gaming",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "items": []
+  },
+  {
+   "sub": "IndieGaming",
+   "status": "fail",
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "items": []
+  }
+ ],
+ "youtube": {
+  "KR": {
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "id": "IQI2qaqHFlg",
+     "title": "GiiiRIP",
+     "channel": "BIGBANG - Topic",
+     "views": 1449175,
+     "likes": 85191,
+     "duration": 165,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=IQI2qaqHFlg",
+     "thumb": "https://i.ytimg.com/vi/IQI2qaqHFlg/mqdefault.jpg",
+     "published": "2026-11-20T05:02:15Z"
+    },
+    {
+     "rank": 2,
+     "id": "pVFdva-Ifns",
+     "title": "추성훈 vs 크리스 리벤 [Official Trailer]",
+     "channel": "블랙컴뱃",
+     "views": 681031,
+     "likes": 3629,
+     "duration": 125,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=pVFdva-Ifns",
+     "thumb": "https://i.ytimg.com/vi/pVFdva-Ifns/mqdefault.jpg",
+     "published": "2026-11-19T08:40:26Z"
+    },
+    {
+     "rank": 3,
+     "id": "T37qFqm9lvM",
+     "title": "와...모두가 속았습니다...≪혜안져스 마인크래프트 크라임씬≫",
+     "channel": "혜안",
+     "views": 286163,
+     "likes": 8706,
+     "duration": 2929,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=T37qFqm9lvM",
+     "thumb": "https://i.ytimg.com/vi/T37qFqm9lvM/mqdefault.jpg",
+     "published": "2026-11-20T10:04:19Z"
+    },
+    {
+     "rank": 4,
+     "id": "LOLXD85SThc",
+     "title": "Do you know (2026 Version)",
+     "channel": "SOMEDAY - Topic",
+     "views": 543735,
+     "likes": 13777,
+     "duration": 245,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=LOLXD85SThc",
+     "thumb": "https://i.ytimg.com/vi/LOLXD85SThc/mqdefault.jpg",
+     "published": "2026-11-17T09:04:44Z"
+    },
+    {
+     "rank": 5,
+     "id": "Ui8HrAe5Wjk",
+     "title": "얘로 메가봉크를 어떻게 해 【포케봉크】",
+     "channel": "근가놈",
+     "views": 320929,
+     "likes": 1638,
+     "duration": 1790,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Ui8HrAe5Wjk",
+     "thumb": "https://i.ytimg.com/vi/Ui8HrAe5Wjk/mqdefault.jpg",
+     "published": "2026-11-20T11:00:55Z"
+    },
+    {
+     "rank": 6,
+     "id": "XKYp0bYquv4",
+     "title": "난 못해 (Feat. 이병철)",
+     "channel": "Private Story - Topic",
+     "views": 264087,
+     "likes": 4469,
+     "duration": 251,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=XKYp0bYquv4",
+     "thumb": "https://i.ytimg.com/vi/XKYp0bYquv4/mqdefault.jpg",
+     "published": "2026-11-18T03:01:56Z"
+    },
+    {
+     "rank": 7,
+     "id": "wkg8kL5nx_4",
+     "title": "제우스 호소인",
+     "channel": "괴물쥐 유튜브",
+     "views": 707581,
+     "likes": 2135,
+     "duration": 1216,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=wkg8kL5nx_4",
+     "thumb": "https://i.ytimg.com/vi/wkg8kL5nx_4/mqdefault.jpg",
+     "published": "2026-11-19T13:00:03Z"
+    },
+    {
+     "rank": 8,
+     "id": "FVNI7zBuk-4",
+     "title": "베스티(BESTie) - 연애의 조건(Love Options) | Suit Dance | 수트댄스 | Performance | 4K",
+     "channel": "1theK Originals - 원더케이 오리지널",
+     "views": 691881,
+     "likes": 31056,
+     "duration": 204,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=FVNI7zBuk-4",
+     "thumb": "https://i.ytimg.com/vi/FVNI7zBuk-4/mqdefault.jpg",
+     "published": "2026-11-20T09:00:15Z"
+    },
+    {
+     "rank": 9,
+     "id": "VqogAfzqrmE",
+     "title": "팀원을 미치게 하는법",
+     "channel": "PAKA",
+     "views": 547835,
+     "likes": 1689,
+     "duration": 1597,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=VqogAfzqrmE",
+     "thumb": "https://i.ytimg.com/vi/VqogAfzqrmE/mqdefault.jpg",
+     "published": "2026-11-19T08:30:06Z"
+    },
+    {
+     "rank": 10,
+     "id": "9OE7nhqfo70",
+     "title": "That′s Not It",
+     "channel": "Kim Siwon - Topic",
+     "views": 69361,
+     "likes": 2184,
+     "duration": 170,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=9OE7nhqfo70",
+     "thumb": "https://i.ytimg.com/vi/9OE7nhqfo70/mqdefault.jpg",
+     "published": "2026-11-19T03:01:57Z"
+    }
+   ],
+   "total": 50,
+   "shorts": 0
+  },
+  "US": {
+   "status": "ok",
+   "error": "",
+   "items": [
+    {
+     "rank": 1,
+     "id": "1lOvAvBlzSM",
+     "title": "Anuel AA | SE TOCO EL T*TITO CON MI GL*CK (Video Oficial)",
+     "channel": "Anuel AA",
+     "views": 1016891,
+     "likes": 155745,
+     "duration": 265,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=1lOvAvBlzSM",
+     "thumb": "https://i.ytimg.com/vi/1lOvAvBlzSM/mqdefault.jpg",
+     "published": "2026-11-20T20:51:51Z"
+    },
+    {
+     "rank": 2,
+     "id": "o4aslcUEnoU",
+     "title": "Avengers: Doomsday: Every NEW REVEAL From the Empire Teaser",
+     "channel": "ScreenCrush",
+     "views": 327254,
+     "likes": 3990,
+     "duration": 1244,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=o4aslcUEnoU",
+     "thumb": "https://i.ytimg.com/vi/o4aslcUEnoU/mqdefault.jpg",
+     "published": "2026-11-19T22:53:50Z"
+    },
+    {
+     "rank": 3,
+     "id": "Bhti3dZCtXM",
+     "title": "Does GTA 6 Live Up to the Hype",
+     "channel": "penguinz0",
+     "views": 1464270,
+     "likes": 43368,
+     "duration": 1395,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=Bhti3dZCtXM",
+     "thumb": "https://i.ytimg.com/vi/Bhti3dZCtXM/mqdefault.jpg",
+     "published": "2026-11-20T19:45:00Z"
+    },
+    {
+     "rank": 4,
+     "id": "CnO_eCzoVsg",
+     "title": "One Last Breath (Remastered 2026)",
+     "channel": "Creed - Topic",
+     "views": 107715,
+     "likes": 1243,
+     "duration": 239,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=CnO_eCzoVsg",
+     "thumb": "https://i.ytimg.com/vi/CnO_eCzoVsg/mqdefault.jpg",
+     "published": "2026-11-19T10:00:26Z"
+    },
+    {
+     "rank": 5,
+     "id": "gNHr2-JjKRM",
+     "title": "THE NIGHTINGALE – Official Teaser Trailer (4K)",
+     "channel": "Sony Pictures Entertainment",
+     "views": 7487389,
+     "likes": 15247,
+     "duration": 158,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=gNHr2-JjKRM",
+     "thumb": "https://i.ytimg.com/vi/gNHr2-JjKRM/mqdefault.jpg",
+     "published": "2026-11-19T14:17:16Z"
+    },
+    {
+     "rank": 6,
+     "id": "QQV-0OUGxGs",
+     "title": "Whatever You Steal in GTA 6, You Keep!",
+     "channel": "MrBeast Gaming",
+     "views": 5167172,
+     "likes": 106598,
+     "duration": 1286,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=QQV-0OUGxGs",
+     "thumb": "https://i.ytimg.com/vi/QQV-0OUGxGs/mqdefault.jpg",
+     "published": "2026-11-20T20:43:18Z"
+    },
+    {
+     "rank": 7,
+     "id": "p8i5SiUrpjg",
+     "title": "Quando Rondo -  HEAD GONE [Official Video]",
+     "channel": "Quando Rondo",
+     "views": 428716,
+     "likes": 31702,
+     "duration": 173,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=p8i5SiUrpjg",
+     "thumb": "https://i.ytimg.com/vi/p8i5SiUrpjg/mqdefault.jpg",
+     "published": "2026-11-20T04:52:19Z"
+    },
+    {
+     "rank": 8,
+     "id": "3FbHbWWNH-c",
+     "title": "GTA 6 (Grand Theft Auto 6) - Official Global Launch Trailer",
+     "channel": "IGN",
+     "views": 715816,
+     "likes": 5765,
+     "duration": 91,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=3FbHbWWNH-c",
+     "thumb": "https://i.ytimg.com/vi/3FbHbWWNH-c/mqdefault.jpg",
+     "published": "2026-11-19T14:41:37Z"
+    },
+    {
+     "rank": 9,
+     "id": "LHoHInbPkk0",
+     "title": "🌴PLAYING GTA 6 FOR THE FIRST TIME🌴 (DAY 3)",
+     "channel": "Kai Cenat Live",
+     "views": 2484014,
+     "likes": 18686,
+     "duration": 42898,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=LHoHInbPkk0",
+     "thumb": "https://i.ytimg.com/vi/LHoHInbPkk0/mqdefault.jpg",
+     "published": "2026-11-21T02:08:43Z"
+    },
+    {
+     "rank": 10,
+     "id": "LJC7mgjp5FQ",
+     "title": "Taylor Swift - I Knew It, I Knew You x Our Song (Live From The 60th CMA Awards)",
+     "channel": "Taylor Swift",
+     "views": 4656408,
+     "likes": 111234,
+     "duration": 189,
+     "shorts": false,
+     "url": "https://www.youtube.com/watch?v=LJC7mgjp5FQ",
+     "thumb": "https://i.ytimg.com/vi/LJC7mgjp5FQ/mqdefault.jpg",
+     "published": "2026-11-19T11:00:19Z"
+    }
+   ],
+   "total": 48,
+   "shorts": 2
+  }
+ },
+ "trends": {
+  "KR": [
+   {
+    "rank": 1,
+    "title": "편의점",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "CU, 딘토와 '위니 더 푸' 색조 화장품 출시…책갈피 굿즈 동봉",
+    "news_url": "https://www.yna.co.kr/view/AKR20261119024400030",
+    "url": "https://www.yna.co.kr/view/AKR20261119024400030",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTQwahxz4qFu10svQQAW0LkZQaqlfqeTMvzCfhTMbqxgDjUCwFCdGlo_Vdg2sQ",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "nh농협카드",
+    "traffic": 100,
+    "traffic_raw": "100+",
+    "news_title": "“뛰어난 활약으로 브랜드 가치 높였다” NH농협카드 당구단, 농협금융스포츠단 납회식서 높은 평가",
+    "news_url": "https://mkbn.mk.co.kr/news/sports/12215015",
+    "url": "https://mkbn.mk.co.kr/news/sports/12215015",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS7uEHeAeuFGQA1ge4nY23_jzeqN06K_xKvs2jzA73bbo34mxTAutOEA3PvFfI",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "전북특별자치도",
+    "traffic": 100,
+    "traffic_raw": "100+",
+    "news_title": "전북도, 서해안과 내륙 잇는 도로망 53㎞ 정비 '속도'",
+    "news_url": "https://www.yna.co.kr/view/AKR20261120061500055",
+    "url": "https://www.yna.co.kr/view/AKR20261120061500055",
+    "picture": "",
+    "days": 1
+   },
+   {
+    "rank": 4,
+    "title": "패딩",
+    "traffic": 10000,
+    "traffic_raw": "10000+",
+    "news_title": "이번 주부터 영하 시작! 한겨울을 위한 ‘헤비 다운 패딩’ 6",
+    "news_url": "https://www.esquirekorea.co.kr/article/1913425",
+    "url": "https://www.esquirekorea.co.kr/article/1913425",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdmInoIQ6SmJ_WvgvY4ZzpVR-Z5H-YFDot3LtAXxF_jtz1VY0AmlZJoZ2UuZI",
+    "days": 1
+   },
+   {
+    "rank": 5,
+    "title": "lpga",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "Kim A-lim Hits Hole-in-One in LPGA Season Finale Round 2, Retains 3-Stroke Lead",
+    "news_url": "https://news.sbs.co.kr/english/article.do?news_id=N1008856792",
+    "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008856792",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRRmy4G8xw9MXSw_-7ihHOYjYcKkOh3oA-lIR4_fTErYPFDEdfxl1R-dysGrEg",
+    "days": 1
+   },
+   {
+    "rank": 6,
+    "title": "지스타",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "[게임위드인] AI로 외연 확장 노린 지스타…관람객은 게임에 몰렸다",
+    "news_url": "https://www.yna.co.kr/view/AKR20261120169900017",
+    "url": "https://www.yna.co.kr/view/AKR20261120169900017",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKz8dkxlxMZA3R-HA6QwHszrBX0hr8SaIJ43nuGRbh0TC-JvZJuO7a0RZAVUo",
+    "days": 1
+   },
+   {
+    "rank": 7,
+    "title": "공군사관학교",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "공군사관학교 부정행위 신고 뒤…시험지 폰으로 찍은 생도 퇴교",
+    "news_url": "https://www.hani.co.kr/arti/society/society_general/1288405.html",
+    "url": "https://www.hani.co.kr/arti/society/society_general/1288405.html",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrmpoP0RxCDDJP8d6Qtcl-Q_DMwz75c-4AAw_i6Oyp_j1tXFLYTkTvkldZgCQ",
+    "days": 1
+   }
+  ],
+  "US": [
+   {
+    "rank": 1,
+    "title": "nascar team owner wayne darling",
+    "traffic": 1000,
+    "traffic_raw": "1000+",
+    "news_title": "Seekonk remembers modified racing legend Wayne Darling",
+    "news_url": "https://turnto10.com/news/local/seekonk-remembers-modified-racing-legend-wayne-darling-november-19-2026",
+    "url": "https://turnto10.com/news/local/seekonk-remembers-modified-racing-legend-wayne-darling-november-19-2026",
+    "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQC73eb4iuviq2uFuW1R5_nQFVrDarmYCVXWkTOT-8rmwu-luXgKYngpSyw_-g",
+    "days": 1
+   },
+   {
+    "rank": 2,
+    "title": "cowboy bill watts",
+    "traffic": 200,
+    "traffic_raw": "200+",
+    "news_title": "WWE pays tribute to “Cowboy” Bill Watts",
+    "news_url": "https://www.wwe.com/videos/wwe-pays-tribute-to-cowboy-bill-watts",
+    "url": "https://www.wwe.com/videos/wwe-pays-tribute-to-cowboy-bill-watts",
+    "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYJeXcrBiIe4CNzC0hCk2-3QJsaqsNzqzLliqtJIEBI03ZBIGmwTWJ8vmPjsU",
+    "days": 1
+   },
+   {
+    "rank": 3,
+    "title": "dan koh",
+    "traffic": 500,
+    "traffic_raw": "500+",
+    "news_title": "US Congressman-elect Dan Koh has a message for North Korea",
+    "news_url": "https://www.voanews.com/a/us-congressman-elect-dan-koh-has-a-message-for-north-korea/8224740.html",
+    "url": "https://www.voanews.com/a/us-congressman-elect-dan-koh-has-a-message-for-north-korea/8224740.html",
+    "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRsGh53Q74OqDPcaPKIwTuN8_rtWnm8VAkg3hEdLttW5aCXZ8v2V9rT_VUo710",
+    "days": 1
+   }
+  ]
+ },
+ "wiki": {
+  "en": [
+   {
+    "title": "Grand Theft Auto VI",
+    "views": 750227,
+    "rank": 1,
+    "src_rank": 3,
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+    "days": 4,
+    "prev_rank": 1
+   },
+   {
+    "title": "Ramayana: Part 1",
+    "views": 371581,
+    "rank": 2,
+    "src_rank": 5,
+    "url": "https://en.wikipedia.org/wiki/Ramayana%3A_Part_1",
+    "days": 12,
+    "prev_rank": 2
+   },
+   {
+    "title": "Stephen Wilson Jr.",
+    "views": 327962,
+    "rank": 3,
+    "src_rank": 6,
+    "url": "https://en.wikipedia.org/wiki/Stephen_Wilson_Jr.",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Ella Langley",
+    "views": 189264,
+    "rank": 4,
+    "src_rank": 7,
+    "url": "https://en.wikipedia.org/wiki/Ella_Langley",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Ken McElroy",
+    "views": 172820,
+    "rank": 5,
+    "src_rank": 8,
+    "url": "https://en.wikipedia.org/wiki/Ken_McElroy",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Robert Pattinson",
+    "views": 172742,
+    "rank": 6,
+    "src_rank": 9,
+    "url": "https://en.wikipedia.org/wiki/Robert_Pattinson",
+    "days": 4,
+    "prev_rank": 3
+   },
+   {
+    "title": "Grand Theft Auto",
+    "views": 171292,
+    "rank": 7,
+    "src_rank": 10,
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+    "days": 2,
+    "prev_rank": 11
+   },
+   {
+    "title": "Dario Amodei",
+    "views": 167998,
+    "rank": 8,
+    "src_rank": 11,
+    "url": "https://en.wikipedia.org/wiki/Dario_Amodei",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Deaths in 2026",
+    "views": 133759,
+    "rank": 9,
+    "src_rank": 12,
+    "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+    "days": 12,
+    "prev_rank": 8
+   },
+   {
+    "title": ".xxx",
+    "views": 128793,
+    "rank": 10,
+    "src_rank": 13,
+    "url": "https://en.wikipedia.org/wiki/.xxx",
+    "days": 12,
+    "prev_rank": 6
+   },
+   {
+    "title": "Larry Poindexter",
+    "views": 124373,
+    "rank": 11,
+    "src_rank": 14,
+    "url": "https://en.wikipedia.org/wiki/Larry_Poindexter",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "The Hunger Games: Sunrise on the Reaping",
+    "views": 121672,
+    "rank": 12,
+    "src_rank": 15,
+    "url": "https://en.wikipedia.org/wiki/The_Hunger_Games%3A_Sunrise_on_the_Reaping",
+    "days": 3,
+    "prev_rank": 13
+   },
+   {
+    "title": "International Men's Day",
+    "views": 118074,
+    "rank": 13,
+    "src_rank": 16,
+    "url": "https://en.wikipedia.org/wiki/International_Men%27s_Day",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "List of highest-grossing Indian films",
+    "views": 116217,
+    "rank": 14,
+    "src_rank": 17,
+    "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_films",
+    "days": 9,
+    "prev_rank": 9
+   },
+   {
+    "title": "Rockstar Games",
+    "views": 112864,
+    "rank": 15,
+    "src_rank": 18,
+    "url": "https://en.wikipedia.org/wiki/Rockstar_Games",
+    "days": 2,
+    "prev_rank": 19
+   },
+   {
+    "title": "Anthropic",
+    "views": 112202,
+    "rank": 16,
+    "src_rank": 19,
+    "url": "https://en.wikipedia.org/wiki/Anthropic",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "The Body (TV series)",
+    "views": 111521,
+    "rank": 17,
+    "src_rank": 20,
+    "url": "https://en.wikipedia.org/wiki/The_Body_%28TV_series%29",
+    "days": 5,
+    "prev_rank": 10
+   },
+   {
+    "title": "Grand Theft Auto V",
+    "views": 108371,
+    "rank": 18,
+    "src_rank": 21,
+    "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+    "days": 2,
+    "prev_rank": 18
+   },
+   {
+    "title": "John Madden",
+    "views": 102039,
+    "rank": 19,
+    "src_rank": 22,
+    "url": "https://en.wikipedia.org/wiki/John_Madden",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "Leigh Nash",
+    "views": 95384,
+    "rank": 20,
+    "src_rank": 23,
+    "url": "https://en.wikipedia.org/wiki/Leigh_Nash",
+    "days": 1,
+    "prev_rank": null
+   }
+  ],
+  "en_day": "2026-11-19",
+  "en_same": false,
+  "ko": [
+   {
+    "title": "문화방송",
+    "views": 26201,
+    "rank": 1,
+    "src_rank": 2,
+    "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1",
+    "days": 24,
+    "prev_rank": 1
+   },
+   {
+    "title": "리트 (인터넷)",
+    "views": 19212,
+    "rank": 2,
+    "src_rank": 3,
+    "url": "https://ko.wikipedia.org/wiki/%EB%A6%AC%ED%8A%B8_%28%EC%9D%B8%ED%84%B0%EB%84%B7%29",
+    "days": 2,
+    "prev_rank": 19
+   },
+   {
+    "title": "오경미",
+    "views": 13153,
+    "rank": 4,
+    "src_rank": 5,
+    "url": "https://ko.wikipedia.org/wiki/%EC%98%A4%EA%B2%BD%EB%AF%B8",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "파기환송",
+    "views": 8632,
+    "rank": 5,
+    "src_rank": 7,
+    "url": "https://ko.wikipedia.org/wiki/%ED%8C%8C%EA%B8%B0%ED%99%98%EC%86%A1",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "앤트로픽",
+    "views": 7859,
+    "rank": 6,
+    "src_rank": 8,
+    "url": "https://ko.wikipedia.org/wiki/%EC%95%A4%ED%8A%B8%EB%A1%9C%ED%94%BD",
+    "days": 2,
+    "prev_rank": 12
+   },
+   {
+    "title": "박찬종",
+    "views": 4219,
+    "rank": 8,
+    "src_rank": 10,
+    "url": "https://ko.wikipedia.org/wiki/%EB%B0%95%EC%B0%AC%EC%A2%85",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "이진우 (배우)",
+    "views": 3238,
+    "rank": 9,
+    "src_rank": 11,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84%EC%9A%B0_%28%EB%B0%B0%EC%9A%B0%29",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "법학적성시험",
+    "views": 3021,
+    "rank": 10,
+    "src_rank": 12,
+    "url": "https://ko.wikipedia.org/wiki/%EB%B2%95%ED%95%99%EC%A0%81%EC%84%B1%EC%8B%9C%ED%97%98",
+    "days": 2,
+    "prev_rank": 15
+   },
+   {
+    "title": "태종무열왕",
+    "views": 2994,
+    "rank": 11,
+    "src_rank": 13,
+    "url": "https://ko.wikipedia.org/wiki/%ED%83%9C%EC%A2%85%EB%AC%B4%EC%97%B4%EC%99%95",
+    "days": 5,
+    "prev_rank": 3
+   },
+   {
+    "title": "리트",
+    "views": 2624,
+    "rank": 12,
+    "src_rank": 14,
+    "url": "https://ko.wikipedia.org/wiki/%EB%A6%AC%ED%8A%B8",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "연개소문",
+    "views": 2487,
+    "rank": 13,
+    "src_rank": 15,
+    "url": "https://ko.wikipedia.org/wiki/%EC%97%B0%EA%B0%9C%EC%86%8C%EB%AC%B8",
+    "days": 5,
+    "prev_rank": 9
+   },
+   {
+    "title": "김대두",
+    "views": 1993,
+    "rank": 14,
+    "src_rank": 16,
+    "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EB%8C%80%EB%91%90",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "노라 노",
+    "views": 1917,
+    "rank": 15,
+    "src_rank": 17,
+    "url": "https://ko.wikipedia.org/wiki/%EB%85%B8%EB%9D%BC_%EB%85%B8",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "신숙희",
+    "views": 1772,
+    "rank": 16,
+    "src_rank": 18,
+    "url": "https://ko.wikipedia.org/wiki/%EC%8B%A0%EC%88%99%ED%9D%AC",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "임진모",
+    "views": 1756,
+    "rank": 17,
+    "src_rank": 19,
+    "url": "https://ko.wikipedia.org/wiki/%EC%9E%84%EC%A7%84%EB%AA%A8",
+    "days": 1,
+    "prev_rank": null
+   },
+   {
+    "title": "한한령",
+    "views": 1752,
+    "rank": 18,
+    "src_rank": 20,
+    "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%ED%95%9C%EB%A0%B9",
+    "days": 2,
+    "prev_rank": 8
+   },
+   {
+    "title": "문무왕",
+    "views": 1475,
+    "rank": 19,
+    "src_rank": 21,
+    "url": "https://ko.wikipedia.org/wiki/%EB%AC%B8%EB%AC%B4%EC%99%95",
+    "days": 7,
+    "prev_rank": 5
+   }
+  ],
+  "ko_day": "2026-11-19",
+  "ko_same": false
+ },
+ "imgflip": {
+  "items": [
+   {
+    "rank": 1,
+    "id": "181913649",
+    "name": "Drake Hotline Bling",
+    "url": "https://i.imgflip.com/30b1gx.jpg",
+    "box_count": 2,
+    "captions": 1592000,
+    "prev_rank": 1,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 2,
+    "id": "87743020",
+    "name": "Two Buttons",
+    "url": "https://i.imgflip.com/1g8my4.jpg",
+    "box_count": 3,
+    "captions": 1235500,
+    "prev_rank": 2,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 3,
+    "id": "112126428",
+    "name": "Distracted Boyfriend",
+    "url": "https://i.imgflip.com/1ur9b0.jpg",
+    "box_count": 3,
+    "captions": 1208750,
+    "prev_rank": 3,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 4,
+    "id": "222403160",
+    "name": "Bernie I Am Once Again Asking For Your Support",
+    "url": "https://i.imgflip.com/3oevdk.jpg",
+    "box_count": 2,
+    "captions": 361750,
+    "prev_rank": 4,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 5,
+    "id": "217743513",
+    "name": "UNO Draw 25 Cards",
+    "url": "https://i.imgflip.com/3lmzyx.jpg",
+    "box_count": 2,
+    "captions": 673250,
+    "prev_rank": 5,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 6,
+    "id": "252600902",
+    "name": "Always Has Been",
+    "url": "https://i.imgflip.com/46e43q.png",
+    "box_count": 2,
+    "captions": 256500,
+    "prev_rank": 6,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 7,
+    "id": "124822590",
+    "name": "Left Exit 12 Off Ramp",
+    "url": "https://i.imgflip.com/22bdq6.jpg",
+    "box_count": 3,
+    "captions": 750250,
+    "prev_rank": 7,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 8,
+    "id": "322841258",
+    "name": "Anakin Padme 4 Panel",
+    "url": "https://i.imgflip.com/5c7lwq.png",
+    "box_count": 3,
+    "captions": 159500,
+    "prev_rank": 8,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 9,
+    "id": "131940431",
+    "name": "Gru's Plan",
+    "url": "https://i.imgflip.com/26jxvz.jpg",
+    "box_count": 4,
+    "captions": 392750,
+    "prev_rank": 9,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 10,
+    "id": "135256802",
+    "name": "Epic Handshake",
+    "url": "https://i.imgflip.com/28j0te.jpg",
+    "box_count": 3,
+    "captions": 274750,
+    "prev_rank": 10,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 11,
+    "id": "97984",
+    "name": "Disaster Girl",
+    "url": "https://i.imgflip.com/23ls.jpg",
+    "box_count": 2,
+    "captions": 449000,
+    "prev_rank": 11,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 12,
+    "id": "131087935",
+    "name": "Running Away Balloon",
+    "url": "https://i.imgflip.com/261o3j.jpg",
+    "box_count": 5,
+    "captions": 608500,
+    "prev_rank": 13,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 13,
+    "id": "4087833",
+    "name": "Waiting Skeleton",
+    "url": "https://i.imgflip.com/2fm6x.jpg",
+    "box_count": 2,
+    "captions": 501750,
+    "prev_rank": 12,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 14,
+    "id": "161865971",
+    "name": "Marked Safe From",
+    "url": "https://i.imgflip.com/2odckz.jpg",
+    "box_count": 2,
+    "captions": 238250,
+    "prev_rank": 15,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 15,
+    "id": "80707627",
+    "name": "Sad Pablo Escobar",
+    "url": "https://i.imgflip.com/1c1uej.jpg",
+    "box_count": 3,
+    "captions": 263500,
+    "prev_rank": 14,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 16,
+    "id": "91538330",
+    "name": "X, X Everywhere",
+    "url": "https://i.imgflip.com/1ihzfe.jpg",
+    "box_count": 2,
+    "captions": 416500,
+    "prev_rank": 16,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 17,
+    "id": "224015000",
+    "name": "Bernie Sanders Once Again Asking",
+    "url": "https://i.imgflip.com/3pdf2w.png",
+    "box_count": 2,
+    "captions": 73000,
+    "prev_rank": 17,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 18,
+    "id": "129242436",
+    "name": "Change My Mind",
+    "url": "https://i.imgflip.com/24y43o.jpg",
+    "box_count": 2,
+    "captions": 683250,
+    "prev_rank": 18,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 19,
+    "id": "309868304",
+    "name": "Trade Offer",
+    "url": "https://i.imgflip.com/54hjww.jpg",
+    "box_count": 3,
+    "captions": 135250,
+    "prev_rank": 19,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 20,
+    "id": "124055727",
+    "name": "Y'all Got Any More Of That",
+    "url": "https://i.imgflip.com/21uy0f.jpg",
+    "box_count": 2,
+    "captions": 237250,
+    "prev_rank": 20,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 21,
+    "id": "188390779",
+    "name": "Woman Yelling At Cat",
+    "url": "https://i.imgflip.com/345v97.jpg",
+    "box_count": 2,
+    "captions": 414750,
+    "prev_rank": 21,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 22,
+    "id": "438680",
+    "name": "Batman Slapping Robin",
+    "url": "https://i.imgflip.com/9ehk.jpg",
+    "box_count": 2,
+    "captions": 674500,
+    "prev_rank": 22,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 23,
+    "id": "102156234",
+    "name": "Mocking Spongebob",
+    "url": "https://i.imgflip.com/1otk96.jpg",
+    "box_count": 2,
+    "captions": 460000,
+    "prev_rank": 23,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 24,
+    "id": "101470",
+    "name": "Ancient Aliens",
+    "url": "https://i.imgflip.com/26am.jpg",
+    "box_count": 2,
+    "captions": 389500,
+    "prev_rank": 24,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 25,
+    "id": "67452763",
+    "name": "Squidward window",
+    "url": "https://i.imgflip.com/145qvv.jpg",
+    "box_count": 2,
+    "captions": 74000,
+    "prev_rank": 26,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 26,
+    "id": "61579",
+    "name": "One Does Not Simply",
+    "url": "https://i.imgflip.com/1bij.jpg",
+    "box_count": 2,
+    "captions": 497250,
+    "prev_rank": 25,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 27,
+    "id": "100777631",
+    "name": "Is This A Pigeon",
+    "url": "https://i.imgflip.com/1o00in.jpg",
+    "box_count": 3,
+    "captions": 245750,
+    "prev_rank": 27,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 28,
+    "id": "427308417",
+    "name": "0 days without (Lenny, Simpsons)",
+    "url": "https://i.imgflip.com/72epa9.png",
+    "box_count": 2,
+    "captions": 51750,
+    "prev_rank": 28,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 29,
+    "id": "28251713",
+    "name": "Oprah You Get A",
+    "url": "https://i.imgflip.com/gtj5t.jpg",
+    "box_count": 2,
+    "captions": 229750,
+    "prev_rank": 29,
+    "delta": 0,
+    "new": false
+   },
+   {
+    "rank": 30,
+    "id": "177682295",
+    "name": "You Guys are Getting Paid",
+    "url": "https://i.imgflip.com/2xscjb.png",
+    "box_count": 2,
+    "captions": 76500,
+    "prev_rank": 30,
+    "delta": 0,
+    "new": false
+   }
+  ],
+  "entered": [],
+  "exited": [],
+  "movers": [
+   {
+    "rank": 12,
+    "id": "131087935",
+    "name": "Running Away Balloon",
+    "url": "https://i.imgflip.com/261o3j.jpg",
+    "box_count": 5,
+    "captions": 608500,
+    "prev_rank": 13,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 13,
+    "id": "4087833",
+    "name": "Waiting Skeleton",
+    "url": "https://i.imgflip.com/2fm6x.jpg",
+    "box_count": 2,
+    "captions": 501750,
+    "prev_rank": 12,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 14,
+    "id": "161865971",
+    "name": "Marked Safe From",
+    "url": "https://i.imgflip.com/2odckz.jpg",
+    "box_count": 2,
+    "captions": 238250,
+    "prev_rank": 15,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 15,
+    "id": "80707627",
+    "name": "Sad Pablo Escobar",
+    "url": "https://i.imgflip.com/1c1uej.jpg",
+    "box_count": 3,
+    "captions": 263500,
+    "prev_rank": 14,
+    "delta": -1,
+    "new": false
+   },
+   {
+    "rank": 25,
+    "id": "67452763",
+    "name": "Squidward window",
+    "url": "https://i.imgflip.com/145qvv.jpg",
+    "box_count": 2,
+    "captions": 74000,
+    "prev_rank": 26,
+    "delta": 1,
+    "new": false
+   },
+   {
+    "rank": 26,
+    "id": "61579",
+    "name": "One Does Not Simply",
+    "url": "https://i.imgflip.com/1bij.jpg",
+    "box_count": 2,
+    "captions": 497250,
+    "prev_rank": 25,
+    "delta": -1,
+    "new": false
+   }
+  ],
+  "total": 100,
+  "compared": true
+ },
+ "cross": [],
+ "filtered": {
+  "trends_kr": 3,
+  "trends_us": 7,
+  "wiki_en": 0,
+  "wiki_ko": 3
+ },
+ "sources": [
+  {
+   "key": "kym_feed",
+   "label": "KYM 뉴스피드",
+   "status": "ok",
+   "count": 3,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_confirmed",
+   "label": "KYM 확정 엔트리",
+   "status": "ok",
+   "count": 0,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_submissions",
+   "label": "KYM 제출 엔트리",
+   "status": "ok",
+   "count": 7,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "kym_search",
+   "label": "KYM 검색 (tiktok·instagram·reels)",
+   "status": "ok",
+   "count": 0,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "youtube_kr",
+   "label": "YouTube 인기 KR",
+   "status": "ok",
+   "count": 50,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "youtube_us",
+   "label": "YouTube 인기 US",
+   "status": "ok",
+   "count": 48,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "reels",
+   "label": "릴스·틱톡 정리 영상",
+   "status": "ok",
+   "count": 78,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "trends_kr",
+   "label": "Google 트렌드 KR",
+   "status": "ok",
+   "count": 10,
+   "error": "",
+   "filtered": 3
+  },
+  {
+   "key": "trends_us",
+   "label": "Google 트렌드 US",
+   "status": "ok",
+   "count": 10,
+   "error": "",
+   "filtered": 7
+  },
+  {
+   "key": "wiki_en",
+   "label": "위키백과 en",
+   "status": "ok",
+   "count": 20,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "wiki_ko",
+   "label": "위키백과 ko",
+   "status": "ok",
+   "count": 20,
+   "error": "",
+   "filtered": 3
+  },
+  {
+   "key": "imgflip",
+   "label": "Imgflip 템플릿",
+   "status": "ok",
+   "count": 100,
+   "error": "",
+   "filtered": 0
+  },
+  {
+   "key": "threads",
+   "label": "Threads 키워드",
+   "status": "skip",
+   "count": 0,
+   "error": "THREADS_ACCESS_TOKEN 없음",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_tiktokcringe",
+   "label": "Reddit r/TikTokCringe",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_memes",
+   "label": "Reddit r/memes",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_popculturechat",
+   "label": "Reddit r/popculturechat",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_shorts",
+   "label": "Reddit r/shorts",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_gaming",
+   "label": "Reddit r/gaming",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "filtered": 0
+  },
+  {
+   "key": "reddit_indiegaming",
+   "label": "Reddit r/IndieGaming",
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found",
+   "filtered": 0
+  }
+ ],
+ "threads": {
+  "status": "skip",
+  "error": "THREADS_ACCESS_TOKEN 없음",
+  "token": {
+   "present": false,
+   "note": "Threads: 토큰 없음"
+  },
+  "note": "Threads: 토큰 없음",
+  "keywords": [],
+  "rising": [],
+  "total_posts": 0,
+  "n_ok": 0,
+  "failed": [],
+  "calls": 0,
+  "hours": 24,
+  "limit": 100,
+  "compared": false
+ },
+ "reels": {
+  "status": "ok",
+  "error": "",
+  "note": "",
+  "videos": [
+   {
+    "rank": 1,
+    "id": "qj-8bxL0pXs",
+    "title": "요즘 난리 난 댄스 챌린지 중.. 예상치 못한 반전이?! 😳😂",
+    "channel": "민서율 seoyool",
+    "views": 6475331,
+    "likes": 36685,
+    "duration": 11,
+    "shorts": true,
+    "published": "2026-11-11T14:32:54Z",
+    "url": "https://www.youtube.com/shorts/qj-8bxL0pXs",
+    "thumb": "https://i.ytimg.com/vi/qj-8bxL0pXs/mqdefault.jpg",
+    "query": "틱톡 챌린지 모음",
+    "queries": [
+     "틱톡 챌린지 모음",
+     "요즘 유행 릴스 챌린지"
+    ],
+    "new": false
+   },
+   {
+    "rank": 2,
+    "id": "6icgEJ38L6c",
+    "title": "요즘 난리 난 댄스 챌린지를 촬영하는 방법! 반전 뭔데ㅋㅋ 😂",
+    "channel": "민서율 seoyool",
+    "views": 5998079,
+    "likes": 20411,
+    "duration": 10,
+    "shorts": true,
+    "published": "2026-11-10T13:18:57Z",
+    "url": "https://www.youtube.com/shorts/6icgEJ38L6c",
+    "thumb": "https://i.ytimg.com/vi/6icgEJ38L6c/mqdefault.jpg",
+    "query": "틱톡 챌린지 모음",
+    "queries": [
+     "틱톡 챌린지 모음",
+     "요즘 유행 릴스 챌린지"
+    ],
+    "new": false
+   },
+   {
+    "rank": 3,
+    "id": "tinZxrIkMWU",
+    "title": "All Instagram Trending Playlist 🎧 | Aesthetic Songs 2026 🌸 | Viral Instagram Reels Songs ✨",
+    "channel": "RYTHQ 🎧",
+    "views": 788633,
+    "likes": 3138,
+    "duration": 1367,
+    "shorts": false,
+    "published": "2026-11-08T16:48:55Z",
+    "url": "https://www.youtube.com/watch?v=tinZxrIkMWU",
+    "thumb": "https://i.ytimg.com/vi/tinZxrIkMWU/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 4,
+    "id": "wuhzzRUNBhY",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #trending #shorts #explore",
+    "channel": "musicMastiZone",
+    "views": 710865,
+    "likes": 5555,
+    "duration": 35,
+    "shorts": true,
+    "published": "2026-11-12T07:41:02Z",
+    "url": "https://www.youtube.com/shorts/wuhzzRUNBhY",
+    "thumb": "https://i.ytimg.com/vi/wuhzzRUNBhY/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 5,
+    "id": "JUNh5io0G5I",
+    "title": "SI TE SABES EL TIKTOK BAILA 2026 💃 (Nuevos Trends)",
+    "channel": "KAREN MASHUP",
+    "views": 641236,
+    "likes": 3389,
+    "duration": 327,
+    "shorts": false,
+    "published": "2026-11-14T17:00:29Z",
+    "url": "https://www.youtube.com/watch?v=JUNh5io0G5I",
+    "thumb": "https://i.ytimg.com/vi/JUNh5io0G5I/mqdefault.jpg",
+    "query": "viral tiktok trends compilation",
+    "queries": [
+     "viral tiktok trends compilation"
+    ],
+    "new": true
+   },
+   {
+    "rank": 6,
+    "id": "e7rTwtNM0cM",
+    "title": "Instagram Trending Songs 2026 ❤️ | All Viral Instagram Reels Songs | |Aesthetic Songs 2026 🌸 |",
+    "channel": "Midnight Melody Studio",
+    "views": 520485,
+    "likes": 1948,
+    "duration": 1376,
+    "shorts": false,
+    "published": "2026-11-12T12:30:29Z",
+    "url": "https://www.youtube.com/watch?v=e7rTwtNM0cM",
+    "thumb": "https://i.ytimg.com/vi/e7rTwtNM0cM/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": true
+   },
+   {
+    "rank": 7,
+    "id": "kHgflX_Zzh4",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits@surajyug",
+    "channel": "Suraj Yugs",
+    "views": 469714,
+    "likes": null,
+    "duration": 43,
+    "shorts": true,
+    "published": "2026-11-13T02:00:17Z",
+    "url": "https://www.youtube.com/shorts/kHgflX_Zzh4",
+    "thumb": "https://i.ytimg.com/vi/kHgflX_Zzh4/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 8,
+    "id": "HlRKQERoR7Y",
+    "title": "Best 2026 Tiktok dance challenges- who did it best💃",
+    "channel": "ZADITS",
+    "views": 389783,
+    "likes": 1620,
+    "duration": 341,
+    "shorts": false,
+    "published": "2026-11-08T14:23:10Z",
+    "url": "https://www.youtube.com/watch?v=HlRKQERoR7Y",
+    "thumb": "https://i.ytimg.com/vi/HlRKQERoR7Y/mqdefault.jpg",
+    "query": "viral tiktok trends compilation",
+    "queries": [
+     "viral tiktok trends compilation"
+    ],
+    "new": false
+   },
+   {
+    "rank": 9,
+    "id": "IwD13X_lDDc",
+    "title": "Top 5 Viral Songs of 2026 🔥🎶 | YouTube & Instagram Trending Hits #shorts #trending #explore",
+    "channel": "musicMastiZone",
+    "views": 340796,
+    "likes": null,
+    "duration": 36,
+    "shorts": true,
+    "published": "2026-11-10T07:37:15Z",
+    "url": "https://www.youtube.com/shorts/IwD13X_lDDc",
+    "thumb": "https://i.ytimg.com/vi/IwD13X_lDDc/mqdefault.jpg",
+    "query": "trending sounds instagram reels this week",
+    "queries": [
+     "trending sounds instagram reels this week"
+    ],
+    "new": false
+   },
+   {
+    "rank": 10,
+    "id": "E-3dGHFO_8E",
+    "title": "TOP 10 TRENDING SONGS FOR INSTAGRAM &XYOUTUBE #youtubeshorts #viral #trendingshorts",
+    "channel": "AGARWAL MUSIC ",
+    "views": 256367,
+    "likes": 5092,
+    "duration": 62,
+    "shorts": false,
+    "published": "2026-11-13T04:59:55Z",
+    "url": "https://www.youtube.com/watch?v=E-3dGHFO_8E",
+    "thumb": "https://i.ytimg.com/vi/E-3dGHFO_8E/mqdefault.jpg",
+    "query": "reels trends this week",
+    "queries": [
+     "reels trends this week"
+    ],
+    "new": false
+   }
+  ],
+  "items": [
+   {
+    "key": "bollywood love songs",
+    "term": "bollywood love songs",
+    "kind": "phrase",
+    "n": 8,
+    "n_videos": 9,
+    "views": 2750071,
+    "videos": [
+     "tinZxrIkMWU",
+     "wuhzzRUNBhY",
+     "e7rTwtNM0cM"
+    ],
+    "prev": 8,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "most popular bollywood songs",
+    "term": "Most Popular Bollywood Songs",
+    "kind": "list",
+    "n": 5,
+    "n_videos": 6,
+    "views": 1921108,
+    "videos": [
+     "wuhzzRUNBhY",
+     "e7rTwtNM0cM",
+     "IwD13X_lDDc"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.25
+   },
+   {
+    "key": "slowed reverb songs",
+    "term": "Slowed + Reverb Songs",
+    "kind": "list",
+    "n": 4,
+    "n_videos": 4,
+    "views": 866495,
+    "videos": [
+     "tinZxrIkMWU",
+     "0bBqBWYGgVA",
+     "HX946OxJNRs"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "punjabi trending songs",
+    "term": "Trending Punjabi Songs",
+    "kind": "list",
+    "n": 4,
+    "n_videos": 4,
+    "views": 866495,
+    "videos": [
+     "tinZxrIkMWU",
+     "0bBqBWYGgVA",
+     "HX946OxJNRs"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "hindi top songs",
+    "term": "hindi top songs",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 1883576,
+    "videos": [
+     "wuhzzRUNBhY",
+     "e7rTwtNM0cM",
+     "IwD13X_lDDc"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.33
+   },
+   {
+    "key": "desi trending songs",
+    "term": "desi trending songs",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 1832805,
+    "videos": [
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4",
+     "IwD13X_lDDc"
+    ],
+    "prev": 5,
+    "new": false,
+    "lift": 0.8
+   },
+   {
+    "key": "india viral music",
+    "term": "india viral music",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 1832805,
+    "videos": [
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4",
+     "IwD13X_lDDc"
+    ],
+    "prev": 5,
+    "new": false,
+    "lift": 0.8
+   },
+   {
+    "key": "indian viral songs",
+    "term": "indian viral songs",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 1832805,
+    "videos": [
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4",
+     "IwD13X_lDDc"
+    ],
+    "prev": 5,
+    "new": false,
+    "lift": 0.8
+   },
+   {
+    "key": "used songs",
+    "term": "used songs",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 1832805,
+    "videos": [
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4",
+     "IwD13X_lDDc"
+    ],
+    "prev": 5,
+    "new": false,
+    "lift": 0.8
+   },
+   {
+    "key": "punjabi top songs",
+    "term": "punjabi top songs",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 1400623,
+    "videos": [
+     "wuhzzRUNBhY",
+     "IwD13X_lDDc",
+     "E-3dGHFO_8E"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "english top songs",
+    "term": "english top songs",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 5,
+    "views": 1389208,
+    "videos": [
+     "wuhzzRUNBhY",
+     "IwD13X_lDDc",
+     "E-3dGHFO_8E"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "favourite song",
+    "term": "favourite song",
+    "kind": "phrase",
+    "n": 4,
+    "n_videos": 4,
+    "views": 866495,
+    "videos": [
+     "tinZxrIkMWU",
+     "0bBqBWYGgVA",
+     "HX946OxJNRs"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "reelsindia",
+    "term": "#ReelsIndia",
+    "kind": "hashtag",
+    "n": 4,
+    "n_videos": 5,
+    "views": 1832805,
+    "videos": [
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4",
+     "IwD13X_lDDc"
+    ],
+    "prev": 5,
+    "new": false,
+    "lift": 0.8
+   },
+   {
+    "key": "india sisa song",
+    "term": "india sisa song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1576438,
+    "videos": [
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4",
+     "IwD13X_lDDc"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 0.75
+   },
+   {
+    "key": "jaye sajna song",
+    "term": "jaye sajna song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1576438,
+    "videos": [
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4",
+     "IwD13X_lDDc"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 0.75
+   },
+   {
+    "key": "kamli song",
+    "term": "kamli song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1576438,
+    "videos": [
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4",
+     "IwD13X_lDDc"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 0.75
+   },
+   {
+    "key": "se manali song",
+    "term": "se manali song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1576438,
+    "videos": [
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4",
+     "IwD13X_lDDc"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 0.75
+   },
+   {
+    "key": "queries top songs",
+    "term": "Queries top songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1363091,
+    "videos": [
+     "wuhzzRUNBhY",
+     "IwD13X_lDDc",
+     "E-3dGHFO_8E"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "sad song",
+    "term": "sad song",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1363091,
+    "videos": [
+     "wuhzzRUNBhY",
+     "IwD13X_lDDc",
+     "E-3dGHFO_8E"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "aesthetic songs",
+    "term": "Aesthetic Songs",
+    "kind": "phrase",
+    "n": 3,
+    "n_videos": 3,
+    "views": 1335235,
+    "videos": [
+     "tinZxrIkMWU",
+     "e7rTwtNM0cM",
+     "t9BHe9tjq5I"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.5
+   },
+   {
+    "key": "delhisemanali",
+    "term": "#DelhiSeManali",
+    "kind": "hashtag",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1576438,
+    "videos": [
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4",
+     "IwD13X_lDDc"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 0.75
+   },
+   {
+    "key": "kamlisong",
+    "term": "#KamliSong",
+    "kind": "hashtag",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1576438,
+    "videos": [
+     "wuhzzRUNBhY",
+     "kHgflX_Zzh4",
+     "IwD13X_lDDc"
+    ],
+    "prev": 4,
+    "new": false,
+    "lift": 0.75
+   },
+   {
+    "key": "ytshorts",
+    "term": "#ytshorts",
+    "kind": "hashtag",
+    "n": 3,
+    "n_videos": 4,
+    "views": 1363091,
+    "videos": [
+     "wuhzzRUNBhY",
+     "IwD13X_lDDc",
+     "E-3dGHFO_8E"
+    ],
+    "prev": 3,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "global music rankings",
+    "term": "Global Music Rankings",
+    "kind": "list",
+    "n": 2,
+    "n_videos": 2,
+    "views": 63649,
+    "videos": [
+     "0bBqBWYGgVA",
+     "t9BHe9tjq5I"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "난리 난 댄스",
+    "term": "난리 난 댄스",
+    "kind": "phrase",
+    "n": 2,
+    "n_videos": 3,
+    "views": 12476874,
+    "videos": [
+     "qj-8bxL0pXs",
+     "6icgEJ38L6c",
+     "3ZYK1bMPUBU"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "ajit singh song",
+    "term": "ajit singh song",
+    "kind": "phrase",
+    "n": 2,
+    "n_videos": 3,
+    "views": 1106724,
+    "videos": [
+     "wuhzzRUNBhY",
+     "IwD13X_lDDc",
+     "Ip8BsnL4O9U"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "arijit singh song",
+    "term": "arijit singh song",
+    "kind": "phrase",
+    "n": 2,
+    "n_videos": 3,
+    "views": 1106724,
+    "videos": [
+     "wuhzzRUNBhY",
+     "IwD13X_lDDc",
+     "Ip8BsnL4O9U"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "arijit singh songs",
+    "term": "arijit singh songs",
+    "kind": "phrase",
+    "n": 2,
+    "n_videos": 3,
+    "views": 1106724,
+    "videos": [
+     "wuhzzRUNBhY",
+     "IwD13X_lDDc",
+     "Ip8BsnL4O9U"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "bhojpuri new song",
+    "term": "bhojpuri new song",
+    "kind": "phrase",
+    "n": 2,
+    "n_videos": 3,
+    "views": 1106724,
+    "videos": [
+     "wuhzzRUNBhY",
+     "IwD13X_lDDc",
+     "Ip8BsnL4O9U"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.0
+   },
+   {
+    "key": "bollywood bollywood song",
+    "term": "bollywood bollywood song",
+    "kind": "phrase",
+    "n": 2,
+    "n_videos": 3,
+    "views": 1106724,
+    "videos": [
+     "wuhzzRUNBhY",
+     "IwD13X_lDDc",
+     "Ip8BsnL4O9U"
+    ],
+    "prev": 2,
+    "new": false,
+    "lift": 1.0
+   }
+  ],
+  "n_videos": 35,
+  "n_items": 30,
+  "n_found": 78,
+  "n_roundup": 38,
+  "dropped": {
+   "제목에 트렌드·사운드·챌린지 없음": 24,
+   "제목 해시태그 스팸": 10,
+   "리믹스·매시업": 6
+  },
+  "queries": [
+   {
+    "q": "릴스 트렌드",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "틱톡 챌린지 모음",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "요즘 유행 릴스 챌린지",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "릴스 음원 추천",
+    "region": "KR",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "reels trends this week",
+    "region": "US",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "trending sounds instagram reels this week",
+    "region": "US",
+    "duration": "any",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "tiktok trends this week explained",
+    "region": "US",
+    "duration": "medium",
+    "n": 10,
+    "error": ""
+   },
+   {
+    "q": "viral tiktok trends compilation",
+    "region": "US",
+    "duration": "medium",
+    "n": 10,
+    "error": ""
+   }
+  ],
+  "n_queries_ok": 8,
+  "calls": {
+   "search": 8,
+   "videos": 2,
+   "units": 802
+  },
+  "days": 14,
+  "order": "relevance",
+  "published_after": "2026-11-07T02:16:23Z",
+  "compared": true
+ }
+}
