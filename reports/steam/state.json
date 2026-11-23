@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 28,
-  "date": "2026-11-21",
+  "n": 29,
+  "date": "2026-11-23",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 28,
-  "date": "2026-11-21",
+  "n": 29,
+  "date": "2026-11-23",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 28,
-  "date": "2026-11-21",
+  "n": 29,
+  "date": "2026-11-23",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 28,
-  "date": "2026-11-21",
+  "n": 29,
+  "date": "2026-11-23",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 28,
-  "date": "2026-11-21",
+  "n": 29,
+  "date": "2026-11-23",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 28,
-  "date": "2026-11-21",
+  "n": 29,
+  "date": "2026-11-23",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -56,8 +56,8 @@
  "tag:Management": {
   "name": "Management",
   "n": 1,
-  "date": "2026-11-03",
-  "since": "2026-11-03"
+  "date": "2026-11-23",
+  "since": "2026-11-23"
  },
  "tag:Action Roguelike": {
   "name": "Action Roguelike",
@@ -67,20 +67,20 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 10,
-  "date": "2026-11-21",
+  "n": 11,
+  "date": "2026-11-23",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "Warhammer 40,000: Boltgun 2",
+  "name": "Escape From Duckov",
   "n": 1,
-  "date": "2026-11-21",
-  "since": "2026-11-21"
+  "date": "2026-11-23",
+  "since": "2026-11-23"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 9,
-  "date": "2026-11-21",
+  "n": 10,
+  "date": "2026-11-23",
   "since": "2026-11-12"
  },
  "tag:Building": {
@@ -271,8 +271,8 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 10,
-  "date": "2026-11-21",
+  "n": 11,
+  "date": "2026-11-23",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
@@ -298,5 +298,17 @@
   "n": 1,
   "date": "2026-11-15",
   "since": "2026-11-15"
+ },
+ "tag:Rogue-like": {
+  "name": "Rogue-like",
+  "n": 1,
+  "date": "2026-11-23",
+  "since": "2026-11-23"
+ },
+ "tag:Collectathon": {
+  "name": "Collectathon",
+  "n": 1,
+  "date": "2026-11-23",
+  "since": "2026-11-23"
  }
 }
