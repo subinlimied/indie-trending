@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 29,
-  "date": "2026-11-23",
+  "n": 30,
+  "date": "2026-11-24",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 29,
-  "date": "2026-11-23",
+  "n": 30,
+  "date": "2026-11-24",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 29,
-  "date": "2026-11-23",
+  "n": 30,
+  "date": "2026-11-24",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 29,
-  "date": "2026-11-23",
+  "n": 30,
+  "date": "2026-11-24",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 29,
-  "date": "2026-11-23",
+  "n": 30,
+  "date": "2026-11-24",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 29,
-  "date": "2026-11-23",
+  "n": 30,
+  "date": "2026-11-24",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -55,8 +55,8 @@
  },
  "tag:Management": {
   "name": "Management",
-  "n": 1,
-  "date": "2026-11-23",
+  "n": 2,
+  "date": "2026-11-24",
   "since": "2026-11-23"
  },
  "tag:Action Roguelike": {
@@ -67,20 +67,20 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 11,
-  "date": "2026-11-23",
+  "n": 12,
+  "date": "2026-11-24",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "Escape From Duckov",
+  "name": "Farm & Feast",
   "n": 1,
-  "date": "2026-11-23",
-  "since": "2026-11-23"
+  "date": "2026-11-24",
+  "since": "2026-11-24"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 10,
-  "date": "2026-11-23",
+  "n": 11,
+  "date": "2026-11-24",
   "since": "2026-11-12"
  },
  "tag:Building": {
@@ -97,9 +97,9 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 2,
-  "date": "2026-11-21",
-  "since": "2026-11-19"
+  "n": 1,
+  "date": "2026-11-24",
+  "since": "2026-11-24"
  },
  "tag:Online Co-Op": {
   "name": "Online Co-Op",
@@ -271,8 +271,8 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 11,
-  "date": "2026-11-23",
+  "n": 12,
+  "date": "2026-11-24",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
@@ -307,8 +307,8 @@
  },
  "tag:Collectathon": {
   "name": "Collectathon",
-  "n": 1,
-  "date": "2026-11-23",
+  "n": 2,
+  "date": "2026-11-24",
   "since": "2026-11-23"
  }
 }
