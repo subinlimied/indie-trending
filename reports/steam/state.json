@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 30,
-  "date": "2026-11-24",
+  "n": 31,
+  "date": "2026-11-25",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 30,
-  "date": "2026-11-24",
+  "n": 31,
+  "date": "2026-11-25",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 30,
-  "date": "2026-11-24",
+  "n": 31,
+  "date": "2026-11-25",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 30,
-  "date": "2026-11-24",
+  "n": 31,
+  "date": "2026-11-25",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 30,
-  "date": "2026-11-24",
+  "n": 31,
+  "date": "2026-11-25",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 30,
-  "date": "2026-11-24",
+  "n": 31,
+  "date": "2026-11-25",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -55,8 +55,8 @@
  },
  "tag:Management": {
   "name": "Management",
-  "n": 2,
-  "date": "2026-11-24",
+  "n": 3,
+  "date": "2026-11-25",
   "since": "2026-11-23"
  },
  "tag:Action Roguelike": {
@@ -67,20 +67,20 @@
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 12,
-  "date": "2026-11-24",
+  "n": 13,
+  "date": "2026-11-25",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "Farm & Feast",
+  "name": "Round and Round Inc.",
   "n": 1,
-  "date": "2026-11-24",
-  "since": "2026-11-24"
+  "date": "2026-11-25",
+  "since": "2026-11-25"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 11,
-  "date": "2026-11-24",
+  "n": 12,
+  "date": "2026-11-25",
   "since": "2026-11-12"
  },
  "tag:Building": {
@@ -97,15 +97,15 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 1,
-  "date": "2026-11-24",
+  "n": 2,
+  "date": "2026-11-25",
   "since": "2026-11-24"
  },
  "tag:Online Co-Op": {
   "name": "Online Co-Op",
   "n": 1,
-  "date": "2026-11-21",
-  "since": "2026-11-21"
+  "date": "2026-11-25",
+  "since": "2026-11-25"
  },
  "tag:PvP": {
   "name": "PvP",
@@ -271,8 +271,8 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 12,
-  "date": "2026-11-24",
+  "n": 13,
+  "date": "2026-11-25",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
