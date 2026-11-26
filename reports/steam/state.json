@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 31,
-  "date": "2026-11-25",
+  "n": 32,
+  "date": "2026-11-26",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 31,
-  "date": "2026-11-25",
+  "n": 32,
+  "date": "2026-11-26",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 31,
-  "date": "2026-11-25",
+  "n": 32,
+  "date": "2026-11-26",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 31,
-  "date": "2026-11-25",
+  "n": 32,
+  "date": "2026-11-26",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 31,
-  "date": "2026-11-25",
+  "n": 32,
+  "date": "2026-11-26",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 31,
-  "date": "2026-11-25",
+  "n": 32,
+  "date": "2026-11-26",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -62,25 +62,25 @@
  "tag:Action Roguelike": {
   "name": "Action Roguelike",
   "n": 1,
-  "date": "2026-11-18",
-  "since": "2026-11-18"
+  "date": "2026-11-26",
+  "since": "2026-11-26"
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 13,
-  "date": "2026-11-25",
+  "n": 14,
+  "date": "2026-11-26",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "Round and Round Inc.",
+  "name": "Worst Class Ever",
   "n": 1,
-  "date": "2026-11-25",
-  "since": "2026-11-25"
+  "date": "2026-11-26",
+  "since": "2026-11-26"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 12,
-  "date": "2026-11-25",
+  "n": 13,
+  "date": "2026-11-26",
   "since": "2026-11-12"
  },
  "tag:Building": {
@@ -97,14 +97,14 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 2,
-  "date": "2026-11-25",
+  "n": 3,
+  "date": "2026-11-26",
   "since": "2026-11-24"
  },
  "tag:Online Co-Op": {
   "name": "Online Co-Op",
-  "n": 1,
-  "date": "2026-11-25",
+  "n": 2,
+  "date": "2026-11-26",
   "since": "2026-11-25"
  },
  "tag:PvP": {
@@ -271,8 +271,8 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 13,
-  "date": "2026-11-25",
+  "n": 14,
+  "date": "2026-11-26",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {

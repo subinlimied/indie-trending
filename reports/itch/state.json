@@ -1,8 +1,8 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 29,
-  "date": "2026-11-25",
+  "n": 30,
+  "date": "2026-11-26",
   "since": "2026-10-23"
  },
  "tags:Idle": {
@@ -20,8 +20,8 @@
  "tags:No generative AI was used": {
   "name": "No generative AI was used",
   "n": 1,
-  "date": "2026-11-19",
-  "since": "2026-11-19"
+  "date": "2026-11-26",
+  "since": "2026-11-26"
  },
  "tags:Clicker": {
   "name": "Clicker",
@@ -31,8 +31,8 @@
  },
  "tags:Atmospheric": {
   "name": "Atmospheric",
-  "n": 1,
-  "date": "2026-11-25",
+  "n": 2,
+  "date": "2026-11-26",
   "since": "2026-11-25"
  },
  "tags:Cozy": {
@@ -49,26 +49,26 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 32,
-  "date": "2026-11-25",
+  "n": 33,
+  "date": "2026-11-26",
   "since": "2026-10-20"
  },
  "genre:Action": {
   "name": "Action",
-  "n": 14,
-  "date": "2026-11-25",
+  "n": 15,
+  "date": "2026-11-26",
   "since": "2026-11-09"
  },
  "genre:Adventure": {
   "name": "Adventure",
-  "n": 2,
-  "date": "2026-11-25",
+  "n": 3,
+  "date": "2026-11-26",
   "since": "2026-11-24"
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 32,
-  "date": "2026-11-25",
+  "n": 33,
+  "date": "2026-11-26",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
@@ -79,32 +79,32 @@
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 2,
-  "date": "2026-11-25",
+  "n": 3,
+  "date": "2026-11-26",
   "since": "2026-11-24"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 27,
-  "date": "2026-11-25",
+  "n": 28,
+  "date": "2026-11-26",
   "since": "2026-10-25"
  },
  "made_with:Unreal Engine": {
   "name": "Unreal Engine",
-  "n": 8,
-  "date": "2026-11-25",
+  "n": 9,
+  "date": "2026-11-26",
   "since": "2026-11-16"
  },
  "pick": {
-  "name": "Trauma lab",
+  "name": "Shred to Read",
   "n": 1,
-  "date": "2026-11-25",
-  "since": "2026-11-25"
+  "date": "2026-11-26",
+  "since": "2026-11-26"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 28,
-  "date": "2026-11-25",
+  "n": 29,
+  "date": "2026-11-26",
   "since": "2026-10-24"
  },
  "tags:Card Game": {
@@ -133,20 +133,20 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 31,
-  "date": "2026-11-25",
+  "n": 32,
+  "date": "2026-11-26",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 30,
-  "date": "2026-11-25",
+  "n": 31,
+  "date": "2026-11-26",
   "since": "2026-10-22"
  },
  "tags:3D": {
   "name": "3D",
-  "n": 12,
-  "date": "2026-11-25",
+  "n": 13,
+  "date": "2026-11-26",
   "since": "2026-11-12"
  },
  "tags:First-Person": {
@@ -176,8 +176,8 @@
  "tags:Indie": {
   "name": "Indie",
   "n": 1,
-  "date": "2026-11-18",
-  "since": "2026-11-18"
+  "date": "2026-11-26",
+  "since": "2026-11-26"
  },
  "tags:Retro": {
   "name": "Retro",
@@ -241,8 +241,8 @@
  },
  "genre:Shooter": {
   "name": "Shooter",
-  "n": 1,
-  "date": "2026-11-25",
+  "n": 2,
+  "date": "2026-11-26",
   "since": "2026-11-25"
  },
  "tags:Comedy": {
@@ -259,8 +259,8 @@
  },
  "made_with:GameMaker": {
   "name": "GameMaker",
-  "n": 4,
-  "date": "2026-11-25",
+  "n": 5,
+  "date": "2026-11-26",
   "since": "2026-11-21"
  },
  "genre:Puzzle": {
@@ -316,5 +316,11 @@
   "n": 1,
   "date": "2026-11-17",
   "since": "2026-11-17"
+ },
+ "tags:Physics": {
+  "name": "Physics",
+  "n": 1,
+  "date": "2026-11-26",
+  "since": "2026-11-26"
  }
 }
