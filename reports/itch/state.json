@@ -1,8 +1,8 @@
 {
  "tags:2D": {
   "name": "2D",
-  "n": 30,
-  "date": "2026-11-26",
+  "n": 31,
+  "date": "2026-11-27",
   "since": "2026-10-23"
  },
  "tags:Idle": {
@@ -49,14 +49,14 @@
  },
  "genre:Simulation": {
   "name": "Simulation",
-  "n": 33,
-  "date": "2026-11-26",
+  "n": 34,
+  "date": "2026-11-27",
   "since": "2026-10-20"
  },
  "genre:Action": {
   "name": "Action",
-  "n": 15,
-  "date": "2026-11-26",
+  "n": 16,
+  "date": "2026-11-27",
   "since": "2026-11-09"
  },
  "genre:Adventure": {
@@ -67,8 +67,8 @@
  },
  "genre:Visual Novel": {
   "name": "Visual Novel",
-  "n": 33,
-  "date": "2026-11-26",
+  "n": 34,
+  "date": "2026-11-27",
   "since": "2026-10-20"
  },
  "genre:Strategy": {
@@ -79,14 +79,14 @@
  },
  "made_with:Godot": {
   "name": "Godot",
-  "n": 3,
-  "date": "2026-11-26",
+  "n": 4,
+  "date": "2026-11-27",
   "since": "2026-11-24"
  },
  "made_with:Unity": {
   "name": "Unity",
-  "n": 28,
-  "date": "2026-11-26",
+  "n": 29,
+  "date": "2026-11-27",
   "since": "2026-10-25"
  },
  "made_with:Unreal Engine": {
@@ -96,15 +96,15 @@
   "since": "2026-11-16"
  },
  "pick": {
-  "name": "Shred to Read",
+  "name": "Suzy Says!",
   "n": 1,
-  "date": "2026-11-26",
-  "since": "2026-11-26"
+  "date": "2026-11-27",
+  "since": "2026-11-27"
  },
  "tags:Dating Sim": {
   "name": "Dating Sim",
-  "n": 29,
-  "date": "2026-11-26",
+  "n": 30,
+  "date": "2026-11-27",
   "since": "2026-10-24"
  },
  "tags:Card Game": {
@@ -115,9 +115,9 @@
  },
  "tags:Creepy": {
   "name": "Creepy",
-  "n": 6,
-  "date": "2026-11-25",
-  "since": "2026-11-18"
+  "n": 1,
+  "date": "2026-11-27",
+  "since": "2026-11-27"
  },
  "genre:Platformer": {
   "name": "Platformer",
@@ -133,20 +133,20 @@
  },
  "made_with:Ren'Py": {
   "name": "Ren'Py",
-  "n": 32,
-  "date": "2026-11-26",
+  "n": 33,
+  "date": "2026-11-27",
   "since": "2026-10-21"
  },
  "tags:Horror": {
   "name": "Horror",
-  "n": 31,
-  "date": "2026-11-26",
+  "n": 32,
+  "date": "2026-11-27",
   "since": "2026-10-22"
  },
  "tags:3D": {
   "name": "3D",
-  "n": 13,
-  "date": "2026-11-26",
+  "n": 14,
+  "date": "2026-11-27",
   "since": "2026-11-12"
  },
  "tags:First-Person": {
@@ -158,8 +158,8 @@
  "tags:Cute": {
   "name": "Cute",
   "n": 1,
-  "date": "2026-11-24",
-  "since": "2026-11-24"
+  "date": "2026-11-27",
+  "since": "2026-11-27"
  },
  "made_with:Construct": {
   "name": "Construct",
@@ -182,8 +182,8 @@
  "tags:Retro": {
   "name": "Retro",
   "n": 1,
-  "date": "2026-11-23",
-  "since": "2026-11-23"
+  "date": "2026-11-27",
+  "since": "2026-11-27"
  },
  "tags:Psychological Horror": {
   "name": "Psychological Horror",
@@ -193,9 +193,9 @@
  },
  "genre:Role Playing": {
   "name": "Role Playing",
-  "n": 2,
-  "date": "2026-11-24",
-  "since": "2026-11-23"
+  "n": 1,
+  "date": "2026-11-27",
+  "since": "2026-11-27"
  },
  "made_with:PICO-8": {
   "name": "PICO-8",
@@ -205,9 +205,9 @@
  },
  "made_with:RPG Maker": {
   "name": "RPG Maker",
-  "n": 2,
-  "date": "2026-11-23",
-  "since": "2026-11-21"
+  "n": 1,
+  "date": "2026-11-27",
+  "since": "2026-11-27"
  },
  "tags:Dark": {
   "name": "Dark",
@@ -241,8 +241,8 @@
  },
  "genre:Shooter": {
   "name": "Shooter",
-  "n": 2,
-  "date": "2026-11-26",
+  "n": 3,
+  "date": "2026-11-27",
   "since": "2026-11-25"
  },
  "tags:Comedy": {
@@ -259,8 +259,8 @@
  },
  "made_with:GameMaker": {
   "name": "GameMaker",
-  "n": 5,
-  "date": "2026-11-26",
+  "n": 6,
+  "date": "2026-11-27",
   "since": "2026-11-21"
  },
  "genre:Puzzle": {
@@ -302,8 +302,8 @@
  "tags:Arcade": {
   "name": "Arcade",
   "n": 1,
-  "date": "2026-11-12",
-  "since": "2026-11-12"
+  "date": "2026-11-27",
+  "since": "2026-11-27"
  },
  "made_with:Defold": {
   "name": "Defold",

@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 32,
-  "date": "2026-11-26",
+  "n": 33,
+  "date": "2026-11-27",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 32,
-  "date": "2026-11-26",
+  "n": 33,
+  "date": "2026-11-27",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 32,
-  "date": "2026-11-26",
+  "n": 33,
+  "date": "2026-11-27",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 32,
-  "date": "2026-11-26",
+  "n": 33,
+  "date": "2026-11-27",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 32,
-  "date": "2026-11-26",
+  "n": 33,
+  "date": "2026-11-27",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 32,
-  "date": "2026-11-26",
+  "n": 33,
+  "date": "2026-11-27",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -61,26 +61,26 @@
  },
  "tag:Action Roguelike": {
   "name": "Action Roguelike",
-  "n": 1,
-  "date": "2026-11-26",
+  "n": 2,
+  "date": "2026-11-27",
   "since": "2026-11-26"
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 14,
-  "date": "2026-11-26",
+  "n": 15,
+  "date": "2026-11-27",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "Worst Class Ever",
+  "name": "IdleOn - The Incremental MMO",
   "n": 1,
-  "date": "2026-11-26",
-  "since": "2026-11-26"
+  "date": "2026-11-27",
+  "since": "2026-11-27"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 13,
-  "date": "2026-11-26",
+  "n": 14,
+  "date": "2026-11-27",
   "since": "2026-11-12"
  },
  "tag:Building": {
@@ -271,15 +271,15 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 14,
-  "date": "2026-11-26",
+  "n": 15,
+  "date": "2026-11-27",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
   "name": "Relaxing",
   "n": 1,
-  "date": "2026-11-21",
-  "since": "2026-11-21"
+  "date": "2026-11-27",
+  "since": "2026-11-27"
  },
  "tag:Physics": {
   "name": "Physics",
@@ -310,5 +310,11 @@
   "n": 2,
   "date": "2026-11-24",
   "since": "2026-11-23"
+ },
+ "tag:Bullet Heaven": {
+  "name": "Bullet Heaven",
+  "n": 1,
+  "date": "2026-11-27",
+  "since": "2026-11-27"
  }
 }
