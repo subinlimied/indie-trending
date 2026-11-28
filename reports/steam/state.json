@@ -1,38 +1,38 @@
 {
  "tag:Casual": {
   "name": "Casual",
-  "n": 33,
-  "date": "2026-11-27",
+  "n": 34,
+  "date": "2026-11-28",
   "since": "2026-10-21"
  },
  "tag:Simulation": {
   "name": "Simulation",
-  "n": 33,
-  "date": "2026-11-27",
+  "n": 34,
+  "date": "2026-11-28",
   "since": "2026-10-21"
  },
  "tag:Action": {
   "name": "Action",
-  "n": 33,
-  "date": "2026-11-27",
+  "n": 34,
+  "date": "2026-11-28",
   "since": "2026-10-21"
  },
  "tag:Strategy": {
   "name": "Strategy",
-  "n": 33,
-  "date": "2026-11-27",
+  "n": 34,
+  "date": "2026-11-28",
   "since": "2026-10-21"
  },
  "tag:Adventure": {
   "name": "Adventure",
-  "n": 33,
-  "date": "2026-11-27",
+  "n": 34,
+  "date": "2026-11-28",
   "since": "2026-10-21"
  },
  "tag:Early Access": {
   "name": "Early Access",
-  "n": 33,
-  "date": "2026-11-27",
+  "n": 34,
+  "date": "2026-11-28",
   "since": "2026-10-21"
  },
  "tag:Racing": {
@@ -61,26 +61,26 @@
  },
  "tag:Action Roguelike": {
   "name": "Action Roguelike",
-  "n": 2,
-  "date": "2026-11-27",
+  "n": 3,
+  "date": "2026-11-28",
   "since": "2026-11-26"
  },
  "tag:Multiplayer": {
   "name": "Multiplayer",
-  "n": 15,
-  "date": "2026-11-27",
+  "n": 16,
+  "date": "2026-11-28",
   "since": "2026-11-11"
  },
  "pick": {
-  "name": "IdleOn - The Incremental MMO",
+  "name": "Reshine",
   "n": 1,
-  "date": "2026-11-27",
-  "since": "2026-11-27"
+  "date": "2026-11-28",
+  "since": "2026-11-28"
  },
  "tag:RPG": {
   "name": "RPG",
-  "n": 14,
-  "date": "2026-11-27",
+  "n": 15,
+  "date": "2026-11-28",
   "since": "2026-11-12"
  },
  "tag:Building": {
@@ -97,9 +97,9 @@
  },
  "tag:Co-op": {
   "name": "Co-op",
-  "n": 3,
-  "date": "2026-11-26",
-  "since": "2026-11-24"
+  "n": 1,
+  "date": "2026-11-28",
+  "since": "2026-11-28"
  },
  "tag:Online Co-Op": {
   "name": "Online Co-Op",
@@ -271,8 +271,8 @@
  },
  "tag:Incremental": {
   "name": "Incremental",
-  "n": 15,
-  "date": "2026-11-27",
+  "n": 16,
+  "date": "2026-11-28",
   "since": "2026-11-11"
  },
  "tag:Relaxing": {
@@ -316,5 +316,11 @@
   "n": 1,
   "date": "2026-11-27",
   "since": "2026-11-27"
+ },
+ "tag:Exploration": {
+  "name": "Exploration",
+  "n": 1,
+  "date": "2026-11-28",
+  "since": "2026-11-28"
  }
 }
